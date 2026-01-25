@@ -1,0 +1,330 @@
+{
+  "Comment": "SheetMusic Book Splitter Pipeline - Orchestrates PDF processing workflow",
+  "StartAt": "CheckAlreadyProcessed",
+  "States": {
+    "CheckAlreadyProcessed": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${CheckProcessedLambdaArn}",
+        "Payload": {
+          "book_id.$": "$.book_id"
+        }
+      },
+      "ResultPath": "$.check_result",
+      "Next": "IsAlreadyProcessed",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 3,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "IsAlreadyProcessed": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.check_result.Payload.already_processed",
+          "BooleanEquals": true,
+          "Next": "SkipProcessing"
+        }
+      ],
+      "Default": "RecordProcessingStart"
+    },
+    "RecordProcessingStart": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${RecordStartLambdaArn}",
+        "Payload": {
+          "book_id.$": "$.book_id",
+          "source_pdf_uri.$": "$.source_pdf_uri",
+          "artist.$": "$.artist",
+          "book_name.$": "$.book_name",
+          "execution_arn.$": "$$.Execution.Id"
+        }
+      },
+      "ResultPath": "$.start_result",
+      "Next": "TOCDiscovery"
+    },
+    "TOCDiscovery": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "${ECSClusterArn}",
+        "TaskDefinition": "${TOCDiscoveryTaskDefinition}",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["${SubnetId}"],
+            "SecurityGroups": ["${SecurityGroupId}"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "toc-discovery",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "toc_discovery"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "${OutputBucket}"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.toc_discovery",
+      "Next": "TOCParsing",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 3,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "TOCParsing": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "${ECSClusterArn}",
+        "TaskDefinition": "${TOCParserTaskDefinition}",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["${SubnetId}"],
+            "SecurityGroups": ["${SecurityGroupId}"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "toc-parser",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "toc_parser"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "ARTIST",
+                  "Value.$": "$.artist"
+                },
+                {
+                  "Name": "BOOK_NAME",
+                  "Value.$": "$.book_name"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "${OutputBucket}"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.toc_parse",
+      "Next": "ValidateTOC",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 2,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "ValidateTOC": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.toc_parse.entry_count",
+          "NumericLessThan": 10,
+          "Next": "RecordManualReview"
+        }
+      ],
+      "Default": "PageMapping"
+    },
+    "PageMapping": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "${ECSClusterArn}",
+        "TaskDefinition": "${PageMapperTaskDefinition}",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["${SubnetId}"],
+            "SecurityGroups": ["${SecurityGroupId}"],
+            "AssignPublicIp": "ENABLED"
+          }
+        }
+      },
+      "ResultPath": "$.page_mapping",
+      "Next": "SongVerification"
+    },
+    "SongVerification": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "${ECSClusterArn}",
+        "TaskDefinition": "${SongVerifierTaskDefinition}",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["${SubnetId}"],
+            "SecurityGroups": ["${SecurityGroupId}"],
+            "AssignPublicIp": "ENABLED"
+          }
+        }
+      },
+      "ResultPath": "$.verification",
+      "Next": "ValidateVerification"
+    },
+    "ValidateVerification": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.verification.success_rate",
+          "NumericLessThan": 0.95,
+          "Next": "RecordManualReview"
+        }
+      ],
+      "Default": "PDFSplitting"
+    },
+    "PDFSplitting": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "${ECSClusterArn}",
+        "TaskDefinition": "${PDFSplitterTaskDefinition}",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["${SubnetId}"],
+            "SecurityGroups": ["${SecurityGroupId}"],
+            "AssignPublicIp": "ENABLED"
+          }
+        }
+      },
+      "ResultPath": "$.splitting",
+      "Next": "ValidateOutput"
+    },
+    "ValidateOutput": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.splitting.success_rate",
+          "NumericLessThan": 0.90,
+          "Next": "RecordManualReview"
+        }
+      ],
+      "Default": "GenerateManifest"
+    },
+    "GenerateManifest": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${GenerateManifestLambdaArn}",
+        "Payload": {
+          "book_id.$": "$.book_id",
+          "source_pdf_uri.$": "$.source_pdf_uri",
+          "artist.$": "$.artist",
+          "book_name.$": "$.book_name",
+          "toc_discovery.$": "$.toc_discovery",
+          "toc_parse.$": "$.toc_parse",
+          "page_mapping.$": "$.page_mapping",
+          "verification.$": "$.verification",
+          "splitting.$": "$.splitting"
+        }
+      },
+      "ResultPath": "$.manifest",
+      "Next": "RecordSuccess"
+    },
+    "RecordSuccess": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${RecordSuccessLambdaArn}",
+        "Payload": {
+          "book_id.$": "$.book_id",
+          "manifest_uri.$": "$.manifest.Payload.manifest_uri",
+          "songs_extracted.$": "$.splitting.songs_extracted",
+          "processing_duration_seconds.$": "$$.Execution.Duration",
+          "cost_usd.$": "$.manifest.Payload.cost_usd"
+        }
+      },
+      "End": true
+    },
+    "RecordFailure": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${RecordFailureLambdaArn}",
+        "Payload": {
+          "book_id.$": "$.book_id",
+          "error_message.$": "$.error.Cause"
+        }
+      },
+      "End": true
+    },
+    "RecordManualReview": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${RecordManualReviewLambdaArn}",
+        "Payload": {
+          "book_id.$": "$.book_id",
+          "reason": "Quality gate failed"
+        }
+      },
+      "End": true
+    },
+    "SkipProcessing": {
+      "Type": "Succeed",
+      "Comment": "Book already processed successfully"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source_pdf": "Billy Joel - Best Of Piano Solos.pdf",
+  "total_pages": 78,
+  "artist": "Billy Joel",
+  "book_type": "Piano Solos",
+  "songs": [
+    {"title": "All About Soul", "start_page": 2, "end_page": 6},
+    {"title": "Allentown", "start_page": 7, "end_page": 10},
+    {"title": "And So It Goes", "start_page": 11, "end_page": 13},
+    {"title": "Baby Grand", "start_page": 14, "end_page": 18},
+    {"title": "Honesty", "start_page": 19, "end_page": 21},
+    {"title": "An Innocent Man", "start_page": 22, "end_page": 25},
+    {"title": "It's Still Rock and Roll to Me", "start_page": 26, "end_page": 29},
+    {"title": "Just the Way You Are", "start_page": 30, "end_page": 32},
+    {"title": "Keeping the Faith", "start_page": 33, "end_page": 36},
+    {"title": "The Longest Time", "start_page": 37, "end_page": 38},
+    {"title": "My Life", "start_page": 39, "end_page": 42},
+    {"title": "Only the Good Die Young", "start_page": 43, "end_page": 48},
+    {"title": "Piano Man", "start_page": 49, "end_page": 53},
+    {"title": "The River of Dreams", "start_page": 54, "end_page": 57},
+    {"title": "She's Always a Woman", "start_page": 58, "end_page": 62},
+    {"title": "She's Got a Way", "start_page": 63, "end_page": 65},
+    {"title": "Tell Her About It", "start_page": 66, "end_page": 69},
+    {"title": "Uptown Girl", "start_page": 70, "end_page": 73},
+    {"title": "We Didn't Start the Fire", "start_page": 74, "end_page": 78}
+  ]
+}

@@ -1,0 +1,636 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'SheetMusic Book Splitter - Complete infrastructure stack'
+
+Parameters:
+  InputBucketName:
+    Type: String
+    Description: S3 bucket for input PDFs
+    Default: jsmith-input
+  
+  OutputBucketName:
+    Type: String
+    Description: S3 bucket for output files
+    Default: jsmith-output
+  
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+    Description: VPC for ECS tasks
+  
+  SubnetIds:
+    Type: List<AWS::EC2::Subnet::Id>
+    Description: Subnets for ECS tasks
+  
+  ContainerImage:
+    Type: String
+    Description: ECR image URI for ECS tasks
+    Default: 227027150061.dkr.ecr.us-east-1.amazonaws.com/jsmith-sheetmusic-splitter:latest
+
+Resources:
+  # S3 Buckets
+  InputBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref InputBucketName
+      VersioningConfiguration:
+        Status: Enabled
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteOldVersions
+            Status: Enabled
+            NoncurrentVersionExpirationInDays: 30
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+  
+  OutputBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref OutputBucketName
+      VersioningConfiguration:
+        Status: Enabled
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+  
+  ArtifactsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'jsmith-${AWS::StackName}-artifacts'
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteOldArtifacts
+            Status: Enabled
+            ExpirationInDays: 90
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+  
+  # DynamoDB Table
+  ProcessingLedgerTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: jsmith-processing-ledger
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: book_id
+          AttributeType: S
+        - AttributeName: status
+          AttributeType: S
+      KeySchema:
+        - AttributeName: book_id
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: status-index
+          KeySchema:
+            - AttributeName: status
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+      TimeToLiveSpecification:
+        AttributeName: ttl
+        Enabled: true
+  
+  # ECS Cluster
+  ECSCluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      ClusterName: !Sub '${AWS::StackName}-cluster'
+      CapacityProviders:
+        - FARGATE
+        - FARGATE_SPOT
+      DefaultCapacityProviderStrategy:
+        - CapacityProvider: FARGATE
+          Weight: 1
+  
+  # ECS Task Execution Role
+  ECSTaskExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy
+      Policies:
+        - PolicyName: ECRAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ecr:GetAuthorizationToken
+                  - ecr:BatchCheckLayerAvailability
+                  - ecr:GetDownloadUrlForLayer
+                  - ecr:BatchGetImage
+                Resource: '*'
+  
+  # ECS Task Role
+  ECSTaskRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:PutObject
+                  - s3:ListBucket
+                Resource:
+                  - !GetAtt InputBucket.Arn
+                  - !Sub '${InputBucket.Arn}/*'
+                  - !GetAtt OutputBucket.Arn
+                  - !Sub '${OutputBucket.Arn}/*'
+                  - !GetAtt ArtifactsBucket.Arn
+                  - !Sub '${ArtifactsBucket.Arn}/*'
+        - PolicyName: TextractAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - textract:DetectDocumentText
+                Resource: '*'
+        - PolicyName: BedrockAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - bedrock:InvokeModel
+                Resource: '*'
+        - PolicyName: CloudWatchAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - cloudwatch:PutMetricData
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: '*'
+  
+  # Security Group for ECS Tasks
+  ECSSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Security group for ECS tasks
+      VpcId: !Ref VpcId
+      SecurityGroupEgress:
+        - IpProtocol: -1
+          CidrIp: 0.0.0.0/0
+  
+  # CloudWatch Log Group
+  LogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/ecs/${AWS::StackName}'
+      RetentionInDays: 30
+  
+  # ECS Task Definitions
+  TOCDiscoveryTaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      Family: !Sub '${AWS::StackName}-toc-discovery'
+      NetworkMode: awsvpc
+      RequiresCompatibilities:
+        - FARGATE
+      Cpu: '1024'
+      Memory: '2048'
+      ExecutionRoleArn: !GetAtt ECSTaskExecutionRole.Arn
+      TaskRoleArn: !GetAtt ECSTaskRole.Arn
+      ContainerDefinitions:
+        - Name: toc-discovery
+          Image: !Ref ContainerImage
+          LogConfiguration:
+            LogDriver: awslogs
+            Options:
+              awslogs-group: !Ref LogGroup
+              awslogs-region: !Ref AWS::Region
+              awslogs-stream-prefix: toc-discovery
+          Environment:
+            - Name: TASK_TYPE
+              Value: toc_discovery
+  
+  # Lambda Execution Role
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:ListBucket
+                  - s3:GetObject
+                Resource:
+                  - !GetAtt InputBucket.Arn
+                  - !Sub '${InputBucket.Arn}/*'
+        - PolicyName: DynamoDBAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:UpdateItem
+                  - dynamodb:Query
+                Resource:
+                  - !GetAtt ProcessingLedgerTable.Arn
+                  - !Sub '${ProcessingLedgerTable.Arn}/index/*'
+        - PolicyName: StepFunctionsAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - states:StartExecution
+                Resource: !Sub 'arn:aws:states:${AWS::Region}:${AWS::AccountId}:stateMachine:${AWS::StackName}-pipeline'
+  
+  # Lambda Functions
+  IngestServiceFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${AWS::StackName}-ingest-service'
+      Runtime: python3.12
+      Handler: ingest_service.lambda_handler
+      Code:
+        ZipFile: |
+          # Placeholder - deploy actual code
+          def lambda_handler(event, context):
+              return {'statusCode': 200}
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 300
+      MemorySize: 512
+      Environment:
+        Variables:
+          INPUT_BUCKET: !Ref InputBucket
+          STATE_MACHINE_ARN: !Ref StateMachine
+          DYNAMODB_TABLE: !Ref ProcessingLedgerTable
+  
+  CheckProcessedFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${AWS::StackName}-check-processed'
+      Runtime: python3.12
+      Handler: state_machine_helpers.check_processed_handler
+      Code:
+        ZipFile: |
+          # Placeholder
+          def check_processed_handler(event, context):
+              return {'already_processed': False}
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 60
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref ProcessingLedgerTable
+  
+  RecordStartFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${AWS::StackName}-record-start'
+      Runtime: python3.12
+      Handler: state_machine_helpers.record_start_handler
+      Code:
+        ZipFile: |
+          # Placeholder
+          def record_start_handler(event, context):
+              return {'success': True}
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 60
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref ProcessingLedgerTable
+  
+  RecordSuccessFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${AWS::StackName}-record-success'
+      Runtime: python3.12
+      Handler: state_machine_helpers.record_success_handler
+      Code:
+        ZipFile: |
+          # Placeholder
+          def record_success_handler(event, context):
+              return {'success': True}
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 60
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref ProcessingLedgerTable
+  
+  RecordFailureFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${AWS::StackName}-record-failure'
+      Runtime: python3.12
+      Handler: state_machine_helpers.record_failure_handler
+      Code:
+        ZipFile: |
+          # Placeholder
+          def record_failure_handler(event, context):
+              return {'success': True}
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 60
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref ProcessingLedgerTable
+  
+  RecordManualReviewFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${AWS::StackName}-record-manual-review'
+      Runtime: python3.12
+      Handler: state_machine_helpers.record_manual_review_handler
+      Code:
+        ZipFile: |
+          # Placeholder
+          def record_manual_review_handler(event, context):
+              return {'success': True}
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 60
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref ProcessingLedgerTable
+  
+  # Step Functions State Machine
+  StepFunctionsRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: states.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: StepFunctionsExecutionPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - lambda:InvokeFunction
+                Resource:
+                  - !GetAtt CheckProcessedFunction.Arn
+                  - !GetAtt RecordStartFunction.Arn
+                  - !GetAtt RecordSuccessFunction.Arn
+                  - !GetAtt RecordFailureFunction.Arn
+                  - !GetAtt RecordManualReviewFunction.Arn
+              - Effect: Allow
+                Action:
+                  - ecs:RunTask
+                  - ecs:StopTask
+                  - ecs:DescribeTasks
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - iam:PassRole
+                Resource:
+                  - !GetAtt ECSTaskExecutionRole.Arn
+                  - !GetAtt ECSTaskRole.Arn
+              - Effect: Allow
+                Action:
+                  - events:PutTargets
+                  - events:PutRule
+                  - events:DescribeRule
+                Resource: '*'
+  
+  StateMachine:
+    Type: AWS::StepFunctions::StateMachine
+    Properties:
+      StateMachineName: !Sub '${AWS::StackName}-pipeline'
+      RoleArn: !GetAtt StepFunctionsRole.Arn
+      DefinitionString: !Sub |
+        {
+          "Comment": "SheetMusic Book Splitter Pipeline",
+          "StartAt": "CheckAlreadyProcessed",
+          "States": {
+            "CheckAlreadyProcessed": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::lambda:invoke",
+              "Parameters": {
+                "FunctionName": "${CheckProcessedFunction.Arn}",
+                "Payload": {
+                  "book_id.$": "$.book_id"
+                }
+              },
+              "Next": "RecordProcessingStart"
+            },
+            "RecordProcessingStart": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::lambda:invoke",
+              "Parameters": {
+                "FunctionName": "${RecordStartFunction.Arn}",
+                "Payload.$": "$"
+              },
+              "End": true
+            }
+          }
+        }
+  
+  # EventBridge Rule for scheduled execution
+  ScheduledRule:
+    Type: AWS::Events::Rule
+    Properties:
+      Description: Trigger ingest service daily
+      ScheduleExpression: 'rate(1 day)'
+      State: ENABLED
+      Targets:
+        - Arn: !GetAtt IngestServiceFunction.Arn
+          Id: IngestServiceTarget
+  
+  ScheduledRulePermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref IngestServiceFunction
+      Action: lambda:InvokeFunction
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt ScheduledRule.Arn
+  
+  # SNS Topic for Alarms
+  AlarmTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: !Sub '${AWS::StackName}-alarms'
+      DisplayName: SheetMusic Splitter Alarms
+  
+  # CloudWatch Alarms
+  CostThresholdAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub '${AWS::StackName}-cost-threshold'
+      AlarmDescription: Alert when estimated daily cost exceeds threshold
+      MetricName: EstimatedCost
+      Namespace: SheetMusicSplitter
+      Statistic: Sum
+      Period: 86400  # 1 day
+      EvaluationPeriods: 1
+      Threshold: 50.0  # $50 per day
+      ComparisonOperator: GreaterThanThreshold
+      AlarmActions:
+        - !Ref AlarmTopic
+      TreatMissingData: notBreaching
+  
+  ErrorRateAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub '${AWS::StackName}-error-rate'
+      AlarmDescription: Alert when error rate exceeds 10%
+      MetricName: ErrorRate
+      Namespace: SheetMusicSplitter
+      Statistic: Average
+      Period: 300  # 5 minutes
+      EvaluationPeriods: 2
+      Threshold: 0.10  # 10%
+      ComparisonOperator: GreaterThanThreshold
+      AlarmActions:
+        - !Ref AlarmTopic
+      TreatMissingData: notBreaching
+  
+  ProcessingFailureAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub '${AWS::StackName}-processing-failures'
+      AlarmDescription: Alert when processing failures occur
+      MetricName: ProcessingFailures
+      Namespace: SheetMusicSplitter
+      Statistic: Sum
+      Period: 300  # 5 minutes
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      AlarmActions:
+        - !Ref AlarmTopic
+      TreatMissingData: notBreaching
+  
+  ManualReviewAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub '${AWS::StackName}-manual-review-required'
+      AlarmDescription: Alert when books require manual review
+      MetricName: ManualReviewRequired
+      Namespace: SheetMusicSplitter
+      Statistic: Sum
+      Period: 3600  # 1 hour
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      AlarmActions:
+        - !Ref AlarmTopic
+      TreatMissingData: notBreaching
+  
+  StateMachineFailureAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub '${AWS::StackName}-state-machine-failures'
+      AlarmDescription: Alert when Step Functions executions fail
+      MetricName: ExecutionsFailed
+      Namespace: AWS/States
+      Dimensions:
+        - Name: StateMachineArn
+          Value: !Ref StateMachine
+      Statistic: Sum
+      Period: 300  # 5 minutes
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      AlarmActions:
+        - !Ref AlarmTopic
+      TreatMissingData: notBreaching
+  
+  LambdaErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub '${AWS::StackName}-lambda-errors'
+      AlarmDescription: Alert when Lambda functions error
+      MetricName: Errors
+      Namespace: AWS/Lambda
+      Dimensions:
+        - Name: FunctionName
+          Value: !Ref IngestServiceFunction
+      Statistic: Sum
+      Period: 300  # 5 minutes
+      EvaluationPeriods: 2
+      Threshold: 5
+      ComparisonOperator: GreaterThanThreshold
+      AlarmActions:
+        - !Ref AlarmTopic
+      TreatMissingData: notBreaching
+  
+  ECSTaskFailureAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub '${AWS::StackName}-ecs-task-failures'
+      AlarmDescription: Alert when ECS tasks fail
+      MetricName: TasksFailed
+      Namespace: ECS/ContainerInsights
+      Dimensions:
+        - Name: ClusterName
+          Value: !Ref ECSCluster
+      Statistic: Sum
+      Period: 300  # 5 minutes
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      AlarmActions:
+        - !Ref AlarmTopic
+      TreatMissingData: notBreaching
+
+Outputs:
+  InputBucketName:
+    Description: Input S3 bucket name
+    Value: !Ref InputBucket
+  
+  OutputBucketName:
+    Description: Output S3 bucket name
+    Value: !Ref OutputBucket
+  
+  StateMachineArn:
+    Description: Step Functions state machine ARN
+    Value: !Ref StateMachine
+  
+  DynamoDBTableName:
+    Description: DynamoDB ledger table name
+    Value: !Ref ProcessingLedgerTable
+  
+  ECSClusterName:
+    Description: ECS cluster name
+    Value: !Ref ECSCluster
+  
+  AlarmTopicArn:
+    Description: SNS topic ARN for alarm notifications
+    Value: !Ref AlarmTopic

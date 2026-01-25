@@ -1,0 +1,31 @@
+{
+  "source_pdf": "G:\\My Drive\\SheetMusic\\Billy Joel\\Books\\Billy Joel - Greatest Hits.pdf",
+  "output_dir": "G:\\My Drive\\SheetMusicOutput\\Billy Joel",
+  "artist": "Billy Joel",
+  "total_pages": 138,
+  "analyzed_date": "2026-01-21",
+  "notes": "Greatest Hits Volumes I & II. TOC on page 3, offset +1",
+  "songs": [
+    {"title": "Piano Man", "artist": "Billy Joel", "start_page": 4, "end_page": 8, "output_filename": "Billy Joel - Piano Man.pdf"},
+    {"title": "Say Goodbye to Hollywood", "artist": "Billy Joel", "start_page": 9, "end_page": 12, "output_filename": "Billy Joel - Say Goodbye to Hollywood.pdf"},
+    {"title": "New York State of Mind", "artist": "Billy Joel", "start_page": 13, "end_page": 16, "output_filename": "Billy Joel - New York State of Mind.pdf"},
+    {"title": "The Stranger", "artist": "Billy Joel", "start_page": 17, "end_page": 26, "output_filename": "Billy Joel - The Stranger.pdf"},
+    {"title": "Just the Way You Are", "artist": "Billy Joel", "start_page": 27, "end_page": 36, "output_filename": "Billy Joel - Just the Way You Are.pdf"},
+    {"title": "Movin' Out (Anthony's Song)", "artist": "Billy Joel", "start_page": 37, "end_page": 42, "output_filename": "Billy Joel - Movin' Out (Anthony's Song).pdf"},
+    {"title": "Only the Good Die Young", "artist": "Billy Joel", "start_page": 43, "end_page": 49, "output_filename": "Billy Joel - Only the Good Die Young.pdf"},
+    {"title": "She's Always a Woman", "artist": "Billy Joel", "start_page": 50, "end_page": 54, "output_filename": "Billy Joel - She's Always a Woman.pdf"},
+    {"title": "My Life", "artist": "Billy Joel", "start_page": 55, "end_page": 61, "output_filename": "Billy Joel - My Life.pdf"},
+    {"title": "You May Be Right", "artist": "Billy Joel", "start_page": 62, "end_page": 66, "output_filename": "Billy Joel - You May Be Right.pdf"},
+    {"title": "Big Shot", "artist": "Billy Joel", "start_page": 67, "end_page": 74, "output_filename": "Billy Joel - Big Shot.pdf"},
+    {"title": "It's Still Rock and Roll to Me", "artist": "Billy Joel", "start_page": 75, "end_page": 82, "output_filename": "Billy Joel - It's Still Rock and Roll to Me.pdf"},
+    {"title": "Don't Ask Me Why", "artist": "Billy Joel", "start_page": 83, "end_page": 90, "output_filename": "Billy Joel - Don't Ask Me Why.pdf"},
+    {"title": "Allentown", "artist": "Billy Joel", "start_page": 91, "end_page": 96, "output_filename": "Billy Joel - Allentown.pdf"},
+    {"title": "Pressure", "artist": "Billy Joel", "start_page": 97, "end_page": 103, "output_filename": "Billy Joel - Pressure.pdf"},
+    {"title": "Goodnight Saigon", "artist": "Billy Joel", "start_page": 104, "end_page": 108, "output_filename": "Billy Joel - Goodnight Saigon.pdf"},
+    {"title": "Tell Her About It", "artist": "Billy Joel", "start_page": 109, "end_page": 116, "output_filename": "Billy Joel - Tell Her About It.pdf"},
+    {"title": "Uptown Girl", "artist": "Billy Joel", "start_page": 117, "end_page": 120, "output_filename": "Billy Joel - Uptown Girl.pdf"},
+    {"title": "The Longest Time", "artist": "Billy Joel", "start_page": 121, "end_page": 126, "output_filename": "Billy Joel - The Longest Time.pdf"},
+    {"title": "You're Only Human (Second Wind)", "artist": "Billy Joel", "start_page": 127, "end_page": 130, "output_filename": "Billy Joel - You're Only Human (Second Wind).pdf"},
+    {"title": "The Night Is Still Young", "artist": "Billy Joel", "start_page": 131, "end_page": 138, "output_filename": "Billy Joel - The Night Is Still Young.pdf"}
+  ]
+}

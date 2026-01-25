@@ -1,0 +1,213 @@
+{
+  "source_pdf": "G:\\My Drive\\SheetMusic\\Billy Joel\\Books\\Billy Joel - Anthology.pdf",
+  "output_dir": "G:\\My Drive\\SheetMusicOutput\\Billy Joel",
+  "artist": "Billy Joel",
+  "book_title": "Anthology",
+  "total_pages": 176,
+  "analyzed_date": "2026-01-23",
+  "songs": [
+    {
+      "title": "The Ballad Of Billy The Kid",
+      "artist": "Billy Joel",
+      "start_page": 3,
+      "end_page": 8,
+      "output_filename": "Billy Joel - The Ballad Of Billy The Kid.pdf"
+    },
+    {
+      "title": "Captain Jack",
+      "artist": "Billy Joel",
+      "start_page": 9,
+      "end_page": 13,
+      "output_filename": "Billy Joel - Captain Jack.pdf"
+    },
+    {
+      "title": "Piano Man",
+      "artist": "Billy Joel",
+      "start_page": 14,
+      "end_page": 18,
+      "output_filename": "Billy Joel - Piano Man.pdf"
+    },
+    {
+      "title": "Streetlife Serenader",
+      "artist": "Billy Joel",
+      "start_page": 19,
+      "end_page": 23,
+      "output_filename": "Billy Joel - Streetlife Serenader.pdf"
+    },
+    {
+      "title": "New York State Of Mind",
+      "artist": "Billy Joel",
+      "start_page": 24,
+      "end_page": 27,
+      "output_filename": "Billy Joel - New York State Of Mind.pdf"
+    },
+    {
+      "title": "The Entertainer",
+      "artist": "Billy Joel",
+      "start_page": 28,
+      "end_page": 31,
+      "output_filename": "Billy Joel - The Entertainer.pdf"
+    },
+    {
+      "title": "I've Loved These Days",
+      "artist": "Billy Joel",
+      "start_page": 32,
+      "end_page": 34,
+      "output_filename": "Billy Joel - I've Loved These Days.pdf"
+    },
+    {
+      "title": "Just The Way You Are",
+      "artist": "Billy Joel",
+      "start_page": 35,
+      "end_page": 43,
+      "output_filename": "Billy Joel - Just The Way You Are.pdf"
+    },
+    {
+      "title": "Movin' Out (Anthony's Song)",
+      "artist": "Billy Joel",
+      "start_page": 44,
+      "end_page": 49,
+      "output_filename": "Billy Joel - Movin' Out (Anthony's Song).pdf"
+    },
+    {
+      "title": "My Life",
+      "artist": "Billy Joel",
+      "start_page": 50,
+      "end_page": 56,
+      "output_filename": "Billy Joel - My Life.pdf"
+    },
+    {
+      "title": "She's Always A Woman",
+      "artist": "Billy Joel",
+      "start_page": 57,
+      "end_page": 61,
+      "output_filename": "Billy Joel - She's Always A Woman.pdf"
+    },
+    {
+      "title": "Big Shot",
+      "artist": "Billy Joel",
+      "start_page": 62,
+      "end_page": 69,
+      "output_filename": "Billy Joel - Big Shot.pdf"
+    },
+    {
+      "title": "Honesty",
+      "artist": "Billy Joel",
+      "start_page": 70,
+      "end_page": 74,
+      "output_filename": "Billy Joel - Honesty.pdf"
+    },
+    {
+      "title": "Stiletto",
+      "artist": "Billy Joel",
+      "start_page": 75,
+      "end_page": 79,
+      "output_filename": "Billy Joel - Stiletto.pdf"
+    },
+    {
+      "title": "Don't Ask Me Why",
+      "artist": "Billy Joel",
+      "start_page": 80,
+      "end_page": 87,
+      "output_filename": "Billy Joel - Don't Ask Me Why.pdf"
+    },
+    {
+      "title": "It's Still Rock & Roll To Me",
+      "artist": "Billy Joel",
+      "start_page": 88,
+      "end_page": 95,
+      "output_filename": "Billy Joel - It's Still Rock & Roll To Me.pdf"
+    },
+    {
+      "title": "Allentown",
+      "artist": "Billy Joel",
+      "start_page": 96,
+      "end_page": 101,
+      "output_filename": "Billy Joel - Allentown.pdf"
+    },
+    {
+      "title": "All For Leyna",
+      "artist": "Billy Joel",
+      "start_page": 102,
+      "end_page": 108,
+      "output_filename": "Billy Joel - All For Leyna.pdf"
+    },
+    {
+      "title": "Goodnight Saigon",
+      "artist": "Billy Joel",
+      "start_page": 109,
+      "end_page": 113,
+      "output_filename": "Billy Joel - Goodnight Saigon.pdf"
+    },
+    {
+      "title": "An Innocent Man",
+      "artist": "Billy Joel",
+      "start_page": 114,
+      "end_page": 120,
+      "output_filename": "Billy Joel - An Innocent Man.pdf"
+    },
+    {
+      "title": "Pressure",
+      "artist": "Billy Joel",
+      "start_page": 121,
+      "end_page": 127,
+      "output_filename": "Billy Joel - Pressure.pdf"
+    },
+    {
+      "title": "The Longest Time",
+      "artist": "Billy Joel",
+      "start_page": 128,
+      "end_page": 133,
+      "output_filename": "Billy Joel - The Longest Time.pdf"
+    },
+    {
+      "title": "Uptown Girl",
+      "artist": "Billy Joel",
+      "start_page": 134,
+      "end_page": 137,
+      "output_filename": "Billy Joel - Uptown Girl.pdf"
+    },
+    {
+      "title": "Leave A Tender Moment Alone",
+      "artist": "Billy Joel",
+      "start_page": 138,
+      "end_page": 142,
+      "output_filename": "Billy Joel - Leave A Tender Moment Alone.pdf"
+    },
+    {
+      "title": "A Matter Of Trust",
+      "artist": "Billy Joel",
+      "start_page": 143,
+      "end_page": 147,
+      "output_filename": "Billy Joel - A Matter Of Trust.pdf"
+    },
+    {
+      "title": "Tell Her About It",
+      "artist": "Billy Joel",
+      "start_page": 148,
+      "end_page": 155,
+      "output_filename": "Billy Joel - Tell Her About It.pdf"
+    },
+    {
+      "title": "We Didn't Start The Fire",
+      "artist": "Billy Joel",
+      "start_page": 156,
+      "end_page": 163,
+      "output_filename": "Billy Joel - We Didn't Start The Fire.pdf"
+    },
+    {
+      "title": "Storm Front",
+      "artist": "Billy Joel",
+      "start_page": 164,
+      "end_page": 169,
+      "output_filename": "Billy Joel - Storm Front.pdf"
+    },
+    {
+      "title": "I Go To Extremes",
+      "artist": "Billy Joel",
+      "start_page": 170,
+      "end_page": 176,
+      "output_filename": "Billy Joel - I Go To Extremes.pdf"
+    }
+  ]
+}

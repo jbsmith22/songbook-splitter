@@ -1,0 +1,73 @@
+{
+  "source_pdf": "G:\\My Drive\\SheetMusic\\Billy Joel\\Books\\Billy Joel - Turnstiles.pdf",
+  "output_dir": "G:\\My Drive\\SheetMusicOutput\\Billy Joel",
+  "artist": "Billy Joel",
+  "album": "Turnstiles",
+  "total_pages": 51,
+  "analyzed_date": "2026-01-22",
+  "songs": [
+    {
+      "title": "Say Goodbye to Hollywood",
+      "artist": "Billy Joel",
+      "start_page": 4,
+      "end_page": 7,
+      "output_filename": "Billy Joel - Say Goodbye to Hollywood.pdf"
+    },
+    {
+      "title": "Summer, Highland Falls",
+      "artist": "Billy Joel",
+      "start_page": 8,
+      "end_page": 13,
+      "output_filename": "Billy Joel - Summer, Highland Falls.pdf"
+    },
+    {
+      "title": "All You Wanna Do Is Dance",
+      "artist": "Billy Joel",
+      "start_page": 14,
+      "end_page": 19,
+      "output_filename": "Billy Joel - All You Wanna Do Is Dance.pdf"
+    },
+    {
+      "title": "New York State of Mind",
+      "artist": "Billy Joel",
+      "start_page": 20,
+      "end_page": 24,
+      "output_filename": "Billy Joel - New York State of Mind.pdf"
+    },
+    {
+      "title": "James",
+      "artist": "Billy Joel",
+      "start_page": 25,
+      "end_page": 29,
+      "output_filename": "Billy Joel - James.pdf"
+    },
+    {
+      "title": "Prelude",
+      "artist": "Billy Joel",
+      "start_page": 30,
+      "end_page": 33,
+      "output_filename": "Billy Joel - Prelude.pdf"
+    },
+    {
+      "title": "Angry Young Man",
+      "artist": "Billy Joel",
+      "start_page": 34,
+      "end_page": 39,
+      "output_filename": "Billy Joel - Angry Young Man.pdf"
+    },
+    {
+      "title": "I've Loved These Days",
+      "artist": "Billy Joel",
+      "start_page": 40,
+      "end_page": 43,
+      "output_filename": "Billy Joel - I've Loved These Days.pdf"
+    },
+    {
+      "title": "Miami 2017 (Seen the Lights Go Out on Broadway)",
+      "artist": "Billy Joel",
+      "start_page": 44,
+      "end_page": 51,
+      "output_filename": "Billy Joel - Miami 2017 (Seen the Lights Go Out on Broadway).pdf"
+    }
+  ]
+}

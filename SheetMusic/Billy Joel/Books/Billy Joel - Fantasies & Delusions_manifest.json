@@ -1,0 +1,80 @@
+{
+  "source_pdf": "G:\\My Drive\\SheetMusic\\Billy Joel\\Books\\Billy Joel - Fantasies & Delusions.pdf",
+  "output_dir": "G:\\My Drive\\SheetMusicOutput\\Billy Joel",
+  "artist": "Billy Joel",
+  "book_title": "Fantasies & Delusions",
+  "total_pages": 98,
+  "analyzed_date": "2026-01-23",
+  "songs": [
+    {
+      "title": "Opus 1 - Soliloquy (On A Separation)",
+      "artist": "Billy Joel",
+      "start_page": 3,
+      "end_page": 17,
+      "output_filename": "Billy Joel - Opus 1 - Soliloquy (On A Separation).pdf"
+    },
+    {
+      "title": "Opus 2 - Waltz #1 (Nunley's Carousel)",
+      "artist": "Billy Joel",
+      "start_page": 18,
+      "end_page": 28,
+      "output_filename": "Billy Joel - Opus 2 - Waltz #1 (Nunley's Carousel).pdf"
+    },
+    {
+      "title": "Opus 3 - Reverie (Villa D'Este)",
+      "artist": "Billy Joel",
+      "start_page": 29,
+      "end_page": 38,
+      "output_filename": "Billy Joel - Opus 3 - Reverie (Villa D'Este).pdf"
+    },
+    {
+      "title": "Opus 4 - Fantasy (Film Noir)",
+      "artist": "Billy Joel",
+      "start_page": 39,
+      "end_page": 49,
+      "output_filename": "Billy Joel - Opus 4 - Fantasy (Film Noir).pdf"
+    },
+    {
+      "title": "Opus 5 - Waltz #2 (Steinway Hall)",
+      "artist": "Billy Joel",
+      "start_page": 50,
+      "end_page": 60,
+      "output_filename": "Billy Joel - Opus 5 - Waltz #2 (Steinway Hall).pdf"
+    },
+    {
+      "title": "Opus 6 - Invention In C Minor",
+      "artist": "Billy Joel",
+      "start_page": 61,
+      "end_page": 62,
+      "output_filename": "Billy Joel - Opus 6 - Invention In C Minor.pdf"
+    },
+    {
+      "title": "Opus 7 - Aria (Grand Canal)",
+      "artist": "Billy Joel",
+      "start_page": 63,
+      "end_page": 74,
+      "output_filename": "Billy Joel - Opus 7 - Aria (Grand Canal).pdf"
+    },
+    {
+      "title": "Opus 8 - Suite For Piano (Star-Crossed)",
+      "artist": "Billy Joel",
+      "start_page": 75,
+      "end_page": 88,
+      "output_filename": "Billy Joel - Opus 8 - Suite For Piano (Star-Crossed).pdf"
+    },
+    {
+      "title": "Opus 9 - Waltz #3 (For Lola)",
+      "artist": "Billy Joel",
+      "start_page": 89,
+      "end_page": 93,
+      "output_filename": "Billy Joel - Opus 9 - Waltz #3 (For Lola).pdf"
+    },
+    {
+      "title": "Opus 10 - Air (Dublinesque)",
+      "artist": "Billy Joel",
+      "start_page": 94,
+      "end_page": 98,
+      "output_filename": "Billy Joel - Opus 10 - Air (Dublinesque).pdf"
+    }
+  ]
+}

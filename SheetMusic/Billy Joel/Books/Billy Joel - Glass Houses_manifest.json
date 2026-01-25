@@ -1,0 +1,80 @@
+{
+  "source_pdf": "G:\\My Drive\\SheetMusic\\Billy Joel\\Books\\Billy Joel - Glass Houses.pdf",
+  "output_dir": "G:\\My Drive\\SheetMusicOutput\\Billy Joel",
+  "artist": "Billy Joel",
+  "album": "Glass Houses",
+  "total_pages": 66,
+  "analyzed_date": "2026-01-22",
+  "songs": [
+    {
+      "title": "You May Be Right",
+      "artist": "Billy Joel",
+      "start_page": 3,
+      "end_page": 7,
+      "output_filename": "Billy Joel - You May Be Right.pdf"
+    },
+    {
+      "title": "Sometimes a Fantasy",
+      "artist": "Billy Joel",
+      "start_page": 8,
+      "end_page": 14,
+      "output_filename": "Billy Joel - Sometimes a Fantasy.pdf"
+    },
+    {
+      "title": "Don't Ask Me Why",
+      "artist": "Billy Joel",
+      "start_page": 15,
+      "end_page": 22,
+      "output_filename": "Billy Joel - Don't Ask Me Why.pdf"
+    },
+    {
+      "title": "It's Still Rock and Roll to Me",
+      "artist": "Billy Joel",
+      "start_page": 23,
+      "end_page": 30,
+      "output_filename": "Billy Joel - It's Still Rock and Roll to Me.pdf"
+    },
+    {
+      "title": "All for Leyna",
+      "artist": "Billy Joel",
+      "start_page": 31,
+      "end_page": 37,
+      "output_filename": "Billy Joel - All for Leyna.pdf"
+    },
+    {
+      "title": "I Don't Want to Be Alone",
+      "artist": "Billy Joel",
+      "start_page": 38,
+      "end_page": 44,
+      "output_filename": "Billy Joel - I Don't Want to Be Alone.pdf"
+    },
+    {
+      "title": "Sleeping with the Television On",
+      "artist": "Billy Joel",
+      "start_page": 45,
+      "end_page": 49,
+      "output_filename": "Billy Joel - Sleeping with the Television On.pdf"
+    },
+    {
+      "title": "Close to the Borderline",
+      "artist": "Billy Joel",
+      "start_page": 50,
+      "end_page": 58,
+      "output_filename": "Billy Joel - Close to the Borderline.pdf"
+    },
+    {
+      "title": "C'etait Toi (You Were the One)",
+      "artist": "Billy Joel",
+      "start_page": 59,
+      "end_page": 62,
+      "output_filename": "Billy Joel - C'etait Toi (You Were the One).pdf"
+    },
+    {
+      "title": "Through the Long Night",
+      "artist": "Billy Joel",
+      "start_page": 63,
+      "end_page": 66,
+      "output_filename": "Billy Joel - Through the Long Night.pdf"
+    }
+  ]
+}

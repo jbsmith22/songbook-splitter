@@ -1,0 +1,29 @@
+{
+  "family": "jsmith-sheetmusic-splitter-toc-parser",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "1024",
+  "memory": "2048",
+  "executionRoleArn": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskRole",
+  "containerDefinitions": [
+    {
+      "name": "toc-parser",
+      "image": "227027150061.dkr.ecr.us-east-1.amazonaws.com/jsmith-sheetmusic-splitter:latest",
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/aws/ecs/jsmith-sheetmusic-splitter",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "toc-parser"
+        }
+      },
+      "environment": [
+        {
+          "name": "TASK_TYPE",
+          "value": "toc_parser"
+        }
+      ]
+    }
+  ]
+}

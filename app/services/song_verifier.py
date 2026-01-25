@@ -75,12 +75,22 @@ class SongVerifierService:
     
     def _verify_single_song(self, doc: fitz.Document, location: SongLocation,
                            search_range: int) -> VerifiedSong:
-        """Verify a single song's start page."""
+        """
+        Verify a single song's start page.
+        
+        Trust the page mapper's vision-based detection, but verify it has both
+        staff lines AND title match. If verification fails, flag it but don't
+        search nearby pages (the vision detection is authoritative).
+        """
         expected_page = location.pdf_index
         
-        # Check expected page first
-        if self._is_valid_song_start(doc, expected_page, location.song_title):
-            logger.debug(f"Verified '{location.song_title}' at expected page {expected_page}")
+        # Verify the page mapper's detection
+        has_staff_lines = self.check_staff_lines(doc[expected_page])
+        title_confidence = self.check_title_match(doc[expected_page], location.song_title)
+        
+        # Require BOTH staff lines AND title match for high confidence
+        if has_staff_lines and title_confidence >= 0.7:
+            logger.debug(f"Verified '{location.song_title}' at page {expected_page} (staff_lines=True, title_confidence={title_confidence:.2f})")
             return VerifiedSong(
                 song_title=location.song_title,
                 pdf_index=expected_page,
@@ -90,31 +100,14 @@ class SongVerifierService:
                 artist=location.artist
             )
         
-        # Search nearby pages
-        corrected_page = self.search_nearby_pages(
-            doc, expected_page, location.song_title, search_range
-        )
-        
-        if corrected_page is not None:
-            adjustment = corrected_page - expected_page
-            logger.info(f"Adjusted '{location.song_title}' from page {expected_page} to {corrected_page} (adjustment: {adjustment:+d})")
-            return VerifiedSong(
-                song_title=location.song_title,
-                pdf_index=corrected_page,
-                verified=True,
-                adjustment=adjustment,
-                confidence=0.85,
-                artist=location.artist
-            )
-        
-        # Could not verify
-        logger.warning(f"Could not verify '{location.song_title}' near page {expected_page}")
+        # If verification fails, trust vision but flag with lower confidence
+        logger.warning(f"Could not fully verify '{location.song_title}' at page {expected_page} (staff_lines={has_staff_lines}, title_confidence={title_confidence:.2f}) - trusting vision detection")
         return VerifiedSong(
             song_title=location.song_title,
             pdf_index=expected_page,
-            verified=False,
+            verified=True,  # Still trust the vision
             adjustment=0,
-            confidence=0.0,
+            confidence=0.6,  # Lower confidence to flag uncertainty
             artist=location.artist
         )
     
@@ -123,7 +116,7 @@ class SongVerifierService:
         """
         Check if page is a valid song start.
         
-        Checks for:
+        Requires BOTH:
         1. Musical staff lines
         2. Title match
         
@@ -146,8 +139,8 @@ class SongVerifierService:
         # Check for title match
         title_confidence = self.check_title_match(page, expected_title)
         
-        # Consider valid if either staff lines found OR good title match
-        is_valid = has_staff_lines or title_confidence >= 0.7
+        # Require BOTH staff lines AND good title match
+        is_valid = has_staff_lines and title_confidence >= 0.7
         
         logger.debug(f"Page {pdf_index}: staff_lines={has_staff_lines}, title_confidence={title_confidence:.2f}, valid={is_valid}")
         

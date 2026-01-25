@@ -159,7 +159,7 @@ class PageMapperService:
             song_locations=song_locations
         )
     
-    def _render_all_pages(self, doc: fitz.Document) -> List[bytes]:
+    def _render_all_pages(self, doc: fitz.Document, save_to_disk: bool = True, output_dir: str = "/tmp/page_images") -> List[bytes]:
         """
         Pre-render all pages of the PDF to PNG images.
         
@@ -168,12 +168,21 @@ class PageMapperService:
         
         Args:
             doc: PyMuPDF document
+            save_to_disk: If True, save PNG files to disk for debugging
+            output_dir: Directory to save PNG files
         
         Returns:
             List of PNG image bytes, one per page
         """
+        import os
+        
         page_images = []
         total_pages = len(doc)
+        
+        # Create output directory if saving to disk
+        if save_to_disk:
+            os.makedirs(output_dir, exist_ok=True)
+            logger.info(f"Saving PNG files to {output_dir}")
         
         for i in range(total_pages):
             try:
@@ -183,12 +192,21 @@ class PageMapperService:
                 img_bytes = pix.tobytes("png")
                 page_images.append(img_bytes)
                 
+                # Save to disk if requested
+                if save_to_disk:
+                    png_path = os.path.join(output_dir, f"page_{i:03d}.png")
+                    with open(png_path, 'wb') as f:
+                        f.write(img_bytes)
+                
                 if (i + 1) % 10 == 0:
                     logger.info(f"Rendered {i + 1}/{total_pages} pages...")
             except Exception as e:
                 logger.error(f"Error rendering page {i}: {e}")
                 # Add empty bytes as placeholder
                 page_images.append(b'')
+        
+        if save_to_disk:
+            logger.info(f"All {total_pages} PNG files saved to {output_dir}")
         
         return page_images
     
@@ -222,14 +240,14 @@ class PageMapperService:
     
     def _verify_image_match(self, img_bytes: bytes, expected_title: str) -> bool:
         """
-        Use Bedrock vision to verify if song title appears in pre-rendered image.
+        Use Bedrock vision to verify if this is the first page of a song.
         
         Args:
             img_bytes: PNG image bytes
             expected_title: Expected song title
         
         Returns:
-            True if title found in image
+            True if this is the first page of the song
         """
         if not self.use_vision:
             return False
@@ -249,18 +267,22 @@ class PageMapperService:
             image_base64 = base64.b64encode(img_buffer.getvalue()).decode('utf-8')
             
             # Construct prompt
-            prompt = f"""Look at this sheet music page. Does the song title "{expected_title}" appear anywhere on this page?
+            prompt = f"""Look at this sheet music page. Is this the FIRST PAGE of the song "{expected_title}"?
 
-The title might be:
-- At the top of the page
-- In various fonts or styles
-- Part of a header or footer
-- Abbreviated or slightly different
+A song's first page has:
+- The song title "{expected_title}" prominently displayed at the top
+- Music staffs with notes (actual sheet music)
+- Usually has the artist name
+
+This is NOT a song start if:
+- It's just a title page with no music
+- The text appears as lyrics within the music (not as a title)
+- It's a continuation page of another song
 
 Answer with ONLY "YES" or "NO" - nothing else.
 
-If you see "{expected_title}" or something very similar to it on the page, answer YES.
-If you don't see it at all, answer NO."""
+If this is the first page of the song "{expected_title}" with music, answer YES.
+Otherwise, answer NO."""
 
             # Call Bedrock
             request_body = {
@@ -529,18 +551,22 @@ If you don't see it at all, answer NO."""
             image_base64 = base64.b64encode(img_buffer.getvalue()).decode('utf-8')
             
             # Construct prompt
-            prompt = f"""Look at this sheet music page. Does the song title "{expected_title}" appear anywhere on this page?
+            prompt = f"""Look at this sheet music page. Is this the FIRST PAGE of the song "{expected_title}"?
 
-The title might be:
-- At the top of the page
-- In various fonts or styles
-- Part of a header or footer
-- Abbreviated or slightly different
+A song's first page has:
+- The song title "{expected_title}" prominently displayed at the top
+- Music staffs with notes (actual sheet music)
+- Usually has the artist name
+
+This is NOT a song start if:
+- It's just a title page with no music
+- The text appears as lyrics within the music (not as a title)
+- It's a continuation page of another song
 
 Answer with ONLY "YES" or "NO" - nothing else.
 
-If you see "{expected_title}" or something very similar to it on the page, answer YES.
-If you don't see it at all, answer NO."""
+If this is the first page of the song "{expected_title}" with music, answer YES.
+Otherwise, answer NO."""
 
             # Call Bedrock
             request_body = {

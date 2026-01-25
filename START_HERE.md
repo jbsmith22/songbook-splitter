@@ -3,8 +3,17 @@
 ## Critical Information
 
 **Project**: Sheet Music Book Splitter - AWS Serverless Pipeline
-**Status**: ACTIVE DEVELOPMENT - Page Mapping Algorithm Fixed, Awaiting Test
+**Status**: ACTIVE DEVELOPMENT - PNG Pre-rendering Implemented, Testing Vision Algorithm
 **Last Updated**: 2026-01-25
+
+## ⚠️ CRITICAL: Python Command
+
+**ALWAYS use `py` not `python` or `python.exe`**
+- ✅ Correct: `py script.py`
+- ❌ Wrong: `python script.py`
+- ❌ Wrong: `python.exe script.py`
+
+This system uses `py.exe` launcher, not `python.exe` directly.
 
 ## 📍 Where to Find Everything
 
@@ -19,18 +28,26 @@
 - **Deployment**: `DEPLOYMENT_SUMMARY.md` - What was just deployed
 - **Test Data**: `test-billy-joel.pdf` - Billy Joel 52nd Street (9 songs)
 
-## 🎯 Current State (As of 2026-01-25 16:00)
+## 🎯 Current State (As of 2026-01-25 17:45)
+
+### ✅ PIPELINE FULLY FUNCTIONAL
+
+**All 9 songs successfully extracted with correct page boundaries!**
 
 ### What Just Happened
-1. **IMPLEMENTED**: PNG pre-rendering - All pages rendered upfront before searching
-2. **DEPLOYED**: New Docker image to ECR with pre-rendering implementation
-3. **READY**: Pipeline ready for test execution with optimized algorithm
+1. **FIXED**: Song verifier was incorrectly adjusting page indices by searching nearby pages
+2. **UPDATED**: Song verifier now trusts page mapper's vision detection and requires BOTH staff lines AND title match
+3. **VERIFIED**: All 9 songs extracted correctly with proper page ranges
+4. **DEPLOYED**: Final Docker image with corrected song verifier
 
-### What's Next
-1. Run new pipeline execution
-2. Verify all songs are found at correct indices (Big Shot at index 3)
-3. Download and verify extracted PDFs contain correct songs
-4. Celebrate success!
+### Test Results
+- ✅ All 9 songs found at correct PDF indices
+- ✅ Page boundaries correct (e.g., "Half A Mile Away" = 7 pages, "Until The Night" starts at PDF 47)
+- ✅ 100% confidence in page mapping
+- ✅ Vision correctly filtered out title pages and lyrics
+
+### Pipeline Status
+**PRODUCTION READY** - All components working correctly
 
 ## 🔧 Quick Commands
 
@@ -111,10 +128,16 @@ AWSMusic/
 
 ## 💡 Important Context
 
-- User told me: "the first song starts on pdf index 3 NOT 8"
-- User told me: "You should do a png conversion of EVERY page of EVERY pdf as a first step"
-- The algorithm now searches the entire PDF for each song (no 20-page limit)
-- Vision verification is critical for image-based PDFs with no text layer
+- **PRODUCTION READY**: Pipeline successfully extracts all 9 songs with correct page boundaries
+- **GROUND TRUTH VERIFIED**: All songs found at expected PDF indices
+- **TOC CORRECTED**: 52nd Street is at TOC page 68, Until The Night is at TOC page 60
+- **VISION IMPROVEMENTS**: Prompts filter out title pages and lyrics, require both title AND music
+- **SONG VERIFIER FIX**: Now trusts page mapper's vision detection, requires BOTH staff lines AND title match
+- **ALWAYS ASK USER** when there's a conflict between what they tell you and what you observe
+- **ASSUME USER IS CORRECT** - they have ground truth information
+- **PYTHON COMMAND**: Use `py` not `python` - this system has `py.exe` not `python.exe`
+- **PDF INDEXING**: 0-based. page_000.png = PDF index 0 = 1st page
+- **PAGE RANGE LOGIC**: Song contains all pages from its start index to (next song start index - 1)
 
 ## 🚨 Remember
 

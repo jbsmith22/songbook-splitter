@@ -54,11 +54,13 @@ class PageMapperService:
     def build_page_mapping(self, pdf_path: str, toc_entries: List[TOCEntry], 
                           sample_size: int = 3) -> PageMapping:
         """
-        Calculate page mapping by finding ALL songs using vision verification.
+        Calculate page mapping by pre-rendering all pages and finding songs using vision.
         
-        The TOC page numbers are printed page numbers from the book, but PDF indices
-        can be wildly offset and the offset may change throughout the book.
-        We use vision to find each song's actual start page.
+        This approach:
+        1. Pre-renders ALL pages to PNG upfront (one-time cost)
+        2. Stores them in memory for efficient access
+        3. Uses vision to find each song's actual start page
+        4. No on-demand rendering - everything is prepared first
         
         Args:
             pdf_path: Path to PDF file
@@ -84,27 +86,35 @@ class PageMapperService:
         doc = fitz.open(pdf_path)
         total_pages = len(doc)
         
+        # STEP 1: Pre-render ALL pages to PNG
+        logger.info(f"Pre-rendering all {total_pages} pages to PNG...")
+        page_images = self._render_all_pages(doc)
+        logger.info(f"Pre-rendering complete. {len(page_images)} pages ready.")
+        
+        # STEP 2: Find each song using pre-rendered images
         song_locations = []
         verified_count = 0
-        expected_pdf_index = 0  # Start searching from beginning
+        search_start = 0  # Start searching from beginning
         
         for i, entry in enumerate(sorted_entries):
             logger.info(f"Finding '{entry.song_title}' (TOC page {entry.page_number})...")
             
             # Calculate expected PDF index based on initial offset (if we have one)
-            if i == 0:
-                # For first song, search from beginning
-                search_start = 0
-            else:
+            if i > 0:
                 # For subsequent songs, start from expected position
-                # Expected = previous song's PDF index + (this TOC page - previous TOC page)
                 prev_location = song_locations[-1]
                 toc_page_diff = entry.page_number - sorted_entries[i-1].page_number
                 expected_pdf_index = prev_location.pdf_index + toc_page_diff
-                search_start = expected_pdf_index
+                # Start search a bit before expected position to account for offset variations
+                search_start = max(0, expected_pdf_index - 2)
             
-            # Find the song starting from expected position - search entire remaining PDF
-            actual_pdf_index = self._find_song_forward(doc, entry.song_title, search_start, total_pages, max_search=total_pages)
+            # Find the song using pre-rendered images
+            actual_pdf_index = self._find_song_in_images(
+                page_images, 
+                entry.song_title, 
+                search_start, 
+                total_pages
+            )
             
             if actual_pdf_index is None:
                 logger.warning(f"Could not find '{entry.song_title}' - skipping")
@@ -125,6 +135,9 @@ class PageMapperService:
             else:
                 offset_from_expected = actual_pdf_index - expected_pdf_index
                 logger.info(f"Found '{entry.song_title}' at PDF index {actual_pdf_index} (expected {expected_pdf_index}, offset={offset_from_expected:+d})")
+            
+            # Next search starts after this song
+            search_start = actual_pdf_index + 1
         
         doc.close()
         
@@ -145,6 +158,153 @@ class PageMapperService:
             samples_verified=verified_count,
             song_locations=song_locations
         )
+    
+    def _render_all_pages(self, doc: fitz.Document) -> List[bytes]:
+        """
+        Pre-render all pages of the PDF to PNG images.
+        
+        This is done upfront as a one-time cost, allowing efficient
+        searching through the document without re-rendering pages.
+        
+        Args:
+            doc: PyMuPDF document
+        
+        Returns:
+            List of PNG image bytes, one per page
+        """
+        page_images = []
+        total_pages = len(doc)
+        
+        for i in range(total_pages):
+            try:
+                page = doc[i]
+                # Render at 72 DPI to stay under 5MB Bedrock limit
+                pix = page.get_pixmap(dpi=72)
+                img_bytes = pix.tobytes("png")
+                page_images.append(img_bytes)
+                
+                if (i + 1) % 10 == 0:
+                    logger.info(f"Rendered {i + 1}/{total_pages} pages...")
+            except Exception as e:
+                logger.error(f"Error rendering page {i}: {e}")
+                # Add empty bytes as placeholder
+                page_images.append(b'')
+        
+        return page_images
+    
+    def _find_song_in_images(self, page_images: List[bytes], song_title: str, 
+                            start_index: int, total_pages: int) -> Optional[int]:
+        """
+        Search through pre-rendered images to find a page with the given song title.
+        
+        Args:
+            page_images: List of pre-rendered PNG image bytes
+            song_title: Song title to find
+            start_index: PDF index to start searching from
+            total_pages: Total pages in document
+        
+        Returns:
+            PDF index where song starts, or None if not found
+        """
+        for pdf_index in range(start_index, total_pages):
+            if pdf_index >= len(page_images):
+                break
+            
+            img_bytes = page_images[pdf_index]
+            if not img_bytes:
+                continue
+            
+            # Check if this page has the song title using vision
+            if self._verify_image_match(img_bytes, song_title):
+                return pdf_index
+        
+        return None
+    
+    def _verify_image_match(self, img_bytes: bytes, expected_title: str) -> bool:
+        """
+        Use Bedrock vision to verify if song title appears in pre-rendered image.
+        
+        Args:
+            img_bytes: PNG image bytes
+            expected_title: Expected song title
+        
+        Returns:
+            True if title found in image
+        """
+        if not self.use_vision:
+            return False
+        
+        try:
+            import base64
+            import io
+            from PIL import Image
+            
+            # Load image from bytes
+            img = Image.open(io.BytesIO(img_bytes))
+            
+            # Convert to base64
+            img_buffer = io.BytesIO()
+            img.save(img_buffer, format='PNG')
+            img_buffer.seek(0)
+            image_base64 = base64.b64encode(img_buffer.getvalue()).decode('utf-8')
+            
+            # Construct prompt
+            prompt = f"""Look at this sheet music page. Does the song title "{expected_title}" appear anywhere on this page?
+
+The title might be:
+- At the top of the page
+- In various fonts or styles
+- Part of a header or footer
+- Abbreviated or slightly different
+
+Answer with ONLY "YES" or "NO" - nothing else.
+
+If you see "{expected_title}" or something very similar to it on the page, answer YES.
+If you don't see it at all, answer NO."""
+
+            # Call Bedrock
+            request_body = {
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 10,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "image",
+                                "source": {
+                                    "type": "base64",
+                                    "media_type": "image/png",
+                                    "data": image_base64
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": prompt
+                            }
+                        ]
+                    }
+                ],
+                "temperature": 0.0
+            }
+            
+            body_json = json.dumps(request_body)
+            
+            response = self.bedrock_runtime.invoke_model(
+                modelId='anthropic.claude-3-sonnet-20240229-v1:0',
+                body=body_json
+            )
+            
+            response_body = json.loads(response['body'].read())
+            response_text = response_body['content'][0]['text'].strip().upper()
+            
+            result = response_text == "YES"
+            logger.debug(f"Vision verification for '{expected_title}': {response_text} -> {result}")
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error in vision verification: {e}")
+            return False
     
     def _find_song_forward(self, doc: fitz.Document, song_title: str, 
                           start_index: int, total_pages: int, max_search: int = 20) -> Optional[int]:

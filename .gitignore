@@ -56,3 +56,13 @@ Thumbs.db
 
 # State files
 state_machine_current.json
+
+# PDF directories (large files, not for version control)
+SheetMusic/
+SheetMusicIndividualSheets/
+ProcessedSongs/
+
+# Verification cache and results
+verification_results/
+verification_checkpoint.json
+pdf_verification.log

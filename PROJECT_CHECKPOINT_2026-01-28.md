@@ -7,19 +7,19 @@
 
 ## 🎯 Executive Summary
 
-The SheetMusic Book Splitter is a **production-operational AWS serverless pipeline** that automatically processes songbook PDFs, extracts Table of Contents, and splits them into individual per-song PDF files. The system has successfully processed **541 out of 562 source books (96.3%)** with only **21 books remaining** to be processed.
+The SheetMusic Book Splitter is a **production-operational AWS serverless pipeline** that automatically processes songbook PDFs, extracts Table of Contents, and splits them into individual per-song PDF files. The system has successfully processed **541 out of 561 source books (96.4%)** with only **15-20 books remaining** to be processed.
 
 ### Current State
 - ✅ **Architecture**: Fully deployed and operational
 - ✅ **Infrastructure**: All AWS resources deployed and tested
 - ✅ **Processing**: 541 books successfully expanded into individual songs
 - ✅ **Code Quality**: 244/245 unit tests passing (99.6%)
-- ⚠️ **Remaining Work**: 21 books need processing, minor documentation updates
+- ⚠️ **Remaining Work**: 15-20 books need processing, minor documentation updates
 
 ### Key Metrics
-- **Total Source Books**: 562
-- **Successfully Processed**: 541 (96.3%)
-- **Remaining to Process**: 21 (3.7%)
+- **Total Source Books**: 561
+- **Successfully Processed**: 541 (96.4%)
+- **Remaining to Process**: 15-20 (2.7-3.6%)
 - **Test Pass Rate**: 99.6% (244/245 tests)
 - **AWS Resources**: 29 deployed and operational
 - **Estimated Cost**: ~$250 for 500 books (well under $1,000 budget)
@@ -31,19 +31,19 @@ The SheetMusic Book Splitter is a **production-operational AWS serverless pipeli
 ### Book Inventory (As of 2026-01-28)
 
 **Source Location**: `C:\Work\AWSMusic\SheetMusic\`
-- Total PDF files in `*/books/` folders: **562**
+- Total PDF files in `*/books/` folders: **561**
 
 **Processed Location**: `C:\Work\AWSMusic\ProcessedSongs\`
 - Book folders with extracted songs: **541**
 - Empty folders (processing failed): **0**
-- Not yet processed: **21**
+- Not yet processed: **15-20**
 
-### Processing Success Rate: 96.3%
+### Processing Success Rate: 96.4%
 
 **Breakdown by Status**:
 ```
-EXPANDED (with PDFs):     541 books (96.3%)
-NOT_EXPANDED (missing):    21 books (3.7%)
+EXPANDED (with PDFs):     541 books (96.4%)
+NOT_EXPANDED (missing):    15-20 books (2.7-3.6%)
 EMPTY_FOLDER (failed):      0 books (0.0%)
 ```
 
@@ -262,19 +262,21 @@ Get-Content source-books-status-final.csv | Where-Object { $_ -match "NOT_EXPAND
 
 ### Critical Path (Estimated: 2-4 hours)
 
-#### 1. Process Remaining 21 Books
+#### 1. Process Remaining 15-20 Books
 **Status**: Ready to execute  
 **Estimated Time**: 2-3 hours
 
 **Books to Process**:
-- 21 books marked as "NOT_EXPANDED" in `source-books-status-final.csv`
+- 15 books confirmed as NOT_EXPANDED in `source-books-status-final.csv`
+- 5 additional books to be identified (fuzzy matching false positives)
 - These are books that were never attempted or failed in previous runs
 
 **Action Items**:
-1. Create batch processing script for remaining 21 books
-2. Process in small batches (5 books at a time) to avoid rate limiting
-3. Monitor executions and download results
-4. Verify all 21 books complete successfully
+1. User to identify the 5 additional NOT_EXPANDED books
+2. Create batch processing script for remaining 15-20 books
+3. Process in small batches (5 books at a time) to avoid rate limiting
+4. Monitor executions and download results
+5. Verify all 15-20 books complete successfully
 
 **Script Template**:
 ```powershell
@@ -384,9 +386,9 @@ Based on actual execution data:
 - Other Services: ~$0.005
 - **Total Per Book**: ~$0.07
 
-### Projected Total Cost (562 Books)
+### Projected Total Cost (561 Books)
 - Already Processed: 541 books × $0.07 = ~$38
-- Remaining: 21 books × $0.07 = ~$1.50
+- Remaining: 15-20 books × $0.07 = ~$1.50
 - **Total Project Cost**: ~$40
 
 **Well under $1,000 budget** ✅
@@ -549,7 +551,7 @@ git commit -m "Checkpoint 2026-01-28: 541/562 books processed (96.3% complete)
 
 - All AWS infrastructure deployed and operational
 - 541 books successfully processed into individual songs
-- 21 books remaining to process
+- 15-20 books remaining to process
 - 244/245 unit tests passing (99.6%)
 - Complete inventory reconciliation
 - Updated documentation and specifications"
@@ -695,7 +697,7 @@ The project will be considered **100% complete** when:
 - **2026-01-28**: Inventory reconciliation and checkpoint
 
 ### Remaining Milestones
-- **2026-01-29**: Process remaining 21 books
+- **2026-01-29**: Process remaining 15-20 books
 - **2026-01-30**: Final verification and documentation
 - **2026-01-31**: Project completion and handoff
 

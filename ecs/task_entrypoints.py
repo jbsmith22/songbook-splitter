@@ -14,6 +14,7 @@ import sys
 import logging
 import tempfile
 from pathlib import Path
+import fitz  # PyMuPDF
 
 # Configure logging
 logging.basicConfig(
@@ -119,13 +120,53 @@ def toc_parser_task():
         toc_discovery_json = s3_utils.read_bytes(bucket, key).decode('utf-8')
         toc_discovery_data = json.loads(toc_discovery_json)
         
-        # Extract TOC text from discovery results
-        toc_text = '\n'.join(toc_discovery_data.get('extracted_text', {}).values())
+        # Get TOC page numbers
+        toc_pages = toc_discovery_data.get('toc_pages', [])
         
-        # Parse TOC
-        parser = TOCParser()
-        book_metadata = {'artist': artist, 'book_name': book_name}
-        result = parser.parse_toc(toc_text, book_metadata)
+        if not toc_pages:
+            logger.error("No TOC pages identified")
+            sys.exit(1)
+        
+        # Download the source PDF to render TOC pages
+        source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
+        if not source_pdf_uri:
+            logger.error("SOURCE_PDF_URI environment variable not set")
+            sys.exit(1)
+        
+        with tempfile.TemporaryDirectory() as temp_dir:
+            pdf_path = os.path.join(temp_dir, 'input.pdf')
+            bucket, key = parse_s3_uri(source_pdf_uri)
+            s3_utils.download_file(bucket, key, pdf_path)
+            
+            # Render TOC pages as images
+            import fitz
+            from PIL import Image
+            import io
+            
+            doc = fitz.open(pdf_path)
+            toc_images = []
+            
+            for page_num in toc_pages:
+                if page_num < len(doc):
+                    page = doc[page_num]
+                    mat = fitz.Matrix(150/72, 150/72)  # 150 DPI
+                    pix = page.get_pixmap(matrix=mat)
+                    img_data = pix.tobytes("png")
+                    image = Image.open(io.BytesIO(img_data))
+                    toc_images.append(image)
+                    logger.info(f"Rendered TOC page {page_num}")
+            
+            doc.close()
+            
+            if not toc_images:
+                logger.error("No TOC images rendered")
+                sys.exit(1)
+            
+            # Parse TOC using Bedrock vision
+            from app.services.bedrock_parser import BedrockParserService
+            bedrock_service = BedrockParserService()
+            book_metadata = {'artist': artist, 'book_name': book_name}
+            result = bedrock_service.bedrock_vision_parse(toc_images, book_metadata)
         
         # Write result to S3
         output_key = f"artifacts/{book_id}/toc_parse.json"
@@ -204,40 +245,59 @@ def song_verifier_task():
             song_locations = [
                 SongLocation(
                     song_title=entry['song_title'],
-                    toc_page_number=entry['toc_page_number'],
-                    pdf_page_number=entry['pdf_page_number'],
+                    printed_page=entry['printed_page'],
+                    pdf_index=entry['pdf_index'],
                     artist=entry.get('artist', '')
                 )
-                for entry in page_mapping_data.get('mappings', [])
+                for entry in page_mapping_data.get('song_locations', [])
             ]
+            
+            # Filter out songs with invalid PDF indices
+            doc = fitz.open(pdf_path)
+            total_pages = len(doc)
+            doc.close()
+            
+            valid_song_locations = [
+                loc for loc in song_locations
+                if 0 <= loc.pdf_index < total_pages
+            ]
+            
+            if len(valid_song_locations) < len(song_locations):
+                logger.warning(f"Filtered out {len(song_locations) - len(valid_song_locations)} songs with invalid PDF indices (PDF has {total_pages} pages)")
+            
+            logger.info(f"Verifying {len(valid_song_locations)} song start pages")
             
             # Run verification
             service = SongVerifierService()
-            verified_songs = service.verify_song_starts(pdf_path, song_locations)
+            verified_songs = service.verify_song_starts(pdf_path, valid_song_locations)
+            
+            # Filter to only verified songs
+            verified_only = [v for v in verified_songs if v.verified]
+            
+            # Calculate page ranges
+            page_ranges = service.adjust_page_ranges(verified_only, total_pages)
             
             # Write result to S3
             output_key = f"artifacts/{book_id}/verified_songs.json"
             result_json = json.dumps({
                 'verified_songs': [
                     {
-                        'song_title': v.song_title,
-                        'start_page': v.start_page,
-                        'end_page': v.end_page,
-                        'artist': v.artist,
-                        'verification_confidence': v.verification_confidence,
-                        'verification_method': v.verification_method
+                        'song_title': pr.song_title,
+                        'start_page': pr.start_page,
+                        'end_page': pr.end_page,
+                        'artist': pr.artist
                     }
-                    for v in verified_songs
+                    for pr in page_ranges
                 ]
             })
             s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
             
-            logger.info(f"Song Verifier complete. Verified {len(verified_songs)} songs")
+            logger.info(f"Song Verifier complete. Verified {len(verified_only)}/{len(valid_song_locations)} songs successfully")
             
             # Output result for Step Functions
             print(json.dumps({
                 'book_id': book_id,
-                'verified_count': len(verified_songs),
+                'verified_count': len(verified_only),
                 'output_uri': f"s3://{output_bucket}/{output_key}"
             }))
             
@@ -311,10 +371,10 @@ def pdf_splitter_task():
                 'output_files': [
                     {
                         'song_title': f.song_title,
-                        's3_uri': f.s3_uri,
-                        'local_path': f.local_path,
+                        'artist': f.artist,
+                        'output_uri': f.output_uri,
                         'file_size_bytes': f.file_size_bytes,
-                        'page_count': f.page_count
+                        'page_range': f.page_range
                     }
                     for f in output_files
                 ]
@@ -344,6 +404,8 @@ def page_mapper_task():
     - SOURCE_PDF_URI: S3 URI of source PDF
     - TOC_PARSE_URI: S3 URI of TOC parse JSON
     - OUTPUT_BUCKET: S3 bucket for output
+    - ARTIST: Book-level artist (performer)
+    - BOOK_NAME: Book name
     """
     from app.services.page_mapper import PageMapperService
     from app.utils.s3_utils import S3Utils
@@ -356,6 +418,8 @@ def page_mapper_task():
     source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
     toc_parse_uri = os.environ.get('TOC_PARSE_URI')
     output_bucket = os.environ.get('OUTPUT_BUCKET')
+    book_artist = os.environ.get('ARTIST', '')  # Book-level artist
+    book_name = os.environ.get('BOOK_NAME', '')
     
     if not all([book_id, source_pdf_uri, toc_parse_uri, output_bucket]):
         logger.error("Missing required environment variables")
@@ -386,35 +450,44 @@ def page_mapper_task():
                 for entry in toc_parse_data.get('entries', [])
             ]
             
-            # Run page mapping
-            service = PageMapperService()
-            page_mapping = service.map_toc_to_pdf_pages(pdf_path, toc_entries)
+            # Run page mapping with vision enabled
+            # Pass TOC entries even if empty - they may contain artist info for fallback
+            logger.info(f"Initializing PageMapperService with {len(toc_entries)} TOC entries")
+            logger.info(f"Book-level artist: '{book_artist}', Book name: '{book_name}'")
+            service = PageMapperService(use_vision=True)
+            page_mapping = service.build_page_mapping(
+                pdf_path, 
+                toc_entries,
+                book_artist=book_artist,
+                book_name=book_name
+            )
             
             # Write result to S3
             output_key = f"artifacts/{book_id}/page_mapping.json"
             result_json = json.dumps({
-                'mappings': [
+                'offset': page_mapping.offset,
+                'confidence': page_mapping.confidence,
+                'samples_verified': page_mapping.samples_verified,
+                'song_locations': [
                     {
-                        'song_title': m.song_title,
-                        'toc_page_number': m.toc_page_number,
-                        'pdf_page_number': m.pdf_page_number,
-                        'confidence': m.confidence,
-                        'artist': m.artist
+                        'song_title': loc.song_title,
+                        'printed_page': loc.printed_page,
+                        'pdf_index': loc.pdf_index,
+                        'artist': loc.artist
                     }
-                    for m in page_mapping.mappings
-                ],
-                'unmapped_songs': page_mapping.unmapped_songs,
-                'mapping_method': page_mapping.mapping_method
+                    for loc in page_mapping.song_locations
+                ]
             })
             s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
             
-            logger.info(f"Page Mapper complete. Mapped {len(page_mapping.mappings)} songs")
+            logger.info(f"Page Mapper complete. Mapped {len(page_mapping.song_locations)} songs with offset {page_mapping.offset}")
             
             # Output result for Step Functions
             print(json.dumps({
                 'book_id': book_id,
-                'mapped_count': len(page_mapping.mappings),
-                'unmapped_count': len(page_mapping.unmapped_songs),
+                'mapped_count': len(page_mapping.song_locations),
+                'offset': page_mapping.offset,
+                'confidence': page_mapping.confidence,
                 'output_uri': f"s3://{output_bucket}/{output_key}"
             }))
             
@@ -429,6 +502,7 @@ def manifest_generator_task():
     
     Environment variables:
     - BOOK_ID: Unique book identifier
+    - SOURCE_PDF_URI: S3 URI of source PDF
     - ARTIST: Book artist
     - BOOK_NAME: Book name
     - OUTPUT_BUCKET: S3 bucket for output
@@ -440,11 +514,12 @@ def manifest_generator_task():
     
     # Get input from environment
     book_id = os.environ.get('BOOK_ID')
+    source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
     artist = os.environ.get('ARTIST')
     book_name = os.environ.get('BOOK_NAME')
     output_bucket = os.environ.get('OUTPUT_BUCKET')
     
-    if not all([book_id, artist, book_name, output_bucket]):
+    if not all([book_id, source_pdf_uri, artist, book_name, output_bucket]):
         logger.error("Missing required environment variables")
         sys.exit(1)
     
@@ -474,12 +549,18 @@ def manifest_generator_task():
         service = ManifestGeneratorService()
         manifest = service.generate_manifest(
             book_id=book_id,
+            source_pdf=source_pdf_uri,
             artist=artist,
             book_name=book_name,
-            toc_discovery_data=toc_discovery_data,
-            toc_parse_data=toc_parse_data,
-            page_mapping_data=page_mapping_data,
-            output_files_data=output_files_data
+            toc_discovery=None,  # Could reconstruct from data if needed
+            toc_parse=None,  # Could reconstruct from data if needed
+            page_mapping=None,  # Could reconstruct from data if needed
+            verification_results=None,
+            output_files=None,  # Could reconstruct from data if needed
+            processing_start=None,
+            processing_end=None,
+            warnings=None,
+            errors=None
         )
         
         # Write manifest to S3

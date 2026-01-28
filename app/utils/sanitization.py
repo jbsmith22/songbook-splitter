@@ -18,6 +18,99 @@ INVALID_CHARS_PATTERN = re.compile(r'[<>:"/\\|?*\x00-\x1F\x7F]')
 MAX_FILENAME_LENGTH = 200
 
 
+def to_title_case(text: str) -> str:
+    """
+    Convert text to Title Case while preserving certain patterns.
+    
+    Rules:
+    - First letter of each word capitalized
+    - Rest lowercase
+    - Preserve apostrophes and special characters
+    - Handle special cases like "O'Riley", "U.S.S.R.", etc.
+    
+    Args:
+        text: Text to convert
+    
+    Returns:
+        Title cased text
+    
+    Examples:
+        >>> to_title_case("HELLO WORLD")
+        'Hello World'
+        >>> to_title_case("don't stop")
+        "Don't Stop"
+        >>> to_title_case("BACK IN THE U.S.S.R.")
+        'Back In The U.s.s.r.'
+    """
+    if not text:
+        return text
+    
+    # Simple title case - capitalize first letter of each word
+    words = text.split()
+    title_cased = []
+    
+    for word in words:
+        if not word:
+            continue
+        
+        # Handle words with apostrophes (e.g., "don't" -> "Don't", "O'Riley" -> "O'riley")
+        if "'" in word:
+            parts = word.split("'")
+            # Capitalize first part, lowercase rest
+            titled_parts = [parts[0].capitalize()] + [p.lower() for p in parts[1:]]
+            title_cased.append("'".join(titled_parts))
+        else:
+            # Standard title case
+            title_cased.append(word.capitalize())
+    
+    return ' '.join(title_cased)
+
+
+def clean_artist_name(artist: str) -> str:
+    """
+    Clean and normalize artist names.
+    
+    - Converts to Title Case
+    - Replaces "Unknown Artist" variants
+    - Cleans up long descriptive names
+    - Removes "from the motion picture" type prefixes
+    
+    Args:
+        artist: Raw artist name
+    
+    Returns:
+        Cleaned artist name
+    """
+    if not artist:
+        return "Unknown Artist"
+    
+    # Normalize whitespace
+    artist = ' '.join(artist.split())
+    
+    # Handle "no artist" cases
+    if any(phrase in artist.lower() for phrase in [
+        "no artist", "not provided", "unknown", "artist name is not"
+    ]):
+        return "Unknown Artist"
+    
+    # Remove "from the motion picture" type prefixes
+    if "from the" in artist.lower() and "(" in artist:
+        # Extract just the names from parentheses
+        import re
+        match = re.search(r'\(.*?by\s+([^)]+)\)', artist, re.IGNORECASE)
+        if match:
+            artist = match.group(1)
+    
+    # Remove "Words and Music by" prefix
+    if artist.lower().startswith("words and music by"):
+        artist = artist[18:].strip()
+    
+    # Convert to title case
+    artist = to_title_case(artist)
+    
+    return artist
+
+
 def sanitize_filename(filename: str, replacement: str = "-") -> str:
     """
     Sanitize a filename to be safe for Windows filesystems and S3.
@@ -84,25 +177,24 @@ def sanitize_artist_name(artist: str) -> str:
     
     Examples:
         >>> sanitize_artist_name("Artist feat. Other")
-        'Artist feat Other'
+        'Artist Feat Other'
         >>> sanitize_artist_name("Artist/Band")
         'Artist-Band'
     """
-    # Import here to avoid circular dependency
-    from .artist_resolution import normalize_artist_name as normalize_artist
-    
     if not artist:
         return "Unknown Artist"
     
-    # Use the artist resolution module for normalization
-    normalized = normalize_artist(artist)
+    # Clean and normalize the artist name
+    cleaned = clean_artist_name(artist)
     
-    # Apply additional filename sanitization if needed
-    # (normalize_artist already handles most of this, but we ensure length limits)
-    if len(normalized) > MAX_FILENAME_LENGTH:
-        normalized = normalized[:MAX_FILENAME_LENGTH].rstrip('. ')
+    # Apply filename sanitization
+    sanitized = sanitize_filename(cleaned)
     
-    return normalized
+    # Ensure length limits
+    if len(sanitized) > MAX_FILENAME_LENGTH:
+        sanitized = sanitized[:MAX_FILENAME_LENGTH].rstrip('. ')
+    
+    return sanitized
 
 
 def sanitize_song_title(title: str) -> str:
@@ -113,17 +205,21 @@ def sanitize_song_title(title: str) -> str:
         title: The song title to sanitize
     
     Returns:
-        A sanitized song title
+        A sanitized song title in Title Case
     
     Examples:
-        >>> sanitize_song_title("Song: Part 1")
+        >>> sanitize_song_title("SONG: PART 1")
         'Song- Part 1'
-        >>> sanitize_song_title("Song (Live Version)")
+        >>> sanitize_song_title("song (live version)")
         'Song (Live Version)'
     """
     if not title:
         return "Untitled"
     
+    # Convert to title case first
+    title = to_title_case(title)
+    
+    # Then sanitize for filesystem
     return sanitize_filename(title)
 
 
@@ -135,21 +231,24 @@ def sanitize_book_name(book_name: str) -> str:
         book_name: The book name to sanitize
     
     Returns:
-        A sanitized book name
+        A sanitized book name in Title Case
     
     Examples:
-        >>> sanitize_book_name("Greatest Hits: Volume 1")
+        >>> sanitize_book_name("GREATEST HITS: VOLUME 1")
         'Greatest Hits- Volume 1'
     """
     if not book_name:
         return "Unknown Book"
+    
+    # Convert to title case
+    book_name = to_title_case(book_name)
     
     return sanitize_filename(book_name)
 
 
 def generate_output_filename(artist: str, song_title: str, extension: str = "pdf") -> str:
     """
-    Generate a complete output filename in the format: <Artist>-<SongTitle>.<extension>
+    Generate a complete output filename in the format: <Artist> - <SongTitle>.<extension>
     
     Args:
         artist: The artist name
@@ -157,19 +256,19 @@ def generate_output_filename(artist: str, song_title: str, extension: str = "pdf
         extension: File extension (default: "pdf")
     
     Returns:
-        A sanitized filename in the format: Artist-SongTitle.pdf
+        A sanitized filename in the format: Artist - SongTitle.pdf
     
     Examples:
         >>> generate_output_filename("The Beatles", "Hey Jude")
-        'The Beatles-Hey Jude.pdf'
-        >>> generate_output_filename("Artist: Name", "Song/Title")
-        'Artist- Name-Song-Title.pdf'
+        'The Beatles - Hey Jude.pdf'
+        >>> generate_output_filename("ARTIST: NAME", "SONG/TITLE")
+        'Artist- Name - Song-Title.pdf'
     """
     sanitized_artist = sanitize_artist_name(artist)
     sanitized_title = sanitize_song_title(song_title)
     
-    # Combine with hyphen separator
-    base_name = f"{sanitized_artist}-{sanitized_title}"
+    # Combine with " - " separator (space-dash-space)
+    base_name = f"{sanitized_artist} - {sanitized_title}"
     
     # Ensure the complete filename (with extension) doesn't exceed the limit
     max_base_length = MAX_FILENAME_LENGTH - len(extension) - 1  # -1 for the dot
@@ -187,34 +286,39 @@ def generate_output_path(
     song_artist: Optional[str] = None
 ) -> str:
     """
-    Generate a complete S3 output path for a song PDF.
+    Generate an S3 key (not full URI) for a song PDF.
     
-    Format: s3://<OUTPUT_BUCKET>/SheetMusicOut/<ResolvedArtist>/books/<BookName>/<ResolvedArtist>-<SongTitle>.pdf
+    Format: <BookArtist>/<BookName>/Songs/<Artist> - <SongTitle>.pdf
+    
+    The artist in the filename is determined by:
+    - For Various Artists books: Use song_artist (each song has its own artist)
+    - For single-artist books: Use book artist (all songs by same artist)
     
     Args:
-        output_bucket: The S3 bucket name
-        artist: The book-level artist name
+        output_bucket: The S3 bucket name (not used, kept for compatibility)
+        artist: The book-level artist name (used for directory AND filename for single-artist books)
         book_name: The book name
         song_title: The song title
-        song_artist: Optional song-level artist (for Various Artists books)
+        song_artist: Song-level artist (only used for Various Artists books)
     
     Returns:
-        A complete S3 path for the output file
+        An S3 key (path without bucket) for the output file
     
     Examples:
-        >>> generate_output_path("my-bucket", "The Beatles", "Abbey Road", "Come Together")
-        's3://my-bucket/SheetMusicOut/The Beatles/books/Abbey Road/The Beatles-Come Together.pdf'
+        >>> generate_output_path("my-bucket", "The Beatles", "Abbey Road", "Come Together", "The Beatles")
+        'The Beatles/Abbey Road/Songs/The Beatles - Come Together.pdf'
         >>> generate_output_path("my-bucket", "Various Artists", "Hits", "Song", "Artist A")
-        's3://my-bucket/SheetMusicOut/Artist A/books/Hits/Artist A-Song.pdf'
+        'Various Artists/Hits/Songs/Artist A - Song.pdf'
     """
-    # Resolve artist (song-level overrides book-level)
-    resolved_artist = song_artist if song_artist else artist
-    
     # Sanitize all components
-    sanitized_artist = sanitize_artist_name(resolved_artist)
+    sanitized_book_artist = sanitize_artist_name(artist)
     sanitized_book = sanitize_book_name(book_name)
-    filename = generate_output_filename(sanitized_artist, song_title)
     
-    # Construct S3 path
-    # Note: S3 uses forward slashes, which is fine since we've sanitized the components
-    return f"s3://{output_bucket}/SheetMusicOut/{sanitized_artist}/books/{sanitized_book}/{filename}"
+    # For filename artist: The page mapper already determined the correct artist
+    # based on whether this is a Various Artists book or not.
+    # If song_artist is provided, use it. Otherwise use book artist.
+    resolved_filename_artist = song_artist if song_artist else artist
+    filename = generate_output_filename(resolved_filename_artist, song_title)
+    
+    # Construct S3 key: <BookArtist>/<BookName>/Songs/<filename>
+    return f"{sanitized_book_artist}/{sanitized_book}/Songs/{filename}"

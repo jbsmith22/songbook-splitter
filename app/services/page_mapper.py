@@ -39,20 +39,21 @@ class PageMapperService:
             use_vision: If True, use vision-based verification for image PDFs
         """
         self.use_vision = use_vision
+        self.bedrock_runtime = None
+        
         if use_vision:
             try:
                 import boto3
-                self.bedrock_runtime = boto3.client('bedrock-runtime')
+                self.bedrock_runtime = boto3.client('bedrock-runtime', region_name='us-east-1')
                 logger.info("PageMapperService initialized with vision support")
             except Exception as e:
-                logger.warning(f"Could not initialize Bedrock client: {e}")
-                self.use_vision = False
-                logger.info("PageMapperService initialized without vision support")
+                logger.error(f"CRITICAL: Could not initialize Bedrock client: {e}")
+                raise RuntimeError(f"Vision support required but Bedrock initialization failed: {e}")
         else:
             logger.info("PageMapperService initialized without vision support")
     
     def build_page_mapping(self, pdf_path: str, toc_entries: List[TOCEntry], 
-                          sample_size: int = 3) -> PageMapping:
+                          sample_size: int = 3, book_artist: str = "", book_name: str = "") -> PageMapping:
         """
         Calculate page mapping by pre-rendering all pages and finding songs using vision.
         
@@ -62,23 +63,34 @@ class PageMapperService:
         3. Uses vision to find each song's actual start page
         4. No on-demand rendering - everything is prepared first
         
+        If no TOC entries provided, falls back to scanning entire PDF for song starts.
+        
         Args:
             pdf_path: Path to PDF file
             toc_entries: List of TOC entries with printed page numbers (sorted)
             sample_size: Number of entries to sample for verification (unused, kept for compatibility)
+            book_artist: Book-level artist (performer) - used as default for single-artist books
+            book_name: Book name - used to determine if this is a Various Artists collection
         
         Returns:
             PageMapping with song locations
         """
+        logger.info(f"=== BUILD_PAGE_MAPPING CALLED ===")
+        logger.info(f"PDF path: {pdf_path}")
+        logger.info(f"TOC entries count: {len(toc_entries)}")
+        logger.info(f"Book artist: '{book_artist}'")
+        logger.info(f"Book name: '{book_name}'")
+        logger.info(f"Vision enabled: {self.use_vision}")
         logger.info(f"Building page mapping for {len(toc_entries)} TOC entries using vision verification")
         
+        # Determine if this is a Various Artists or special collection book
+        is_various_artists = self._is_various_artists_book(book_artist, book_name)
+        logger.info(f"Is Various Artists book: {is_various_artists}")
+        
         if not toc_entries:
-            return PageMapping(
-                offset=0,
-                confidence=0.0,
-                samples_verified=0,
-                song_locations=[]
-            )
+            logger.warning("=== NO TOC ENTRIES - TRIGGERING FALLBACK TO FULL PDF SCAN ===")
+            return self._scan_pdf_for_songs(pdf_path, toc_entries_for_reference=[], 
+                                           book_artist=book_artist, is_various_artists=is_various_artists)
         
         # Sort entries by page number to ensure correct order
         sorted_entries = sorted(toc_entries, key=lambda e: e.page_number)
@@ -100,13 +112,16 @@ class PageMapperService:
             logger.info(f"Finding '{entry.song_title}' (TOC page {entry.page_number})...")
             
             # Calculate expected PDF index based on initial offset (if we have one)
-            if i > 0:
+            if i > 0 and song_locations:  # Only use previous location if we have one
                 # For subsequent songs, start from expected position
                 prev_location = song_locations[-1]
                 toc_page_diff = entry.page_number - sorted_entries[i-1].page_number
                 expected_pdf_index = prev_location.pdf_index + toc_page_diff
                 # Start search a bit before expected position to account for offset variations
                 search_start = max(0, expected_pdf_index - 2)
+            else:
+                # For first song or if no previous songs found, search from beginning
+                search_start = 0
             
             # Find the song using pre-rendered images
             actual_pdf_index = self._find_song_in_images(
@@ -120,11 +135,33 @@ class PageMapperService:
                 logger.warning(f"Could not find '{entry.song_title}' - skipping")
                 continue
             
+            # Determine artist based on book type
+            if is_various_artists:
+                # For Various Artists books, use TOC artist or extract from page
+                artist = entry.artist
+                if not artist:
+                    logger.info(f"TOC artist missing for '{entry.song_title}', extracting from page {actual_pdf_index}")
+                    if actual_pdf_index < len(page_images):
+                        song_info = self._detect_song_start(page_images[actual_pdf_index])
+                        if song_info:
+                            _, vision_artist = song_info
+                            artist = vision_artist if vision_artist else "Unknown Artist"
+                            logger.info(f"Extracted artist from page: '{artist}'")
+                        else:
+                            artist = "Unknown Artist"
+                            logger.warning(f"Could not extract artist from page for '{entry.song_title}'")
+                    else:
+                        artist = "Unknown Artist"
+            else:
+                # For single-artist books, ALWAYS use the book-level artist
+                artist = book_artist if book_artist else "Unknown Artist"
+                logger.info(f"Using book-level artist '{artist}' for '{entry.song_title}'")
+            
             song_locations.append(SongLocation(
                 song_title=entry.song_title,
                 printed_page=entry.page_number,
                 pdf_index=actual_pdf_index,
-                artist=entry.artist
+                artist=artist
             ))
             
             verified_count += 1
@@ -166,6 +203,11 @@ class PageMapperService:
         This is done upfront as a one-time cost, allowing efficient
         searching through the document without re-rendering pages.
         
+        Ensures images stay under Bedrock's 5MB limit by:
+        - Starting at 72 DPI
+        - Reducing DPI if image exceeds 5MB
+        - Compressing with PIL if still too large
+        
         Args:
             doc: PyMuPDF document
             save_to_disk: If True, save PNG files to disk for debugging
@@ -175,9 +217,12 @@ class PageMapperService:
             List of PNG image bytes, one per page
         """
         import os
+        from PIL import Image
+        import io
         
         page_images = []
         total_pages = len(doc)
+        MAX_SIZE = 5 * 1024 * 1024  # 5MB in bytes
         
         # Create output directory if saving to disk
         if save_to_disk:
@@ -187,9 +232,33 @@ class PageMapperService:
         for i in range(total_pages):
             try:
                 page = doc[i]
-                # Render at 72 DPI to stay under 5MB Bedrock limit
-                pix = page.get_pixmap(dpi=72)
-                img_bytes = pix.tobytes("png")
+                
+                # Try rendering at different DPIs until we get under 5MB
+                for dpi in [72, 60, 50, 40]:
+                    pix = page.get_pixmap(dpi=dpi)
+                    img_bytes = pix.tobytes("png")
+                    
+                    if len(img_bytes) < MAX_SIZE:
+                        # Image is under limit, use it
+                        break
+                    
+                    if dpi == 40:
+                        # Even at lowest DPI, still too large - compress with PIL
+                        logger.warning(f"Page {i} still {len(img_bytes)} bytes at 40 DPI, compressing...")
+                        img = Image.open(io.BytesIO(img_bytes))
+                        
+                        # Convert to RGB if needed (remove alpha channel)
+                        if img.mode in ('RGBA', 'LA', 'P'):
+                            img = img.convert('RGB')
+                        
+                        # Compress with quality reduction
+                        output = io.BytesIO()
+                        img.save(output, format='JPEG', quality=85, optimize=True)
+                        img_bytes = output.getvalue()
+                        
+                        if len(img_bytes) >= MAX_SIZE:
+                            logger.error(f"Page {i} still {len(img_bytes)} bytes after compression, using anyway")
+                
                 page_images.append(img_bytes)
                 
                 # Save to disk if requested
@@ -327,6 +396,259 @@ Otherwise, answer NO."""
         except Exception as e:
             logger.error(f"Error in vision verification: {e}")
             return False
+    
+    def _is_various_artists_book(self, book_artist: str, book_name: str) -> bool:
+        """
+        Determine if this is a Various Artists or special collection book.
+        
+        Args:
+            book_artist: Book-level artist name
+            book_name: Book name
+        
+        Returns:
+            True if this is a Various Artists or special collection
+        """
+        # Normalize for comparison
+        artist_lower = book_artist.lower() if book_artist else ""
+        name_lower = book_name.lower() if book_name else ""
+        
+        # Check for Various Artists indicators
+        various_indicators = [
+            "various artists",
+            "various",
+            "compilation",
+            "fake book",
+            "fakebook",
+            "broadway",
+            "movie",
+            "tv",
+            "television",
+            "soundtrack",
+            "collection"
+        ]
+        
+        for indicator in various_indicators:
+            if indicator in artist_lower or indicator in name_lower:
+                return True
+        
+        return False
+    
+    def _scan_pdf_for_songs(self, pdf_path: str, toc_entries_for_reference: List[TOCEntry] = None,
+                           book_artist: str = "", is_various_artists: bool = False) -> PageMapping:
+        """
+        Scan entire PDF to find song starts when no TOC is available.
+        
+        Uses vision to detect pages that are the first page of a song.
+        If TOC entries are provided (even if incomplete), uses them to get artist names.
+        
+        Args:
+            pdf_path: Path to PDF file
+            toc_entries_for_reference: Optional TOC entries to use for artist name lookup
+            book_artist: Book-level artist (performer) - used as default for single-artist books
+            is_various_artists: Whether this is a Various Artists or special collection book
+        
+        Returns:
+            PageMapping with detected song locations
+        """
+        logger.info("=== _SCAN_PDF_FOR_SONGS CALLED ===")
+        logger.info(f"PDF path: {pdf_path}")
+        logger.info(f"Vision enabled: {self.use_vision}")
+        logger.info(f"Book artist: '{book_artist}'")
+        logger.info(f"Is Various Artists: {is_various_artists}")
+        logger.info(f"TOC entries for reference: {len(toc_entries_for_reference) if toc_entries_for_reference else 0}")
+        logger.info("Scanning entire PDF for song starts (no TOC available)")
+        
+        if not self.use_vision:
+            logger.error("CRITICAL: Vision is disabled but _scan_pdf_for_songs requires vision!")
+            return PageMapping(offset=0, confidence=0.0, samples_verified=0, song_locations=[])
+        
+        # Build a lookup map from song title to artist from TOC entries
+        toc_artist_map = {}
+        if toc_entries_for_reference:
+            for entry in toc_entries_for_reference:
+                # Normalize song title for matching
+                normalized_title = self._normalize_text(entry.song_title)
+                toc_artist_map[normalized_title] = entry.artist
+            logger.info(f"Built TOC artist lookup map with {len(toc_artist_map)} entries")
+        
+        doc = fitz.open(pdf_path)
+        total_pages = len(doc)
+        
+        # Pre-render all pages
+        logger.info(f"Pre-rendering all {total_pages} pages to PNG...")
+        page_images = self._render_all_pages(doc)
+        logger.info(f"Pre-rendering complete. {len(page_images)} pages ready.")
+        
+        # Scan each page to detect song starts
+        song_locations = []
+        
+        for pdf_index in range(total_pages):
+            if pdf_index >= len(page_images):
+                break
+            
+            img_bytes = page_images[pdf_index]
+            if not img_bytes:
+                continue
+            
+            # Check if this is a song start page
+            song_info = self._detect_song_start(img_bytes)
+            
+            if song_info:
+                song_title, vision_artist = song_info
+                
+                # Determine artist based on book type
+                if is_various_artists:
+                    # For Various Artists books, try TOC first, then vision, then Unknown
+                    normalized_title = self._normalize_text(song_title)
+                    toc_artist = toc_artist_map.get(normalized_title)
+                    
+                    if toc_artist:
+                        artist = toc_artist
+                        logger.info(f"Found song start at PDF index {pdf_index}: '{song_title}' by {artist} (from TOC)")
+                    else:
+                        artist = vision_artist if vision_artist else "Unknown Artist"
+                        logger.info(f"Found song start at PDF index {pdf_index}: '{song_title}' by {artist} (from vision)")
+                else:
+                    # For single-artist books, ALWAYS use the book-level artist
+                    artist = book_artist if book_artist else "Unknown Artist"
+                    logger.info(f"Found song start at PDF index {pdf_index}: '{song_title}' by {artist} (book-level artist)")
+                
+                song_locations.append(SongLocation(
+                    song_title=song_title,
+                    printed_page=pdf_index,  # Use PDF index as printed page when no TOC
+                    pdf_index=pdf_index,
+                    artist=artist
+                ))
+        
+        doc.close()
+        
+        confidence = 1.0 if song_locations else 0.0
+        
+        logger.info(f"PDF scan complete: found {len(song_locations)} songs")
+        
+        return PageMapping(
+            offset=0,  # No offset when scanning directly
+            confidence=confidence,
+            samples_verified=len(song_locations),
+            song_locations=song_locations
+        )
+    
+    def _detect_song_start(self, img_bytes: bytes) -> Optional[Tuple[str, str]]:
+        """
+        Use Bedrock vision to detect if this is a song start page and extract title/artist.
+        
+        Args:
+            img_bytes: PNG image bytes
+        
+        Returns:
+            Tuple of (song_title, artist) if this is a song start, None otherwise
+        """
+        if not self.use_vision:
+            return None
+        
+        try:
+            import base64
+            import io
+            from PIL import Image
+            
+            # Load image from bytes
+            img = Image.open(io.BytesIO(img_bytes))
+            
+            # Convert to base64
+            img_buffer = io.BytesIO()
+            img.save(img_buffer, format='PNG')
+            img_buffer.seek(0)
+            image_base64 = base64.b64encode(img_buffer.getvalue()).decode('utf-8')
+            
+            # Construct prompt
+            prompt = """Look at this sheet music page. Is this the FIRST PAGE of a song?
+
+A song's first page has:
+- A song title prominently displayed at the top
+- Music staffs with notes (actual sheet music)
+- Usually has the artist name
+
+This is NOT a song start if:
+- It's just a title page with no music
+- It's a table of contents
+- The text appears as lyrics within the music (not as a title)
+- It's a continuation page of another song
+
+If this IS the first page of a song, respond with:
+SONG: <song title>
+ARTIST: <artist name>
+
+If this is NOT the first page of a song, respond with:
+NO
+
+Examples:
+- If you see "ALONE" at the top with music and "Heart" as artist: "SONG: Alone\nARTIST: Heart"
+- If you see a table of contents: "NO"
+- If you see a title page with no music: "NO"
+- If you see music but no clear title at top: "NO"
+"""
+
+            # Call Bedrock
+            request_body = {
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 100,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "image",
+                                "source": {
+                                    "type": "base64",
+                                    "media_type": "image/png",
+                                    "data": image_base64
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": prompt
+                            }
+                        ]
+                    }
+                ],
+                "temperature": 0.0
+            }
+            
+            body_json = json.dumps(request_body)
+            
+            response = self.bedrock_runtime.invoke_model(
+                modelId='anthropic.claude-3-sonnet-20240229-v1:0',
+                body=body_json
+            )
+            
+            response_body = json.loads(response['body'].read())
+            response_text = response_body['content'][0]['text'].strip()
+            
+            # Parse response
+            if response_text.upper() == "NO":
+                return None
+            
+            # Extract song title and artist
+            song_title = None
+            artist = None
+            
+            for line in response_text.split('\n'):
+                line = line.strip()
+                if line.startswith('SONG:'):
+                    song_title = line[5:].strip()
+                elif line.startswith('ARTIST:'):
+                    artist = line[7:].strip()
+            
+            if song_title:
+                artist = artist or "Unknown Artist"
+                logger.debug(f"Detected song start: '{song_title}' by {artist}")
+                return (song_title, artist)
+            
+            return None
+            
+        except Exception as e:
+            logger.error(f"Error detecting song start: {e}")
+            return None
     
     def _find_song_forward(self, doc: fitz.Document, song_title: str, 
                           start_index: int, total_pages: int, max_search: int = 20) -> Optional[int]:

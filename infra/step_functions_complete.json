@@ -158,6 +158,10 @@
                   "Value.$": "$.book_name"
                 },
                 {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
                   "Name": "OUTPUT_BUCKET",
                   "Value": "jsmith-output"
                 }
@@ -404,6 +408,10 @@
                 {
                   "Name": "BOOK_ID",
                   "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
                 },
                 {
                   "Name": "ARTIST",

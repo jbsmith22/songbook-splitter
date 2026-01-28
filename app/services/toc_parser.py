@@ -59,55 +59,40 @@ class TOCParser:
         """
         logger.info("Starting TOC parsing")
         
-        # Try deterministic parsing first
+        # Try Bedrock parsing FIRST (it's more reliable)
+        if self.use_bedrock_fallback:
+            logger.info("Attempting Bedrock parsing (primary method)")
+            from app.services.bedrock_parser import BedrockParserService
+            
+            bedrock_service = BedrockParserService(local_mode=self.local_mode)
+            bedrock_result = bedrock_service.bedrock_fallback_parse(toc_text, book_metadata)
+            
+            # If Bedrock succeeded with good results, use it
+            if bedrock_result.entries and len(bedrock_result.entries) >= 5:
+                logger.info(f"Bedrock parsing succeeded with {len(bedrock_result.entries)} entries")
+                return bedrock_result
+            
+            logger.warning(f"Bedrock parsing produced only {len(bedrock_result.entries) if bedrock_result.entries else 0} entries")
+        
+        # Try deterministic parsing as fallback
+        logger.info("Attempting deterministic parsing (fallback)")
         entries = self.deterministic_parse(toc_text)
         
-        if entries and len(entries) >= 10:
+        if entries and len(entries) >= 5:
             # Deterministic parsing succeeded
             logger.info(f"Deterministic parsing succeeded with {len(entries)} entries")
             artist_overrides = self.extract_artist_overrides(entries)
             return TOCParseResult(
                 entries=entries,
                 extraction_method='deterministic',
-                confidence=0.95,
+                confidence=0.85,
                 artist_overrides=artist_overrides
             )
         
-        # Deterministic parsing failed or insufficient entries
-        if entries:
-            logger.warning(f"Deterministic parsing produced only {len(entries)} entries")
-        else:
-            logger.warning("Deterministic parsing produced no entries")
-        
-        # Try Bedrock fallback if enabled
-        if self.use_bedrock_fallback:
-            logger.info("Attempting Bedrock fallback parsing")
-            from app.services.bedrock_parser import BedrockParserService
-            
-            bedrock_service = BedrockParserService(local_mode=self.local_mode)
-            bedrock_result = bedrock_service.bedrock_fallback_parse(toc_text, book_metadata)
-            
-            # If Bedrock succeeded, return its result
-            if bedrock_result.entries and len(bedrock_result.entries) >= 10:
-                return bedrock_result
-            
-            # If Bedrock also failed, return best available result
-            if bedrock_result.entries and len(bedrock_result.entries) > len(entries or []):
-                return bedrock_result
-        
-        # Return deterministic result (even if insufficient)
-        if entries:
-            artist_overrides = self.extract_artist_overrides(entries)
-            return TOCParseResult(
-                entries=entries,
-                extraction_method='deterministic',
-                confidence=0.5,
-                artist_overrides=artist_overrides
-            )
-        
-        # Complete failure
+        # Both methods failed
+        logger.error("Both Bedrock and deterministic parsing failed to produce sufficient entries")
         return TOCParseResult(
-            entries=[],
+            entries=entries or [],
             extraction_method='failed',
             confidence=0.0,
             artist_overrides={}

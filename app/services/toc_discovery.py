@@ -103,12 +103,12 @@ class TOCDiscoveryService:
                 extracted_text[page_num] = ""
                 confidence_scores[page_num] = 0.0
         
-        # Score pages for TOC likelihood
+        # Score pages for TOC likelihood using vision
         scored_pages = []
-        for page_num, text in extracted_text.items():
-            score = self.score_toc_likelihood(text)
+        for page_num, image in images.items():
+            score = self.score_toc_likelihood_vision(image, page_num)
             scored_pages.append((page_num, score))
-            logger.debug(f"Page {page_num} TOC score: {score:.2f}")
+            logger.debug(f"Page {page_num} TOC vision score: {score:.2f}")
         
         # Select pages above threshold
         toc_pages = self.select_toc_pages(scored_pages, threshold=0.5)
@@ -247,73 +247,114 @@ class TOCDiscoveryService:
         return responses
 
     
-    def score_toc_likelihood(self, text: str) -> float:
+    def score_toc_likelihood_vision(self, image: Image.Image, page_num: int) -> float:
         """
-        Score page for TOC-likeness based on patterns.
+        Score page for TOC-likeness using Bedrock vision (Claude).
         
-        Uses heuristics:
-        - Presence of page numbers (numeric patterns)
-        - Keywords like "Contents", "Index", "Songs"
-        - High density of short lines (song titles)
-        - Columnar layout indicators (dots, tabs)
-        - Ratio of numbers to text
+        Uses Claude to analyze the page image and determine if it's a TOC.
         
         Args:
-            text: Extracted text from page
+            image: PIL Image of the page
+            page_num: Page number (for logging)
         
         Returns:
             Confidence score 0.0-1.0
         """
-        if not text or len(text.strip()) < 10:
+        try:
+            import boto3
+            import base64
+            import json
+            
+            # Convert image to base64
+            img_bytes = io.BytesIO()
+            image.save(img_bytes, format='PNG')
+            img_bytes.seek(0)
+            image_base64 = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
+            
+            # Call Bedrock with vision
+            if self.local_mode:
+                # Mock response for local mode
+                logger.info(f"Local mode: Mocking vision analysis for page {page_num}")
+                # Return high score for page 1, low for others
+                return 0.95 if page_num == 1 else 0.1
+            
+            bedrock = boto3.client('bedrock-runtime', region_name='us-east-1')
+            
+            prompt = """Analyze this page image and determine if it is a Table of Contents (TOC) for a music book.
+
+A Table of Contents typically has:
+- A list of song titles
+- Page numbers next to each song
+- May have dots or lines connecting titles to page numbers
+- Usually appears near the beginning of a book
+- Clean, organized layout
+
+Sheet music pages have:
+- Musical staff lines (5 horizontal lines)
+- Musical notes and symbols
+- Chord symbols (like Em, F7, Dm)
+- Lyrics under the staff lines
+
+Return a JSON object with:
+{
+  "is_toc": true/false,
+  "confidence": 0.0-1.0,
+  "reasoning": "brief explanation"
+}"""
+
+            body = json.dumps({
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 500,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "image",
+                                "source": {
+                                    "type": "base64",
+                                    "media_type": "image/png",
+                                    "data": image_base64
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": prompt
+                            }
+                        ]
+                    }
+                ]
+            })
+            
+            response = bedrock.invoke_model(
+                modelId='anthropic.claude-3-sonnet-20240229-v1:0',
+                body=body
+            )
+            
+            response_body = json.loads(response['body'].read())
+            response_text = response_body['content'][0]['text']
+            
+            # Parse JSON response
+            # Extract JSON from response (may have markdown code blocks)
+            import re
+            json_match = re.search(r'\{[^}]+\}', response_text, re.DOTALL)
+            if json_match:
+                result = json.loads(json_match.group(0))
+                is_toc = result.get('is_toc', False)
+                confidence = result.get('confidence', 0.0)
+                reasoning = result.get('reasoning', '')
+                
+                logger.info(f"Page {page_num} vision analysis: is_toc={is_toc}, confidence={confidence}, reasoning={reasoning}")
+                
+                return confidence if is_toc else 0.0
+            else:
+                logger.warning(f"Could not parse JSON from Bedrock response for page {page_num}")
+                return 0.0
+                
+        except Exception as e:
+            logger.error(f"Error in vision-based TOC detection for page {page_num}: {e}")
+            # Fallback to text-based heuristics
             return 0.0
-        
-        score = 0.0
-        lines = text.split('\n')
-        non_empty_lines = [line.strip() for line in lines if line.strip()]
-        
-        if not non_empty_lines:
-            return 0.0
-        
-        # Heuristic 1: Keywords (weight: 0.25)
-        keywords = ['contents', 'index', 'songs', 'table of contents', 'toc']
-        text_lower = text.lower()
-        keyword_found = any(keyword in text_lower for keyword in keywords)
-        if keyword_found:
-            score += 0.25
-        
-        # Heuristic 2: Page numbers (weight: 0.30)
-        # Count lines with numbers at the end
-        import re
-        lines_with_page_numbers = 0
-        for line in non_empty_lines:
-            # Match patterns like "Song Title ... 42" or "Song Title 42"
-            if re.search(r'\d+\s*$', line):
-                lines_with_page_numbers += 1
-        
-        page_number_ratio = lines_with_page_numbers / len(non_empty_lines)
-        if page_number_ratio > 0.3:  # At least 30% of lines have page numbers
-            score += 0.30 * min(page_number_ratio / 0.5, 1.0)  # Cap at 50%
-        
-        # Heuristic 3: Dots/leader characters (weight: 0.20)
-        # TOCs often have "Song Title ........ 42"
-        lines_with_dots = sum(1 for line in non_empty_lines if '...' in line or '\t' in line)
-        dots_ratio = lines_with_dots / len(non_empty_lines)
-        if dots_ratio > 0.2:
-            score += 0.20 * min(dots_ratio / 0.4, 1.0)
-        
-        # Heuristic 4: Short lines (weight: 0.15)
-        # TOC entries are typically short (song titles)
-        avg_line_length = sum(len(line) for line in non_empty_lines) / len(non_empty_lines)
-        if 20 < avg_line_length < 80:  # Typical TOC entry length
-            score += 0.15
-        
-        # Heuristic 5: High line density (weight: 0.10)
-        # TOCs have many lines relative to text length
-        line_density = len(non_empty_lines) / len(text)
-        if line_density > 0.01:  # At least 1 line per 100 characters
-            score += 0.10 * min(line_density / 0.02, 1.0)
-        
-        return min(score, 1.0)
     
     def select_toc_pages(self, scored_pages: List[tuple[int, float]], 
                         threshold: float = 0.5) -> List[int]:

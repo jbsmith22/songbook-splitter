@@ -1,0 +1,313 @@
+{
+  "book_id": "crosby-stills-and-nash-crosby-stills-nash-young-deja-vu-pvg-book",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Carry On",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills - Carry On.pdf",
+        "file_size_bytes": 348288,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "Teach Your Children",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Graham Nash - Teach Your Children.pdf",
+        "file_size_bytes": 296452,
+        "page_range": [
+          7,
+          10
+        ]
+      },
+      {
+        "song_title": "Helpless",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Neil Young - Helpless.pdf",
+        "file_size_bytes": 242938,
+        "page_range": [
+          10,
+          12
+        ]
+      },
+      {
+        "song_title": "Cut My Hair",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby - Cut My Hair.pdf",
+        "file_size_bytes": 351386,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "D\u00e9j\u00e0 Vu",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Gregory - D\u00e9j\u00e0 Vu.pdf",
+        "file_size_bytes": 721578,
+        "page_range": [
+          15,
+          22
+        ]
+      },
+      {
+        "song_title": "Our House",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Graham Nash - Our House.pdf",
+        "file_size_bytes": 341051,
+        "page_range": [
+          22,
+          25
+        ]
+      },
+      {
+        "song_title": "Country Girl",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Unknown Artist - Country Girl.pdf",
+        "file_size_bytes": 504487,
+        "page_range": [
+          25,
+          29
+        ]
+      },
+      {
+        "song_title": "Chem-try Girl",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Unknown Artist - Chem-try Girl.pdf",
+        "file_size_bytes": 126705,
+        "page_range": [
+          29,
+          30
+        ]
+      },
+      {
+        "song_title": "Everybody I Love You",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills And Neil Young - Everybody I Love You.pdf",
+        "file_size_bytes": 539595,
+        "page_range": [
+          30,
+          36
+        ]
+      },
+      {
+        "song_title": "Helpless",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Neil Young - Helpless.pdf",
+        "file_size_bytes": 55449,
+        "page_range": [
+          36,
+          37
+        ]
+      },
+      {
+        "song_title": "Cut My Hair",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby - Cut My Hair.pdf",
+        "file_size_bytes": 55744,
+        "page_range": [
+          37,
+          38
+        ]
+      },
+      {
+        "song_title": "Deja Vu",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby - Deja Vu.pdf",
+        "file_size_bytes": 157724,
+        "page_range": [
+          38,
+          41
+        ]
+      },
+      {
+        "song_title": "Everybody I Love You",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills And Neil Young - Everybody I Love You.pdf",
+        "file_size_bytes": 52711,
+        "page_range": [
+          41,
+          42
+        ]
+      },
+      {
+        "song_title": "Country Girl",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Neil Young - Country Girl.pdf",
+        "file_size_bytes": 1043240,
+        "page_range": [
+          42,
+          50
+        ]
+      },
+      {
+        "song_title": "Lady of the Island",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Graham Nash - Lady Of The Island.pdf",
+        "file_size_bytes": 261295,
+        "page_range": [
+          50,
+          52
+        ]
+      },
+      {
+        "song_title": "Pre-Road Downs",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Graham Nash - Pre-road Downs.pdf",
+        "file_size_bytes": 381085,
+        "page_range": [
+          52,
+          55
+        ]
+      },
+      {
+        "song_title": "Marrakesh Express",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Graham Nash - Marrakesh Express.pdf",
+        "file_size_bytes": 343810,
+        "page_range": [
+          55,
+          58
+        ]
+      },
+      {
+        "song_title": "SUITE: JUDY BLUE EYES",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills - Suite- Judy Blue Eyes.pdf",
+        "file_size_bytes": 878154,
+        "page_range": [
+          58,
+          66
+        ]
+      },
+      {
+        "song_title": "Guinnevere",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby - Guinnevere.pdf",
+        "file_size_bytes": 437254,
+        "page_range": [
+          66,
+          70
+        ]
+      },
+      {
+        "song_title": "Wooden Ships",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby And Stephen Stills - Wooden Ships.pdf",
+        "file_size_bytes": 586195,
+        "page_range": [
+          70,
+          76
+        ]
+      },
+      {
+        "song_title": "Helplessly Hoping",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills - Helplessly Hoping.pdf",
+        "file_size_bytes": 209103,
+        "page_range": [
+          76,
+          78
+        ]
+      },
+      {
+        "song_title": "LONG TIME GONE",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby - Long Time Gone.pdf",
+        "file_size_bytes": 437572,
+        "page_range": [
+          78,
+          82
+        ]
+      },
+      {
+        "song_title": "49 Bye-Byes",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills - 49 Bye-byes.pdf",
+        "file_size_bytes": 694666,
+        "page_range": [
+          82,
+          88
+        ]
+      },
+      {
+        "song_title": "YOU DON'T HAVE TO CRY",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills - You Don't Have To Cry.pdf",
+        "file_size_bytes": 395147,
+        "page_range": [
+          88,
+          93
+        ]
+      },
+      {
+        "song_title": "Marrakesh Express",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Graham Nash - Marrakesh Express.pdf",
+        "file_size_bytes": 86092,
+        "page_range": [
+          93,
+          94
+        ]
+      },
+      {
+        "song_title": "Suite Judy Blue Eyes",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills - Suite Judy Blue Eyes.pdf",
+        "file_size_bytes": 116082,
+        "page_range": [
+          94,
+          96
+        ]
+      },
+      {
+        "song_title": "Guinnevere",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby - Guinnevere.pdf",
+        "file_size_bytes": 58482,
+        "page_range": [
+          96,
+          97
+        ]
+      },
+      {
+        "song_title": "Wooden Ships",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby And Stephen Stills - Wooden Ships.pdf",
+        "file_size_bytes": 134498,
+        "page_range": [
+          97,
+          99
+        ]
+      },
+      {
+        "song_title": "You Don't Have to Cry",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills - You Don't Have To Cry.pdf",
+        "file_size_bytes": 165037,
+        "page_range": [
+          99,
+          102
+        ]
+      },
+      {
+        "song_title": "Long Time Gone",
+        "artist": "Crosby Stills and Nash",
+        "output_uri": "s3://jsmith-output/Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby - Long Time Gone.pdf",
+        "file_size_bytes": 1009143,
+        "page_range": [
+          102,
+          106
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "book_id": "carpenters-note-for-note",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Bless the Beasts and Children",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(They Long to Be) Close to You",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For All We Know",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodbye to Love",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hurting Each Other",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Going to Take Some Time",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Please Mr. Postman",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rainy Days and Mondays",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Superstar",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Top of the World",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We've Only Just Begun",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Yesterday Once More",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Bless the Beasts and Children",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Barry Devorzon And Perry Botkin, Jr - Bless The Beasts And Children.pdf",
+        "file_size_bytes": 449974,
+        "page_range": [
+          3,
+          8
+        ]
+      },
+      {
+        "song_title": "(They Long to Be) Close to You",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Lyrics By Hal David, Music By Burt Bacharach - (they Long To Be) Close To You.pdf",
+        "file_size_bytes": 591076,
+        "page_range": [
+          8,
+          15
+        ]
+      },
+      {
+        "song_title": "For All We Know",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/From The Motion Picture Lovers And Other Strangers Words By Robb Wilson And James Griffin Music By Fred Karlin - For All We Know.pdf",
+        "file_size_bytes": 462869,
+        "page_range": [
+          15,
+          21
+        ]
+      },
+      {
+        "song_title": "Goodbye to Love",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Richard Carpenter And John Bettis - Goodbye To Love.pdf",
+        "file_size_bytes": 439327,
+        "page_range": [
+          21,
+          26
+        ]
+      },
+      {
+        "song_title": "Hurting Each Other",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Words By Peter Udell, Music By Gary Geld - Hurting Each Other.pdf",
+        "file_size_bytes": 454098,
+        "page_range": [
+          26,
+          31
+        ]
+      },
+      {
+        "song_title": "It's Going to Take Some Time",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Carole King And Toni Stern - It's Going To Take Some Time.pdf",
+        "file_size_bytes": 594947,
+        "page_range": [
+          31,
+          38
+        ]
+      },
+      {
+        "song_title": "Superstar",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Leon Russell And Bonnie Bramlett - Superstar.pdf",
+        "file_size_bytes": 571829,
+        "page_range": [
+          38,
+          45
+        ]
+      },
+      {
+        "song_title": "Please Mr. Postman",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Robert Bateman, Georgia Dobbins, William Garrett, Freddie Gorman, Brian Holland - Please Mr. Postman.pdf",
+        "file_size_bytes": 660027,
+        "page_range": [
+          45,
+          53
+        ]
+      },
+      {
+        "song_title": "Rainy Days and Mondays",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Lyrics By Paul Williams, Music By Roger Nichols - Rainy Days And Mondays.pdf",
+        "file_size_bytes": 525816,
+        "page_range": [
+          53,
+          59
+        ]
+      },
+      {
+        "song_title": "Top of the World",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/John Betts And Richard Carpenter - Top Of The World.pdf",
+        "file_size_bytes": 1148252,
+        "page_range": [
+          59,
+          73
+        ]
+      },
+      {
+        "song_title": "We've Only Just Begun",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Note For Note/Songs/Roger Nichols And Paul Williams - We've Only Just Begun.pdf",
+        "file_size_bytes": 588234,
+        "page_range": [
+          73,
+          80
+        ]
+      }
+    ]
+  }
+}

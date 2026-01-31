@@ -1,0 +1,478 @@
+{
+  "book_id": "elton-john-the-ultimate-collection-vol-2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Love Lies Bleeding",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lucy in the Sky with Diamonds",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Made in England",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Madman Across the Water",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Madness",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mama Can't Buy You Love",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Memory of Love",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Michelle's Song",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mona Lisas and Mad Hatters",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Nikita",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "No Valentines",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Nobody Wins",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The One",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Horse Town",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pain",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Part-Time Love",
+        "page_number": 86,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Philadelphia Freedom",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pinball Wizard",
+        "page_number": 91,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Princess",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Recover Your Soul",
+        "page_number": 103,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rocket Man (I Think It's Gonna Be A Long Long Time)",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Runaway Train",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sacrifice",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sad Songs (Say So Much)",
+        "page_number": 119,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sartorial Eloquence",
+        "page_number": 128,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Saturday Night's Alright (For Fighting)",
+        "page_number": 132,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shoot Down the Moon",
+        "page_number": 136,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Simple Life",
+        "page_number": 144,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sixty Years On",
+        "page_number": 148,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Love Lies Bleeding",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Love Lies Bleeding.pdf",
+        "file_size_bytes": 1463496,
+        "page_range": [
+          4,
+          9
+        ]
+      },
+      {
+        "song_title": "Madman Across the Water",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Madman Across The Water.pdf",
+        "file_size_bytes": 1973517,
+        "page_range": [
+          9,
+          16
+        ]
+      },
+      {
+        "song_title": "Lucy in the Sky with Diamonds",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/John Lennon And Paul Mccartney - Lucy In The Sky With Diamonds.pdf",
+        "file_size_bytes": 1078368,
+        "page_range": [
+          16,
+          20
+        ]
+      },
+      {
+        "song_title": "Made in England",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Made In England.pdf",
+        "file_size_bytes": 1549768,
+        "page_range": [
+          20,
+          26
+        ]
+      },
+      {
+        "song_title": "Madness",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Gary Osborne - Madness.pdf",
+        "file_size_bytes": 2368902,
+        "page_range": [
+          26,
+          34
+        ]
+      },
+      {
+        "song_title": "Mama Can't Buy You Love",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Leroy Bell And Casey James - Mama Can't Buy You Love.pdf",
+        "file_size_bytes": 1208596,
+        "page_range": [
+          34,
+          38
+        ]
+      },
+      {
+        "song_title": "Memory of Love",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Gary Osborne - Memory Of Love.pdf",
+        "file_size_bytes": 1254298,
+        "page_range": [
+          38,
+          43
+        ]
+      },
+      {
+        "song_title": "Michelle's Song",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Michelle's Song.pdf",
+        "file_size_bytes": 956200,
+        "page_range": [
+          43,
+          46
+        ]
+      },
+      {
+        "song_title": "Mona Lisas and Mad Hatters",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Mona Lisas And Mad Hatters.pdf",
+        "file_size_bytes": 1862290,
+        "page_range": [
+          46,
+          53
+        ]
+      },
+      {
+        "song_title": "Nikita",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Nikita.pdf",
+        "file_size_bytes": 1416016,
+        "page_range": [
+          53,
+          58
+        ]
+      },
+      {
+        "song_title": "No Valentines",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - No Valentines.pdf",
+        "file_size_bytes": 1315706,
+        "page_range": [
+          58,
+          63
+        ]
+      },
+      {
+        "song_title": "Nobody Wins",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/French Words And Music By Jean-paul Dreau, English Words By Gary Osborne - Nobody Wins.pdf",
+        "file_size_bytes": 1281357,
+        "page_range": [
+          63,
+          68
+        ]
+      },
+      {
+        "song_title": "The One",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - The One.pdf",
+        "file_size_bytes": 1253553,
+        "page_range": [
+          68,
+          73
+        ]
+      },
+      {
+        "song_title": "One Horse Town",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John, Bennie Taupin And James Newton Howard - One Horse Town.pdf",
+        "file_size_bytes": 1775194,
+        "page_range": [
+          73,
+          80
+        ]
+      },
+      {
+        "song_title": "Pain",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Pain.pdf",
+        "file_size_bytes": 1754496,
+        "page_range": [
+          80,
+          86
+        ]
+      },
+      {
+        "song_title": "Part-Time Love",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Kiki Dee - Part-time Love.pdf",
+        "file_size_bytes": 1454034,
+        "page_range": [
+          86,
+          91
+        ]
+      },
+      {
+        "song_title": "Pinball Wizard",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Peter Townshend - Pinball Wizard.pdf",
+        "file_size_bytes": 895325,
+        "page_range": [
+          91,
+          94
+        ]
+      },
+      {
+        "song_title": "Philadelphia Freedom",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Philadelphia Freedom.pdf",
+        "file_size_bytes": 1229952,
+        "page_range": [
+          94,
+          98
+        ]
+      },
+      {
+        "song_title": "Princess",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Gary Osborne - Princess.pdf",
+        "file_size_bytes": 1368196,
+        "page_range": [
+          98,
+          103
+        ]
+      },
+      {
+        "song_title": "Recover Your Soul",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Recover Your Soul.pdf",
+        "file_size_bytes": 1782460,
+        "page_range": [
+          103,
+          110
+        ]
+      },
+      {
+        "song_title": "Rocket Man (I Think It's Gonna Be A Long Long Time)",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Rocket Man (i Think It's Gonna Be A Long Long Time).pdf",
+        "file_size_bytes": 1197399,
+        "page_range": [
+          110,
+          114
+        ]
+      },
+      {
+        "song_title": "Runaway Train",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John, Bernie Taupin And Eric Bates - Runaway Train.pdf",
+        "file_size_bytes": 1321584,
+        "page_range": [
+          114,
+          119
+        ]
+      },
+      {
+        "song_title": "Sad Songs (Say So Much)",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Sad Songs (say So Much).pdf",
+        "file_size_bytes": 1358202,
+        "page_range": [
+          119,
+          124
+        ]
+      },
+      {
+        "song_title": "Sacrifice",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Sacrifice.pdf",
+        "file_size_bytes": 1103189,
+        "page_range": [
+          124,
+          128
+        ]
+      },
+      {
+        "song_title": "Sartorial Eloquence",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Tom Robinson - Sartorial Eloquence.pdf",
+        "file_size_bytes": 1056334,
+        "page_range": [
+          128,
+          132
+        ]
+      },
+      {
+        "song_title": "Saturday Night's Alright (For Fighting)",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Saturday Night's Alright (for Fighting).pdf",
+        "file_size_bytes": 1136288,
+        "page_range": [
+          132,
+          136
+        ]
+      },
+      {
+        "song_title": "Shoot Down the Moon",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Shoot Down The Moon.pdf",
+        "file_size_bytes": 2215337,
+        "page_range": [
+          136,
+          144
+        ]
+      },
+      {
+        "song_title": "Simple Life",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Simple Life.pdf",
+        "file_size_bytes": 1148813,
+        "page_range": [
+          144,
+          148
+        ]
+      },
+      {
+        "song_title": "Sixty Years On",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Sixty Years On.pdf",
+        "file_size_bytes": 33104609,
+        "page_range": [
+          148,
+          266
+        ]
+      }
+    ]
+  }
+}

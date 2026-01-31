@@ -1,0 +1,203 @@
+{
+  "book_id": "a2367dc3a0c9bbf8",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Ally, Ally Oxen Free",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/The Image Does Not Clearly Show An Artist Name - Ally, Ally Oxen Free.pdf",
+        "file_size_bytes": 82542,
+        "page_range": [
+          1,
+          3
+        ]
+      },
+      {
+        "song_title": "The Alley Cat Song",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Jack Ranlen, Frank Sinatra - The Alley Cat Song.pdf",
+        "file_size_bytes": 49060,
+        "page_range": [
+          3,
+          4
+        ]
+      },
+      {
+        "song_title": "Blame It On The Bossa Nova",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Unknown Artist - Blame It On The Bossa Nova.pdf",
+        "file_size_bytes": 56721,
+        "page_range": [
+          4,
+          5
+        ]
+      },
+      {
+        "song_title": "Baby, The Rain Must Fall",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Recorded By Glenn Yarbrough On Rca Victor Records - Baby, The Rain Must Fall.pdf",
+        "file_size_bytes": 276279,
+        "page_range": [
+          5,
+          11
+        ]
+      },
+      {
+        "song_title": "Take Me Back to My Boots and Saddle",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Walter R. Samuels, Leonard Whitcup, Teddy Powell - Take Me Back To My Boots And Saddle.pdf",
+        "file_size_bytes": 388585,
+        "page_range": [
+          11,
+          19
+        ]
+      },
+      {
+        "song_title": "Danke Schoen",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Kurt Schwabach, Milt Gabler, Bert Kaempfert - Danke Schoen.pdf",
+        "file_size_bytes": 311195,
+        "page_range": [
+          19,
+          26
+        ]
+      },
+      {
+        "song_title": "FIVE HUNDRED MILES",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Unknown Artist - Five Hundred Miles.pdf",
+        "file_size_bytes": 1232378,
+        "page_range": [
+          26,
+          49
+        ]
+      },
+      {
+        "song_title": "Let's Go To Church",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Steve Allen - Let's Go To Church.pdf",
+        "file_size_bytes": 496155,
+        "page_range": [
+          49,
+          59
+        ]
+      },
+      {
+        "song_title": "My Love, Forgive Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Sidney Lee; Vida Cooke (arranger) - My Love, Forgive Me.pdf",
+        "file_size_bytes": 114838,
+        "page_range": [
+          59,
+          61
+        ]
+      },
+      {
+        "song_title": "No Arms Can Ever Hold You (Like These Arms of Mine)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Jimmy Nebb - No Arms Can Ever Hold You (like These Arms Of Mine).pdf",
+        "file_size_bytes": 230793,
+        "page_range": [
+          61,
+          65
+        ]
+      },
+      {
+        "song_title": "It's No Sin",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Chester R. Shull (lyrics), Georgie Boyden (music) - It's No Sin.pdf",
+        "file_size_bytes": 162554,
+        "page_range": [
+          65,
+          68
+        ]
+      },
+      {
+        "song_title": "SIXTEEN TONS",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Unknown Artist - Sixteen Tons.pdf",
+        "file_size_bytes": 35899,
+        "page_range": [
+          68,
+          69
+        ]
+      },
+      {
+        "song_title": "SKYLARK",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Johnny Mercer, Hoagy Carmichael - Skylark.pdf",
+        "file_size_bytes": 178690,
+        "page_range": [
+          69,
+          73
+        ]
+      },
+      {
+        "song_title": "Stranger on the Shore",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Robert Mellin - Stranger On The Shore.pdf",
+        "file_size_bytes": 84768,
+        "page_range": [
+          73,
+          75
+        ]
+      },
+      {
+        "song_title": "A Swingin' Safari",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Bert Kaempfert - A Swingin' Safari.pdf",
+        "file_size_bytes": 150071,
+        "page_range": [
+          75,
+          78
+        ]
+      },
+      {
+        "song_title": "This Is All I Ask",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/The Image Does Not Clearly Show An Artist Name, But It Appears To Be The Beginning Of A Song Titled -this Is All I Ask- Based On The Prominent Title At The Top And The Sheet Music Notation Below I.pdf",
+        "file_size_bytes": 643364,
+        "page_range": [
+          78,
+          89
+        ]
+      },
+      {
+        "song_title": "WHY DON'T YOU BELIEVE ME?",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/Lew Douglas, King Laney And Bob Moore - Why Don't You Believe Me-.pdf",
+        "file_size_bytes": 47796,
+        "page_range": [
+          89,
+          90
+        ]
+      },
+      {
+        "song_title": "Wild Weekend",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/By Phil Toinard And Phil Blando - Wild Weekend.pdf",
+        "file_size_bytes": 264055,
+        "page_range": [
+          90,
+          93
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 62 Stars 62 Hits [60's Compilation]/Songs/John Lennon And Paul Mccartney - Yesterday.pdf",
+        "file_size_bytes": 255715,
+        "page_range": [
+          93,
+          97
+        ]
+      }
+    ]
+  }
+}

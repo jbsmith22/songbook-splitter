@@ -1,0 +1,253 @@
+{
+  "book_id": "bob-dylan-basement-tapes-pvg",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Odds and Ends",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Odds And Ends.pdf",
+        "file_size_bytes": 133884,
+        "page_range": [
+          5,
+          9
+        ]
+      },
+      {
+        "song_title": "Orange Juice Blues",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Richard Rodney - Orange Juice Blues.pdf",
+        "file_size_bytes": 108208,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "Yazoo Street Scandal",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Jaime Robbie Robertson - Yazoo Street Scandal.pdf",
+        "file_size_bytes": 164014,
+        "page_range": [
+          12,
+          17
+        ]
+      },
+      {
+        "song_title": "Million Dollar Bash",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Million Dollar Bash.pdf",
+        "file_size_bytes": 70107,
+        "page_range": [
+          17,
+          19
+        ]
+      },
+      {
+        "song_title": "Katie's Been Gone",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Gerry Goffin And Carole King, Jaime Robbie Robertson - Katie's Been Gone.pdf",
+        "file_size_bytes": 219739,
+        "page_range": [
+          19,
+          25
+        ]
+      },
+      {
+        "song_title": "Goin' to Acapulco",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Goin' To Acapulco.pdf",
+        "file_size_bytes": 100157,
+        "page_range": [
+          25,
+          28
+        ]
+      },
+      {
+        "song_title": "Apple Suckling Tree",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Apple Suckling Tree.pdf",
+        "file_size_bytes": 97140,
+        "page_range": [
+          28,
+          31
+        ]
+      },
+      {
+        "song_title": "Lo and Behold!",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Lo And Behold!.pdf",
+        "file_size_bytes": 68782,
+        "page_range": [
+          31,
+          33
+        ]
+      },
+      {
+        "song_title": "Bessie Smith",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Rick Danko And Robbie Robertson - Bessie Smith.pdf",
+        "file_size_bytes": 135074,
+        "page_range": [
+          33,
+          37
+        ]
+      },
+      {
+        "song_title": "Clothes Line Saga",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Clothes Line Saga.pdf",
+        "file_size_bytes": 192695,
+        "page_range": [
+          37,
+          43
+        ]
+      },
+      {
+        "song_title": "Please, Mrs. Henry",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Please, Mrs. Henry.pdf",
+        "file_size_bytes": 66109,
+        "page_range": [
+          43,
+          45
+        ]
+      },
+      {
+        "song_title": "Tears of Rage",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Tears Of Rage.pdf",
+        "file_size_bytes": 95093,
+        "page_range": [
+          45,
+          48
+        ]
+      },
+      {
+        "song_title": "Yea! Heavy and a Bottle of Bread",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Yea! Heavy And A Bottle Of Bread.pdf",
+        "file_size_bytes": 158492,
+        "page_range": [
+          48,
+          53
+        ]
+      },
+      {
+        "song_title": "Too Much of Nothing",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Too Much Of Nothing.pdf",
+        "file_size_bytes": 72626,
+        "page_range": [
+          53,
+          55
+        ]
+      },
+      {
+        "song_title": "Ain't No More Cane",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Traditional (arranged By Richard Manuel, Rick Danko, Garth Hudson, Levon Helm) - Ain't No More Cane.pdf",
+        "file_size_bytes": 99933,
+        "page_range": [
+          55,
+          58
+        ]
+      },
+      {
+        "song_title": "Tiny Montgomery",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Tiny Montgomery.pdf",
+        "file_size_bytes": 99052,
+        "page_range": [
+          58,
+          61
+        ]
+      },
+      {
+        "song_title": "Crash On the Levee (Down in the Flood)",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Crash On The Levee (down In The Flood).pdf",
+        "file_size_bytes": 75056,
+        "page_range": [
+          61,
+          63
+        ]
+      },
+      {
+        "song_title": "Ruben Remus",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Richard Manuel And Jaime Robbie Robertson - Ruben Remus.pdf",
+        "file_size_bytes": 66858,
+        "page_range": [
+          63,
+          65
+        ]
+      },
+      {
+        "song_title": "You Ain't Goin' Nowhere",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - You Ain't Goin' Nowhere.pdf",
+        "file_size_bytes": 73712,
+        "page_range": [
+          65,
+          67
+        ]
+      },
+      {
+        "song_title": "Don't Ya Tell Henry",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Don't Ya Tell Henry.pdf",
+        "file_size_bytes": 88549,
+        "page_range": [
+          67,
+          70
+        ]
+      },
+      {
+        "song_title": "Nothing Was Delivered",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Nothing Was Delivered.pdf",
+        "file_size_bytes": 99656,
+        "page_range": [
+          70,
+          73
+        ]
+      },
+      {
+        "song_title": "Open the Door, Homer",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Open The Door, Homer.pdf",
+        "file_size_bytes": 90420,
+        "page_range": [
+          73,
+          76
+        ]
+      },
+      {
+        "song_title": "This Wheel's On Fire",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - This Wheel's On Fire.pdf",
+        "file_size_bytes": 97686,
+        "page_range": [
+          76,
+          79
+        ]
+      },
+      {
+        "song_title": "Long Distance Operator",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Basement Tapes [pvg]/Songs/Bob Dylan - Long Distance Operator.pdf",
+        "file_size_bytes": 148804,
+        "page_range": [
+          79,
+          84
+        ]
+      }
+    ]
+  }
+}

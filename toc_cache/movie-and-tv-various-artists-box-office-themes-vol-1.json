@@ -1,0 +1,219 @@
+{
+  "book_id": "movie-and-tv-various-artists-box-office-themes-vol-1",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Glory Of Love",
+        "page_number": 3,
+        "artist": "Theme from \"The Karate Kid II\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take A Look At Me Now",
+        "page_number": 9,
+        "artist": "Theme from \"Against All Odds\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Stand By Me",
+        "page_number": 13,
+        "artist": "Theme from \"Stand By Me\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Wind Beneath My Wings",
+        "page_number": 18,
+        "artist": "Theme from \"Beaches\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Up Where We Belong",
+        "page_number": 26,
+        "artist": "Theme from \"An Officer And A Gentleman\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Flashdance . . . What A Feeling",
+        "page_number": 29,
+        "artist": "Theme from \"Flashdance\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If You Remember Me",
+        "page_number": 34,
+        "artist": "Theme from \"The Champ\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It Might Be You",
+        "page_number": 38,
+        "artist": "Theme from \"Tootsie\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Way We Were",
+        "page_number": 44,
+        "artist": "Theme from \"The Way We Were\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take My Breath Away",
+        "page_number": 48,
+        "artist": "Theme from \"Top Gun\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For Your Eyes Only",
+        "page_number": 53,
+        "artist": "Theme from \"James Bond 007 - For Your Eyes Only\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Reality",
+        "page_number": 56,
+        "artist": "Theme from \"Ready For Love\"",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Glory Of Love": "Theme from \"The Karate Kid II\"",
+      "Take A Look At Me Now": "Theme from \"Against All Odds\"",
+      "Stand By Me": "Theme from \"Stand By Me\"",
+      "The Wind Beneath My Wings": "Theme from \"Beaches\"",
+      "Up Where We Belong": "Theme from \"An Officer And A Gentleman\"",
+      "Flashdance . . . What A Feeling": "Theme from \"Flashdance\"",
+      "If You Remember Me": "Theme from \"The Champ\"",
+      "It Might Be You": "Theme from \"Tootsie\"",
+      "The Way We Were": "Theme from \"The Way We Were\"",
+      "Take My Breath Away": "Theme from \"Top Gun\"",
+      "For Your Eyes Only": "Theme from \"James Bond 007 - For Your Eyes Only\"",
+      "Reality": "Theme from \"Ready For Love\""
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Glory Of Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -the Karate Kid Ii- - Glory Of Love.pdf",
+        "file_size_bytes": 208911,
+        "page_range": [
+          1,
+          7
+        ]
+      },
+      {
+        "song_title": "Take A Look At Me Now",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -against All Odds- - Take A Look At Me Now.pdf",
+        "file_size_bytes": 166253,
+        "page_range": [
+          7,
+          11
+        ]
+      },
+      {
+        "song_title": "Stand By Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -stand By Me- - Stand By Me.pdf",
+        "file_size_bytes": 157683,
+        "page_range": [
+          11,
+          16
+        ]
+      },
+      {
+        "song_title": "The Wind Beneath My Wings",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -beaches- - The Wind Beneath My Wings.pdf",
+        "file_size_bytes": 284295,
+        "page_range": [
+          16,
+          24
+        ]
+      },
+      {
+        "song_title": "Up Where We Belong",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -an Officer And A Gentleman- - Up Where We Belong.pdf",
+        "file_size_bytes": 115959,
+        "page_range": [
+          24,
+          27
+        ]
+      },
+      {
+        "song_title": "Flashdance . . . What A Feeling",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -flashdance- - Flashdance . . . What A Feeling.pdf",
+        "file_size_bytes": 186414,
+        "page_range": [
+          27,
+          32
+        ]
+      },
+      {
+        "song_title": "If You Remember Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -the Champ- - If You Remember Me.pdf",
+        "file_size_bytes": 122738,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "It Might Be You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -tootsie- - It Might Be You.pdf",
+        "file_size_bytes": 217462,
+        "page_range": [
+          36,
+          42
+        ]
+      },
+      {
+        "song_title": "The Way We Were",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -the Way We Were- - The Way We Were.pdf",
+        "file_size_bytes": 135954,
+        "page_range": [
+          42,
+          46
+        ]
+      },
+      {
+        "song_title": "Take My Breath Away",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -top Gun- - Take My Breath Away.pdf",
+        "file_size_bytes": 186276,
+        "page_range": [
+          46,
+          51
+        ]
+      },
+      {
+        "song_title": "For Your Eyes Only",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -james Bond 007 - For Your Eyes Only- - For Your Eyes Only.pdf",
+        "file_size_bytes": 107674,
+        "page_range": [
+          51,
+          54
+        ]
+      },
+      {
+        "song_title": "Reality",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Box Office Themes Vol. 1/Songs/Theme From -ready For Love- - Reality.pdf",
+        "file_size_bytes": 158301,
+        "page_range": [
+          54,
+          59
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "book_id": "ac4f0d9786f1be2f",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "See Emily Play",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - See Emily Play.pdf",
+        "file_size_bytes": 80104,
+        "page_range": [
+          2,
+          4
+        ]
+      },
+      {
+        "song_title": "See-saw",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - See-saw.pdf",
+        "file_size_bytes": 209584,
+        "page_range": [
+          4,
+          9
+        ]
+      },
+      {
+        "song_title": "Set the controls for the heart of the sun",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - Set The Controls For The Heart Of The Sun.pdf",
+        "file_size_bytes": 133276,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "A Saucerful of Secrets (main theme)",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - A Saucerful Of Secrets (main Theme).pdf",
+        "file_size_bytes": 980298,
+        "page_range": [
+          12,
+          36
+        ]
+      },
+      {
+        "song_title": "One of These Days",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - One Of These Days.pdf",
+        "file_size_bytes": 799400,
+        "page_range": [
+          36,
+          57
+        ]
+      },
+      {
+        "song_title": "The gold it's in the...",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - The Gold It's In The.pdf",
+        "file_size_bytes": 913132,
+        "page_range": [
+          57,
+          79
+        ]
+      },
+      {
+        "song_title": "Money",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - Money.pdf",
+        "file_size_bytes": 1466588,
+        "page_range": [
+          79,
+          115
+        ]
+      },
+      {
+        "song_title": "Pigs on the Wing (One)",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - Pigs On The Wing (one).pdf",
+        "file_size_bytes": 588304,
+        "page_range": [
+          115,
+          129
+        ]
+      },
+      {
+        "song_title": "Embryo",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - Embryo.pdf",
+        "file_size_bytes": 328751,
+        "page_range": [
+          129,
+          137
+        ]
+      },
+      {
+        "song_title": "Young Lust",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - Young Lust.pdf",
+        "file_size_bytes": 394834,
+        "page_range": [
+          137,
+          146
+        ]
+      },
+      {
+        "song_title": "Comfortably Numb",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - Comfortably Numb.pdf",
+        "file_size_bytes": 246486,
+        "page_range": [
+          146,
+          151
+        ]
+      },
+      {
+        "song_title": "When the tigers broke free",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology (book)/Songs/Pink Floyd - When The Tigers Broke Free.pdf",
+        "file_size_bytes": 979510,
+        "page_range": [
+          151,
+          175
+        ]
+      }
+    ]
+  }
+}

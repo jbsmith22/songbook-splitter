@@ -1,0 +1,168 @@
+{
+  "book_id": "39a39dc149a1a313",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "TAXMAN",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ELEANOR RIGBY",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'M ONLY SLEEPING",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE YOU TO",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HERE, THERE AND EVERYWHERE",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YELLOW SUBMARINE",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHE SAID SHE SAID",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GOOD DAY SUNSHINE",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "AND YOUR BIRD CAN SING",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FOR NO ONE",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DR. ROBERT",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I WANT TO TELL YOU",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GOT TO GET YOU INTO MY LIFE",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TOMORROW NEVER KNOWS",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "TAXMAN",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver (2)/Songs/Beatles - Taxman.pdf",
+        "file_size_bytes": 692121,
+        "page_range": [
+          2,
+          5
+        ]
+      },
+      {
+        "song_title": "ELEANOR RIGBY",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver (2)/Songs/Beatles - Eleanor Rigby.pdf",
+        "file_size_bytes": 626276,
+        "page_range": [
+          5,
+          8
+        ]
+      },
+      {
+        "song_title": "I'M ONLY SLEEPING",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver (2)/Songs/Beatles - I'm Only Sleeping.pdf",
+        "file_size_bytes": 836316,
+        "page_range": [
+          8,
+          12
+        ]
+      },
+      {
+        "song_title": "LOVE YOU TO",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver (2)/Songs/Beatles - Love You To.pdf",
+        "file_size_bytes": 1855125,
+        "page_range": [
+          12,
+          20
+        ]
+      },
+      {
+        "song_title": "SHE SAID SHE SAID",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver (2)/Songs/Beatles - She Said She Said.pdf",
+        "file_size_bytes": 2774146,
+        "page_range": [
+          20,
+          32
+        ]
+      },
+      {
+        "song_title": "FOR NO ONE",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver (2)/Songs/Beatles - For No One.pdf",
+        "file_size_bytes": 521634,
+        "page_range": [
+          32,
+          34
+        ]
+      },
+      {
+        "song_title": "I WANT TO TELL YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver (2)/Songs/Beatles - I Want To Tell You.pdf",
+        "file_size_bytes": 2458344,
+        "page_range": [
+          34,
+          45
+        ]
+      }
+    ]
+  }
+}

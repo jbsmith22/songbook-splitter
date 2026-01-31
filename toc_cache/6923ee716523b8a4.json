@@ -1,0 +1,118 @@
+{
+  "book_id": "6923ee716523b8a4",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Let It Bleed",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love In Vain",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Midnight Rambler",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gimme Shelter",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Got The Silver",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Can't Always Get What You Want",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Live With Me",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Monkey Man",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Country Honk",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Let It Bleed",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Let It Bleed [guitar Tab]/Songs/Rolling Stones - Let It Bleed.pdf",
+        "file_size_bytes": 2544770,
+        "page_range": [
+          8,
+          19
+        ]
+      },
+      {
+        "song_title": "Midnight Rambler",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Let It Bleed [guitar Tab]/Songs/Rolling Stones - Midnight Rambler.pdf",
+        "file_size_bytes": 3750515,
+        "page_range": [
+          19,
+          36
+        ]
+      },
+      {
+        "song_title": "Gimme Shelter",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Let It Bleed [guitar Tab]/Songs/Rolling Stones - Gimme Shelter.pdf",
+        "file_size_bytes": 1923544,
+        "page_range": [
+          36,
+          44
+        ]
+      },
+      {
+        "song_title": "You Can't Always Get What You Want",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Let It Bleed [guitar Tab]/Songs/Rolling Stones - You Can't Always Get What You Want.pdf",
+        "file_size_bytes": 3161964,
+        "page_range": [
+          44,
+          58
+        ]
+      },
+      {
+        "song_title": "Live With Me",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Let It Bleed [guitar Tab]/Songs/Rolling Stones - Live With Me.pdf",
+        "file_size_bytes": 3782659,
+        "page_range": [
+          58,
+          73
+        ]
+      }
+    ]
+  }
+}

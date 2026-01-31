@@ -1,0 +1,21 @@
+{
+  "book_id": "91f3156679b8246b",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "You're A Good Man, Charlie Brown",
+        "page_number": 1,
+        "artist": "Clark Gesner",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "You're A Good Man, Charlie Brown": "Clark Gesner"
+    }
+  },
+  "output": {
+    "output_files": []
+  }
+}

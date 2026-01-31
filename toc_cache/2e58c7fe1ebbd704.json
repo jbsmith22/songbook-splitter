@@ -1,0 +1,63 @@
+{
+  "book_id": "2e58c7fe1ebbd704",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Always On My Mind",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 70s/Songs/Mark James, Wayne Thompson & Johnny Christopher - Always On My Mind.pdf",
+        "file_size_bytes": 2379894,
+        "page_range": [
+          7,
+          42
+        ]
+      },
+      {
+        "song_title": "I Don't Know How To Love Him",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 70s/Songs/Andrew Lloyd Webber - I Don't Know How To Love Him.pdf",
+        "file_size_bytes": 580687,
+        "page_range": [
+          42,
+          50
+        ]
+      },
+      {
+        "song_title": "Jealous Guy",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 70s/Songs/John Lennon - Jealous Guy.pdf",
+        "file_size_bytes": 1502233,
+        "page_range": [
+          50,
+          70
+        ]
+      },
+      {
+        "song_title": "My Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 70s/Songs/Paul Mccartney & Linda Mccartney - My Love.pdf",
+        "file_size_bytes": 2926600,
+        "page_range": [
+          70,
+          114
+        ]
+      },
+      {
+        "song_title": "When I Need You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 70s/Songs/Albert Hammond & Carole Bayer Sager - When I Need You.pdf",
+        "file_size_bytes": 1365719,
+        "page_range": [
+          114,
+          130
+        ]
+      }
+    ]
+  }
+}

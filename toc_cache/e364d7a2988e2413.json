@@ -1,0 +1,53 @@
+{
+  "book_id": "e364d7a2988e2413",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Theme from The Monkees",
+        "artist": "Monkees",
+        "output_uri": "s3://jsmith-output/Monkees/Monkees - Greatest Hits/Songs/Monkees - Theme From The Monkees.pdf",
+        "file_size_bytes": 1311042,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "Pleasant Valley Sunday",
+        "artist": "Monkees",
+        "output_uri": "s3://jsmith-output/Monkees/Monkees - Greatest Hits/Songs/Monkees - Pleasant Valley Sunday.pdf",
+        "file_size_bytes": 1429943,
+        "page_range": [
+          6,
+          11
+        ]
+      },
+      {
+        "song_title": "She",
+        "artist": "Monkees",
+        "output_uri": "s3://jsmith-output/Monkees/Monkees - Greatest Hits/Songs/Monkees - She.pdf",
+        "file_size_bytes": 854187,
+        "page_range": [
+          11,
+          14
+        ]
+      },
+      {
+        "song_title": "Daydream Believer",
+        "artist": "Monkees",
+        "output_uri": "s3://jsmith-output/Monkees/Monkees - Greatest Hits/Songs/Monkees - Daydream Believer.pdf",
+        "file_size_bytes": 4760507,
+        "page_range": [
+          14,
+          30
+        ]
+      }
+    ]
+  }
+}

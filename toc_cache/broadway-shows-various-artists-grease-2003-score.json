@@ -1,0 +1,433 @@
+{
+  "book_id": "broadway-shows-various-artists-grease-2003-score",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sandy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Sandy.pdf",
+        "file_size_bytes": 129053,
+        "page_range": [
+          1,
+          4
+        ]
+      },
+      {
+        "song_title": "Crease In The Word",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Dead Segue - Crease In The Word.pdf",
+        "file_size_bytes": 93691,
+        "page_range": [
+          4,
+          5
+        ]
+      },
+      {
+        "song_title": "Grease Is The Word",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Grease Is The Word.pdf",
+        "file_size_bytes": 344749,
+        "page_range": [
+          5,
+          13
+        ]
+      },
+      {
+        "song_title": "Rydell Alma Mater",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Rydell Alma Mater.pdf",
+        "file_size_bytes": 116059,
+        "page_range": [
+          13,
+          16
+        ]
+      },
+      {
+        "song_title": "Rydell Alma Mater Parody",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Rydell Alma Mater Parody.pdf",
+        "file_size_bytes": 233243,
+        "page_range": [
+          16,
+          22
+        ]
+      },
+      {
+        "song_title": "Summer Nights",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Summer Nights.pdf",
+        "file_size_bytes": 427298,
+        "page_range": [
+          22,
+          35
+        ]
+      },
+      {
+        "song_title": "Summer Nights Crossover",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Summer Nights Crossover.pdf",
+        "file_size_bytes": 119101,
+        "page_range": [
+          35,
+          36
+        ]
+      },
+      {
+        "song_title": "Those Magic Changes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Those Magic Changes.pdf",
+        "file_size_bytes": 318918,
+        "page_range": [
+          36,
+          45
+        ]
+      },
+      {
+        "song_title": "Freddy My Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/(no Clear Artist Name Provided) - Freddy My Love.pdf",
+        "file_size_bytes": 319934,
+        "page_range": [
+          45,
+          53
+        ]
+      },
+      {
+        "song_title": "Freddy My Love Playout",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Freddy My Love Playout.pdf",
+        "file_size_bytes": 144905,
+        "page_range": [
+          53,
+          55
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin' [D Major Version]",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Greased Lightnin' [d Major Version].pdf",
+        "file_size_bytes": 159625,
+        "page_range": [
+          55,
+          57
+        ]
+      },
+      {
+        "song_title": "Ground Zephyr",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Ground Zephyr.pdf",
+        "file_size_bytes": 340611,
+        "page_range": [
+          57,
+          67
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin' Chaser",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Greased Lightnin' Chaser.pdf",
+        "file_size_bytes": 81651,
+        "page_range": [
+          67,
+          68
+        ]
+      },
+      {
+        "song_title": "Rizzo's Greased Lightnin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Rizzo's Greased Lightnin'.pdf",
+        "file_size_bytes": 207277,
+        "page_range": [
+          68,
+          72
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin' Playout",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Greased Lightnin' Playout.pdf",
+        "file_size_bytes": 125499,
+        "page_range": [
+          72,
+          74
+        ]
+      },
+      {
+        "song_title": "Rydell Fight Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Warren Casey And Jim Jacobs - Rydell Fight Song.pdf",
+        "file_size_bytes": 189423,
+        "page_range": [
+          74,
+          79
+        ]
+      },
+      {
+        "song_title": "Mooning (Ab Version)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Mooning (ab Version).pdf",
+        "file_size_bytes": 228234,
+        "page_range": [
+          79,
+          84
+        ]
+      },
+      {
+        "song_title": "Look At Me, I'm Sandra Dee",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Song Title Referring To The Character Sandra Dee, This Appears To Be From The Musical Or Film Grease - Look At Me, I'm Sandra.pdf",
+        "file_size_bytes": 234232,
+        "page_range": [
+          84,
+          90
+        ]
+      },
+      {
+        "song_title": "We Go Together",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - We Go Together.pdf",
+        "file_size_bytes": 468888,
+        "page_range": [
+          90,
+          104
+        ]
+      },
+      {
+        "song_title": "Shakin' At The High School Hop",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Shakin' At The High School Hop.pdf",
+        "file_size_bytes": 312904,
+        "page_range": [
+          104,
+          111
+        ]
+      },
+      {
+        "song_title": "Underscore - High School Hop",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Warren Casey And Jim Jacobs - Underscore - High School Hop.pdf",
+        "file_size_bytes": 385250,
+        "page_range": [
+          111,
+          118
+        ]
+      },
+      {
+        "song_title": "Enter Miss Lynch",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Enter Miss Lynch.pdf",
+        "file_size_bytes": 73797,
+        "page_range": [
+          118,
+          119
+        ]
+      },
+      {
+        "song_title": "Enter Vince Fontaine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Enter Vince Fontaine.pdf",
+        "file_size_bytes": 82495,
+        "page_range": [
+          119,
+          120
+        ]
+      },
+      {
+        "song_title": "Born To Hand Jive",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/The Image Does Not Clearly Show The Artist Name - Born To Hand Jive.pdf",
+        "file_size_bytes": 432283,
+        "page_range": [
+          120,
+          128
+        ]
+      },
+      {
+        "song_title": "Crossover - Last Dance",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Crossover - Last Dance.pdf",
+        "file_size_bytes": 110971,
+        "page_range": [
+          128,
+          130
+        ]
+      },
+      {
+        "song_title": "Beauty School Dropout",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/The Song Does Not Clearly List An Artist Name On This Page, But It Does Show The Composers As Warren Casey And Jim Jacobs - Beauty School Dropout.pdf",
+        "file_size_bytes": 341625,
+        "page_range": [
+          130,
+          138
+        ]
+      },
+      {
+        "song_title": "Beauty School Dropout (reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Beauty School Dropout (reprise).pdf",
+        "file_size_bytes": 240333,
+        "page_range": [
+          138,
+          142
+        ]
+      },
+      {
+        "song_title": "Alone At The Drive-In Movie",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Alone At The Drive-in Movie.pdf",
+        "file_size_bytes": 278861,
+        "page_range": [
+          142,
+          147
+        ]
+      },
+      {
+        "song_title": "Rock 'n' Roll Party Queen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/The Details Mention Roger And Doodly Singing This Song, But No Clear Artist Name Is Provided At The Top - Rock 'n' Roll Party Queen.pdf",
+        "file_size_bytes": 305804,
+        "page_range": [
+          147,
+          153
+        ]
+      },
+      {
+        "song_title": "Gone For Keeps",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Written By Peter Riss For The 30th Anniversary Production, Gale Theatre, Newcaste, 2003. All Rights Administered By Edwin H. Morris And Company, A Division Of Ampl Communications, Inc - Gone For K.pdf",
+        "file_size_bytes": 103551,
+        "page_range": [
+          153,
+          154
+        ]
+      },
+      {
+        "song_title": "There Are Worse Things I Could Do",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - There Are Worse Things I Could Do.pdf",
+        "file_size_bytes": 249719,
+        "page_range": [
+          154,
+          159
+        ]
+      },
+      {
+        "song_title": "Look At Me, I'm Sandra Dee (reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Look At Me, I'm Sandra Dee (reprise).pdf",
+        "file_size_bytes": 238345,
+        "page_range": [
+          159,
+          163
+        ]
+      },
+      {
+        "song_title": "We Go Together (reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - We Go Together (reprise).pdf",
+        "file_size_bytes": 217731,
+        "page_range": [
+          163,
+          168
+        ]
+      },
+      {
+        "song_title": "Grease Finale",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Grease Finale.pdf",
+        "file_size_bytes": 100286,
+        "page_range": [
+          168,
+          169
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Greased Lightnin'.pdf",
+        "file_size_bytes": 137110,
+        "page_range": [
+          169,
+          170
+        ]
+      },
+      {
+        "song_title": "RYDELL FIGHT SONG",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Rydell Fight Song.pdf",
+        "file_size_bytes": 132268,
+        "page_range": [
+          170,
+          171
+        ]
+      },
+      {
+        "song_title": "Born to Hand Jive",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Born To Hand Jive.pdf",
+        "file_size_bytes": 307257,
+        "page_range": [
+          171,
+          178
+        ]
+      },
+      {
+        "song_title": "You're The One I Want",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Copyright Line At The Bottom, The Songwriters Appear To Be Warren Casey And Jim Jacobs - You're The One I Want.pdf",
+        "file_size_bytes": 311102,
+        "page_range": [
+          178,
+          191
+        ]
+      },
+      {
+        "song_title": "Exit Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/(arranged By Daniel Walden - Warren Casey And Jim Jacobs) - Exit Music.pdf",
+        "file_size_bytes": 136034,
+        "page_range": [
+          191,
+          192
+        ]
+      },
+      {
+        "song_title": "GREASE IS THE WORD",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Grease Is The Word.pdf",
+        "file_size_bytes": 197447,
+        "page_range": [
+          192,
+          195
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/Unknown Artist - Greased Lightnin'.pdf",
+        "file_size_bytes": 175550,
+        "page_range": [
+          195,
+          198
+        ]
+      },
+      {
+        "song_title": "Hopelessly Devoted To You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [2003 Score]/Songs/(no Clear Artist Name Provided On This Page) - Hopelessly Devoted To You.pdf",
+        "file_size_bytes": 294528,
+        "page_range": [
+          198,
+          203
+        ]
+      }
+    ]
+  }
+}

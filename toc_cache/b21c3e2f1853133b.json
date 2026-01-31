@@ -1,0 +1,333 @@
+{
+  "book_id": "b21c3e2f1853133b",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Mouse Music / Scar Underscore",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Mouse Music - Scar Underscore.pdf",
+        "file_size_bytes": 57641,
+        "page_range": [
+          28,
+          29
+        ]
+      },
+      {
+        "song_title": "Pridelands",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Pridelands.pdf",
+        "file_size_bytes": 1040769,
+        "page_range": [
+          29,
+          49
+        ]
+      },
+      {
+        "song_title": "The Morning Rep",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - The Morning Rep.pdf",
+        "file_size_bytes": 1448373,
+        "page_range": [
+          49,
+          78
+        ]
+      },
+      {
+        "song_title": "I Just Can't Wait To Be King",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - I Just Can't Wait To Be King.pdf",
+        "file_size_bytes": 467887,
+        "page_range": [
+          78,
+          87
+        ]
+      },
+      {
+        "song_title": "Chow Down",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion Kin - Chow Down.pdf",
+        "file_size_bytes": 419821,
+        "page_range": [
+          87,
+          94
+        ]
+      },
+      {
+        "song_title": "Allegro Diabolico",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - Allegro Diabolico.pdf",
+        "file_size_bytes": 242271,
+        "page_range": [
+          94,
+          98
+        ]
+      },
+      {
+        "song_title": "\"They Live In You\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - -they Live In You-.pdf",
+        "file_size_bytes": 110577,
+        "page_range": [
+          98,
+          100
+        ]
+      },
+      {
+        "song_title": "They Live In You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - They Live In You.pdf",
+        "file_size_bytes": 538204,
+        "page_range": [
+          100,
+          110
+        ]
+      },
+      {
+        "song_title": "Back to Graveyard",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Back To Graveyard.pdf",
+        "file_size_bytes": 932914,
+        "page_range": [
+          110,
+          126
+        ]
+      },
+      {
+        "song_title": "Scar and Simba",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Scar And Simba.pdf",
+        "file_size_bytes": 1111395,
+        "page_range": [
+          126,
+          144
+        ]
+      },
+      {
+        "song_title": "Eulogy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Eulogy.pdf",
+        "file_size_bytes": 296721,
+        "page_range": [
+          144,
+          149
+        ]
+      },
+      {
+        "song_title": "Rafiki Mourns",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Rafiki Mourns.pdf",
+        "file_size_bytes": 736722,
+        "page_range": [
+          149,
+          163
+        ]
+      },
+      {
+        "song_title": "ONE BY ONE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - One By One.pdf",
+        "file_size_bytes": 804470,
+        "page_range": [
+          163,
+          180
+        ]
+      },
+      {
+        "song_title": "The Madness of King Scar",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - The Madness Of King Scar.pdf",
+        "file_size_bytes": 227043,
+        "page_range": [
+          180,
+          184
+        ]
+      },
+      {
+        "song_title": "The Madness of King Scar",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - The Madness Of King Scar.pdf",
+        "file_size_bytes": 479431,
+        "page_range": [
+          184,
+          192
+        ]
+      },
+      {
+        "song_title": "The Madness of King Sere",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - The Madness Of King Sere.pdf",
+        "file_size_bytes": 69931,
+        "page_range": [
+          192,
+          193
+        ]
+      },
+      {
+        "song_title": "The Madness of King S\u00e9",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - The Madness Of King S\u00e9.pdf",
+        "file_size_bytes": 711256,
+        "page_range": [
+          193,
+          205
+        ]
+      },
+      {
+        "song_title": "Shadowland",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/(nala Continues Ad Lib) - Shadowland.pdf",
+        "file_size_bytes": 165739,
+        "page_range": [
+          205,
+          209
+        ]
+      },
+      {
+        "song_title": "Weem-a-wep",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Weem-a-wep.pdf",
+        "file_size_bytes": 365665,
+        "page_range": [
+          209,
+          216
+        ]
+      },
+      {
+        "song_title": "Under the Stars",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Under The Stars.pdf",
+        "file_size_bytes": 787685,
+        "page_range": [
+          216,
+          233
+        ]
+      },
+      {
+        "song_title": "Nala Chases Pumbaa",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Nala Chases Pumbaa.pdf",
+        "file_size_bytes": 176017,
+        "page_range": [
+          233,
+          236
+        ]
+      },
+      {
+        "song_title": "Nala/Simba Reunion",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Nala-simba Reunion.pdf",
+        "file_size_bytes": 80310,
+        "page_range": [
+          236,
+          238
+        ]
+      },
+      {
+        "song_title": "Can You Feel The Love Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - Can You Feel The Love Tonight.pdf",
+        "file_size_bytes": 111163,
+        "page_range": [
+          238,
+          240
+        ]
+      },
+      {
+        "song_title": "Can You Feel The Love Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - Can You Feel The Love Tonight.pdf",
+        "file_size_bytes": 113677,
+        "page_range": [
+          240,
+          242
+        ]
+      },
+      {
+        "song_title": "Can You Feel The Love Tonite",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - Can You Feel The Love Tonite.pdf",
+        "file_size_bytes": 66505,
+        "page_range": [
+          242,
+          243
+        ]
+      },
+      {
+        "song_title": "Can You Feel The Love Ton.",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - Can You Feel The Love Ton.pdf",
+        "file_size_bytes": 185751,
+        "page_range": [
+          243,
+          246
+        ]
+      },
+      {
+        "song_title": "Can You Feel The Love Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/(sivba & B) - Can You Feel The Love Tonight.pdf",
+        "file_size_bytes": 90214,
+        "page_range": [
+          246,
+          248
+        ]
+      },
+      {
+        "song_title": "Can You Feel The Love Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - Can You Feel The Love Tonight.pdf",
+        "file_size_bytes": 47723,
+        "page_range": [
+          248,
+          249
+        ]
+      },
+      {
+        "song_title": "Pool Reveal",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Pool Reveal.pdf",
+        "file_size_bytes": 21011,
+        "page_range": [
+          249,
+          250
+        ]
+      },
+      {
+        "song_title": "He Lives In You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - He Lives In You.pdf",
+        "file_size_bytes": 819360,
+        "page_range": [
+          250,
+          265
+        ]
+      },
+      {
+        "song_title": "He Lives In You - Playoff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - He Lives In You - Playoff.pdf",
+        "file_size_bytes": 1925030,
+        "page_range": [
+          265,
+          302
+        ]
+      },
+      {
+        "song_title": "Bows",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Lion King [score]/Songs/The Lion King - Bows.pdf",
+        "file_size_bytes": 307606,
+        "page_range": [
+          302,
+          308
+        ]
+      }
+    ]
+  }
+}

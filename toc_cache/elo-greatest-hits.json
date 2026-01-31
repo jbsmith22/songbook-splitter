@@ -1,0 +1,30 @@
+{
+  "book_id": "elo-greatest-hits",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Can't Get It Out Of My Head",
+        "page_number": 250,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Can't Get It Out Of My Head",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Greatest Hits/Songs/Jeff Lynne - Can't Get It Out Of My Head.pdf",
+        "file_size_bytes": 3223033,
+        "page_range": [
+          1,
+          43
+        ]
+      }
+    ]
+  }
+}

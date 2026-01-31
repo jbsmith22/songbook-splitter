@@ -1,0 +1,269 @@
+{
+  "book_id": "james-taylor-classic-guitar",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "CAROLINA IN MY MIND",
+        "page_number": 38,
+        "artist": "James Taylor",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "COUNTRY ROAD",
+        "page_number": 59,
+        "artist": "Sweet Baby James",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DON'T LET ME BE LONELY TONIGHT",
+        "page_number": 2,
+        "artist": "One Man Dog",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FIRE AND RAIN",
+        "page_number": 10,
+        "artist": "Sweet Baby James",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "INSTRUMENTAL I",
+        "page_number": 52,
+        "artist": "One Man Dog",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "INSTRUMENTAL II",
+        "page_number": 55,
+        "artist": "One Man Dog",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LONG AGO AND FAR AWAY",
+        "page_number": 18,
+        "artist": "Mud Slide Slim & The Blue Horizon",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MEXICO",
+        "page_number": 66,
+        "artist": "Gorilla",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHOWER THE PEOPLE",
+        "page_number": 73,
+        "artist": "In The Pocket",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SWEET BABY JAMES",
+        "page_number": 80,
+        "artist": "Sweet Baby James",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "UP ON THE ROOF",
+        "page_number": 22,
+        "artist": "Flag",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WALKING MAN",
+        "page_number": 97,
+        "artist": "Walking Man",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU CAN CLOSE YOUR EYES",
+        "page_number": 108,
+        "artist": "Mud Slide Slim & The Blue Horizon",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU'VE GOT A FRIEND",
+        "page_number": 115,
+        "artist": "Mud Slide Slim & The Blue Horizon",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOUR SMILING FACE",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "CAROLINA IN MY MIND": "James Taylor",
+      "COUNTRY ROAD": "Sweet Baby James",
+      "DON'T LET ME BE LONELY TONIGHT": "One Man Dog",
+      "FIRE AND RAIN": "Sweet Baby James",
+      "INSTRUMENTAL I": "One Man Dog",
+      "INSTRUMENTAL II": "One Man Dog",
+      "LONG AGO AND FAR AWAY": "Mud Slide Slim & The Blue Horizon",
+      "MEXICO": "Gorilla",
+      "SHOWER THE PEOPLE": "In The Pocket",
+      "SWEET BABY JAMES": "Sweet Baby James",
+      "UP ON THE ROOF": "Flag",
+      "WALKING MAN": "Walking Man",
+      "YOU CAN CLOSE YOUR EYES": "Mud Slide Slim & The Blue Horizon",
+      "YOU'VE GOT A FRIEND": "Mud Slide Slim & The Blue Horizon"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "DON'T LET ME BE LONELY TONIGHT",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Don't Let Me Be Lonely Tonight.pdf",
+        "file_size_bytes": 1362783,
+        "page_range": [
+          2,
+          10
+        ]
+      },
+      {
+        "song_title": "FIRE AND RAIN",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Fire And Rain.pdf",
+        "file_size_bytes": 1420053,
+        "page_range": [
+          10,
+          18
+        ]
+      },
+      {
+        "song_title": "LONG AGO AND FAR AWAY",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Long Ago And Far Away.pdf",
+        "file_size_bytes": 855819,
+        "page_range": [
+          18,
+          22
+        ]
+      },
+      {
+        "song_title": "UP ON THE ROOF",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Up On The Roof.pdf",
+        "file_size_bytes": 1463823,
+        "page_range": [
+          22,
+          30
+        ]
+      },
+      {
+        "song_title": "YOUR SMILING FACE",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Your Smiling Face.pdf",
+        "file_size_bytes": 1473352,
+        "page_range": [
+          30,
+          38
+        ]
+      },
+      {
+        "song_title": "CAROLINA IN MY MIND",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Carolina In My Mind.pdf",
+        "file_size_bytes": 2424635,
+        "page_range": [
+          38,
+          52
+        ]
+      },
+      {
+        "song_title": "INSTRUMENTAL I",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Instrumental I.pdf",
+        "file_size_bytes": 473520,
+        "page_range": [
+          52,
+          55
+        ]
+      },
+      {
+        "song_title": "INSTRUMENTAL II",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Instrumental Ii.pdf",
+        "file_size_bytes": 788766,
+        "page_range": [
+          55,
+          59
+        ]
+      },
+      {
+        "song_title": "COUNTRY ROAD",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Country Road.pdf",
+        "file_size_bytes": 1291112,
+        "page_range": [
+          59,
+          66
+        ]
+      },
+      {
+        "song_title": "MEXICO",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Mexico.pdf",
+        "file_size_bytes": 1244306,
+        "page_range": [
+          66,
+          73
+        ]
+      },
+      {
+        "song_title": "SHOWER THE PEOPLE",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Shower The People.pdf",
+        "file_size_bytes": 1289324,
+        "page_range": [
+          73,
+          80
+        ]
+      },
+      {
+        "song_title": "SWEET BABY JAMES",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Sweet Baby James.pdf",
+        "file_size_bytes": 2701465,
+        "page_range": [
+          80,
+          97
+        ]
+      },
+      {
+        "song_title": "WALKING MAN",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - Walking Man.pdf",
+        "file_size_bytes": 1913359,
+        "page_range": [
+          97,
+          108
+        ]
+      },
+      {
+        "song_title": "YOU CAN CLOSE YOUR EYES",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - You Can Close Your Eyes.pdf",
+        "file_size_bytes": 1279950,
+        "page_range": [
+          108,
+          115
+        ]
+      },
+      {
+        "song_title": "YOU'VE GOT A FRIEND",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/Classic [guitar]/Songs/James Taylor - You've Got A Friend.pdf",
+        "file_size_bytes": 2680252,
+        "page_range": [
+          115,
+          131
+        ]
+      }
+    ]
+  }
+}

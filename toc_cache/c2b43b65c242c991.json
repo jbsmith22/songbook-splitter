@@ -1,0 +1,33 @@
+{
+  "book_id": "c2b43b65c242c991",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "She's Got You",
+        "artist": "Jimmy Buffet",
+        "output_uri": "s3://jsmith-output/Jimmy Buffet/Jimmy Buffett - Fruitcakes [pvg Book]/Songs/Jimmy Buffet - She's Got You.pdf",
+        "file_size_bytes": 375388,
+        "page_range": [
+          40,
+          43
+        ]
+      },
+      {
+        "song_title": "Delaney Talks to Statues",
+        "artist": "Jimmy Buffet",
+        "output_uri": "s3://jsmith-output/Jimmy Buffet/Jimmy Buffett - Fruitcakes [pvg Book]/Songs/Jimmy Buffet - Delaney Talks To Statues.pdf",
+        "file_size_bytes": 1292558,
+        "page_range": [
+          43,
+          54
+        ]
+      }
+    ]
+  }
+}

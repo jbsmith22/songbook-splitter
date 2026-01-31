@@ -1,0 +1,558 @@
+{
+  "book_id": "movie-and-tv-various-artists-movie-songs-of-the-90s-vol-2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "THE ADDAMS FAMILY WALTZ",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ALL I WANT FOR CHRISTMAS",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DEAD AGAIN SUITE",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DESTINATION ANYWHERE",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "END OF THE ROAD",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GIVE U MY HEART",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HEART OF A HERO",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HEAT WAVE [a.k.a. Love Is...]",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HOW ABOUT YOU?",
+        "page_number": 134,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HUDSON HAWK THEME",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I CROSS MY HEART",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I WILL ALWAYS LOVE YOU",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'M EVERY WOMAN",
+        "page_number": 138,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE SHOULDA BROUGHT YOU HOME",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MUSTANG SALLY",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MY GUY",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE MOVES IN MYSTERIOUS WAYS",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NOW AND FOREVER",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NOWHERE TO RUN",
+        "page_number": 79,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE PASSION THEME",
+        "page_number": 123,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PLACES THAT BELONG TO YOU",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "READY FOR A MIRACLE",
+        "page_number": 86,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "REAL COOL WORLD",
+        "page_number": 92,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "RUN TO YOU",
+        "page_number": 143,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHOTGUN",
+        "page_number": 96,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TAKE ME TO THE RIVER",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THEME FROM \"JENNIFER EIGHT\"",
+        "page_number": 102,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THEME FROM \"MY GIRL\"",
+        "page_number": 118,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TOO MANY FISH IN THE SEA",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TRY A LITTLE TENDERNESS",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "UNTIL YOU LET GO",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WE DON'T WANNA GROW UP",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WEAR MY RING AROUND YOU NECK",
+        "page_number": 130,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHEN YOU'RE ALONE",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "END OF THE ROAD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Babyface, L.a. Reid, Daryl Simmons - End Of The Road.pdf",
+        "file_size_bytes": 1661800,
+        "page_range": [
+          3,
+          6
+        ]
+      },
+      {
+        "song_title": "I WILL ALWAYS LOVE YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Dolly Parton - I Will Always Love You.pdf",
+        "file_size_bytes": 2722224,
+        "page_range": [
+          6,
+          11
+        ]
+      },
+      {
+        "song_title": "PLACES THAT BELONG TO YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Lyrics By Lin And Marilyn Bergman, Music By James Newton Howard - Places That Belong To You.pdf",
+        "file_size_bytes": 2681750,
+        "page_range": [
+          11,
+          16
+        ]
+      },
+      {
+        "song_title": "DESTINATION ANYWHERE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Nickolas Ashford And Valerie Simpson - Destination Anywhere.pdf",
+        "file_size_bytes": 2089279,
+        "page_range": [
+          16,
+          20
+        ]
+      },
+      {
+        "song_title": "THE ADDAMS FAMILY WALTZ",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Composed By Marc Shaiman (from The Paramount Motion Picture -the Addams Family-) - The Addams Family Waltz.pdf",
+        "file_size_bytes": 1695661,
+        "page_range": [
+          20,
+          23
+        ]
+      },
+      {
+        "song_title": "ALL I WANT FOR CHRISTMAS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/David Foster And Linda Thompson - All I Want For Christmas.pdf",
+        "file_size_bytes": 3979798,
+        "page_range": [
+          23,
+          30
+        ]
+      },
+      {
+        "song_title": "DEAD AGAIN SUITE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Composed By Patrick Doyle, Arranged By David Firman - Dead Again Suite.pdf",
+        "file_size_bytes": 4005226,
+        "page_range": [
+          30,
+          37
+        ]
+      },
+      {
+        "song_title": "TOO MANY FISH IN THE SEA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Norman Whitfield And Edward Holland, Jr - Too Many Fish In The Sea.pdf",
+        "file_size_bytes": 1492677,
+        "page_range": [
+          37,
+          40
+        ]
+      },
+      {
+        "song_title": "GIVE U MY HEART",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/L.a. Reid, Babyface, Daryl Simms And Bo Watson - Give U My Heart.pdf",
+        "file_size_bytes": 1957860,
+        "page_range": [
+          40,
+          44
+        ]
+      },
+      {
+        "song_title": "HEART OF A HERO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Luther Vandross - Heart Of A Hero.pdf",
+        "file_size_bytes": 2958479,
+        "page_range": [
+          44,
+          50
+        ]
+      },
+      {
+        "song_title": "HEAT WAVE [a.k.a. Love Is...]",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Eddie Holland, Lamont Dozier And Brian Holland - Heat Wave [a.k.a. Love Is...].pdf",
+        "file_size_bytes": 1678924,
+        "page_range": [
+          50,
+          53
+        ]
+      },
+      {
+        "song_title": "LOVE SHOULDA BROUGHT YOU HOME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Bo Watson, Harley Q And Daryl Simmons - Love Shoulda Brought You Home.pdf",
+        "file_size_bytes": 2575285,
+        "page_range": [
+          53,
+          58
+        ]
+      },
+      {
+        "song_title": "MUSTANG SALLY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Bonny Rice - Mustang Sally.pdf",
+        "file_size_bytes": 1850769,
+        "page_range": [
+          58,
+          62
+        ]
+      },
+      {
+        "song_title": "MY GUY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/William -smokey- Robinson - My Guy.pdf",
+        "file_size_bytes": 1385284,
+        "page_range": [
+          62,
+          64
+        ]
+      },
+      {
+        "song_title": "HUDSON HAWK THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Based On The Credits At The Bottom, The Music Is By Robert Kraft And Bruce Willis, Though The Artist Performing It Is Not Explicitly Stated - Hudson Hawk Theme.pdf",
+        "file_size_bytes": 3599110,
+        "page_range": [
+          64,
+          70
+        ]
+      },
+      {
+        "song_title": "I CROSS MY HEART",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Steve Robson And Eric Kaz - I Cross My Heart.pdf",
+        "file_size_bytes": 1904214,
+        "page_range": [
+          70,
+          74
+        ]
+      },
+      {
+        "song_title": "LOVE MOVES IN MYSTERIOUS WAYS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Tom Snow And Dean Pitchford - Love Moves In Mysterious Ways.pdf",
+        "file_size_bytes": 2505731,
+        "page_range": [
+          74,
+          79
+        ]
+      },
+      {
+        "song_title": "NOWHERE TO RUN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Brian Holland, Lamont Dozier And Edward Holland, Jr - Nowhere To Run.pdf",
+        "file_size_bytes": 1509690,
+        "page_range": [
+          79,
+          82
+        ]
+      },
+      {
+        "song_title": "NOW AND FOREVER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Carole King - Now And Forever.pdf",
+        "file_size_bytes": 2057057,
+        "page_range": [
+          82,
+          86
+        ]
+      },
+      {
+        "song_title": "READY FOR A MIRACLE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Art Reynolds, Bunny Hull - Ready For A Miracle.pdf",
+        "file_size_bytes": 3609515,
+        "page_range": [
+          86,
+          92
+        ]
+      },
+      {
+        "song_title": "REAL COOL WORLD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/David Bowie - Real Cool World.pdf",
+        "file_size_bytes": 2012501,
+        "page_range": [
+          92,
+          96
+        ]
+      },
+      {
+        "song_title": "SHOTGUN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Autry Inman - Shotgun.pdf",
+        "file_size_bytes": 956421,
+        "page_range": [
+          96,
+          98
+        ]
+      },
+      {
+        "song_title": "TAKE ME TO THE RIVER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Al Green And Mabon Hodges - Take Me To The River.pdf",
+        "file_size_bytes": 1945369,
+        "page_range": [
+          98,
+          102
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"JENNIFER EIGHT\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Christopher Young - Theme From -jennifer Eight-.pdf",
+        "file_size_bytes": 1204499,
+        "page_range": [
+          102,
+          104
+        ]
+      },
+      {
+        "song_title": "TRY A LITTLE TENDERNESS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Harry Woods, Jimmy Campbell And Reg Connelly - Try A Little Tenderness.pdf",
+        "file_size_bytes": 2156016,
+        "page_range": [
+          104,
+          108
+        ]
+      },
+      {
+        "song_title": "UNTIL YOU LET GO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Peter Mccann, David Zippel, And Marvin Hamlisch - Until You Let Go.pdf",
+        "file_size_bytes": 2656997,
+        "page_range": [
+          108,
+          112
+        ]
+      },
+      {
+        "song_title": "WE DON'T WANNA GROW UP",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/John Williams, Lyrics By Leslie Bricusse - We Don't Wanna Grow Up.pdf",
+        "file_size_bytes": 1142254,
+        "page_range": [
+          112,
+          114
+        ]
+      },
+      {
+        "song_title": "WHEN YOU'RE ALONE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/The Image Does Not Clearly Show The Artist Name, But It Mentions -from The Tristar Pictures Feature Film 'hook'- And Credits Leslie Bricusse For The Lyrics And John Williams For The Music - When Y.pdf",
+        "file_size_bytes": 2384951,
+        "page_range": [
+          114,
+          118
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"MY GIRL\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/James Newton Howard - Theme From -my Girl-.pdf",
+        "file_size_bytes": 2629599,
+        "page_range": [
+          118,
+          123
+        ]
+      },
+      {
+        "song_title": "THE PASSION THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Warren Hill, Jeff Silbar And Ghalmel Revell - The Passion Theme.pdf",
+        "file_size_bytes": 4127075,
+        "page_range": [
+          123,
+          130
+        ]
+      },
+      {
+        "song_title": "WEAR MY RING AROUND YOU NECK",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Bert Carroll & Russell Moody - Wear My Ring Around You Neck.pdf",
+        "file_size_bytes": 2181385,
+        "page_range": [
+          130,
+          134
+        ]
+      },
+      {
+        "song_title": "HOW ABOUT YOU?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/From The Film -the Fisher King- With Lyrics By Ralph Freed And Music By Burton Lane - How About You-.pdf",
+        "file_size_bytes": 2371954,
+        "page_range": [
+          134,
+          138
+        ]
+      },
+      {
+        "song_title": "I'M EVERY WOMAN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Nickolas Ashford And Valerie Simpson - I'm Every Woman.pdf",
+        "file_size_bytes": 2878581,
+        "page_range": [
+          138,
+          143
+        ]
+      },
+      {
+        "song_title": "RUN TO YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Songs Of The 90s Vol 2/Songs/Jud Friedman And Allan Rich - Run To You.pdf",
+        "file_size_bytes": 3945947,
+        "page_range": [
+          143,
+          150
+        ]
+      }
+    ]
+  }
+}

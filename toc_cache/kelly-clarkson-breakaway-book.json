@@ -1,0 +1,64 @@
+{
+  "book_id": "kelly-clarkson-breakaway-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Breakaway",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Grew up in a small town",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'd just stare out my window",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "and if I'd end up happy",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Try-ing hard to reach out",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Breakaway",
+        "artist": "Kelly Clarkson",
+        "output_uri": "s3://jsmith-output/Kelly Clarkson/Breakaway (book)/Songs/Kelly Clarkson - Breakaway.pdf",
+        "file_size_bytes": 32865,
+        "page_range": [
+          0,
+          1
+        ]
+      },
+      {
+        "song_title": "Grew up in a small town",
+        "artist": "Kelly Clarkson",
+        "output_uri": "s3://jsmith-output/Kelly Clarkson/Breakaway (book)/Songs/Kelly Clarkson - Grew Up In A Small Town.pdf",
+        "file_size_bytes": 3163781,
+        "page_range": [
+          1,
+          76
+        ]
+      }
+    ]
+  }
+}

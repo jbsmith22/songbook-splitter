@@ -1,0 +1,73 @@
+{
+  "book_id": "3259b2edd37cd004",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sharp Dressed Man",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits (2)/Songs/Zz Top - Sharp Dressed Man.pdf",
+        "file_size_bytes": 4132155,
+        "page_range": [
+          14,
+          127
+        ]
+      },
+      {
+        "song_title": "Got Me Under Pressure",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits (2)/Songs/Zz Top - Got Me Under Pressure.pdf",
+        "file_size_bytes": 792809,
+        "page_range": [
+          127,
+          149
+        ]
+      },
+      {
+        "song_title": "La Grange",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits (2)/Songs/Zz Top - La Grange.pdf",
+        "file_size_bytes": 670686,
+        "page_range": [
+          149,
+          169
+        ]
+      },
+      {
+        "song_title": "Outro Solo",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits (2)/Songs/Zz Top - Outro Solo.pdf",
+        "file_size_bytes": 401988,
+        "page_range": [
+          169,
+          180
+        ]
+      },
+      {
+        "song_title": "Velcro Fly",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits (2)/Songs/Zz Top - Velcro Fly.pdf",
+        "file_size_bytes": 772413,
+        "page_range": [
+          180,
+          203
+        ]
+      },
+      {
+        "song_title": "TV DINNERS",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits (2)/Songs/Zz Top - Tv Dinners.pdf",
+        "file_size_bytes": 170968,
+        "page_range": [
+          203,
+          208
+        ]
+      }
+    ]
+  }
+}

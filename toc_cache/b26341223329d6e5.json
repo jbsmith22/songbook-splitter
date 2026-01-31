@@ -1,0 +1,12 @@
+{
+  "book_id": "b26341223329d6e5",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "book_id": "e5ae548989836b9b",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Nick Of Time",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A friend of mine, she cries at night and she calls me on the phone. I see my folks, they're getting on, and I watch their bed - ies change, and all my tears were shed.",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sees ba - bies ev - 'ry - where she goes and she in me there were no prom - ise left un - bro - ken,",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "wants one of her own. Strange, said, makes us both feel words un - said.",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "she says, and your - self it's me I could",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "still he can't de - cide. What we all go through, I be - hind.",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Nick Of Time",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Bonnie Raitt - Nick Of Time [pvg Book]/Songs/Bonnie Raitt - Nick Of Time.pdf",
+        "file_size_bytes": 12425317,
+        "page_range": [
+          0,
+          47
+        ]
+      }
+    ]
+  }
+}

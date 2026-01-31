@@ -1,0 +1,73 @@
+{
+  "book_id": "doors-songbook",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Riders On The Storm",
+        "artist": "Doors",
+        "output_uri": "s3://jsmith-output/Doors/Songbook/Songs/The Doors - Riders On The Storm.pdf",
+        "file_size_bytes": 605845,
+        "page_range": [
+          0,
+          4
+        ]
+      },
+      {
+        "song_title": "Roadhouse Blues",
+        "artist": "Doors",
+        "output_uri": "s3://jsmith-output/Doors/Songbook/Songs/The Doors - Roadhouse Blues.pdf",
+        "file_size_bytes": 705473,
+        "page_range": [
+          4,
+          8
+        ]
+      },
+      {
+        "song_title": "Love Street",
+        "artist": "Doors",
+        "output_uri": "s3://jsmith-output/Doors/Songbook/Songs/The Drifters - Love Street.pdf",
+        "file_size_bytes": 585444,
+        "page_range": [
+          8,
+          12
+        ]
+      },
+      {
+        "song_title": "Break On Through",
+        "artist": "Doors",
+        "output_uri": "s3://jsmith-output/Doors/Songbook/Songs/The Doors - Break On Through.pdf",
+        "file_size_bytes": 333668,
+        "page_range": [
+          12,
+          14
+        ]
+      },
+      {
+        "song_title": "The End",
+        "artist": "Doors",
+        "output_uri": "s3://jsmith-output/Doors/Songbook/Songs/Unknown Artist - The End.pdf",
+        "file_size_bytes": 1102510,
+        "page_range": [
+          14,
+          21
+        ]
+      },
+      {
+        "song_title": "L.A. Woman",
+        "artist": "Doors",
+        "output_uri": "s3://jsmith-output/Doors/Songbook/Songs/The Doors - L.a. Woman.pdf",
+        "file_size_bytes": 1669180,
+        "page_range": [
+          21,
+          32
+        ]
+      }
+    ]
+  }
+}

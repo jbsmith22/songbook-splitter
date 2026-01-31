@@ -1,0 +1,60 @@
+{
+  "book_id": "7a618725482401ad",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Theme from the Paramount Motion Picture STAR TREK IV: THE VOYAGE HOME",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "C7sus/G",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Am7sus",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cm",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dm",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fsus/C",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Theme from the Paramount Motion Picture STAR TREK IV: THE VOYAGE HOME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - The Voyage Home/Songs/Music By Alexander Courage And Leonard Rosenman - Theme From The Paramount Motion Picture Star Trek Iv- The Voyage Home.pdf",
+        "file_size_bytes": 537162,
+        "page_range": [
+          0,
+          2
+        ]
+      }
+    ]
+  }
+}

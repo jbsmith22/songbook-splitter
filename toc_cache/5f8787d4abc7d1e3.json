@@ -1,0 +1,52 @@
+{
+  "book_id": "5f8787d4abc7d1e3",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Overture",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Agitato (in A)",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Unisah",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Overture",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cats - Conductor Score/Songs/Unknown Artist - Overture.pdf",
+        "file_size_bytes": 9025668,
+        "page_range": [
+          0,
+          152
+        ]
+      },
+      {
+        "song_title": "Agitato (in A)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cats - Conductor Score/Songs/Unknown Artist - Agitato (in A).pdf",
+        "file_size_bytes": 12194215,
+        "page_range": [
+          152,
+          359
+        ]
+      }
+    ]
+  }
+}

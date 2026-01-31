@@ -1,0 +1,318 @@
+{
+  "book_id": "carole-king-the-new-best-of-carole-king",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "CHAINS",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CRYING IN THE RAIN",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HALFWAY TO PARADISE",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I FEEL THE EARTH MOVE",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT'S GOING TO TAKE SOME TIME",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT'S TOO LATE",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JAZZMAN",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(THE) LOCO-MOTION",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(You Make Me Feel Like) A NATURAL WOMAN",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ONE FINE DAY",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SO FAR AWAY",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SWEET SEASONS",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TAKE GOOD CARE OF MY BABY",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TAPESTRY",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "UP ON THE ROOF",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHAT A SWEET THING THAT WAS",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHERE YOU LEAD",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WILL YOU LOVE ME TOMORROW",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU'VE GOT A FRIEND",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "JAZZMAN",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/David Palmer And Carole King - Jazzman.pdf",
+        "file_size_bytes": 1881429,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "UP ON THE ROOF",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Gerry Goffin And Carole King - Up On The Roof.pdf",
+        "file_size_bytes": 1067056,
+        "page_range": [
+          6,
+          8
+        ]
+      },
+      {
+        "song_title": "WHAT A SWEET THING THAT WAS",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Gerry Goffin And Carole King - What A Sweet Thing That Was.pdf",
+        "file_size_bytes": 1961741,
+        "page_range": [
+          8,
+          12
+        ]
+      },
+      {
+        "song_title": "IT'S TOO LATE",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Unknown Artist - It's Too Late.pdf",
+        "file_size_bytes": 975264,
+        "page_range": [
+          12,
+          14
+        ]
+      },
+      {
+        "song_title": "CHAINS",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Gerry Goffin And Carole King - Chains.pdf",
+        "file_size_bytes": 1320673,
+        "page_range": [
+          14,
+          17
+        ]
+      },
+      {
+        "song_title": "WHERE YOU LEAD",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Unknown Artist - Where You Lead.pdf",
+        "file_size_bytes": 1529505,
+        "page_range": [
+          17,
+          20
+        ]
+      },
+      {
+        "song_title": "CRYING IN THE RAIN",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Carole King And Howard Greenfield - Crying In The Rain.pdf",
+        "file_size_bytes": 1101100,
+        "page_range": [
+          20,
+          22
+        ]
+      },
+      {
+        "song_title": "(You Make Me Feel Like) A NATURAL WOMAN",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/The Song Credits List Gerry Goffin, Carole King, And Jerry Wexler As The Writers, But Do Not Explicitly Name The Artist - (you Make Me Feel Like) A Natural Woman.pdf",
+        "file_size_bytes": 2068240,
+        "page_range": [
+          22,
+          26
+        ]
+      },
+      {
+        "song_title": "WILL YOU LOVE ME TOMORROW",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Gerry Goffin And Carole King - Will You Love Me Tomorrow.pdf",
+        "file_size_bytes": 1641464,
+        "page_range": [
+          26,
+          30
+        ]
+      },
+      {
+        "song_title": "HALFWAY TO PARADISE",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Gerry Goffin And Carole King - Halfway To Paradise.pdf",
+        "file_size_bytes": 1445488,
+        "page_range": [
+          30,
+          33
+        ]
+      },
+      {
+        "song_title": "I FEEL THE EARTH MOVE",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Carole King - I Feel The Earth Move.pdf",
+        "file_size_bytes": 1368283,
+        "page_range": [
+          33,
+          36
+        ]
+      },
+      {
+        "song_title": "TAPESTRY",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Carole King - Tapestry.pdf",
+        "file_size_bytes": 2782727,
+        "page_range": [
+          36,
+          42
+        ]
+      },
+      {
+        "song_title": "SO FAR AWAY",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Carole King - So Far Away.pdf",
+        "file_size_bytes": 1056081,
+        "page_range": [
+          42,
+          44
+        ]
+      },
+      {
+        "song_title": "SWEET SEASONS",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Carole King And Toni Stern - Sweet Seasons.pdf",
+        "file_size_bytes": 1489416,
+        "page_range": [
+          44,
+          47
+        ]
+      },
+      {
+        "song_title": "IT'S GOING TO TAKE SOME TIME",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Carole King And Toni Stern - It's Going To Take Some Time.pdf",
+        "file_size_bytes": 1620237,
+        "page_range": [
+          47,
+          50
+        ]
+      },
+      {
+        "song_title": "ONE FINE DAY",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Gerry Goffin & Carole King - One Fine Day.pdf",
+        "file_size_bytes": 1853774,
+        "page_range": [
+          50,
+          54
+        ]
+      },
+      {
+        "song_title": "(THE) LOCO-MOTION",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Gerry Goffin And Carole King - (the) Loco-motion.pdf",
+        "file_size_bytes": 1607192,
+        "page_range": [
+          54,
+          57
+        ]
+      },
+      {
+        "song_title": "TAKE GOOD CARE OF MY BABY",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Gerry Goffin And Carole King - Take Good Care Of My Baby.pdf",
+        "file_size_bytes": 521301,
+        "page_range": [
+          57,
+          58
+        ]
+      },
+      {
+        "song_title": "YOU'VE GOT A FRIEND",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/The New Best Of Carole King/Songs/Unknown Artist - You've Got A Friend.pdf",
+        "file_size_bytes": 4450178,
+        "page_range": [
+          58,
+          66
+        ]
+      }
+    ]
+  }
+}

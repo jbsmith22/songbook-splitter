@@ -1,0 +1,73 @@
+{
+  "book_id": "e695b245c03c8096",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Stones of Years",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Tarkus [book]/Songs/Emerson Lake And Palmer - The Stones Of Years.pdf",
+        "file_size_bytes": 158768,
+        "page_range": [
+          8,
+          11
+        ]
+      },
+      {
+        "song_title": "Iconoclast",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Tarkus [book]/Songs/Emerson Lake And Palmer - Iconoclast.pdf",
+        "file_size_bytes": 149074,
+        "page_range": [
+          11,
+          14
+        ]
+      },
+      {
+        "song_title": "Mass",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Tarkus [book]/Songs/Emerson Lake And Palmer - Mass.pdf",
+        "file_size_bytes": 467628,
+        "page_range": [
+          14,
+          23
+        ]
+      },
+      {
+        "song_title": "The Battlefield",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Tarkus [book]/Songs/Emerson Lake And Palmer - The Battlefield.pdf",
+        "file_size_bytes": 208616,
+        "page_range": [
+          23,
+          27
+        ]
+      },
+      {
+        "song_title": "AQUATARKUS",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Tarkus [book]/Songs/Emerson Lake And Palmer - Aquatarkus.pdf",
+        "file_size_bytes": 374652,
+        "page_range": [
+          27,
+          35
+        ]
+      },
+      {
+        "song_title": "Jeremy Bender",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Tarkus [book]/Songs/Emerson Lake And Palmer - Jeremy Bender.pdf",
+        "file_size_bytes": 1592499,
+        "page_range": [
+          35,
+          68
+        ]
+      }
+    ]
+  }
+}

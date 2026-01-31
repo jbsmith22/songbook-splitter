@@ -1,0 +1,43 @@
+{
+  "book_id": "2fac204826d13448",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Strawberry Wine",
+        "artist": "The Band",
+        "output_uri": "s3://jsmith-output/The Band/Band - Stage Fright [pvg]/Songs/The Band - Strawberry Wine.pdf",
+        "file_size_bytes": 460911,
+        "page_range": [
+          17,
+          29
+        ]
+      },
+      {
+        "song_title": "The Shape I'm In",
+        "artist": "The Band",
+        "output_uri": "s3://jsmith-output/The Band/Band - Stage Fright [pvg]/Songs/The Band - The Shape I'm In.pdf",
+        "file_size_bytes": 402474,
+        "page_range": [
+          29,
+          41
+        ]
+      },
+      {
+        "song_title": "SLEEPING",
+        "artist": "The Band",
+        "output_uri": "s3://jsmith-output/The Band/Band - Stage Fright [pvg]/Songs/The Band - Sleeping.pdf",
+        "file_size_bytes": 1028409,
+        "page_range": [
+          41,
+          60
+        ]
+      }
+    ]
+  }
+}

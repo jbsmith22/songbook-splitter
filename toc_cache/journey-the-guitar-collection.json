@@ -1,0 +1,270 @@
+{
+  "book_id": "journey-the-guitar-collection",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "ANY WAY YOU WANT IT",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BE GOOD TO YOURSELF",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DON'T STOP BELIEVIN'",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ESCAPE",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FAITHFULLY",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GIRL CAN'T HELP IT",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LIGHTS",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVIN', TOUCHIN', SQUEEZIN'",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ONLY THE YOUNG",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "OPEN ARMS",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SEND HER MY LOVE",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SEPARATE WAYS (WORLDS APART)",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "STILL THEY RIDE",
+        "page_number": 126,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "STONE IN LOVE",
+        "page_number": 134,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHEEL IN THE SKY",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHO'S CRYING NOW",
+        "page_number": 160,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "ANY WAY YOU WANT IT",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry And Neal Schon - Any Way You Want It.pdf",
+        "file_size_bytes": 2326732,
+        "page_range": [
+          3,
+          17
+        ]
+      },
+      {
+        "song_title": "BE GOOD TO YOURSELF",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry, Jonathan Cain And Neal Schon - Be Good To Yourself.pdf",
+        "file_size_bytes": 2124985,
+        "page_range": [
+          17,
+          28
+        ]
+      },
+      {
+        "song_title": "GIRL CAN'T HELP IT",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry, Jonathan Cain And Neal Schon - Girl Can't Help It.pdf",
+        "file_size_bytes": 1336736,
+        "page_range": [
+          28,
+          35
+        ]
+      },
+      {
+        "song_title": "DON'T STOP BELIEVIN'",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Unknown Artist - Don't Stop Believin'.pdf",
+        "file_size_bytes": 2252867,
+        "page_range": [
+          35,
+          49
+        ]
+      },
+      {
+        "song_title": "ESCAPE",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry, Neal Schon And Jonathan Cain - Escape.pdf",
+        "file_size_bytes": 2127113,
+        "page_range": [
+          49,
+          63
+        ]
+      },
+      {
+        "song_title": "FAITHFULLY",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Jonathan Cain - Faithfully.pdf",
+        "file_size_bytes": 1735910,
+        "page_range": [
+          63,
+          74
+        ]
+      },
+      {
+        "song_title": "OPEN ARMS",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry And Jonathan Cain - Open Arms.pdf",
+        "file_size_bytes": 1428105,
+        "page_range": [
+          74,
+          83
+        ]
+      },
+      {
+        "song_title": "LIGHTS",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry And Neal Schon - Lights.pdf",
+        "file_size_bytes": 1297117,
+        "page_range": [
+          83,
+          91
+        ]
+      },
+      {
+        "song_title": "LOVIN', TOUCHIN', SQUEEZIN'",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry - Lovin', Touchin', Squeezin'.pdf",
+        "file_size_bytes": 1549548,
+        "page_range": [
+          91,
+          101
+        ]
+      },
+      {
+        "song_title": "ONLY THE YOUNG",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/The Names Steve Perry, Neal Schon, And Jonathan Cain Are Listed, Suggesting They Are The Artists Or Songwriters - Only The Young.pdf",
+        "file_size_bytes": 1671310,
+        "page_range": [
+          101,
+          111
+        ]
+      },
+      {
+        "song_title": "SEND HER MY LOVE",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry And Jonathan Cain - Send Her My Love.pdf",
+        "file_size_bytes": 1076734,
+        "page_range": [
+          111,
+          117
+        ]
+      },
+      {
+        "song_title": "SEPARATE WAYS (WORLDS APART)",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Journey (steve Perry And Jonathan Cain) - Separate Ways (worlds Apart).pdf",
+        "file_size_bytes": 1632617,
+        "page_range": [
+          117,
+          127
+        ]
+      },
+      {
+        "song_title": "STILL THEY RIDE",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry, Neal Schon And Jonathan Cain - Still They Ride.pdf",
+        "file_size_bytes": 1324847,
+        "page_range": [
+          127,
+          135
+        ]
+      },
+      {
+        "song_title": "STONE IN LOVE",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Steve Perry, Neal Schon And Jonathan Cain - Stone In Love.pdf",
+        "file_size_bytes": 1972634,
+        "page_range": [
+          135,
+          147
+        ]
+      },
+      {
+        "song_title": "WHEEL IN THE SKY",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/Neal Schon, Robert Fleischman, And Diane Valory - Wheel In The Sky.pdf",
+        "file_size_bytes": 2326557,
+        "page_range": [
+          147,
+          161
+        ]
+      },
+      {
+        "song_title": "WHO'S CRYING NOW",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/The Guitar Collection/Songs/The Song Credits List Steve Perry And Jonathan Cain As The Writers, Suggesting They Are Likely The Artists As Well - Who's Crying Now.pdf",
+        "file_size_bytes": 1594092,
+        "page_range": [
+          161,
+          170
+        ]
+      }
+    ]
+  }
+}

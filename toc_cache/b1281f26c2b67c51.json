@@ -1,0 +1,172 @@
+{
+  "book_id": "b1281f26c2b67c51",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Stupid Girls",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Who Knew",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Long Way to Happy",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Nobody Knows",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dear Mr. President",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm Not Dead",
+        "page_number": 45,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cuz I Can",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Leave Me Alone (I'm Lonely)",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "U + Ur Hand",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Runaway",
+        "page_number": 71,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The One That Got Away",
+        "page_number": 86,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Got Money Now",
+        "page_number": 95,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Conversations with My 13 Year Old Self",
+        "page_number": 102,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Stupid Girls",
+        "artist": "Pink",
+        "output_uri": "s3://jsmith-output/Pink/Pink - I'm Not Dead [pvg Book]/Songs/Pink - Stupid Girls.pdf",
+        "file_size_bytes": 399111,
+        "page_range": [
+          5,
+          29
+        ]
+      },
+      {
+        "song_title": "Nobody Knows",
+        "artist": "Pink",
+        "output_uri": "s3://jsmith-output/Pink/Pink - I'm Not Dead [pvg Book]/Songs/Pink - Nobody Knows.pdf",
+        "file_size_bytes": 106859,
+        "page_range": [
+          29,
+          35
+        ]
+      },
+      {
+        "song_title": "Dear Mr. President",
+        "artist": "Pink",
+        "output_uri": "s3://jsmith-output/Pink/Pink - I'm Not Dead [pvg Book]/Songs/Pink - Dear Mr. President.pdf",
+        "file_size_bytes": 428257,
+        "page_range": [
+          35,
+          60
+        ]
+      },
+      {
+        "song_title": "Cuz I Can",
+        "artist": "Pink",
+        "output_uri": "s3://jsmith-output/Pink/Pink - I'm Not Dead [pvg Book]/Songs/Pink - Cuz I Can.pdf",
+        "file_size_bytes": 144372,
+        "page_range": [
+          60,
+          68
+        ]
+      },
+      {
+        "song_title": "Leave Me Alone (I'm Lonely)",
+        "artist": "Pink",
+        "output_uri": "s3://jsmith-output/Pink/Pink - I'm Not Dead [pvg Book]/Songs/Pink - Leave Me Alone (i'm Lonely).pdf",
+        "file_size_bytes": 115365,
+        "page_range": [
+          68,
+          75
+        ]
+      },
+      {
+        "song_title": "Runaway",
+        "artist": "Pink",
+        "output_uri": "s3://jsmith-output/Pink/Pink - I'm Not Dead [pvg Book]/Songs/Pink - Runaway.pdf",
+        "file_size_bytes": 384264,
+        "page_range": [
+          75,
+          96
+        ]
+      },
+      {
+        "song_title": "I Got Money Now",
+        "artist": "Pink",
+        "output_uri": "s3://jsmith-output/Pink/Pink - I'm Not Dead [pvg Book]/Songs/Pink - I Got Money Now.pdf",
+        "file_size_bytes": 116898,
+        "page_range": [
+          96,
+          103
+        ]
+      },
+      {
+        "song_title": "Conversations with My 13 Year Old Self",
+        "artist": "Pink",
+        "output_uri": "s3://jsmith-output/Pink/Pink - I'm Not Dead [pvg Book]/Songs/Pink - Conversations With My 13 Year Old Self.pdf",
+        "file_size_bytes": 228043,
+        "page_range": [
+          103,
+          116
+        ]
+      }
+    ]
+  }
+}

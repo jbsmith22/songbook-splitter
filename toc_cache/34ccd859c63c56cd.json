@@ -1,0 +1,144 @@
+{
+  "book_id": "34ccd859c63c56cd",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "A Message to Michael",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alfie - fake",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alfie",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Do You know the way to San Jose",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Everybody's out of town",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I say a little prayer",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Loneliness Remembers",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Odds and Ends",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Paper Mache",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Promises, Promises",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Raindrops keep falling on my head",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Look of Love",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "There's Always Something there to remind me",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Walk on By",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What the world needs now is love",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Message to Michael",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Bacharach Collection/Songs/Unknown Artist - A Message To Michael.pdf",
+        "file_size_bytes": 1816156,
+        "page_range": [
+          1,
+          28
+        ]
+      },
+      {
+        "song_title": "Alfie",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Bacharach Collection/Songs/Unknown Artist - Alfie.pdf",
+        "file_size_bytes": 128386,
+        "page_range": [
+          28,
+          31
+        ]
+      },
+      {
+        "song_title": "Raindrops keep falling on my head",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Bacharach Collection/Songs/Unknown Artist - Raindrops Keep Falling On My Head.pdf",
+        "file_size_bytes": 116993,
+        "page_range": [
+          31,
+          34
+        ]
+      },
+      {
+        "song_title": "The Look of Love",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Bacharach Collection/Songs/Unknown Artist - The Look Of Love.pdf",
+        "file_size_bytes": 305832,
+        "page_range": [
+          34,
+          42
+        ]
+      }
+    ]
+  }
+}

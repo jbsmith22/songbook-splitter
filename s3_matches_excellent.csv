@@ -1,0 +1,9 @@
+local_artist,local_book,local_count,s3_artist,s3_book,s3_count,common_songs,local_only,s3_only,match_pct,count_diff_pct,quality
+Barry Manilow,Barry Manilow - Anthology,52,Barry Manilow,Anthology,53,52,0,1,1.0,0.019,EXCELLENT
+Various Artists,Various Artists - 100 Songs For Kids - _Easy Guitar Songbook_,99,Various Artists,100 Songs For Kids - (easy Guitar Songbook),99,97,2,2,0.98,0.0,EXCELLENT
+Various Artists,Various Artists - Golden Era Of Rock And Roll _grab it_,100,Various Artists,Golden Era Of Rock And Roll (grab It!),99,98,1,0,0.98,0.01,EXCELLENT
+Various Artists,Various Artists - Greatest Hits Of 2004-2005,59,Various Artists,Greatest Hits Of 2004-2005,60,59,0,1,1.0,0.017,EXCELLENT
+_broadway Shows,Various Artists - The Ultimate BROADWAY fakebook,407,_broadway Shows,Various Artists - The Ultimate Broadway Fakebook,407,404,1,0,0.993,0.0,EXCELLENT
+_movie And Tv,Various Artists - Movie Fakebook,389,_movie And Tv,Various Artists - Movie Fakebook,392,388,1,4,0.997,0.008,EXCELLENT
+_movie And Tv,Various Artists - TV Fakebook 2nd Ed,105,_movie And Tv,Various Artists - Tv Fakebook 2nd Ed,106,105,0,1,1.0,0.01,EXCELLENT
+_movie And Tv,Various Artists - The TV Fakebook,72,_movie And Tv,Various Artists - The Tv Fakebook,71,71,1,0,0.986,0.014,EXCELLENT

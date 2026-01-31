@@ -1,0 +1,253 @@
+{
+  "book_id": "0bd4457b3c238412",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "ANYTIME",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Anytime.pdf",
+        "file_size_bytes": 160704,
+        "page_range": [
+          11,
+          15
+        ]
+      },
+      {
+        "song_title": "La Do Da",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - La Do Da.pdf",
+        "file_size_bytes": 2037110,
+        "page_range": [
+          15,
+          73
+        ]
+      },
+      {
+        "song_title": "WHEN YOU'RE ALONE (It Ain't Easy)",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - When You're Alone (it Ain't Easy).pdf",
+        "file_size_bytes": 602517,
+        "page_range": [
+          73,
+          91
+        ]
+      },
+      {
+        "song_title": "Lovin' You Is Easy",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Lovin' You Is Easy.pdf",
+        "file_size_bytes": 186779,
+        "page_range": [
+          91,
+          96
+        ]
+      },
+      {
+        "song_title": "Any Way You Want It",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Any Way You Want It.pdf",
+        "file_size_bytes": 244262,
+        "page_range": [
+          96,
+          103
+        ]
+      },
+      {
+        "song_title": "SOMEDAY SOON",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Someday Soon.pdf",
+        "file_size_bytes": 481847,
+        "page_range": [
+          103,
+          117
+        ]
+      },
+      {
+        "song_title": "I'm Cryin'",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - I'm Cryin'.pdf",
+        "file_size_bytes": 564426,
+        "page_range": [
+          117,
+          133
+        ]
+      },
+      {
+        "song_title": "Homemade Love",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Homemade Love.pdf",
+        "file_size_bytes": 491832,
+        "page_range": [
+          133,
+          149
+        ]
+      },
+      {
+        "song_title": "Dixie Highway",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Dixie Highway.pdf",
+        "file_size_bytes": 431025,
+        "page_range": [
+          149,
+          163
+        ]
+      },
+      {
+        "song_title": "Stone in Love",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Stone In Love.pdf",
+        "file_size_bytes": 106522,
+        "page_range": [
+          163,
+          167
+        ]
+      },
+      {
+        "song_title": "KEEP ON RUNNING",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Keep On Running.pdf",
+        "file_size_bytes": 111912,
+        "page_range": [
+          167,
+          171
+        ]
+      },
+      {
+        "song_title": "Still They Ride",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Still They Ride.pdf",
+        "file_size_bytes": 412126,
+        "page_range": [
+          171,
+          185
+        ]
+      },
+      {
+        "song_title": "DEAD OR ALIVE",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Dead Or Alive.pdf",
+        "file_size_bytes": 960668,
+        "page_range": [
+          185,
+          215
+        ]
+      },
+      {
+        "song_title": "Faithfully",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Faithfully.pdf",
+        "file_size_bytes": 245048,
+        "page_range": [
+          215,
+          223
+        ]
+      },
+      {
+        "song_title": "Troubled Child",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Troubled Child.pdf",
+        "file_size_bytes": 177334,
+        "page_range": [
+          223,
+          229
+        ]
+      },
+      {
+        "song_title": "Back Talk",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Back Talk.pdf",
+        "file_size_bytes": 380951,
+        "page_range": [
+          229,
+          241
+        ]
+      },
+      {
+        "song_title": "AFTER THE FALL",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - After The Fall.pdf",
+        "file_size_bytes": 154071,
+        "page_range": [
+          241,
+          246
+        ]
+      },
+      {
+        "song_title": "Rubicon",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Rubicon.pdf",
+        "file_size_bytes": 424440,
+        "page_range": [
+          246,
+          260
+        ]
+      },
+      {
+        "song_title": "Positive Touch",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Positive Touch.pdf",
+        "file_size_bytes": 136357,
+        "page_range": [
+          260,
+          265
+        ]
+      },
+      {
+        "song_title": "Be Good to Yourself",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Be Good To Yourself.pdf",
+        "file_size_bytes": 534296,
+        "page_range": [
+          265,
+          283
+        ]
+      },
+      {
+        "song_title": "RAISED ON RADIO",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - Raised On Radio.pdf",
+        "file_size_bytes": 114349,
+        "page_range": [
+          283,
+          287
+        ]
+      },
+      {
+        "song_title": "I'LL BE ALRIGHT WITHOUT YOU",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - I'll Be Alright Without You.pdf",
+        "file_size_bytes": 151409,
+        "page_range": [
+          287,
+          292
+        ]
+      },
+      {
+        "song_title": "It Could Have Been You",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - It Could Have Been You.pdf",
+        "file_size_bytes": 272690,
+        "page_range": [
+          292,
+          301
+        ]
+      },
+      {
+        "song_title": "THE EYES OF A WOMAN",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Journey - Complete Songbook/Songs/Journey - The Eyes Of A Woman.pdf",
+        "file_size_bytes": 306116,
+        "page_range": [
+          301,
+          311
+        ]
+      }
+    ]
+  }
+}

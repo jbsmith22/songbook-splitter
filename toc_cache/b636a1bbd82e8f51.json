@@ -1,0 +1,33 @@
+{
+  "book_id": "b636a1bbd82e8f51",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "You and Me",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Harvest Moon [guitar Tab]/Songs/Neil Young - You And Me.pdf",
+        "file_size_bytes": 2567526,
+        "page_range": [
+          28,
+          81
+        ]
+      },
+      {
+        "song_title": "Natural Beauty",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Harvest Moon [guitar Tab]/Songs/Neil Young - Natural Beauty.pdf",
+        "file_size_bytes": 842639,
+        "page_range": [
+          81,
+          91
+        ]
+      }
+    ]
+  }
+}

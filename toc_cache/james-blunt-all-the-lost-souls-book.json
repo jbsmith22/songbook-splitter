@@ -1,0 +1,113 @@
+{
+  "book_id": "james-blunt-all-the-lost-souls-book",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "1973",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - 1973.pdf",
+        "file_size_bytes": 1590754,
+        "page_range": [
+          1,
+          7
+        ]
+      },
+      {
+        "song_title": "One of the Brightest Stars",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - One Of The Brightest Stars.pdf",
+        "file_size_bytes": 936380,
+        "page_range": [
+          7,
+          11
+        ]
+      },
+      {
+        "song_title": "I'll Take Everything",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - I'll Take Everything.pdf",
+        "file_size_bytes": 981921,
+        "page_range": [
+          11,
+          15
+        ]
+      },
+      {
+        "song_title": "Same Mistake",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - Same Mistake.pdf",
+        "file_size_bytes": 2119884,
+        "page_range": [
+          15,
+          23
+        ]
+      },
+      {
+        "song_title": "Carry You Home",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - Carry You Home.pdf",
+        "file_size_bytes": 1820212,
+        "page_range": [
+          23,
+          30
+        ]
+      },
+      {
+        "song_title": "Give Me Some Love",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - Give Me Some Love.pdf",
+        "file_size_bytes": 1412237,
+        "page_range": [
+          30,
+          36
+        ]
+      },
+      {
+        "song_title": "I REALLY WANT YOU",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - I Really Want You.pdf",
+        "file_size_bytes": 1466067,
+        "page_range": [
+          36,
+          42
+        ]
+      },
+      {
+        "song_title": "Shine On",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - Shine On.pdf",
+        "file_size_bytes": 2287007,
+        "page_range": [
+          42,
+          51
+        ]
+      },
+      {
+        "song_title": "Annie",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - Annie.pdf",
+        "file_size_bytes": 1569700,
+        "page_range": [
+          51,
+          57
+        ]
+      },
+      {
+        "song_title": "I Can't Hear the Music",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/All The Lost Souls [book]/Songs/James Blunt - I Can't Hear The Music.pdf",
+        "file_size_bytes": 1484395,
+        "page_range": [
+          57,
+          63
+        ]
+      }
+    ]
+  }
+}

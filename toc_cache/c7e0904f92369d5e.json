@@ -1,0 +1,23 @@
+{
+  "book_id": "c7e0904f92369d5e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Beauty and the Beast",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Beauty And The Beast [pvg]/Songs/Howard Ashman (words), Alan Menken (music) - Beauty And The Beast.pdf",
+        "file_size_bytes": 2472961,
+        "page_range": [
+          64,
+          70
+        ]
+      }
+    ]
+  }
+}

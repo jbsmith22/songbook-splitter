@@ -1,0 +1,403 @@
+{
+  "book_id": "ae54d74f910e6882",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "It's Your Wedding Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - It's Your Wedding Day.pdf",
+        "file_size_bytes": 511305,
+        "page_range": [
+          2,
+          4
+        ]
+      },
+      {
+        "song_title": "It's Your Wedding Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - It's Your Wedding Day.pdf",
+        "file_size_bytes": 571984,
+        "page_range": [
+          4,
+          6
+        ]
+      },
+      {
+        "song_title": "It's Your Wedding Day (3:09-00)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer (george Arzt) - It's Your Wedding Day (3-09-00).pdf",
+        "file_size_bytes": 314593,
+        "page_range": [
+          6,
+          7
+        ]
+      },
+      {
+        "song_title": "It's Your Wedding Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - It's Your Wedding Day.pdf",
+        "file_size_bytes": 649245,
+        "page_range": [
+          7,
+          9
+        ]
+      },
+      {
+        "song_title": "It's Your Wedding Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - It's Your Wedding Day.pdf",
+        "file_size_bytes": 765236,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "It's Your Wedding Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - It's Your Wedding Day.pdf",
+        "file_size_bytes": 2815817,
+        "page_range": [
+          12,
+          23
+        ]
+      },
+      {
+        "song_title": "Someday",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Someday.pdf",
+        "file_size_bytes": 287217,
+        "page_range": [
+          23,
+          24
+        ]
+      },
+      {
+        "song_title": "Someday (Idiv.21:6,00)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Someday (idiv.21-6,00).pdf",
+        "file_size_bytes": 5599759,
+        "page_range": [
+          24,
+          48
+        ]
+      },
+      {
+        "song_title": "POP! Playoff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - Pop! Playoff.pdf",
+        "file_size_bytes": 1746189,
+        "page_range": [
+          48,
+          55
+        ]
+      },
+      {
+        "song_title": "Pre-Casualty Wedding Day (Rev.122603)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Pre-casualty Wedding Day (rev.122603).pdf",
+        "file_size_bytes": 113412,
+        "page_range": [
+          55,
+          56
+        ]
+      },
+      {
+        "song_title": "Casualty of Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Music By Matthew Sklar, Lyrics By Chad Beguelin - Casualty Of Love.pdf",
+        "file_size_bytes": 5374869,
+        "page_range": [
+          56,
+          76
+        ]
+      },
+      {
+        "song_title": "Today You Are a Man",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Today You Are A Man.pdf",
+        "file_size_bytes": 917066,
+        "page_range": [
+          76,
+          80
+        ]
+      },
+      {
+        "song_title": "George's Prayer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - George's Prayer.pdf",
+        "file_size_bytes": 3373983,
+        "page_range": [
+          80,
+          94
+        ]
+      },
+      {
+        "song_title": "SATURDAY NIGHT IN THE CITY",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Saturday Night In The City.pdf",
+        "file_size_bytes": 261652,
+        "page_range": [
+          94,
+          95
+        ]
+      },
+      {
+        "song_title": "The Wedding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Wedding Singer.pdf",
+        "file_size_bytes": 1005052,
+        "page_range": [
+          95,
+          98
+        ]
+      },
+      {
+        "song_title": "Saturday Night",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Saturday Night.pdf",
+        "file_size_bytes": 890051,
+        "page_range": [
+          98,
+          101
+        ]
+      },
+      {
+        "song_title": "Saturday Night",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - Saturday Night.pdf",
+        "file_size_bytes": 2187263,
+        "page_range": [
+          101,
+          110
+        ]
+      },
+      {
+        "song_title": "Is Saturday Night",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - Is Saturday Night.pdf",
+        "file_size_bytes": 2799139,
+        "page_range": [
+          110,
+          120
+        ]
+      },
+      {
+        "song_title": "ALL ABOUT THE GREEN",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - All About The Green.pdf",
+        "file_size_bytes": 2265421,
+        "page_range": [
+          120,
+          129
+        ]
+      },
+      {
+        "song_title": "IS ALL ABOUT THE GREEN REV. (227.05) (11.06)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Is All About The Green Rev. (227.05) (11.06).pdf",
+        "file_size_bytes": 1893450,
+        "page_range": [
+          129,
+          137
+        ]
+      },
+      {
+        "song_title": "ALL ABOUT THE GREEN - PLAYOFF",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Music By Matthew Sklar, Lyrics By Chad Beguelin - All About The Green - Playoff.pdf",
+        "file_size_bytes": 946718,
+        "page_range": [
+          137,
+          141
+        ]
+      },
+      {
+        "song_title": "The Wedding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Wedding Singer.pdf",
+        "file_size_bytes": 1094132,
+        "page_range": [
+          141,
+          145
+        ]
+      },
+      {
+        "song_title": "The Wedding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Wedding Singer.pdf",
+        "file_size_bytes": 871840,
+        "page_range": [
+          145,
+          149
+        ]
+      },
+      {
+        "song_title": "RIGHT IN FRONT OF YOUR EYES",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Right In Front Of Your Eyes.pdf",
+        "file_size_bytes": 505032,
+        "page_range": [
+          149,
+          151
+        ]
+      },
+      {
+        "song_title": "Single",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer (based On The Header -piano-vocal The Wedding Singer- At The Top) - Single.pdf",
+        "file_size_bytes": 212724,
+        "page_range": [
+          151,
+          152
+        ]
+      },
+      {
+        "song_title": "The Wedding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Wedding Singer.pdf",
+        "file_size_bytes": 1487676,
+        "page_range": [
+          152,
+          157
+        ]
+      },
+      {
+        "song_title": "The Wedding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Wedding Singer.pdf",
+        "file_size_bytes": 1151472,
+        "page_range": [
+          157,
+          161
+        ]
+      },
+      {
+        "song_title": "If I Told You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer (music By Matthew Sklar, Lyrics By Chad Beguelin) - If I Told You.pdf",
+        "file_size_bytes": 1657084,
+        "page_range": [
+          161,
+          167
+        ]
+      },
+      {
+        "song_title": "The Wedding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Wedding Singer.pdf",
+        "file_size_bytes": 292275,
+        "page_range": [
+          167,
+          168
+        ]
+      },
+      {
+        "song_title": "Let Me Come Home",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Music By Matthew Sklar, Lyrics By Chad Beguelin - Let Me Come Home.pdf",
+        "file_size_bytes": 244960,
+        "page_range": [
+          168,
+          169
+        ]
+      },
+      {
+        "song_title": "2. LET ME COME HOME (REV. 1/19/06/31:56)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - 2. Let Me Come Home (rev. 1-19-06-31-56).pdf",
+        "file_size_bytes": 542601,
+        "page_range": [
+          169,
+          171
+        ]
+      },
+      {
+        "song_title": "The Wedding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Wedding Singer.pdf",
+        "file_size_bytes": 801372,
+        "page_range": [
+          171,
+          174
+        ]
+      },
+      {
+        "song_title": "7. LET ME COME HOME (REV. 11.06.03 13:06)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - 7. Let Me Come Home (rev. 11.06.03 13-06).pdf",
+        "file_size_bytes": 3399079,
+        "page_range": [
+          174,
+          189
+        ]
+      },
+      {
+        "song_title": "7. MOVE THAT THANG (Tempo 121/505) (REV. 3/13/08)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - 7. Move That Thang (tempo 121-505) (rev. 3-13-08).pdf",
+        "file_size_bytes": 633099,
+        "page_range": [
+          189,
+          192
+        ]
+      },
+      {
+        "song_title": "WHITE HOUSE UNDERSCORES",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - White House Underscores.pdf",
+        "file_size_bytes": 263073,
+        "page_range": [
+          192,
+          194
+        ]
+      },
+      {
+        "song_title": "GROW OLD WITH YOU",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer - Grow Old With You.pdf",
+        "file_size_bytes": 977628,
+        "page_range": [
+          194,
+          198
+        ]
+      },
+      {
+        "song_title": "Act II Finale",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/The Wedding Singer (music By Matthew Sklar, Lyrics By Chad Beguelin) - Act Ii Finale.pdf",
+        "file_size_bytes": 1309874,
+        "page_range": [
+          198,
+          203
+        ]
+      },
+      {
+        "song_title": "The Wedding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Wedding Singer.pdf",
+        "file_size_bytes": 981695,
+        "page_range": [
+          203,
+          207
+        ]
+      },
+      {
+        "song_title": "The Winding Singer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/The Wedding Singer/Songs/Unknown Artist - The Winding Singer.pdf",
+        "file_size_bytes": 628859,
+        "page_range": [
+          207,
+          210
+        ]
+      }
+    ]
+  }
+}

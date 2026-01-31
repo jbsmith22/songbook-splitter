@@ -1,0 +1,246 @@
+{
+  "book_id": "fleetwood-mac-the-dance",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Big Love",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bleed To Love Her",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Chain",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Stop",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dreams",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Everywhere",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Go Your Own Way",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm So Afraid",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Landslide",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Little Demon",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rhiannon",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Say You Love Me",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Silver Springs",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sweet Girl",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Temporary One",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tusk",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Make Loving Fun",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Big Love",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Big Love.pdf",
+        "file_size_bytes": 102642,
+        "page_range": [
+          3,
+          8
+        ]
+      },
+      {
+        "song_title": "Bleed To Love Her",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Bleed To Love Her.pdf",
+        "file_size_bytes": 117270,
+        "page_range": [
+          8,
+          13
+        ]
+      },
+      {
+        "song_title": "The Chain",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - The Chain.pdf",
+        "file_size_bytes": 131080,
+        "page_range": [
+          13,
+          18
+        ]
+      },
+      {
+        "song_title": "Don't Stop",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Don't Stop.pdf",
+        "file_size_bytes": 65136,
+        "page_range": [
+          18,
+          20
+        ]
+      },
+      {
+        "song_title": "Dreams",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Dreams.pdf",
+        "file_size_bytes": 139778,
+        "page_range": [
+          20,
+          25
+        ]
+      },
+      {
+        "song_title": "Everywhere",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Everywhere.pdf",
+        "file_size_bytes": 128896,
+        "page_range": [
+          25,
+          30
+        ]
+      },
+      {
+        "song_title": "Say You Love Me",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Say You Love Me.pdf",
+        "file_size_bytes": 982941,
+        "page_range": [
+          30,
+          51
+        ]
+      },
+      {
+        "song_title": "I'm So Afraid",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - I'm So Afraid.pdf",
+        "file_size_bytes": 159170,
+        "page_range": [
+          51,
+          56
+        ]
+      },
+      {
+        "song_title": "Go Your Own Way",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Go Your Own Way.pdf",
+        "file_size_bytes": 229294,
+        "page_range": [
+          56,
+          63
+        ]
+      },
+      {
+        "song_title": "Temporary One",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Temporary One.pdf",
+        "file_size_bytes": 130955,
+        "page_range": [
+          63,
+          68
+        ]
+      },
+      {
+        "song_title": "Sweet Girl",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Sweet Girl.pdf",
+        "file_size_bytes": 168568,
+        "page_range": [
+          68,
+          74
+        ]
+      },
+      {
+        "song_title": "Tusk",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - Tusk.pdf",
+        "file_size_bytes": 77124,
+        "page_range": [
+          74,
+          78
+        ]
+      },
+      {
+        "song_title": "You Make Loving Fun",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/The Dance/Songs/Fleetwood Mac - You Make Loving Fun.pdf",
+        "file_size_bytes": 343251,
+        "page_range": [
+          78,
+          86
+        ]
+      }
+    ]
+  }
+}

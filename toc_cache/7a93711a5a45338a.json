@@ -1,0 +1,21 @@
+{
+  "book_id": "7a93711a5a45338a",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "annie waits",
+        "page_number": 2,
+        "artist": "ben folds",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "annie waits": "ben folds"
+    }
+  },
+  "output": {
+    "output_files": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "book_id": "88e64f90dab936a8",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Yazoo Street Scandal",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - Basement Tapes [pvg]/Songs/Bob Dylan - Yazoo Street Scandal.pdf",
+        "file_size_bytes": 451220,
+        "page_range": [
+          12,
+          25
+        ]
+      },
+      {
+        "song_title": "Goin' to Acapulco",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - Basement Tapes [pvg]/Songs/Bob Dylan - Goin' To Acapulco.pdf",
+        "file_size_bytes": 397100,
+        "page_range": [
+          25,
+          37
+        ]
+      },
+      {
+        "song_title": "Clothes Line Saga",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - Basement Tapes [pvg]/Songs/Bob Dylan - Clothes Line Saga.pdf",
+        "file_size_bytes": 1262278,
+        "page_range": [
+          37,
+          76
+        ]
+      },
+      {
+        "song_title": "This Wheel's On Fire",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - Basement Tapes [pvg]/Songs/Bob Dylan - This Wheel's On Fire.pdf",
+        "file_size_bytes": 97686,
+        "page_range": [
+          76,
+          79
+        ]
+      },
+      {
+        "song_title": "Long Distance Operator",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - Basement Tapes [pvg]/Songs/Bob Dylan - Long Distance Operator.pdf",
+        "file_size_bytes": 148804,
+        "page_range": [
+          79,
+          84
+        ]
+      }
+    ]
+  }
+}

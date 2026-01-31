@@ -1,0 +1,113 @@
+{
+  "book_id": "8e69c06308d7fe26",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "WE WILL ROCK YOU",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - We Will Rock You.pdf",
+        "file_size_bytes": 259215,
+        "page_range": [
+          1,
+          3
+        ]
+      },
+      {
+        "song_title": "We Are The Champions",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - We Are The Champions.pdf",
+        "file_size_bytes": 115389,
+        "page_range": [
+          3,
+          6
+        ]
+      },
+      {
+        "song_title": "Killer Queen",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - Killer Queen.pdf",
+        "file_size_bytes": 3721889,
+        "page_range": [
+          6,
+          33
+        ]
+      },
+      {
+        "song_title": "It's Late",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - It's Late.pdf",
+        "file_size_bytes": 1878134,
+        "page_range": [
+          33,
+          59
+        ]
+      },
+      {
+        "song_title": "Body Language",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - Body Language.pdf",
+        "file_size_bytes": 1358756,
+        "page_range": [
+          59,
+          69
+        ]
+      },
+      {
+        "song_title": "YOU'RE MY BEST FRIEND",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - You're My Best Friend.pdf",
+        "file_size_bytes": 690536,
+        "page_range": [
+          69,
+          83
+        ]
+      },
+      {
+        "song_title": "Bicycle Race",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - Bicycle Race.pdf",
+        "file_size_bytes": 275284,
+        "page_range": [
+          83,
+          89
+        ]
+      },
+      {
+        "song_title": "LONG AWAY",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - Long Away.pdf",
+        "file_size_bytes": 770592,
+        "page_range": [
+          89,
+          107
+        ]
+      },
+      {
+        "song_title": "Keep Yourself Alive",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - Keep Yourself Alive.pdf",
+        "file_size_bytes": 2962934,
+        "page_range": [
+          107,
+          135
+        ]
+      },
+      {
+        "song_title": "Crazy Little Thing Called Love",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Deluxe Anthology [pvg]/Songs/Queen - Crazy Little Thing Called Love.pdf",
+        "file_size_bytes": 859300,
+        "page_range": [
+          135,
+          144
+        ]
+      }
+    ]
+  }
+}

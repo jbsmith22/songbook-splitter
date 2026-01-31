@@ -1,0 +1,148 @@
+{
+  "book_id": "aae6179b36726557",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "All You Wanna Do Is Dance",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Angry Young Man",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I've Loved These Days",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "James",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Miami 2017 (Seen the lights go out on Broadway)",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "New York State Of Mind",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Prelude",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Say Goodbye To Hollywood",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Summer, Highland Falls",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Say Goodbye To Hollywood",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Turnstiles/Songs/Billy Joel - Say Goodbye To Hollywood.pdf",
+        "file_size_bytes": 888880,
+        "page_range": [
+          3,
+          7
+        ]
+      },
+      {
+        "song_title": "Summer, Highland Falls",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Turnstiles/Songs/Billy Joel - Summer, Highland Falls.pdf",
+        "file_size_bytes": 2297629,
+        "page_range": [
+          7,
+          19
+        ]
+      },
+      {
+        "song_title": "New York State Of Mind",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Turnstiles/Songs/Billy Joel - New York State Of Mind.pdf",
+        "file_size_bytes": 943284,
+        "page_range": [
+          19,
+          24
+        ]
+      },
+      {
+        "song_title": "James",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Turnstiles/Songs/Billy Joel - James.pdf",
+        "file_size_bytes": 980295,
+        "page_range": [
+          24,
+          29
+        ]
+      },
+      {
+        "song_title": "Prelude",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Turnstiles/Songs/Billy Joel - Prelude.pdf",
+        "file_size_bytes": 748291,
+        "page_range": [
+          29,
+          33
+        ]
+      },
+      {
+        "song_title": "Angry Young Man",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Turnstiles/Songs/Billy Joel - Angry Young Man.pdf",
+        "file_size_bytes": 1117234,
+        "page_range": [
+          33,
+          39
+        ]
+      },
+      {
+        "song_title": "I've Loved These Days",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Turnstiles/Songs/Billy Joel - I've Loved These Days.pdf",
+        "file_size_bytes": 707018,
+        "page_range": [
+          39,
+          43
+        ]
+      },
+      {
+        "song_title": "Miami 2017 (Seen the lights go out on Broadway)",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Turnstiles/Songs/Billy Joel - Miami 2017 (seen The Lights Go Out On Broadway).pdf",
+        "file_size_bytes": 1752818,
+        "page_range": [
+          43,
+          51
+        ]
+      }
+    ]
+  }
+}

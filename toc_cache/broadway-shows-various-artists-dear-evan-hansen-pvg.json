@@ -1,0 +1,163 @@
+{
+  "book_id": "broadway-shows-various-artists-dear-evan-hansen-pvg",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Anybody Have a Map?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/From Dear Evan Hansen (music And Lyrics By Benj Pasek And Justin Paul) - Anybody Have A Map-.pdf",
+        "file_size_bytes": 1725386,
+        "page_range": [
+          2,
+          10
+        ]
+      },
+      {
+        "song_title": "Waving Through a Window",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - Waving Through A Window.pdf",
+        "file_size_bytes": 3262415,
+        "page_range": [
+          10,
+          24
+        ]
+      },
+      {
+        "song_title": "For Forever",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - For Forever.pdf",
+        "file_size_bytes": 602107,
+        "page_range": [
+          24,
+          27
+        ]
+      },
+      {
+        "song_title": "Two Friends",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Unknown Artist - Two Friends.pdf",
+        "file_size_bytes": 2040459,
+        "page_range": [
+          27,
+          36
+        ]
+      },
+      {
+        "song_title": "Sincerely, Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - Sincerely, Me.pdf",
+        "file_size_bytes": 3166805,
+        "page_range": [
+          36,
+          51
+        ]
+      },
+      {
+        "song_title": "REQUIEM",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/From Dear Evan Hansen - Requiem.pdf",
+        "file_size_bytes": 2676286,
+        "page_range": [
+          51,
+          63
+        ]
+      },
+      {
+        "song_title": "If I Could Tell Her",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/From Dear Evan Hansen (music And Lyrics By Benj Pasek And Justin Paul) - If I Could Tell Her.pdf",
+        "file_size_bytes": 2885107,
+        "page_range": [
+          63,
+          77
+        ]
+      },
+      {
+        "song_title": "DISAPPEAR",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - Disappear.pdf",
+        "file_size_bytes": 3922101,
+        "page_range": [
+          77,
+          96
+        ]
+      },
+      {
+        "song_title": "You Will Be Found",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - You Will Be Found.pdf",
+        "file_size_bytes": 1695522,
+        "page_range": [
+          96,
+          104
+        ]
+      },
+      {
+        "song_title": "Virtual Community",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Unknown Artist - Virtual Community.pdf",
+        "file_size_bytes": 2360854,
+        "page_range": [
+          104,
+          115
+        ]
+      },
+      {
+        "song_title": "TO BREAK IN A GLOVE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/From Dear Evan Hansen - To Break In A Glove.pdf",
+        "file_size_bytes": 2231707,
+        "page_range": [
+          115,
+          125
+        ]
+      },
+      {
+        "song_title": "ONLY US",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - Only Us.pdf",
+        "file_size_bytes": 2680793,
+        "page_range": [
+          125,
+          137
+        ]
+      },
+      {
+        "song_title": "GOOD FOR YOU",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/From Dear Evan Hansen - Good For You.pdf",
+        "file_size_bytes": 2662283,
+        "page_range": [
+          137,
+          149
+        ]
+      },
+      {
+        "song_title": "Words Fail",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - Words Fail.pdf",
+        "file_size_bytes": 2726994,
+        "page_range": [
+          149,
+          162
+        ]
+      },
+      {
+        "song_title": "SO BIG/SO SMALL",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - So Big-so Small.pdf",
+        "file_size_bytes": 1595757,
+        "page_range": [
+          162,
+          169
+        ]
+      }
+    ]
+  }
+}

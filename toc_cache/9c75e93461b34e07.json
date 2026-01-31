@@ -1,0 +1,176 @@
+{
+  "book_id": "9c75e93461b34e07",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "TIRED OF WAITING FOR YOU",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU STILL WANT ME",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU REALLY GOT ME",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ALL DAY AND ALL OF THE NIGHT",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "COME ON NOW",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EVERYBODY'S GONNA BE HAPPY",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SET ME FREE",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TILL THE END OF THE DAY",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SEE MY FRIEND",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DEDIATED FOLLOWER OF FASHION",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SUNNY AFTERNOON",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOLA",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "TIRED OF WAITING FOR YOU",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - Tired Of Waiting For You.pdf",
+        "file_size_bytes": 1092633,
+        "page_range": [
+          2,
+          19
+        ]
+      },
+      {
+        "song_title": "YOU STILL WANT ME",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - You Still Want Me.pdf",
+        "file_size_bytes": 206506,
+        "page_range": [
+          19,
+          23
+        ]
+      },
+      {
+        "song_title": "ALL DAY AND ALL OF THE NIGHT",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - All Day And All Of The Night.pdf",
+        "file_size_bytes": 345444,
+        "page_range": [
+          23,
+          29
+        ]
+      },
+      {
+        "song_title": "EVERYBODY'S GONNA BE HAPPY",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - Everybody's Gonna Be Happy.pdf",
+        "file_size_bytes": 293181,
+        "page_range": [
+          29,
+          34
+        ]
+      },
+      {
+        "song_title": "SET ME FREE",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - Set Me Free.pdf",
+        "file_size_bytes": 332908,
+        "page_range": [
+          34,
+          39
+        ]
+      },
+      {
+        "song_title": "TILL THE END OF THE DAY",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - Till The End Of The Day.pdf",
+        "file_size_bytes": 334788,
+        "page_range": [
+          39,
+          46
+        ]
+      },
+      {
+        "song_title": "SEE MY FRIEND",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - See My Friend.pdf",
+        "file_size_bytes": 697625,
+        "page_range": [
+          46,
+          62
+        ]
+      },
+      {
+        "song_title": "SUNNY AFTERNOON",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - Sunny Afternoon.pdf",
+        "file_size_bytes": 396959,
+        "page_range": [
+          62,
+          70
+        ]
+      },
+      {
+        "song_title": "LOLA",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Kinks - Best Of The Kinks [score]/Songs/Kinks - Lola.pdf",
+        "file_size_bytes": 607320,
+        "page_range": [
+          70,
+          80
+        ]
+      }
+    ]
+  }
+}

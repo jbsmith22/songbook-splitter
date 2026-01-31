@@ -1,0 +1,212 @@
+{
+  "book_id": "movie-and-tv-various-artists-shrek-3",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Royal Pain",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Do You Remember Rock 'n' Roll Radio?",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Barracuda",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Live and Let Die",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Best Days",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Joker & the Thief",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Other Ways",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cat's in the Cradle",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Losing Streak",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What I Gotta Do",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thank You (Falletin Me Be Mice Elf Again)",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Final Showdown",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Charming's Plan",
+        "page_number": 81,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Royal Pain",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/Mark Everett - Royal Pain.pdf",
+        "file_size_bytes": 223756,
+        "page_range": [
+          6,
+          12
+        ]
+      },
+      {
+        "song_title": "Do You Remember Rock 'n' Roll Radio?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/Unknown Artist - Do You Remember Rock 'n' Roll Radio-.pdf",
+        "file_size_bytes": 221896,
+        "page_range": [
+          12,
+          18
+        ]
+      },
+      {
+        "song_title": "Barracuda",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/Unknown Artist - Barracuda.pdf",
+        "file_size_bytes": 255609,
+        "page_range": [
+          18,
+          22
+        ]
+      },
+      {
+        "song_title": "Live and Let Die",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/Paul Mccartney And Linda Mccartney - Live And Let Die.pdf",
+        "file_size_bytes": 149210,
+        "page_range": [
+          22,
+          26
+        ]
+      },
+      {
+        "song_title": "Best Days",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/From The Motion Picture Shrek The Third, Words And Music By Mell White - Best Days.pdf",
+        "file_size_bytes": 1024186,
+        "page_range": [
+          26,
+          33
+        ]
+      },
+      {
+        "song_title": "Joker & the Thief",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/Andrew Stockdale, Chris Ross And Myiles Heskett - Joker & The Thief.pdf",
+        "file_size_bytes": 369676,
+        "page_range": [
+          33,
+          42
+        ]
+      },
+      {
+        "song_title": "Other Ways",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/Trevor Hall - Other Ways.pdf",
+        "file_size_bytes": 313707,
+        "page_range": [
+          42,
+          50
+        ]
+      },
+      {
+        "song_title": "Cat's in the Cradle",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/Harry Chapin - Cat's In The Cradle.pdf",
+        "file_size_bytes": 251534,
+        "page_range": [
+          50,
+          56
+        ]
+      },
+      {
+        "song_title": "Losing Streak",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/From The Motion Picture Shrek The Third - Losing Streak.pdf",
+        "file_size_bytes": 864731,
+        "page_range": [
+          56,
+          62
+        ]
+      },
+      {
+        "song_title": "What I Gotta Do",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/The Image Does Not Clearly Show The Artist Name, But It Appears To Be The First Page Of A Song Titled -what I Gotta Do- Based On The Prominent Song Title At The Top And The Sheet Music Notation Be.pdf",
+        "file_size_bytes": 213100,
+        "page_range": [
+          62,
+          67
+        ]
+      },
+      {
+        "song_title": "Thank You (Falletin Me Be Mice Elf Again)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/Sylvester Stewart - Thank You (falletin Me Be Mice Elf Again).pdf",
+        "file_size_bytes": 690816,
+        "page_range": [
+          67,
+          78
+        ]
+      },
+      {
+        "song_title": "Final Showdown",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 3/Songs/From The Motion Picture Shrek The Third - Final Showdown.pdf",
+        "file_size_bytes": 1368885,
+        "page_range": [
+          78,
+          84
+        ]
+      }
+    ]
+  }
+}

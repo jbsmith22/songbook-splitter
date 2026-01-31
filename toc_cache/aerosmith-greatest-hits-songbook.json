@@ -1,0 +1,254 @@
+{
+  "book_id": "aerosmith-greatest-hits-songbook",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Angel",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Back in the Saddle",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Come Together",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Draw the Line",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dream On",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dude (Looks Like A Lady)",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Hop",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kings & Queens",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Last Child",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Let the Music Do the Talking",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lightning Strikes",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Remember (Walking In The Sand)",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Same Old Song & Dance",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sweet Emotion",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Walk This Way",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Draw the Line",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steve Tyler And Joe Perry - Draw The Line.pdf",
+        "file_size_bytes": 1159550,
+        "page_range": [
+          3,
+          8
+        ]
+      },
+      {
+        "song_title": "Angel",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Desmond Child And Steven Tyler - Angel.pdf",
+        "file_size_bytes": 1258289,
+        "page_range": [
+          8,
+          14
+        ]
+      },
+      {
+        "song_title": "Back in the Saddle",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steven Tyler And Joe Perry - Back In The Saddle.pdf",
+        "file_size_bytes": 1233799,
+        "page_range": [
+          14,
+          20
+        ]
+      },
+      {
+        "song_title": "Come Together",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/John Lennon And Paul Mccartney - Come Together.pdf",
+        "file_size_bytes": 699985,
+        "page_range": [
+          20,
+          24
+        ]
+      },
+      {
+        "song_title": "Dream On",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steven Tyler - Dream On.pdf",
+        "file_size_bytes": 1697174,
+        "page_range": [
+          24,
+          32
+        ]
+      },
+      {
+        "song_title": "Dude (Looks Like A Lady)",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steven Tyler, Joe Perry And Desmond Child - Dude (looks Like A Lady).pdf",
+        "file_size_bytes": 1464803,
+        "page_range": [
+          32,
+          39
+        ]
+      },
+      {
+        "song_title": "Kings & Queens",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/The Image Does Not Clearly Show The Artist Name, But It Lists The Songwriters As Tom Hamilton, Joey Kramer, Steven Tyler, Brad Whitford, And Jack Douglas - Kings & Queens.pdf",
+        "file_size_bytes": 1375919,
+        "page_range": [
+          39,
+          46
+        ]
+      },
+      {
+        "song_title": "Last Child",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steven Tyler And Brad Whitford - Last Child.pdf",
+        "file_size_bytes": 887348,
+        "page_range": [
+          46,
+          50
+        ]
+      },
+      {
+        "song_title": "Lightning Strikes",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Richard Supa - Lightning Strikes.pdf",
+        "file_size_bytes": 628236,
+        "page_range": [
+          50,
+          53
+        ]
+      },
+      {
+        "song_title": "Let the Music Do the Talking",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Joe Perry - Let The Music Do The Talking.pdf",
+        "file_size_bytes": 636226,
+        "page_range": [
+          53,
+          56
+        ]
+      },
+      {
+        "song_title": "The Hop",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steven Tyler, Joe Perry, Brad Whitford, Tom Hamilton And Joey Kramer - The Hop.pdf",
+        "file_size_bytes": 1313887,
+        "page_range": [
+          56,
+          63
+        ]
+      },
+      {
+        "song_title": "Remember (Walking In The Sand)",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/George Morton - Remember (walking In The Sand).pdf",
+        "file_size_bytes": 859221,
+        "page_range": [
+          63,
+          67
+        ]
+      },
+      {
+        "song_title": "Sweet Emotion",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steven Tyler And Tom Hamilton - Sweet Emotion.pdf",
+        "file_size_bytes": 953584,
+        "page_range": [
+          67,
+          71
+        ]
+      },
+      {
+        "song_title": "Walk This Way",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steven Tyler And Joe Perry - Walk This Way.pdf",
+        "file_size_bytes": 866283,
+        "page_range": [
+          71,
+          75
+        ]
+      },
+      {
+        "song_title": "Same Old Song & Dance",
+        "artist": "Aerosmith",
+        "output_uri": "s3://jsmith-output/Aerosmith/Greatest Hits (songbook)/Songs/Steven Tyler And Joe Perry - Same Old Song & Dance.pdf",
+        "file_size_bytes": 990476,
+        "page_range": [
+          75,
+          80
+        ]
+      }
+    ]
+  }
+}

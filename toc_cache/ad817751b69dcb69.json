@@ -1,0 +1,19 @@
+{
+  "book_id": "ad817751b69dcb69",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Separate Ways (Worlds Apart)",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": []
+  }
+}

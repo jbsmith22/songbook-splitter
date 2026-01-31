@@ -1,0 +1,263 @@
+{
+  "book_id": "253e6bf7dcdb539e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "'Tryin' to Get the Feeling Again",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - 'tryin' To Get The Feeling Again.pdf",
+        "file_size_bytes": 3503429,
+        "page_range": [
+          33,
+          62
+        ]
+      },
+      {
+        "song_title": "This One's for You",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - This One's For You.pdf",
+        "file_size_bytes": 870740,
+        "page_range": [
+          62,
+          69
+        ]
+      },
+      {
+        "song_title": "All the Time",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - All The Time.pdf",
+        "file_size_bytes": 1051135,
+        "page_range": [
+          69,
+          79
+        ]
+      },
+      {
+        "song_title": "Looks Like We Made It",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Looks Like We Made It.pdf",
+        "file_size_bytes": 2499947,
+        "page_range": [
+          79,
+          99
+        ]
+      },
+      {
+        "song_title": "Even Now",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Even Now.pdf",
+        "file_size_bytes": 481228,
+        "page_range": [
+          99,
+          103
+        ]
+      },
+      {
+        "song_title": "Can't Smile Without You",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Can't Smile Without You.pdf",
+        "file_size_bytes": 3914540,
+        "page_range": [
+          103,
+          136
+        ]
+      },
+      {
+        "song_title": "Ships",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Ships.pdf",
+        "file_size_bytes": 1408321,
+        "page_range": [
+          136,
+          146
+        ]
+      },
+      {
+        "song_title": "I Made It Through the Rain",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - I Made It Through The Rain.pdf",
+        "file_size_bytes": 644073,
+        "page_range": [
+          146,
+          151
+        ]
+      },
+      {
+        "song_title": "If I Should Love Again",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - If I Should Love Again.pdf",
+        "file_size_bytes": 1148618,
+        "page_range": [
+          151,
+          160
+        ]
+      },
+      {
+        "song_title": "No Other Love",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - No Other Love.pdf",
+        "file_size_bytes": 4150807,
+        "page_range": [
+          160,
+          194
+        ]
+      },
+      {
+        "song_title": "When October Goes",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - When October Goes.pdf",
+        "file_size_bytes": 1803442,
+        "page_range": [
+          194,
+          208
+        ]
+      },
+      {
+        "song_title": "Sweet Heaven",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Sweet Heaven.pdf",
+        "file_size_bytes": 760546,
+        "page_range": [
+          208,
+          215
+        ]
+      },
+      {
+        "song_title": "Who Needs to Dream",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Who Needs To Dream.pdf",
+        "file_size_bytes": 3737324,
+        "page_range": [
+          215,
+          245
+        ]
+      },
+      {
+        "song_title": "Read 'em and Weep",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Read 'em And Weep.pdf",
+        "file_size_bytes": 844582,
+        "page_range": [
+          245,
+          253
+        ]
+      },
+      {
+        "song_title": "Ready to Take a Chance Again (Love Theme)",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Ready To Take A Chance Again (love Theme).pdf",
+        "file_size_bytes": 488278,
+        "page_range": [
+          253,
+          258
+        ]
+      },
+      {
+        "song_title": "Because It's Christmas",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Because It's Christmas.pdf",
+        "file_size_bytes": 428114,
+        "page_range": [
+          258,
+          260
+        ]
+      },
+      {
+        "song_title": "Because It's Christmas (For All the Children)",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Because It's Christmas (for All The Children).pdf",
+        "file_size_bytes": 517420,
+        "page_range": [
+          260,
+          265
+        ]
+      },
+      {
+        "song_title": "With My Lover Beside Me",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - With My Lover Beside Me.pdf",
+        "file_size_bytes": 814086,
+        "page_range": [
+          265,
+          271
+        ]
+      },
+      {
+        "song_title": "Just Remember",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Just Remember.pdf",
+        "file_size_bytes": 878869,
+        "page_range": [
+          271,
+          276
+        ]
+      },
+      {
+        "song_title": "The Best of Me",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - The Best Of Me.pdf",
+        "file_size_bytes": 560831,
+        "page_range": [
+          276,
+          282
+        ]
+      },
+      {
+        "song_title": "Let Freedom Ring",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Let Freedom Ring.pdf",
+        "file_size_bytes": 1124678,
+        "page_range": [
+          282,
+          290
+        ]
+      },
+      {
+        "song_title": "Let Me Be Your Wings",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Let Me Be Your Wings.pdf",
+        "file_size_bytes": 648492,
+        "page_range": [
+          290,
+          297
+        ]
+      },
+      {
+        "song_title": "Soon",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Soon.pdf",
+        "file_size_bytes": 1357156,
+        "page_range": [
+          297,
+          309
+        ]
+      },
+      {
+        "song_title": "Where Does the Time Go?",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - Where Does The Time Go-.pdf",
+        "file_size_bytes": 333600,
+        "page_range": [
+          309,
+          313
+        ]
+      },
+      {
+        "song_title": "This Can't Be Real",
+        "artist": "Barry Manilow",
+        "output_uri": "s3://jsmith-output/Barry Manilow/Barry Manilow - Anthology/Songs/Barry Manilow - This Can't Be Real.pdf",
+        "file_size_bytes": 725694,
+        "page_range": [
+          313,
+          321
+        ]
+      }
+    ]
+  }
+}

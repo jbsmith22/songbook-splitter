@@ -1,0 +1,103 @@
+{
+  "book_id": "movie-and-tv-pirates-of-the-caribbean-book-2-dead-man-s-chest",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Jack Sparrow",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Hans Zimmer - Jack Sparrow.pdf",
+        "file_size_bytes": 4606820,
+        "page_range": [
+          2,
+          17
+        ]
+      },
+      {
+        "song_title": "The Kraken",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Hans Zimmer - The Kraken.pdf",
+        "file_size_bytes": 781704,
+        "page_range": [
+          17,
+          21
+        ]
+      },
+      {
+        "song_title": "Davy Jones",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Hans Zimmer - Davy Jones.pdf",
+        "file_size_bytes": 887817,
+        "page_range": [
+          21,
+          26
+        ]
+      },
+      {
+        "song_title": "I'VE GOT MY EYE ON YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Hans Zimmer - I've Got My Eye On You.pdf",
+        "file_size_bytes": 364615,
+        "page_range": [
+          26,
+          28
+        ]
+      },
+      {
+        "song_title": "Dinner is Served",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Hans Zimmer - Dinner Is Served.pdf",
+        "file_size_bytes": 383256,
+        "page_range": [
+          28,
+          30
+        ]
+      },
+      {
+        "song_title": "Waltz tempo",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Unknown Artist - Waltz Tempo.pdf",
+        "file_size_bytes": 341072,
+        "page_range": [
+          30,
+          32
+        ]
+      },
+      {
+        "song_title": "Two Hornpipes",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Hans Zimmer - Two Hornpipes.pdf",
+        "file_size_bytes": 736131,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "Wheel of Fortune",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Hans Zimmer - Wheel Of Fortune.pdf",
+        "file_size_bytes": 1336352,
+        "page_range": [
+          36,
+          43
+        ]
+      },
+      {
+        "song_title": "Davy Jones Plays His Organ",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Pirates Of The Caribbean [book 2 - Dead Man's Chest]/Songs/Hans Zimmer - Davy Jones Plays His Organ.pdf",
+        "file_size_bytes": 561242,
+        "page_range": [
+          43,
+          46
+        ]
+      }
+    ]
+  }
+}

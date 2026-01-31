@@ -1,0 +1,164 @@
+{
+  "book_id": "bruce-springsteen-lucky-town",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Better Days",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Big Muddy",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Souls of the Departed",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Seeds of Treason",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If I Should Fall Behind",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Leap of Faith",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Living Proof",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Local Hero",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lucky Town",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Beautiful Reward",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "If I Should Fall Behind",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - If I Should Fall Behind.pdf",
+        "file_size_bytes": 582100,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "Better Days",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - Better Days.pdf",
+        "file_size_bytes": 722895,
+        "page_range": [
+          7,
+          10
+        ]
+      },
+      {
+        "song_title": "Leap of Faith",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - Leap Of Faith.pdf",
+        "file_size_bytes": 545099,
+        "page_range": [
+          10,
+          13
+        ]
+      },
+      {
+        "song_title": "Local Hero",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - Local Hero.pdf",
+        "file_size_bytes": 627265,
+        "page_range": [
+          13,
+          16
+        ]
+      },
+      {
+        "song_title": "My Beautiful Reward",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - My Beautiful Reward.pdf",
+        "file_size_bytes": 874231,
+        "page_range": [
+          16,
+          22
+        ]
+      },
+      {
+        "song_title": "The Big Muddy",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - The Big Muddy.pdf",
+        "file_size_bytes": 601996,
+        "page_range": [
+          22,
+          26
+        ]
+      },
+      {
+        "song_title": "Living Proof",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - Living Proof.pdf",
+        "file_size_bytes": 383667,
+        "page_range": [
+          26,
+          30
+        ]
+      },
+      {
+        "song_title": "Souls of the Departed",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - Souls Of The Departed.pdf",
+        "file_size_bytes": 419406,
+        "page_range": [
+          30,
+          34
+        ]
+      },
+      {
+        "song_title": "Lucky Town",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Lucky Town/Songs/Bruce Springsteen - Lucky Town.pdf",
+        "file_size_bytes": 916437,
+        "page_range": [
+          34,
+          38
+        ]
+      }
+    ]
+  }
+}

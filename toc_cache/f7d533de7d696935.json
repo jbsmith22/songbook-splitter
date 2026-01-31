@@ -1,0 +1,173 @@
+{
+  "book_id": "f7d533de7d696935",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Prologue",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - Prologue.pdf",
+        "file_size_bytes": 4096477,
+        "page_range": [
+          6,
+          59
+        ]
+      },
+      {
+        "song_title": "Maurice and the Beast",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - Maurice And The Beast.pdf",
+        "file_size_bytes": 1227502,
+        "page_range": [
+          59,
+          76
+        ]
+      },
+      {
+        "song_title": "Belle in Castle",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - Belle In Castle.pdf",
+        "file_size_bytes": 347395,
+        "page_range": [
+          76,
+          81
+        ]
+      },
+      {
+        "song_title": "Home",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - Home.pdf",
+        "file_size_bytes": 3989645,
+        "page_range": [
+          81,
+          133
+        ]
+      },
+      {
+        "song_title": "Be Our Guest",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - Be Our Guest.pdf",
+        "file_size_bytes": 2990054,
+        "page_range": [
+          133,
+          173
+        ]
+      },
+      {
+        "song_title": "Belle in the West Wing",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - Belle In The West Wing.pdf",
+        "file_size_bytes": 2106173,
+        "page_range": [
+          173,
+          202
+        ]
+      },
+      {
+        "song_title": "Something There",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - Something There.pdf",
+        "file_size_bytes": 3903943,
+        "page_range": [
+          202,
+          255
+        ]
+      },
+      {
+        "song_title": "Before \"Beauty & the Beast\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - Before -beauty & The Beast-.pdf",
+        "file_size_bytes": 64971,
+        "page_range": [
+          255,
+          256
+        ]
+      },
+      {
+        "song_title": "Beauty & the Beast",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - Beauty & The Beast.pdf",
+        "file_size_bytes": 1013606,
+        "page_range": [
+          256,
+          269
+        ]
+      },
+      {
+        "song_title": "A Change in Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - A Change In Me.pdf",
+        "file_size_bytes": 563425,
+        "page_range": [
+          269,
+          277
+        ]
+      },
+      {
+        "song_title": "Show Me the Beast",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - Show Me The Beast.pdf",
+        "file_size_bytes": 185440,
+        "page_range": [
+          277,
+          279
+        ]
+      },
+      {
+        "song_title": "The Mob Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - The Mob Song.pdf",
+        "file_size_bytes": 803279,
+        "page_range": [
+          279,
+          288
+        ]
+      },
+      {
+        "song_title": "The Mob Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - The Mob Song.pdf",
+        "file_size_bytes": 272374,
+        "page_range": [
+          288,
+          291
+        ]
+      },
+      {
+        "song_title": "The Mab Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - The Mab Song.pdf",
+        "file_size_bytes": 336226,
+        "page_range": [
+          291,
+          295
+        ]
+      },
+      {
+        "song_title": "The Battle",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - The Battle.pdf",
+        "file_size_bytes": 1307320,
+        "page_range": [
+          295,
+          311
+        ]
+      },
+      {
+        "song_title": "Is This Home Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - Is This Home Reprise.pdf",
+        "file_size_bytes": 3092013,
+        "page_range": [
+          311,
+          349
+        ]
+      }
+    ]
+  }
+}

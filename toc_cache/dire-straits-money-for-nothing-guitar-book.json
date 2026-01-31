@@ -1,0 +1,30 @@
+{
+  "book_id": "dire-straits-money-for-nothing-guitar-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Sultans Of Swing",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sultans Of Swing",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Money For Nothing [guitar Book]/Songs/Mark Knopfler - Sultans Of Swing.pdf",
+        "file_size_bytes": 10568225,
+        "page_range": [
+          1,
+          165
+        ]
+      }
+    ]
+  }
+}

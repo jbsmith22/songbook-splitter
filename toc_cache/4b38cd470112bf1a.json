@@ -1,0 +1,54 @@
+{
+  "book_id": "4b38cd470112bf1a",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "THE AVENUE Q THEME",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "wah!",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What can you do?",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "And ev-'ry hour goes, oh, so slow,",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "but home to Av - en-ue Q!",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "THE AVENUE Q THEME",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Avenue Q - Full Score/Songs/(piano-conductor) - The Avenue Q Theme.pdf",
+        "file_size_bytes": 9639172,
+        "page_range": [
+          0,
+          212
+        ]
+      }
+    ]
+  }
+}

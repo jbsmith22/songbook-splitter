@@ -1,0 +1,676 @@
+{
+  "book_id": "movie-and-tv-various-artists-book-of-great-tv-hits",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "(MEET) THE FLINTSTONES",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ALL FOR THE SAKE OF LOVE",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "AS DAYS GO BY (FAMILY MATTERS)",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ASHOKAM FAREWELL (THE CIVIL WAR)",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BAD BOYS (COPS)",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BALLYHOO THEME (BALLYHOO: THE HOLLYWOOD SIDESHOW!)",
+        "page_number": 102,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BEVERLY HILLS 90210",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BRAND NEW LIFE (WHO'S THE BOSS)",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CAROLINE IN THE CITY THEME",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CHANGING KEYS (WHEEL OF FORTUNE)",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CHICAGO HOPE THEME",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DR QUINN MEDICINE WOMAN",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ER",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EVERY BEAT OF MY HEART (AS THE WORLD TURNS)",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FACES OF THE HEART (GENERAL HOSPITAL)",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FINAL FRONTIER (MAD ABOUT YOU)",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HUCKLEBERRY HOUND",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'LL BE THERE FOR YOU (FRIENDS)",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JEOPARDY THEME",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "L A LAW",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LATE SHOW THEME",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE AND MARRIAGE (MARRIED...WITH CHILDREN)",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MOON OVER PARMA (THE DREW CAREY SHOW)",
+        "page_number": 77,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MURDER ONE THEME",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MURPHY BROWN",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NYPD BLUE THEME",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PICKET FENCES THEME",
+        "page_number": 105,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ROSIE O'DONNELL SHOW THEME",
+        "page_number": 84,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SCOOBY DOO",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SISTERS",
+        "page_number": 92,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SUDDENLY SUSAN",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THANK GOD FOR A FRIEND LIKE YOU (HOPE & GLORIA)",
+        "page_number": 96,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE JETSONS THEME",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE JOAN LARROQUETTE SHOW",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE MASTERPIECE (MASTERPIECE THEATRE)",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE PINK PANTHER",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE SIMPSONS THEME",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THIS IS IT (THE BUGS BUNNY SHOW)",
+        "page_number": 134,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TOP CAT",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "VIEWER MAIL THEME (LATE NIGHT WITH DAVID LETTERMAN)",
+        "page_number": 130,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "X FILES THEME",
+        "page_number": 118,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOGI BEAR SONG",
+        "page_number": 132,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "BEVERLY HILLS 90210",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/By John E. Davis - Beverly Hills 90210.pdf",
+        "file_size_bytes": 100921,
+        "page_range": [
+          2,
+          5
+        ]
+      },
+      {
+        "song_title": "AS DAYS GO BY (FAMILY MATTERS)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Bennett Salvay And Jesse Frederick - As Days Go By (family Matters).pdf",
+        "file_size_bytes": 149548,
+        "page_range": [
+          5,
+          11
+        ]
+      },
+      {
+        "song_title": "ALL FOR THE SAKE OF LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Michael Shaw And Earl Rose - All For The Sake Of Love.pdf",
+        "file_size_bytes": 135826,
+        "page_range": [
+          11,
+          16
+        ]
+      },
+      {
+        "song_title": "BAD BOYS (COPS)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Ian Lewis - Bad Boys (cops).pdf",
+        "file_size_bytes": 154201,
+        "page_range": [
+          16,
+          21
+        ]
+      },
+      {
+        "song_title": "ASHOKAM FAREWELL (THE CIVIL WAR)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Jay Ungar - Ashokam Farewell (the Civil War).pdf",
+        "file_size_bytes": 91325,
+        "page_range": [
+          21,
+          25
+        ]
+      },
+      {
+        "song_title": "BRAND NEW LIFE (WHO'S THE BOSS)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/The Image Does Not Clearly Show The Artist Name, But It Appears To Be The First Page Of A Song Titled -brand New Life- Based On The Prominent Title At The Top And The Sheet Music Notation Below It.pdf",
+        "file_size_bytes": 130297,
+        "page_range": [
+          25,
+          28
+        ]
+      },
+      {
+        "song_title": "FACES OF THE HEART (GENERAL HOSPITAL)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Dave Koz, Jeff Moz And Kurt Bient - Faces Of The Heart (general Hospital).pdf",
+        "file_size_bytes": 189573,
+        "page_range": [
+          28,
+          33
+        ]
+      },
+      {
+        "song_title": "CHANGING KEYS (WHEEL OF FORTUNE)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Merv Griffin - Changing Keys (wheel Of Fortune).pdf",
+        "file_size_bytes": 158525,
+        "page_range": [
+          33,
+          37
+        ]
+      },
+      {
+        "song_title": "ER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/James Newton Howard - Er.pdf",
+        "file_size_bytes": 55817,
+        "page_range": [
+          37,
+          39
+        ]
+      },
+      {
+        "song_title": "EVERY BEAT OF MY HEART (AS THE WORLD TURNS)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Brian Mcknight And Earl Rose - Every Beat Of My Heart (as The World Turns).pdf",
+        "file_size_bytes": 244595,
+        "page_range": [
+          39,
+          45
+        ]
+      },
+      {
+        "song_title": "FINAL FRONTIER (MAD ABOUT YOU)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Theme From Tristar Television's -mad About You- (words And Music By Paul Reiser & Don Was) - Final Frontier (mad About You).pdf",
+        "file_size_bytes": 68836,
+        "page_range": [
+          45,
+          47
+        ]
+      },
+      {
+        "song_title": "TOP CAT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/William Hanna, Joseph Barbera And Evelyn Timmers - Top Cat.pdf",
+        "file_size_bytes": 91362,
+        "page_range": [
+          47,
+          50
+        ]
+      },
+      {
+        "song_title": "JEOPARDY THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Merv Griffin - Jeopardy Theme.pdf",
+        "file_size_bytes": 114443,
+        "page_range": [
+          50,
+          53
+        ]
+      },
+      {
+        "song_title": "HUCKLEBERRY HOUND",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/William Hanna, Joseph Barbera And Jerry Curtin - Huckleberry Hound.pdf",
+        "file_size_bytes": 59993,
+        "page_range": [
+          53,
+          55
+        ]
+      },
+      {
+        "song_title": "THE JETSONS THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/William Hanna, Joseph Barbera And Hoyt Curtin - The Jetsons Theme.pdf",
+        "file_size_bytes": 84319,
+        "page_range": [
+          55,
+          58
+        ]
+      },
+      {
+        "song_title": "L A LAW",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Mike Post - L A Law.pdf",
+        "file_size_bytes": 151556,
+        "page_range": [
+          58,
+          63
+        ]
+      },
+      {
+        "song_title": "LATE SHOW THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/By Paul Shaffer - Late Show Theme.pdf",
+        "file_size_bytes": 106795,
+        "page_range": [
+          63,
+          66
+        ]
+      },
+      {
+        "song_title": "LOVE AND MARRIAGE (MARRIED...WITH CHILDREN)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Sammy Cahn (words), James Van Heusen (music) - Love And Marriage (married...with Children).pdf",
+        "file_size_bytes": 106813,
+        "page_range": [
+          66,
+          69
+        ]
+      },
+      {
+        "song_title": "(MEET) THE FLINTSTONES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/From The Flintstones - (meet) The Flintstones.pdf",
+        "file_size_bytes": 121477,
+        "page_range": [
+          69,
+          73
+        ]
+      },
+      {
+        "song_title": "THE MASTERPIECE (MASTERPIECE THEATRE)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/J.j. Mouret And Paul Panner - The Masterpiece (masterpiece Theatre).pdf",
+        "file_size_bytes": 106231,
+        "page_range": [
+          73,
+          76
+        ]
+      },
+      {
+        "song_title": "MOON OVER PARMA (THE DREW CAREY SHOW)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Robert F. Mcguire - Moon Over Parma (the Drew Carey Show).pdf",
+        "file_size_bytes": 104368,
+        "page_range": [
+          76,
+          79
+        ]
+      },
+      {
+        "song_title": "MURPHY BROWN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Steve Dorff - Murphy Brown.pdf",
+        "file_size_bytes": 43527,
+        "page_range": [
+          79,
+          81
+        ]
+      },
+      {
+        "song_title": "THE PINK PANTHER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Henry Mancini - The Pink Panther.pdf",
+        "file_size_bytes": 83881,
+        "page_range": [
+          81,
+          83
+        ]
+      },
+      {
+        "song_title": "ROSIE O'DONNELL SHOW THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/John Mcdaniel, Words By Randy Cohen - Rosie O'donnell Show Theme.pdf",
+        "file_size_bytes": 128340,
+        "page_range": [
+          83,
+          87
+        ]
+      },
+      {
+        "song_title": "SCOOBY DOO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Unknown Artist - Scooby Doo.pdf",
+        "file_size_bytes": 22459,
+        "page_range": [
+          87,
+          88
+        ]
+      },
+      {
+        "song_title": "SISTERS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Josh Denner - Sisters.pdf",
+        "file_size_bytes": 46259,
+        "page_range": [
+          88,
+          90
+        ]
+      },
+      {
+        "song_title": "SUDDENLY SUSAN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Ed Alton - Suddenly Susan.pdf",
+        "file_size_bytes": 51428,
+        "page_range": [
+          90,
+          92
+        ]
+      },
+      {
+        "song_title": "THANK GOD FOR A FRIEND LIKE YOU (HOPE & GLORIA)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Craig Gilligan - Thank God For A Friend Like You (hope & Gloria).pdf",
+        "file_size_bytes": 61640,
+        "page_range": [
+          92,
+          94
+        ]
+      },
+      {
+        "song_title": "CAROLINE IN THE CITY THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Jonathan Wolff - Caroline In The City Theme.pdf",
+        "file_size_bytes": 70029,
+        "page_range": [
+          94,
+          96
+        ]
+      },
+      {
+        "song_title": "CHICAGO HOPE THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Mark Isham - Chicago Hope Theme.pdf",
+        "file_size_bytes": 55958,
+        "page_range": [
+          96,
+          98
+        ]
+      },
+      {
+        "song_title": "BALLYHOO THEME (BALLYHOO: THE HOLLYWOOD SIDESHOW!)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Earl Rose - Ballyhoo Theme (ballyhoo- The Hollywood Sideshow!).pdf",
+        "file_size_bytes": 83590,
+        "page_range": [
+          98,
+          101
+        ]
+      },
+      {
+        "song_title": "PICKET FENCES THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/By Stewart Levin - Picket Fences Theme.pdf",
+        "file_size_bytes": 82701,
+        "page_range": [
+          101,
+          104
+        ]
+      },
+      {
+        "song_title": "DR QUINN MEDICINE WOMAN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/William Olvis - Dr Quinn Medicine Woman.pdf",
+        "file_size_bytes": 53214,
+        "page_range": [
+          104,
+          106
+        ]
+      },
+      {
+        "song_title": "MURDER ONE THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Unknown Artist - Murder One Theme.pdf",
+        "file_size_bytes": 54729,
+        "page_range": [
+          106,
+          108
+        ]
+      },
+      {
+        "song_title": "NYPD BLUE THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Mike Post - Nypd Blue Theme.pdf",
+        "file_size_bytes": 39362,
+        "page_range": [
+          108,
+          110
+        ]
+      },
+      {
+        "song_title": "THE SIMPSONS THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Music Composed By Danny Elfman - The Simpsons Theme.pdf",
+        "file_size_bytes": 132098,
+        "page_range": [
+          110,
+          114
+        ]
+      },
+      {
+        "song_title": "X FILES THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Music By Mark Snow - X Files Theme.pdf",
+        "file_size_bytes": 139504,
+        "page_range": [
+          114,
+          120
+        ]
+      },
+      {
+        "song_title": "I'LL BE THERE FOR YOU (FRIENDS)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/The Song Credits List David Crane, Marta Kauffman, Allee Willis, Phil Solem, And Danny Wilde As The Writers, And Michael Skloff As The Composer, Suggesting This Is The Theme Song From The Tv Show.pdf",
+        "file_size_bytes": 173337,
+        "page_range": [
+          120,
+          126
+        ]
+      },
+      {
+        "song_title": "VIEWER MAIL THEME (LATE NIGHT WITH DAVID LETTERMAN)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Henry Mancini - Viewer Mail Theme (late Night With David Letterman).pdf",
+        "file_size_bytes": 60207,
+        "page_range": [
+          126,
+          128
+        ]
+      },
+      {
+        "song_title": "YOGI BEAR SONG",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/William Hanna, Joseph Barbera And Hoyt S. Curtin - Yogi Bear Song.pdf",
+        "file_size_bytes": 66727,
+        "page_range": [
+          128,
+          130
+        ]
+      },
+      {
+        "song_title": "THIS IS IT (THE BUGS BUNNY SHOW)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Book Of Great Tv Hits/Songs/Mack David And Jerry Livingston - This Is It (the Bugs Bunny Show).pdf",
+        "file_size_bytes": 112771,
+        "page_range": [
+          130,
+          133
+        ]
+      }
+    ]
+  }
+}

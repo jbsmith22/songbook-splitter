@@ -1,0 +1,133 @@
+{
+  "book_id": "herman-s-hermits-collection",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Little Boy Sad",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Wayne D. Brock - Little Boy Sad.pdf",
+        "file_size_bytes": 89695,
+        "page_range": [
+          0,
+          2
+        ]
+      },
+      {
+        "song_title": "Something Is Happening",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Unknown Artist - Something Is Happening.pdf",
+        "file_size_bytes": 115661,
+        "page_range": [
+          2,
+          5
+        ]
+      },
+      {
+        "song_title": "I'm Henry VIII, I Am",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/The Lyrics And Melody Are Credited To Herman Hermits And Noel Regney, But The Artist Is Not Explicitly Stated On This Sheet Music Excerpt - I'm Henry Viii, I Am.pdf",
+        "file_size_bytes": 1677523,
+        "page_range": [
+          5,
+          7
+        ]
+      },
+      {
+        "song_title": "I'M HENRY VIII, I AM",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Fred Murray And R.p. Weston - I'm Henry Viii, I Am.pdf",
+        "file_size_bytes": 68936,
+        "page_range": [
+          7,
+          9
+        ]
+      },
+      {
+        "song_title": "I'm Into Something Good",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Gerry Goffin And Carole King - I'm Into Something Good.pdf",
+        "file_size_bytes": 1794814,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "Mrs. Brown You've Got A Lovely Daughter",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Trevor Peacock - Mrs. Brown You've Got A Lovely Daughter.pdf",
+        "file_size_bytes": 157808,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "Silhouettes",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Frank C. Slay, Jr. And Bob Crewe - Silhouettes.pdf",
+        "file_size_bytes": 239153,
+        "page_range": [
+          15,
+          18
+        ]
+      },
+      {
+        "song_title": "There's a Kind of Hush (All Over the World)",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Les Reed & Geoff Stephens - There's A Kind Of Hush (all Over The World).pdf",
+        "file_size_bytes": 152069,
+        "page_range": [
+          18,
+          22
+        ]
+      },
+      {
+        "song_title": "There's A Kind Of Hush (All Over The World)",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Les Reed And Geoff Stephens - There's A Kind Of Hush (all Over The World).pdf",
+        "file_size_bytes": 105513,
+        "page_range": [
+          22,
+          25
+        ]
+      },
+      {
+        "song_title": "The End of the World",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Words By Sylvia Dee, Music By Arthur Kent - The End Of The World.pdf",
+        "file_size_bytes": 3060732,
+        "page_range": [
+          25,
+          30
+        ]
+      },
+      {
+        "song_title": "THE END OF THE WORLD",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Unknown Artist - The End Of The World.pdf",
+        "file_size_bytes": 627515,
+        "page_range": [
+          30,
+          33
+        ]
+      },
+      {
+        "song_title": "The End Of The World",
+        "artist": "Herman's Hermits",
+        "output_uri": "s3://jsmith-output/Herman's Hermits/Collection/Songs/Unknown Artist - The End Of The World.pdf",
+        "file_size_bytes": 67042,
+        "page_range": [
+          33,
+          34
+        ]
+      }
+    ]
+  }
+}

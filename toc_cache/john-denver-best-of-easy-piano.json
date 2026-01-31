@@ -1,0 +1,302 @@
+{
+  "book_id": "john-denver-best-of-easy-piano",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Sunshine On My Shoulders",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rocky Mountain High",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take Me Home, Country Roads",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Annie's Song",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm Sorry",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thank God I'm A Country Boy",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Back Home Again",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodbye Again",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Sweet Lady",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fly Away",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Perhaps Love",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Follow Me",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For Baby (For Bobbie)",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Grandma's Feather Bed",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wild Montana Skies",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For You",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Never A Doubt",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Leaving On A Jet Plane",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sunshine On My Shoulders",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Sunshine On My Shoulders.pdf",
+        "file_size_bytes": 304785,
+        "page_range": [
+          2,
+          4
+        ]
+      },
+      {
+        "song_title": "Rocky Mountain High",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Rocky Mountain High.pdf",
+        "file_size_bytes": 754953,
+        "page_range": [
+          4,
+          9
+        ]
+      },
+      {
+        "song_title": "Take Me Home, Country Roads",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Take Me Home, Country Roads.pdf",
+        "file_size_bytes": 434598,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "Annie's Song",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Annie's Song.pdf",
+        "file_size_bytes": 407241,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "I'm Sorry",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - I'm Sorry.pdf",
+        "file_size_bytes": 439337,
+        "page_range": [
+          15,
+          18
+        ]
+      },
+      {
+        "song_title": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Thank God I'm A Country Boy.pdf",
+        "file_size_bytes": 412733,
+        "page_range": [
+          18,
+          21
+        ]
+      },
+      {
+        "song_title": "Back Home Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Back Home Again.pdf",
+        "file_size_bytes": 714953,
+        "page_range": [
+          21,
+          26
+        ]
+      },
+      {
+        "song_title": "Goodbye Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Goodbye Again.pdf",
+        "file_size_bytes": 437022,
+        "page_range": [
+          26,
+          29
+        ]
+      },
+      {
+        "song_title": "My Sweet Lady",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - My Sweet Lady.pdf",
+        "file_size_bytes": 434756,
+        "page_range": [
+          29,
+          32
+        ]
+      },
+      {
+        "song_title": "Fly Away",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Fly Away.pdf",
+        "file_size_bytes": 622546,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "Perhaps Love",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Perhaps Love.pdf",
+        "file_size_bytes": 560382,
+        "page_range": [
+          36,
+          40
+        ]
+      },
+      {
+        "song_title": "Follow Me",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Follow Me.pdf",
+        "file_size_bytes": 557542,
+        "page_range": [
+          40,
+          44
+        ]
+      },
+      {
+        "song_title": "For Baby (For Bobbie)",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - For Baby (for Bobbie).pdf",
+        "file_size_bytes": 291518,
+        "page_range": [
+          44,
+          46
+        ]
+      },
+      {
+        "song_title": "Grandma's Feather Bed",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Grandma's Feather Bed.pdf",
+        "file_size_bytes": 543901,
+        "page_range": [
+          46,
+          50
+        ]
+      },
+      {
+        "song_title": "Wild Montana Skies",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Wild Montana Skies.pdf",
+        "file_size_bytes": 436670,
+        "page_range": [
+          50,
+          53
+        ]
+      },
+      {
+        "song_title": "For You",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - For You.pdf",
+        "file_size_bytes": 606255,
+        "page_range": [
+          53,
+          57
+        ]
+      },
+      {
+        "song_title": "Never A Doubt",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Never A Doubt.pdf",
+        "file_size_bytes": 751584,
+        "page_range": [
+          57,
+          62
+        ]
+      },
+      {
+        "song_title": "Leaving On A Jet Plane",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Best Of [easy Piano]/Songs/John Denver - Leaving On A Jet Plane.pdf",
+        "file_size_bytes": 541955,
+        "page_range": [
+          62,
+          66
+        ]
+      }
+    ]
+  }
+}

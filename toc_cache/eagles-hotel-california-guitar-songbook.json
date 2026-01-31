@@ -1,0 +1,32 @@
+{
+  "book_id": "eagles-hotel-california-guitar-songbook",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Hotel California",
+        "page_number": 9,
+        "artist": "Words and Music by DON FELDER, DON HENLEY and GLENN FREY",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Hotel California": "Words and Music by DON FELDER, DON HENLEY and GLENN FREY"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Hotel California",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Hotel California (guitar Songbook)/Songs/Don Felder, Don Henley And Glenn Frey - Hotel California.pdf",
+        "file_size_bytes": 1112704,
+        "page_range": [
+          0,
+          20
+        ]
+      }
+    ]
+  }
+}

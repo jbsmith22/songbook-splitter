@@ -1,0 +1,488 @@
+{
+  "book_id": "movie-and-tv-john-williams-greatest-hits",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "BORN ON THE FOURTH OF JULY (THEME)",
+        "page_number": 126,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CADILLAC OF THE SKIES",
+        "page_number": 53,
+        "artist": "EMPIRE OF THE SUN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE DAYS BETWEEN",
+        "page_number": 92,
+        "artist": "STEPMOM",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DUEL OF THE FATES",
+        "page_number": 132,
+        "artist": "STAR WARS: EPISODE I THE PHANTOM MENACE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FAR AND AWAY (MAIN THEME)",
+        "page_number": 123,
+        "artist": "FAR AND AWAY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FLIGHT TO NEVERLAND",
+        "page_number": 78,
+        "artist": "HOOK",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HYMN TO THE FALLEN",
+        "page_number": 66,
+        "artist": "SAVING PRIVATE RYAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE IMPERIAL MARCH (DARTH VADERS' THEME)",
+        "page_number": 42,
+        "artist": "THE EMPIRE STRIKES BACK",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOOK DOWN, LORD",
+        "page_number": 118,
+        "artist": "ROSEWOOD",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LUKE AND LEIA",
+        "page_number": 32,
+        "artist": "RETURN OF THE JEDI",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MARCH FROM \"1941\"",
+        "page_number": 98,
+        "artist": "1941",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MARCH OF THE SLAVE CHILDREN",
+        "page_number": 17,
+        "artist": "INDIANA JONES AND THE TEMPLE OF DOOM",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MARCH FROM \"SUPERMAN\"",
+        "page_number": 13,
+        "artist": "SUPERMAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "OLYMPIC FANFARE AND THEME*",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "RAIDERS MARCH",
+        "page_number": 57,
+        "artist": "RAIDERS OF THE LOST ARK",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE REIVERS (MAIN TITLE)",
+        "page_number": 37,
+        "artist": "THE REIVERS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SCHERZO FOR MOTORCYCLE AND ORCHESTRA",
+        "page_number": 44,
+        "artist": "INDIANA JONES AND THE LAST CRUSADE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SEVEN YEARS IN TIBET",
+        "page_number": 85,
+        "artist": "SEVEN YEARS IN TIBET",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SOMEWHERE IN MY MEMORY",
+        "page_number": 103,
+        "artist": "HOME ALONE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "STAR WARS (MAIN THEME)",
+        "page_number": 6,
+        "artist": "STAR WARS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SUGARLAND EXPRESS (THEME)",
+        "page_number": 20,
+        "artist": "SUGARLAND EXPRESS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SUMMON THE HEROES**",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THEME FROM \"CLOSE ENCOUNTERS\"",
+        "page_number": 61,
+        "artist": "CLOSE ENCOUNTERS OF THE THIRD KIND",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THEME FROM \"E.T.\" (THE EXTRA TERRESTRIAL)",
+        "page_number": 8,
+        "artist": "E.T. (THE EXTRA TERRESTRIAL)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THEME FROM \"JFK\"",
+        "page_number": 89,
+        "artist": "JFK",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THEME FROM \"JAWS\"",
+        "page_number": 24,
+        "artist": "JAWS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THEME FROM \"JURASSIC PARK\"",
+        "page_number": 72,
+        "artist": "JURASSIC PARK",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THEME FROM \"SCHINDLER'S LIST\"",
+        "page_number": 76,
+        "artist": "SCHINDLER'S LIST",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "CADILLAC OF THE SKIES": "EMPIRE OF THE SUN",
+      "THE DAYS BETWEEN": "STEPMOM",
+      "DUEL OF THE FATES": "STAR WARS: EPISODE I THE PHANTOM MENACE",
+      "FAR AND AWAY (MAIN THEME)": "FAR AND AWAY",
+      "FLIGHT TO NEVERLAND": "HOOK",
+      "HYMN TO THE FALLEN": "SAVING PRIVATE RYAN",
+      "THE IMPERIAL MARCH (DARTH VADERS' THEME)": "THE EMPIRE STRIKES BACK",
+      "LOOK DOWN, LORD": "ROSEWOOD",
+      "LUKE AND LEIA": "RETURN OF THE JEDI",
+      "MARCH FROM \"1941\"": "1941",
+      "MARCH OF THE SLAVE CHILDREN": "INDIANA JONES AND THE TEMPLE OF DOOM",
+      "MARCH FROM \"SUPERMAN\"": "SUPERMAN",
+      "RAIDERS MARCH": "RAIDERS OF THE LOST ARK",
+      "THE REIVERS (MAIN TITLE)": "THE REIVERS",
+      "SCHERZO FOR MOTORCYCLE AND ORCHESTRA": "INDIANA JONES AND THE LAST CRUSADE",
+      "SEVEN YEARS IN TIBET": "SEVEN YEARS IN TIBET",
+      "SOMEWHERE IN MY MEMORY": "HOME ALONE",
+      "STAR WARS (MAIN THEME)": "STAR WARS",
+      "SUGARLAND EXPRESS (THEME)": "SUGARLAND EXPRESS",
+      "THEME FROM \"CLOSE ENCOUNTERS\"": "CLOSE ENCOUNTERS OF THE THIRD KIND",
+      "THEME FROM \"E.T.\" (THE EXTRA TERRESTRIAL)": "E.T. (THE EXTRA TERRESTRIAL)",
+      "THEME FROM \"JFK\"": "JFK",
+      "THEME FROM \"JAWS\"": "JAWS",
+      "THEME FROM \"JURASSIC PARK\"": "JURASSIC PARK",
+      "THEME FROM \"SCHINDLER'S LIST\"": "SCHINDLER'S LIST"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "STAR WARS (MAIN THEME)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Star Wars - Star Wars (main Theme).pdf",
+        "file_size_bytes": 22923,
+        "page_range": [
+          6,
+          8
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"E.T.\" (THE EXTRA TERRESTRIAL)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/E.t. (the Extra Terrestrial) - Theme From -e.t.- (the Extra Terrestrial).pdf",
+        "file_size_bytes": 92933,
+        "page_range": [
+          8,
+          13
+        ]
+      },
+      {
+        "song_title": "MARCH FROM \"SUPERMAN\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Superman - March From -superman-.pdf",
+        "file_size_bytes": 88393,
+        "page_range": [
+          13,
+          17
+        ]
+      },
+      {
+        "song_title": "MARCH OF THE SLAVE CHILDREN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Indiana Jones And The Temple Of Doom - March Of The Slave Children.pdf",
+        "file_size_bytes": 65752,
+        "page_range": [
+          17,
+          20
+        ]
+      },
+      {
+        "song_title": "SUGARLAND EXPRESS (THEME)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Sugarland Express - Sugarland Express (theme).pdf",
+        "file_size_bytes": 70035,
+        "page_range": [
+          20,
+          24
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"JAWS\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Jaws - Theme From -jaws-.pdf",
+        "file_size_bytes": 44000,
+        "page_range": [
+          24,
+          26
+        ]
+      },
+      {
+        "song_title": "OLYMPIC FANFARE AND THEME*",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/By John Williams - Olympic Fanfare And Theme-.pdf",
+        "file_size_bytes": 141636,
+        "page_range": [
+          26,
+          32
+        ]
+      },
+      {
+        "song_title": "LUKE AND LEIA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Return Of The Jedi - Luke And Leia.pdf",
+        "file_size_bytes": 116959,
+        "page_range": [
+          32,
+          37
+        ]
+      },
+      {
+        "song_title": "THE REIVERS (MAIN TITLE)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/The Reivers - The Reivers (main Title).pdf",
+        "file_size_bytes": 87587,
+        "page_range": [
+          37,
+          42
+        ]
+      },
+      {
+        "song_title": "THE IMPERIAL MARCH (DARTH VADERS' THEME)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/The Empire Strikes Back - The Imperial March (darth Vaders' Theme).pdf",
+        "file_size_bytes": 40843,
+        "page_range": [
+          42,
+          44
+        ]
+      },
+      {
+        "song_title": "SCHERZO FOR MOTORCYCLE AND ORCHESTRA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Indiana Jones And The Last Crusade - Scherzo For Motorcycle And Orchestra.pdf",
+        "file_size_bytes": 172257,
+        "page_range": [
+          44,
+          53
+        ]
+      },
+      {
+        "song_title": "CADILLAC OF THE SKIES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Empire Of The Sun - Cadillac Of The Skies.pdf",
+        "file_size_bytes": 88618,
+        "page_range": [
+          53,
+          57
+        ]
+      },
+      {
+        "song_title": "RAIDERS MARCH",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Raiders Of The Lost Ark - Raiders March.pdf",
+        "file_size_bytes": 77819,
+        "page_range": [
+          57,
+          61
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"CLOSE ENCOUNTERS\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Close Encounters Of The Third Kind - Theme From -close Encounters-.pdf",
+        "file_size_bytes": 110321,
+        "page_range": [
+          61,
+          66
+        ]
+      },
+      {
+        "song_title": "HYMN TO THE FALLEN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Saving Private Ryan - Hymn To The Fallen.pdf",
+        "file_size_bytes": 119634,
+        "page_range": [
+          66,
+          72
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"JURASSIC PARK\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Jurassic Park - Theme From -jurassic Park-.pdf",
+        "file_size_bytes": 74013,
+        "page_range": [
+          72,
+          76
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"SCHINDLER'S LIST\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Schindler's List - Theme From -schindler's List-.pdf",
+        "file_size_bytes": 38696,
+        "page_range": [
+          76,
+          78
+        ]
+      },
+      {
+        "song_title": "FLIGHT TO NEVERLAND",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Hook - Flight To Neverland.pdf",
+        "file_size_bytes": 121628,
+        "page_range": [
+          78,
+          85
+        ]
+      },
+      {
+        "song_title": "SEVEN YEARS IN TIBET",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Seven Years In Tibet - Seven Years In Tibet.pdf",
+        "file_size_bytes": 87051,
+        "page_range": [
+          85,
+          89
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"JFK\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Jfk - Theme From -jfk-.pdf",
+        "file_size_bytes": 65646,
+        "page_range": [
+          89,
+          92
+        ]
+      },
+      {
+        "song_title": "THE DAYS BETWEEN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Stepmom - The Days Between.pdf",
+        "file_size_bytes": 110691,
+        "page_range": [
+          92,
+          98
+        ]
+      },
+      {
+        "song_title": "MARCH FROM \"1941\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/1941 - March From -1941-.pdf",
+        "file_size_bytes": 92943,
+        "page_range": [
+          98,
+          103
+        ]
+      },
+      {
+        "song_title": "SOMEWHERE IN MY MEMORY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Home Alone - Somewhere In My Memory.pdf",
+        "file_size_bytes": 66132,
+        "page_range": [
+          103,
+          106
+        ]
+      },
+      {
+        "song_title": "SUMMON THE HEROES**",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/By John Williams - Summon The Heroes--.pdf",
+        "file_size_bytes": 254449,
+        "page_range": [
+          106,
+          118
+        ]
+      },
+      {
+        "song_title": "LOOK DOWN, LORD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Rosewood - Look Down, Lord.pdf",
+        "file_size_bytes": 100860,
+        "page_range": [
+          118,
+          123
+        ]
+      },
+      {
+        "song_title": "FAR AND AWAY (MAIN THEME)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Far And Away - Far And Away (main Theme).pdf",
+        "file_size_bytes": 57263,
+        "page_range": [
+          123,
+          126
+        ]
+      },
+      {
+        "song_title": "BORN ON THE FOURTH OF JULY (THEME)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/By John Williams - Born On The Fourth Of July (theme).pdf",
+        "file_size_bytes": 123040,
+        "page_range": [
+          126,
+          132
+        ]
+      },
+      {
+        "song_title": "DUEL OF THE FATES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Greatest Hits/Songs/Star Wars- Episode I The Phantom Menace - Duel Of The Fates.pdf",
+        "file_size_bytes": 205227,
+        "page_range": [
+          132,
+          141
+        ]
+      }
+    ]
+  }
+}

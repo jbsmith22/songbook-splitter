@@ -1,0 +1,65 @@
+{
+  "book_id": "dire-straits-mark-knopfler-guitar-styles-vol-1-guitar-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "mark's guitar style",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "sultans of swing",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "once upon a time in the west",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "expresso love",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "romeo and juliet",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "tunnel of love",
+        "page_number": 79,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "love over gold",
+        "page_number": 105,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "private investigations",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "telegraph road",
+        "page_number": 126,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

@@ -1,0 +1,2983 @@
+{
+  "book_id": "beatles-fake-songbook-guitar",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Day in the Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - A Day In The Life.pdf",
+        "file_size_bytes": 6521,
+        "page_range": [
+          1,
+          3
+        ]
+      },
+      {
+        "song_title": "A Hard Day's Night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - A Hard Day's Night.pdf",
+        "file_size_bytes": 6294,
+        "page_range": [
+          3,
+          5
+        ]
+      },
+      {
+        "song_title": "Hard Day's Night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Hard Day's Night.pdf",
+        "file_size_bytes": 5423,
+        "page_range": [
+          5,
+          6
+        ]
+      },
+      {
+        "song_title": "A Taste of Honey",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Scott-marlow (performed By Beatles 1962) - A Taste Of Honey.pdf",
+        "file_size_bytes": 5033,
+        "page_range": [
+          6,
+          7
+        ]
+      },
+      {
+        "song_title": "Across the Universe",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(lennon-mccartney) - Across The Universe.pdf",
+        "file_size_bytes": 5207,
+        "page_range": [
+          7,
+          8
+        ]
+      },
+      {
+        "song_title": "Across the Universe",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Across The Universe.pdf",
+        "file_size_bytes": 2440,
+        "page_range": [
+          8,
+          10
+        ]
+      },
+      {
+        "song_title": "Across the Universe",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Across The Universe.pdf",
+        "file_size_bytes": 6603,
+        "page_range": [
+          10,
+          12
+        ]
+      },
+      {
+        "song_title": "Across The Universe",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Across The Universe.pdf",
+        "file_size_bytes": 2839,
+        "page_range": [
+          12,
+          14
+        ]
+      },
+      {
+        "song_title": "Act Naturally",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Act Naturally.pdf",
+        "file_size_bytes": 8905,
+        "page_range": [
+          14,
+          18
+        ]
+      },
+      {
+        "song_title": "All day and all of the night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Kinks - All Day And All Of The Night.pdf",
+        "file_size_bytes": 6343,
+        "page_range": [
+          18,
+          20
+        ]
+      },
+      {
+        "song_title": "All I've Got To Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon - Mccartney - All I've Got To Do.pdf",
+        "file_size_bytes": 5023,
+        "page_range": [
+          20,
+          21
+        ]
+      },
+      {
+        "song_title": "All My Loving",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - All My Loving.pdf",
+        "file_size_bytes": 5041,
+        "page_range": [
+          21,
+          22
+        ]
+      },
+      {
+        "song_title": "All Together Now",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles [credited As Lennon-mccartney] - All Together Now.pdf",
+        "file_size_bytes": 5258,
+        "page_range": [
+          22,
+          23
+        ]
+      },
+      {
+        "song_title": "All You Need Is Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - All You Need Is Love.pdf",
+        "file_size_bytes": 5149,
+        "page_range": [
+          23,
+          24
+        ]
+      },
+      {
+        "song_title": "All you need is love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - All You Need Is Love.pdf",
+        "file_size_bytes": 2548,
+        "page_range": [
+          24,
+          26
+        ]
+      },
+      {
+        "song_title": "All You Need Is Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles [lennon & Mccartney] - All You Need Is Love.pdf",
+        "file_size_bytes": 6050,
+        "page_range": [
+          26,
+          28
+        ]
+      },
+      {
+        "song_title": "All you need is love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - All You Need Is Love.pdf",
+        "file_size_bytes": 5154,
+        "page_range": [
+          28,
+          29
+        ]
+      },
+      {
+        "song_title": "All you need is love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - All You Need Is Love.pdf",
+        "file_size_bytes": 2486,
+        "page_range": [
+          29,
+          31
+        ]
+      },
+      {
+        "song_title": "And I Love Her",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - And I Love Her.pdf",
+        "file_size_bytes": 6183,
+        "page_range": [
+          31,
+          33
+        ]
+      },
+      {
+        "song_title": "AND I LOVE HER",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - And I Love Her.pdf",
+        "file_size_bytes": 6571,
+        "page_range": [
+          33,
+          35
+        ]
+      },
+      {
+        "song_title": "And I Love Her",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - And I Love Her.pdf",
+        "file_size_bytes": 5007,
+        "page_range": [
+          35,
+          36
+        ]
+      },
+      {
+        "song_title": "And I love her",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - And I Love Her.pdf",
+        "file_size_bytes": 11093,
+        "page_range": [
+          36,
+          42
+        ]
+      },
+      {
+        "song_title": "And Your Bird Can Sing",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon & Mccartney - And Your Bird Can Sing.pdf",
+        "file_size_bytes": 5914,
+        "page_range": [
+          42,
+          47
+        ]
+      },
+      {
+        "song_title": "Anna",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(henner-mccafferty) - Anna.pdf",
+        "file_size_bytes": 6363,
+        "page_range": [
+          47,
+          49
+        ]
+      },
+      {
+        "song_title": "Ask Me Why",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Ask Me Why.pdf",
+        "file_size_bytes": 7164,
+        "page_range": [
+          49,
+          52
+        ]
+      },
+      {
+        "song_title": "Baby It's You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Baby It's You.pdf",
+        "file_size_bytes": 5664,
+        "page_range": [
+          52,
+          54
+        ]
+      },
+      {
+        "song_title": "Baby You're a Rich Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Baby You're A Rich Man.pdf",
+        "file_size_bytes": 5166,
+        "page_range": [
+          54,
+          55
+        ]
+      },
+      {
+        "song_title": "Baby's in Black",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon - Mccartney - Baby's In Black.pdf",
+        "file_size_bytes": 5036,
+        "page_range": [
+          55,
+          56
+        ]
+      },
+      {
+        "song_title": "Back in the U.S.S.R.",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Back In The U.s.s.r.pdf",
+        "file_size_bytes": 9263,
+        "page_range": [
+          56,
+          61
+        ]
+      },
+      {
+        "song_title": "Ballad of John and Yoko",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Ballad Of John And Yoko.pdf",
+        "file_size_bytes": 6356,
+        "page_range": [
+          61,
+          63
+        ]
+      },
+      {
+        "song_title": "Band on the Run",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Lyrics Mention -rochester Institute Of Technology- Which Suggests This Is Likely Sheet Music Or Lyrics For A Song By Students Or Associated With That University, Rather Than A Commercially Rel.pdf",
+        "file_size_bytes": 17724,
+        "page_range": [
+          63,
+          73
+        ]
+      },
+      {
+        "song_title": "Because",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Because.pdf",
+        "file_size_bytes": 6264,
+        "page_range": [
+          73,
+          75
+        ]
+      },
+      {
+        "song_title": "Being for the Benefit of Mr. Kite",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Being For The Benefit Of Mr. Kite.pdf",
+        "file_size_bytes": 5943,
+        "page_range": [
+          75,
+          77
+        ]
+      },
+      {
+        "song_title": "Besame Mucho",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Besame Mucho.pdf",
+        "file_size_bytes": 5961,
+        "page_range": [
+          77,
+          79
+        ]
+      },
+      {
+        "song_title": "Birthday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Birthday.pdf",
+        "file_size_bytes": 9709,
+        "page_range": [
+          79,
+          84
+        ]
+      },
+      {
+        "song_title": "Birthday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Birthday.pdf",
+        "file_size_bytes": 7569,
+        "page_range": [
+          84,
+          87
+        ]
+      },
+      {
+        "song_title": "Blackbird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Blackbird.pdf",
+        "file_size_bytes": 9324,
+        "page_range": [
+          87,
+          92
+        ]
+      },
+      {
+        "song_title": "Blackbird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Blackbird.pdf",
+        "file_size_bytes": 1582,
+        "page_range": [
+          92,
+          93
+        ]
+      },
+      {
+        "song_title": "Blackbird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - Blackbird.pdf",
+        "file_size_bytes": 7487,
+        "page_range": [
+          93,
+          99
+        ]
+      },
+      {
+        "song_title": "Can't Buy Me Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Can't Buy Me Love.pdf",
+        "file_size_bytes": 5395,
+        "page_range": [
+          99,
+          100
+        ]
+      },
+      {
+        "song_title": "Carry That Weight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Carry That Weight.pdf",
+        "file_size_bytes": 5748,
+        "page_range": [
+          100,
+          102
+        ]
+      },
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Come Together.pdf",
+        "file_size_bytes": 10265,
+        "page_range": [
+          102,
+          107
+        ]
+      },
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Come Together.pdf",
+        "file_size_bytes": 1553,
+        "page_range": [
+          107,
+          108
+        ]
+      },
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(no Clear Artist Name Given) - Come Together.pdf",
+        "file_size_bytes": 2217,
+        "page_range": [
+          108,
+          110
+        ]
+      },
+      {
+        "song_title": "Cry Baby Cry",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Cry Baby Cry.pdf",
+        "file_size_bytes": 5971,
+        "page_range": [
+          110,
+          112
+        ]
+      },
+      {
+        "song_title": "Cry Baby Cry",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon - Mccartney - Cry Baby Cry.pdf",
+        "file_size_bytes": 5296,
+        "page_range": [
+          112,
+          113
+        ]
+      },
+      {
+        "song_title": "Day Tripper",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Day Tripper.pdf",
+        "file_size_bytes": 7683,
+        "page_range": [
+          113,
+          116
+        ]
+      },
+      {
+        "song_title": "Dear Prudence",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Paul Zimmerman - Dear Prudence.pdf",
+        "file_size_bytes": 5086,
+        "page_range": [
+          116,
+          117
+        ]
+      },
+      {
+        "song_title": "Dear Prudence",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Dear Prudence.pdf",
+        "file_size_bytes": 13598,
+        "page_range": [
+          117,
+          125
+        ]
+      },
+      {
+        "song_title": "Don't ever change",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Don't Ever Change.pdf",
+        "file_size_bytes": 6050,
+        "page_range": [
+          125,
+          127
+        ]
+      },
+      {
+        "song_title": "Don't Let Me Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Don't Let Me Down.pdf",
+        "file_size_bytes": 7882,
+        "page_range": [
+          127,
+          130
+        ]
+      },
+      {
+        "song_title": "Drive My Car",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Drive My Car.pdf",
+        "file_size_bytes": 8198,
+        "page_range": [
+          130,
+          133
+        ]
+      },
+      {
+        "song_title": "Drive my car",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Drive My Car.pdf",
+        "file_size_bytes": 4596,
+        "page_range": [
+          133,
+          137
+        ]
+      },
+      {
+        "song_title": "EIGHT DAYS A WEEK",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Eight Days A Week.pdf",
+        "file_size_bytes": 5967,
+        "page_range": [
+          137,
+          139
+        ]
+      },
+      {
+        "song_title": "Eight Days a Week",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - Eight Days A Week.pdf",
+        "file_size_bytes": 1532,
+        "page_range": [
+          139,
+          140
+        ]
+      },
+      {
+        "song_title": "Eight days a week",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Eight Days A Week.pdf",
+        "file_size_bytes": 2308,
+        "page_range": [
+          140,
+          142
+        ]
+      },
+      {
+        "song_title": "Eight Days a Week",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Words & Music- Lennon-mccartney - Eight Days A Week.pdf",
+        "file_size_bytes": 5072,
+        "page_range": [
+          142,
+          143
+        ]
+      },
+      {
+        "song_title": "Eleanor Rigby",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Paul Mccartney-john Lennon - Eleanor Rigby.pdf",
+        "file_size_bytes": 8702,
+        "page_range": [
+          143,
+          147
+        ]
+      },
+      {
+        "song_title": "Eleanor Rigby",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon, Paul Mccartney - Eleanor Rigby.pdf",
+        "file_size_bytes": 15587,
+        "page_range": [
+          147,
+          158
+        ]
+      },
+      {
+        "song_title": "Everybody's Got Something To Hide Except For Me and My Monkey",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Everybody's Got Something To Hide Except For Me And My Monkey.pdf",
+        "file_size_bytes": 7326,
+        "page_range": [
+          158,
+          161
+        ]
+      },
+      {
+        "song_title": "Fixing a Hole",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Fixing A Hole.pdf",
+        "file_size_bytes": 5236,
+        "page_range": [
+          161,
+          162
+        ]
+      },
+      {
+        "song_title": "Hung a Hole-i\"",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Performed By -the Beatles- From -the Lonely Hearts Club Band- - Hung A Hole-i-.pdf",
+        "file_size_bytes": 1370,
+        "page_range": [
+          162,
+          163
+        ]
+      },
+      {
+        "song_title": "For No One",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - For No One.pdf",
+        "file_size_bytes": 5245,
+        "page_range": [
+          163,
+          164
+        ]
+      },
+      {
+        "song_title": "For No One",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - For No One.pdf",
+        "file_size_bytes": 2849,
+        "page_range": [
+          164,
+          166
+        ]
+      },
+      {
+        "song_title": "For You Blue",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - For You Blue.pdf",
+        "file_size_bytes": 5754,
+        "page_range": [
+          166,
+          168
+        ]
+      },
+      {
+        "song_title": "Free as a bird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(lennon-mccartney) - Free As A Bird.pdf",
+        "file_size_bytes": 5073,
+        "page_range": [
+          168,
+          169
+        ]
+      },
+      {
+        "song_title": "Free as a bird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Free As A Bird.pdf",
+        "file_size_bytes": 3495,
+        "page_range": [
+          169,
+          172
+        ]
+      },
+      {
+        "song_title": "Free As A Bird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Free As A Bird.pdf",
+        "file_size_bytes": 8078,
+        "page_range": [
+          172,
+          176
+        ]
+      },
+      {
+        "song_title": "From Me To You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - From Me To You.pdf",
+        "file_size_bytes": 6934,
+        "page_range": [
+          176,
+          179
+        ]
+      },
+      {
+        "song_title": "From Me to You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - From Me To You.pdf",
+        "file_size_bytes": 5286,
+        "page_range": [
+          179,
+          180
+        ]
+      },
+      {
+        "song_title": "Get Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles- John Lennon And Paul Mccartney - Get Back.pdf",
+        "file_size_bytes": 5106,
+        "page_range": [
+          180,
+          181
+        ]
+      },
+      {
+        "song_title": "Get Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Get Back.pdf",
+        "file_size_bytes": 7237,
+        "page_range": [
+          181,
+          184
+        ]
+      },
+      {
+        "song_title": "Get Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Get Back.pdf",
+        "file_size_bytes": 2940,
+        "page_range": [
+          184,
+          186
+        ]
+      },
+      {
+        "song_title": "Getting Better",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Getting Better.pdf",
+        "file_size_bytes": 6091,
+        "page_range": [
+          186,
+          188
+        ]
+      },
+      {
+        "song_title": "Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/[unable To Determine Artist Name] - Girl.pdf",
+        "file_size_bytes": 5542,
+        "page_range": [
+          188,
+          189
+        ]
+      },
+      {
+        "song_title": "Give Peace a Chance",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Give Peace A Chance.pdf",
+        "file_size_bytes": 5905,
+        "page_range": [
+          189,
+          191
+        ]
+      },
+      {
+        "song_title": "Glass Onion",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Glass Onion.pdf",
+        "file_size_bytes": 5892,
+        "page_range": [
+          191,
+          193
+        ]
+      },
+      {
+        "song_title": "Golden Slumbers",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Golden Slumbers.pdf",
+        "file_size_bytes": 6028,
+        "page_range": [
+          193,
+          195
+        ]
+      },
+      {
+        "song_title": "Golden Slumbers",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Golden Slumbers.pdf",
+        "file_size_bytes": 6014,
+        "page_range": [
+          195,
+          197
+        ]
+      },
+      {
+        "song_title": "Good Day Sunshine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Good Day Sunshine.pdf",
+        "file_size_bytes": 5882,
+        "page_range": [
+          197,
+          199
+        ]
+      },
+      {
+        "song_title": "Good Day Sunshine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Words & Music By Lennon-mccartney - Good Day Sunshine.pdf",
+        "file_size_bytes": 5365,
+        "page_range": [
+          199,
+          200
+        ]
+      },
+      {
+        "song_title": "Good Morning",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Good Morning.pdf",
+        "file_size_bytes": 6263,
+        "page_range": [
+          200,
+          202
+        ]
+      },
+      {
+        "song_title": "Goodnight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon - Mccartney - Goodnight.pdf",
+        "file_size_bytes": 4952,
+        "page_range": [
+          202,
+          203
+        ]
+      },
+      {
+        "song_title": "Got to get you into my life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Got To Get You Into My Life.pdf",
+        "file_size_bytes": 6384,
+        "page_range": [
+          203,
+          205
+        ]
+      },
+      {
+        "song_title": "Happiness Is a Warm Gun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Happiness Is A Warm Gun.pdf",
+        "file_size_bytes": 6199,
+        "page_range": [
+          205,
+          207
+        ]
+      },
+      {
+        "song_title": "Happiness Is a Warm Gun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Happiness Is A Warm Gun.pdf",
+        "file_size_bytes": 7492,
+        "page_range": [
+          207,
+          209
+        ]
+      },
+      {
+        "song_title": "Hard Day's Night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Hard Day's Night.pdf",
+        "file_size_bytes": 8442,
+        "page_range": [
+          209,
+          213
+        ]
+      },
+      {
+        "song_title": "Hello, Goodbye",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon-mccartney - Hello, Goodbye.pdf",
+        "file_size_bytes": 5284,
+        "page_range": [
+          213,
+          214
+        ]
+      },
+      {
+        "song_title": "Help!",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Help!.pdf",
+        "file_size_bytes": 5217,
+        "page_range": [
+          214,
+          215
+        ]
+      },
+      {
+        "song_title": "Help",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Help.pdf",
+        "file_size_bytes": 13491,
+        "page_range": [
+          215,
+          223
+        ]
+      },
+      {
+        "song_title": "Here Comes the Sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Here Comes The Sun.pdf",
+        "file_size_bytes": 8775,
+        "page_range": [
+          223,
+          227
+        ]
+      },
+      {
+        "song_title": "HERE COMES THE SUN",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles (george Harrison) - Here Comes The Sun.pdf",
+        "file_size_bytes": 9741,
+        "page_range": [
+          227,
+          232
+        ]
+      },
+      {
+        "song_title": "Here Comes the Sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Here Comes The Sun.pdf",
+        "file_size_bytes": 1758,
+        "page_range": [
+          232,
+          233
+        ]
+      },
+      {
+        "song_title": "Here comes the sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Here Comes The Sun.pdf",
+        "file_size_bytes": 4927,
+        "page_range": [
+          233,
+          237
+        ]
+      },
+      {
+        "song_title": "Here There and Everywhere",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Here There And Everywhere.pdf",
+        "file_size_bytes": 6182,
+        "page_range": [
+          237,
+          239
+        ]
+      },
+      {
+        "song_title": "Hey Bulldog",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Hey Bulldog.pdf",
+        "file_size_bytes": 8135,
+        "page_range": [
+          239,
+          242
+        ]
+      },
+      {
+        "song_title": "Hey Jude",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Hey Jude.pdf",
+        "file_size_bytes": 1789,
+        "page_range": [
+          242,
+          243
+        ]
+      },
+      {
+        "song_title": "Hey Jude",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Hey Jude.pdf",
+        "file_size_bytes": 6306,
+        "page_range": [
+          243,
+          245
+        ]
+      },
+      {
+        "song_title": "Hide Your Love Away",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon-paul Mccartney - Hide Your Love Away.pdf",
+        "file_size_bytes": 6290,
+        "page_range": [
+          245,
+          247
+        ]
+      },
+      {
+        "song_title": "I Am The Walrus",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Am The Walrus.pdf",
+        "file_size_bytes": 14238,
+        "page_range": [
+          247,
+          255
+        ]
+      },
+      {
+        "song_title": "I DON'T WANT TO SPOIL THE PARTY",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Don't Want To Spoil The Party.pdf",
+        "file_size_bytes": 5175,
+        "page_range": [
+          255,
+          256
+        ]
+      },
+      {
+        "song_title": "I Don't Want to Spoil the Party",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Don't Want To Spoil The Party.pdf",
+        "file_size_bytes": 2642,
+        "page_range": [
+          256,
+          258
+        ]
+      },
+      {
+        "song_title": "I Feel Fine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Words & Music- Lennon-mccartney - I Feel Fine.pdf",
+        "file_size_bytes": 5285,
+        "page_range": [
+          258,
+          259
+        ]
+      },
+      {
+        "song_title": "I Feel Fine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - I Feel Fine.pdf",
+        "file_size_bytes": 8654,
+        "page_range": [
+          259,
+          263
+        ]
+      },
+      {
+        "song_title": "I Feel Fine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Feel Fine.pdf",
+        "file_size_bytes": 5865,
+        "page_range": [
+          263,
+          265
+        ]
+      },
+      {
+        "song_title": "I Saw Her Standing There",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - I Saw Her Standing There.pdf",
+        "file_size_bytes": 5228,
+        "page_range": [
+          265,
+          266
+        ]
+      },
+      {
+        "song_title": "I SAW HER STANDING THERE",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Saw Her Standing There.pdf",
+        "file_size_bytes": 1745,
+        "page_range": [
+          266,
+          267
+        ]
+      },
+      {
+        "song_title": "I SAW HER STANDING THERE",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Saw Her Standing There.pdf",
+        "file_size_bytes": 2493,
+        "page_range": [
+          267,
+          269
+        ]
+      },
+      {
+        "song_title": "I Should Have Known Better",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - I Should Have Known Better.pdf",
+        "file_size_bytes": 6079,
+        "page_range": [
+          269,
+          271
+        ]
+      },
+      {
+        "song_title": "I Want To Hold Your Hand",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Want To Hold Your Hand.pdf",
+        "file_size_bytes": 9903,
+        "page_range": [
+          271,
+          276
+        ]
+      },
+      {
+        "song_title": "I Want to Tell You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Want To Tell You.pdf",
+        "file_size_bytes": 5967,
+        "page_range": [
+          276,
+          278
+        ]
+      },
+      {
+        "song_title": "I Want You (She's So Heavy)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Want You (she's So Heavy).pdf",
+        "file_size_bytes": 8837,
+        "page_range": [
+          278,
+          282
+        ]
+      },
+      {
+        "song_title": "I Want You (She's So Heavy)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Want You (she's So Heavy).pdf",
+        "file_size_bytes": 5773,
+        "page_range": [
+          282,
+          284
+        ]
+      },
+      {
+        "song_title": "I Will",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Will.pdf",
+        "file_size_bytes": 5136,
+        "page_range": [
+          284,
+          285
+        ]
+      },
+      {
+        "song_title": "I Will",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(from The White Album, 1968) - I Will.pdf",
+        "file_size_bytes": 2248,
+        "page_range": [
+          285,
+          287
+        ]
+      },
+      {
+        "song_title": "I will",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Will.pdf",
+        "file_size_bytes": 7083,
+        "page_range": [
+          287,
+          290
+        ]
+      },
+      {
+        "song_title": "If I Fell",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(beatles) - If I Fell.pdf",
+        "file_size_bytes": 14055,
+        "page_range": [
+          290,
+          298
+        ]
+      },
+      {
+        "song_title": "If you've got trouble",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - If You've Got Trouble.pdf",
+        "file_size_bytes": 5970,
+        "page_range": [
+          298,
+          300
+        ]
+      },
+      {
+        "song_title": "If you've got troubles",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - If You've Got Troubles.pdf",
+        "file_size_bytes": 6124,
+        "page_range": [
+          300,
+          302
+        ]
+      },
+      {
+        "song_title": "I'll Be Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon - I'll Be Back.pdf",
+        "file_size_bytes": 7861,
+        "page_range": [
+          302,
+          305
+        ]
+      },
+      {
+        "song_title": "I'll Be On My Way",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles (john Lennon And Paul Mccartney) - I'll Be On My Way.pdf",
+        "file_size_bytes": 7435,
+        "page_range": [
+          305,
+          308
+        ]
+      },
+      {
+        "song_title": "I'll Follow the Sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - I'll Follow The Sun.pdf",
+        "file_size_bytes": 9468,
+        "page_range": [
+          308,
+          312
+        ]
+      },
+      {
+        "song_title": "I'm a Loser",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(lennon-mccartney) - I'm A Loser.pdf",
+        "file_size_bytes": 6084,
+        "page_range": [
+          312,
+          314
+        ]
+      },
+      {
+        "song_title": "I'm Happy Just To Dance With You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - I'm Happy Just To Dance With You.pdf",
+        "file_size_bytes": 6052,
+        "page_range": [
+          314,
+          316
+        ]
+      },
+      {
+        "song_title": "I'm Looking Through You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - I'm Looking Through You.pdf",
+        "file_size_bytes": 5215,
+        "page_range": [
+          316,
+          317
+        ]
+      },
+      {
+        "song_title": "I'm Looking Through You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I'm Looking Through You.pdf",
+        "file_size_bytes": 1765,
+        "page_range": [
+          317,
+          318
+        ]
+      },
+      {
+        "song_title": "I'm Looking Through You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - I'm Looking Through You.pdf",
+        "file_size_bytes": 5925,
+        "page_range": [
+          318,
+          320
+        ]
+      },
+      {
+        "song_title": "I'm Only Sleeping",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(todd J Dert) - The C.o.m.a. Moderator! - I'm Only Sleeping.pdf",
+        "file_size_bytes": 8166,
+        "page_range": [
+          320,
+          323
+        ]
+      },
+      {
+        "song_title": "In My Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - In My Life.pdf",
+        "file_size_bytes": 11220,
+        "page_range": [
+          323,
+          328
+        ]
+      },
+      {
+        "song_title": "In My Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - In My Life.pdf",
+        "file_size_bytes": 1888,
+        "page_range": [
+          328,
+          329
+        ]
+      },
+      {
+        "song_title": "InMyLife_TheBeatles_TAB_ONLY!!",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/By The Beatles - Inmylife_thebeatles_tab_only!!.pdf",
+        "file_size_bytes": 1743,
+        "page_range": [
+          329,
+          330
+        ]
+      },
+      {
+        "song_title": "In My Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - In My Life.pdf",
+        "file_size_bytes": 2693,
+        "page_range": [
+          330,
+          332
+        ]
+      },
+      {
+        "song_title": "In Spite Of All The Danger",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - In Spite Of All The Danger.pdf",
+        "file_size_bytes": 5835,
+        "page_range": [
+          332,
+          334
+        ]
+      },
+      {
+        "song_title": "It's only love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(lennon-mccartney) - It's Only Love.pdf",
+        "file_size_bytes": 6072,
+        "page_range": [
+          334,
+          336
+        ]
+      },
+      {
+        "song_title": "I've Got A Feeling",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon, Mccartney - I've Got A Feeling.pdf",
+        "file_size_bytes": 11178,
+        "page_range": [
+          336,
+          342
+        ]
+      },
+      {
+        "song_title": "I've Just Seen a Face",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - I've Just Seen A Face.pdf",
+        "file_size_bytes": 8794,
+        "page_range": [
+          342,
+          346
+        ]
+      },
+      {
+        "song_title": "Julia",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Julia.pdf",
+        "file_size_bytes": 9107,
+        "page_range": [
+          346,
+          350
+        ]
+      },
+      {
+        "song_title": "Julia",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Julia.pdf",
+        "file_size_bytes": 4881,
+        "page_range": [
+          350,
+          354
+        ]
+      },
+      {
+        "song_title": "her hair of floating sky is shimmering",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Julia Tab - Her Hair Of Floating Sky Is Shimmering.pdf",
+        "file_size_bytes": 2444,
+        "page_range": [
+          354,
+          356
+        ]
+      },
+      {
+        "song_title": "Ju-lia",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Ju-lia.pdf",
+        "file_size_bytes": 2412,
+        "page_range": [
+          356,
+          358
+        ]
+      },
+      {
+        "song_title": "Komm Gib Mir Deine Hand",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Maurizio Codogno (maubeatles.cselt.stet.it) - Komm Gib Mir Deine Hand.pdf",
+        "file_size_bytes": 5537,
+        "page_range": [
+          358,
+          360
+        ]
+      },
+      {
+        "song_title": "Lady Madonna",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Lady Madonna.pdf",
+        "file_size_bytes": 5073,
+        "page_range": [
+          360,
+          361
+        ]
+      },
+      {
+        "song_title": "Lady Madonna",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Madonna - Lady Madonna.pdf",
+        "file_size_bytes": 3604,
+        "page_range": [
+          361,
+          364
+        ]
+      },
+      {
+        "song_title": "Lady Madonna",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Lady Madonna.pdf",
+        "file_size_bytes": 5434,
+        "page_range": [
+          364,
+          365
+        ]
+      },
+      {
+        "song_title": "Leave My Kitten Alone",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Little Willie John, Titus Turner, And James Mcdougal - Leave My Kitten Alone.pdf",
+        "file_size_bytes": 5769,
+        "page_range": [
+          365,
+          367
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Let It Be.pdf",
+        "file_size_bytes": 7901,
+        "page_range": [
+          367,
+          370
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Let It Be.pdf",
+        "file_size_bytes": 5902,
+        "page_range": [
+          370,
+          372
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Let It Be.pdf",
+        "file_size_bytes": 2704,
+        "page_range": [
+          372,
+          374
+        ]
+      },
+      {
+        "song_title": "Long, Long, Long",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Long, Long, Long.pdf",
+        "file_size_bytes": 9395,
+        "page_range": [
+          374,
+          379
+        ]
+      },
+      {
+        "song_title": "Love Me Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Love Me Do.pdf",
+        "file_size_bytes": 5797,
+        "page_range": [
+          379,
+          381
+        ]
+      },
+      {
+        "song_title": "Love me do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Love Me Do.pdf",
+        "file_size_bytes": 5984,
+        "page_range": [
+          381,
+          383
+        ]
+      },
+      {
+        "song_title": "Love me do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Love Me Do.pdf",
+        "file_size_bytes": 2261,
+        "page_range": [
+          383,
+          385
+        ]
+      },
+      {
+        "song_title": "Lovely Rita",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Lovely Rita.pdf",
+        "file_size_bytes": 6092,
+        "page_range": [
+          385,
+          387
+        ]
+      },
+      {
+        "song_title": "Lovely Rita",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Lovely Rita.pdf",
+        "file_size_bytes": 5174,
+        "page_range": [
+          387,
+          388
+        ]
+      },
+      {
+        "song_title": "Lovely Rita, maid",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Lyrics Mention -oh, Lovely Rita, Meter Maid- Which Appears To Be The Song Title, Though No Explicit Artist Name Is Given - Lovely Rita, Maid.pdf",
+        "file_size_bytes": 1589,
+        "page_range": [
+          388,
+          389
+        ]
+      },
+      {
+        "song_title": "Lucy in the Sky with Diamonds",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Lucy In The Sky With Diamonds.pdf",
+        "file_size_bytes": 6121,
+        "page_range": [
+          389,
+          391
+        ]
+      },
+      {
+        "song_title": "Lucy in the Sky with Diamonds",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Lucy In The Sky With Diamonds.pdf",
+        "file_size_bytes": 7613,
+        "page_range": [
+          391,
+          394
+        ]
+      },
+      {
+        "song_title": "Maggie Mae",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Lyrics Mention -arranged- Lennon,mccartney,harrison,starkey.- Which Suggests The Artist Is The Beatles - Maggie Mae.pdf",
+        "file_size_bytes": 5026,
+        "page_range": [
+          394,
+          395
+        ]
+      },
+      {
+        "song_title": "Magical Mystery Tour",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Magical Mystery Tour.pdf",
+        "file_size_bytes": 5702,
+        "page_range": [
+          395,
+          397
+        ]
+      },
+      {
+        "song_title": "Martha, My Dear",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon - Paul Mccartney - Martha, My Dear.pdf",
+        "file_size_bytes": 5396,
+        "page_range": [
+          397,
+          398
+        ]
+      },
+      {
+        "song_title": "Martha, my dear",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Martha, My Dear.pdf",
+        "file_size_bytes": 1688,
+        "page_range": [
+          398,
+          399
+        ]
+      },
+      {
+        "song_title": "Martha, my dear",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Martha, My Dear.pdf",
+        "file_size_bytes": 1429,
+        "page_range": [
+          399,
+          400
+        ]
+      },
+      {
+        "song_title": "Maxwell's Silver Hammer",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Maxwell's Silver Hammer.pdf",
+        "file_size_bytes": 5674,
+        "page_range": [
+          400,
+          401
+        ]
+      },
+      {
+        "song_title": "Mean Mr Mustard",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon & Mccartney - Mean Mr Mustard.pdf",
+        "file_size_bytes": 6051,
+        "page_range": [
+          401,
+          403
+        ]
+      },
+      {
+        "song_title": "Michelle",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Michelle.pdf",
+        "file_size_bytes": 5139,
+        "page_range": [
+          403,
+          404
+        ]
+      },
+      {
+        "song_title": "Michelle",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Michelle.pdf",
+        "file_size_bytes": 5963,
+        "page_range": [
+          404,
+          406
+        ]
+      },
+      {
+        "song_title": "Money (that's what I want)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Money (that's What I Want).pdf",
+        "file_size_bytes": 6053,
+        "page_range": [
+          406,
+          408
+        ]
+      },
+      {
+        "song_title": "Money",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles (don't Know Who The Original Artist Is) - Money.pdf",
+        "file_size_bytes": 2349,
+        "page_range": [
+          408,
+          410
+        ]
+      },
+      {
+        "song_title": "Money (That's What I Want)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/With The Beatles - Money (that's What I Want).pdf",
+        "file_size_bytes": 8835,
+        "page_range": [
+          410,
+          414
+        ]
+      },
+      {
+        "song_title": "Money life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Erik Palava & Jeremy Ball - Money Life.pdf",
+        "file_size_bytes": 2389,
+        "page_range": [
+          414,
+          416
+        ]
+      },
+      {
+        "song_title": "Mother Nature's Son",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Marc Hertzberg (history- Love It Or Leave It!) - Mother Nature's Son.pdf",
+        "file_size_bytes": 5113,
+        "page_range": [
+          416,
+          417
+        ]
+      },
+      {
+        "song_title": "MOTHER NATURE'S SON",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Mother Nature's Son.pdf",
+        "file_size_bytes": 1808,
+        "page_range": [
+          417,
+          418
+        ]
+      },
+      {
+        "song_title": "Mother Nature's Son",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Mother Nature's Son.pdf",
+        "file_size_bytes": 2529,
+        "page_range": [
+          418,
+          420
+        ]
+      },
+      {
+        "song_title": "Mother Nature's Son",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Mother Nature's Son.pdf",
+        "file_size_bytes": 10011,
+        "page_range": [
+          420,
+          424
+        ]
+      },
+      {
+        "song_title": "Mr. Moonlight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Mr. Moonlight.pdf",
+        "file_size_bytes": 5358,
+        "page_range": [
+          424,
+          425
+        ]
+      },
+      {
+        "song_title": "Mr. Moonlight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Mr. Moonlight.pdf",
+        "file_size_bytes": 1330,
+        "page_range": [
+          425,
+          426
+        ]
+      },
+      {
+        "song_title": "No Reply",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - No Reply.pdf",
+        "file_size_bytes": 6263,
+        "page_range": [
+          426,
+          428
+        ]
+      },
+      {
+        "song_title": "Nobody I Know",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Peter Frampton & Ringo Starr-george Harrison-john Lennon-paul Mccartney - Nobody I Know.pdf",
+        "file_size_bytes": 5463,
+        "page_range": [
+          428,
+          429
+        ]
+      },
+      {
+        "song_title": "NORWEGIAN WOOD",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(beatles) - Norwegian Wood.pdf",
+        "file_size_bytes": 22845,
+        "page_range": [
+          429,
+          437
+        ]
+      },
+      {
+        "song_title": "Nowhere Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Nowhere Man.pdf",
+        "file_size_bytes": 12247,
+        "page_range": [
+          437,
+          443
+        ]
+      },
+      {
+        "song_title": "Octopus's Garden",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles (ringo) - Octopus's Garden.pdf",
+        "file_size_bytes": 5089,
+        "page_range": [
+          443,
+          444
+        ]
+      },
+      {
+        "song_title": "In an Octopus's Garden",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - In An Octopus's Garden.pdf",
+        "file_size_bytes": 1493,
+        "page_range": [
+          444,
+          445
+        ]
+      },
+      {
+        "song_title": "Octopus's Garden",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Richard Starkey - Octopus's Garden.pdf",
+        "file_size_bytes": 9152,
+        "page_range": [
+          445,
+          449
+        ]
+      },
+      {
+        "song_title": "Oh! Darling",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Oh! Darling.pdf",
+        "file_size_bytes": 7157,
+        "page_range": [
+          449,
+          452
+        ]
+      },
+      {
+        "song_title": "Old Brown Shoe",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Old Brown Shoe.pdf",
+        "file_size_bytes": 8984,
+        "page_range": [
+          452,
+          456
+        ]
+      },
+      {
+        "song_title": "One and one is two",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - One And One Is Two.pdf",
+        "file_size_bytes": 9590,
+        "page_range": [
+          456,
+          460
+        ]
+      },
+      {
+        "song_title": "Paperback Writer",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Paperback Writer.pdf",
+        "file_size_bytes": 7143,
+        "page_range": [
+          460,
+          463
+        ]
+      },
+      {
+        "song_title": "Penny Lane",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(john Lennon And Paul Mccartney) - Penny Lane.pdf",
+        "file_size_bytes": 8020,
+        "page_range": [
+          463,
+          466
+        ]
+      },
+      {
+        "song_title": "Piggies",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Piggies.pdf",
+        "file_size_bytes": 6377,
+        "page_range": [
+          466,
+          468
+        ]
+      },
+      {
+        "song_title": "Please Mister Postman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Please Mister Postman.pdf",
+        "file_size_bytes": 6188,
+        "page_range": [
+          468,
+          470
+        ]
+      },
+      {
+        "song_title": "Please Please Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Please Please Me.pdf",
+        "file_size_bytes": 5058,
+        "page_range": [
+          470,
+          471
+        ]
+      },
+      {
+        "song_title": "Please Please Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Please Please Me.pdf",
+        "file_size_bytes": 2392,
+        "page_range": [
+          471,
+          473
+        ]
+      },
+      {
+        "song_title": "Please Please Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Please Please Me.pdf",
+        "file_size_bytes": 10577,
+        "page_range": [
+          473,
+          478
+        ]
+      },
+      {
+        "song_title": "PS, I love you",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Ps, I Love You.pdf",
+        "file_size_bytes": 5119,
+        "page_range": [
+          478,
+          479
+        ]
+      },
+      {
+        "song_title": "Rain",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Rain.pdf",
+        "file_size_bytes": 5196,
+        "page_range": [
+          479,
+          480
+        ]
+      },
+      {
+        "song_title": "Rain",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Rain.pdf",
+        "file_size_bytes": 3474,
+        "page_range": [
+          480,
+          483
+        ]
+      },
+      {
+        "song_title": "Real Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon Mccartny - Real Love.pdf",
+        "file_size_bytes": 5168,
+        "page_range": [
+          483,
+          484
+        ]
+      },
+      {
+        "song_title": "Real Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles (by John Lennon, Paul Mccartney, George Harrison, Ringo Starr) - Real Love.pdf",
+        "file_size_bytes": 3410,
+        "page_range": [
+          484,
+          487
+        ]
+      },
+      {
+        "song_title": "Real Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles (john Lennon) - Real Love.pdf",
+        "file_size_bytes": 12257,
+        "page_range": [
+          487,
+          494
+        ]
+      },
+      {
+        "song_title": "ROCKY RACCOON",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Rocky Raccoon.pdf",
+        "file_size_bytes": 14179,
+        "page_range": [
+          494,
+          501
+        ]
+      },
+      {
+        "song_title": "Run For Your Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Run For Your Life.pdf",
+        "file_size_bytes": 13257,
+        "page_range": [
+          501,
+          509
+        ]
+      },
+      {
+        "song_title": "Sexy Sadie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Sexy Sadie.pdf",
+        "file_size_bytes": 7198,
+        "page_range": [
+          509,
+          512
+        ]
+      },
+      {
+        "song_title": "She Came In Through the Bathroom Window",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - She Came In Through The Bathroom Window.pdf",
+        "file_size_bytes": 5944,
+        "page_range": [
+          512,
+          514
+        ]
+      },
+      {
+        "song_title": "She Loves You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/J. W. Lennon - J. P. Mccartney - She Loves You.pdf",
+        "file_size_bytes": 6351,
+        "page_range": [
+          514,
+          516
+        ]
+      },
+      {
+        "song_title": "She Loves You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - She Loves You.pdf",
+        "file_size_bytes": 9505,
+        "page_range": [
+          516,
+          520
+        ]
+      },
+      {
+        "song_title": "She's Leaving Home",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - She's Leaving Home.pdf",
+        "file_size_bytes": 5396,
+        "page_range": [
+          520,
+          521
+        ]
+      },
+      {
+        "song_title": "She's leaving home",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - She's Leaving Home.pdf",
+        "file_size_bytes": 3848,
+        "page_range": [
+          521,
+          524
+        ]
+      },
+      {
+        "song_title": "Sie Liebt Dich",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Sie Liebt Dich.pdf",
+        "file_size_bytes": 5673,
+        "page_range": [
+          524,
+          526
+        ]
+      },
+      {
+        "song_title": "Slow Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Slow Down.pdf",
+        "file_size_bytes": 6146,
+        "page_range": [
+          526,
+          528
+        ]
+      },
+      {
+        "song_title": "SOMETHING",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(beatles) - Something.pdf",
+        "file_size_bytes": 5062,
+        "page_range": [
+          528,
+          529
+        ]
+      },
+      {
+        "song_title": "Something",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Something.pdf",
+        "file_size_bytes": 12527,
+        "page_range": [
+          529,
+          538
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 5305,
+        "page_range": [
+          538,
+          539
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1512,
+        "page_range": [
+          539,
+          540
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon-paul Mccartney - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 5280,
+        "page_range": [
+          540,
+          541
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 6763,
+        "page_range": [
+          541,
+          543
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1538,
+        "page_range": [
+          543,
+          544
+        ]
+      },
+      {
+        "song_title": "Strawberry fields forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1503,
+        "page_range": [
+          544,
+          545
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1533,
+        "page_range": [
+          545,
+          546
+        ]
+      },
+      {
+        "song_title": "Strawberry fields forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 2551,
+        "page_range": [
+          546,
+          548
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Image Does Not Provide The Artist Name, But This Appears To Be The Beginning Of The Song -strawberry Fields Forever- Based On The Lyrics And Chord Notations Shown - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1496,
+        "page_range": [
+          548,
+          549
+        ]
+      },
+      {
+        "song_title": "Strawberry fields forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1485,
+        "page_range": [
+          549,
+          550
+        ]
+      },
+      {
+        "song_title": "Strawberry fields forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Iconic Song Title, It Appears To Be By The Beatles - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1522,
+        "page_range": [
+          550,
+          551
+        ]
+      },
+      {
+        "song_title": "Strawberry fields forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 2287,
+        "page_range": [
+          551,
+          553
+        ]
+      },
+      {
+        "song_title": "Sun King",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles (lennon And Mccartney) - Sun King.pdf",
+        "file_size_bytes": 11349,
+        "page_range": [
+          553,
+          558
+        ]
+      },
+      {
+        "song_title": "Taxman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Taxman.pdf",
+        "file_size_bytes": 8071,
+        "page_range": [
+          558,
+          562
+        ]
+      },
+      {
+        "song_title": "Thank You Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon & Paul Mccartney (beatles) - Thank You Girl.pdf",
+        "file_size_bytes": 5156,
+        "page_range": [
+          562,
+          563
+        ]
+      },
+      {
+        "song_title": "Thank you girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Thank You Girl.pdf",
+        "file_size_bytes": 13651,
+        "page_range": [
+          563,
+          571
+        ]
+      },
+      {
+        "song_title": "The Fool on the Hill",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - The Fool On The Hill.pdf",
+        "file_size_bytes": 6441,
+        "page_range": [
+          571,
+          573
+        ]
+      },
+      {
+        "song_title": "The Fool on the Hill",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - The Fool On The Hill.pdf",
+        "file_size_bytes": 9079,
+        "page_range": [
+          573,
+          577
+        ]
+      },
+      {
+        "song_title": "The Long and Winding Road",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - The Long And Winding Road.pdf",
+        "file_size_bytes": 5767,
+        "page_range": [
+          577,
+          579
+        ]
+      },
+      {
+        "song_title": "The Long and Winding Road",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon & Mccartney - The Long And Winding Road.pdf",
+        "file_size_bytes": 10546,
+        "page_range": [
+          579,
+          584
+        ]
+      },
+      {
+        "song_title": "Things We Said Today",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Things We Said Today.pdf",
+        "file_size_bytes": 6119,
+        "page_range": [
+          584,
+          586
+        ]
+      },
+      {
+        "song_title": "Think For Yourself",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/George Harrison - Think For Yourself.pdf",
+        "file_size_bytes": 5185,
+        "page_range": [
+          586,
+          587
+        ]
+      },
+      {
+        "song_title": "This Boy",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - This Boy.pdf",
+        "file_size_bytes": 5146,
+        "page_range": [
+          587,
+          588
+        ]
+      },
+      {
+        "song_title": "This Boy (Ringo's Theme)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - This Boy (ringo's Theme).pdf",
+        "file_size_bytes": 3062,
+        "page_range": [
+          588,
+          590
+        ]
+      },
+      {
+        "song_title": "Ticket To Ride",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Ticket To Ride.pdf",
+        "file_size_bytes": 6306,
+        "page_range": [
+          590,
+          592
+        ]
+      },
+      {
+        "song_title": "Ticket to Ride",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Ticket To Ride.pdf",
+        "file_size_bytes": 5937,
+        "page_range": [
+          592,
+          594
+        ]
+      },
+      {
+        "song_title": "Till There Was You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Till There Was You.pdf",
+        "file_size_bytes": 5094,
+        "page_range": [
+          594,
+          595
+        ]
+      },
+      {
+        "song_title": "Till there was you",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Till There Was You.pdf",
+        "file_size_bytes": 6596,
+        "page_range": [
+          595,
+          598
+        ]
+      },
+      {
+        "song_title": "Tomorrow Never Knows",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Tomorrow Never Knows.pdf",
+        "file_size_bytes": 7074,
+        "page_range": [
+          598,
+          601
+        ]
+      },
+      {
+        "song_title": "Twist and Shout",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Twist And Shout.pdf",
+        "file_size_bytes": 6060,
+        "page_range": [
+          601,
+          603
+        ]
+      },
+      {
+        "song_title": "Twist and shout",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Twist And Shout.pdf",
+        "file_size_bytes": 4880,
+        "page_range": [
+          603,
+          604
+        ]
+      },
+      {
+        "song_title": "Two of Us",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Two Of Us.pdf",
+        "file_size_bytes": 6023,
+        "page_range": [
+          604,
+          606
+        ]
+      },
+      {
+        "song_title": "Two Of Us",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Two Of Us.pdf",
+        "file_size_bytes": 5942,
+        "page_range": [
+          606,
+          608
+        ]
+      },
+      {
+        "song_title": "Wait",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Wait.pdf",
+        "file_size_bytes": 5114,
+        "page_range": [
+          608,
+          609
+        ]
+      },
+      {
+        "song_title": "We Can Work It Out",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - We Can Work It Out.pdf",
+        "file_size_bytes": 8566,
+        "page_range": [
+          609,
+          613
+        ]
+      },
+      {
+        "song_title": "When I'm Sixty-Four",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/[define- Ebt 3 0 1 3 2 3 0 1] (which Appears To Be A Reference To The Beatles-lennon-mccartney) - When I'm Sixty-four.pdf",
+        "file_size_bytes": 6336,
+        "page_range": [
+          613,
+          615
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 6329,
+        "page_range": [
+          615,
+          617
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 5958,
+        "page_range": [
+          617,
+          619
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/George Harrison - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 5331,
+        "page_range": [
+          619,
+          620
+        ]
+      },
+      {
+        "song_title": "while my guitar gently weeps tab",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - While My Guitar Gently Weeps Tab.pdf",
+        "file_size_bytes": 1653,
+        "page_range": [
+          620,
+          621
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/George Harrison - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 9648,
+        "page_range": [
+          621,
+          626
+        ]
+      },
+      {
+        "song_title": "WILD HONEY PIE",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Wild Honey Pie.pdf",
+        "file_size_bytes": 5078,
+        "page_range": [
+          626,
+          627
+        ]
+      },
+      {
+        "song_title": "With a Little Help from My Friends",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - With A Little Help From My Friends.pdf",
+        "file_size_bytes": 6166,
+        "page_range": [
+          627,
+          629
+        ]
+      },
+      {
+        "song_title": "With A Little Help From My Friends",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney - With A Little Help From My Friends.pdf",
+        "file_size_bytes": 5268,
+        "page_range": [
+          629,
+          630
+        ]
+      },
+      {
+        "song_title": "With a Little Help from My Friends",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - With A Little Help From My Friends.pdf",
+        "file_size_bytes": 2587,
+        "page_range": [
+          630,
+          632
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Yellow Submarine.pdf",
+        "file_size_bytes": 5109,
+        "page_range": [
+          632,
+          633
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/[john Lennon-paul Mccartney] - Yellow Submarine.pdf",
+        "file_size_bytes": 5083,
+        "page_range": [
+          633,
+          634
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon And Mccartney (arr. By Noam Mohr) - Yellow Submarine.pdf",
+        "file_size_bytes": 5431,
+        "page_range": [
+          634,
+          635
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Yellow Submarine.pdf",
+        "file_size_bytes": 2406,
+        "page_range": [
+          635,
+          637
+        ]
+      },
+      {
+        "song_title": "Yes It Is",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Yes It Is.pdf",
+        "file_size_bytes": 13658,
+        "page_range": [
+          637,
+          644
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon-paul Mccartney - Yesterday.pdf",
+        "file_size_bytes": 6290,
+        "page_range": [
+          644,
+          646
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Yesterday.pdf",
+        "file_size_bytes": 1647,
+        "page_range": [
+          646,
+          647
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Yesterday.pdf",
+        "file_size_bytes": 1514,
+        "page_range": [
+          647,
+          648
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Yesterday.pdf",
+        "file_size_bytes": 1597,
+        "page_range": [
+          648,
+          649
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon & Paul Mccartney - Yesterday.pdf",
+        "file_size_bytes": 3882,
+        "page_range": [
+          649,
+          652
+        ]
+      },
+      {
+        "song_title": "You Can't Do That",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - You Can't Do That.pdf",
+        "file_size_bytes": 7814,
+        "page_range": [
+          652,
+          655
+        ]
+      },
+      {
+        "song_title": "You Can't Do That",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - You Can't Do That.pdf",
+        "file_size_bytes": 11408,
+        "page_range": [
+          655,
+          662
+        ]
+      },
+      {
+        "song_title": "You Know What To Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/George Harrison - You Know What To Do.pdf",
+        "file_size_bytes": 5750,
+        "page_range": [
+          662,
+          664
+        ]
+      },
+      {
+        "song_title": "You Never Give Me Your Money",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - You Never Give Me Your Money.pdf",
+        "file_size_bytes": 7136,
+        "page_range": [
+          664,
+          667
+        ]
+      },
+      {
+        "song_title": "You Really Got a Hold on Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(beatles) - You Really Got A Hold On Me.pdf",
+        "file_size_bytes": 6266,
+        "page_range": [
+          667,
+          669
+        ]
+      },
+      {
+        "song_title": "You Won't See Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - You Won't See Me.pdf",
+        "file_size_bytes": 8370,
+        "page_range": [
+          669,
+          673
+        ]
+      },
+      {
+        "song_title": "Your Mother Should Know",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Your Mother Should Know.pdf",
+        "file_size_bytes": 5704,
+        "page_range": [
+          673,
+          675
+        ]
+      },
+      {
+        "song_title": "You're gonna lose that girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - You're Gonna Lose That Girl.pdf",
+        "file_size_bytes": 5921,
+        "page_range": [
+          675,
+          677
+        ]
+      },
+      {
+        "song_title": "You've Got to Hide Your Love Away",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - You've Got To Hide Your Love Away.pdf",
+        "file_size_bytes": 6144,
+        "page_range": [
+          677,
+          679
+        ]
+      },
+      {
+        "song_title": "YOU'VE GOT TO HIDE YOUR LOVE AWAY",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - You've Got To Hide Your Love Away.pdf",
+        "file_size_bytes": 6333,
+        "page_range": [
+          679,
+          681
+        ]
+      },
+      {
+        "song_title": "You've Got to Hide Your Love Away",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon And Paul Mccartney. Published By Northern Songs - You've Got To Hide Your Love Away.pdf",
+        "file_size_bytes": 9711,
+        "page_range": [
+          681,
+          686
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The John Lennon-paul Mccartney - Yesterday.pdf",
+        "file_size_bytes": 4763,
+        "page_range": [
+          686,
+          687
+        ]
+      },
+      {
+        "song_title": "You're Gonna Lose That Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - You're Gonna Lose That Girl.pdf",
+        "file_size_bytes": 5694,
+        "page_range": [
+          687,
+          689
+        ]
+      },
+      {
+        "song_title": "You've Gonna Lose That Girl (solo)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - You've Gonna Lose That Girl (solo).pdf",
+        "file_size_bytes": 7715,
+        "page_range": [
+          689,
+          691
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/John Lennon & Paul Mccartney, The Beatles - Yesterday.pdf",
+        "file_size_bytes": 6198,
+        "page_range": [
+          691,
+          693
+        ]
+      },
+      {
+        "song_title": "Yesterday's tao",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Yesterday's Tao.pdf",
+        "file_size_bytes": 1333,
+        "page_range": [
+          693,
+          694
+        ]
+      },
+      {
+        "song_title": "A Hard Day's Night Solo",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - A Hard Day's Night Solo.pdf",
+        "file_size_bytes": 4818,
+        "page_range": [
+          694,
+          695
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps (Solo)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles And Eric Clapton - While My Guitar Gently Weeps (solo).pdf",
+        "file_size_bytes": 5774,
+        "page_range": [
+          695,
+          697
+        ]
+      },
+      {
+        "song_title": "EIGHT DAYS A WEEK",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/(lennon-mccartney) - Eight Days A Week.pdf",
+        "file_size_bytes": 8030,
+        "page_range": [
+          697,
+          701
+        ]
+      },
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Come Together.pdf",
+        "file_size_bytes": 4929,
+        "page_range": [
+          701,
+          702
+        ]
+      },
+      {
+        "song_title": "Lucy In The Sky With Diamonds",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Lucy In The Sky With Diamonds.pdf",
+        "file_size_bytes": 4621,
+        "page_range": [
+          702,
+          703
+        ]
+      },
+      {
+        "song_title": "Hey Bulldog",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Hey Bulldog.pdf",
+        "file_size_bytes": 5686,
+        "page_range": [
+          703,
+          705
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 6953,
+        "page_range": [
+          705,
+          708
+        ]
+      },
+      {
+        "song_title": "Twist and Shout",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Twist And Shout.pdf",
+        "file_size_bytes": 5045,
+        "page_range": [
+          708,
+          709
+        ]
+      },
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Beatles - Come Together.pdf",
+        "file_size_bytes": 11432,
+        "page_range": [
+          709,
+          715
+        ]
+      },
+      {
+        "song_title": "In my life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - In My Life.pdf",
+        "file_size_bytes": 9582,
+        "page_range": [
+          715,
+          720
+        ]
+      },
+      {
+        "song_title": "Sun King",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Sun King.pdf",
+        "file_size_bytes": 5575,
+        "page_range": [
+          720,
+          722
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Let It Be.pdf",
+        "file_size_bytes": 6396,
+        "page_range": [
+          722,
+          724
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/Unknown Artist - Let It Be.pdf",
+        "file_size_bytes": 2225,
+        "page_range": [
+          724,
+          726
+        ]
+      },
+      {
+        "song_title": "Norwegian Wood",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Norwegian Wood.pdf",
+        "file_size_bytes": 4693,
+        "page_range": [
+          726,
+          727
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Fake Songbook (guitar)/Songs/The Beatles - Let It Be.pdf",
+        "file_size_bytes": 9573,
+        "page_range": [
+          727,
+          732
+        ]
+      }
+    ]
+  }
+}

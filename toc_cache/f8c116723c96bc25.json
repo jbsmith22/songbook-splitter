@@ -1,0 +1,43 @@
+{
+  "book_id": "f8c116723c96bc25",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Place in This World",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift [guitar Compilation]/Songs/Taylor Swift - A Place In This World.pdf",
+        "file_size_bytes": 89539,
+        "page_range": [
+          26,
+          30
+        ]
+      },
+      {
+        "song_title": "Chords",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift [guitar Compilation]/Songs/Unknown Artist - Chords.pdf",
+        "file_size_bytes": 575216,
+        "page_range": [
+          30,
+          74
+        ]
+      },
+      {
+        "song_title": "Mary's Song (Oh My My My)",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift [guitar Compilation]/Songs/Taylor Swift - Mary's Song (oh My My My).pdf",
+        "file_size_bytes": 234019,
+        "page_range": [
+          74,
+          92
+        ]
+      }
+    ]
+  }
+}

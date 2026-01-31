@@ -1,0 +1,332 @@
+{
+  "book_id": "25eaa62fe2a9ddfc",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Ariel",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "At Seventeen",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bad, Bad Leroy Brown",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Born to Run",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Could It Be Magic",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dancing Queen",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Do You Wanna Make Love",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Feelings",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fire and Rain",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gonna Fly Now (Theme From \"Rocky\")",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Killing Me Softly With His Song",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Livin' Thing",
+        "page_number": 79,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Looks Like We Made It",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love's Grown Deep",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lucille",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Nights Are Forever Without You",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Tin Soldier",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Right Time of the Night",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "This One's For You",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Today",
+        "page_number": 55,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Weekend in New England",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Take My Heart Away",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You're My World",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Gonna Fly Now (Theme From \"Rocky\")",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/The Image Does Not Explicitly State The Artist Name, But This Is The Sheet Music For The Famous Theme Song From The Rocky Movie - Gonna Fly Now (theme From -rocky-).pdf",
+        "file_size_bytes": 133664,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "Looks Like We Made It",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Barry Manilow - Looks Like We Made It.pdf",
+        "file_size_bytes": 501180,
+        "page_range": [
+          6,
+          22
+        ]
+      },
+      {
+        "song_title": "Bad, Bad Leroy Brown",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Song Title, It Appears To Be Referring To The Song By Jim Croce - Bad, Bad Leroy Brown.pdf",
+        "file_size_bytes": 123646,
+        "page_range": [
+          22,
+          25
+        ]
+      },
+      {
+        "song_title": "Born to Run",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Bruce Springsteen - Born To Run.pdf",
+        "file_size_bytes": 191763,
+        "page_range": [
+          25,
+          29
+        ]
+      },
+      {
+        "song_title": "You Take My Heart Away",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/From The United Artists Motion Picture -rocky-, Words By Carol Connors And Ayn Robbins, Music By Bill Conti - You Take My Heart Away.pdf",
+        "file_size_bytes": 99081,
+        "page_range": [
+          29,
+          32
+        ]
+      },
+      {
+        "song_title": "Right Time of the Night",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Peter Mccann - Right Time Of The Night.pdf",
+        "file_size_bytes": 116356,
+        "page_range": [
+          32,
+          35
+        ]
+      },
+      {
+        "song_title": "Could It Be Magic",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Barry Manilow - Could It Be Magic.pdf",
+        "file_size_bytes": 163650,
+        "page_range": [
+          35,
+          39
+        ]
+      },
+      {
+        "song_title": "Dancing Queen",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Benny Andersson, Bj\u00f6rn Ulvaeus, Stig Anderson - Dancing Queen.pdf",
+        "file_size_bytes": 180987,
+        "page_range": [
+          39,
+          43
+        ]
+      },
+      {
+        "song_title": "This One's For You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Barry Manilow - This One's For You.pdf",
+        "file_size_bytes": 140611,
+        "page_range": [
+          43,
+          47
+        ]
+      },
+      {
+        "song_title": "One Tin Soldier",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Dennis Lambert & Brian Potter - One Tin Soldier.pdf",
+        "file_size_bytes": 320771,
+        "page_range": [
+          47,
+          55
+        ]
+      },
+      {
+        "song_title": "You're My World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Unknown Artist - You're My World.pdf",
+        "file_size_bytes": 103933,
+        "page_range": [
+          55,
+          57
+        ]
+      },
+      {
+        "song_title": "Killing Me Softly With His Song",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Roberta Flack With Atlantic Records - Killing Me Softly With His Song.pdf",
+        "file_size_bytes": 113804,
+        "page_range": [
+          57,
+          60
+        ]
+      },
+      {
+        "song_title": "Feelings",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Unknown Artist - Feelings.pdf",
+        "file_size_bytes": 179690,
+        "page_range": [
+          60,
+          65
+        ]
+      },
+      {
+        "song_title": "At Seventeen",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Janis Ian - At Seventeen.pdf",
+        "file_size_bytes": 145212,
+        "page_range": [
+          65,
+          69
+        ]
+      },
+      {
+        "song_title": "Love's Grown Deep",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Kenny Nolan - Love's Grown Deep.pdf",
+        "file_size_bytes": 142620,
+        "page_range": [
+          69,
+          73
+        ]
+      },
+      {
+        "song_title": "Do You Wanna Make Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Peter Mccann - Do You Wanna Make Love.pdf",
+        "file_size_bytes": 141788,
+        "page_range": [
+          73,
+          77
+        ]
+      },
+      {
+        "song_title": "Nights Are Forever Without You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Unknown Artist - Nights Are Forever Without You.pdf",
+        "file_size_bytes": 108484,
+        "page_range": [
+          77,
+          80
+        ]
+      },
+      {
+        "song_title": "Livin' Thing",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Theme From Rocky And Otther Big Hits/Songs/Electric Light Orchestra - Livin' Thing.pdf",
+        "file_size_bytes": 219652,
+        "page_range": [
+          80,
+          84
+        ]
+      }
+    ]
+  }
+}

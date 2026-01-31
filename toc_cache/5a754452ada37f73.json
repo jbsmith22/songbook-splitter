@@ -1,0 +1,53 @@
+{
+  "book_id": "5a754452ada37f73",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Root Beer Rag",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Root Beer Rag.pdf",
+        "file_size_bytes": 7818922,
+        "page_range": [
+          28,
+          51
+        ]
+      },
+      {
+        "song_title": "The Stranger",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - The Stranger.pdf",
+        "file_size_bytes": 3354296,
+        "page_range": [
+          51,
+          57
+        ]
+      },
+      {
+        "song_title": "Just The Way You Are",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Just The Way You Are.pdf",
+        "file_size_bytes": 12516487,
+        "page_range": [
+          57,
+          79
+        ]
+      },
+      {
+        "song_title": "She's Always A Woman",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - She's Always A Woman.pdf",
+        "file_size_bytes": 3202984,
+        "page_range": [
+          79,
+          84
+        ]
+      }
+    ]
+  }
+}

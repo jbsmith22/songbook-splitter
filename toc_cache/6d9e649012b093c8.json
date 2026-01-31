@@ -1,0 +1,73 @@
+{
+  "book_id": "6d9e649012b093c8",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Telephone Dance",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Unknown Artist - Telephone Dance.pdf",
+        "file_size_bytes": 2007748,
+        "page_range": [
+          39,
+          54
+        ]
+      },
+      {
+        "song_title": "SALLY: (sung)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Unknown Artist - Sally- (sung).pdf",
+        "file_size_bytes": 4552824,
+        "page_range": [
+          54,
+          90
+        ]
+      },
+      {
+        "song_title": "RUSSIAN DANCE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Unknown Artist - Russian Dance.pdf",
+        "file_size_bytes": 1442045,
+        "page_range": [
+          90,
+          102
+        ]
+      },
+      {
+        "song_title": "Incidental (It Couldn't Please Me More)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Unknown Artist - Incidental (it Couldn't Please Me More).pdf",
+        "file_size_bytes": 7687538,
+        "page_range": [
+          102,
+          164
+        ]
+      },
+      {
+        "song_title": "Incidental - Underscore (Why Should I Wake Up?)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Unknown Artist - Incidental - Underscore (why Should I Wake Up-).pdf",
+        "file_size_bytes": 4129140,
+        "page_range": [
+          164,
+          198
+        ]
+      },
+      {
+        "song_title": "Exit Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Unknown Artist - Exit Music.pdf",
+        "file_size_bytes": 617554,
+        "page_range": [
+          198,
+          203
+        ]
+      }
+    ]
+  }
+}

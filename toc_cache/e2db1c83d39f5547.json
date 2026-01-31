@@ -1,0 +1,103 @@
+{
+  "book_id": "e2db1c83d39f5547",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "BEN",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - Ben.pdf",
+        "file_size_bytes": 1011221,
+        "page_range": [
+          17,
+          20
+        ]
+      },
+      {
+        "song_title": "Billie Jean",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - Billie Jean.pdf",
+        "file_size_bytes": 1225521,
+        "page_range": [
+          20,
+          24
+        ]
+      },
+      {
+        "song_title": "Black or White",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - Black Or White.pdf",
+        "file_size_bytes": 1765735,
+        "page_range": [
+          24,
+          30
+        ]
+      },
+      {
+        "song_title": "Break of Dawn",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - Break Of Dawn.pdf",
+        "file_size_bytes": 3925443,
+        "page_range": [
+          30,
+          46
+        ]
+      },
+      {
+        "song_title": "Dirty Diana",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - Dirty Diana.pdf",
+        "file_size_bytes": 3302690,
+        "page_range": [
+          46,
+          60
+        ]
+      },
+      {
+        "song_title": "Earth Song",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - Earth Song.pdf",
+        "file_size_bytes": 7260817,
+        "page_range": [
+          60,
+          91
+        ]
+      },
+      {
+        "song_title": "The Way You Make Me Feel",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - The Way You Make Me Feel.pdf",
+        "file_size_bytes": 1343935,
+        "page_range": [
+          91,
+          96
+        ]
+      },
+      {
+        "song_title": "The Way You Make Me Feel",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - The Way You Make Me Feel.pdf",
+        "file_size_bytes": 3138624,
+        "page_range": [
+          96,
+          110
+        ]
+      },
+      {
+        "song_title": "Thriller",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Number Ones/Songs/Michael Jackson - Thriller.pdf",
+        "file_size_bytes": 4479405,
+        "page_range": [
+          110,
+          129
+        ]
+      }
+    ]
+  }
+}

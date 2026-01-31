@@ -1,0 +1,103 @@
+{
+  "book_id": "bob-dylan-desire",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Hurricane",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan And Jacques Levy - Hurricane.pdf",
+        "file_size_bytes": 958350,
+        "page_range": [
+          6,
+          9
+        ]
+      },
+      {
+        "song_title": "Black Diamond Bay",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan And Jacques Levy - Black Diamond Bay.pdf",
+        "file_size_bytes": 1085173,
+        "page_range": [
+          9,
+          13
+        ]
+      },
+      {
+        "song_title": "Mozambique",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan And Jacques Levy - Mozambique.pdf",
+        "file_size_bytes": 1371590,
+        "page_range": [
+          13,
+          18
+        ]
+      },
+      {
+        "song_title": "One More Cup of Coffee",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan - One More Cup Of Coffee.pdf",
+        "file_size_bytes": 806221,
+        "page_range": [
+          18,
+          21
+        ]
+      },
+      {
+        "song_title": "Isis",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan And Jacques Levy - Isis.pdf",
+        "file_size_bytes": 743438,
+        "page_range": [
+          21,
+          24
+        ]
+      },
+      {
+        "song_title": "Oh, Sister",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan - Oh, Sister.pdf",
+        "file_size_bytes": 1255726,
+        "page_range": [
+          24,
+          28
+        ]
+      },
+      {
+        "song_title": "Joey",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan And Jacques Levy - Joey.pdf",
+        "file_size_bytes": 1189569,
+        "page_range": [
+          28,
+          33
+        ]
+      },
+      {
+        "song_title": "Romance in Durango",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan And Jacques Levy - Romance In Durango.pdf",
+        "file_size_bytes": 1069664,
+        "page_range": [
+          33,
+          37
+        ]
+      },
+      {
+        "song_title": "Sara",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Desire/Songs/Bob Dylan - Sara.pdf",
+        "file_size_bytes": 1142267,
+        "page_range": [
+          37,
+          41
+        ]
+      }
+    ]
+  }
+}

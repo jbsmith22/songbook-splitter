@@ -1,0 +1,1023 @@
+{
+  "book_id": "movie-and-tv-various-artists-100-of-the-best-movie-songs-ever",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "ALFIE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Theme From The Paramount Picture Alfie, Words By Hal David, Music By Burt Bacharach - Alfie.pdf",
+        "file_size_bytes": 118339,
+        "page_range": [
+          4,
+          8
+        ]
+      },
+      {
+        "song_title": "Alice in Wonderland",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Walt Disney's Alice In Wonderland (words By Bob Hilliard, Music By Sammy Fain) - Alice In Wonderland.pdf",
+        "file_size_bytes": 99679,
+        "page_range": [
+          8,
+          11
+        ]
+      },
+      {
+        "song_title": "All I Ask of You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Andrew Lloyd Webber, Lyrics By Charles Hart, Additional Lyrics By Richard Stilgoe - All I Ask Of You.pdf",
+        "file_size_bytes": 147660,
+        "page_range": [
+          11,
+          15
+        ]
+      },
+      {
+        "song_title": "Raoul & Christine",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Unknown Artist - Raoul & Christine.pdf",
+        "file_size_bytes": 41546,
+        "page_range": [
+          15,
+          16
+        ]
+      },
+      {
+        "song_title": "Almost Paradise",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/The Image Does Not Clearly Show The Artist Name, But It Appears To Be The First Page Of A Song Titled -almost Paradise- Based On The Prominent Song Title At The Top And The Sheet Music Notation Be.pdf",
+        "file_size_bytes": 132160,
+        "page_range": [
+          16,
+          20
+        ]
+      },
+      {
+        "song_title": "As Time Goes By",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Casablanca - As Time Goes By.pdf",
+        "file_size_bytes": 152286,
+        "page_range": [
+          20,
+          24
+        ]
+      },
+      {
+        "song_title": "The Bare Necessities",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Walt Disney's The Jungle Book - The Bare Necessities.pdf",
+        "file_size_bytes": 115138,
+        "page_range": [
+          24,
+          28
+        ]
+      },
+      {
+        "song_title": "Beauty and the Beast",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Walt Disney's Beauty And The Beast - Beauty And The Beast.pdf",
+        "file_size_bytes": 131251,
+        "page_range": [
+          28,
+          32
+        ]
+      },
+      {
+        "song_title": "Blue Hawaii",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Leo Robin And Ralph Rainier - Blue Hawaii.pdf",
+        "file_size_bytes": 118266,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "Cabaret",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Musical Cabaret - Cabaret.pdf",
+        "file_size_bytes": 114236,
+        "page_range": [
+          36,
+          40
+        ]
+      },
+      {
+        "song_title": "Call Me Irresponsible",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Paramount Picture Papa's Delicate Condition, Words By Sammy Cahn, Music By James Van Heusen - Call Me Irresponsible.pdf",
+        "file_size_bytes": 112414,
+        "page_range": [
+          40,
+          44
+        ]
+      },
+      {
+        "song_title": "Can't Help Falling In Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/George David Weiss, Hugo Peretti And Luigi Creatore - Can't Help Falling In Love.pdf",
+        "file_size_bytes": 107418,
+        "page_range": [
+          44,
+          48
+        ]
+      },
+      {
+        "song_title": "Change the World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Featured On The Motion Picture Soundtrack Phenomenon, Words And Music By Wayne Kirkpatrick, Gordon Kennedy And Tommy Sims - Change The World.pdf",
+        "file_size_bytes": 188776,
+        "page_range": [
+          48,
+          54
+        ]
+      },
+      {
+        "song_title": "Chim Chim Cher-ee",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Walt Disney's Mary Poppins - Chim Chim Cher-ee.pdf",
+        "file_size_bytes": 152300,
+        "page_range": [
+          54,
+          58
+        ]
+      },
+      {
+        "song_title": "Cocktails for Two",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Arthur Johnston And Sam Coslow - Cocktails For Two.pdf",
+        "file_size_bytes": 160537,
+        "page_range": [
+          58,
+          63
+        ]
+      },
+      {
+        "song_title": "Come What May",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/David Baerwald - Come What May.pdf",
+        "file_size_bytes": 215372,
+        "page_range": [
+          63,
+          70
+        ]
+      },
+      {
+        "song_title": "Diamonds Are a Girl's Best Friend",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Leo Robin (words By), Jule Styne (music By) - Diamonds Are A Girl's Best Friend.pdf",
+        "file_size_bytes": 135152,
+        "page_range": [
+          70,
+          74
+        ]
+      },
+      {
+        "song_title": "THE DREAME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/By Patrick Doyle - The Dreame.pdf",
+        "file_size_bytes": 93251,
+        "page_range": [
+          74,
+          77
+        ]
+      },
+      {
+        "song_title": "Everybody's Talkin' (Echoes)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Fred Neil - Everybody's Talkin' (echoes).pdf",
+        "file_size_bytes": 104373,
+        "page_range": [
+          77,
+          80
+        ]
+      },
+      {
+        "song_title": "Theme from E.T. (The Extra-Terrestrial)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Music By John Williams - Theme From E.t. (the Extra-terrestrial).pdf",
+        "file_size_bytes": 157868,
+        "page_range": [
+          80,
+          86
+        ]
+      },
+      {
+        "song_title": "Footloose",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Words By Dean Pitchford And Kenny Loggins, Music By Kenny Loggins - Footloose.pdf",
+        "file_size_bytes": 173793,
+        "page_range": [
+          86,
+          93
+        ]
+      },
+      {
+        "song_title": "For All We Know",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/The Image Does Not Clearly Show The Artist Name, But It Mentions -from The Motion Picture Lovers And Other Strangers- And Credits The Words To Robin Wilson And James Griffin, And The Music To Fred.pdf",
+        "file_size_bytes": 193866,
+        "page_range": [
+          93,
+          100
+        ]
+      },
+      {
+        "song_title": "FORREST GUMP - MAIN TITLE (Feather Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Music By Alan Silvestri - Forrest Gump - Main Title (feather Theme).pdf",
+        "file_size_bytes": 105835,
+        "page_range": [
+          100,
+          104
+        ]
+      },
+      {
+        "song_title": "GET HAPPY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Summer Stock (lyrics By Ted Koehler, Music By Harold Arlen) - Get Happy.pdf",
+        "file_size_bytes": 164222,
+        "page_range": [
+          104,
+          109
+        ]
+      },
+      {
+        "song_title": "A Hard Day's Night",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/John Lennon And Paul Mccartney - A Hard Day's Night.pdf",
+        "file_size_bytes": 155665,
+        "page_range": [
+          109,
+          114
+        ]
+      },
+      {
+        "song_title": "Goldfinger",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Goldfinger - Goldfinger.pdf",
+        "file_size_bytes": 118641,
+        "page_range": [
+          114,
+          118
+        ]
+      },
+      {
+        "song_title": "Heart and Soul",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Unknown Artist - Heart And Soul.pdf",
+        "file_size_bytes": 127112,
+        "page_range": [
+          118,
+          122
+        ]
+      },
+      {
+        "song_title": "Hello Again",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Neil Diamond And Alan Lindgren - Hello Again.pdf",
+        "file_size_bytes": 154798,
+        "page_range": [
+          122,
+          127
+        ]
+      },
+      {
+        "song_title": "I Believe In You And Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/David Wolpert And Sandy Linger - I Believe In You And Me.pdf",
+        "file_size_bytes": 222967,
+        "page_range": [
+          127,
+          134
+        ]
+      },
+      {
+        "song_title": "HIGH NOON (Do Not Forsake Me)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Dimitri Tiomkin And Ned Washington - High Noon (do Not Forsake Me).pdf",
+        "file_size_bytes": 169745,
+        "page_range": [
+          134,
+          140
+        ]
+      },
+      {
+        "song_title": "I Believe I Can Fly",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Robert Kelly - I Believe I Can Fly.pdf",
+        "file_size_bytes": 180084,
+        "page_range": [
+          140,
+          146
+        ]
+      },
+      {
+        "song_title": "I FINALLY FOUND SOMEONE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/The Image Does Not Explicitly State The Artist Name, But It Shows The Songwriters As Barbra Streisand, Marvin Hamlisch, Robert Lange And Bryan Adams - I Finally Found Someone.pdf",
+        "file_size_bytes": 204305,
+        "page_range": [
+          146,
+          153
+        ]
+      },
+      {
+        "song_title": "I WILL ALWAYS LOVE YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Bodyguard - I Will Always Love You.pdf",
+        "file_size_bytes": 164894,
+        "page_range": [
+          153,
+          158
+        ]
+      },
+      {
+        "song_title": "I Will Remember You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Theme From The Brothers Mcmullen - I Will Remember You.pdf",
+        "file_size_bytes": 150728,
+        "page_range": [
+          158,
+          163
+        ]
+      },
+      {
+        "song_title": "Isn't It Romantic?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/The Image Does Not Explicitly State The Artist Name, But It Appears To Be Sheet Music From The Paramount Picture -love Me Tonight- Based On The Text Below The Song Title - Isn't It Romantic-.pdf",
+        "file_size_bytes": 158157,
+        "page_range": [
+          163,
+          168
+        ]
+      },
+      {
+        "song_title": "I WILL WAIT FOR YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Umbrellas Of Cherbourg - I Will Wait For You.pdf",
+        "file_size_bytes": 112314,
+        "page_range": [
+          168,
+          172
+        ]
+      },
+      {
+        "song_title": "I'M EASY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Nashville - I'm Easy.pdf",
+        "file_size_bytes": 153164,
+        "page_range": [
+          172,
+          178
+        ]
+      },
+      {
+        "song_title": "It Might As Well Be Spring",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Lyrics By Oscar Hammerstein Ii, Music By Richard Rodgers - It Might As Well Be Spring.pdf",
+        "file_size_bytes": 164008,
+        "page_range": [
+          178,
+          183
+        ]
+      },
+      {
+        "song_title": "KOKOMO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/The Song Is Credited To Mike Love, Terry Melcher, John Phillips And Scott Mckenzie Based On The Information Provided At The Top Of The Sheet Music - Kokomo.pdf",
+        "file_size_bytes": 184967,
+        "page_range": [
+          183,
+          190
+        ]
+      },
+      {
+        "song_title": "Theme from \"JAWS\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/John Williams - Theme From -jaws-.pdf",
+        "file_size_bytes": 65108,
+        "page_range": [
+          190,
+          192
+        ]
+      },
+      {
+        "song_title": "Theme from \"Jurassic Park\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Composed By John Williams - Theme From -jurassic Park-.pdf",
+        "file_size_bytes": 105258,
+        "page_range": [
+          192,
+          196
+        ]
+      },
+      {
+        "song_title": "THE LAST TIME I FELT LIKE THIS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Same Time, Next Year (words By Alan Bergman And Marilyn Bergman, Music By Marvin Hamlisch) - The Last Time I Felt Like This.pdf",
+        "file_size_bytes": 115210,
+        "page_range": [
+          196,
+          200
+        ]
+      },
+      {
+        "song_title": "Let the River Run",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Carly Simon - Let The River Run.pdf",
+        "file_size_bytes": 187765,
+        "page_range": [
+          200,
+          206
+        ]
+      },
+      {
+        "song_title": "Long Ago (And Far Away)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Cover Girl - Long Ago (and Far Away).pdf",
+        "file_size_bytes": 92801,
+        "page_range": [
+          206,
+          209
+        ]
+      },
+      {
+        "song_title": "Luck Be a Lady",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Frank Loesser - Luck Be A Lady.pdf",
+        "file_size_bytes": 205431,
+        "page_range": [
+          209,
+          216
+        ]
+      },
+      {
+        "song_title": "Love Me Tender",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Elvis Presley - Love Me Tender.pdf",
+        "file_size_bytes": 58542,
+        "page_range": [
+          216,
+          218
+        ]
+      },
+      {
+        "song_title": "A Man and a Woman (Un Homme Et Une Femme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Music By Francis Lai, Original Words By Pierre Barouh, English Words By Jerry Keller - A Man And A Woman (un Homme Et Une Femme).pdf",
+        "file_size_bytes": 135825,
+        "page_range": [
+          218,
+          222
+        ]
+      },
+      {
+        "song_title": "Maybe This Time",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/(from Cabaret) - Maybe This Time.pdf",
+        "file_size_bytes": 168289,
+        "page_range": [
+          222,
+          226
+        ]
+      },
+      {
+        "song_title": "Mona Lisa",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Ray Livingston And Ray Evans - Mona Lisa.pdf",
+        "file_size_bytes": 93901,
+        "page_range": [
+          226,
+          229
+        ]
+      },
+      {
+        "song_title": "Moon River",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Johnny Mercer, Music By Henry Mancini - Moon River.pdf",
+        "file_size_bytes": 76338,
+        "page_range": [
+          229,
+          232
+        ]
+      },
+      {
+        "song_title": "Mrs. Robinson",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Paul Simon - Mrs. Robinson.pdf",
+        "file_size_bytes": 181823,
+        "page_range": [
+          232,
+          237
+        ]
+      },
+      {
+        "song_title": "My Foolish Heart",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Ned Washington (words By), Victor Young (music By) - My Foolish Heart.pdf",
+        "file_size_bytes": 95525,
+        "page_range": [
+          237,
+          240
+        ]
+      },
+      {
+        "song_title": "THE MUSIC OF GOODBYE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Music By John Barry, Words By Alan And Marilyn Bergman - The Music Of Goodbye.pdf",
+        "file_size_bytes": 111224,
+        "page_range": [
+          240,
+          244
+        ]
+      },
+      {
+        "song_title": "My Favorite Things",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Lyrics By Oscar Hammerstein Ii, Music By Richard Rodgers - My Favorite Things.pdf",
+        "file_size_bytes": 138078,
+        "page_range": [
+          244,
+          248
+        ]
+      },
+      {
+        "song_title": "My Heart Will Go On (Love Theme from 'Titanic')",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Music By James Horner Lyrics By Will Jennings - My Heart Will Go On (love Theme From 'titanic').pdf",
+        "file_size_bytes": 193759,
+        "page_range": [
+          248,
+          254
+        ]
+      },
+      {
+        "song_title": "Nine to Five",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Dolly Parton - Nine To Five.pdf",
+        "file_size_bytes": 106523,
+        "page_range": [
+          254,
+          257
+        ]
+      },
+      {
+        "song_title": "Ol' Man River",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Show Boat, Lyrics By Oscar Hammerstein Ii, Music By Jerome Kern - Ol' Man River.pdf",
+        "file_size_bytes": 175688,
+        "page_range": [
+          257,
+          262
+        ]
+      },
+      {
+        "song_title": "THE ODD COUPLE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Words By Sammy Cahn, Music By Neal Hefti - The Odd Couple.pdf",
+        "file_size_bytes": 124496,
+        "page_range": [
+          262,
+          266
+        ]
+      },
+      {
+        "song_title": "OLD TIME ROCK & ROLL",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Featured In Risky Business (words And Music By George Jackson And Thomas E. Jones Iii) - Old Time Rock & Roll.pdf",
+        "file_size_bytes": 119322,
+        "page_range": [
+          266,
+          270
+        ]
+      },
+      {
+        "song_title": "One Tin Soldier",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Billy Jack - One Tin Soldier.pdf",
+        "file_size_bytes": 98148,
+        "page_range": [
+          270,
+          273
+        ]
+      },
+      {
+        "song_title": "Put the Blame on Mame",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Gilda (the Musical) - Put The Blame On Mame.pdf",
+        "file_size_bytes": 122011,
+        "page_range": [
+          273,
+          276
+        ]
+      },
+      {
+        "song_title": "Raiders March",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Music By John Williams - Raiders March.pdf",
+        "file_size_bytes": 92343,
+        "page_range": [
+          276,
+          280
+        ]
+      },
+      {
+        "song_title": "THE RAINBOW CONNECTION",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Muppet Movie Words And Music By Paul Williams And Kenneth L. Ascher - The Rainbow Connection.pdf",
+        "file_size_bytes": 114781,
+        "page_range": [
+          280,
+          285
+        ]
+      },
+      {
+        "song_title": "Raindrops Keep Fallin' on My Head",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Butch Cassidy And The Sundance Kid - Raindrops Keep Fallin' On My Head.pdf",
+        "file_size_bytes": 113810,
+        "page_range": [
+          285,
+          288
+        ]
+      },
+      {
+        "song_title": "READY TO TAKE A CHANCE AGAIN (Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Words By Norman Gimbel, Music By Charles Fox - Ready To Take A Chance Again (love Theme).pdf",
+        "file_size_bytes": 149043,
+        "page_range": [
+          288,
+          293
+        ]
+      },
+      {
+        "song_title": "Separate Lives",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Stephen Bishop - Separate Lives.pdf",
+        "file_size_bytes": 224763,
+        "page_range": [
+          293,
+          300
+        ]
+      },
+      {
+        "song_title": "The Road to Morocco",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Paramount Motion Picture Road To Morocco, Words By Johnny Burke, Music By Jimmy Van Heusen - The Road To Morocco.pdf",
+        "file_size_bytes": 144301,
+        "page_range": [
+          300,
+          304
+        ]
+      },
+      {
+        "song_title": "Theme from \"Schindler's List\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Composed By John Williams - Theme From -schindler's List-.pdf",
+        "file_size_bytes": 53924,
+        "page_range": [
+          304,
+          306
+        ]
+      },
+      {
+        "song_title": "Sea of Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/George Khoury And Philip Baptiste - Sea Of Love.pdf",
+        "file_size_bytes": 122559,
+        "page_range": [
+          306,
+          310
+        ]
+      },
+      {
+        "song_title": "Seems Like Old Times",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Annie Hall - Seems Like Old Times.pdf",
+        "file_size_bytes": 113011,
+        "page_range": [
+          310,
+          314
+        ]
+      },
+      {
+        "song_title": "Theme from Shaft",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Isaac Hayes - Theme From Shaft.pdf",
+        "file_size_bytes": 143304,
+        "page_range": [
+          314,
+          319
+        ]
+      },
+      {
+        "song_title": "Some Enchanted Evening",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From South Pacific, Lyrics By Oscar Hammerstein Ii, Music By Richard Rodgers - Some Enchanted Evening.pdf",
+        "file_size_bytes": 176890,
+        "page_range": [
+          319,
+          324
+        ]
+      },
+      {
+        "song_title": "Some Day My Prince Will Come",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Walt Disney's Snow White And The Seven Dwarfs - Some Day My Prince Will Come.pdf",
+        "file_size_bytes": 65611,
+        "page_range": [
+          324,
+          326
+        ]
+      },
+      {
+        "song_title": "SOMEWHERE IN TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/John Barry And R.a. Robertson - Somewhere In Time.pdf",
+        "file_size_bytes": 58181,
+        "page_range": [
+          326,
+          328
+        ]
+      },
+      {
+        "song_title": "Somewhere My Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Lara's Theme From Doctor Zhivago - Somewhere My Love.pdf",
+        "file_size_bytes": 89714,
+        "page_range": [
+          328,
+          331
+        ]
+      },
+      {
+        "song_title": "SOMEWHERE OUT THERE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/James Horner, Barry Mann And Cynthia Weil - Somewhere Out There.pdf",
+        "file_size_bytes": 156396,
+        "page_range": [
+          331,
+          336
+        ]
+      },
+      {
+        "song_title": "The Sound of Music",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Music By Richard Rodgers, Lyrics By Oscar Hammerstein Ii - The Sound Of Music.pdf",
+        "file_size_bytes": 171330,
+        "page_range": [
+          336,
+          341
+        ]
+      },
+      {
+        "song_title": "Stand By Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Jerry Leiber, Mike Stoller And Ben E. King - Stand By Me.pdf",
+        "file_size_bytes": 90941,
+        "page_range": [
+          341,
+          344
+        ]
+      },
+      {
+        "song_title": "Speak Softly, Love (Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Paramount Picture The Godfather, Words By Larry Kusik, Music By Nino Rota - Speak Softly, Love (love Theme).pdf",
+        "file_size_bytes": 75997,
+        "page_range": [
+          344,
+          346
+        ]
+      },
+      {
+        "song_title": "Star Trek The Motion Picture",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Music By Jerry Goldsmith - Star Trek The Motion Picture.pdf",
+        "file_size_bytes": 206121,
+        "page_range": [
+          346,
+          354
+        ]
+      },
+      {
+        "song_title": "Stayin' Alive",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Motion Picture Saturday Night Fever, Words And Music By Robin Gibb, Maurice Gibb And Barry Gibb - Stayin' Alive.pdf",
+        "file_size_bytes": 172924,
+        "page_range": [
+          354,
+          359
+        ]
+      },
+      {
+        "song_title": "Strangers in the Night",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/The Lyrics Are By Charles Singleton And Eddie Snyder, While The Music Is By Bert Kaempfert, But There Is No Single Artist Name Provided - Strangers In The Night.pdf",
+        "file_size_bytes": 96285,
+        "page_range": [
+          359,
+          362
+        ]
+      },
+      {
+        "song_title": "Stormy Weather",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Harold Arlen - Stormy Weather.pdf",
+        "file_size_bytes": 156400,
+        "page_range": [
+          362,
+          366
+        ]
+      },
+      {
+        "song_title": "Take My Breath Away (Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Giorgio Moroder And Tom Whitlock - Take My Breath Away (love Theme).pdf",
+        "file_size_bytes": 154872,
+        "page_range": [
+          366,
+          371
+        ]
+      },
+      {
+        "song_title": "Tears in Heaven",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Eric Clapton And Will Jennings - Tears In Heaven.pdf",
+        "file_size_bytes": 147278,
+        "page_range": [
+          371,
+          376
+        ]
+      },
+      {
+        "song_title": "Thanks for the Memory",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Leo Robin And Ralph Rainger - Thanks For The Memory.pdf",
+        "file_size_bytes": 136750,
+        "page_range": [
+          376,
+          380
+        ]
+      },
+      {
+        "song_title": "That's Amore (That's Love)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Paramount Picture The Caddy - That's Amore (that's Love).pdf",
+        "file_size_bytes": 133395,
+        "page_range": [
+          380,
+          385
+        ]
+      },
+      {
+        "song_title": "A Time for Us (Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Larry Kusik And Eddie Snyder, Music By Nino Rota - A Time For Us (love Theme).pdf",
+        "file_size_bytes": 88558,
+        "page_range": [
+          385,
+          388
+        ]
+      },
+      {
+        "song_title": "(I've Had) The Time of My Life",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Dirty Dancing (words And Music By Franke Previte, John Denicola And Donald Markowitz) - (i've Had) The Time Of My Life.pdf",
+        "file_size_bytes": 306455,
+        "page_range": [
+          388,
+          398
+        ]
+      },
+      {
+        "song_title": "Unchained Melody",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Hy Zaret, Music By Alex North - Unchained Melody.pdf",
+        "file_size_bytes": 202285,
+        "page_range": [
+          398,
+          405
+        ]
+      },
+      {
+        "song_title": "UNINVITED",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Alanis Morissette - Uninvited.pdf",
+        "file_size_bytes": 128631,
+        "page_range": [
+          405,
+          410
+        ]
+      },
+      {
+        "song_title": "Up Where We Belong",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Paramount Picture An Officer And A Gentleman - Up Where We Belong.pdf",
+        "file_size_bytes": 151509,
+        "page_range": [
+          410,
+          414
+        ]
+      },
+      {
+        "song_title": "Watch What Happens",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From The Umbrellas Of Cherbourg (original French Title- Les Parapluies De Cherbourg) - Watch What Happens.pdf",
+        "file_size_bytes": 115741,
+        "page_range": [
+          414,
+          417
+        ]
+      },
+      {
+        "song_title": "THE WAY YOU LOOK TONIGHT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Words By Dorothy Fields, Music By Jerome Kern - The Way You Look Tonight.pdf",
+        "file_size_bytes": 107143,
+        "page_range": [
+          417,
+          420
+        ]
+      },
+      {
+        "song_title": "What a Wonderful World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/George David Weiss And Bob Thiele - What A Wonderful World.pdf",
+        "file_size_bytes": 128619,
+        "page_range": [
+          420,
+          424
+        ]
+      },
+      {
+        "song_title": "WHEN YOU WISH UPON A STAR",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Walt Disney's Pinocchio - When You Wish Upon A Star.pdf",
+        "file_size_bytes": 111942,
+        "page_range": [
+          424,
+          427
+        ]
+      },
+      {
+        "song_title": "You Must Love Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Andrew Lloyd Webber - You Must Love Me.pdf",
+        "file_size_bytes": 92069,
+        "page_range": [
+          427,
+          430
+        ]
+      },
+      {
+        "song_title": "WHERE DO I BEGIN (Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Words By Carl Sigman, Music By Francis Lai - Where Do I Begin (love Theme).pdf",
+        "file_size_bytes": 120196,
+        "page_range": [
+          430,
+          434
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/John Lennon And Paul Mccartney - Yellow Submarine.pdf",
+        "file_size_bytes": 107391,
+        "page_range": [
+          434,
+          438
+        ]
+      },
+      {
+        "song_title": "You'll Be In My Heart (Pop Version)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/Phil Collins - You'll Be In My Heart (pop Version).pdf",
+        "file_size_bytes": 239426,
+        "page_range": [
+          438,
+          445
+        ]
+      },
+      {
+        "song_title": "Zip-a-dee-doo-dah",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - 100 Of The Best Movie Songs Ever/Songs/From Walt Disney's Song Of The South - Zip-a-dee-doo-dah.pdf",
+        "file_size_bytes": 389281,
+        "page_range": [
+          445,
+          449
+        ]
+      }
+    ]
+  }
+}

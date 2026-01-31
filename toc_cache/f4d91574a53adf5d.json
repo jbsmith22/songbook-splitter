@@ -1,0 +1,173 @@
+{
+  "book_id": "f4d91574a53adf5d",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Start of Something New",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical (troy, Gabriella, Company) - Start Of Something New.pdf",
+        "file_size_bytes": 730682,
+        "page_range": [
+          9,
+          26
+        ]
+      },
+      {
+        "song_title": "School Bell",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - School Bell.pdf",
+        "file_size_bytes": 769985,
+        "page_range": [
+          26,
+          49
+        ]
+      },
+      {
+        "song_title": "Sharpay Dials",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Sharpay Dials.pdf",
+        "file_size_bytes": 66836,
+        "page_range": [
+          49,
+          50
+        ]
+      },
+      {
+        "song_title": "The Plot Thickens",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - The Plot Thickens.pdf",
+        "file_size_bytes": 152747,
+        "page_range": [
+          50,
+          52
+        ]
+      },
+      {
+        "song_title": "Detention",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Detention.pdf",
+        "file_size_bytes": 1857251,
+        "page_range": [
+          52,
+          107
+        ]
+      },
+      {
+        "song_title": "I Can't Take My Eyes Off of You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical (troy, Gabriella) - I Can't Take My Eyes Off Of You.pdf",
+        "file_size_bytes": 836287,
+        "page_range": [
+          107,
+          132
+        ]
+      },
+      {
+        "song_title": "Taylor's Cell",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Taylor's Cell.pdf",
+        "file_size_bytes": 55664,
+        "page_range": [
+          132,
+          133
+        ]
+      },
+      {
+        "song_title": "When There Was Me and You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/(from Disney's High School Musical - Troy, Gabriella, Jocks, Braniacs) - When There Was Me And You.pdf",
+        "file_size_bytes": 424644,
+        "page_range": [
+          133,
+          148
+        ]
+      },
+      {
+        "song_title": "Boom Box / Theater",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Boom Box - Theater.pdf",
+        "file_size_bytes": 557149,
+        "page_range": [
+          148,
+          157
+        ]
+      },
+      {
+        "song_title": "We're All in This Together",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/(chad, Taylor, Kelsi, Martha, Jocks, Braniacs) - We're All In This Together.pdf",
+        "file_size_bytes": 286245,
+        "page_range": [
+          157,
+          167
+        ]
+      },
+      {
+        "song_title": "Bumpy Ride",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Bumpy Ride.pdf",
+        "file_size_bytes": 547086,
+        "page_range": [
+          167,
+          181
+        ]
+      },
+      {
+        "song_title": "In the Theater",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - In The Theater.pdf",
+        "file_size_bytes": 88850,
+        "page_range": [
+          181,
+          182
+        ]
+      },
+      {
+        "song_title": "Kelsi Tries",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Kelsi Tries.pdf",
+        "file_size_bytes": 434373,
+        "page_range": [
+          182,
+          196
+        ]
+      },
+      {
+        "song_title": "Wildcat Vamp",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Wildcat Vamp.pdf",
+        "file_size_bytes": 155130,
+        "page_range": [
+          196,
+          199
+        ]
+      },
+      {
+        "song_title": "We're All in This Together (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - We're All In This Together (reprise).pdf",
+        "file_size_bytes": 895128,
+        "page_range": [
+          199,
+          235
+        ]
+      },
+      {
+        "song_title": "Exit Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Exit Music.pdf",
+        "file_size_bytes": 275161,
+        "page_range": [
+          235,
+          242
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "book_id": "70cfe4a99b84bd42",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "BELL BOY",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CUT MY HAIR",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE DIRTY JOBS",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DR. JIMMY",
+        "page_number": 113,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DROWNED",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "5:15",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HELPLESS DANCER",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I AM THE SEA",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'M ONE (At Least)",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IS IT IN MY HEAD",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'VE HAD ENOUGH",
+        "page_number": 71,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE, REIGN O'ER ME",
+        "page_number": 137,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE PUNK MEETS THE GODFATHER",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "QUADROPHENIA",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE REAL ME",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE ROCK",
+        "page_number": 126,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SEA AND SAND",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

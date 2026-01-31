@@ -1,0 +1,206 @@
+{
+  "book_id": "beatles-live-at-the-hollywood-bowl",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "ALL MY LOVING",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BOYS",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CAN'T BUY ME LOVE",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DIZZY MISS LIZZIE",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A HARD DAY'S NIGHT",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HELP!",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LONG TALL SALLY",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHE LOVES YOU",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHE'S A WOMAN",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THINGS WE SAID TODAY",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TICKET TO RIDE",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TWIST AND SHOUT",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "TWIST AND SHOUT",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - Twist And Shout.pdf",
+        "file_size_bytes": 46630,
+        "page_range": [
+          8,
+          9
+        ]
+      },
+      {
+        "song_title": "DIZZY MISS LIZZIE",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - Dizzy Miss Lizzie.pdf",
+        "file_size_bytes": 104395,
+        "page_range": [
+          9,
+          11
+        ]
+      },
+      {
+        "song_title": "TICKET TO RIDE",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - Ticket To Ride.pdf",
+        "file_size_bytes": 106025,
+        "page_range": [
+          11,
+          13
+        ]
+      },
+      {
+        "song_title": "CAN'T BUY ME LOVE",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - Can't Buy Me Love.pdf",
+        "file_size_bytes": 118744,
+        "page_range": [
+          13,
+          15
+        ]
+      },
+      {
+        "song_title": "SHE'S A WOMAN",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - She's A Woman.pdf",
+        "file_size_bytes": 128730,
+        "page_range": [
+          15,
+          18
+        ]
+      },
+      {
+        "song_title": "THINGS WE SAID TODAY",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - Things We Said Today.pdf",
+        "file_size_bytes": 146729,
+        "page_range": [
+          18,
+          21
+        ]
+      },
+      {
+        "song_title": "BOYS",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - Boys.pdf",
+        "file_size_bytes": 105643,
+        "page_range": [
+          21,
+          23
+        ]
+      },
+      {
+        "song_title": "A HARD DAY'S NIGHT",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Famous Song Title -a Hard Day's Night-, This Appears To Be Sheet Music From The Beatles - A Hard Day's Night.pdf",
+        "file_size_bytes": 96434,
+        "page_range": [
+          23,
+          25
+        ]
+      },
+      {
+        "song_title": "HELP!",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - Help!.pdf",
+        "file_size_bytes": 115291,
+        "page_range": [
+          25,
+          27
+        ]
+      },
+      {
+        "song_title": "ALL MY LOVING",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - All My Loving.pdf",
+        "file_size_bytes": 88043,
+        "page_range": [
+          27,
+          29
+        ]
+      },
+      {
+        "song_title": "LONG TALL SALLY",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - Long Tall Sally.pdf",
+        "file_size_bytes": 102500,
+        "page_range": [
+          29,
+          31
+        ]
+      },
+      {
+        "song_title": "SHE LOVES YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Live At The Hollywood Bowl/Songs/Unknown Artist - She Loves You.pdf",
+        "file_size_bytes": 320814,
+        "page_range": [
+          31,
+          36
+        ]
+      }
+    ]
+  }
+}

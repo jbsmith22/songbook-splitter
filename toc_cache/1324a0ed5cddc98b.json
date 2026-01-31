@@ -1,0 +1,123 @@
+{
+  "book_id": "1324a0ed5cddc98b",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "AND I LOVE YOU SO",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Don Mclean - And I Love You So.pdf",
+        "file_size_bytes": 296612,
+        "page_range": [
+          1,
+          7
+        ]
+      },
+      {
+        "song_title": "Diana",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Unknown Artist - Diana.pdf",
+        "file_size_bytes": 592116,
+        "page_range": [
+          7,
+          13
+        ]
+      },
+      {
+        "song_title": "I Left My Heart in San Francisco",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Words By Douglass Cross, Music By George Cory - I Left My Heart In San Francisco.pdf",
+        "file_size_bytes": 251698,
+        "page_range": [
+          13,
+          18
+        ]
+      },
+      {
+        "song_title": "I WON'T LAST A DAY WITHOUT YOU",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Paul Williams And Roger Nichols - I Won't Last A Day Without You.pdf",
+        "file_size_bytes": 981556,
+        "page_range": [
+          18,
+          35
+        ]
+      },
+      {
+        "song_title": "Let Me Try Again",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Paul Anka, David Appell, Elly Stone - Let Me Try Again.pdf",
+        "file_size_bytes": 3049634,
+        "page_range": [
+          35,
+          78
+        ]
+      },
+      {
+        "song_title": "Speak Softly, Love (Love Theme)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/From The Paramount Picture The Godfather - Speak Softly, Love (love Theme).pdf",
+        "file_size_bytes": 106276,
+        "page_range": [
+          78,
+          80
+        ]
+      },
+      {
+        "song_title": "Stardust",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Mitchell Parish (words), Jeremy Zampardi (music) - Stardust.pdf",
+        "file_size_bytes": 368476,
+        "page_range": [
+          80,
+          93
+        ]
+      },
+      {
+        "song_title": "Tenderly",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/From Torch Song - Tenderly.pdf",
+        "file_size_bytes": 289254,
+        "page_range": [
+          93,
+          98
+        ]
+      },
+      {
+        "song_title": "THE FIRST TIME EVER I SAW YOUR FACE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Ewan Maccoll - The First Time Ever I Saw Your Face.pdf",
+        "file_size_bytes": 603791,
+        "page_range": [
+          98,
+          110
+        ]
+      },
+      {
+        "song_title": "True Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Cole Porter - True Love.pdf",
+        "file_size_bytes": 404357,
+        "page_range": [
+          110,
+          119
+        ]
+      },
+      {
+        "song_title": "Until It's Time for You to Go",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Oldies But Goodies/Songs/Buffy Sainte-marie - Until It's Time For You To Go.pdf",
+        "file_size_bytes": 1331393,
+        "page_range": [
+          119,
+          144
+        ]
+      }
+    ]
+  }
+}

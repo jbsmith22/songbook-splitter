@@ -1,0 +1,283 @@
+{
+  "book_id": "2287538da1b0c0b5",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Desperado",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Desperado.pdf",
+        "file_size_bytes": 2806722,
+        "page_range": [
+          56,
+          86
+        ]
+      },
+      {
+        "song_title": "Desperado Part II",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Desperado Part Ii.pdf",
+        "file_size_bytes": 302814,
+        "page_range": [
+          86,
+          89
+        ]
+      },
+      {
+        "song_title": "Doolin-Dalton Part II",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Doolin-dalton Part Ii.pdf",
+        "file_size_bytes": 296173,
+        "page_range": [
+          89,
+          92
+        ]
+      },
+      {
+        "song_title": "Outlaw Man",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Outlaw Man.pdf",
+        "file_size_bytes": 1929786,
+        "page_range": [
+          92,
+          112
+        ]
+      },
+      {
+        "song_title": "Saturday Night",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Saturday Night.pdf",
+        "file_size_bytes": 477042,
+        "page_range": [
+          112,
+          117
+        ]
+      },
+      {
+        "song_title": "The Best of My Love",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - The Best Of My Love.pdf",
+        "file_size_bytes": 1616490,
+        "page_range": [
+          117,
+          134
+        ]
+      },
+      {
+        "song_title": "Already Gone",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Already Gone.pdf",
+        "file_size_bytes": 1102196,
+        "page_range": [
+          134,
+          145
+        ]
+      },
+      {
+        "song_title": "You Never Cry Like a Lover",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - You Never Cry Like A Lover.pdf",
+        "file_size_bytes": 2243727,
+        "page_range": [
+          145,
+          168
+        ]
+      },
+      {
+        "song_title": "Lyin' Eyes",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Lyin' Eyes.pdf",
+        "file_size_bytes": 809355,
+        "page_range": [
+          168,
+          178
+        ]
+      },
+      {
+        "song_title": "Take It to the Limit",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Take It To The Limit.pdf",
+        "file_size_bytes": 561918,
+        "page_range": [
+          178,
+          184
+        ]
+      },
+      {
+        "song_title": "Hollywood Waltz",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Hollywood Waltz.pdf",
+        "file_size_bytes": 250962,
+        "page_range": [
+          184,
+          187
+        ]
+      },
+      {
+        "song_title": "Too Many Hands",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Too Many Hands.pdf",
+        "file_size_bytes": 254699,
+        "page_range": [
+          187,
+          190
+        ]
+      },
+      {
+        "song_title": "Visions",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Visions.pdf",
+        "file_size_bytes": 1435059,
+        "page_range": [
+          190,
+          206
+        ]
+      },
+      {
+        "song_title": "New Kid in Town",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - New Kid In Town.pdf",
+        "file_size_bytes": 1918098,
+        "page_range": [
+          206,
+          226
+        ]
+      },
+      {
+        "song_title": "Victim of Love",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Victim Of Love.pdf",
+        "file_size_bytes": 1422222,
+        "page_range": [
+          226,
+          240
+        ]
+      },
+      {
+        "song_title": "Try and Love Again",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Try And Love Again.pdf",
+        "file_size_bytes": 283884,
+        "page_range": [
+          240,
+          243
+        ]
+      },
+      {
+        "song_title": "Heartache Tonight",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Heartache Tonight.pdf",
+        "file_size_bytes": 1086443,
+        "page_range": [
+          243,
+          254
+        ]
+      },
+      {
+        "song_title": "I Can't Tell You Why",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - I Can't Tell You Why.pdf",
+        "file_size_bytes": 415139,
+        "page_range": [
+          254,
+          258
+        ]
+      },
+      {
+        "song_title": "In the City",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - In The City.pdf",
+        "file_size_bytes": 382762,
+        "page_range": [
+          258,
+          262
+        ]
+      },
+      {
+        "song_title": "The Disco Strangler",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - The Disco Strangler.pdf",
+        "file_size_bytes": 717243,
+        "page_range": [
+          262,
+          270
+        ]
+      },
+      {
+        "song_title": "King of Hollywood",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - King Of Hollywood.pdf",
+        "file_size_bytes": 569489,
+        "page_range": [
+          270,
+          276
+        ]
+      },
+      {
+        "song_title": "Those Shoes",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Those Shoes.pdf",
+        "file_size_bytes": 1265551,
+        "page_range": [
+          276,
+          289
+        ]
+      },
+      {
+        "song_title": "Seven Bridges Road",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Seven Bridges Road.pdf",
+        "file_size_bytes": 838619,
+        "page_range": [
+          289,
+          298
+        ]
+      },
+      {
+        "song_title": "DOOLIN DALTON (REPRISE II)",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Doolin Dalton (reprise Ii).pdf",
+        "file_size_bytes": 1532318,
+        "page_range": [
+          298,
+          315
+        ]
+      },
+      {
+        "song_title": "Learn to Be Still",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Learn To Be Still.pdf",
+        "file_size_bytes": 400415,
+        "page_range": [
+          315,
+          320
+        ]
+      },
+      {
+        "song_title": "Love Will Keep Us Alive",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - Love Will Keep Us Alive.pdf",
+        "file_size_bytes": 390823,
+        "page_range": [
+          320,
+          325
+        ]
+      },
+      {
+        "song_title": "New York Minute",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - New Eagles Complete/Songs/Eagles - New York Minute.pdf",
+        "file_size_bytes": 709085,
+        "page_range": [
+          325,
+          332
+        ]
+      }
+    ]
+  }
+}

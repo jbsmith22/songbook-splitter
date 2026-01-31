@@ -1,0 +1,213 @@
+{
+  "book_id": "broadway-shows-various-artists-wizard-of-oz-rsc-piano-conductor",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Trouble in School (Swingin' Entrance)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Trouble In School (swingin' Entrance).pdf",
+        "file_size_bytes": 269141,
+        "page_range": [
+          5,
+          7
+        ]
+      },
+      {
+        "song_title": "Over the Rainbow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Over The Rainbow.pdf",
+        "file_size_bytes": 1173828,
+        "page_range": [
+          7,
+          15
+        ]
+      },
+      {
+        "song_title": "Cyclone",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Cyclone.pdf",
+        "file_size_bytes": 2169084,
+        "page_range": [
+          15,
+          28
+        ]
+      },
+      {
+        "song_title": "I'M NOT A WITCH (INCIDENTAL)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - I'm Not A Witch (incidental).pdf",
+        "file_size_bytes": 3471488,
+        "page_range": [
+          28,
+          52
+        ]
+      },
+      {
+        "song_title": "Yellow Brick Road",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/(markings Including -tub-thumping, Stompers & Prancers- Suggest This May Be Related To The Band Madness, But There Is No Definitive Artist Name Listed) - Yellow Brick Road.pdf",
+        "file_size_bytes": 3090813,
+        "page_range": [
+          52,
+          73
+        ]
+      },
+      {
+        "song_title": "Bavaroise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Bavaroise.pdf",
+        "file_size_bytes": 416926,
+        "page_range": [
+          73,
+          76
+        ]
+      },
+      {
+        "song_title": "Witch on Roof",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Witch On Roof.pdf",
+        "file_size_bytes": 170367,
+        "page_range": [
+          76,
+          77
+        ]
+      },
+      {
+        "song_title": "We're Off to See the Wizard",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/(trad.) - We're Off To See The Wizard.pdf",
+        "file_size_bytes": 305604,
+        "page_range": [
+          77,
+          79
+        ]
+      },
+      {
+        "song_title": "Lions, Tigers and Bears",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Brahms, Khachaturian, Trnian - Lions, Tigers And Bears.pdf",
+        "file_size_bytes": 7455662,
+        "page_range": [
+          79,
+          128
+        ]
+      },
+      {
+        "song_title": "King of the Forest",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - King Of The Forest.pdf",
+        "file_size_bytes": 1220655,
+        "page_range": [
+          128,
+          136
+        ]
+      },
+      {
+        "song_title": "At the Great Door to Wizards' Quarter",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - At The Great Door To Wizards' Quarter.pdf",
+        "file_size_bytes": 291951,
+        "page_range": [
+          136,
+          138
+        ]
+      },
+      {
+        "song_title": "Maria Conga Chords",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Maria Conga Chords.pdf",
+        "file_size_bytes": 604397,
+        "page_range": [
+          138,
+          142
+        ]
+      },
+      {
+        "song_title": "Winkies Exit",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/(winkies) - Winkies Exit.pdf",
+        "file_size_bytes": 1416862,
+        "page_range": [
+          142,
+          152
+        ]
+      },
+      {
+        "song_title": "Pool Child",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Pool Child.pdf",
+        "file_size_bytes": 1398860,
+        "page_range": [
+          152,
+          161
+        ]
+      },
+      {
+        "song_title": "Carries Interlude",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Carries Interlude.pdf",
+        "file_size_bytes": 1523042,
+        "page_range": [
+          161,
+          170
+        ]
+      },
+      {
+        "song_title": "Unekees Deezhoo Weegens I Keeree Kankow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/(no Clear Artist Name Provided) - Unekees Deezhoo Weegens I Keeree Kankow.pdf",
+        "file_size_bytes": 1658204,
+        "page_range": [
+          170,
+          180
+        ]
+      },
+      {
+        "song_title": "Balloon Ascension No. 1",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Balloon Ascension No. 1.pdf",
+        "file_size_bytes": 1222156,
+        "page_range": [
+          180,
+          187
+        ]
+      },
+      {
+        "song_title": "Bow & Plowshut Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/(ambiguous For Nat'l Casting) - Bow & Plowshut Music.pdf",
+        "file_size_bytes": 303261,
+        "page_range": [
+          187,
+          189
+        ]
+      },
+      {
+        "song_title": "Ninnenane Folk",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/Unknown Artist - Ninnenane Folk.pdf",
+        "file_size_bytes": 1395679,
+        "page_range": [
+          189,
+          198
+        ]
+      },
+      {
+        "song_title": "Peg Longo",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/The Brad Mehldau Trio - Peg Longo.pdf",
+        "file_size_bytes": 313820,
+        "page_range": [
+          198,
+          200
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "book_id": "elton-john-sleeping-with-the-past",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Durban deep",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Go - in' down",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Durban deep",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Sleeping With The Past/Songs/Elton John & Taupin - Durban Deep.pdf",
+        "file_size_bytes": 22306069,
+        "page_range": [
+          0,
+          42
+        ]
+      }
+    ]
+  }
+}

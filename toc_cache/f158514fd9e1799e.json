@@ -1,0 +1,43 @@
+{
+  "book_id": "f158514fd9e1799e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "One of the Brightest Stars",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/James Blunt - All The Lost Souls [book]/Songs/James Blunt - One Of The Brightest Stars.pdf",
+        "file_size_bytes": 936380,
+        "page_range": [
+          7,
+          11
+        ]
+      },
+      {
+        "song_title": "I'll Take Everything",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/James Blunt - All The Lost Souls [book]/Songs/James Blunt - I'll Take Everything.pdf",
+        "file_size_bytes": 11652723,
+        "page_range": [
+          11,
+          57
+        ]
+      },
+      {
+        "song_title": "I Can't Hear the Music",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/James Blunt - All The Lost Souls [book]/Songs/James Blunt - I Can't Hear The Music.pdf",
+        "file_size_bytes": 1484395,
+        "page_range": [
+          57,
+          63
+        ]
+      }
+    ]
+  }
+}

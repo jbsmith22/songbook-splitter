@@ -1,0 +1,169 @@
+=== S3 vs Local Comparison Report ===
+Generated: 2026-01-27 00:41:17
+S3 Bucket: jsmith-output
+Local Directory: .\ProcessedSongs
+
+Local Songs: 11811
+
+S3 Songs: 14237
+
+=== SUMMARY ===
+Total in S3: 14237
+Total Local: 11811
+Missing (in S3, not local): 2436
+Extra (in local, not S3): 10
+
+=== MISSING SONGS (in S3, not local) ===
+
+_broadway Shows: 64 songs (28.77 MB)
+_movie And Tv: 13 songs (13.34 MB)
+Acdc: 3 songs (12.21 MB)
+Aerosmith: 7 songs (15.28 MB)
+Allman Brothers: 28 songs (78.98 MB)
+America: 11 songs (10.19 MB)
+Asia: 4 songs (5.33 MB)
+Avril Lavigne: 4 songs (21.69 MB)
+Barry Manilow: 33 songs (38.25 MB)
+Beatles: 851 songs (614.65 MB)
+Bee Gees: 1 songs (4.79 MB)
+Belinda Carlisle: 3 songs (5.45 MB)
+Ben Folds: 25 songs (11.2 MB)
+Billy Joel: 1 songs (7.46 MB)
+Billy Ocean: 5 songs (3.19 MB)
+Black Eyed Peas: 10 songs (22.75 MB)
+Blues Brothers: 6 songs (3.04 MB)
+Bob Dylan: 199 songs (93.07 MB)
+Bob Seger: 4 songs (3.72 MB)
+Bon Jovi: 18 songs (13.95 MB)
+Bonnie Raitt: 8 songs (28.26 MB)
+Bonnie Tyler: 3 songs (4.64 MB)
+Bread: 3 songs (5.65 MB)
+Bruce Springsteen: 14 songs (37.24 MB)
+Buddy Holly: 9 songs (17.59 MB)
+Burl Ives: 60 songs (53.57 MB)
+Burt Bacharach: 48 songs (22.21 MB)
+Carole King: 94 songs (79.79 MB)
+Carpenters: 42 songs (168.19 MB)
+Cheap Trick: 1 songs (4.24 MB)
+Colbie Caillat: 1 songs (4.01 MB)
+Cole Porter: 34 songs (20.05 MB)
+Cream: 20 songs (13.14 MB)
+Creedence Clearwater Revival: 35 songs (24.97 MB)
+Crosby Stills And Nash: 11 songs (6.68 MB)
+Crowded House: 7 songs (18.42 MB)
+David Crosby: 1 songs (10.03 MB)
+Dire Straits: 21 songs (93.28 MB)
+Don Henley: 8 songs (56.34 MB)
+Doobie Brothers: 5 songs (26.23 MB)
+Doors: 10 songs (6.41 MB)
+Duran Duran: 12 songs (7.79 MB)
+Eagles: 40 songs (46.23 MB)
+Elo: 31 songs (108.25 MB)
+Elton John: 105 songs (269.03 MB)
+Elvis Costello: 19 songs (15.62 MB)
+Emerson Lake And Palmer: 10 songs (34.8 MB)
+Eric Clapton: 21 songs (40.82 MB)
+Fleetwood Mac: 43 songs (120.61 MB)
+Frank Zappa: 13 songs (43.85 MB)
+Fray: 2 songs (3.09 MB)
+Garth Brooks: 16 songs (51.44 MB)
+Genesis: 44 songs (114.4 MB)
+George Michael: 10 songs (26.16 MB)
+Grand Funk Railroad: 25 songs (40.7 MB)
+Harry Chapin: 2 songs (1.06 MB)
+Jackson Browne: 38 songs (65.92 MB)
+James Blunt: 4 songs (17.1 MB)
+James Taylor: 71 songs (113.89 MB)
+Jim Croce: 1 songs (6.39 MB)
+John Denver: 50 songs (47.26 MB)
+Joni Mitchell: 2 songs (1.24 MB)
+Journey: 53 songs (31.76 MB)
+Katy Perry: 6 songs (15.7 MB)
+Kelly Clarkson: 4 songs (3.05 MB)
+Kinks: 14 songs (13.46 MB)
+Lynyrd Skynyrd: 6 songs (19.93 MB)
+Meatloaf: 2 songs (8.78 MB)
+Michael Jackson: 16 songs (50.97 MB)
+Neil Diamond: 15 songs (10.23 MB)
+Neil Young: 15 songs (34.08 MB)
+Paul Mccartney: 12 songs (31.16 MB)
+Pink Floyd: 2 songs (0.25 MB)
+Various Artists: 6 songs (6.56 MB)
+Vince Guaraldi: 1 songs (0.29 MB)
+
+First 50 missing files:
+  Beatles/Beatles - Complete Scores (2)/Songs/Beatles - All My Loving.pdf
+  Beatles/Beatles - Complete Scores/Songs/Beatles - Octopus's Garden.pdf
+  Don Henley/Don Henley - The End Of The Innocence [pvg Book]/Songs/Don Henley - New York Minute.pdf
+  Beatles/Beatles - Essential Songs/Songs/Beatles - Let It Be.pdf
+  Burl Ives/Burl Ives - Song Book/Songs/Burl Ives - Away, Rio.pdf
+  Carole King/Carole King - Classics (3)/Songs/Carole King - I Can't Stop Talkin' About You.pdf
+  Beatles/Beatles - Fake Songbook (guitar)/Songs/Beatles - Run For Your Life.pdf
+  Journey/Journey - Complete Songbook/Songs/Journey - Any Way You Want It.pdf
+  Beatles/Beatles - Songbook/Songs/Beatles - Good Night.pdf
+  Beatles/Beatles - Complete Scores (2)/Songs/Beatles - You're Going To Lose That Girl.pdf
+  Beatles/Beatles - All Songs 1962-1974/Songs/Beatles - All My Loving.pdf
+  Fleetwood Mac/Fleetwood Mac - Anthology/Songs/Fleetwood Mac - Gold Dust Woman.pdf
+  Beatles/Beatles - Complete Scores/Songs/Beatles - The Night Before.pdf
+  Journey/Journey - Complete Songbook/Songs/Journey - Lovin' You Is Easy.pdf
+  Elton John/Elton John - The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Bad Side Of The Moon.pdf
+  Burl Ives/Burl Ives - Song Book/Songs/Burl Ives - What A Court Hath Old England.pdf
+  Beatles/Beatles - Anthology/Songs/Beatles - I Want You.pdf
+  Beatles/Beatles - Abbey Road Guitar Recorded Version/Songs/Beatles - The End.pdf
+  Beatles/Beatles - Complete Scores/Songs/Beatles - Julia.pdf
+  Beatles/Beatles - Complete Scores (2)/Songs/Beatles - From Me To You.pdf
+  Beatles/Beatles - Complete Scores (2)/Songs/Beatles - Mean Mr. Mustard.pdf
+  Beatles/Beatles - Complete Scores (2)/Songs/Beatles - I've Just Seen A Face.pdf
+  Beatles/Beatles - Songbook/Songs/Beatles - She Came In Through The Bathroom Window.pdf
+  Frank Zappa/Frank Zappa - Songbook Vol 1/Songs/Frank Zappa - Oh No.pdf
+  Bob Dylan/Bob Dylan - Collection/Songs/Bob Dylan - Rainy Day Women #12 & 35.pdf
+  Bob Dylan/Bob Dylan - Anthology 2/Songs/Bob Dylan - I Believe In You.pdf
+  _broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les MisTrables - 2.i Dreamed A Dream(e).pdf
+  Beatles/Beatles - Complete Scores/Songs/Beatles - You've Got To Hide Your Love Away.pdf
+  Beatles/Beatles - All Songs 1962-1974/Songs/Beatles - I Will.pdf
+  Buddy Holly/Buddy Holly - Golden Anniversary Songbook/Songs/Buddy Holly - True Love Ways.pdf
+  James Taylor/James Taylor - Classic [guitar]/Songs/James Taylor - Walking Man.pdf
+  Journey/Journey - Complete Songbook/Songs/Journey - Anytime.pdf
+  Beatles/Beatles - Fake Songbook (guitar)/Songs/Beatles - You Can't Do That.pdf
+  Ben Folds/Ben Folds Five - Rockin' The Suburbs/Songs/Ben Folds - Rockin' The Suburbs.pdf
+  Elo/Elo - Discovery [pvg Book]/Songs/Elo - Last Train To London.pdf
+  Carole King/Carole King - Classics/Songs/Carole King - Believe In Humanity.pdf
+  Jackson Browne/Jackson Browne - Deluxe Anthology/Songs/Jackson Browne - Take It Easy.pdf
+  Duran Duran/Duran Duran - Decade [pvg Book]/Songs/Duran Duran - I Don't Want Your Love.pdf
+  Kinks/Kinks - Best Of [score]/Songs/Kinks - You Still Want Me.pdf
+  Elton John/Elton John - The Ultimate Collection Vol. 1/Songs/Elton John, Bernie Taupin And Davey Johnstone - I Guess That's Why They Call It The Blues.pdf
+  Beatles/Beatles - All Songs 1962-1974/Songs/Beatles - Tip Of My Tongue.pdf
+  Beatles/Beatles - Fake Songbook (guitar)/Songs/Beatles - Hey Bulldog.pdf
+  Beatles/Beatles - Fake Songbook (guitar)/Songs/Beatles - Help.pdf
+  James Taylor/James Taylor - James Taylor Songbook/Songs/James Taylor - Shower The People.pdf
+  Burt Bacharach/Burt Bacharach - 40 Golden Songs Of/Songs/Burt Bacharach - I'm A Better Man.pdf
+  Bob Dylan/Bob Dylan - Songbook/Songs/Bob Dylan - I And I.pdf
+  Creedence Clearwater Revival/Creedence Clearwater Revival - Best Of/Songs/Creedence Clearwater Revival - Travelin Band.pdf
+  Carole King/Carole King - Tapestry/Songs/Carole King - Way Over Yonder.pdf
+  Eric Clapton/Eric Clapton - Derek And The Dominos [book]/Songs/Eric Clapton - Have You Ever Loved A Woman.pdf
+  Cream/Cream - Cream Complete/Songs/Cream - We're Going Wrong.pdf
+  ... and 2386 more
+
+=== EXTRA SONGS (in local, not S3) ===
+
+Black Eyed Peas: 2 songs (2.51 MB)
+Bob Dylan: 1 songs (0 MB)
+Carole King: 2 songs (0.47 MB)
+Crosby Stills And Nash: 1 songs (0.69 MB)
+Doors: 1 songs (0.38 MB)
+Pink Floyd: 2 songs (0.25 MB)
+Vince Guaraldi: 1 songs (0.29 MB)
+
+First 50 extra files:
+  Pink Floyd/Anthology (book)/Songs/Pink Floyd - Another Brick In The Wall – Part 2.pdf
+  Doors/Anthology/Songs/The Doors (based On The Copyright Line -© Doors Music Company Ltd.-) - Light My Fire.pdf
+  Black Eyed Peas/Elephunk [pvg Book]/Songs/Alan Pineda And Cesar Bañares - The Apl Song.pdf
+  Bob Dylan/Songbook/Songs/Bob Dylan - Señor (tales Of Yankee Power).pdf
+  Black Eyed Peas/Elephunk [pvg Book]/Songs/Antonio Carlos Jobim And Vinícius De Moraes - Sexy.pdf
+  Pink Floyd/Anthology [pvg]/Songs/Pink Floyd - Another Brick In The Wall – Part 2.pdf
+  Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Gregory - Déjà Vu.pdf
+  Vince Guaraldi/The Vince Guaraldi Collection/Songs/Luiz Bonfá - Manha De Carnaval.pdf
+  Carole King/Classics (3)/Songs/Carlos Rincó - Corazón.pdf
+  Carole King/Classics (2)/Songs/Carlos Rincó - Corazón.pdf
+
+=== END OF REPORT ===

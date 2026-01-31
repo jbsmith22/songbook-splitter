@@ -1,0 +1,53 @@
+{
+  "book_id": "3cf725e77bf69c31",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Introduction",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Peaches En Regalia",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Willie The Pimp",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Son Of Mr. Green Genes",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Umbrellas",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Gumbo Variations",
+        "page_number": 45,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It Must Be A Camel",
+        "page_number": 65,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

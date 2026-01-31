@@ -1,0 +1,973 @@
+{
+  "book_id": "beatles-essential-songs",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "All My Loving",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - All My Loving.pdf",
+        "file_size_bytes": 129373,
+        "page_range": [
+          3,
+          7
+        ]
+      },
+      {
+        "song_title": "All You Need Is Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - All You Need Is Love.pdf",
+        "file_size_bytes": 195317,
+        "page_range": [
+          7,
+          12
+        ]
+      },
+      {
+        "song_title": "The Ballad of John and Yoko",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - The Ballad Of John And Yoko.pdf",
+        "file_size_bytes": 192990,
+        "page_range": [
+          12,
+          17
+        ]
+      },
+      {
+        "song_title": "And I Love Her",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - And I Love Her.pdf",
+        "file_size_bytes": 125996,
+        "page_range": [
+          17,
+          21
+        ]
+      },
+      {
+        "song_title": "Baby You're a Rich Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Baby You're A Rich Man.pdf",
+        "file_size_bytes": 130224,
+        "page_range": [
+          21,
+          25
+        ]
+      },
+      {
+        "song_title": "Baby's in Black",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Baby's In Black.pdf",
+        "file_size_bytes": 145273,
+        "page_range": [
+          25,
+          29
+        ]
+      },
+      {
+        "song_title": "Back in the U.S.S.R.",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Back In The U.s.s.r.pdf",
+        "file_size_bytes": 123151,
+        "page_range": [
+          29,
+          33
+        ]
+      },
+      {
+        "song_title": "Because",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Because.pdf",
+        "file_size_bytes": 107835,
+        "page_range": [
+          33,
+          36
+        ]
+      },
+      {
+        "song_title": "Being for the Benefit of Mr. Kite",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Being For The Benefit Of Mr. Kite.pdf",
+        "file_size_bytes": 164782,
+        "page_range": [
+          36,
+          41
+        ]
+      },
+      {
+        "song_title": "Blackbird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Blackbird.pdf",
+        "file_size_bytes": 155697,
+        "page_range": [
+          41,
+          45
+        ]
+      },
+      {
+        "song_title": "Can't Buy Me Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Can't Buy Me Love.pdf",
+        "file_size_bytes": 133165,
+        "page_range": [
+          45,
+          49
+        ]
+      },
+      {
+        "song_title": "Carry That Weight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Carry That Weight.pdf",
+        "file_size_bytes": 98684,
+        "page_range": [
+          49,
+          52
+        ]
+      },
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Come Together.pdf",
+        "file_size_bytes": 108019,
+        "page_range": [
+          52,
+          55
+        ]
+      },
+      {
+        "song_title": "A Day in the Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - A Day In The Life.pdf",
+        "file_size_bytes": 223378,
+        "page_range": [
+          55,
+          61
+        ]
+      },
+      {
+        "song_title": "Day Tripper",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Day Tripper.pdf",
+        "file_size_bytes": 127204,
+        "page_range": [
+          61,
+          65
+        ]
+      },
+      {
+        "song_title": "Drive My Car",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Drive My Car.pdf",
+        "file_size_bytes": 115624,
+        "page_range": [
+          65,
+          68
+        ]
+      },
+      {
+        "song_title": "Eleanor Rigby",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Eleanor Rigby.pdf",
+        "file_size_bytes": 92509,
+        "page_range": [
+          68,
+          71
+        ]
+      },
+      {
+        "song_title": "Eight Days a Week",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Eight Days A Week.pdf",
+        "file_size_bytes": 132999,
+        "page_range": [
+          71,
+          75
+        ]
+      },
+      {
+        "song_title": "Fixing a Hole",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Fixing A Hole.pdf",
+        "file_size_bytes": 169727,
+        "page_range": [
+          75,
+          80
+        ]
+      },
+      {
+        "song_title": "The Fool on the Hill",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Song Title, It Appears To Be A Composition By John Lennon And Paul Mccartney Of The Beatles - The Fool On The Hill.pdf",
+        "file_size_bytes": 113078,
+        "page_range": [
+          80,
+          83
+        ]
+      },
+      {
+        "song_title": "For No One",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - For No One.pdf",
+        "file_size_bytes": 101613,
+        "page_range": [
+          83,
+          86
+        ]
+      },
+      {
+        "song_title": "Get Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Get Back.pdf",
+        "file_size_bytes": 102203,
+        "page_range": [
+          86,
+          89
+        ]
+      },
+      {
+        "song_title": "FROM ME TO YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - From Me To You.pdf",
+        "file_size_bytes": 134554,
+        "page_range": [
+          89,
+          93
+        ]
+      },
+      {
+        "song_title": "Getting Better",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Getting Better.pdf",
+        "file_size_bytes": 145758,
+        "page_range": [
+          93,
+          97
+        ]
+      },
+      {
+        "song_title": "Good Day Sunshine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Good Day Sunshine.pdf",
+        "file_size_bytes": 117186,
+        "page_range": [
+          97,
+          100
+        ]
+      },
+      {
+        "song_title": "Good Night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Good Night.pdf",
+        "file_size_bytes": 109946,
+        "page_range": [
+          100,
+          103
+        ]
+      },
+      {
+        "song_title": "GOT TO GET YOU INTO MY LIFE",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Got To Get You Into My Life.pdf",
+        "file_size_bytes": 127034,
+        "page_range": [
+          103,
+          107
+        ]
+      },
+      {
+        "song_title": "A Hard Day's Night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - A Hard Day's Night.pdf",
+        "file_size_bytes": 171625,
+        "page_range": [
+          107,
+          112
+        ]
+      },
+      {
+        "song_title": "Hello, Goodbye",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Hello, Goodbye.pdf",
+        "file_size_bytes": 162430,
+        "page_range": [
+          112,
+          117
+        ]
+      },
+      {
+        "song_title": "Help!",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Help!.pdf",
+        "file_size_bytes": 127483,
+        "page_range": [
+          117,
+          121
+        ]
+      },
+      {
+        "song_title": "Helter Skelter",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Helter Skelter.pdf",
+        "file_size_bytes": 205959,
+        "page_range": [
+          121,
+          128
+        ]
+      },
+      {
+        "song_title": "Here Comes the Sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/George Harrison - Here Comes The Sun.pdf",
+        "file_size_bytes": 154548,
+        "page_range": [
+          128,
+          133
+        ]
+      },
+      {
+        "song_title": "Here, There and Everywhere",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Here, There And Everywhere.pdf",
+        "file_size_bytes": 138561,
+        "page_range": [
+          133,
+          137
+        ]
+      },
+      {
+        "song_title": "Hey Jude",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Hey Jude.pdf",
+        "file_size_bytes": 145315,
+        "page_range": [
+          137,
+          141
+        ]
+      },
+      {
+        "song_title": "Honey Pie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Honey Pie.pdf",
+        "file_size_bytes": 181051,
+        "page_range": [
+          141,
+          146
+        ]
+      },
+      {
+        "song_title": "I SHOULD HAVE KNOWN BETTER",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I Should Have Known Better.pdf",
+        "file_size_bytes": 162555,
+        "page_range": [
+          146,
+          151
+        ]
+      },
+      {
+        "song_title": "I AM THE WALRUS",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I Am The Walrus.pdf",
+        "file_size_bytes": 214698,
+        "page_range": [
+          151,
+          157
+        ]
+      },
+      {
+        "song_title": "I DON'T WANT TO SPOIL THE PARTY",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I Don't Want To Spoil The Party.pdf",
+        "file_size_bytes": 163693,
+        "page_range": [
+          157,
+          163
+        ]
+      },
+      {
+        "song_title": "I Feel Fine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I Feel Fine.pdf",
+        "file_size_bytes": 96223,
+        "page_range": [
+          163,
+          166
+        ]
+      },
+      {
+        "song_title": "Tu Coda",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/Unknown Artist - Tu Coda.pdf",
+        "file_size_bytes": 27731,
+        "page_range": [
+          166,
+          167
+        ]
+      },
+      {
+        "song_title": "I Saw Her Standing There",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I Saw Her Standing There.pdf",
+        "file_size_bytes": 196493,
+        "page_range": [
+          167,
+          173
+        ]
+      },
+      {
+        "song_title": "I WANT TO HOLD YOUR HAND",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I Want To Hold Your Hand.pdf",
+        "file_size_bytes": 142720,
+        "page_range": [
+          173,
+          177
+        ]
+      },
+      {
+        "song_title": "I Will",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I Will.pdf",
+        "file_size_bytes": 119428,
+        "page_range": [
+          177,
+          180
+        ]
+      },
+      {
+        "song_title": "I'LL FOLLOW THE SUN",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I'll Follow The Sun.pdf",
+        "file_size_bytes": 95602,
+        "page_range": [
+          180,
+          183
+        ]
+      },
+      {
+        "song_title": "I'll Cry Instead",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I'll Cry Instead.pdf",
+        "file_size_bytes": 129357,
+        "page_range": [
+          183,
+          187
+        ]
+      },
+      {
+        "song_title": "I'M A LOSER",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I'm A Loser.pdf",
+        "file_size_bytes": 95649,
+        "page_range": [
+          187,
+          190
+        ]
+      },
+      {
+        "song_title": "I'M LOOKING THROUGH YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I'm Looking Through You.pdf",
+        "file_size_bytes": 172776,
+        "page_range": [
+          190,
+          195
+        ]
+      },
+      {
+        "song_title": "I'm Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I'm Down.pdf",
+        "file_size_bytes": 137211,
+        "page_range": [
+          195,
+          199
+        ]
+      },
+      {
+        "song_title": "I'M HAPPY JUST TO DANCE WITH YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I'm Happy Just To Dance With You.pdf",
+        "file_size_bytes": 152826,
+        "page_range": [
+          199,
+          203
+        ]
+      },
+      {
+        "song_title": "I've Just Seen a Face",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - I've Just Seen A Face.pdf",
+        "file_size_bytes": 97823,
+        "page_range": [
+          203,
+          206
+        ]
+      },
+      {
+        "song_title": "Coda",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/Unknown Artist - Coda.pdf",
+        "file_size_bytes": 29979,
+        "page_range": [
+          206,
+          207
+        ]
+      },
+      {
+        "song_title": "If I Fell",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - If I Fell.pdf",
+        "file_size_bytes": 125030,
+        "page_range": [
+          207,
+          211
+        ]
+      },
+      {
+        "song_title": "In My Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - In My Life.pdf",
+        "file_size_bytes": 103542,
+        "page_range": [
+          211,
+          214
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Let It Be.pdf",
+        "file_size_bytes": 194609,
+        "page_range": [
+          214,
+          219
+        ]
+      },
+      {
+        "song_title": "It Won't Be Long",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - It Won't Be Long.pdf",
+        "file_size_bytes": 122261,
+        "page_range": [
+          219,
+          223
+        ]
+      },
+      {
+        "song_title": "Lady Madonna",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Lady Madonna.pdf",
+        "file_size_bytes": 131274,
+        "page_range": [
+          223,
+          227
+        ]
+      },
+      {
+        "song_title": "THE LONG AND WINDING ROAD",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - The Long And Winding Road.pdf",
+        "file_size_bytes": 140712,
+        "page_range": [
+          227,
+          231
+        ]
+      },
+      {
+        "song_title": "Love Me Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Love Me Do.pdf",
+        "file_size_bytes": 122107,
+        "page_range": [
+          231,
+          235
+        ]
+      },
+      {
+        "song_title": "Lovely Rita",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Lovely Rita.pdf",
+        "file_size_bytes": 178335,
+        "page_range": [
+          235,
+          240
+        ]
+      },
+      {
+        "song_title": "Martha My Dear",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Martha My Dear.pdf",
+        "file_size_bytes": 218677,
+        "page_range": [
+          240,
+          247
+        ]
+      },
+      {
+        "song_title": "Lucy in the Sky with Diamonds",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Lucy In The Sky With Diamonds.pdf",
+        "file_size_bytes": 141389,
+        "page_range": [
+          247,
+          251
+        ]
+      },
+      {
+        "song_title": "Magical Mystery Tour",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Magical Mystery Tour.pdf",
+        "file_size_bytes": 138771,
+        "page_range": [
+          251,
+          255
+        ]
+      },
+      {
+        "song_title": "MAXWELL'S SILVER HAMMER",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Maxwell's Silver Hammer.pdf",
+        "file_size_bytes": 143572,
+        "page_range": [
+          255,
+          259
+        ]
+      },
+      {
+        "song_title": "Michelle",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Michelle.pdf",
+        "file_size_bytes": 148571,
+        "page_range": [
+          259,
+          263
+        ]
+      },
+      {
+        "song_title": "The Night Before",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - The Night Before.pdf",
+        "file_size_bytes": 179782,
+        "page_range": [
+          263,
+          268
+        ]
+      },
+      {
+        "song_title": "Penny Lane",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Penny Lane.pdf",
+        "file_size_bytes": 192537,
+        "page_range": [
+          268,
+          273
+        ]
+      },
+      {
+        "song_title": "Norwegian Wood",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Norwegian Wood.pdf",
+        "file_size_bytes": 93107,
+        "page_range": [
+          273,
+          275
+        ]
+      },
+      {
+        "song_title": "Nowhere Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Nowhere Man.pdf",
+        "file_size_bytes": 143060,
+        "page_range": [
+          275,
+          279
+        ]
+      },
+      {
+        "song_title": "Ob-La-Di, Ob-La-Da",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Ob-la-di, Ob-la-da.pdf",
+        "file_size_bytes": 221171,
+        "page_range": [
+          279,
+          285
+        ]
+      },
+      {
+        "song_title": "Paperback Writer",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Paperback Writer.pdf",
+        "file_size_bytes": 137016,
+        "page_range": [
+          285,
+          289
+        ]
+      },
+      {
+        "song_title": "Please Please Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Please Please Me.pdf",
+        "file_size_bytes": 110477,
+        "page_range": [
+          289,
+          292
+        ]
+      },
+      {
+        "song_title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Sgt. Pepper's Lonely Hearts Club Band.pdf",
+        "file_size_bytes": 193679,
+        "page_range": [
+          292,
+          297
+        ]
+      },
+      {
+        "song_title": "P.S. I LOVE YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - P.s. I Love You.pdf",
+        "file_size_bytes": 133522,
+        "page_range": [
+          297,
+          301
+        ]
+      },
+      {
+        "song_title": "Revolution",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Revolution.pdf",
+        "file_size_bytes": 134219,
+        "page_range": [
+          301,
+          305
+        ]
+      },
+      {
+        "song_title": "She Came In Through The Bathroom Window",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - She Came In Through The Bathroom Window.pdf",
+        "file_size_bytes": 107865,
+        "page_range": [
+          305,
+          308
+        ]
+      },
+      {
+        "song_title": "She Loves You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - She Loves You.pdf",
+        "file_size_bytes": 167340,
+        "page_range": [
+          308,
+          313
+        ]
+      },
+      {
+        "song_title": "SOMETHING",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/George Harrison - Something.pdf",
+        "file_size_bytes": 107092,
+        "page_range": [
+          313,
+          316
+        ]
+      },
+      {
+        "song_title": "She's Leaving Home",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - She's Leaving Home.pdf",
+        "file_size_bytes": 172592,
+        "page_range": [
+          316,
+          321
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 135536,
+        "page_range": [
+          321,
+          325
+        ]
+      },
+      {
+        "song_title": "TAXMAN",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/George Harrison - Taxman.pdf",
+        "file_size_bytes": 151119,
+        "page_range": [
+          325,
+          330
+        ]
+      },
+      {
+        "song_title": "We Can Work It Out",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - We Can Work It Out.pdf",
+        "file_size_bytes": 113906,
+        "page_range": [
+          330,
+          333
+        ]
+      },
+      {
+        "song_title": "Tell Me Why",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Tell Me Why.pdf",
+        "file_size_bytes": 144092,
+        "page_range": [
+          333,
+          337
+        ]
+      },
+      {
+        "song_title": "Things We Said Today",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Things We Said Today.pdf",
+        "file_size_bytes": 146435,
+        "page_range": [
+          337,
+          341
+        ]
+      },
+      {
+        "song_title": "This Boy (Ringo's Theme)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - This Boy (ringo's Theme).pdf",
+        "file_size_bytes": 148907,
+        "page_range": [
+          341,
+          345
+        ]
+      },
+      {
+        "song_title": "Ticket to Ride",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Ticket To Ride.pdf",
+        "file_size_bytes": 141950,
+        "page_range": [
+          345,
+          349
+        ]
+      },
+      {
+        "song_title": "Twist and Shout",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/Bert Russell And Phil Medley - Twist And Shout.pdf",
+        "file_size_bytes": 140829,
+        "page_range": [
+          349,
+          353
+        ]
+      },
+      {
+        "song_title": "WHEN I'M SIXTY-FOUR",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - When I'm Sixty-four.pdf",
+        "file_size_bytes": 192834,
+        "page_range": [
+          353,
+          359
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/George Harrison - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 226158,
+        "page_range": [
+          359,
+          366
+        ]
+      },
+      {
+        "song_title": "Words of Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/Buddy Holly - Words Of Love.pdf",
+        "file_size_bytes": 91620,
+        "page_range": [
+          366,
+          369
+        ]
+      },
+      {
+        "song_title": "With a Little Help from My Friends",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - With A Little Help From My Friends.pdf",
+        "file_size_bytes": 157217,
+        "page_range": [
+          369,
+          373
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Yellow Submarine.pdf",
+        "file_size_bytes": 135577,
+        "page_range": [
+          373,
+          377
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - Yesterday.pdf",
+        "file_size_bytes": 97667,
+        "page_range": [
+          377,
+          380
+        ]
+      },
+      {
+        "song_title": "You Won't See Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - You Won't See Me.pdf",
+        "file_size_bytes": 176861,
+        "page_range": [
+          380,
+          385
+        ]
+      },
+      {
+        "song_title": "You Never Give Me Your Money",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - You Never Give Me Your Money.pdf",
+        "file_size_bytes": 213115,
+        "page_range": [
+          385,
+          391
+        ]
+      },
+      {
+        "song_title": "You've Got to Hide Your Love Away",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - You've Got To Hide Your Love Away.pdf",
+        "file_size_bytes": 115980,
+        "page_range": [
+          391,
+          395
+        ]
+      },
+      {
+        "song_title": "You're Going to Lose That Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - You're Going To Lose That Girl.pdf",
+        "file_size_bytes": 964820,
+        "page_range": [
+          395,
+          401
+        ]
+      }
+    ]
+  }
+}

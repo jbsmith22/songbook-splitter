@@ -1,0 +1,158 @@
+{
+  "book_id": "98480e0f330a76dd",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "everybody needs somebody to love",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "flip flop and fly",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "gimme some lovin'",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "green onions",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "minnie the moocher",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "peter gunn theme",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "rawhide (theme from rawhide)",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "shake a tail feather",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "she caught the katy and left me a mule to ride",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "soul man",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "sweet home chicago",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "the old landmark",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "think",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "who's making love",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "everybody needs somebody to love",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Blues Brothers - Complete/Songs/Blues Brothers - Everybody Needs Somebody To Love.pdf",
+        "file_size_bytes": 610486,
+        "page_range": [
+          3,
+          17
+        ]
+      },
+      {
+        "song_title": "green onions",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Blues Brothers - Complete/Songs/Blues Brothers - Green Onions.pdf",
+        "file_size_bytes": 251608,
+        "page_range": [
+          17,
+          23
+        ]
+      },
+      {
+        "song_title": "minnie the moocher",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Blues Brothers - Complete/Songs/Blues Brothers - Minnie The Moocher.pdf",
+        "file_size_bytes": 258495,
+        "page_range": [
+          23,
+          29
+        ]
+      },
+      {
+        "song_title": "peter gunn theme",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Blues Brothers - Complete/Songs/Blues Brothers - Peter Gunn Theme.pdf",
+        "file_size_bytes": 986228,
+        "page_range": [
+          29,
+          52
+        ]
+      },
+      {
+        "song_title": "sweet home chicago",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Blues Brothers - Complete/Songs/Blues Brothers - Sweet Home Chicago.pdf",
+        "file_size_bytes": 548281,
+        "page_range": [
+          52,
+          64
+        ]
+      },
+      {
+        "song_title": "think",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Blues Brothers - Complete/Songs/Blues Brothers - Think.pdf",
+        "file_size_bytes": 532573,
+        "page_range": [
+          64,
+          76
+        ]
+      }
+    ]
+  }
+}

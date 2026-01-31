@@ -1,0 +1,314 @@
+{
+  "book_id": "beatles-anthology-1",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "That'll Be The Day",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In Spite Of All The Danger",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You'll Be Mine",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cayanne",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Bonnie",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cry For A Shadow",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Searchin'",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Me Do",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Please Please Me",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One After 909",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Saw Her Standing There",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Loves You",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Want To Hold Your Hand",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Can't Buy Me Love",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All My Loving",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "And I Love Her",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Hard Day's Night",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Wanna Be Your Man",
+        "page_number": 71,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'll Be Back",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "No Reply",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "That'll Be The Day",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/Norman Petty, Buddy Holly & Jerry Allison - That'll Be The Day.pdf",
+        "file_size_bytes": 180920,
+        "page_range": [
+          7,
+          12
+        ]
+      },
+      {
+        "song_title": "In Spite Of All The Danger",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/Paul Mccartney & George Harrison - In Spite Of All The Danger.pdf",
+        "file_size_bytes": 178963,
+        "page_range": [
+          12,
+          17
+        ]
+      },
+      {
+        "song_title": "You'll Be Mine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - You'll Be Mine.pdf",
+        "file_size_bytes": 106131,
+        "page_range": [
+          17,
+          20
+        ]
+      },
+      {
+        "song_title": "Cayanne",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/Paul Mccartney - Cayanne.pdf",
+        "file_size_bytes": 69426,
+        "page_range": [
+          20,
+          22
+        ]
+      },
+      {
+        "song_title": "My Bonnie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/Traditional - Arranged By Tony Sheridan - My Bonnie.pdf",
+        "file_size_bytes": 142403,
+        "page_range": [
+          22,
+          26
+        ]
+      },
+      {
+        "song_title": "Cry For A Shadow",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/George Harrison & John Lennon - Cry For A Shadow.pdf",
+        "file_size_bytes": 265966,
+        "page_range": [
+          26,
+          34
+        ]
+      },
+      {
+        "song_title": "Love Me Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - Love Me Do.pdf",
+        "file_size_bytes": 122708,
+        "page_range": [
+          34,
+          37
+        ]
+      },
+      {
+        "song_title": "Please Please Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - Please Please Me.pdf",
+        "file_size_bytes": 276347,
+        "page_range": [
+          37,
+          44
+        ]
+      },
+      {
+        "song_title": "I Saw Her Standing There",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - I Saw Her Standing There.pdf",
+        "file_size_bytes": 176617,
+        "page_range": [
+          44,
+          48
+        ]
+      },
+      {
+        "song_title": "She Loves You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - She Loves You.pdf",
+        "file_size_bytes": 153917,
+        "page_range": [
+          48,
+          52
+        ]
+      },
+      {
+        "song_title": "I Want To Hold Your Hand",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - I Want To Hold Your Hand.pdf",
+        "file_size_bytes": 158226,
+        "page_range": [
+          52,
+          56
+        ]
+      },
+      {
+        "song_title": "Can't Buy Me Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - Can't Buy Me Love.pdf",
+        "file_size_bytes": 142295,
+        "page_range": [
+          56,
+          59
+        ]
+      },
+      {
+        "song_title": "All My Loving",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - All My Loving.pdf",
+        "file_size_bytes": 127667,
+        "page_range": [
+          59,
+          62
+        ]
+      },
+      {
+        "song_title": "And I Love Her",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - And I Love Her.pdf",
+        "file_size_bytes": 149921,
+        "page_range": [
+          62,
+          66
+        ]
+      },
+      {
+        "song_title": "A Hard Day's Night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - A Hard Day's Night.pdf",
+        "file_size_bytes": 211077,
+        "page_range": [
+          66,
+          71
+        ]
+      },
+      {
+        "song_title": "I Wanna Be Your Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - I Wanna Be Your Man.pdf",
+        "file_size_bytes": 114866,
+        "page_range": [
+          71,
+          74
+        ]
+      },
+      {
+        "song_title": "I'll Be Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - I'll Be Back.pdf",
+        "file_size_bytes": 157479,
+        "page_range": [
+          74,
+          78
+        ]
+      },
+      {
+        "song_title": "No Reply",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1/Songs/John Lennon & Paul Mccartney - No Reply.pdf",
+        "file_size_bytes": 201314,
+        "page_range": [
+          78,
+          82
+        ]
+      }
+    ]
+  }
+}

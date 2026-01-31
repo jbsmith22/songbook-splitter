@@ -1,0 +1,73 @@
+{
+  "book_id": "312749e83e6f2c45",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Maple Leaf Rag",
+        "artist": "Scott Joplin",
+        "output_uri": "s3://jsmith-output/Scott Joplin/Scott Joplin - The Best Of/Songs/Scott Joplin - Maple Leaf Rag.pdf",
+        "file_size_bytes": 3795870,
+        "page_range": [
+          7,
+          30
+        ]
+      },
+      {
+        "song_title": "The Favorite",
+        "artist": "Scott Joplin",
+        "output_uri": "s3://jsmith-output/Scott Joplin/Scott Joplin - The Best Of/Songs/Scott Joplin - The Favorite.pdf",
+        "file_size_bytes": 208563,
+        "page_range": [
+          30,
+          31
+        ]
+      },
+      {
+        "song_title": "The Favorite",
+        "artist": "Scott Joplin",
+        "output_uri": "s3://jsmith-output/Scott Joplin/Scott Joplin - The Best Of/Songs/Scott Joplin - The Favorite.pdf",
+        "file_size_bytes": 638242,
+        "page_range": [
+          31,
+          35
+        ]
+      },
+      {
+        "song_title": "SUN FLOWER SLOW DRAG",
+        "artist": "Scott Joplin",
+        "output_uri": "s3://jsmith-output/Scott Joplin/Scott Joplin - The Best Of/Songs/Scott Joplin - Sun Flower Slow Drag.pdf",
+        "file_size_bytes": 3988427,
+        "page_range": [
+          35,
+          59
+        ]
+      },
+      {
+        "song_title": "Palm Leaf Rag",
+        "artist": "Scott Joplin",
+        "output_uri": "s3://jsmith-output/Scott Joplin/Scott Joplin - The Best Of/Songs/Scott Joplin - Palm Leaf Rag.pdf",
+        "file_size_bytes": 1467990,
+        "page_range": [
+          59,
+          68
+        ]
+      },
+      {
+        "song_title": "Elite Syncopations",
+        "artist": "Scott Joplin",
+        "output_uri": "s3://jsmith-output/Scott Joplin/Scott Joplin - The Best Of/Songs/Scott Joplin - Elite Syncopations.pdf",
+        "file_size_bytes": 3380442,
+        "page_range": [
+          68,
+          87
+        ]
+      }
+    ]
+  }
+}

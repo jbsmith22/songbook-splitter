@@ -1,0 +1,325 @@
+{
+  "book_id": "movie-and-tv-various-artists-decades-of-film-70s",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Can You Read My Mind?",
+        "page_number": 4,
+        "artist": "Theme From \"Superman\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cavatina",
+        "page_number": 37,
+        "artist": "From \"The Deer Hunter\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Diamonds Are Forever",
+        "page_number": 14,
+        "artist": "Theme From \"Diamonds Are Forever\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ease On Down The Road",
+        "page_number": 18,
+        "artist": "Theme From \"The Wiz\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Evergreen",
+        "page_number": 7,
+        "artist": "From \"A Star Is Born\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "French Connection",
+        "page_number": 24,
+        "artist": "Theme From \"French Connection\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gonna Fly Now",
+        "page_number": 26,
+        "artist": "From \"Rocky\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Greatest Love Of All",
+        "page_number": 30,
+        "artist": "From \"The Greatest\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Easy To Say",
+        "page_number": 34,
+        "artist": "Song From \"10\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Story (Where Do I Begin?)",
+        "page_number": 40,
+        "artist": "Theme From \"Love Story\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Misty",
+        "page_number": 42,
+        "artist": "From \"Play Misty For Me\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "New York, New York",
+        "page_number": 45,
+        "artist": "Theme From \"New York, New York\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Oh, God!",
+        "page_number": 50,
+        "artist": "Theme From \"Oh, God!\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Rose",
+        "page_number": 57,
+        "artist": "Theme From \"The Rose\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Send In The Clowns",
+        "page_number": 52,
+        "artist": "Theme From \"A Little Night Music\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Summer Knows",
+        "page_number": 64,
+        "artist": "From \"Summer Of '42\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Summer Nights",
+        "page_number": 58,
+        "artist": "From \"Grease\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Star Wars",
+        "page_number": 56,
+        "artist": "Theme From \"Star Wars\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Way We Were",
+        "page_number": 70,
+        "artist": "Theme From \"The Way We Were\"",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We May Never Love Like This Again",
+        "page_number": 73,
+        "artist": "From \"Towering Inferno\"",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Can You Read My Mind?": "Theme From \"Superman\"",
+      "Cavatina": "From \"The Deer Hunter\"",
+      "Diamonds Are Forever": "Theme From \"Diamonds Are Forever\"",
+      "Ease On Down The Road": "Theme From \"The Wiz\"",
+      "Evergreen": "From \"A Star Is Born\"",
+      "French Connection": "Theme From \"French Connection\"",
+      "Gonna Fly Now": "From \"Rocky\"",
+      "The Greatest Love Of All": "From \"The Greatest\"",
+      "It's Easy To Say": "Song From \"10\"",
+      "Love Story (Where Do I Begin?)": "Theme From \"Love Story\"",
+      "Misty": "From \"Play Misty For Me\"",
+      "New York, New York": "Theme From \"New York, New York\"",
+      "Oh, God!": "Theme From \"Oh, God!\"",
+      "The Rose": "Theme From \"The Rose\"",
+      "Send In The Clowns": "Theme From \"A Little Night Music\"",
+      "The Summer Knows": "From \"Summer Of '42\"",
+      "Summer Nights": "From \"Grease\"",
+      "Star Wars": "Theme From \"Star Wars\"",
+      "The Way We Were": "Theme From \"The Way We Were\"",
+      "We May Never Love Like This Again": "From \"Towering Inferno\""
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Can You Read My Mind?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -superman- - Can You Read My Mind-.pdf",
+        "file_size_bytes": 2907630,
+        "page_range": [
+          3,
+          6
+        ]
+      },
+      {
+        "song_title": "Evergreen",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/From -a Star Is Born- - Evergreen.pdf",
+        "file_size_bytes": 6168169,
+        "page_range": [
+          6,
+          13
+        ]
+      },
+      {
+        "song_title": "Diamonds Are Forever",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -diamonds Are Forever- - Diamonds Are Forever.pdf",
+        "file_size_bytes": 3379064,
+        "page_range": [
+          13,
+          17
+        ]
+      },
+      {
+        "song_title": "Ease On Down The Road",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -the Wiz- - Ease On Down The Road.pdf",
+        "file_size_bytes": 4790429,
+        "page_range": [
+          17,
+          23
+        ]
+      },
+      {
+        "song_title": "French Connection",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -french Connection- - French Connection.pdf",
+        "file_size_bytes": 1873679,
+        "page_range": [
+          23,
+          25
+        ]
+      },
+      {
+        "song_title": "Gonna Fly Now",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/From -rocky- - Gonna Fly Now.pdf",
+        "file_size_bytes": 4015529,
+        "page_range": [
+          25,
+          29
+        ]
+      },
+      {
+        "song_title": "The Greatest Love Of All",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/From -the Greatest- - The Greatest Love Of All.pdf",
+        "file_size_bytes": 3921272,
+        "page_range": [
+          29,
+          33
+        ]
+      },
+      {
+        "song_title": "It's Easy To Say",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Song From -10- - It's Easy To Say.pdf",
+        "file_size_bytes": 2976624,
+        "page_range": [
+          33,
+          36
+        ]
+      },
+      {
+        "song_title": "Cavatina",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/From -the Deer Hunter- - Cavatina.pdf",
+        "file_size_bytes": 2758388,
+        "page_range": [
+          36,
+          39
+        ]
+      },
+      {
+        "song_title": "Love Story (Where Do I Begin?)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -love Story- - Love Story (where Do I Begin-).pdf",
+        "file_size_bytes": 2296277,
+        "page_range": [
+          39,
+          41
+        ]
+      },
+      {
+        "song_title": "Misty",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/From -play Misty For Me- - Misty.pdf",
+        "file_size_bytes": 3124415,
+        "page_range": [
+          41,
+          44
+        ]
+      },
+      {
+        "song_title": "New York, New York",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -new York, New York- - New York, New York.pdf",
+        "file_size_bytes": 4369938,
+        "page_range": [
+          44,
+          49
+        ]
+      },
+      {
+        "song_title": "Oh, God!",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -oh, God!- - Oh, God!.pdf",
+        "file_size_bytes": 1711017,
+        "page_range": [
+          49,
+          51
+        ]
+      },
+      {
+        "song_title": "Send In The Clowns",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -a Little Night Music- - Send In The Clowns.pdf",
+        "file_size_bytes": 3848426,
+        "page_range": [
+          51,
+          55
+        ]
+      },
+      {
+        "song_title": "Star Wars",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -star Wars- - Star Wars.pdf",
+        "file_size_bytes": 10067789,
+        "page_range": [
+          55,
+          66
+        ]
+      },
+      {
+        "song_title": "The Rose",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/Theme From -the Rose- - The Rose.pdf",
+        "file_size_bytes": 5275092,
+        "page_range": [
+          66,
+          72
+        ]
+      },
+      {
+        "song_title": "We May Never Love Like This Again",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '70s/Songs/From -towering Inferno- - We May Never Love Like This Again.pdf",
+        "file_size_bytes": 3812174,
+        "page_range": [
+          72,
+          76
+        ]
+      }
+    ]
+  }
+}

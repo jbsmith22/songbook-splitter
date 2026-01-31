@@ -1,0 +1,32 @@
+{
+  "book_id": "dire-straits-brothers-in-arms",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Brothers In Arms",
+        "page_number": 46,
+        "artist": "Words & Music by Mark Knopfler",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Brothers In Arms": "Words & Music by Mark Knopfler"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Brothers In Arms",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Brothers In Arms/Songs/Words & Music By Mark Knopfler - Brothers In Arms.pdf",
+        "file_size_bytes": 3767383,
+        "page_range": [
+          1,
+          44
+        ]
+      }
+    ]
+  }
+}

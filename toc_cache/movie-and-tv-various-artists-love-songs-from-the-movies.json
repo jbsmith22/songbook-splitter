@@ -1,0 +1,576 @@
+{
+  "book_id": "movie-and-tv-various-artists-love-songs-from-the-movies",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "AGAINST ALL ODDS (TAKE A LOOK AT ME NOW)",
+        "page_number": 4,
+        "artist": "Against All Odds PHIL COLLINS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ALL LOVE CAN BE",
+        "page_number": 7,
+        "artist": "A Beautiful Mind CHARLOTTE CHURCH",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ANGEL",
+        "page_number": 14,
+        "artist": "City Of Angels SARAH MCLACHLAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "AS TIME GOES BY",
+        "page_number": 10,
+        "artist": "Casablanca DOOLEY WILSON",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE BEAUTIFUL ONES",
+        "page_number": 19,
+        "artist": "Purple Rain PRINCE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BECAUSE YOU LOVED ME",
+        "page_number": 24,
+        "artist": "Up Close And Personal CELINE DION",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "COME WHAT MAY",
+        "page_number": 29,
+        "artist": "Moulin Rouge! EWAN McGREGOR & NICOLE KIDMAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(EVERYTHING I DO) I DO IT FOR YOU",
+        "page_number": 56,
+        "artist": "Robin Hood: Prince Of Thieves BRYAN ADAMS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FOR ALWAYS",
+        "page_number": 34,
+        "artist": "A.I. Artificial Intelligence LARA FABIAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HOPELESSLY DEVOTED TO YOU",
+        "page_number": 40,
+        "artist": "Grease OLIVIA NEWTON-JOHN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I WILL ALWAYS LOVE YOU",
+        "page_number": 44,
+        "artist": "The Bodyguard WHITNEY HOUSTON",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I WILL FIND YOU",
+        "page_number": 50,
+        "artist": "The Last Of The Mohicans CLANNAD",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'M KISSING YOU",
+        "page_number": 61,
+        "artist": "William Shakespeare's Romeo+Juliet DES'REE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT HAD TO BE YOU",
+        "page_number": 72,
+        "artist": "When Harry Met Sally HARRY CONNICK JR.",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT MUST HAVE BEEN LOVE",
+        "page_number": 66,
+        "artist": "Pretty Woman ROXETTE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A LOVE BEFORE TIME",
+        "page_number": 82,
+        "artist": "Crouching Tiger, Hidden Dragon CoCo LEE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE IS ALL AROUND",
+        "page_number": 77,
+        "artist": "Four Weddings And A Funeral WET WET WET",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A LOVE SO BEAUTIFUL",
+        "page_number": 156,
+        "artist": "Indecent Proposal ROY ORBISON",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE SONG FOR A VAMPIRE",
+        "page_number": 88,
+        "artist": "Bram Stoker's Dracula ANNIE LENNOX",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NOT OF THIS EARTH",
+        "page_number": 92,
+        "artist": "Bridget Jones's Diary ROBBIE WILLIAMS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PELAGIA'S SONG (RICORDO ANCOR)",
+        "page_number": 98,
+        "artist": "Captain Corelli's Mandolin RUSSELL WATSON",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHE",
+        "page_number": 102,
+        "artist": "Notting Hill ELVIS COSTELLO",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHOW ME HEAVEN",
+        "page_number": 106,
+        "artist": "Days Of Thunder MARIA McKEE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TAKE MY BREATH AWAY",
+        "page_number": 110,
+        "artist": "Top Gun BERLIN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THIS YEAR'S LOVE",
+        "page_number": 120,
+        "artist": "This Year's Love DAVID GRAY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TRY A LITTLE TENDERNESS",
+        "page_number": 124,
+        "artist": "The Commitments THE COMMITMENTS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TURN BACK TIME",
+        "page_number": 115,
+        "artist": "Sliding Doors AQUA",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "UNCHAINED MELODY",
+        "page_number": 130,
+        "artist": "Ghost THE RIGHTEOUS BROTHERS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "UP WHERE WE BELONG",
+        "page_number": 134,
+        "artist": "An Officer And A Gentleman JOE COCKER & JENNIFER WARNES",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WE HAVE ALL THE TIME IN THE WORLD",
+        "page_number": 138,
+        "artist": "On Her Majesty's Secret Service LOUIS ARMSTRONG",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHEN YOU SAY NOTHING AT ALL",
+        "page_number": 142,
+        "artist": "Notting Hill RONAN KEATING",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU MUST LOVE ME",
+        "page_number": 148,
+        "artist": "Evita MADONNA",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOUR SONG",
+        "page_number": 152,
+        "artist": "Moulin Rouge! EWAN McGREGOR",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "AGAINST ALL ODDS (TAKE A LOOK AT ME NOW)": "Against All Odds PHIL COLLINS",
+      "ALL LOVE CAN BE": "A Beautiful Mind CHARLOTTE CHURCH",
+      "ANGEL": "City Of Angels SARAH MCLACHLAN",
+      "AS TIME GOES BY": "Casablanca DOOLEY WILSON",
+      "THE BEAUTIFUL ONES": "Purple Rain PRINCE",
+      "BECAUSE YOU LOVED ME": "Up Close And Personal CELINE DION",
+      "COME WHAT MAY": "Moulin Rouge! EWAN McGREGOR & NICOLE KIDMAN",
+      "(EVERYTHING I DO) I DO IT FOR YOU": "Robin Hood: Prince Of Thieves BRYAN ADAMS",
+      "FOR ALWAYS": "A.I. Artificial Intelligence LARA FABIAN",
+      "HOPELESSLY DEVOTED TO YOU": "Grease OLIVIA NEWTON-JOHN",
+      "I WILL ALWAYS LOVE YOU": "The Bodyguard WHITNEY HOUSTON",
+      "I WILL FIND YOU": "The Last Of The Mohicans CLANNAD",
+      "I'M KISSING YOU": "William Shakespeare's Romeo+Juliet DES'REE",
+      "IT HAD TO BE YOU": "When Harry Met Sally HARRY CONNICK JR.",
+      "IT MUST HAVE BEEN LOVE": "Pretty Woman ROXETTE",
+      "A LOVE BEFORE TIME": "Crouching Tiger, Hidden Dragon CoCo LEE",
+      "LOVE IS ALL AROUND": "Four Weddings And A Funeral WET WET WET",
+      "A LOVE SO BEAUTIFUL": "Indecent Proposal ROY ORBISON",
+      "LOVE SONG FOR A VAMPIRE": "Bram Stoker's Dracula ANNIE LENNOX",
+      "NOT OF THIS EARTH": "Bridget Jones's Diary ROBBIE WILLIAMS",
+      "PELAGIA'S SONG (RICORDO ANCOR)": "Captain Corelli's Mandolin RUSSELL WATSON",
+      "SHE": "Notting Hill ELVIS COSTELLO",
+      "SHOW ME HEAVEN": "Days Of Thunder MARIA McKEE",
+      "TAKE MY BREATH AWAY": "Top Gun BERLIN",
+      "THIS YEAR'S LOVE": "This Year's Love DAVID GRAY",
+      "TRY A LITTLE TENDERNESS": "The Commitments THE COMMITMENTS",
+      "TURN BACK TIME": "Sliding Doors AQUA",
+      "UNCHAINED MELODY": "Ghost THE RIGHTEOUS BROTHERS",
+      "UP WHERE WE BELONG": "An Officer And A Gentleman JOE COCKER & JENNIFER WARNES",
+      "WE HAVE ALL THE TIME IN THE WORLD": "On Her Majesty's Secret Service LOUIS ARMSTRONG",
+      "WHEN YOU SAY NOTHING AT ALL": "Notting Hill RONAN KEATING",
+      "YOU MUST LOVE ME": "Evita MADONNA",
+      "YOUR SONG": "Moulin Rouge! EWAN McGREGOR"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "AGAINST ALL ODDS (TAKE A LOOK AT ME NOW)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Against All Odds Phil Collins - Against All Odds (take A Look At Me Now).pdf",
+        "file_size_bytes": 135522,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "ALL LOVE CAN BE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/A Beautiful Mind Charlotte Church - All Love Can Be.pdf",
+        "file_size_bytes": 148913,
+        "page_range": [
+          7,
+          10
+        ]
+      },
+      {
+        "song_title": "AS TIME GOES BY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Casablanca Dooley Wilson - As Time Goes By.pdf",
+        "file_size_bytes": 203394,
+        "page_range": [
+          10,
+          14
+        ]
+      },
+      {
+        "song_title": "ANGEL",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/City Of Angels Sarah Mclachlan - Angel.pdf",
+        "file_size_bytes": 191918,
+        "page_range": [
+          14,
+          19
+        ]
+      },
+      {
+        "song_title": "THE BEAUTIFUL ONES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Purple Rain Prince - The Beautiful Ones.pdf",
+        "file_size_bytes": 210348,
+        "page_range": [
+          19,
+          24
+        ]
+      },
+      {
+        "song_title": "BECAUSE YOU LOVED ME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Up Close And Personal Celine Dion - Because You Loved Me.pdf",
+        "file_size_bytes": 254320,
+        "page_range": [
+          24,
+          29
+        ]
+      },
+      {
+        "song_title": "COME WHAT MAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Moulin Rouge! Ewan Mcgregor & Nicole Kidman - Come What May.pdf",
+        "file_size_bytes": 233822,
+        "page_range": [
+          29,
+          34
+        ]
+      },
+      {
+        "song_title": "FOR ALWAYS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/A.i. Artificial Intelligence Lara Fabian - For Always.pdf",
+        "file_size_bytes": 235642,
+        "page_range": [
+          34,
+          40
+        ]
+      },
+      {
+        "song_title": "HOPELESSLY DEVOTED TO YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Grease Olivia Newton-john - Hopelessly Devoted To You.pdf",
+        "file_size_bytes": 149524,
+        "page_range": [
+          40,
+          44
+        ]
+      },
+      {
+        "song_title": "I WILL ALWAYS LOVE YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/The Bodyguard Whitney Houston - I Will Always Love You.pdf",
+        "file_size_bytes": 274108,
+        "page_range": [
+          44,
+          50
+        ]
+      },
+      {
+        "song_title": "I WILL FIND YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/The Last Of The Mohicans Clannad - I Will Find You.pdf",
+        "file_size_bytes": 206179,
+        "page_range": [
+          50,
+          56
+        ]
+      },
+      {
+        "song_title": "(EVERYTHING I DO) I DO IT FOR YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Robin Hood- Prince Of Thieves Bryan Adams - (everything I Do) I Do It For You.pdf",
+        "file_size_bytes": 205851,
+        "page_range": [
+          56,
+          61
+        ]
+      },
+      {
+        "song_title": "I'M KISSING YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/William Shakespeare's Romeo+juliet Des'ree - I'm Kissing You.pdf",
+        "file_size_bytes": 236609,
+        "page_range": [
+          61,
+          66
+        ]
+      },
+      {
+        "song_title": "IT MUST HAVE BEEN LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Pretty Woman Roxette - It Must Have Been Love.pdf",
+        "file_size_bytes": 221946,
+        "page_range": [
+          66,
+          72
+        ]
+      },
+      {
+        "song_title": "IT HAD TO BE YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/When Harry Met Sally Harry Connick Jr - It Had To Be You.pdf",
+        "file_size_bytes": 190221,
+        "page_range": [
+          72,
+          77
+        ]
+      },
+      {
+        "song_title": "LOVE IS ALL AROUND",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Four Weddings And A Funeral Wet Wet Wet - Love Is All Around.pdf",
+        "file_size_bytes": 180695,
+        "page_range": [
+          77,
+          82
+        ]
+      },
+      {
+        "song_title": "A LOVE BEFORE TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Crouching Tiger, Hidden Dragon Coco Lee - A Love Before Time.pdf",
+        "file_size_bytes": 260146,
+        "page_range": [
+          82,
+          88
+        ]
+      },
+      {
+        "song_title": "LOVE SONG FOR A VAMPIRE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Bram Stoker's Dracula Annie Lennox - Love Song For A Vampire.pdf",
+        "file_size_bytes": 140873,
+        "page_range": [
+          88,
+          92
+        ]
+      },
+      {
+        "song_title": "NOT OF THIS EARTH",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Bridget Jones's Diary Robbie Williams - Not Of This Earth.pdf",
+        "file_size_bytes": 251086,
+        "page_range": [
+          92,
+          98
+        ]
+      },
+      {
+        "song_title": "PELAGIA'S SONG (RICORDO ANCOR)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Captain Corelli's Mandolin Russell Watson - Pelagia's Song (ricordo Ancor).pdf",
+        "file_size_bytes": 177432,
+        "page_range": [
+          98,
+          102
+        ]
+      },
+      {
+        "song_title": "SHE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Notting Hill Elvis Costello - She.pdf",
+        "file_size_bytes": 165006,
+        "page_range": [
+          102,
+          106
+        ]
+      },
+      {
+        "song_title": "SHOW ME HEAVEN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Days Of Thunder Maria Mckee - Show Me Heaven.pdf",
+        "file_size_bytes": 180703,
+        "page_range": [
+          106,
+          110
+        ]
+      },
+      {
+        "song_title": "TAKE MY BREATH AWAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Top Gun Berlin - Take My Breath Away.pdf",
+        "file_size_bytes": 207345,
+        "page_range": [
+          110,
+          115
+        ]
+      },
+      {
+        "song_title": "TURN BACK TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Sliding Doors Aqua - Turn Back Time.pdf",
+        "file_size_bytes": 203376,
+        "page_range": [
+          115,
+          120
+        ]
+      },
+      {
+        "song_title": "THIS YEAR'S LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/This Year's Love David Gray - This Year's Love.pdf",
+        "file_size_bytes": 176610,
+        "page_range": [
+          120,
+          124
+        ]
+      },
+      {
+        "song_title": "TRY A LITTLE TENDERNESS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/The Commitments The Commitments - Try A Little Tenderness.pdf",
+        "file_size_bytes": 258584,
+        "page_range": [
+          124,
+          130
+        ]
+      },
+      {
+        "song_title": "UNCHAINED MELODY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Ghost The Righteous Brothers - Unchained Melody.pdf",
+        "file_size_bytes": 200365,
+        "page_range": [
+          130,
+          134
+        ]
+      },
+      {
+        "song_title": "UP WHERE WE BELONG",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/An Officer And A Gentleman Joe Cocker & Jennifer Warnes - Up Where We Belong.pdf",
+        "file_size_bytes": 196052,
+        "page_range": [
+          134,
+          138
+        ]
+      },
+      {
+        "song_title": "WE HAVE ALL THE TIME IN THE WORLD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/On Her Majesty's Secret Service Louis Armstrong - We Have All The Time In The World.pdf",
+        "file_size_bytes": 152476,
+        "page_range": [
+          138,
+          142
+        ]
+      },
+      {
+        "song_title": "WHEN YOU SAY NOTHING AT ALL",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Notting Hill Ronan Keating - When You Say Nothing At All.pdf",
+        "file_size_bytes": 240774,
+        "page_range": [
+          142,
+          148
+        ]
+      },
+      {
+        "song_title": "YOU MUST LOVE ME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Evita Madonna - You Must Love Me.pdf",
+        "file_size_bytes": 142366,
+        "page_range": [
+          148,
+          152
+        ]
+      },
+      {
+        "song_title": "YOUR SONG",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Moulin Rouge! Ewan Mcgregor - Your Song.pdf",
+        "file_size_bytes": 201505,
+        "page_range": [
+          152,
+          156
+        ]
+      },
+      {
+        "song_title": "A LOVE SO BEAUTIFUL",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Love Songs From The Movies/Songs/Indecent Proposal Roy Orbison - A Love So Beautiful.pdf",
+        "file_size_bytes": 382692,
+        "page_range": [
+          156,
+          162
+        ]
+      }
+    ]
+  }
+}

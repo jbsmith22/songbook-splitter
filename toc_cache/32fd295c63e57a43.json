@@ -1,0 +1,662 @@
+{
+  "book_id": "32fd295c63e57a43",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Addicted To Love",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All Out Of Love",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Almost Paradise",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Axel F",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bad Medicine",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Call Me",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cold-Hearted",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Know Much",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Talk To Strangers",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eternal Flame",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Even The Nights Are Better",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Everytime You Go Away",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eye In The Sky",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Footloose",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Girls Just Want To Have Fun",
+        "page_number": 86,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hard To Say I'm Sorry",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Heat Is On",
+        "page_number": 79,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Pledge My Love",
+        "page_number": 96,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm So Excited",
+        "page_number": 99,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If You Love Somebody Set Them Free",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Just Once",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Karma Chameleon",
+        "page_number": 122,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Livin' On A Prayer",
+        "page_number": 128,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Longer",
+        "page_number": 111,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Maniac",
+        "page_number": 134,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Morning Train (Nine To Five)",
+        "page_number": 139,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Nightshift",
+        "page_number": 142,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Nothing's Gonna Stop Us Now",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Night In Bangkok",
+        "page_number": 151,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The One That You Love",
+        "page_number": 158,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rhythm Of The Night",
+        "page_number": 168,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Right Here Waiting",
+        "page_number": 163,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sea Of Love",
+        "page_number": 172,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Drives Me Crazy",
+        "page_number": 178,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shout",
+        "page_number": 175,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Some Like It Hot",
+        "page_number": 182,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Straight Up",
+        "page_number": 186,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take My Breath Away (Love Theme)",
+        "page_number": 204,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tell Her About It",
+        "page_number": 190,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Time And Tide",
+        "page_number": 198,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Toy Soldiers",
+        "page_number": 209,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We're In This Love Together",
+        "page_number": 214,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You're The Inspiration",
+        "page_number": 219,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Addicted To Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - Addicted To Love.pdf",
+        "file_size_bytes": 5298328,
+        "page_range": [
+          3,
+          13
+        ]
+      },
+      {
+        "song_title": "Axel F",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Harold Faltermeyer - Axel F.pdf",
+        "file_size_bytes": 1692868,
+        "page_range": [
+          13,
+          17
+        ]
+      },
+      {
+        "song_title": "All Out Of Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Graham Russell And Clive Davis - All Out Of Love.pdf",
+        "file_size_bytes": 5495207,
+        "page_range": [
+          17,
+          28
+        ]
+      },
+      {
+        "song_title": "Call Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - Call Me.pdf",
+        "file_size_bytes": 3818839,
+        "page_range": [
+          28,
+          35
+        ]
+      },
+      {
+        "song_title": "Cold-Hearted",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Elliot Wolff - Cold-hearted.pdf",
+        "file_size_bytes": 3446802,
+        "page_range": [
+          35,
+          42
+        ]
+      },
+      {
+        "song_title": "Don't Know Much",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - Don't Know Much.pdf",
+        "file_size_bytes": 2632148,
+        "page_range": [
+          42,
+          47
+        ]
+      },
+      {
+        "song_title": "Don't Talk To Strangers",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - Don't Talk To Strangers.pdf",
+        "file_size_bytes": 2706649,
+        "page_range": [
+          47,
+          52
+        ]
+      },
+      {
+        "song_title": "Eternal Flame",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Billy Steinberg, Tom Kelly And Susanna Hoffs - Eternal Flame.pdf",
+        "file_size_bytes": 2275857,
+        "page_range": [
+          52,
+          57
+        ]
+      },
+      {
+        "song_title": "Even The Nights Are Better",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/I. L. Wallace, Terry Skinner And Ken Bell - Even The Nights Are Better.pdf",
+        "file_size_bytes": 2573211,
+        "page_range": [
+          57,
+          62
+        ]
+      },
+      {
+        "song_title": "Eye In The Sky",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Alan Parsons And Eric Woolson - Eye In The Sky.pdf",
+        "file_size_bytes": 2466208,
+        "page_range": [
+          62,
+          67
+        ]
+      },
+      {
+        "song_title": "Everytime You Go Away",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - Everytime You Go Away.pdf",
+        "file_size_bytes": 5774479,
+        "page_range": [
+          67,
+          78
+        ]
+      },
+      {
+        "song_title": "The Heat Is On",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/(from The Paramount Motion Picture -beverly Hills Cop-) - The Heat Is On.pdf",
+        "file_size_bytes": 3668370,
+        "page_range": [
+          78,
+          85
+        ]
+      },
+      {
+        "song_title": "Girls Just Want To Have Fun",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Robert Hazard - Girls Just Want To Have Fun.pdf",
+        "file_size_bytes": 2094634,
+        "page_range": [
+          85,
+          89
+        ]
+      },
+      {
+        "song_title": "Hard To Say I'm Sorry",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Peter Cetera And David Foster - Hard To Say I'm Sorry.pdf",
+        "file_size_bytes": 3324917,
+        "page_range": [
+          89,
+          95
+        ]
+      },
+      {
+        "song_title": "I Pledge My Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Dino Fekaris And Freddie Perren - I Pledge My Love.pdf",
+        "file_size_bytes": 1666211,
+        "page_range": [
+          95,
+          98
+        ]
+      },
+      {
+        "song_title": "I'm So Excited",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/The Artist Names Are Not Clearly Provided, But The Composers Listed Are Trevor Lawrence, June Pointer, Keith Pointer, And Anita Pointer - I'm So Excited.pdf",
+        "file_size_bytes": 3519442,
+        "page_range": [
+          98,
+          105
+        ]
+      },
+      {
+        "song_title": "If You Love Somebody Set Them Free",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Sting - If You Love Somebody Set Them Free.pdf",
+        "file_size_bytes": 2661726,
+        "page_range": [
+          105,
+          110
+        ]
+      },
+      {
+        "song_title": "Longer",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Dan Fogelberg - Longer.pdf",
+        "file_size_bytes": 2676577,
+        "page_range": [
+          110,
+          115
+        ]
+      },
+      {
+        "song_title": "Just Once",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - Just Once.pdf",
+        "file_size_bytes": 3473718,
+        "page_range": [
+          115,
+          121
+        ]
+      },
+      {
+        "song_title": "Karma Chameleon",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/George O'dowd, Jon Moss, Michael Craig, Roy Hay And Phil Pickett - Karma Chameleon.pdf",
+        "file_size_bytes": 2863198,
+        "page_range": [
+          121,
+          127
+        ]
+      },
+      {
+        "song_title": "Livin' On A Prayer",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Bon Jovi, Richie Sambora, And Desmond Child - Livin' On A Prayer.pdf",
+        "file_size_bytes": 2941313,
+        "page_range": [
+          127,
+          133
+        ]
+      },
+      {
+        "song_title": "Maniac",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Michael Sembello And Dennis Matkosky - Maniac.pdf",
+        "file_size_bytes": 4592919,
+        "page_range": [
+          133,
+          141
+        ]
+      },
+      {
+        "song_title": "Nightshift",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Walter Orange, Dennis Lambert And Franne Golde - Nightshift.pdf",
+        "file_size_bytes": 2264726,
+        "page_range": [
+          141,
+          145
+        ]
+      },
+      {
+        "song_title": "Nothing's Gonna Stop Us Now",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Diane Warren And Albert Hammond - Nothing's Gonna Stop Us Now.pdf",
+        "file_size_bytes": 2823195,
+        "page_range": [
+          145,
+          150
+        ]
+      },
+      {
+        "song_title": "One Night In Bangkok",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/The Song Is From The Musical -chess- With Words And Music By Benny Andersson, Bj\u00f6rn Ulvaeus And Tim Rice - One Night In Bangkok.pdf",
+        "file_size_bytes": 4033856,
+        "page_range": [
+          150,
+          157
+        ]
+      },
+      {
+        "song_title": "The One That You Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Graham Russell - The One That You Love.pdf",
+        "file_size_bytes": 2353064,
+        "page_range": [
+          157,
+          162
+        ]
+      },
+      {
+        "song_title": "Right Here Waiting",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Richard Marx - Right Here Waiting.pdf",
+        "file_size_bytes": 2648002,
+        "page_range": [
+          162,
+          167
+        ]
+      },
+      {
+        "song_title": "Rhythm Of The Night",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - Rhythm Of The Night.pdf",
+        "file_size_bytes": 2281230,
+        "page_range": [
+          167,
+          171
+        ]
+      },
+      {
+        "song_title": "Sea Of Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Song Title -sea Of Love-, It Appears To Be The Sheet Music For The Song Of That Title Originally Recorded By Phil Phillips And The.pdf",
+        "file_size_bytes": 1615456,
+        "page_range": [
+          171,
+          174
+        ]
+      },
+      {
+        "song_title": "Shout",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Roland Orzabal And Ian Stanley - Shout.pdf",
+        "file_size_bytes": 1430435,
+        "page_range": [
+          174,
+          177
+        ]
+      },
+      {
+        "song_title": "She Drives Me Crazy",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - She Drives Me Crazy.pdf",
+        "file_size_bytes": 2000871,
+        "page_range": [
+          177,
+          181
+        ]
+      },
+      {
+        "song_title": "Some Like It Hot",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Robert Palmer, Andy Taylor And John Taylor - Some Like It Hot.pdf",
+        "file_size_bytes": 2095161,
+        "page_range": [
+          181,
+          185
+        ]
+      },
+      {
+        "song_title": "Straight Up",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Unknown Artist - Straight Up.pdf",
+        "file_size_bytes": 2012277,
+        "page_range": [
+          185,
+          189
+        ]
+      },
+      {
+        "song_title": "Tell Her About It",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Billy Joel - Tell Her About It.pdf",
+        "file_size_bytes": 4363750,
+        "page_range": [
+          189,
+          197
+        ]
+      },
+      {
+        "song_title": "Time And Tide",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Basia Trzetrzelewska And Danny White - Time And Tide.pdf",
+        "file_size_bytes": 3276863,
+        "page_range": [
+          197,
+          203
+        ]
+      },
+      {
+        "song_title": "Take My Breath Away (Love Theme)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Giorgio Moroder And Tom Whitlock - Take My Breath Away (love Theme).pdf",
+        "file_size_bytes": 2718515,
+        "page_range": [
+          203,
+          208
+        ]
+      },
+      {
+        "song_title": "Toy Soldiers",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/Michael Martika - Toy Soldiers.pdf",
+        "file_size_bytes": 2862563,
+        "page_range": [
+          208,
+          213
+        ]
+      },
+      {
+        "song_title": "We're In This Love Together",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Credits At The Bottom, The Songwriters Appear To Be Roger Murrah And Keith Stegall - We're In This Love Together.pdf",
+        "file_size_bytes": 2573707,
+        "page_range": [
+          213,
+          218
+        ]
+      },
+      {
+        "song_title": "You're The Inspiration",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - More Songs Of The Eighties [pvg]/Songs/The Artist Names Are Not Clearly Displayed, But The Image Shows The Song Credits -words And Music By Peter Cetera And David Foster- At The Top - You're The Inspiration.pdf",
+        "file_size_bytes": 3163404,
+        "page_range": [
+          218,
+          224
+        ]
+      }
+    ]
+  }
+}

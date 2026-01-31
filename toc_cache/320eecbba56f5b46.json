@@ -1,0 +1,53 @@
+{
+  "book_id": "320eecbba56f5b46",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Aladdin",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - Aladdin.pdf",
+        "file_size_bytes": 745797,
+        "page_range": [
+          0,
+          1
+        ]
+      },
+      {
+        "song_title": "Arabian Nights",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - Arabian Nights.pdf",
+        "file_size_bytes": 1923154,
+        "page_range": [
+          1,
+          16
+        ]
+      },
+      {
+        "song_title": "Friend Like Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - Friend Like Me.pdf",
+        "file_size_bytes": 3048105,
+        "page_range": [
+          16,
+          38
+        ]
+      },
+      {
+        "song_title": "A Whole New World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - A Whole New World.pdf",
+        "file_size_bytes": 1483630,
+        "page_range": [
+          38,
+          50
+        ]
+      }
+    ]
+  }
+}

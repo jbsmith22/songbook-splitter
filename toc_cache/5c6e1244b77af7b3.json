@@ -1,0 +1,387 @@
+{
+  "book_id": "5c6e1244b77af7b3",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "The Ballad of Sweeney Todd",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "No Place Like London",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Worst Pies in London",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Poor Thing",
+        "page_number": 41,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Friends",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Green Finch and Linnet Bird",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ah, Miss",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Johanna (Anthony)",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pirelli's Miracle Elixir",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Contest",
+        "page_number": 101,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Johanna (Judge Turpin)",
+        "page_number": 127,
+        "artist": "Appendix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wait",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kiss Me (Part I)",
+        "page_number": 131,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ladies in Their Sensitivities",
+        "page_number": 138,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kiss Me (Part II)",
+        "page_number": 144,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pretty Women",
+        "page_number": 157,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Epiphany",
+        "page_number": 170,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Little Priest",
+        "page_number": 180,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "God, That's Good!",
+        "page_number": 213,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Johanna (Todd)",
+        "page_number": 245,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "By the Sea",
+        "page_number": 264,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Letter",
+        "page_number": 286,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Not While I'm Around",
+        "page_number": 293,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Parlor Songs",
+        "page_number": 304,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "City on Fire!",
+        "page_number": 323,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Searching",
+        "page_number": 327,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Searching (Part II) (Beggar Woman)",
+        "page_number": 330,
+        "artist": "Appendix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Judge's Return",
+        "page_number": 341,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Final Scene",
+        "page_number": 351,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Ballad of Sweeney Todd",
+        "page_number": 362,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Johanna (Judge Turpin)": "Appendix",
+      "Searching (Part II) (Beggar Woman)": "Appendix"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Ballad of Sweeney Todd",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Unknown Artist - The Ballad Of Sweeney Todd.pdf",
+        "file_size_bytes": 1829406,
+        "page_range": [
+          7,
+          22
+        ]
+      },
+      {
+        "song_title": "No Place Like London",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(anthony, Todd, Beggar Woman) - No Place Like London.pdf",
+        "file_size_bytes": 2716695,
+        "page_range": [
+          22,
+          44
+        ]
+      },
+      {
+        "song_title": "Poor Thing",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Unknown Artist - Poor Thing.pdf",
+        "file_size_bytes": 2619684,
+        "page_range": [
+          44,
+          65
+        ]
+      },
+      {
+        "song_title": "Green Finch and Linnet Bird",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(johanna) - Green Finch And Linnet Bird.pdf",
+        "file_size_bytes": 753995,
+        "page_range": [
+          65,
+          71
+        ]
+      },
+      {
+        "song_title": "Ah, Miss",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(anthony, Johanna, Beggar Woman) - Ah, Miss.pdf",
+        "file_size_bytes": 776839,
+        "page_range": [
+          71,
+          77
+        ]
+      },
+      {
+        "song_title": "Johanna (Anthony)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(anthony) - Johanna (anthony).pdf",
+        "file_size_bytes": 682031,
+        "page_range": [
+          77,
+          83
+        ]
+      },
+      {
+        "song_title": "Pirelli's Miracle Elixir",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(tobias, Crowd, Todd, Mrs. Lovett) - Pirelli's Miracle Elixir.pdf",
+        "file_size_bytes": 3969469,
+        "page_range": [
+          83,
+          117
+        ]
+      },
+      {
+        "song_title": "Wait",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Unknown Artist - Wait.pdf",
+        "file_size_bytes": 3475123,
+        "page_range": [
+          117,
+          148
+        ]
+      },
+      {
+        "song_title": "Johanna (Judge Turpin)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Appendix - Johanna (judge Turpin).pdf",
+        "file_size_bytes": 1376815,
+        "page_range": [
+          148,
+          160
+        ]
+      },
+      {
+        "song_title": "Pretty Women",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Unknown Artist - Pretty Women.pdf",
+        "file_size_bytes": 2746247,
+        "page_range": [
+          160,
+          183
+        ]
+      },
+      {
+        "song_title": "A Little Priest",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Unknown Artist - A Little Priest.pdf",
+        "file_size_bytes": 3537682,
+        "page_range": [
+          183,
+          216
+        ]
+      },
+      {
+        "song_title": "God, That's Good!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(tobias, Mrs. Lovett, Todd, Company) - God, That's Good!.pdf",
+        "file_size_bytes": 5345653,
+        "page_range": [
+          216,
+          260
+        ]
+      },
+      {
+        "song_title": "Johanna (Todd)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Unknown Artist - Johanna (todd).pdf",
+        "file_size_bytes": 3307920,
+        "page_range": [
+          260,
+          289
+        ]
+      },
+      {
+        "song_title": "The Letter",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(quintet) - The Letter.pdf",
+        "file_size_bytes": 961591,
+        "page_range": [
+          289,
+          296
+        ]
+      },
+      {
+        "song_title": "Not While I'm Around",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Unknown Artist - Not While I'm Around.pdf",
+        "file_size_bytes": 3399117,
+        "page_range": [
+          296,
+          326
+        ]
+      },
+      {
+        "song_title": "City on Fire!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(lunatics, Johanna) - City On Fire!.pdf",
+        "file_size_bytes": 494919,
+        "page_range": [
+          326,
+          330
+        ]
+      },
+      {
+        "song_title": "Searching",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Unknown Artist - Searching.pdf",
+        "file_size_bytes": 416286,
+        "page_range": [
+          330,
+          334
+        ]
+      },
+      {
+        "song_title": "Searching (Part II) (Beggar Woman)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/Appendix - Searching (part Ii) (beggar Woman).pdf",
+        "file_size_bytes": 3714758,
+        "page_range": [
+          334,
+          365
+        ]
+      },
+      {
+        "song_title": "The Ballad of Sweeney Todd",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sweeney Todd Vocal Score/Songs/(company) - The Ballad Of Sweeney Todd.pdf",
+        "file_size_bytes": 3999140,
+        "page_range": [
+          365,
+          399
+        ]
+      }
+    ]
+  }
+}

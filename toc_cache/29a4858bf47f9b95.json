@@ -1,0 +1,33 @@
+{
+  "book_id": "29a4858bf47f9b95",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Save Me",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Greatest Hits 1 [score]/Songs/Queen - Save Me.pdf",
+        "file_size_bytes": 8685991,
+        "page_range": [
+          132,
+          185
+        ]
+      },
+      {
+        "song_title": "Somebody To Love",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Greatest Hits 1 [score]/Songs/Queen - Somebody To Love.pdf",
+        "file_size_bytes": 17207457,
+        "page_range": [
+          185,
+          282
+        ]
+      }
+    ]
+  }
+}

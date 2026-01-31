@@ -1,0 +1,63 @@
+{
+  "book_id": "2ed1aee4e7690da1",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Dear Prudence",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - White Album 1 (guitar Recorded Version)/Songs/Beatles - Dear Prudence.pdf",
+        "file_size_bytes": 21431668,
+        "page_range": [
+          7,
+          35
+        ]
+      },
+      {
+        "song_title": "Happiness Is a Warm Gun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - White Album 1 (guitar Recorded Version)/Songs/Beatles - Happiness Is A Warm Gun.pdf",
+        "file_size_bytes": 13697965,
+        "page_range": [
+          35,
+          53
+        ]
+      },
+      {
+        "song_title": "Blackbird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - White Album 1 (guitar Recorded Version)/Songs/Beatles - Blackbird.pdf",
+        "file_size_bytes": 6001327,
+        "page_range": [
+          53,
+          61
+        ]
+      },
+      {
+        "song_title": "Rocky Raccoon",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - White Album 1 (guitar Recorded Version)/Songs/Beatles - Rocky Raccoon.pdf",
+        "file_size_bytes": 7856685,
+        "page_range": [
+          61,
+          72
+        ]
+      },
+      {
+        "song_title": "Why Don't We Do It in the Road",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - White Album 1 (guitar Recorded Version)/Songs/Beatles - Why Don't We Do It In The Road.pdf",
+        "file_size_bytes": 7846865,
+        "page_range": [
+          72,
+          83
+        ]
+      }
+    ]
+  }
+}

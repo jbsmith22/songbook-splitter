@@ -1,0 +1,53 @@
+{
+  "book_id": "2804e588b487fea6",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "My Own Time (I'll Do What I Want)",
+        "artist": "Asia",
+        "output_uri": "s3://jsmith-output/Asia/Asia - Alpha [pvg Book]/Songs/Asia - My Own Time (i'll Do What I Want).pdf",
+        "file_size_bytes": 660024,
+        "page_range": [
+          18,
+          23
+        ]
+      },
+      {
+        "song_title": "The Heat Goes On",
+        "artist": "Asia",
+        "output_uri": "s3://jsmith-output/Asia/Asia - Alpha [pvg Book]/Songs/Asia - The Heat Goes On.pdf",
+        "file_size_bytes": 1297555,
+        "page_range": [
+          23,
+          33
+        ]
+      },
+      {
+        "song_title": "The Last to Know",
+        "artist": "Asia",
+        "output_uri": "s3://jsmith-output/Asia/Asia - Alpha [pvg Book]/Songs/Asia - The Last To Know.pdf",
+        "file_size_bytes": 2031340,
+        "page_range": [
+          33,
+          48
+        ]
+      },
+      {
+        "song_title": "Open Your Eyes",
+        "artist": "Asia",
+        "output_uri": "s3://jsmith-output/Asia/Asia - Alpha [pvg Book]/Songs/Asia - Open Your Eyes.pdf",
+        "file_size_bytes": 1604027,
+        "page_range": [
+          48,
+          60
+        ]
+      }
+    ]
+  }
+}

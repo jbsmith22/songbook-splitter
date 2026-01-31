@@ -1,0 +1,176 @@
+{
+  "book_id": "4c8cd08f8349782f",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "do it",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "goodbye",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "mama",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "say you'll be there",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "spice up your life",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "stop",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "the lady is a vamp",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "too much",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "2 become 1",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "viva forever",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "wannabe",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "who do you think you are?",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "goodbye",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - Goodbye.pdf",
+        "file_size_bytes": 1155986,
+        "page_range": [
+          2,
+          7
+        ]
+      },
+      {
+        "song_title": "mama",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - Mama.pdf",
+        "file_size_bytes": 1092836,
+        "page_range": [
+          7,
+          12
+        ]
+      },
+      {
+        "song_title": "do it",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - Do It.pdf",
+        "file_size_bytes": 909001,
+        "page_range": [
+          12,
+          16
+        ]
+      },
+      {
+        "song_title": "say you'll be there",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - Say You'll Be There.pdf",
+        "file_size_bytes": 1151007,
+        "page_range": [
+          16,
+          21
+        ]
+      },
+      {
+        "song_title": "spice up your life",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - Spice Up Your Life.pdf",
+        "file_size_bytes": 1208216,
+        "page_range": [
+          21,
+          26
+        ]
+      },
+      {
+        "song_title": "stop",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - Stop.pdf",
+        "file_size_bytes": 1513463,
+        "page_range": [
+          26,
+          33
+        ]
+      },
+      {
+        "song_title": "too much",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - Too Much.pdf",
+        "file_size_bytes": 2177389,
+        "page_range": [
+          33,
+          42
+        ]
+      },
+      {
+        "song_title": "2 become 1",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - 2 Become 1.pdf",
+        "file_size_bytes": 2502536,
+        "page_range": [
+          42,
+          53
+        ]
+      },
+      {
+        "song_title": "who do you think you are?",
+        "artist": "Spice Girls",
+        "output_uri": "s3://jsmith-output/Spice Girls/Spice Girls - Greatest Hits/Songs/Spice Girls - Who Do You Think You Are-.pdf",
+        "file_size_bytes": 2458077,
+        "page_range": [
+          53,
+          64
+        ]
+      }
+    ]
+  }
+}

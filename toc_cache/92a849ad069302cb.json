@@ -1,0 +1,63 @@
+{
+  "book_id": "92a849ad069302cb",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Pelagia's Song",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano/Songs/From Captain Corelli's Mandolin By Stephen Waddock - Pelagia's Song.pdf",
+        "file_size_bytes": 950492,
+        "page_range": [
+          20,
+          26
+        ]
+      },
+      {
+        "song_title": "Chronicle Scherzo",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano/Songs/Bernard Herrmann - Chronicle Scherzo.pdf",
+        "file_size_bytes": 968262,
+        "page_range": [
+          26,
+          32
+        ]
+      },
+      {
+        "song_title": "Autumn In Connecticut",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano/Songs/From Far From Heaven By Elmer Bernstein - Autumn In Connecticut.pdf",
+        "file_size_bytes": 2459491,
+        "page_range": [
+          32,
+          47
+        ]
+      },
+      {
+        "song_title": "Merry Christmas, Mr Lawrence",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano/Songs/Music By Ryuichi Sakamoto - Merry Christmas, Mr Lawrence.pdf",
+        "file_size_bytes": 1725643,
+        "page_range": [
+          47,
+          59
+        ]
+      },
+      {
+        "song_title": "The Heart Asks Pleasure First/The Promise/The Sacrifice",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano/Songs/From The Piano - The Heart Asks Pleasure First-the Promise-the Sacrifice.pdf",
+        "file_size_bytes": 5335769,
+        "page_range": [
+          59,
+          94
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "book_id": "billy-joel-52nd-street-v2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Big Shot",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "52nd Street",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Half A Mile Away",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honesty",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Life",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rosalinda's Eyes",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Stiletto",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Until The Night",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Zanzibar",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Big Shot",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/52nd Street/Billy Joel-Big Shot.pdf",
+        "file_size_bytes": 3103008,
+        "page_range": [
+          1,
+          10
+        ]
+      },
+      {
+        "song_title": "Honesty",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/52nd Street/Billy Joel-Honesty.pdf",
+        "file_size_bytes": 2613051,
+        "page_range": [
+          10,
+          19
+        ]
+      },
+      {
+        "song_title": "My Life",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/52nd Street/Billy Joel-My Life.pdf",
+        "file_size_bytes": 2670426,
+        "page_range": [
+          19,
+          28
+        ]
+      },
+      {
+        "song_title": "Zanzibar",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/52nd Street/Billy Joel-Zanzibar.pdf",
+        "file_size_bytes": 1989390,
+        "page_range": [
+          28,
+          34
+        ]
+      },
+      {
+        "song_title": "Rosalinda's Eyes",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/52nd Street/Billy Joel-Rosalinda's Eyes.pdf",
+        "file_size_bytes": 1772483,
+        "page_range": [
+          34,
+          40
+        ]
+      },
+      {
+        "song_title": "Half A Mile Away",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/52nd Street/Billy Joel-Half A Mile Away.pdf",
+        "file_size_bytes": 2808545,
+        "page_range": [
+          40,
+          49
+        ]
+      },
+      {
+        "song_title": "Until The Night",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/52nd Street/Billy Joel-Until The Night.pdf",
+        "file_size_bytes": 3033486,
+        "page_range": [
+          49,
+          59
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "book_id": "0118896785387d66",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Thunder Road",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tenth Avenue Freeze-Out",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Night",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Backstreets",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Born to Run",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She's the One",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Meeting Across the River",
+        "page_number": 69,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jungleland",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Thunder Road",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born To Run/Songs/Bruce Springsteen - Thunder Road.pdf",
+        "file_size_bytes": 1708736,
+        "page_range": [
+          3,
+          13
+        ]
+      },
+      {
+        "song_title": "Tenth Avenue Freeze-Out",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born To Run/Songs/Bruce Springsteen - Tenth Avenue Freeze-out.pdf",
+        "file_size_bytes": 1075718,
+        "page_range": [
+          13,
+          19
+        ]
+      },
+      {
+        "song_title": "Night",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born To Run/Songs/Bruce Springsteen - Night.pdf",
+        "file_size_bytes": 1331968,
+        "page_range": [
+          19,
+          27
+        ]
+      },
+      {
+        "song_title": "Backstreets",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born To Run/Songs/Bruce Springsteen - Backstreets.pdf",
+        "file_size_bytes": 4563151,
+        "page_range": [
+          27,
+          54
+        ]
+      },
+      {
+        "song_title": "She's the One",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born To Run/Songs/Bruce Springsteen - She's The One.pdf",
+        "file_size_bytes": 2222589,
+        "page_range": [
+          54,
+          68
+        ]
+      },
+      {
+        "song_title": "Meeting Across the River",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born To Run/Songs/Bruce Springsteen - Meeting Across The River.pdf",
+        "file_size_bytes": 3052139,
+        "page_range": [
+          68,
+          85
+        ]
+      },
+      {
+        "song_title": "Jungleland",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born To Run/Songs/Bruce Springsteen - Jungleland.pdf",
+        "file_size_bytes": 1270153,
+        "page_range": [
+          85,
+          92
+        ]
+      }
+    ]
+  }
+}

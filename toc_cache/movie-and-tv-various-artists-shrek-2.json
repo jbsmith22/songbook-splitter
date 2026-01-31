@@ -1,0 +1,242 @@
+{
+  "book_id": "movie-and-tv-various-artists-shrek-2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Accidentally in Love",
+        "page_number": 6,
+        "artist": "Counting Crows",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Holding Out for a Hero",
+        "page_number": 13,
+        "artist": "Frou Frou",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Changes",
+        "page_number": 20,
+        "artist": "Butterfly Boucher",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "As Lovers Go (Ron Fair Remix)",
+        "page_number": 28,
+        "artist": "Dashboard Confessional",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Funkytown",
+        "page_number": 35,
+        "artist": "Lipps, Inc.",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm on My Way",
+        "page_number": 41,
+        "artist": "Rich Price",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Need Some Sleep",
+        "page_number": 48,
+        "artist": "Eels",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ever Fallen in Love",
+        "page_number": 52,
+        "artist": "Pete Yorn",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Drop of Poison",
+        "page_number": 58,
+        "artist": "Tom Waits",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You're So True",
+        "page_number": 64,
+        "artist": "Joseph Arthur",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "People Ain't No Good",
+        "page_number": 70,
+        "artist": "Nick Cave & The Bad Seeds",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fairy Godmother Song",
+        "page_number": 77,
+        "artist": "Jennifer Saunders",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Livin' la Vida Loca",
+        "page_number": 83,
+        "artist": "Eddie Murphy & Antonio Banderas",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Holding Out for a Hero",
+        "page_number": 93,
+        "artist": "Jennifer Saunders",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Accidentally in Love": "Counting Crows",
+      "Holding Out for a Hero": "Jennifer Saunders",
+      "Changes": "Butterfly Boucher",
+      "As Lovers Go (Ron Fair Remix)": "Dashboard Confessional",
+      "Funkytown": "Lipps, Inc.",
+      "I'm on My Way": "Rich Price",
+      "I Need Some Sleep": "Eels",
+      "Ever Fallen in Love": "Pete Yorn",
+      "Little Drop of Poison": "Tom Waits",
+      "You're So True": "Joseph Arthur",
+      "People Ain't No Good": "Nick Cave & The Bad Seeds",
+      "Fairy Godmother Song": "Jennifer Saunders",
+      "Livin' la Vida Loca": "Eddie Murphy & Antonio Banderas"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Accidentally in Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Counting Crows - Accidentally In Love.pdf",
+        "file_size_bytes": 175434,
+        "page_range": [
+          5,
+          12
+        ]
+      },
+      {
+        "song_title": "Holding Out for a Hero",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Frou Frou - Holding Out For A Hero.pdf",
+        "file_size_bytes": 128573,
+        "page_range": [
+          12,
+          19
+        ]
+      },
+      {
+        "song_title": "Changes",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Butterfly Boucher - Changes.pdf",
+        "file_size_bytes": 179034,
+        "page_range": [
+          19,
+          27
+        ]
+      },
+      {
+        "song_title": "As Lovers Go (Ron Fair Remix)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Dashboard Confessional - As Lovers Go (ron Fair Remix).pdf",
+        "file_size_bytes": 261343,
+        "page_range": [
+          27,
+          40
+        ]
+      },
+      {
+        "song_title": "I'm on My Way",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Rich Price - I'm On My Way.pdf",
+        "file_size_bytes": 162215,
+        "page_range": [
+          40,
+          47
+        ]
+      },
+      {
+        "song_title": "I Need Some Sleep",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Eels - I Need Some Sleep.pdf",
+        "file_size_bytes": 80236,
+        "page_range": [
+          47,
+          51
+        ]
+      },
+      {
+        "song_title": "Ever Fallen in Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Pete Yorn - Ever Fallen In Love.pdf",
+        "file_size_bytes": 131173,
+        "page_range": [
+          51,
+          57
+        ]
+      },
+      {
+        "song_title": "Little Drop of Poison",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Tom Waits - Little Drop Of Poison.pdf",
+        "file_size_bytes": 130086,
+        "page_range": [
+          57,
+          63
+        ]
+      },
+      {
+        "song_title": "You're So True",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Joseph Arthur - You're So True.pdf",
+        "file_size_bytes": 124686,
+        "page_range": [
+          63,
+          69
+        ]
+      },
+      {
+        "song_title": "People Ain't No Good",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Nick Cave & The Bad Seeds - People Ain't No Good.pdf",
+        "file_size_bytes": 144976,
+        "page_range": [
+          69,
+          76
+        ]
+      },
+      {
+        "song_title": "Fairy Godmother Song",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Jennifer Saunders - Fairy Godmother Song.pdf",
+        "file_size_bytes": 121468,
+        "page_range": [
+          76,
+          82
+        ]
+      },
+      {
+        "song_title": "Livin' la Vida Loca",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Eddie Murphy & Antonio Banderas - Livin' La Vida Loca.pdf",
+        "file_size_bytes": 212169,
+        "page_range": [
+          82,
+          92
+        ]
+      },
+      {
+        "song_title": "Holding Out for a Hero",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Shrek 2/Songs/Jennifer Saunders - Holding Out For A Hero.pdf",
+        "file_size_bytes": 238103,
+        "page_range": [
+          92,
+          103
+        ]
+      }
+    ]
+  }
+}

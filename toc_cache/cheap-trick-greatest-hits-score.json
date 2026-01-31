@@ -1,0 +1,30 @@
+{
+  "book_id": "cheap-trick-greatest-hits-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Dream Police",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Dream Police",
+        "artist": "Cheap Trick",
+        "output_uri": "s3://jsmith-output/Cheap Trick/Greatest Hits [score]/Songs/Rick Nielsen - Dream Police.pdf",
+        "file_size_bytes": 4446279,
+        "page_range": [
+          0,
+          110
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "book_id": "1feefaa31f0c554e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Big Love",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/Fleetwood Mac - Tango In The Night/Songs/Fleetwood Mac - Big Love.pdf",
+        "file_size_bytes": 2706913,
+        "page_range": [
+          9,
+          32
+        ]
+      },
+      {
+        "song_title": "Mystified",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/Fleetwood Mac - Tango In The Night/Songs/Fleetwood Mac - Mystified.pdf",
+        "file_size_bytes": 3105661,
+        "page_range": [
+          32,
+          58
+        ]
+      },
+      {
+        "song_title": "WHEN I SEE YOU AGAIN",
+        "artist": "Fleetwood Mac",
+        "output_uri": "s3://jsmith-output/Fleetwood Mac/Fleetwood Mac - Tango In The Night/Songs/Fleetwood Mac - When I See You Again.pdf",
+        "file_size_bytes": 1236287,
+        "page_range": [
+          58,
+          69
+        ]
+      }
+    ]
+  }
+}

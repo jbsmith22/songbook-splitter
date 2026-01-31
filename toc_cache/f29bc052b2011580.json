@@ -1,0 +1,500 @@
+{
+  "book_id": "f29bc052b2011580",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "PROLOGUE",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "1.AT THE END OF THE DAY",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "2.I DREAMED A DREAM(E)",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "2.I DREAMED A DREAM(Eb major)",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "3.THE DOCKS",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "4.CART CRASH",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "5.FANTINE'S DEATH",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "6.LITTLE COSETTE",
+        "page_number": 118,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "7.THE INNKEEPER'S SONG",
+        "page_number": 127,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "8.THE BARGAIN",
+        "page_number": 145,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "9.THE BEGGARS",
+        "page_number": 161,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "10.ROBBERY",
+        "page_number": 171,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "11.STARS",
+        "page_number": 186,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "12.A B C CAF\u00c9",
+        "page_number": 197,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "13.PEOPLE'S SONG",
+        "page_number": 213,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "14.RUE PLUMMET",
+        "page_number": 218,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "15.HEART FULL OF LOVE",
+        "page_number": 230,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "16.ATTACK PLUMMET",
+        "page_number": 238,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "17.ONE DAY MORE",
+        "page_number": 253,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "18.BUILDING THE BARRICADE",
+        "page_number": 266,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "19.JAVERT AT THE BARRICADE",
+        "page_number": 290,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "20.FIRST ATTACK",
+        "page_number": 309,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "21.THE NIGHT",
+        "page_number": 318,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "22.SECOND ATTACK",
+        "page_number": 332,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "23.FINAL BATTLE",
+        "page_number": 337,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "24.THE SEWERS",
+        "page_number": 342,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "25.JAVERT'S SUICIDE",
+        "page_number": 352,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "26.CAF\u00c9 SONG(Bb minor)",
+        "page_number": 366,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "26.CAF\u00c9 SONG(A minor)",
+        "page_number": 372,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "27.MARIUS AND COSETTE",
+        "page_number": 378,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "28.THE WEDDING",
+        "page_number": 392,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "PROLOGUE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - Prologue.pdf",
+        "file_size_bytes": 474737,
+        "page_range": [
+          4,
+          34
+        ]
+      },
+      {
+        "song_title": "1.AT THE END OF THE DAY",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 1.at The End Of The Day.pdf",
+        "file_size_bytes": 398677,
+        "page_range": [
+          34,
+          57
+        ]
+      },
+      {
+        "song_title": "2.I DREAMED A DREAM(E)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 2.i Dreamed A Dream(e).pdf",
+        "file_size_bytes": 203466,
+        "page_range": [
+          57,
+          63
+        ]
+      },
+      {
+        "song_title": "2.I DREAMED A DREAM(Eb major)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 2.i Dreamed A Dream(eb Major).pdf",
+        "file_size_bytes": 311494,
+        "page_range": [
+          63,
+          78
+        ]
+      },
+      {
+        "song_title": "3.THE DOCKS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 3.the Docks.pdf",
+        "file_size_bytes": 329721,
+        "page_range": [
+          78,
+          98
+        ]
+      },
+      {
+        "song_title": "4.CART CRASH",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 4.cart Crash.pdf",
+        "file_size_bytes": 319486,
+        "page_range": [
+          98,
+          115
+        ]
+      },
+      {
+        "song_title": "5.FANTINE'S DEATH",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 5.fantine's Death.pdf",
+        "file_size_bytes": 310075,
+        "page_range": [
+          115,
+          130
+        ]
+      },
+      {
+        "song_title": "7.THE INNKEEPER'S SONG",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 7.the Innkeeper's Song.pdf",
+        "file_size_bytes": 319098,
+        "page_range": [
+          130,
+          147
+        ]
+      },
+      {
+        "song_title": "8.THE BARGAIN",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 8.the Bargain.pdf",
+        "file_size_bytes": 301425,
+        "page_range": [
+          147,
+          163
+        ]
+      },
+      {
+        "song_title": "9.THE BEGGARS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 9.the Beggars.pdf",
+        "file_size_bytes": 248319,
+        "page_range": [
+          163,
+          173
+        ]
+      },
+      {
+        "song_title": "10.ROBBERY",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 10.robbery.pdf",
+        "file_size_bytes": 282352,
+        "page_range": [
+          173,
+          188
+        ]
+      },
+      {
+        "song_title": "11.STARS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 11.stars.pdf",
+        "file_size_bytes": 260213,
+        "page_range": [
+          188,
+          200
+        ]
+      },
+      {
+        "song_title": "12.A B C CAF\u00c9",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 12.a B C Caf\u00e9.pdf",
+        "file_size_bytes": 305324,
+        "page_range": [
+          200,
+          215
+        ]
+      },
+      {
+        "song_title": "13.PEOPLE'S SONG",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 13.people's Song.pdf",
+        "file_size_bytes": 184290,
+        "page_range": [
+          215,
+          221
+        ]
+      },
+      {
+        "song_title": "14.RUE PLUMMET",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 14.rue Plummet.pdf",
+        "file_size_bytes": 225146,
+        "page_range": [
+          221,
+          232
+        ]
+      },
+      {
+        "song_title": "15.HEART FULL OF LOVE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 15.heart Full Of Love.pdf",
+        "file_size_bytes": 225475,
+        "page_range": [
+          232,
+          243
+        ]
+      },
+      {
+        "song_title": "16.ATTACK PLUMMET",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 16.attack Plummet.pdf",
+        "file_size_bytes": 275977,
+        "page_range": [
+          243,
+          256
+        ]
+      },
+      {
+        "song_title": "17.ONE DAY MORE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 17.one Day More.pdf",
+        "file_size_bytes": 736881,
+        "page_range": [
+          256,
+          275
+        ]
+      },
+      {
+        "song_title": "18.BUILDING THE BARRICADE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 18.building The Barricade.pdf",
+        "file_size_bytes": 408361,
+        "page_range": [
+          275,
+          300
+        ]
+      },
+      {
+        "song_title": "19.JAVERT AT THE BARRICADE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 19.javert At The Barricade.pdf",
+        "file_size_bytes": 342451,
+        "page_range": [
+          300,
+          318
+        ]
+      },
+      {
+        "song_title": "20.FIRST ATTACK",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 20.first Attack.pdf",
+        "file_size_bytes": 223183,
+        "page_range": [
+          318,
+          328
+        ]
+      },
+      {
+        "song_title": "21.THE NIGHT",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 21.the Night.pdf",
+        "file_size_bytes": 255523,
+        "page_range": [
+          328,
+          341
+        ]
+      },
+      {
+        "song_title": "22.SECOND ATTACK",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 22.second Attack.pdf",
+        "file_size_bytes": 164006,
+        "page_range": [
+          341,
+          346
+        ]
+      },
+      {
+        "song_title": "23.FINAL BATTLE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 23.final Battle.pdf",
+        "file_size_bytes": 185394,
+        "page_range": [
+          346,
+          351
+        ]
+      },
+      {
+        "song_title": "24.THE SEWERS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 24.the Sewers.pdf",
+        "file_size_bytes": 223926,
+        "page_range": [
+          351,
+          361
+        ]
+      },
+      {
+        "song_title": "25.JAVERT'S SUICIDE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 25.javert's Suicide.pdf",
+        "file_size_bytes": 277119,
+        "page_range": [
+          361,
+          375
+        ]
+      },
+      {
+        "song_title": "26.CAF\u00c9 SONG(Bb minor)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 26.caf\u00e9 Song(bb Minor).pdf",
+        "file_size_bytes": 149203,
+        "page_range": [
+          375,
+          379
+        ]
+      },
+      {
+        "song_title": "26.CAF\u00c9 SONG(A minor)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 26.caf\u00e9 Song(a Minor).pdf",
+        "file_size_bytes": 186759,
+        "page_range": [
+          379,
+          387
+        ]
+      },
+      {
+        "song_title": "27.MARIUS AND COSETTE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Unknown Artist - 27.marius And Cosette.pdf",
+        "file_size_bytes": 260370,
+        "page_range": [
+          387,
+          401
+        ]
+      },
+      {
+        "song_title": "28.THE WEDDING",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Piano-conductor/Songs/Les Mis\u00e9rables - 28.the Wedding.pdf",
+        "file_size_bytes": 533776,
+        "page_range": [
+          401,
+          440
+        ]
+      }
+    ]
+  }
+}

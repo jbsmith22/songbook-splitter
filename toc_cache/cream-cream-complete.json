@@ -1,0 +1,420 @@
+{
+  "book_id": "cream-cream-complete",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "As You Said",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Badge",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blue Condition",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Born Under A Bad Sign",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cat's Squirrel",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dance The Night Away",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Deserted Cities Of The Heart",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Doin' That Scrapyard Thing",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dreaming",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Feel Free",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm So Glad",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "N.S.U.",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Passing The Time",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Politician",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pressed Rat And Warthog",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sleepy Time Time",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunshine Of Your Love",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "S.W.L.A.B.R.",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sweet Wine",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take It Back",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tales Of Brave Ulysses",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Those Were The Days",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Toad",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We're Going Wrong",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What A Bringdown",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "White Room",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "As You Said",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Jack Bruce And Peter Brown - As You Said.pdf",
+        "file_size_bytes": 670184,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "Badge",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/George Harrison - Badge.pdf",
+        "file_size_bytes": 418595,
+        "page_range": [
+          7,
+          9
+        ]
+      },
+      {
+        "song_title": "Blue Condition",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/George Baker - Blue Condition.pdf",
+        "file_size_bytes": 434874,
+        "page_range": [
+          9,
+          11
+        ]
+      },
+      {
+        "song_title": "Born Under A Bad Sign",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Unknown Artist - Born Under A Bad Sign.pdf",
+        "file_size_bytes": 426254,
+        "page_range": [
+          11,
+          13
+        ]
+      },
+      {
+        "song_title": "Cat's Squirrel",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/S. Coleridge-taylor - Cat's Squirrel.pdf",
+        "file_size_bytes": 361976,
+        "page_range": [
+          13,
+          15
+        ]
+      },
+      {
+        "song_title": "Dance The Night Away",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Jack Bruce And Pete Brown - Dance The Night Away.pdf",
+        "file_size_bytes": 396962,
+        "page_range": [
+          15,
+          17
+        ]
+      },
+      {
+        "song_title": "Deserted Cities Of The Heart",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Pete Brown - Deserted Cities Of The Heart.pdf",
+        "file_size_bytes": 675192,
+        "page_range": [
+          17,
+          20
+        ]
+      },
+      {
+        "song_title": "Doin' That Scrapyard Thing",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Unknown Artist - Doin' That Scrapyard Thing.pdf",
+        "file_size_bytes": 598932,
+        "page_range": [
+          20,
+          23
+        ]
+      },
+      {
+        "song_title": "Dreaming",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Jack Strachey - Dreaming.pdf",
+        "file_size_bytes": 443690,
+        "page_range": [
+          23,
+          25
+        ]
+      },
+      {
+        "song_title": "I'm So Glad",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Nebedeiah -sip- James - I'm So Glad.pdf",
+        "file_size_bytes": 439479,
+        "page_range": [
+          25,
+          27
+        ]
+      },
+      {
+        "song_title": "N.S.U.",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Jack Bruce - N.s.u.pdf",
+        "file_size_bytes": 424240,
+        "page_range": [
+          27,
+          29
+        ]
+      },
+      {
+        "song_title": "Politician",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Unknown Artist - Politician.pdf",
+        "file_size_bytes": 417631,
+        "page_range": [
+          29,
+          31
+        ]
+      },
+      {
+        "song_title": "I Feel Free",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Jack Bruce And Pete Brown - I Feel Free.pdf",
+        "file_size_bytes": 1303954,
+        "page_range": [
+          31,
+          37
+        ]
+      },
+      {
+        "song_title": "Pressed Rat And Warthog",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Unknown Artist - Pressed Rat And Warthog.pdf",
+        "file_size_bytes": 482462,
+        "page_range": [
+          37,
+          39
+        ]
+      },
+      {
+        "song_title": "Sleepy Time Time",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Milt Gabler And Clarence Gaskill - Sleepy Time Time.pdf",
+        "file_size_bytes": 471514,
+        "page_range": [
+          39,
+          41
+        ]
+      },
+      {
+        "song_title": "Sunshine Of Your Love",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Jack Bruce, Peter Brown, And Eric Clapton - Sunshine Of Your Love.pdf",
+        "file_size_bytes": 427247,
+        "page_range": [
+          41,
+          43
+        ]
+      },
+      {
+        "song_title": "Sweet Wine",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Unknown Artist - Sweet Wine.pdf",
+        "file_size_bytes": 422376,
+        "page_range": [
+          43,
+          45
+        ]
+      },
+      {
+        "song_title": "S.W.L.A.B.R.",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Pete Brown - S.w.l.a.b.r.pdf",
+        "file_size_bytes": 608836,
+        "page_range": [
+          45,
+          48
+        ]
+      },
+      {
+        "song_title": "Tales Of Brave Ulysses",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Unknown Artist - Tales Of Brave Ulysses.pdf",
+        "file_size_bytes": 672061,
+        "page_range": [
+          48,
+          51
+        ]
+      },
+      {
+        "song_title": "Take It Back",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Pete Brown - Take It Back.pdf",
+        "file_size_bytes": 438653,
+        "page_range": [
+          51,
+          53
+        ]
+      },
+      {
+        "song_title": "Those Were The Days",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Gene Raskin Mike Taylor - Those Were The Days.pdf",
+        "file_size_bytes": 440439,
+        "page_range": [
+          53,
+          55
+        ]
+      },
+      {
+        "song_title": "Toad",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Unknown Artist - Toad.pdf",
+        "file_size_bytes": 339187,
+        "page_range": [
+          55,
+          57
+        ]
+      },
+      {
+        "song_title": "We're Going Wrong",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Jack Bruce - We're Going Wrong.pdf",
+        "file_size_bytes": 420420,
+        "page_range": [
+          57,
+          59
+        ]
+      },
+      {
+        "song_title": "White Room",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Unknown Artist - White Room.pdf",
+        "file_size_bytes": 693653,
+        "page_range": [
+          59,
+          62
+        ]
+      },
+      {
+        "song_title": "What A Bringdown",
+        "artist": "Cream",
+        "output_uri": "s3://jsmith-output/Cream/Cream Complete/Songs/Ginger Baker - What A Bringdown.pdf",
+        "file_size_bytes": 1373869,
+        "page_range": [
+          62,
+          70
+        ]
+      }
+    ]
+  }
+}

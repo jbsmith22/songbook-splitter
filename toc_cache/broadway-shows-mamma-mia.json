@@ -1,0 +1,350 @@
+{
+  "book_id": "broadway-shows-mamma-mia",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Overture",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Have A Dream Prologue",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honey Honey",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Money, Money, Money",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Scene Change",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thank You For The Music",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mamma Mia",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Chiquitita",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dancing Queen",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lay All Your Love On Me Underscore",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lay All Your Love On Me",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Super Trouper",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gimme, Gimme, Gimme",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Name Of The Game",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Voulez Vous",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Entr'acte",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Under Attack",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Of Us",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SOS",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Does Your Mother Know",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Knowing Me, Knowing You",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Our Last Summer",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Intro to Slipping Through My Fingers",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Slipping Through My Fingers",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Winner Takes It All",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Scene Change",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take A Chance On Me",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dancing Queen Hymn",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Do, I Do, I Do",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Have A Dream",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bows",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mamma Mia Bows",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dancing Queen Bows",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Waterloo",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thank You For The Music Stage Guitar Capo 2",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thank You For The Music Stage Guitar Capo 4",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Overture",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Unknown Artist - Overture.pdf",
+        "file_size_bytes": 82302,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "I Have A Dream Prologue",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Mamma Mia - I Have A Dream Prologue.pdf",
+        "file_size_bytes": 35997,
+        "page_range": [
+          6,
+          8
+        ]
+      },
+      {
+        "song_title": "Honey Honey",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Mamma Mia - Honey Honey.pdf",
+        "file_size_bytes": 32293,
+        "page_range": [
+          8,
+          9
+        ]
+      },
+      {
+        "song_title": "Money, Money, Money",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Unknown Artist - Money, Money, Money.pdf",
+        "file_size_bytes": 706321,
+        "page_range": [
+          9,
+          79
+        ]
+      },
+      {
+        "song_title": "Scene Change",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Unknown Artist - Scene Change.pdf",
+        "file_size_bytes": 1983374,
+        "page_range": [
+          79,
+          296
+        ]
+      },
+      {
+        "song_title": "Mamma Mia Bows",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Unknown Artist - Mamma Mia Bows.pdf",
+        "file_size_bytes": 45361,
+        "page_range": [
+          296,
+          297
+        ]
+      },
+      {
+        "song_title": "Lay All Your Love On Me Underscore",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Unknown Artist - Lay All Your Love On Me Underscore.pdf",
+        "file_size_bytes": 54584,
+        "page_range": [
+          297,
+          297
+        ]
+      },
+      {
+        "song_title": "Lay All Your Love On Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Unknown Artist - Lay All Your Love On Me.pdf",
+        "file_size_bytes": 45321,
+        "page_range": [
+          297,
+          299
+        ]
+      },
+      {
+        "song_title": "Mamma Mia",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Unknown Artist - Mamma Mia.pdf",
+        "file_size_bytes": 29890,
+        "page_range": [
+          299,
+          300
+        ]
+      },
+      {
+        "song_title": "Thank You For The Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Mamma Mia - Thank You For The Music.pdf",
+        "file_size_bytes": 57176,
+        "page_range": [
+          300,
+          300
+        ]
+      },
+      {
+        "song_title": "Thank You For The Music Stage Guitar Capo 2",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Mamma Mia - Thank You For The Music Stage Guitar Capo 2.pdf",
+        "file_size_bytes": 57176,
+        "page_range": [
+          300,
+          300
+        ]
+      },
+      {
+        "song_title": "Thank You For The Music Stage Guitar Capo 4",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Mamma Mia/Songs/Mamma Mia - Thank You For The Music Stage Guitar Capo 4.pdf",
+        "file_size_bytes": 74925,
+        "page_range": [
+          300,
+          302
+        ]
+      }
+    ]
+  }
+}

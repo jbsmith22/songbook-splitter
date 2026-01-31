@@ -1,0 +1,77 @@
+{
+  "book_id": "billy-joel-songs-attic",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "MIAMI 2017",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SUMMER, HIGHLAND FALLS",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "STREETLIFE SERENADER",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOS ANGELENOS",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHE'S GOT A WAY",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EVERYBODY LOVES YOU NOW",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SAY GOODBYE TO HOLLYWOOD",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU'RE MY HOME",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CAPTAIN JACK",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'VE LOVED THESE DAYS",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE BALLAD OF BILLY THE KID",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

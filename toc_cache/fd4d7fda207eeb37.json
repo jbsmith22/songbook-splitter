@@ -1,0 +1,23 @@
+{
+  "book_id": "fd4d7fda207eeb37",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "THE MOON'S A WINDOW TO HEAVEN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - The Final Frontier/Songs/From The Paramount Motion Picture Star Trek V- The Final Frontier, Words By John Bettis, Music By Jerry Goldsmith - The Moon's A Window To Heaven.pdf",
+        "file_size_bytes": 1611407,
+        "page_range": [
+          0,
+          6
+        ]
+      }
+    ]
+  }
+}

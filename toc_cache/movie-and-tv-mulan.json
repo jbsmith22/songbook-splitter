@@ -1,0 +1,30 @@
+{
+  "book_id": "movie-and-tv-mulan",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Honor to Us All",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Honor to Us All",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mulan/Songs/Matthew Wilder & David Zippel - Honor To Us All.pdf",
+        "file_size_bytes": 15395172,
+        "page_range": [
+          0,
+          41
+        ]
+      }
+    ]
+  }
+}

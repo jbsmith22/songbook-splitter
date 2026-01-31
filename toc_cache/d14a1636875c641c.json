@@ -1,0 +1,63 @@
+{
+  "book_id": "d14a1636875c641c",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Junior's Farm",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Junior's Farm.pdf",
+        "file_size_bytes": 712565,
+        "page_range": [
+          19,
+          32
+        ]
+      },
+      {
+        "song_title": "Uncle Albert/Admiral Halsey",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Uncle Albert-admiral Halsey.pdf",
+        "file_size_bytes": 223301,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "Hi, Hi, Hi",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Hi, Hi, Hi.pdf",
+        "file_size_bytes": 287306,
+        "page_range": [
+          36,
+          41
+        ]
+      },
+      {
+        "song_title": "Let 'Em In",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Let 'em In.pdf",
+        "file_size_bytes": 167262,
+        "page_range": [
+          41,
+          44
+        ]
+      },
+      {
+        "song_title": "My Love",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - My Love.pdf",
+        "file_size_bytes": 576743,
+        "page_range": [
+          44,
+          55
+        ]
+      }
+    ]
+  }
+}

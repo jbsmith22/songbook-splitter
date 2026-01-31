@@ -1,0 +1,30 @@
+{
+  "book_id": "b85606e5f92ab51e",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Across The Stars (Love Theme From Star Wars: Episode II)",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Across The Stars (Love Theme From Star Wars: Episode II)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Star Wars Episode Ii - Attack Of The Clones (lite)/Songs/John Williams - Across The Stars (love Theme From Star Wars- Episode Ii).pdf",
+        "file_size_bytes": 2885573,
+        "page_range": [
+          1,
+          29
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "book_id": "33b4fd1eab591d4e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Down South Jukin'",
+        "artist": "Lynyrd Skynyrd",
+        "output_uri": "s3://jsmith-output/Lynyrd Skynyrd/Lynyrd Skynyrd - The New Best Of [guitar Tab]/Songs/Lynyrd Skynyrd - Down South Jukin'.pdf",
+        "file_size_bytes": 1056369,
+        "page_range": [
+          8,
+          14
+        ]
+      },
+      {
+        "song_title": "Free Bird",
+        "artist": "Lynyrd Skynyrd",
+        "output_uri": "s3://jsmith-output/Lynyrd Skynyrd/Lynyrd Skynyrd - The New Best Of [guitar Tab]/Songs/Lynyrd Skynyrd - Free Bird.pdf",
+        "file_size_bytes": 7218053,
+        "page_range": [
+          14,
+          50
+        ]
+      },
+      {
+        "song_title": "I Ain't The One",
+        "artist": "Lynyrd Skynyrd",
+        "output_uri": "s3://jsmith-output/Lynyrd Skynyrd/Lynyrd Skynyrd - The New Best Of [guitar Tab]/Songs/Lynyrd Skynyrd - I Ain't The One.pdf",
+        "file_size_bytes": 1264541,
+        "page_range": [
+          50,
+          56
+        ]
+      },
+      {
+        "song_title": "On The Hunt",
+        "artist": "Lynyrd Skynyrd",
+        "output_uri": "s3://jsmith-output/Lynyrd Skynyrd/Lynyrd Skynyrd - The New Best Of [guitar Tab]/Songs/Lynyrd Skynyrd - On The Hunt.pdf",
+        "file_size_bytes": 9292526,
+        "page_range": [
+          56,
+          104
+        ]
+      },
+      {
+        "song_title": "What's Your Name",
+        "artist": "Lynyrd Skynyrd",
+        "output_uri": "s3://jsmith-output/Lynyrd Skynyrd/Lynyrd Skynyrd - The New Best Of [guitar Tab]/Songs/Lynyrd Skynyrd - What's Your Name.pdf",
+        "file_size_bytes": 1678098,
+        "page_range": [
+          104,
+          112
+        ]
+      },
+      {
+        "song_title": "Bridge",
+        "artist": "Lynyrd Skynyrd",
+        "output_uri": "s3://jsmith-output/Lynyrd Skynyrd/Lynyrd Skynyrd - The New Best Of [guitar Tab]/Songs/Lynyrd Skynyrd - Bridge.pdf",
+        "file_size_bytes": 391750,
+        "page_range": [
+          112,
+          114
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "book_id": "d65ab265b1ea8b87",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Child's Anthem",
+        "artist": "Toto",
+        "output_uri": "s3://jsmith-output/Toto/Toto - Best Of/Songs/Toto - Child's Anthem.pdf",
+        "file_size_bytes": 434721,
+        "page_range": [
+          0,
+          9
+        ]
+      },
+      {
+        "song_title": "Georgy Porgy",
+        "artist": "Toto",
+        "output_uri": "s3://jsmith-output/Toto/Toto - Best Of/Songs/Toto - Georgy Porgy.pdf",
+        "file_size_bytes": 2618993,
+        "page_range": [
+          9,
+          58
+        ]
+      },
+      {
+        "song_title": "Africa",
+        "artist": "Toto",
+        "output_uri": "s3://jsmith-output/Toto/Toto - Best Of/Songs/Toto - Africa.pdf",
+        "file_size_bytes": 510113,
+        "page_range": [
+          58,
+          67
+        ]
+      }
+    ]
+  }
+}

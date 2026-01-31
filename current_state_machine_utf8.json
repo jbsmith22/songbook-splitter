@@ -1,0 +1,484 @@
+{
+  "Comment": "SheetMusic Book Splitter Pipeline - Complete Processing Flow",
+  "StartAt": "CheckAlreadyProcessed",
+  "States": {
+    "CheckAlreadyProcessed": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-check-processed",
+        "Payload": {
+          "book_id.$": "$.book_id"
+        }
+      },
+      "ResultPath": "$.check_result",
+      "Next": "IsAlreadyProcessed",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 3,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "IsAlreadyProcessed": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.check_result.Payload.already_processed",
+          "BooleanEquals": true,
+          "Next": "SkipProcessing"
+        }
+      ],
+      "Default": "RecordProcessingStart"
+    },
+    "RecordProcessingStart": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-record-start",
+        "Payload": {
+          "book_id.$": "$.book_id",
+          "source_pdf_uri.$": "$.source_pdf_uri",
+          "artist.$": "$.artist",
+          "book_name.$": "$.book_name",
+          "execution_arn.$": "$$.Execution.Id"
+        }
+      },
+      "ResultPath": "$.start_result",
+      "Next": "TOCDiscovery"
+    },
+    "TOCDiscovery": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "jsmith-sheetmusic-splitter-cluster",
+        "TaskDefinition": "arn:aws:ecs:us-east-1:227027150061:task-definition/jsmith-sheetmusic-splitter-toc-discovery:1",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0f6ba7ae50933273e"],
+            "SecurityGroups": ["sg-0ce35f4435c9ac2f9"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "toc-discovery",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "toc_discovery"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
+                  "Name": "INPUT_BUCKET",
+                  "Value": "jsmith-input"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "jsmith-output"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.toc_discovery",
+      "Next": "TOCParsing",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 2,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "TOCParsing": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "jsmith-sheetmusic-splitter-cluster",
+        "TaskDefinition": "arn:aws:ecs:us-east-1:227027150061:task-definition/jsmith-sheetmusic-splitter-toc-parser:2",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0f6ba7ae50933273e"],
+            "SecurityGroups": ["sg-0ce35f4435c9ac2f9"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "toc-parser",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "toc_parser"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "TOC_DISCOVERY_URI",
+                  "Value.$": "States.Format('s3://jsmith-output/artifacts/{}/toc_discovery.json', $.book_id)"
+                },
+                {
+                  "Name": "ARTIST",
+                  "Value.$": "$.artist"
+                },
+                {
+                  "Name": "BOOK_NAME",
+                  "Value.$": "$.book_name"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "jsmith-output"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.toc_parsing",
+      "Next": "PageMapping",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 2,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "PageMapping": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "jsmith-sheetmusic-splitter-cluster",
+        "TaskDefinition": "arn:aws:ecs:us-east-1:227027150061:task-definition/jsmith-sheetmusic-splitter-page-mapper:4",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0f6ba7ae50933273e"],
+            "SecurityGroups": ["sg-0ce35f4435c9ac2f9"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "page-mapper",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "page_mapper"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
+                  "Name": "TOC_PARSE_URI",
+                  "Value.$": "States.Format('s3://jsmith-output/artifacts/{}/toc_parse.json', $.book_id)"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "jsmith-output"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.page_mapping",
+      "Next": "SongVerification",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 2,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "SongVerification": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "jsmith-sheetmusic-splitter-cluster",
+        "TaskDefinition": "arn:aws:ecs:us-east-1:227027150061:task-definition/jsmith-sheetmusic-splitter-song-verifier:2",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0f6ba7ae50933273e"],
+            "SecurityGroups": ["sg-0ce35f4435c9ac2f9"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "song-verifier",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "song_verifier"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
+                  "Name": "PAGE_MAPPING_URI",
+                  "Value.$": "States.Format('s3://jsmith-output/artifacts/{}/page_mapping.json', $.book_id)"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "jsmith-output"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.song_verification",
+      "Next": "PDFSplitting",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 2,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "PDFSplitting": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "jsmith-sheetmusic-splitter-cluster",
+        "TaskDefinition": "arn:aws:ecs:us-east-1:227027150061:task-definition/jsmith-sheetmusic-splitter-pdf-splitter:2",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0f6ba7ae50933273e"],
+            "SecurityGroups": ["sg-0ce35f4435c9ac2f9"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "pdf-splitter",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "pdf_splitter"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
+                  "Name": "VERIFIED_SONGS_URI",
+                  "Value.$": "States.Format('s3://jsmith-output/artifacts/{}/verified_songs.json', $.book_id)"
+                },
+                {
+                  "Name": "ARTIST",
+                  "Value.$": "$.artist"
+                },
+                {
+                  "Name": "BOOK_NAME",
+                  "Value.$": "$.book_name"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "jsmith-output"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.pdf_splitting",
+      "Next": "GenerateManifest",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 2,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "GenerateManifest": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "jsmith-sheetmusic-splitter-cluster",
+        "TaskDefinition": "arn:aws:ecs:us-east-1:227027150061:task-definition/jsmith-sheetmusic-splitter-manifest-generator:2",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0f6ba7ae50933273e"],
+            "SecurityGroups": ["sg-0ce35f4435c9ac2f9"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "manifest-generator",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "manifest_generator"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
+                  "Name": "ARTIST",
+                  "Value.$": "$.artist"
+                },
+                {
+                  "Name": "BOOK_NAME",
+                  "Value.$": "$.book_name"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "jsmith-output"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.manifest",
+      "Next": "RecordSuccess",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 2,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "RecordFailure"
+        }
+      ]
+    },
+    "RecordSuccess": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-record-success",
+        "Payload": {
+          "book_id.$": "$.book_id",
+          "manifest_uri.$": "States.Format('s3://jsmith-output/output/{}/manifest.json', $.book_id)",
+          "songs_extracted": 9,
+          "processing_duration_seconds": 300,
+          "cost_usd": 0.50
+        }
+      },
+      "End": true
+    },
+    "RecordFailure": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-record-failure",
+        "Payload": {
+          "book_id.$": "$.book_id",
+          "error_message.$": "States.Format('Error: {}', $.error.Cause)"
+        }
+      },
+      "End": true
+    },
+    "SkipProcessing": {
+      "Type": "Succeed",
+      "Comment": "Book already processed successfully"
+    }
+  }
+}
+

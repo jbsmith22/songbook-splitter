@@ -1,0 +1,73 @@
+{
+  "book_id": "b3752238a2bd7bea",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Proud Mary",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - Guitar Anthology/Songs/Creedence Clearwater Revival - Proud Mary.pdf",
+        "file_size_bytes": 1023704,
+        "page_range": [
+          0,
+          21
+        ]
+      },
+      {
+        "song_title": "Lodi",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - Guitar Anthology/Songs/Creedence Clearwater Revival - Lodi.pdf",
+        "file_size_bytes": 935964,
+        "page_range": [
+          21,
+          41
+        ]
+      },
+      {
+        "song_title": "Hey, Tonight",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - Guitar Anthology/Songs/Creedence Clearwater Revival - Hey, Tonight.pdf",
+        "file_size_bytes": 1456036,
+        "page_range": [
+          41,
+          69
+        ]
+      },
+      {
+        "song_title": "Molina",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - Guitar Anthology/Songs/Creedence Clearwater Revival - Molina.pdf",
+        "file_size_bytes": 84724,
+        "page_range": [
+          69,
+          71
+        ]
+      },
+      {
+        "song_title": "UP AROUND THE BEND",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - Guitar Anthology/Songs/Creedence Clearwater Revival - Up Around The Bend.pdf",
+        "file_size_bytes": 741914,
+        "page_range": [
+          71,
+          86
+        ]
+      },
+      {
+        "song_title": "LONG AS I CAN SEE THE LIGHT",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - Guitar Anthology/Songs/Creedence Clearwater Revival - Long As I Can See The Light.pdf",
+        "file_size_bytes": 137701,
+        "page_range": [
+          86,
+          89
+        ]
+      }
+    ]
+  }
+}

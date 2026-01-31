@@ -1,0 +1,3453 @@
+{
+  "book_id": "247b0fd5aa12f859",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Ain't Misbehavin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/(what Did I Do To Be So) Black And Blue - Ain't Misbehavin'.pdf",
+        "file_size_bytes": 714675,
+        "page_range": [
+          70,
+          72
+        ]
+      },
+      {
+        "song_title": "I'm Gonna Sit Right Down and Write Myself a Letter",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I'm Gonna Sit Right Down And Write Myself A Letter.pdf",
+        "file_size_bytes": 330052,
+        "page_range": [
+          72,
+          73
+        ]
+      },
+      {
+        "song_title": "HONEYSUCKLE ROSE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Andy Razaf - Honeysuckle Rose.pdf",
+        "file_size_bytes": 733115,
+        "page_range": [
+          73,
+          75
+        ]
+      },
+      {
+        "song_title": "So Far",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii - So Far.pdf",
+        "file_size_bytes": 325644,
+        "page_range": [
+          75,
+          76
+        ]
+      },
+      {
+        "song_title": "Angel In The Wings",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Civilization - Angel In The Wings.pdf",
+        "file_size_bytes": 307845,
+        "page_range": [
+          76,
+          77
+        ]
+      },
+      {
+        "song_title": "Annie",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Martin Charnin - Annie.pdf",
+        "file_size_bytes": 339168,
+        "page_range": [
+          77,
+          78
+        ]
+      },
+      {
+        "song_title": "It's the Hard-Knock Life",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - It's The Hard-knock Life.pdf",
+        "file_size_bytes": 717121,
+        "page_range": [
+          78,
+          80
+        ]
+      },
+      {
+        "song_title": "Tomorrow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Martin Charnin & Charles Strouse - Tomorrow.pdf",
+        "file_size_bytes": 363999,
+        "page_range": [
+          80,
+          81
+        ]
+      },
+      {
+        "song_title": "Anya",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Anya.pdf",
+        "file_size_bytes": 305366,
+        "page_range": [
+          81,
+          82
+        ]
+      },
+      {
+        "song_title": "The Apple Tree",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Beautiful, Beautiful World - The Apple Tree.pdf",
+        "file_size_bytes": 951410,
+        "page_range": [
+          82,
+          85
+        ]
+      },
+      {
+        "song_title": "The Lady is a Tramp",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - The Lady Is A Tramp.pdf",
+        "file_size_bytes": 335428,
+        "page_range": [
+          85,
+          86
+        ]
+      },
+      {
+        "song_title": "My Funny Valentine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lorenz Hart, Richard Rodgers - My Funny Valentine.pdf",
+        "file_size_bytes": 306880,
+        "page_range": [
+          86,
+          87
+        ]
+      },
+      {
+        "song_title": "Bells Are Ringing",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Betty Comden & Adolph Green - Bells Are Ringing.pdf",
+        "file_size_bytes": 272202,
+        "page_range": [
+          87,
+          88
+        ]
+      },
+      {
+        "song_title": "JUST IN TIME",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Betty Comden & Adolph Green - Music By Jule Styne - Just In Time.pdf",
+        "file_size_bytes": 902814,
+        "page_range": [
+          88,
+          91
+        ]
+      },
+      {
+        "song_title": "Feet Feet Forward",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Feet Feet Forward.pdf",
+        "file_size_bytes": 264204,
+        "page_range": [
+          91,
+          92
+        ]
+      },
+      {
+        "song_title": "Triplets",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Triplets.pdf",
+        "file_size_bytes": 333899,
+        "page_range": [
+          92,
+          93
+        ]
+      },
+      {
+        "song_title": "I See Your Face Before Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Howard Dietz, Marvin Hamlisch - I See Your Face Before Me.pdf",
+        "file_size_bytes": 273037,
+        "page_range": [
+          93,
+          94
+        ]
+      },
+      {
+        "song_title": "RIGHT AS THE RAIN",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Harold Arlen - Right As The Rain.pdf",
+        "file_size_bytes": 340041,
+        "page_range": [
+          94,
+          95
+        ]
+      },
+      {
+        "song_title": "\"The Fox From Syracuse\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Lorenz Hart, Music By Richard Rodgers - -the Fox From Syracuse-.pdf",
+        "file_size_bytes": 314804,
+        "page_range": [
+          95,
+          96
+        ]
+      },
+      {
+        "song_title": "FALLING IN LOVE WITH LOVE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/(lorenz Hart - Richard Rodgers) - Falling In Love With Love.pdf",
+        "file_size_bytes": 323172,
+        "page_range": [
+          96,
+          97
+        ]
+      },
+      {
+        "song_title": "\"By The Beautiful Sea\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Dorothy Fields (lyrics), Arthur Schwartz (music) - -by The Beautiful Sea-.pdf",
+        "file_size_bytes": 313217,
+        "page_range": [
+          97,
+          98
+        ]
+      },
+      {
+        "song_title": "Everything I've Got",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Fly Jupiter - Everything I've Got.pdf",
+        "file_size_bytes": 311945,
+        "page_range": [
+          98,
+          99
+        ]
+      },
+      {
+        "song_title": "Wait Till You See Her",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Lyrics Are Written By Lonnie Klein, But I Don't See An Artist Name Listed For The Composition Itself - Wait Till You See Her.pdf",
+        "file_size_bytes": 695114,
+        "page_range": [
+          99,
+          101
+        ]
+      },
+      {
+        "song_title": "Kids!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Kids!.pdf",
+        "file_size_bytes": 307627,
+        "page_range": [
+          101,
+          102
+        ]
+      },
+      {
+        "song_title": "One Boy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - One Boy.pdf",
+        "file_size_bytes": 323499,
+        "page_range": [
+          102,
+          103
+        ]
+      },
+      {
+        "song_title": "Rosie",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Charles Strouse (music By Charles Strouse) - Rosie.pdf",
+        "file_size_bytes": 650224,
+        "page_range": [
+          103,
+          105
+        ]
+      },
+      {
+        "song_title": "Tomorrow Belongs to Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Tomorrow Belongs To Me.pdf",
+        "file_size_bytes": 1234235,
+        "page_range": [
+          105,
+          109
+        ]
+      },
+      {
+        "song_title": "Money, Money",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Money, Money.pdf",
+        "file_size_bytes": 638152,
+        "page_range": [
+          109,
+          111
+        ]
+      },
+      {
+        "song_title": "Willkommen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Willkommen.pdf",
+        "file_size_bytes": 600896,
+        "page_range": [
+          111,
+          113
+        ]
+      },
+      {
+        "song_title": "Follow Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I Loved You Once In Silence - Follow Me.pdf",
+        "file_size_bytes": 701160,
+        "page_range": [
+          113,
+          115
+        ]
+      },
+      {
+        "song_title": "I Wonder What the King Is Doing Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Alan Jay Lerner - I Wonder What The King Is Doing Tonight.pdf",
+        "file_size_bytes": 1064969,
+        "page_range": [
+          115,
+          118
+        ]
+      },
+      {
+        "song_title": "If Ever I Would Leave You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Alan Jay Lerner - If Ever I Would Leave You.pdf",
+        "file_size_bytes": 334748,
+        "page_range": [
+          118,
+          119
+        ]
+      },
+      {
+        "song_title": "Can-Can",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Cole Porter - Can-can.pdf",
+        "file_size_bytes": 304120,
+        "page_range": [
+          119,
+          120
+        ]
+      },
+      {
+        "song_title": "It's All Right With Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Cole Porter - It's All Right With Me.pdf",
+        "file_size_bytes": 338968,
+        "page_range": [
+          120,
+          121
+        ]
+      },
+      {
+        "song_title": "Allez-vous-en, go away",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Allez-vous-en, Go Away.pdf",
+        "file_size_bytes": 302159,
+        "page_range": [
+          121,
+          122
+        ]
+      },
+      {
+        "song_title": "The Old Gumbie Cat",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Andrew Lloyd Webber - The Old Gumbie Cat.pdf",
+        "file_size_bytes": 352307,
+        "page_range": [
+          122,
+          123
+        ]
+      },
+      {
+        "song_title": "The Ad-dressing of Cats",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - The Ad-dressing Of Cats.pdf",
+        "file_size_bytes": 669727,
+        "page_range": [
+          123,
+          125
+        ]
+      },
+      {
+        "song_title": "The Cat About Town",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Burtopher Jones - The Cat About Town.pdf",
+        "file_size_bytes": 317276,
+        "page_range": [
+          125,
+          126
+        ]
+      },
+      {
+        "song_title": "THE JOURNEY TO THE HEAVYSIDE LAYER",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - The Journey To The Heavyside Layer.pdf",
+        "file_size_bytes": 1073307,
+        "page_range": [
+          126,
+          129
+        ]
+      },
+      {
+        "song_title": "Skimbleshanks: The Railway Cat",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Music By Andrew Lloyd Webber - Skimbleshanks- The Railway Cat.pdf",
+        "file_size_bytes": 764598,
+        "page_range": [
+          129,
+          131
+        ]
+      },
+      {
+        "song_title": "Chicago",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/And All That Jazz - Chicago.pdf",
+        "file_size_bytes": 527482,
+        "page_range": [
+          131,
+          133
+        ]
+      },
+      {
+        "song_title": "My Own Best Friend",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - My Own Best Friend.pdf",
+        "file_size_bytes": 620579,
+        "page_range": [
+          133,
+          135
+        ]
+      },
+      {
+        "song_title": "A Chorus Line",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - A Chorus Line.pdf",
+        "file_size_bytes": 1040283,
+        "page_range": [
+          135,
+          138
+        ]
+      },
+      {
+        "song_title": "WHAT I DID FOR LOVE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - What I Did For Love.pdf",
+        "file_size_bytes": 352331,
+        "page_range": [
+          138,
+          139
+        ]
+      },
+      {
+        "song_title": "One",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - One.pdf",
+        "file_size_bytes": 337904,
+        "page_range": [
+          139,
+          140
+        ]
+      },
+      {
+        "song_title": "Cinderella",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Cinderella.pdf",
+        "file_size_bytes": 296175,
+        "page_range": [
+          140,
+          141
+        ]
+      },
+      {
+        "song_title": "DO I LOVE YOU",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii - Do I Love You.pdf",
+        "file_size_bytes": 344932,
+        "page_range": [
+          141,
+          142
+        ]
+      },
+      {
+        "song_title": "Stepsisters' Lament",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Stepsisters' Lament.pdf",
+        "file_size_bytes": 362413,
+        "page_range": [
+          142,
+          143
+        ]
+      },
+      {
+        "song_title": "A Lovely Night",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii - Richard Rodgers - A Lovely Night.pdf",
+        "file_size_bytes": 313280,
+        "page_range": [
+          143,
+          144
+        ]
+      },
+      {
+        "song_title": "Company",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Sorry - Grateful - Company.pdf",
+        "file_size_bytes": 305694,
+        "page_range": [
+          144,
+          145
+        ]
+      },
+      {
+        "song_title": "Another Hundred People",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Another Hundred People.pdf",
+        "file_size_bytes": 622605,
+        "page_range": [
+          145,
+          147
+        ]
+      },
+      {
+        "song_title": "Being Alive",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Being Alive.pdf",
+        "file_size_bytes": 691222,
+        "page_range": [
+          147,
+          149
+        ]
+      },
+      {
+        "song_title": "YOU COULD DRIVE A PERSON CRAZY",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - You Could Drive A Person Crazy.pdf",
+        "file_size_bytes": 738336,
+        "page_range": [
+          149,
+          151
+        ]
+      },
+      {
+        "song_title": "Dance Me a Sone",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/My Little Dog Has Ego - Dance Me A Sone.pdf",
+        "file_size_bytes": 354742,
+        "page_range": [
+          151,
+          152
+        ]
+      },
+      {
+        "song_title": "A Day In Tightwad/A Night In The Ukraine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Just Go To The Movies - A Day In Tightwad-a Night In The Ukraine.pdf",
+        "file_size_bytes": 349620,
+        "page_range": [
+          152,
+          153
+        ]
+      },
+      {
+        "song_title": "Dear World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Dear World.pdf",
+        "file_size_bytes": 335533,
+        "page_range": [
+          153,
+          154
+        ]
+      },
+      {
+        "song_title": "Kiss Her Now",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Kiss Her Now.pdf",
+        "file_size_bytes": 641520,
+        "page_range": [
+          154,
+          156
+        ]
+      },
+      {
+        "song_title": "SOMEONE LIKE YOU",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Keith Urban - Someone Like You.pdf",
+        "file_size_bytes": 348693,
+        "page_range": [
+          156,
+          157
+        ]
+      },
+      {
+        "song_title": "Make Someone Happy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Betty Comden & Adolph Green - Make Someone Happy.pdf",
+        "file_size_bytes": 286303,
+        "page_range": [
+          157,
+          158
+        ]
+      },
+      {
+        "song_title": "It Takes a Whole Lot of Human Feeling",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - It Takes A Whole Lot Of Human Feeling.pdf",
+        "file_size_bytes": 783605,
+        "page_range": [
+          158,
+          161
+        ]
+      },
+      {
+        "song_title": "Well, Did You Evah?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Well, Did You Evah-.pdf",
+        "file_size_bytes": 335173,
+        "page_range": [
+          161,
+          162
+        ]
+      },
+      {
+        "song_title": "Evita",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Buenos Aires - Evita.pdf",
+        "file_size_bytes": 510669,
+        "page_range": [
+          162,
+          164
+        ]
+      },
+      {
+        "song_title": "Don't Cry For Me Argentina",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Andrew Lloyd Webber - Don't Cry For Me Argentina.pdf",
+        "file_size_bytes": 584020,
+        "page_range": [
+          164,
+          166
+        ]
+      },
+      {
+        "song_title": "Be Kind to Your Parents",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Be Kind To Your Parents.pdf",
+        "file_size_bytes": 597369,
+        "page_range": [
+          166,
+          168
+        ]
+      },
+      {
+        "song_title": "Try to Remember",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Try To Remember.pdf",
+        "file_size_bytes": 325223,
+        "page_range": [
+          168,
+          169
+        ]
+      },
+      {
+        "song_title": "Soon It's Gonna Rain",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Tom Jones - Soon It's Gonna Rain.pdf",
+        "file_size_bytes": 343001,
+        "page_range": [
+          169,
+          170
+        ]
+      },
+      {
+        "song_title": "Fashion",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Fashion.pdf",
+        "file_size_bytes": 604693,
+        "page_range": [
+          170,
+          172
+        ]
+      },
+      {
+        "song_title": "If I Were A Rich Man",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lyrics By Sheldon Harnick, Music By Jerry Bock - If I Were A Rich Man.pdf",
+        "file_size_bytes": 640826,
+        "page_range": [
+          172,
+          174
+        ]
+      },
+      {
+        "song_title": "Miracle of Miracles",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Miracle Of Miracles.pdf",
+        "file_size_bytes": 354012,
+        "page_range": [
+          174,
+          175
+        ]
+      },
+      {
+        "song_title": "Tradition",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Tradition.pdf",
+        "file_size_bytes": 656405,
+        "page_range": [
+          175,
+          177
+        ]
+      },
+      {
+        "song_title": "SABBATH PRAYER",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Sabbath Prayer.pdf",
+        "file_size_bytes": 338802,
+        "page_range": [
+          177,
+          178
+        ]
+      },
+      {
+        "song_title": "Tinian's Rainbow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Old Devil Moon - Tinian's Rainbow.pdf",
+        "file_size_bytes": 348555,
+        "page_range": [
+          178,
+          179
+        ]
+      },
+      {
+        "song_title": "If This Isn't Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/R.b. Hamilton - If This Isn't Love.pdf",
+        "file_size_bytes": 293242,
+        "page_range": [
+          179,
+          180
+        ]
+      },
+      {
+        "song_title": "WHEN I'M NOT NEAR THE GIRL I LOVE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - When I'm Not Near The Girl I Love.pdf",
+        "file_size_bytes": 321060,
+        "page_range": [
+          180,
+          181
+        ]
+      },
+      {
+        "song_title": "HOW ARE THINGS IN GLOCCA MORRA",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Written By E.y. Harburg And Fred Saidy - How Are Things In Glocca Morra.pdf",
+        "file_size_bytes": 346865,
+        "page_range": [
+          181,
+          182
+        ]
+      },
+      {
+        "song_title": "That Great Come and Get It Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - That Great Come And Get It Day.pdf",
+        "file_size_bytes": 612562,
+        "page_range": [
+          182,
+          184
+        ]
+      },
+      {
+        "song_title": "Gentleman Jimmy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Sheldon Harnick - Gentleman Jimmy.pdf",
+        "file_size_bytes": 326364,
+        "page_range": [
+          184,
+          185
+        ]
+      },
+      {
+        "song_title": "WHEN DID I FALL IN LOVE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Shirl Milosky, Harry Woods - When Did I Fall In Love.pdf",
+        "file_size_bytes": 275606,
+        "page_range": [
+          185,
+          186
+        ]
+      },
+      {
+        "song_title": "The First",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Will We Ever Know Each Other - The First.pdf",
+        "file_size_bytes": 1292182,
+        "page_range": [
+          186,
+          190
+        ]
+      },
+      {
+        "song_title": "I ENJOY BEING A GIRL",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Richard Rodgers - I Enjoy Being A Girl.pdf",
+        "file_size_bytes": 317983,
+        "page_range": [
+          190,
+          191
+        ]
+      },
+      {
+        "song_title": "YOU ARE BEAUTIFUL",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein - You Are Beautiful.pdf",
+        "file_size_bytes": 306076,
+        "page_range": [
+          191,
+          192
+        ]
+      },
+      {
+        "song_title": "In Buddy's Eyes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - In Buddy's Eyes.pdf",
+        "file_size_bytes": 936957,
+        "page_range": [
+          192,
+          195
+        ]
+      },
+      {
+        "song_title": "Waiting for the Girls Upstairs",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Waiting For The Girls Upstairs.pdf",
+        "file_size_bytes": 335791,
+        "page_range": [
+          195,
+          196
+        ]
+      },
+      {
+        "song_title": "Could I Leave You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Could I Leave You.pdf",
+        "file_size_bytes": 691269,
+        "page_range": [
+          196,
+          198
+        ]
+      },
+      {
+        "song_title": "Who's That Woman?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Who's That Woman-.pdf",
+        "file_size_bytes": 356130,
+        "page_range": [
+          198,
+          199
+        ]
+      },
+      {
+        "song_title": "I'm Still Here",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I'm Still Here.pdf",
+        "file_size_bytes": 687333,
+        "page_range": [
+          199,
+          201
+        ]
+      },
+      {
+        "song_title": "LOSING MY MIND",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Losing My Mind.pdf",
+        "file_size_bytes": 322650,
+        "page_range": [
+          201,
+          202
+        ]
+      },
+      {
+        "song_title": "PROLOGUE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Prologue.pdf",
+        "file_size_bytes": 272838,
+        "page_range": [
+          202,
+          203
+        ]
+      },
+      {
+        "song_title": "Follow Thru",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Follow Thru.pdf",
+        "file_size_bytes": 642901,
+        "page_range": [
+          203,
+          205
+        ]
+      },
+      {
+        "song_title": "DON'T RAIN ON MY PARADE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Bob Merrill - Don't Rain On My Parade.pdf",
+        "file_size_bytes": 1047940,
+        "page_range": [
+          205,
+          208
+        ]
+      },
+      {
+        "song_title": "Sadie, Sadie",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Rich Kamins, Music By Alec Wyton - Sadie, Sadie.pdf",
+        "file_size_bytes": 305454,
+        "page_range": [
+          208,
+          209
+        ]
+      },
+      {
+        "song_title": "I'M THE GREATEST STAR",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I'm The Greatest Star.pdf",
+        "file_size_bytes": 953459,
+        "page_range": [
+          209,
+          212
+        ]
+      },
+      {
+        "song_title": "Comedy Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Stephen Sondheim - Comedy Tonight.pdf",
+        "file_size_bytes": 602110,
+        "page_range": [
+          212,
+          214
+        ]
+      },
+      {
+        "song_title": "(I'M A) YANKEE DOODLE DANDY",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/George M. Cohan - (i'm A) Yankee Doodle Dandy.pdf",
+        "file_size_bytes": 318413,
+        "page_range": [
+          214,
+          215
+        ]
+      },
+      {
+        "song_title": "Forty-Five Minutes From Broadway",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/George M. Cohan - Forty-five Minutes From Broadway.pdf",
+        "file_size_bytes": 310332,
+        "page_range": [
+          215,
+          216
+        ]
+      },
+      {
+        "song_title": "The Thrill Is Gone",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lew Brown & Ray Henderson - The Thrill Is Gone.pdf",
+        "file_size_bytes": 378993,
+        "page_range": [
+          216,
+          217
+        ]
+      },
+      {
+        "song_title": "Gigi",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Gigi.pdf",
+        "file_size_bytes": 313173,
+        "page_range": [
+          217,
+          218
+        ]
+      },
+      {
+        "song_title": "The Night They Invented Champagne",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Ralph Mcleane (music By) And Alan Jay Lerner (words By) - The Night They Invented Champagne.pdf",
+        "file_size_bytes": 631232,
+        "page_range": [
+          218,
+          220
+        ]
+      },
+      {
+        "song_title": "Glad To See You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Sammy Cahn - Glad To See You.pdf",
+        "file_size_bytes": 1010884,
+        "page_range": [
+          220,
+          223
+        ]
+      },
+      {
+        "song_title": "O BLESS THE LORD, MY SOUL",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - O Bless The Lord, My Soul.pdf",
+        "file_size_bytes": 321403,
+        "page_range": [
+          223,
+          224
+        ]
+      },
+      {
+        "song_title": "On the Willows",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Stephen Schwartz - On The Willows.pdf",
+        "file_size_bytes": 1224644,
+        "page_range": [
+          224,
+          228
+        ]
+      },
+      {
+        "song_title": "Light of the World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Steve Parmley, Schwartz - Light Of The World.pdf",
+        "file_size_bytes": 300472,
+        "page_range": [
+          228,
+          229
+        ]
+      },
+      {
+        "song_title": "Turn Back, O Man",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Turn Back, O Man.pdf",
+        "file_size_bytes": 671128,
+        "page_range": [
+          229,
+          231
+        ]
+      },
+      {
+        "song_title": "Good News",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Good News.pdf",
+        "file_size_bytes": 323544,
+        "page_range": [
+          231,
+          232
+        ]
+      },
+      {
+        "song_title": "Sunny Side Up",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Gus Gershin, Ira Gershin & Ray Henderson - Sunny Side Up.pdf",
+        "file_size_bytes": 650063,
+        "page_range": [
+          232,
+          234
+        ]
+      },
+      {
+        "song_title": "The Varsity Drag",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - The Varsity Drag.pdf",
+        "file_size_bytes": 301114,
+        "page_range": [
+          234,
+          235
+        ]
+      },
+      {
+        "song_title": "THERE ARE WORSE THINGS I COULD DO",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Warren Casey & Jim Jacobs - There Are Worse Things I Could Do.pdf",
+        "file_size_bytes": 622380,
+        "page_range": [
+          235,
+          237
+        ]
+      },
+      {
+        "song_title": "Summer Nights",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Summer Nights.pdf",
+        "file_size_bytes": 338356,
+        "page_range": [
+          237,
+          238
+        ]
+      },
+      {
+        "song_title": "Never Will I Marry",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Never Will I Marry.pdf",
+        "file_size_bytes": 1249717,
+        "page_range": [
+          238,
+          242
+        ]
+      },
+      {
+        "song_title": "I'll Know",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Frank Loesser - I'll Know.pdf",
+        "file_size_bytes": 377925,
+        "page_range": [
+          242,
+          243
+        ]
+      },
+      {
+        "song_title": "I've Never Been In Love Before",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Frank Loesser - I've Never Been In Love Before.pdf",
+        "file_size_bytes": 346179,
+        "page_range": [
+          243,
+          244
+        ]
+      },
+      {
+        "song_title": "Sit Down You're Rockin' The Boat",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Frank Loesser - Sit Down You're Rockin' The Boat.pdf",
+        "file_size_bytes": 314407,
+        "page_range": [
+          244,
+          245
+        ]
+      },
+      {
+        "song_title": "Fugue for Tinhorns",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Frank Loesser - Fugue For Tinhorns.pdf",
+        "file_size_bytes": 312242,
+        "page_range": [
+          245,
+          246
+        ]
+      },
+      {
+        "song_title": "Take Back Your Mink",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Frank Loesser - Take Back Your Mink.pdf",
+        "file_size_bytes": 678114,
+        "page_range": [
+          246,
+          248
+        ]
+      },
+      {
+        "song_title": "You'll Never Get Away From Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Song Title Displayed Prominently At The Top, This Appears To Be The First Page Of Sheet Music For The Song -you'll Never Get A.pdf",
+        "file_size_bytes": 345686,
+        "page_range": [
+          248,
+          249
+        ]
+      },
+      {
+        "song_title": "Let Me Entertain You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Stephen Sondheim - Let Me Entertain You.pdf",
+        "file_size_bytes": 319680,
+        "page_range": [
+          249,
+          250
+        ]
+      },
+      {
+        "song_title": "Little Lamb",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Little Lamb.pdf",
+        "file_size_bytes": 300028,
+        "page_range": [
+          250,
+          251
+        ]
+      },
+      {
+        "song_title": "Small World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Small World.pdf",
+        "file_size_bytes": 650849,
+        "page_range": [
+          251,
+          253
+        ]
+      },
+      {
+        "song_title": "Happy Hunting",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Mutual Admiration Society - Happy Hunting.pdf",
+        "file_size_bytes": 286418,
+        "page_range": [
+          253,
+          254
+        ]
+      },
+      {
+        "song_title": "THE HAPPY TIME",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/John Kander - The Happy Time.pdf",
+        "file_size_bytes": 304914,
+        "page_range": [
+          254,
+          255
+        ]
+      },
+      {
+        "song_title": "Seeing Things",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/John Kander - Seeing Things.pdf",
+        "file_size_bytes": 305187,
+        "page_range": [
+          255,
+          256
+        ]
+      },
+      {
+        "song_title": "Hello, Dolly?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Jerry Herman - Hello, Dolly-.pdf",
+        "file_size_bytes": 320387,
+        "page_range": [
+          256,
+          257
+        ]
+      },
+      {
+        "song_title": "Put On Your Sunday Clothes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Put On Your Sunday Clothes.pdf",
+        "file_size_bytes": 350637,
+        "page_range": [
+          257,
+          258
+        ]
+      },
+      {
+        "song_title": "Hello, Dolly!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Hello, Dolly!.pdf",
+        "file_size_bytes": 373386,
+        "page_range": [
+          258,
+          259
+        ]
+      },
+      {
+        "song_title": "Here's Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/My Wish - Here's Love.pdf",
+        "file_size_bytes": 308556,
+        "page_range": [
+          259,
+          260
+        ]
+      },
+      {
+        "song_title": "Pine Cones and Holly Berries",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Meredith Wilson - Pine Cones And Holly Berries.pdf",
+        "file_size_bytes": 636090,
+        "page_range": [
+          260,
+          262
+        ]
+      },
+      {
+        "song_title": "High Spirits",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - High Spirits.pdf",
+        "file_size_bytes": 280352,
+        "page_range": [
+          262,
+          263
+        ]
+      },
+      {
+        "song_title": "You'd Better Love Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - You'd Better Love Me.pdf",
+        "file_size_bytes": 304425,
+        "page_range": [
+          263,
+          264
+        ]
+      },
+      {
+        "song_title": "Higher And Higher",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/It Never Entered My Mind - Words By Lorenz Hart, Music By Richard Rodgers - Higher And Higher.pdf",
+        "file_size_bytes": 325996,
+        "page_range": [
+          264,
+          265
+        ]
+      },
+      {
+        "song_title": "You're the Cream in My Coffee",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lew Brown & Ray Henderson - You're The Cream In My Coffee.pdf",
+        "file_size_bytes": 926668,
+        "page_range": [
+          265,
+          268
+        ]
+      },
+      {
+        "song_title": "A Sleepin' Bee",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Image Does Not Clearly Show The Artist Name - A Sleepin' Bee.pdf",
+        "file_size_bytes": 288586,
+        "page_range": [
+          268,
+          269
+        ]
+      },
+      {
+        "song_title": "\"How To Succeed In Business Without Really Trying\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Brotherhood Of Man - -how To Succeed In Business Without Really Trying-.pdf",
+        "file_size_bytes": 645573,
+        "page_range": [
+          269,
+          271
+        ]
+      },
+      {
+        "song_title": "I Believe In You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Frank Loesser - I Believe In You.pdf",
+        "file_size_bytes": 626161,
+        "page_range": [
+          271,
+          273
+        ]
+      },
+      {
+        "song_title": "I Can Get It For You Wholesale",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Miss Marmelstein - I Can Get It For You Wholesale.pdf",
+        "file_size_bytes": 537128,
+        "page_range": [
+          273,
+          275
+        ]
+      },
+      {
+        "song_title": "My Cup Runneth Over",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Tom Jones - My Cup Runneth Over.pdf",
+        "file_size_bytes": 247085,
+        "page_range": [
+          275,
+          276
+        ]
+      },
+      {
+        "song_title": "TOGETHER FOREVER",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Together Forever.pdf",
+        "file_size_bytes": 328344,
+        "page_range": [
+          276,
+          277
+        ]
+      },
+      {
+        "song_title": "I Had A Ball",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Jack Lawrence & Stan Freberg - I Had A Ball.pdf",
+        "file_size_bytes": 292684,
+        "page_range": [
+          277,
+          278
+        ]
+      },
+      {
+        "song_title": "I'd Rather Be Right",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I'd Rather Be Right.pdf",
+        "file_size_bytes": 298342,
+        "page_range": [
+          278,
+          279
+        ]
+      },
+      {
+        "song_title": "Have You Met Miss Jones?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Louis Da Cara - Have You Met Miss Jones-.pdf",
+        "file_size_bytes": 647586,
+        "page_range": [
+          279,
+          281
+        ]
+      },
+      {
+        "song_title": "In a Simple Way I Love You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - In A Simple Way I Love You.pdf",
+        "file_size_bytes": 622493,
+        "page_range": [
+          281,
+          283
+        ]
+      },
+      {
+        "song_title": "Haunted Heart",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Howard Dietz, Arthur Schwartz - Haunted Heart.pdf",
+        "file_size_bytes": 325672,
+        "page_range": [
+          283,
+          284
+        ]
+      },
+      {
+        "song_title": "Our Language of Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Our Language Of Love.pdf",
+        "file_size_bytes": 349595,
+        "page_range": [
+          284,
+          285
+        ]
+      },
+      {
+        "song_title": "Irma La Douce",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lyrics By J.a. Van K - Irma La Douce.pdf",
+        "file_size_bytes": 331696,
+        "page_range": [
+          285,
+          286
+        ]
+      },
+      {
+        "song_title": "Jamaica",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Jamaica.pdf",
+        "file_size_bytes": 327816,
+        "page_range": [
+          286,
+          287
+        ]
+      },
+      {
+        "song_title": "Jesus Christ Superstar",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/(only Want To Say (gethsemane) By Andrew Lloyd Webber) - Jesus Christ Superstar.pdf",
+        "file_size_bytes": 677215,
+        "page_range": [
+          287,
+          289
+        ]
+      },
+      {
+        "song_title": "EVERYTHING'S ALRIGHT",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Andrew Lund Aire - Everything's Alright.pdf",
+        "file_size_bytes": 377268,
+        "page_range": [
+          289,
+          290
+        ]
+      },
+      {
+        "song_title": "Hosanna",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Hosanna.pdf",
+        "file_size_bytes": 371121,
+        "page_range": [
+          290,
+          291
+        ]
+      },
+      {
+        "song_title": "Pilate's Dream",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Andrew Lloyd Webber - Pilate's Dream.pdf",
+        "file_size_bytes": 622408,
+        "page_range": [
+          291,
+          293
+        ]
+      },
+      {
+        "song_title": "Superstar",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Andrew Lloyd Webber - Superstar.pdf",
+        "file_size_bytes": 299566,
+        "page_range": [
+          293,
+          294
+        ]
+      },
+      {
+        "song_title": "I DON'T KNOW HOW TO LOVE HIM",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Music By Andrew Lloyd Webber - I Don't Know How To Love Him.pdf",
+        "file_size_bytes": 292615,
+        "page_range": [
+          294,
+          295
+        ]
+      },
+      {
+        "song_title": "Mon Ami, My Friend",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Johnny Johnson - Mon Ami, My Friend.pdf",
+        "file_size_bytes": 301629,
+        "page_range": [
+          295,
+          296
+        ]
+      },
+      {
+        "song_title": "Two Cigarettes in the Dark",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Song Title, It Appears To Be Sheet Music For The Song -two Cigarettes In The Dark- By Paul Francis Webster And Freddy Karger.pdf",
+        "file_size_bytes": 313731,
+        "page_range": [
+          296,
+          297
+        ]
+      },
+      {
+        "song_title": "Hello, Young Lovers",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii, Richard Rodgers - Hello, Young Lovers.pdf",
+        "file_size_bytes": 325754,
+        "page_range": [
+          297,
+          298
+        ]
+      },
+      {
+        "song_title": "The March of the Siamese Children",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Richard Rodgers - The March Of The Siamese Children.pdf",
+        "file_size_bytes": 306984,
+        "page_range": [
+          298,
+          299
+        ]
+      },
+      {
+        "song_title": "I Whistle a Happy Tune",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein - I Whistle A Happy Tune.pdf",
+        "file_size_bytes": 312289,
+        "page_range": [
+          299,
+          300
+        ]
+      },
+      {
+        "song_title": "We Kiss in a Shadow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - We Kiss In A Shadow.pdf",
+        "file_size_bytes": 576567,
+        "page_range": [
+          300,
+          302
+        ]
+      },
+      {
+        "song_title": "Stranger in Paradise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Robert Wright & George Forrest - Stranger In Paradise.pdf",
+        "file_size_bytes": 255248,
+        "page_range": [
+          302,
+          303
+        ]
+      },
+      {
+        "song_title": "Sands of Time",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Robert Wright & George Forrest - Sands Of Time.pdf",
+        "file_size_bytes": 284549,
+        "page_range": [
+          303,
+          304
+        ]
+      },
+      {
+        "song_title": "Why Can't You Behave",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Why Can't You Behave.pdf",
+        "file_size_bytes": 314086,
+        "page_range": [
+          304,
+          305
+        ]
+      },
+      {
+        "song_title": "Brush Up Your Shakespeare",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Brush Up Your Shakespeare.pdf",
+        "file_size_bytes": 334982,
+        "page_range": [
+          305,
+          306
+        ]
+      },
+      {
+        "song_title": "I HATE MEN",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I Hate Men.pdf",
+        "file_size_bytes": 356608,
+        "page_range": [
+          306,
+          307
+        ]
+      },
+      {
+        "song_title": "So in Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - So In Love.pdf",
+        "file_size_bytes": 329967,
+        "page_range": [
+          307,
+          308
+        ]
+      },
+      {
+        "song_title": "Wunderbar",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Wunderbar.pdf",
+        "file_size_bytes": 345718,
+        "page_range": [
+          308,
+          309
+        ]
+      },
+      {
+        "song_title": "I Sing of Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Cole Porter - I Sing Of Love.pdf",
+        "file_size_bytes": 328159,
+        "page_range": [
+          309,
+          310
+        ]
+      },
+      {
+        "song_title": "Knickerbocker Holiday",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/It Never Was You (words By Maxwell Anderson, Music By Kurt Weill) - Knickerbocker Holiday.pdf",
+        "file_size_bytes": 300105,
+        "page_range": [
+          310,
+          311
+        ]
+      },
+      {
+        "song_title": "September Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Maxwell-jussiac - September Song.pdf",
+        "file_size_bytes": 562492,
+        "page_range": [
+          311,
+          313
+        ]
+      },
+      {
+        "song_title": "La Cage Aux Folles",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Jerry Herman - La Cage Aux Folles.pdf",
+        "file_size_bytes": 559661,
+        "page_range": [
+          313,
+          315
+        ]
+      },
+      {
+        "song_title": "Song on the Sand",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Song On The Sand.pdf",
+        "file_size_bytes": 335060,
+        "page_range": [
+          315,
+          316
+        ]
+      },
+      {
+        "song_title": "Ladies First",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/(real American Folk Song (is A Rag)) - Ladies First.pdf",
+        "file_size_bytes": 341895,
+        "page_range": [
+          316,
+          317
+        ]
+      },
+      {
+        "song_title": "Lady In The Park",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/My Ship - Lady In The Park.pdf",
+        "file_size_bytes": 654174,
+        "page_range": [
+          317,
+          319
+        ]
+      },
+      {
+        "song_title": "This Is New",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Al Jolson - This Is New.pdf",
+        "file_size_bytes": 293974,
+        "page_range": [
+          319,
+          320
+        ]
+      },
+      {
+        "song_title": "GET OUT OF TOWN",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Get Out Of Town.pdf",
+        "file_size_bytes": 241511,
+        "page_range": [
+          320,
+          321
+        ]
+      },
+      {
+        "song_title": "Let's Not Talk About Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Let's Not Talk About Love.pdf",
+        "file_size_bytes": 349739,
+        "page_range": [
+          321,
+          322
+        ]
+      },
+      {
+        "song_title": "Ace in the Hole",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Cole Porter - Ace In The Hole.pdf",
+        "file_size_bytes": 246771,
+        "page_range": [
+          322,
+          323
+        ]
+      },
+      {
+        "song_title": "Once in a Blue Moon",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Once In A Blue Moon.pdf",
+        "file_size_bytes": 594910,
+        "page_range": [
+          323,
+          325
+        ]
+      },
+      {
+        "song_title": "On the Other Side of the Tracks",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - On The Other Side Of The Tracks.pdf",
+        "file_size_bytes": 321568,
+        "page_range": [
+          325,
+          326
+        ]
+      },
+      {
+        "song_title": "A Little Night Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Stephen Sondheim - A Little Night Music.pdf",
+        "file_size_bytes": 336516,
+        "page_range": [
+          326,
+          327
+        ]
+      },
+      {
+        "song_title": "Remember?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Stephen Sondheim - Remember-.pdf",
+        "file_size_bytes": 670456,
+        "page_range": [
+          327,
+          329
+        ]
+      },
+      {
+        "song_title": "Green-Up Time",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Mack And Mabel - Green-up Time.pdf",
+        "file_size_bytes": 273055,
+        "page_range": [
+          329,
+          330
+        ]
+      },
+      {
+        "song_title": "Time Heals Everything",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Time Heals Everything.pdf",
+        "file_size_bytes": 332761,
+        "page_range": [
+          330,
+          331
+        ]
+      },
+      {
+        "song_title": "Mame",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Mame.pdf",
+        "file_size_bytes": 663358,
+        "page_range": [
+          331,
+          333
+        ]
+      },
+      {
+        "song_title": "My Best Girl (My Best Beau)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - My Best Girl (my Best Beau).pdf",
+        "file_size_bytes": 352288,
+        "page_range": [
+          333,
+          334
+        ]
+      },
+      {
+        "song_title": "Matan Liari",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Maman - Matan Liari.pdf",
+        "file_size_bytes": 622201,
+        "page_range": [
+          334,
+          336
+        ]
+      },
+      {
+        "song_title": "The Me Nobody Knows",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/John William Freeman - The Me Nobody Knows.pdf",
+        "file_size_bytes": 1165917,
+        "page_range": [
+          336,
+          340
+        ]
+      },
+      {
+        "song_title": "This World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - This World.pdf",
+        "file_size_bytes": 314771,
+        "page_range": [
+          340,
+          341
+        ]
+      },
+      {
+        "song_title": "Let Me Come In",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Gary William Friedman - Let Me Come In.pdf",
+        "file_size_bytes": 305553,
+        "page_range": [
+          341,
+          342
+        ]
+      },
+      {
+        "song_title": "How I Feel",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - How I Feel.pdf",
+        "file_size_bytes": 301396,
+        "page_range": [
+          342,
+          343
+        ]
+      },
+      {
+        "song_title": "Merlin",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I Can Make It Happen - Merlin.pdf",
+        "file_size_bytes": 357023,
+        "page_range": [
+          343,
+          344
+        ]
+      },
+      {
+        "song_title": "He Who Knows The Way",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Ed Haas - He Who Knows The Way.pdf",
+        "file_size_bytes": 1015770,
+        "page_range": [
+          344,
+          347
+        ]
+      },
+      {
+        "song_title": "Something More",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Something More.pdf",
+        "file_size_bytes": 326790,
+        "page_range": [
+          347,
+          348
+        ]
+      },
+      {
+        "song_title": "\"Merrily We Roll Along\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Good Thing Going - -merrily We Roll Along-.pdf",
+        "file_size_bytes": 331286,
+        "page_range": [
+          348,
+          349
+        ]
+      },
+      {
+        "song_title": "Not a Day Goes By",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Not A Day Goes By.pdf",
+        "file_size_bytes": 287601,
+        "page_range": [
+          349,
+          350
+        ]
+      },
+      {
+        "song_title": "I Love You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I Love You.pdf",
+        "file_size_bytes": 312796,
+        "page_range": [
+          350,
+          351
+        ]
+      },
+      {
+        "song_title": "Milk And Honey",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Milk And Honey.pdf",
+        "file_size_bytes": 302658,
+        "page_range": [
+          351,
+          352
+        ]
+      },
+      {
+        "song_title": "Minnie's Lox",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lori Lieberman, Michel Colombier - Minnie's Lox.pdf",
+        "file_size_bytes": 315427,
+        "page_range": [
+          352,
+          353
+        ]
+      },
+      {
+        "song_title": "The Most Happy Fella",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Big D - The Most Happy Fella.pdf",
+        "file_size_bytes": 287747,
+        "page_range": [
+          353,
+          354
+        ]
+      },
+      {
+        "song_title": "Standing on the Corner",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Franki Losseau - Standing On The Corner.pdf",
+        "file_size_bytes": 290741,
+        "page_range": [
+          354,
+          355
+        ]
+      },
+      {
+        "song_title": "Mr. Wonderful",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Mr. Wonderful.pdf",
+        "file_size_bytes": 550098,
+        "page_range": [
+          355,
+          357
+        ]
+      },
+      {
+        "song_title": "Too Close For Comfort",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Larry Holofcener & George Weiss - Too Close For Comfort.pdf",
+        "file_size_bytes": 644209,
+        "page_range": [
+          357,
+          359
+        ]
+      },
+      {
+        "song_title": "Till There Was You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Kenneth Wilburn - Till There Was You.pdf",
+        "file_size_bytes": 328521,
+        "page_range": [
+          359,
+          360
+        ]
+      },
+      {
+        "song_title": "Ya Got Trouble",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Meredith Willson - Ya Got Trouble.pdf",
+        "file_size_bytes": 940512,
+        "page_range": [
+          360,
+          363
+        ]
+      },
+      {
+        "song_title": "The Wells Fargo Wagon",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - The Wells Fargo Wagon.pdf",
+        "file_size_bytes": 309646,
+        "page_range": [
+          363,
+          364
+        ]
+      },
+      {
+        "song_title": "I'VE GROWN ACCUSTOMED TO HER FACE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Alan Jay Lerner - I've Grown Accustomed To Her Face.pdf",
+        "file_size_bytes": 348875,
+        "page_range": [
+          364,
+          365
+        ]
+      },
+      {
+        "song_title": "I COULD HAVE DANCED ALL NIGHT",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Alan Jay Lerner - I Could Have Danced All Night.pdf",
+        "file_size_bytes": 662286,
+        "page_range": [
+          365,
+          367
+        ]
+      },
+      {
+        "song_title": "With a Little Bit of Luck",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By A.j. Lerner, Music By Frederick Loewe - With A Little Bit Of Luck.pdf",
+        "file_size_bytes": 358945,
+        "page_range": [
+          367,
+          368
+        ]
+      },
+      {
+        "song_title": "WITHOUT YOU",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Without You.pdf",
+        "file_size_bytes": 323540,
+        "page_range": [
+          368,
+          369
+        ]
+      },
+      {
+        "song_title": "Why Can't The English?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Alan Jay Lerner, Music By Frederick Loewe - Why Can't The English-.pdf",
+        "file_size_bytes": 382871,
+        "page_range": [
+          369,
+          370
+        ]
+      },
+      {
+        "song_title": "Wouldn't It Be Loverly",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Wouldn't It Be Loverly.pdf",
+        "file_size_bytes": 346888,
+        "page_range": [
+          370,
+          371
+        ]
+      },
+      {
+        "song_title": "On the Street Where You Live",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Alan Jay Lerner (lyrics), Frederick Loewe (music) - On The Street Where You Live.pdf",
+        "file_size_bytes": 327096,
+        "page_range": [
+          371,
+          372
+        ]
+      },
+      {
+        "song_title": "Neptune's Daughter",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Frank Loesser - Neptune's Daughter.pdf",
+        "file_size_bytes": 677526,
+        "page_range": [
+          372,
+          374
+        ]
+      },
+      {
+        "song_title": "New Faces of 1936",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/You Better Go Now (words By Buckley Richards, Music By Robert Graham) - New Faces Of 1936.pdf",
+        "file_size_bytes": 631443,
+        "page_range": [
+          374,
+          376
+        ]
+      },
+      {
+        "song_title": "\"Eklahomah!\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Farmer And The Cowman - -eklahomah!-.pdf",
+        "file_size_bytes": 345966,
+        "page_range": [
+          376,
+          377
+        ]
+      },
+      {
+        "song_title": "All Er Nothin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein - All Er Nothin'.pdf",
+        "file_size_bytes": 307401,
+        "page_range": [
+          377,
+          378
+        ]
+      },
+      {
+        "song_title": "Out of My Dreams",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Richard Rodgers - Out Of My Dreams.pdf",
+        "file_size_bytes": 302901,
+        "page_range": [
+          378,
+          379
+        ]
+      },
+      {
+        "song_title": "Kansas City",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein - Kansas City.pdf",
+        "file_size_bytes": 348394,
+        "page_range": [
+          379,
+          380
+        ]
+      },
+      {
+        "song_title": "People Will Say We're In Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - People Will Say We're In Love.pdf",
+        "file_size_bytes": 286099,
+        "page_range": [
+          380,
+          381
+        ]
+      },
+      {
+        "song_title": "Mam'y a New Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein, Music By Richard Rodgers - Mam'y A New Day.pdf",
+        "file_size_bytes": 303111,
+        "page_range": [
+          381,
+          382
+        ]
+      },
+      {
+        "song_title": "THE SURREY WITH THE FRINGE ON TOP",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - The Surrey With The Fringe On Top.pdf",
+        "file_size_bytes": 285558,
+        "page_range": [
+          382,
+          383
+        ]
+      },
+      {
+        "song_title": "Oliver!!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Oliver!!.pdf",
+        "file_size_bytes": 326613,
+        "page_range": [
+          383,
+          384
+        ]
+      },
+      {
+        "song_title": "Who Will Buy?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Who Will Buy-.pdf",
+        "file_size_bytes": 300783,
+        "page_range": [
+          384,
+          385
+        ]
+      },
+      {
+        "song_title": "I'D DO ANYTHING",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I'd Do Anything.pdf",
+        "file_size_bytes": 323314,
+        "page_range": [
+          385,
+          386
+        ]
+      },
+      {
+        "song_title": "On A Clear Day You Can See Forever",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Alan Jay Lerner, Burton Lane - On A Clear Day You Can See Forever.pdf",
+        "file_size_bytes": 320462,
+        "page_range": [
+          386,
+          387
+        ]
+      },
+      {
+        "song_title": "WHAT DID I HAVE THAT I DON'T HAVE?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Ardyth & Lyle - What Did I Have That I Don't Have-.pdf",
+        "file_size_bytes": 333201,
+        "page_range": [
+          387,
+          388
+        ]
+      },
+      {
+        "song_title": "On Your Toes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Slaughter On Tenth Avenue - On Your Toes.pdf",
+        "file_size_bytes": 322423,
+        "page_range": [
+          388,
+          389
+        ]
+      },
+      {
+        "song_title": "On Your Toes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - On Your Toes.pdf",
+        "file_size_bytes": 323404,
+        "page_range": [
+          389,
+          390
+        ]
+      },
+      {
+        "song_title": "QUIET NIGHT",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Richard Rodgers - Quiet Night.pdf",
+        "file_size_bytes": 254888,
+        "page_range": [
+          390,
+          391
+        ]
+      },
+      {
+        "song_title": "Glad to Be Unhappy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lorenz Hart, Richard Rodgers - Glad To Be Unhappy.pdf",
+        "file_size_bytes": 312728,
+        "page_range": [
+          391,
+          392
+        ]
+      },
+      {
+        "song_title": "One Mo' Time",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - One Mo' Time.pdf",
+        "file_size_bytes": 615839,
+        "page_range": [
+          392,
+          394
+        ]
+      },
+      {
+        "song_title": "Out Of This World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Cole Porter - Out Of This World.pdf",
+        "file_size_bytes": 298577,
+        "page_range": [
+          394,
+          395
+        ]
+      },
+      {
+        "song_title": "I Am Loved",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I Am Loved.pdf",
+        "file_size_bytes": 332680,
+        "page_range": [
+          395,
+          396
+        ]
+      },
+      {
+        "song_title": "Ever Before",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Big Beat - Ever Before.pdf",
+        "file_size_bytes": 273324,
+        "page_range": [
+          396,
+          397
+        ]
+      },
+      {
+        "song_title": "My Dream for Tomorrow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - My Dream For Tomorrow.pdf",
+        "file_size_bytes": 303157,
+        "page_range": [
+          397,
+          398
+        ]
+      },
+      {
+        "song_title": "Charlie's Place",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Charlie's Place.pdf",
+        "file_size_bytes": 334886,
+        "page_range": [
+          398,
+          399
+        ]
+      },
+      {
+        "song_title": "OVER HERE!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Richard M. Sherman & Robert B. Sherman - Over Here!.pdf",
+        "file_size_bytes": 312779,
+        "page_range": [
+          399,
+          400
+        ]
+      },
+      {
+        "song_title": "WHERE DID THE GOOD TIMES GO?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Richard M. Sherman & Robert B. Sherman - Where Did The Good Times Go-.pdf",
+        "file_size_bytes": 267260,
+        "page_range": [
+          400,
+          401
+        ]
+      },
+      {
+        "song_title": "NO GOODBYES",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Richard M. Sherman & Robert B. Sherman - No Goodbyes.pdf",
+        "file_size_bytes": 305781,
+        "page_range": [
+          401,
+          402
+        ]
+      },
+      {
+        "song_title": "Wand'rin' Star",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Alan Jay Lerner & Frederick Loewe - Wand'rin' Star.pdf",
+        "file_size_bytes": 302699,
+        "page_range": [
+          402,
+          403
+        ]
+      },
+      {
+        "song_title": "I Still See Elisa",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Alan Jay Lerner & Frederick Loewe - I Still See Elisa.pdf",
+        "file_size_bytes": 294401,
+        "page_range": [
+          403,
+          404
+        ]
+      },
+      {
+        "song_title": "Fat Lip",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Bewitched - Fat Lip.pdf",
+        "file_size_bytes": 290917,
+        "page_range": [
+          404,
+          405
+        ]
+      },
+      {
+        "song_title": "I COULD WRITE A BOOK",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Image Does Not Clearly Show An Artist Name - I Could Write A Book.pdf",
+        "file_size_bytes": 327578,
+        "page_range": [
+          405,
+          406
+        ]
+      },
+      {
+        "song_title": "Zip",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Zip.pdf",
+        "file_size_bytes": 299937,
+        "page_range": [
+          406,
+          407
+        ]
+      },
+      {
+        "song_title": "\"Lamama L'attte\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - -lamama L'attte-.pdf",
+        "file_size_bytes": 315752,
+        "page_range": [
+          407,
+          408
+        ]
+      },
+      {
+        "song_title": "Peter Pan",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I'm Not Able To Definitively Identify The Artist From The Information Provided In This Image - Peter Pan.pdf",
+        "file_size_bytes": 347519,
+        "page_range": [
+          408,
+          409
+        ]
+      },
+      {
+        "song_title": "I've Gotta Crow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/David Shire - I've Gotta Crow.pdf",
+        "file_size_bytes": 376524,
+        "page_range": [
+          409,
+          410
+        ]
+      },
+      {
+        "song_title": "I'll Never Be Lonely Again",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Image Does Not Clearly Show An Artist Name, But This Appears To Be The First Page Of A Song Titled -i'll Never Be Lonely Again- Based On The Prominent Song Title At The Top And The Sheet Music.pdf",
+        "file_size_bytes": 364745,
+        "page_range": [
+          410,
+          411
+        ]
+      },
+      {
+        "song_title": "If I Ruled the World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - If I Ruled The World.pdf",
+        "file_size_bytes": 290272,
+        "page_range": [
+          411,
+          412
+        ]
+      },
+      {
+        "song_title": "Sing Me a Song With Social Significance",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Harold Rome - Sing Me A Song With Social Significance.pdf",
+        "file_size_bytes": 343528,
+        "page_range": [
+          412,
+          413
+        ]
+      },
+      {
+        "song_title": "Everybody's Got a Home But Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein - Everybody's Got A Home But Me.pdf",
+        "file_size_bytes": 297021,
+        "page_range": [
+          413,
+          414
+        ]
+      },
+      {
+        "song_title": "Every And Evry",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I Loves You Porgy (lyrics Shown, But No Composer-artist Explicitly Stated) - Every And Evry.pdf",
+        "file_size_bytes": 670746,
+        "page_range": [
+          414,
+          416
+        ]
+      },
+      {
+        "song_title": "My Man's Gone Now",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/(lyrics By Dubose Heyward, Music By George Gershwin) - My Man's Gone Now.pdf",
+        "file_size_bytes": 306670,
+        "page_range": [
+          416,
+          417
+        ]
+      },
+      {
+        "song_title": "Bess, You Is My Woman",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Image Does Not Clearly Show An Artist Name, But It Appears To Be Sheet Music For The Song Titled -bess, You Is My Woman- - Bess, You Is My Woman.pdf",
+        "file_size_bytes": 678557,
+        "page_range": [
+          417,
+          419
+        ]
+      },
+      {
+        "song_title": "It Ain't Necessarily So",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/George Gershwin - It Ain't Necessarily So.pdf",
+        "file_size_bytes": 355737,
+        "page_range": [
+          419,
+          420
+        ]
+      },
+      {
+        "song_title": "Summertime",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Summertime.pdf",
+        "file_size_bytes": 343018,
+        "page_range": [
+          420,
+          421
+        ]
+      },
+      {
+        "song_title": "I Got Plenty o' Nuttin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Ira Gershwin - I Got Plenty O' Nuttin'.pdf",
+        "file_size_bytes": 372054,
+        "page_range": [
+          421,
+          422
+        ]
+      },
+      {
+        "song_title": "A Woman Is A Sometime Thing",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - A Woman Is A Sometime Thing.pdf",
+        "file_size_bytes": 307448,
+        "page_range": [
+          422,
+          423
+        ]
+      },
+      {
+        "song_title": "Private Eyes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Song Title -private Eyes-, This Appears To Be The Sheet Music For The Song By Hall & Oates - Private Eyes.pdf",
+        "file_size_bytes": 345101,
+        "page_range": [
+          423,
+          424
+        ]
+      },
+      {
+        "song_title": "God, Kid And Blues",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - God, Kid And Blues.pdf",
+        "file_size_bytes": 287847,
+        "page_range": [
+          424,
+          425
+        ]
+      },
+      {
+        "song_title": "It's De-Lovely",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Cole Porter - It's De-lovely.pdf",
+        "file_size_bytes": 298304,
+        "page_range": [
+          425,
+          426
+        ]
+      },
+      {
+        "song_title": "Ridin' High",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Cole Porter - Ridin' High.pdf",
+        "file_size_bytes": 272338,
+        "page_range": [
+          426,
+          427
+        ]
+      },
+      {
+        "song_title": "As Once I Loved You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Belinda Carlisle - As Once I Loved You.pdf",
+        "file_size_bytes": 285089,
+        "page_range": [
+          427,
+          428
+        ]
+      },
+      {
+        "song_title": "I'll Be Seeing You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Irving Kahal & Sammy Fain - I'll Be Seeing You.pdf",
+        "file_size_bytes": 1027634,
+        "page_range": [
+          428,
+          431
+        ]
+      },
+      {
+        "song_title": "Who Can I Turn To",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Lyrics And Music Credits At The Bottom Indicate This Is The First Page For The Song -who Can I Turn To- With Music By Leslie Bricusse And Anthony Newley - Who Can I Turn To.pdf",
+        "file_size_bytes": 324982,
+        "page_range": [
+          431,
+          432
+        ]
+      },
+      {
+        "song_title": "Salvation",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Salvation.pdf",
+        "file_size_bytes": 321940,
+        "page_range": [
+          432,
+          433
+        ]
+      },
+      {
+        "song_title": "TOMORROW IS THE FIRST DAY OF THE REST OF MY LIFE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Cc Country & Keith - Tomorrow Is The First Day Of The Rest Of My Life.pdf",
+        "file_size_bytes": 332846,
+        "page_range": [
+          433,
+          434
+        ]
+      },
+      {
+        "song_title": "You For Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - You For Me.pdf",
+        "file_size_bytes": 588479,
+        "page_range": [
+          434,
+          436
+        ]
+      },
+      {
+        "song_title": "\"It, Girls, It\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/John Anders - -it, Girls, It-.pdf",
+        "file_size_bytes": 400983,
+        "page_range": [
+          436,
+          437
+        ]
+      },
+      {
+        "song_title": "Believe",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/John Coltrane - Believe.pdf",
+        "file_size_bytes": 320570,
+        "page_range": [
+          437,
+          438
+        ]
+      },
+      {
+        "song_title": "We Make a Beautiful Pair",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - We Make A Beautiful Pair.pdf",
+        "file_size_bytes": 319762,
+        "page_range": [
+          438,
+          439
+        ]
+      },
+      {
+        "song_title": "Violets and Silverbells",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/By Strauss - Violets And Silverbells.pdf",
+        "file_size_bytes": 307055,
+        "page_range": [
+          439,
+          440
+        ]
+      },
+      {
+        "song_title": "Little Old Lady",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Stanley Adams And John Christopher - Little Old Lady.pdf",
+        "file_size_bytes": 349336,
+        "page_range": [
+          440,
+          441
+        ]
+      },
+      {
+        "song_title": "Silk Stockings",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Silk Stockings.pdf",
+        "file_size_bytes": 298073,
+        "page_range": [
+          441,
+          442
+        ]
+      },
+      {
+        "song_title": "Paris Lovers Lovers",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Scott Krippayne - Paris Lovers Lovers.pdf",
+        "file_size_bytes": 254698,
+        "page_range": [
+          442,
+          443
+        ]
+      },
+      {
+        "song_title": "\"Snoopy\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Just One Person - -snoopy-.pdf",
+        "file_size_bytes": 299782,
+        "page_range": [
+          443,
+          444
+        ]
+      },
+      {
+        "song_title": "Something For The Boys",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Something For The Boys.pdf",
+        "file_size_bytes": 276830,
+        "page_range": [
+          444,
+          445
+        ]
+      },
+      {
+        "song_title": "Some of Norway",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I Love You - Some Of Norway.pdf",
+        "file_size_bytes": 328180,
+        "page_range": [
+          445,
+          446
+        ]
+      },
+      {
+        "song_title": "Strange Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/(based On -notebook- By Edward Borg) - Strange Music.pdf",
+        "file_size_bytes": 246104,
+        "page_range": [
+          446,
+          447
+        ]
+      },
+      {
+        "song_title": "Climb Ev'ry Mountain",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein - Climb Ev'ry Mountain.pdf",
+        "file_size_bytes": 348996,
+        "page_range": [
+          447,
+          448
+        ]
+      },
+      {
+        "song_title": "Edelweiss",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii - Richard Rodgers - Edelweiss.pdf",
+        "file_size_bytes": 326931,
+        "page_range": [
+          448,
+          449
+        ]
+      },
+      {
+        "song_title": "DO-RE-MI",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii (words By), Richard Rodgers (music By) - Do-re-mi.pdf",
+        "file_size_bytes": 298027,
+        "page_range": [
+          449,
+          450
+        ]
+      },
+      {
+        "song_title": "Maria",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii & Richard Rodgers - Maria.pdf",
+        "file_size_bytes": 346511,
+        "page_range": [
+          450,
+          451
+        ]
+      },
+      {
+        "song_title": "The Lonely Goatherd",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii - The Lonely Goatherd.pdf",
+        "file_size_bytes": 320963,
+        "page_range": [
+          451,
+          452
+        ]
+      },
+      {
+        "song_title": "So Long, Farewell",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Oscar Hammerstein Ii, Music By Richard Rodgers - So Long, Farewell.pdf",
+        "file_size_bytes": 289562,
+        "page_range": [
+          452,
+          453
+        ]
+      },
+      {
+        "song_title": "The Sound of Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Music By Richard Rodgers - The Sound Of Music.pdf",
+        "file_size_bytes": 256447,
+        "page_range": [
+          453,
+          454
+        ]
+      },
+      {
+        "song_title": "Preludium",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Richard Rodgers - Preludium.pdf",
+        "file_size_bytes": 244396,
+        "page_range": [
+          454,
+          455
+        ]
+      },
+      {
+        "song_title": "Morning Hymn",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Howard Haugeri - Morning Hymn.pdf",
+        "file_size_bytes": 218339,
+        "page_range": [
+          455,
+          456
+        ]
+      },
+      {
+        "song_title": "Alleluia",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Alleluia.pdf",
+        "file_size_bytes": 245440,
+        "page_range": [
+          456,
+          457
+        ]
+      },
+      {
+        "song_title": "Bali Ha'i",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/From The Musical -south Pacific- By Oscar Hammerstein Ii And Richard Rodgers - Bali Ha'i.pdf",
+        "file_size_bytes": 273456,
+        "page_range": [
+          457,
+          458
+        ]
+      },
+      {
+        "song_title": "Bloody Mary",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii & Richard Rodgers - Bloody Mary.pdf",
+        "file_size_bytes": 348507,
+        "page_range": [
+          458,
+          459
+        ]
+      },
+      {
+        "song_title": "Dites-Moi",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii - Dites-moi.pdf",
+        "file_size_bytes": 314348,
+        "page_range": [
+          459,
+          460
+        ]
+      },
+      {
+        "song_title": "A Wonderful Guy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii, Richard Rodgers - A Wonderful Guy.pdf",
+        "file_size_bytes": 300532,
+        "page_range": [
+          460,
+          461
+        ]
+      },
+      {
+        "song_title": "Happy Talk",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii, Richard Rodgers - Happy Talk.pdf",
+        "file_size_bytes": 316829,
+        "page_range": [
+          461,
+          462
+        ]
+      },
+      {
+        "song_title": "YOU'VE GOT TO BE CAREFULLY TAUGHT",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - You've Got To Be Carefully Taught.pdf",
+        "file_size_bytes": 317197,
+        "page_range": [
+          462,
+          463
+        ]
+      },
+      {
+        "song_title": "Younger Than Springtime",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Oscar Hammerstein Ii, Richard Rodgers - Younger Than Springtime.pdf",
+        "file_size_bytes": 345869,
+        "page_range": [
+          463,
+          464
+        ]
+      },
+      {
+        "song_title": "This Nearly Was Mine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - This Nearly Was Mine.pdf",
+        "file_size_bytes": 274723,
+        "page_range": [
+          464,
+          465
+        ]
+      },
+      {
+        "song_title": "Honey Bun",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Joseph Hamilton-oscar Seagle - Honey Bun.pdf",
+        "file_size_bytes": 369448,
+        "page_range": [
+          465,
+          466
+        ]
+      },
+      {
+        "song_title": "St. Louis Woman",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Any Place I Hang My Hat Is Home - St. Louis Woman.pdf",
+        "file_size_bytes": 338775,
+        "page_range": [
+          466,
+          467
+        ]
+      },
+      {
+        "song_title": "Come Rain or Come Shine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Come Rain Or Come Shine.pdf",
+        "file_size_bytes": 302546,
+        "page_range": [
+          467,
+          468
+        ]
+      },
+      {
+        "song_title": "State Fair",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - State Fair.pdf",
+        "file_size_bytes": 331393,
+        "page_range": [
+          468,
+          469
+        ]
+      },
+      {
+        "song_title": "It's a Grand Night for Singing",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - It's A Grand Night For Singing.pdf",
+        "file_size_bytes": 311398,
+        "page_range": [
+          469,
+          470
+        ]
+      },
+      {
+        "song_title": "Never Say \"No\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Never Say -no-.pdf",
+        "file_size_bytes": 296420,
+        "page_range": [
+          470,
+          471
+        ]
+      },
+      {
+        "song_title": "Our State Fair",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Oscar Hammerstein Ii, Music By Richard Rodgers - Our State Fair.pdf",
+        "file_size_bytes": 300853,
+        "page_range": [
+          471,
+          472
+        ]
+      },
+      {
+        "song_title": "ONCE IN A LIFETIME",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Once In A Lifetime.pdf",
+        "file_size_bytes": 365504,
+        "page_range": [
+          472,
+          473
+        ]
+      },
+      {
+        "song_title": "Someone Nice Like You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Leslie Bricusse And Anthony Newley - Someone Nice Like You.pdf",
+        "file_size_bytes": 345066,
+        "page_range": [
+          473,
+          474
+        ]
+      },
+      {
+        "song_title": "Street Scene",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Kurt Weill - Street Scene.pdf",
+        "file_size_bytes": 293244,
+        "page_range": [
+          474,
+          475
+        ]
+      },
+      {
+        "song_title": "What Good Would the Moon Be?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - What Good Would The Moon Be-.pdf",
+        "file_size_bytes": 325393,
+        "page_range": [
+          475,
+          476
+        ]
+      },
+      {
+        "song_title": "The Ballad of Sweeney Todd",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Stephen Sondheim - The Ballad Of Sweeney Todd.pdf",
+        "file_size_bytes": 634583,
+        "page_range": [
+          476,
+          478
+        ]
+      },
+      {
+        "song_title": "Pretty Women",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Pretty Women.pdf",
+        "file_size_bytes": 334385,
+        "page_range": [
+          478,
+          479
+        ]
+      },
+      {
+        "song_title": "Not While I'm Around",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Not While I'm Around.pdf",
+        "file_size_bytes": 270690,
+        "page_range": [
+          479,
+          480
+        ]
+      },
+      {
+        "song_title": "ARTIFICIAL FLOWERS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Artificial Flowers.pdf",
+        "file_size_bytes": 305526,
+        "page_range": [
+          480,
+          481
+        ]
+      },
+      {
+        "song_title": "My Miss Mary",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Bricklin-merrill - My Miss Mary.pdf",
+        "file_size_bytes": 325023,
+        "page_range": [
+          481,
+          482
+        ]
+      },
+      {
+        "song_title": "WHEN YOU'RE IN MY ARMS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - When You're In My Arms.pdf",
+        "file_size_bytes": 679376,
+        "page_range": [
+          482,
+          484
+        ]
+      },
+      {
+        "song_title": "Fallin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/(no Clear Artist Name Provided) - Fallin'.pdf",
+        "file_size_bytes": 378436,
+        "page_range": [
+          484,
+          485
+        ]
+      },
+      {
+        "song_title": "I Still Believe In Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Marvin Hamlisch - I Still Believe In Love.pdf",
+        "file_size_bytes": 317284,
+        "page_range": [
+          485,
+          486
+        ]
+      },
+      {
+        "song_title": "Just For Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Just For Tonight.pdf",
+        "file_size_bytes": 387802,
+        "page_range": [
+          486,
+          487
+        ]
+      },
+      {
+        "song_title": "If You Really Knew Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - If You Really Knew Me.pdf",
+        "file_size_bytes": 328876,
+        "page_range": [
+          487,
+          488
+        ]
+      },
+      {
+        "song_title": "Darn It, Baby, That's Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lyn Nuddy - Darn It, Baby, That's Love.pdf",
+        "file_size_bytes": 332542,
+        "page_range": [
+          488,
+          489
+        ]
+      },
+      {
+        "song_title": "Too Many Girls",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I Didn't Know What Time It Was - Too Many Girls.pdf",
+        "file_size_bytes": 313580,
+        "page_range": [
+          489,
+          490
+        ]
+      },
+      {
+        "song_title": "You're Nearer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - You're Nearer.pdf",
+        "file_size_bytes": 643564,
+        "page_range": [
+          490,
+          492
+        ]
+      },
+      {
+        "song_title": "Two By Two",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I Do Not See An Artist Name Listed On This Page - Two By Two.pdf",
+        "file_size_bytes": 282473,
+        "page_range": [
+          492,
+          493
+        ]
+      },
+      {
+        "song_title": "Two Gentlemen Of Verona",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/William Shakespeare (lyrics), Galt Mcdermot (music) - Two Gentlemen Of Verona.pdf",
+        "file_size_bytes": 326763,
+        "page_range": [
+          493,
+          494
+        ]
+      },
+      {
+        "song_title": "The Unsinkable Molly Brown",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Meredith Willson - The Unsinkable Molly Brown.pdf",
+        "file_size_bytes": 313075,
+        "page_range": [
+          494,
+          495
+        ]
+      },
+      {
+        "song_title": "I Know Where I'm Going",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Andrew & Pauline - I Know Where I'm Going.pdf",
+        "file_size_bytes": 340077,
+        "page_range": [
+          495,
+          496
+        ]
+      },
+      {
+        "song_title": "MY DARLING, MY DARLING",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/By Frank Loesser - My Darling, My Darling.pdf",
+        "file_size_bytes": 363704,
+        "page_range": [
+          496,
+          497
+        ]
+      },
+      {
+        "song_title": "Once in Love With Amy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Frank Loesser - Once In Love With Amy.pdf",
+        "file_size_bytes": 327105,
+        "page_range": [
+          497,
+          498
+        ]
+      },
+      {
+        "song_title": "THE NEW ASHMOLEAN MARCHING SOCIETY AND STUDENTS CONSERVATORY BAND",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/By Frank Loesser - The New Ashmolean Marching Society And Students Conservatory Band.pdf",
+        "file_size_bytes": 338968,
+        "page_range": [
+          498,
+          499
+        ]
+      },
+      {
+        "song_title": "You've Come Home",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Wildcat - You've Come Home.pdf",
+        "file_size_bytes": 344934,
+        "page_range": [
+          499,
+          500
+        ]
+      },
+      {
+        "song_title": "Wish You Were Here",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Wish You Were Here.pdf",
+        "file_size_bytes": 1035092,
+        "page_range": [
+          500,
+          503
+        ]
+      },
+      {
+        "song_title": "I WROTE THE BOOK",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I Wrote The Book.pdf",
+        "file_size_bytes": 364858,
+        "page_range": [
+          503,
+          504
+        ]
+      },
+      {
+        "song_title": "ONE OF THE GIRLS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Fred Ebb - One Of The Girls.pdf",
+        "file_size_bytes": 328680,
+        "page_range": [
+          504,
+          505
+        ]
+      },
+      {
+        "song_title": "Sometimes a Day Goes By",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Fred Kern - Sometimes A Day Goes By.pdf",
+        "file_size_bytes": 357250,
+        "page_range": [
+          505,
+          506
+        ]
+      },
+      {
+        "song_title": "Wonderful Town",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Wrong Note Rag (written By Betty Comden & Adolph Green, Music By Leonard Bernstein) - Wonderful Town.pdf",
+        "file_size_bytes": 320201,
+        "page_range": [
+          506,
+          507
+        ]
+      },
+      {
+        "song_title": "Ohio",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Words By Betty Comden & Adolph Green, Music By Robert Russell Bennett - Ohio.pdf",
+        "file_size_bytes": 320968,
+        "page_range": [
+          507,
+          508
+        ]
+      },
+      {
+        "song_title": "SOMETHING TO DO WITH SPRING",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Noel Coward - Something To Do With Spring.pdf",
+        "file_size_bytes": 342679,
+        "page_range": [
+          508,
+          509
+        ]
+      },
+      {
+        "song_title": "Workin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Lovin' Al - Workin'.pdf",
+        "file_size_bytes": 301792,
+        "page_range": [
+          509,
+          510
+        ]
+      },
+      {
+        "song_title": "If I Could've Been",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - If I Could've Been.pdf",
+        "file_size_bytes": 356983,
+        "page_range": [
+          510,
+          511
+        ]
+      },
+      {
+        "song_title": "The Yearling",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I'm All Smiles - The Yearling.pdf",
+        "file_size_bytes": 332486,
+        "page_range": [
+          511,
+          512
+        ]
+      },
+      {
+        "song_title": "THE KIND OF MAN A WOMAN NEEDS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - The Kind Of Man A Woman Needs.pdf",
+        "file_size_bytes": 361465,
+        "page_range": [
+          512,
+          513
+        ]
+      },
+      {
+        "song_title": "WHY DID I CHOOSE YOU?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Why Did I Choose You-.pdf",
+        "file_size_bytes": 295041,
+        "page_range": [
+          513,
+          514
+        ]
+      },
+      {
+        "song_title": "Your Arms Too Short to Box With God",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Your Arms Too Short To Box With God.pdf",
+        "file_size_bytes": 294466,
+        "page_range": [
+          514,
+          515
+        ]
+      },
+      {
+        "song_title": "Ziegfeld Follies - 1936",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/I Can't Get Started - Ziegfeld Follies - 1936.pdf",
+        "file_size_bytes": 343154,
+        "page_range": [
+          515,
+          516
+        ]
+      },
+      {
+        "song_title": "Zorba Theme",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Zorba Theme.pdf",
+        "file_size_bytes": 300812,
+        "page_range": [
+          516,
+          517
+        ]
+      },
+      {
+        "song_title": "Happy Birthday to Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - Happy Birthday To Me.pdf",
+        "file_size_bytes": 546922,
+        "page_range": [
+          517,
+          519
+        ]
+      },
+      {
+        "song_title": "The First Time",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - The First Time.pdf",
+        "file_size_bytes": 250115,
+        "page_range": [
+          519,
+          520
+        ]
+      },
+      {
+        "song_title": "Only Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/The Zulu And The Zayda - Only Love.pdf",
+        "file_size_bytes": 385564,
+        "page_range": [
+          520,
+          522
+        ]
+      }
+    ]
+  }
+}

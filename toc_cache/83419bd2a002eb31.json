@@ -1,0 +1,103 @@
+{
+  "book_id": "83419bd2a002eb31",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Brothers in Arms",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - Brothers In Arms.pdf",
+        "file_size_bytes": 580480,
+        "page_range": [
+          1,
+          7
+        ]
+      },
+      {
+        "song_title": "Money for Nothing",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - Money For Nothing.pdf",
+        "file_size_bytes": 353914,
+        "page_range": [
+          7,
+          11
+        ]
+      },
+      {
+        "song_title": "One World",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - One World.pdf",
+        "file_size_bytes": 281878,
+        "page_range": [
+          11,
+          14
+        ]
+      },
+      {
+        "song_title": "Ride Across the River",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - Ride Across The River.pdf",
+        "file_size_bytes": 531052,
+        "page_range": [
+          14,
+          21
+        ]
+      },
+      {
+        "song_title": "SO FAR AWAY",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - So Far Away.pdf",
+        "file_size_bytes": 287854,
+        "page_range": [
+          21,
+          24
+        ]
+      },
+      {
+        "song_title": "The Man's Too Strong",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - The Man's Too Strong.pdf",
+        "file_size_bytes": 509092,
+        "page_range": [
+          24,
+          30
+        ]
+      },
+      {
+        "song_title": "Walk of Life",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - Walk Of Life.pdf",
+        "file_size_bytes": 399818,
+        "page_range": [
+          30,
+          35
+        ]
+      },
+      {
+        "song_title": "Why Worry",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - Why Worry.pdf",
+        "file_size_bytes": 466540,
+        "page_range": [
+          35,
+          40
+        ]
+      },
+      {
+        "song_title": "Your Latest Trick",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Dire Straits - Brothers In Arms/Songs/Dire Straits - Your Latest Trick.pdf",
+        "file_size_bytes": 359031,
+        "page_range": [
+          40,
+          44
+        ]
+      }
+    ]
+  }
+}

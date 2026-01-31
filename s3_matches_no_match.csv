@@ -1,0 +1,12 @@
+local_artist,local_book,local_count,s3_artist,s3_book,s3_count,common_songs,local_only,s3_only,match_pct,count_diff_pct,quality
+Elton John,Elton John - Songs From The West Coast,3,,,0,0,3,0,0.0,1.0,NO_MATCH
+Elton John,Elton John - The Big Picture,3,,,0,0,3,0,0.0,1.0,NO_MATCH
+Fray,Fray - How To Save A Life _Book_,3,,,0,0,3,0,0.0,1.0,NO_MATCH
+Meatloaf,MeatLoaf - Bat Out Of Hell,3,,,0,0,3,0,0.0,1.0,NO_MATCH
+Various Artists,Various Artists - 50s And 60s,81,,,0,0,81,0,0.0,1.0,NO_MATCH
+Various Artists,Various Artists - Biggest Pop Hits 1996-1997,36,,,0,0,36,0,0.0,1.0,NO_MATCH
+_broadway Shows,Various Artists - Legally Blonde - score,1,,,0,0,1,0,0.0,1.0,NO_MATCH
+_broadway Shows,Various Artists - Little Shop Of Horrors _Broadway_,2,,,0,0,2,0,0.0,1.0,NO_MATCH
+_broadway Shows,Various Artists - Little Shop Of Horrors _original_,2,,,0,0,2,0,0.0,1.0,NO_MATCH
+_movie And Tv,Disney Collection _Songs Out Of order_,42,,,0,0,42,0,0.0,1.0,NO_MATCH
+_movie And Tv,Various Artists - 100 Of The Best Movie Songs Ever,101,,,0,0,101,0,0.0,1.0,NO_MATCH

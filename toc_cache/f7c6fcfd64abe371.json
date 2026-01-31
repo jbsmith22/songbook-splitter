@@ -1,0 +1,23 @@
+{
+  "book_id": "f7c6fcfd64abe371",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Hope and Pray",
+        "artist": "Moody Blues",
+        "output_uri": "s3://jsmith-output/Moody Blues/Moody Blues - Keys Of Kingdom [band Score]/Songs/Moody Blues - Hope And Pray.pdf",
+        "file_size_bytes": 1855712,
+        "page_range": [
+          54,
+          102
+        ]
+      }
+    ]
+  }
+}

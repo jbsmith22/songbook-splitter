@@ -1,0 +1,83 @@
+{
+  "book_id": "d816d9c17ba8bce0",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Everything You Can Think",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Tom Waits Anthology/Songs/Tom Waits - Everything You Can Think.pdf",
+        "file_size_bytes": 338890,
+        "page_range": [
+          6,
+          16
+        ]
+      },
+      {
+        "song_title": "Poor Edward",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Tom Waits Anthology/Songs/Tom Waits - Poor Edward.pdf",
+        "file_size_bytes": 139124,
+        "page_range": [
+          16,
+          20
+        ]
+      },
+      {
+        "song_title": "Table Top Joe",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Tom Waits Anthology/Songs/Tom Waits - Table Top Joe.pdf",
+        "file_size_bytes": 264856,
+        "page_range": [
+          20,
+          28
+        ]
+      },
+      {
+        "song_title": "We're All Mad Here",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Tom Waits Anthology/Songs/Tom Waits - We're All Mad Here.pdf",
+        "file_size_bytes": 235874,
+        "page_range": [
+          28,
+          35
+        ]
+      },
+      {
+        "song_title": "Reeperbahn",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Tom Waits Anthology/Songs/Tom Waits - Reeperbahn.pdf",
+        "file_size_bytes": 245460,
+        "page_range": [
+          35,
+          42
+        ]
+      },
+      {
+        "song_title": "Fish & Bird",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Tom Waits Anthology/Songs/Tom Waits - Fish & Bird.pdf",
+        "file_size_bytes": 136763,
+        "page_range": [
+          42,
+          46
+        ]
+      },
+      {
+        "song_title": "Barcarolle",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Tom Waits Anthology/Songs/Tom Waits - Barcarolle.pdf",
+        "file_size_bytes": 192675,
+        "page_range": [
+          46,
+          51
+        ]
+      }
+    ]
+  }
+}

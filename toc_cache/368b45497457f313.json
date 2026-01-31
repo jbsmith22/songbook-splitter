@@ -1,0 +1,43 @@
+{
+  "book_id": "368b45497457f313",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Ain't Wastin' My Time No More",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers - Allman Brothers Band [pvg]/Songs/Allman Brothers - Ain't Wastin' My Time No More.pdf",
+        "file_size_bytes": 11748035,
+        "page_range": [
+          13,
+          27
+        ]
+      },
+      {
+        "song_title": "Black Hearted Woman",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers - Allman Brothers Band [pvg]/Songs/Allman Brothers - Black Hearted Woman.pdf",
+        "file_size_bytes": 4835765,
+        "page_range": [
+          27,
+          33
+        ]
+      },
+      {
+        "song_title": "Don't Keep Me Wonderin'",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers - Allman Brothers Band [pvg]/Songs/Allman Brothers - Don't Keep Me Wonderin'.pdf",
+        "file_size_bytes": 52027020,
+        "page_range": [
+          33,
+          96
+        ]
+      }
+    ]
+  }
+}

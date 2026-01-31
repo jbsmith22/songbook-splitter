@@ -1,0 +1,73 @@
+{
+  "book_id": "5f1e2a364410df4b",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "We Are The Champions",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Hit Songs/Songs/Queen - We Are The Champions.pdf",
+        "file_size_bytes": 1580556,
+        "page_range": [
+          2,
+          29
+        ]
+      },
+      {
+        "song_title": "Save Me",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Hit Songs/Songs/Queen - Save Me.pdf",
+        "file_size_bytes": 1333349,
+        "page_range": [
+          29,
+          50
+        ]
+      },
+      {
+        "song_title": "Another One Bites the Dust",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Hit Songs/Songs/Queen - Another One Bites The Dust.pdf",
+        "file_size_bytes": 516338,
+        "page_range": [
+          50,
+          58
+        ]
+      },
+      {
+        "song_title": "Body Language",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Hit Songs/Songs/Queen - Body Language.pdf",
+        "file_size_bytes": 1501604,
+        "page_range": [
+          58,
+          81
+        ]
+      },
+      {
+        "song_title": "'39",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Hit Songs/Songs/Queen - '39.pdf",
+        "file_size_bytes": 872383,
+        "page_range": [
+          81,
+          95
+        ]
+      },
+      {
+        "song_title": "Crazy Little Thing Called Love",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Hit Songs/Songs/Queen - Crazy Little Thing Called Love.pdf",
+        "file_size_bytes": 542273,
+        "page_range": [
+          95,
+          104
+        ]
+      }
+    ]
+  }
+}

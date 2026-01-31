@@ -1,0 +1,76 @@
+{
+  "book_id": "emerson-lake-and-palmer-black-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Benny The Bouncer",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Endless Enigma (Part I)",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Endless Enigma (Part II)",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jeremy Bender",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Sheriff",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take A Pebble",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Trilogy",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Endless Enigma (Part I)",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Black Book/Songs/Emerson Lake And Palmer - The Endless Enigma (part I).pdf",
+        "file_size_bytes": 23279549,
+        "page_range": [
+          20,
+          56
+        ]
+      },
+      {
+        "song_title": "Jeremy Bender",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Black Book/Songs/Emerson Lake And Palmer - Jeremy Bender.pdf",
+        "file_size_bytes": 23276207,
+        "page_range": [
+          56,
+          66
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "book_id": "broadway-shows-various-artists-dirty-rotten-scoundrels-piano-vocal",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "OVERTURE",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "OVERTURE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Dirty Rotten Scoundrels - Overture.pdf",
+        "file_size_bytes": 36353778,
+        "page_range": [
+          0,
+          153
+        ]
+      }
+    ]
+  }
+}

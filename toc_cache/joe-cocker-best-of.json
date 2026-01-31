@@ -1,0 +1,270 @@
+{
+  "book_id": "joe-cocker-best-of",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Bird On The Wire",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cry Me A River",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Darling Be Home Soon",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Delta Lady",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Girl From The North Country",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honky Tonk Women",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Can Stand A Little Rain",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jamaica Say You Will",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Just Like A Woman",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lawdy Miss Clawdy",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Letter",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love The One You're With",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Marjorine",
+        "page_number": 41,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Up Where We Belong",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "With A Little Help From My Friends",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Can Leave Your Hat On",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Bird On The Wire",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Bird On The Wire.pdf",
+        "file_size_bytes": 1067705,
+        "page_range": [
+          2,
+          5
+        ]
+      },
+      {
+        "song_title": "Cry Me A River",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Cry Me A River.pdf",
+        "file_size_bytes": 1241596,
+        "page_range": [
+          5,
+          8
+        ]
+      },
+      {
+        "song_title": "Darling Be Home Soon",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Darling Be Home Soon.pdf",
+        "file_size_bytes": 1541138,
+        "page_range": [
+          8,
+          12
+        ]
+      },
+      {
+        "song_title": "Delta Lady",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Delta Lady.pdf",
+        "file_size_bytes": 1133241,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "Jamaica Say You Will",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Jamaica Say You Will.pdf",
+        "file_size_bytes": 1067941,
+        "page_range": [
+          15,
+          18
+        ]
+      },
+      {
+        "song_title": "Girl From The North Country",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Girl From The North Country.pdf",
+        "file_size_bytes": 636812,
+        "page_range": [
+          18,
+          20
+        ]
+      },
+      {
+        "song_title": "Honky Tonk Women",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Honky Tonk Women.pdf",
+        "file_size_bytes": 712053,
+        "page_range": [
+          20,
+          22
+        ]
+      },
+      {
+        "song_title": "I Can Stand A Little Rain",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - I Can Stand A Little Rain.pdf",
+        "file_size_bytes": 2400136,
+        "page_range": [
+          22,
+          29
+        ]
+      },
+      {
+        "song_title": "Just Like A Woman",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Just Like A Woman.pdf",
+        "file_size_bytes": 1103034,
+        "page_range": [
+          29,
+          32
+        ]
+      },
+      {
+        "song_title": "Lawdy Miss Clawdy",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Lawdy Miss Clawdy.pdf",
+        "file_size_bytes": 807200,
+        "page_range": [
+          32,
+          34
+        ]
+      },
+      {
+        "song_title": "The Letter",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - The Letter.pdf",
+        "file_size_bytes": 722954,
+        "page_range": [
+          34,
+          36
+        ]
+      },
+      {
+        "song_title": "Love The One You're With",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Love The One You're With.pdf",
+        "file_size_bytes": 1697546,
+        "page_range": [
+          36,
+          41
+        ]
+      },
+      {
+        "song_title": "Marjorine",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Marjorine.pdf",
+        "file_size_bytes": 1098717,
+        "page_range": [
+          41,
+          44
+        ]
+      },
+      {
+        "song_title": "Up Where We Belong",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - Up Where We Belong.pdf",
+        "file_size_bytes": 1508808,
+        "page_range": [
+          44,
+          48
+        ]
+      },
+      {
+        "song_title": "With A Little Help From My Friends",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - With A Little Help From My Friends.pdf",
+        "file_size_bytes": 1203153,
+        "page_range": [
+          48,
+          51
+        ]
+      },
+      {
+        "song_title": "You Can Leave Your Hat On",
+        "artist": "Joe Cocker",
+        "output_uri": "s3://jsmith-output/Joe Cocker/Best Of/Songs/Joe Cocker - You Can Leave Your Hat On.pdf",
+        "file_size_bytes": 2217344,
+        "page_range": [
+          51,
+          57
+        ]
+      }
+    ]
+  }
+}

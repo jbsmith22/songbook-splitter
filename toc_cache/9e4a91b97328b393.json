@@ -1,0 +1,88 @@
+{
+  "book_id": "9e4a91b97328b393",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Cat's in the Cradle",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Corey's Coming",
+        "page_number": 41,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If My Mary Were Here",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Old College Avenue",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sandy",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Sings Songs Without Words",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tangled Up Puppet",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Taxi",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Winter Song",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Cat's in the Cradle",
+        "artist": "Harry Chapin",
+        "output_uri": "s3://jsmith-output/Harry Chapin/Harry Chapin - The Authentic Guitar Style Of [guitar Tab]/Songs/Harry Chapin - Cat's In The Cradle.pdf",
+        "file_size_bytes": 786259,
+        "page_range": [
+          46,
+          53
+        ]
+      },
+      {
+        "song_title": "Winter Song",
+        "artist": "Harry Chapin",
+        "output_uri": "s3://jsmith-output/Harry Chapin/Harry Chapin - The Authentic Guitar Style Of [guitar Tab]/Songs/Harry Chapin - Winter Song.pdf",
+        "file_size_bytes": 323377,
+        "page_range": [
+          53,
+          57
+        ]
+      }
+    ]
+  }
+}

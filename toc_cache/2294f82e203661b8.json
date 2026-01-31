@@ -1,0 +1,153 @@
+{
+  "book_id": "2294f82e203661b8",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Figure of Eight",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Figure Of Eight.pdf",
+        "file_size_bytes": 2845014,
+        "page_range": [
+          17,
+          24
+        ]
+      },
+      {
+        "song_title": "Jet",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Jet.pdf",
+        "file_size_bytes": 8949581,
+        "page_range": [
+          24,
+          46
+        ]
+      },
+      {
+        "song_title": "Birthday",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Birthday.pdf",
+        "file_size_bytes": 7220487,
+        "page_range": [
+          46,
+          64
+        ]
+      },
+      {
+        "song_title": "Inner City Madness",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Inner City Madness.pdf",
+        "file_size_bytes": 3968465,
+        "page_range": [
+          64,
+          74
+        ]
+      },
+      {
+        "song_title": "The Fool on the Hill",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - The Fool On The Hill.pdf",
+        "file_size_bytes": 3981405,
+        "page_range": [
+          74,
+          83
+        ]
+      },
+      {
+        "song_title": "Sergeant Pepper's Lonely Hearts Club Band",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Sergeant Pepper's Lonely Hearts Club Band.pdf",
+        "file_size_bytes": 4588247,
+        "page_range": [
+          83,
+          95
+        ]
+      },
+      {
+        "song_title": "Together",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Together.pdf",
+        "file_size_bytes": 6296799,
+        "page_range": [
+          95,
+          110
+        ]
+      },
+      {
+        "song_title": "My Brave Face",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - My Brave Face.pdf",
+        "file_size_bytes": 1954618,
+        "page_range": [
+          110,
+          115
+        ]
+      },
+      {
+        "song_title": "Back in the U.S.S.R.",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Back In The U.s.s.r.pdf",
+        "file_size_bytes": 5105900,
+        "page_range": [
+          115,
+          127
+        ]
+      },
+      {
+        "song_title": "Coming Up",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Coming Up.pdf",
+        "file_size_bytes": 2799208,
+        "page_range": [
+          127,
+          134
+        ]
+      },
+      {
+        "song_title": "Sally",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Sally.pdf",
+        "file_size_bytes": 4790024,
+        "page_range": [
+          134,
+          146
+        ]
+      },
+      {
+        "song_title": "Hey Jude",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Hey Jude.pdf",
+        "file_size_bytes": 1659392,
+        "page_range": [
+          146,
+          150
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Yesterday.pdf",
+        "file_size_bytes": 780870,
+        "page_range": [
+          150,
+          152
+        ]
+      },
+      {
+        "song_title": "Get Back",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tripping The Live Fantastic [pvg Book]/Songs/Paul Mccartney - Get Back.pdf",
+        "file_size_bytes": 7391408,
+        "page_range": [
+          152,
+          168
+        ]
+      }
+    ]
+  }
+}

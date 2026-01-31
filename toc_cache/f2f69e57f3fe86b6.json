@@ -1,0 +1,144 @@
+{
+  "book_id": "f2f69e57f3fe86b6",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "ALREADY GONE",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BEST OF MY LOVE, THE",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DESPERADO",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DOOLIN-DALTON",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HOTEL CALIFORNIA",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JAMES DEAN",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LYIN' EYES",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NEW KID IN TOWN",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "OUTLAW MAN",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PEACEFUL EASY FEELING",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SEVEN BRIDGES ROAD",
+        "page_number": 65,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TAKE IT EASY",
+        "page_number": 71,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TAKE IT TO THE LIMIT",
+        "page_number": 77,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TEQUILA SUNRISE",
+        "page_number": 83,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WITCHY WOMAN",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "ALREADY GONE",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - Made Easy For Guitar/Songs/Eagles - Already Gone.pdf",
+        "file_size_bytes": 665685,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "BEST OF MY LOVE, THE",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - Made Easy For Guitar/Songs/Eagles - Best Of My Love, The.pdf",
+        "file_size_bytes": 5979847,
+        "page_range": [
+          7,
+          32
+        ]
+      },
+      {
+        "song_title": "DESPERADO",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - Made Easy For Guitar/Songs/Eagles - Desperado.pdf",
+        "file_size_bytes": 1678702,
+        "page_range": [
+          32,
+          38
+        ]
+      },
+      {
+        "song_title": "DOOLIN-DALTON",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - Made Easy For Guitar/Songs/Eagles - Doolin-dalton.pdf",
+        "file_size_bytes": 931761,
+        "page_range": [
+          38,
+          42
+        ]
+      }
+    ]
+  }
+}

@@ -112,6 +112,7 @@ class PageMapperService:
             logger.info(f"Finding '{entry.song_title}' (TOC page {entry.page_number})...")
             
             # Calculate expected PDF index based on initial offset (if we have one)
+            expected_pdf_index = None  # Initialize to None
             if i > 0 and song_locations:  # Only use previous location if we have one
                 # For subsequent songs, start from expected position
                 prev_location = song_locations[-1]
@@ -166,12 +167,17 @@ class PageMapperService:
             
             verified_count += 1
             
-            if i == 0:
+            if len(song_locations) == 1:
+                # First song found (may not be i==0 if earlier songs were skipped)
                 offset = actual_pdf_index - entry.page_number
                 logger.info(f"Found first song '{entry.song_title}' at PDF index {actual_pdf_index} (TOC page {entry.page_number}, offset={offset})")
-            else:
+            elif expected_pdf_index is not None:
+                # Subsequent song with expected position
                 offset_from_expected = actual_pdf_index - expected_pdf_index
                 logger.info(f"Found '{entry.song_title}' at PDF index {actual_pdf_index} (expected {expected_pdf_index}, offset={offset_from_expected:+d})")
+            else:
+                # Subsequent song but no expected position (previous songs were skipped)
+                logger.info(f"Found '{entry.song_title}' at PDF index {actual_pdf_index} (TOC page {entry.page_number})")
             
             # Next search starts after this song
             search_start = actual_pdf_index + 1

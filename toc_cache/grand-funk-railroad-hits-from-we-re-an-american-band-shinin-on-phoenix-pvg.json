@@ -1,0 +1,420 @@
+{
+  "book_id": "grand-funk-railroad-hits-from-we-re-an-american-band-shinin-on-phoenix-pvg",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Ain't Got Nobody",
+        "page_number": 42,
+        "artist": "We're An American Band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Black Licorice",
+        "page_number": 38,
+        "artist": "We're An American Band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Carry Me Through",
+        "page_number": 10,
+        "artist": "Shinin' On",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Creepin'",
+        "page_number": 55,
+        "artist": "We're An American Band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Flight Of The Phoenix (Piano Solo)",
+        "page_number": 54,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Freedom Is For Children",
+        "page_number": 84,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gettin' Over You",
+        "page_number": 20,
+        "artist": "Shinin' On",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gotta Find Me A Better Day",
+        "page_number": 89,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Just Gotta Know",
+        "page_number": 73,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Johnny Hooker",
+        "page_number": 24,
+        "artist": "Shinin' On",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Loneliest Rider",
+        "page_number": 50,
+        "artist": "We're An American Band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mr. Pretty Boy",
+        "page_number": 16,
+        "artist": "Shinin' On",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Please Me",
+        "page_number": 13,
+        "artist": "Shinin' On",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(The) Railroad",
+        "page_number": 41,
+        "artist": "We're An American Band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rain Keeps Fallin'",
+        "page_number": 68,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rock 'N Roll Soul",
+        "page_number": 92,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Got To Move Me",
+        "page_number": 65,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shinin' On",
+        "page_number": 7,
+        "artist": "Shinin' On",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "So You Won't Have To Die",
+        "page_number": 78,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Someone",
+        "page_number": 60,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Stop Lookin' Back",
+        "page_number": 32,
+        "artist": "We're An American Band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "To Get Back In",
+        "page_number": 5,
+        "artist": "Shinin' On",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Trying To Get Away",
+        "page_number": 57,
+        "artist": "Phoenix",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Walk Like A Man",
+        "page_number": 47,
+        "artist": "We're An American Band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We're An American Band",
+        "page_number": 29,
+        "artist": "We're An American Band",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Ain't Got Nobody": "We're An American Band",
+      "Black Licorice": "We're An American Band",
+      "Carry Me Through": "Shinin' On",
+      "Creepin'": "We're An American Band",
+      "Flight Of The Phoenix (Piano Solo)": "Phoenix",
+      "Freedom Is For Children": "Phoenix",
+      "Gettin' Over You": "Shinin' On",
+      "Gotta Find Me A Better Day": "Phoenix",
+      "I Just Gotta Know": "Phoenix",
+      "Little Johnny Hooker": "Shinin' On",
+      "Loneliest Rider": "We're An American Band",
+      "Mr. Pretty Boy": "Shinin' On",
+      "Please Me": "Shinin' On",
+      "(The) Railroad": "We're An American Band",
+      "Rain Keeps Fallin'": "Phoenix",
+      "Rock 'N Roll Soul": "Phoenix",
+      "She Got To Move Me": "Phoenix",
+      "Shinin' On": "Shinin' On",
+      "So You Won't Have To Die": "Phoenix",
+      "Someone": "Phoenix",
+      "Stop Lookin' Back": "We're An American Band",
+      "To Get Back In": "Shinin' On",
+      "Trying To Get Away": "Phoenix",
+      "Walk Like A Man": "We're An American Band",
+      "We're An American Band": "We're An American Band"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "To Get Back In",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - To Get Back In.pdf",
+        "file_size_bytes": 1067696,
+        "page_range": [
+          5,
+          10
+        ]
+      },
+      {
+        "song_title": "Carry Me Through",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Carry Me Through.pdf",
+        "file_size_bytes": 649899,
+        "page_range": [
+          10,
+          13
+        ]
+      },
+      {
+        "song_title": "Please Me",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Please Me.pdf",
+        "file_size_bytes": 692110,
+        "page_range": [
+          13,
+          16
+        ]
+      },
+      {
+        "song_title": "Mr. Pretty Boy",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Mr. Pretty Boy.pdf",
+        "file_size_bytes": 829668,
+        "page_range": [
+          16,
+          20
+        ]
+      },
+      {
+        "song_title": "Gettin' Over You",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Gettin' Over You.pdf",
+        "file_size_bytes": 577168,
+        "page_range": [
+          20,
+          24
+        ]
+      },
+      {
+        "song_title": "Little Johnny Hooker",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Little Johnny Hooker.pdf",
+        "file_size_bytes": 392733,
+        "page_range": [
+          24,
+          29
+        ]
+      },
+      {
+        "song_title": "We're An American Band",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - We're An American Band.pdf",
+        "file_size_bytes": 233864,
+        "page_range": [
+          29,
+          32
+        ]
+      },
+      {
+        "song_title": "Stop Lookin' Back",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Stop Lookin' Back.pdf",
+        "file_size_bytes": 478289,
+        "page_range": [
+          32,
+          38
+        ]
+      },
+      {
+        "song_title": "Black Licorice",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Black Licorice.pdf",
+        "file_size_bytes": 241818,
+        "page_range": [
+          38,
+          41
+        ]
+      },
+      {
+        "song_title": "(The) Railroad",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - (the) Railroad.pdf",
+        "file_size_bytes": 250411,
+        "page_range": [
+          41,
+          44
+        ]
+      },
+      {
+        "song_title": "Ain't Got Nobody",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Ain't Got Nobody.pdf",
+        "file_size_bytes": 247257,
+        "page_range": [
+          44,
+          47
+        ]
+      },
+      {
+        "song_title": "Walk Like A Man",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Walk Like A Man.pdf",
+        "file_size_bytes": 257384,
+        "page_range": [
+          47,
+          50
+        ]
+      },
+      {
+        "song_title": "Loneliest Rider",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Loneliest Rider.pdf",
+        "file_size_bytes": 327417,
+        "page_range": [
+          50,
+          54
+        ]
+      },
+      {
+        "song_title": "Flight Of The Phoenix (Piano Solo)",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Flight Of The Phoenix (piano Solo).pdf",
+        "file_size_bytes": 220902,
+        "page_range": [
+          54,
+          57
+        ]
+      },
+      {
+        "song_title": "Trying To Get Away",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Trying To Get Away.pdf",
+        "file_size_bytes": 257857,
+        "page_range": [
+          57,
+          60
+        ]
+      },
+      {
+        "song_title": "Someone",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Someone.pdf",
+        "file_size_bytes": 417964,
+        "page_range": [
+          60,
+          65
+        ]
+      },
+      {
+        "song_title": "She Got To Move Me",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - She Got To Move Me.pdf",
+        "file_size_bytes": 235302,
+        "page_range": [
+          65,
+          68
+        ]
+      },
+      {
+        "song_title": "Rain Keeps Fallin'",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Rain Keeps Fallin'.pdf",
+        "file_size_bytes": 404051,
+        "page_range": [
+          68,
+          73
+        ]
+      },
+      {
+        "song_title": "I Just Gotta Know",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - I Just Gotta Know.pdf",
+        "file_size_bytes": 441871,
+        "page_range": [
+          73,
+          78
+        ]
+      },
+      {
+        "song_title": "So You Won't Have To Die",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - So You Won't Have To Die.pdf",
+        "file_size_bytes": 534101,
+        "page_range": [
+          78,
+          84
+        ]
+      },
+      {
+        "song_title": "Freedom Is For Children",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Freedom Is For Children.pdf",
+        "file_size_bytes": 416645,
+        "page_range": [
+          84,
+          89
+        ]
+      },
+      {
+        "song_title": "Gotta Find Me A Better Day",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Gotta Find Me A Better Day.pdf",
+        "file_size_bytes": 255930,
+        "page_range": [
+          89,
+          92
+        ]
+      },
+      {
+        "song_title": "Rock 'N Roll Soul",
+        "artist": "Grand Funk Railroad",
+        "output_uri": "s3://jsmith-output/Grand Funk Railroad/Hits From We're An American Band, Shinin' On, Phoenix [pvg]/Songs/Grand Funk Railroad - Rock 'n Roll Soul.pdf",
+        "file_size_bytes": 402831,
+        "page_range": [
+          92,
+          98
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "book_id": "7b9d6e881fa8ea0f",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Witchy Woman",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - Greatest Hits/Songs/Eagles - Witchy Woman.pdf",
+        "file_size_bytes": 1248162,
+        "page_range": [
+          22,
+          60
+        ]
+      },
+      {
+        "song_title": "Already Gone",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - Greatest Hits/Songs/Eagles - Already Gone.pdf",
+        "file_size_bytes": 2141157,
+        "page_range": [
+          60,
+          128
+        ]
+      },
+      {
+        "song_title": "Peaceful Easy Feeling",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - Greatest Hits/Songs/Eagles - Peaceful Easy Feeling.pdf",
+        "file_size_bytes": 2884870,
+        "page_range": [
+          128,
+          160
+        ]
+      }
+    ]
+  }
+}

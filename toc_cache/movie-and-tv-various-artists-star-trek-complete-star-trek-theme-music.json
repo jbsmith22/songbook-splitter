@@ -1,0 +1,23 @@
+{
+  "book_id": "movie-and-tv-various-artists-star-trek-complete-star-trek-theme-music",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Motion Picture",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Star Trek Theme Music/Songs/(based On The Star Trek Logo And Imagery, This Appears To Be Sheet Music From The Soundtrack Or Score For A Star Trek Movie) - The Motion Picture.pdf",
+        "file_size_bytes": 1756980,
+        "page_range": [
+          0,
+          2
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "book_id": "2f0b1b7286739253",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Becoming Jane",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Adrian Johnston - Becoming Jane.pdf",
+        "file_size_bytes": 201618,
+        "page_range": [
+          12,
+          13
+        ]
+      },
+      {
+        "song_title": "SELBOURNE WOOD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Unknown Artist - Selbourne Wood.pdf",
+        "file_size_bytes": 412892,
+        "page_range": [
+          13,
+          15
+        ]
+      },
+      {
+        "song_title": "RUNAWAYS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Unknown Artist - Runaways.pdf",
+        "file_size_bytes": 221005,
+        "page_range": [
+          15,
+          16
+        ]
+      },
+      {
+        "song_title": "An Adoring Heart",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Unknown Artist - An Adoring Heart.pdf",
+        "file_size_bytes": 206492,
+        "page_range": [
+          16,
+          17
+        ]
+      },
+      {
+        "song_title": "Cyrano De Bergerac (Main & End Titles)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Composed By Jean-claude Petit - Cyrano De Bergerac (main & End Titles).pdf",
+        "file_size_bytes": 2184757,
+        "page_range": [
+          17,
+          28
+        ]
+      },
+      {
+        "song_title": "The Draughtsman's Contract",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Composed By Michael Nyman - The Draughtsman's Contract.pdf",
+        "file_size_bytes": 3664637,
+        "page_range": [
+          28,
+          53
+        ]
+      },
+      {
+        "song_title": "Sense And Sensibility (My Father's Favourite)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Composed By Patrick Doyle - Sense And Sensibility (my Father's Favourite).pdf",
+        "file_size_bytes": 1469040,
+        "page_range": [
+          53,
+          66
+        ]
+      },
+      {
+        "song_title": "Perfume",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Composed By Tom Tykwer, Johnny Klimek & Reinhold Heil - Perfume.pdf",
+        "file_size_bytes": 372417,
+        "page_range": [
+          66,
+          69
+        ]
+      },
+      {
+        "song_title": "DISTILLING ROSES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Unknown Artist - Distilling Roses.pdf",
+        "file_size_bytes": 423819,
+        "page_range": [
+          69,
+          72
+        ]
+      },
+      {
+        "song_title": "The Portrait Of A Lady",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Composed By Wojciech Kilar - The Portrait Of A Lady.pdf",
+        "file_size_bytes": 454840,
+        "page_range": [
+          72,
+          76
+        ]
+      },
+      {
+        "song_title": "Pride And Prejudice (Dawn/Georgiana)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Composed By Dario Marianelli - Pride And Prejudice (dawn-georgiana).pdf",
+        "file_size_bytes": 1012515,
+        "page_range": [
+          76,
+          84
+        ]
+      },
+      {
+        "song_title": "Romeo & Juliet",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Composed By Nino Rota - Romeo & Juliet.pdf",
+        "file_size_bytes": 365525,
+        "page_range": [
+          84,
+          87
+        ]
+      },
+      {
+        "song_title": "Did My Heart Love 'Til Now?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Unknown Artist - Did My Heart Love 'til Now-.pdf",
+        "file_size_bytes": 128223,
+        "page_range": [
+          87,
+          88
+        ]
+      },
+      {
+        "song_title": "Love Theme",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Unknown Artist - Love Theme.pdf",
+        "file_size_bytes": 253519,
+        "page_range": [
+          88,
+          90
+        ]
+      },
+      {
+        "song_title": "Tea With Mussolini (Ladies)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Composed By Alessio Vlad & Stefano Arnaldi - Tea With Mussolini (ladies).pdf",
+        "file_size_bytes": 217506,
+        "page_range": [
+          90,
+          92
+        ]
+      },
+      {
+        "song_title": "Vanity Fair",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Piano Solos Film Music - The Costume Drama Collection/Songs/Mychael Danna - Vanity Fair.pdf",
+        "file_size_bytes": 471771,
+        "page_range": [
+          92,
+          96
+        ]
+      }
+    ]
+  }
+}

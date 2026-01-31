@@ -1,0 +1,143 @@
+{
+  "book_id": "bruce-springsteen-greatest-hits",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "This Land Is Your Land",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - This Land Is Your Land.pdf",
+        "file_size_bytes": 293630,
+        "page_range": [
+          0,
+          4
+        ]
+      },
+      {
+        "song_title": "Atlantic City",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Atlantic City.pdf",
+        "file_size_bytes": 375518,
+        "page_range": [
+          4,
+          9
+        ]
+      },
+      {
+        "song_title": "Better Days",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Better Days.pdf",
+        "file_size_bytes": 296042,
+        "page_range": [
+          9,
+          13
+        ]
+      },
+      {
+        "song_title": "Blood Brothers",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Blood Brothers.pdf",
+        "file_size_bytes": 613189,
+        "page_range": [
+          13,
+          22
+        ]
+      },
+      {
+        "song_title": "Brilliancy Caprice",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Brilliancy Caprice.pdf",
+        "file_size_bytes": 303580,
+        "page_range": [
+          22,
+          26
+        ]
+      },
+      {
+        "song_title": "Dancing in the Dark",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Dancing In The Dark.pdf",
+        "file_size_bytes": 316727,
+        "page_range": [
+          26,
+          30
+        ]
+      },
+      {
+        "song_title": "Glory Days",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Glory Days.pdf",
+        "file_size_bytes": 318936,
+        "page_range": [
+          30,
+          34
+        ]
+      },
+      {
+        "song_title": "Human Touch",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Human Touch.pdf",
+        "file_size_bytes": 444347,
+        "page_range": [
+          34,
+          40
+        ]
+      },
+      {
+        "song_title": "Hungry Heart",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Hungry Heart.pdf",
+        "file_size_bytes": 787840,
+        "page_range": [
+          40,
+          50
+        ]
+      },
+      {
+        "song_title": "My Hometown",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - My Hometown.pdf",
+        "file_size_bytes": 417580,
+        "page_range": [
+          50,
+          56
+        ]
+      },
+      {
+        "song_title": "Secret Garden",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Secret Garden.pdf",
+        "file_size_bytes": 361779,
+        "page_range": [
+          56,
+          61
+        ]
+      },
+      {
+        "song_title": "Streets of Philadelphia",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Streets Of Philadelphia.pdf",
+        "file_size_bytes": 281352,
+        "page_range": [
+          61,
+          65
+        ]
+      },
+      {
+        "song_title": "Thunder Road",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Greatest Hits/Songs/Unknown Artist - Thunder Road.pdf",
+        "file_size_bytes": 792272,
+        "page_range": [
+          65,
+          75
+        ]
+      }
+    ]
+  }
+}

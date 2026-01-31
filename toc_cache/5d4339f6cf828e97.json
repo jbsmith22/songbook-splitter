@@ -1,0 +1,19 @@
+{
+  "book_id": "5d4339f6cf828e97",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Pardon Me Sir",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": []
+  }
+}

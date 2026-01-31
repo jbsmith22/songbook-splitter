@@ -1,0 +1,163 @@
+{
+  "book_id": "a343d76dbfabf8a9",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Autograph",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Autograph.pdf",
+        "file_size_bytes": 733145,
+        "page_range": [
+          18,
+          27
+        ]
+      },
+      {
+        "song_title": "Back Home Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Back Home Again.pdf",
+        "file_size_bytes": 682469,
+        "page_range": [
+          27,
+          35
+        ]
+      },
+      {
+        "song_title": "Dreamland Express",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Dreamland Express.pdf",
+        "file_size_bytes": 2325578,
+        "page_range": [
+          35,
+          66
+        ]
+      },
+      {
+        "song_title": "Flying For Me",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Flying For Me.pdf",
+        "file_size_bytes": 3366007,
+        "page_range": [
+          66,
+          106
+        ]
+      },
+      {
+        "song_title": "I Guess He'd Rather Be In Colorado",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - I Guess He'd Rather Be In Colorado.pdf",
+        "file_size_bytes": 658021,
+        "page_range": [
+          106,
+          114
+        ]
+      },
+      {
+        "song_title": "Joseph & Joe",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Joseph & Joe.pdf",
+        "file_size_bytes": 442788,
+        "page_range": [
+          114,
+          119
+        ]
+      },
+      {
+        "song_title": "How Can I Leave You Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - How Can I Leave You Again.pdf",
+        "file_size_bytes": 3305886,
+        "page_range": [
+          119,
+          157
+        ]
+      },
+      {
+        "song_title": "My Sweet Lady",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - My Sweet Lady.pdf",
+        "file_size_bytes": 666419,
+        "page_range": [
+          157,
+          165
+        ]
+      },
+      {
+        "song_title": "Never A Doubt",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Never A Doubt.pdf",
+        "file_size_bytes": 821571,
+        "page_range": [
+          165,
+          174
+        ]
+      },
+      {
+        "song_title": "Poems, Prayers And Promises",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Poems, Prayers And Promises.pdf",
+        "file_size_bytes": 348912,
+        "page_range": [
+          174,
+          178
+        ]
+      },
+      {
+        "song_title": "Rhymes And Reasons",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Rhymes And Reasons.pdf",
+        "file_size_bytes": 722833,
+        "page_range": [
+          178,
+          187
+        ]
+      },
+      {
+        "song_title": "Rocky Mountain High",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Rocky Mountain High.pdf",
+        "file_size_bytes": 1181527,
+        "page_range": [
+          187,
+          200
+        ]
+      },
+      {
+        "song_title": "Seasons Of The Heart",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Seasons Of The Heart.pdf",
+        "file_size_bytes": 3051551,
+        "page_range": [
+          200,
+          234
+        ]
+      },
+      {
+        "song_title": "What One Man Can Do",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - What One Man Can Do.pdf",
+        "file_size_bytes": 1353167,
+        "page_range": [
+          234,
+          252
+        ]
+      },
+      {
+        "song_title": "Windsong",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - Anthology [pvg]/Songs/John Denver - Windsong.pdf",
+        "file_size_bytes": 759102,
+        "page_range": [
+          252,
+          259
+        ]
+      }
+    ]
+  }
+}

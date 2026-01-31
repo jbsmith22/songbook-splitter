@@ -1,0 +1,63 @@
+{
+  "book_id": "e578c07775b786e1",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "How Will I Know",
+        "artist": "Whitney Houston",
+        "output_uri": "s3://jsmith-output/Whitney Houston/Whitney Houston - The Best Of/Songs/Whitney Houston - How Will I Know.pdf",
+        "file_size_bytes": 5891222,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "All At Once",
+        "artist": "Whitney Houston",
+        "output_uri": "s3://jsmith-output/Whitney Houston/Whitney Houston - The Best Of/Songs/Whitney Houston - All At Once.pdf",
+        "file_size_bytes": 5843506,
+        "page_range": [
+          6,
+          10
+        ]
+      },
+      {
+        "song_title": "Saving All My Love For You",
+        "artist": "Whitney Houston",
+        "output_uri": "s3://jsmith-output/Whitney Houston/Whitney Houston - The Best Of/Songs/Whitney Houston - Saving All My Love For You.pdf",
+        "file_size_bytes": 8490410,
+        "page_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "song_title": "You Give Good Love",
+        "artist": "Whitney Houston",
+        "output_uri": "s3://jsmith-output/Whitney Houston/Whitney Houston - The Best Of/Songs/Whitney Houston - You Give Good Love.pdf",
+        "file_size_bytes": 19124925,
+        "page_range": [
+          15,
+          27
+        ]
+      },
+      {
+        "song_title": "I Wanna Dance With Somebody (Who Loves Me)",
+        "artist": "Whitney Houston",
+        "output_uri": "s3://jsmith-output/Whitney Houston/Whitney Houston - The Best Of/Songs/Whitney Houston - I Wanna Dance With Somebody (who Loves Me).pdf",
+        "file_size_bytes": 22076893,
+        "page_range": [
+          27,
+          42
+        ]
+      }
+    ]
+  }
+}

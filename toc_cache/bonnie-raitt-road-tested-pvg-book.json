@@ -1,0 +1,374 @@
+{
+  "book_id": "bonnie-raitt-road-tested-pvg-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "A Thing Called Love",
+        "page_number": 7,
+        "artist": "(performed live with Bruce Hornsby)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Letter",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Never Make Your Move Too Soon",
+        "page_number": 21,
+        "artist": "(performed live with Ruth Brown, Charles Brown & Kim Wilson)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Something To Talk About",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Three Time Loser",
+        "page_number": 35,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Matters Of The Heart",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shake A Little",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Have A Heart",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Me Like A Man",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Kokomo Medley",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dimming Of The Day",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Longing In Their Hearts",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Louise",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Come To Me",
+        "page_number": 93,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Sneakin' Up On You",
+        "page_number": 102,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Burning Down The House",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Can't Make You Love Me",
+        "page_number": 114,
+        "artist": "(performed live with Bruce Hornsby)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Believe I'm In Love With You",
+        "page_number": 122,
+        "artist": "(performed live with Keb' Wilson)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Feeling Of Falling",
+        "page_number": 126,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rock Steady",
+        "page_number": 135,
+        "artist": "(performed by Bryan Adams)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Opening Farewell",
+        "page_number": 143,
+        "artist": "(performed live with Aaron Neville, Boz Scaggs, Bryan Adams & Kim Wilson)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Angel From Montgomery",
+        "page_number": 149,
+        "artist": "(performed live with Aaron Neville, Boz Scaggs, Bryan Adams & Kim Wilson)",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "A Thing Called Love": "(performed live with Bruce Hornsby)",
+      "Never Make Your Move Too Soon": "(performed live with Ruth Brown, Charles Brown & Kim Wilson)",
+      "I Can't Make You Love Me": "(performed live with Bruce Hornsby)",
+      "I Believe I'm In Love With You": "(performed live with Keb' Wilson)",
+      "Rock Steady": "(performed by Bryan Adams)",
+      "My Opening Farewell": "(performed live with Aaron Neville, Boz Scaggs, Bryan Adams & Kim Wilson)",
+      "Angel From Montgomery": "(performed live with Aaron Neville, Boz Scaggs, Bryan Adams & Kim Wilson)"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Thing Called Love",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/(performed Live With Bruce Hornsby) - A Thing Called Love.pdf",
+        "file_size_bytes": 832449,
+        "page_range": [
+          2,
+          9
+        ]
+      },
+      {
+        "song_title": "Love Letter",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Love Letter.pdf",
+        "file_size_bytes": 792981,
+        "page_range": [
+          9,
+          16
+        ]
+      },
+      {
+        "song_title": "Never Make Your Move Too Soon",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/(performed Live With Ruth Brown, Charles Brown & Kim Wilson) - Never Make Your Move Too Soon.pdf",
+        "file_size_bytes": 768436,
+        "page_range": [
+          16,
+          23
+        ]
+      },
+      {
+        "song_title": "Something To Talk About",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Shirley Eikhard - Something To Talk About.pdf",
+        "file_size_bytes": 1691119,
+        "page_range": [
+          23,
+          28
+        ]
+      },
+      {
+        "song_title": "Three Time Loser",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Three Time Loser.pdf",
+        "file_size_bytes": 671348,
+        "page_range": [
+          28,
+          34
+        ]
+      },
+      {
+        "song_title": "Matters Of The Heart",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Matters Of The Heart.pdf",
+        "file_size_bytes": 902060,
+        "page_range": [
+          34,
+          42
+        ]
+      },
+      {
+        "song_title": "Shake A Little",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Shake A Little.pdf",
+        "file_size_bytes": 1091560,
+        "page_range": [
+          42,
+          51
+        ]
+      },
+      {
+        "song_title": "Have A Heart",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Have A Heart.pdf",
+        "file_size_bytes": 583070,
+        "page_range": [
+          51,
+          56
+        ]
+      },
+      {
+        "song_title": "Love Me Like A Man",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Love Me Like A Man.pdf",
+        "file_size_bytes": 737598,
+        "page_range": [
+          56,
+          62
+        ]
+      },
+      {
+        "song_title": "The Kokomo Medley",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - The Kokomo Medley.pdf",
+        "file_size_bytes": 796546,
+        "page_range": [
+          62,
+          69
+        ]
+      },
+      {
+        "song_title": "Dimming Of The Day",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Dimming Of The Day.pdf",
+        "file_size_bytes": 451766,
+        "page_range": [
+          69,
+          73
+        ]
+      },
+      {
+        "song_title": "Longing In Their Hearts",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Longing In Their Hearts.pdf",
+        "file_size_bytes": 1160191,
+        "page_range": [
+          73,
+          83
+        ]
+      },
+      {
+        "song_title": "Louise",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Louise.pdf",
+        "file_size_bytes": 554004,
+        "page_range": [
+          83,
+          88
+        ]
+      },
+      {
+        "song_title": "Come To Me",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Come To Me.pdf",
+        "file_size_bytes": 784758,
+        "page_range": [
+          88,
+          95
+        ]
+      },
+      {
+        "song_title": "Love Sneakin' Up On You",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Love Sneakin' Up On You.pdf",
+        "file_size_bytes": 895859,
+        "page_range": [
+          95,
+          103
+        ]
+      },
+      {
+        "song_title": "Burning Down The House",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Burning Down The House.pdf",
+        "file_size_bytes": 588255,
+        "page_range": [
+          103,
+          109
+        ]
+      },
+      {
+        "song_title": "I Can't Make You Love Me",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/(performed Live With Bruce Hornsby) - I Can't Make You Love Me.pdf",
+        "file_size_bytes": 854036,
+        "page_range": [
+          109,
+          117
+        ]
+      },
+      {
+        "song_title": "I Believe I'm In Love With You",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/(performed Live With Keb' Wilson) - I Believe I'm In Love With You.pdf",
+        "file_size_bytes": 406320,
+        "page_range": [
+          117,
+          121
+        ]
+      },
+      {
+        "song_title": "Feeling Of Falling",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/Unknown Artist - Feeling Of Falling.pdf",
+        "file_size_bytes": 1119650,
+        "page_range": [
+          121,
+          131
+        ]
+      },
+      {
+        "song_title": "Rock Steady",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/(performed By Bryan Adams) - Rock Steady.pdf",
+        "file_size_bytes": 826376,
+        "page_range": [
+          131,
+          138
+        ]
+      },
+      {
+        "song_title": "My Opening Farewell",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/(performed Live With Aaron Neville, Boz Scaggs, Bryan Adams & Kim Wilson) - My Opening Farewell.pdf",
+        "file_size_bytes": 731622,
+        "page_range": [
+          138,
+          144
+        ]
+      },
+      {
+        "song_title": "Angel From Montgomery",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Road Tested [pvg Book]/Songs/(performed Live With Aaron Neville, Boz Scaggs, Bryan Adams & Kim Wilson) - Angel From Montgomery.pdf",
+        "file_size_bytes": 804355,
+        "page_range": [
+          144,
+          151
+        ]
+      }
+    ]
+  }
+}

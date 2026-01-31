@@ -1,0 +1,30 @@
+{
+  "book_id": "james-blunt-back-to-bedlam-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "High",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "High",
+        "artist": "James Blunt",
+        "output_uri": "s3://jsmith-output/James Blunt/Back To Bedlam [book]/Songs/James Blunt - High.pdf",
+        "file_size_bytes": 3853563,
+        "page_range": [
+          1,
+          47
+        ]
+      }
+    ]
+  }
+}

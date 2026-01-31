@@ -1,0 +1,344 @@
+{
+  "book_id": "470590be49dcee87",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Baker Baker",
+        "page_number": 129,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Baltimore",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Caught A Lite Sneeze",
+        "page_number": 151,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cornflake Girl",
+        "page_number": 133,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Etienne",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Father Lucifer",
+        "page_number": 162,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Floating City",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Happy Phantom",
+        "page_number": 55,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hey Jupiter",
+        "page_number": 143,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honey",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mary",
+        "page_number": 85,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mother",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Northern Lad",
+        "page_number": 189,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Past The Mission",
+        "page_number": 111,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Precious Things",
+        "page_number": 75,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Professional Widow",
+        "page_number": 180,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Putting The Damage On",
+        "page_number": 169,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rubies And Gold",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Silent All These Years",
+        "page_number": 35,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Space Dog",
+        "page_number": 119,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Spark",
+        "page_number": 196,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sweet Dreams",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take To The Sky",
+        "page_number": 91,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Waitress",
+        "page_number": 138,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Winter",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Baltimore",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Baltimore.pdf",
+        "file_size_bytes": 1296891,
+        "page_range": [
+          4,
+          11
+        ]
+      },
+      {
+        "song_title": "Rubies And Gold",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Rubies And Gold.pdf",
+        "file_size_bytes": 819921,
+        "page_range": [
+          11,
+          15
+        ]
+      },
+      {
+        "song_title": "Etienne",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Etienne.pdf",
+        "file_size_bytes": 985538,
+        "page_range": [
+          15,
+          20
+        ]
+      },
+      {
+        "song_title": "Floating City",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Floating City.pdf",
+        "file_size_bytes": 3979142,
+        "page_range": [
+          20,
+          43
+        ]
+      },
+      {
+        "song_title": "Happy Phantom",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Happy Phantom.pdf",
+        "file_size_bytes": 3139168,
+        "page_range": [
+          43,
+          61
+        ]
+      },
+      {
+        "song_title": "Precious Things",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Precious Things.pdf",
+        "file_size_bytes": 1720508,
+        "page_range": [
+          61,
+          70
+        ]
+      },
+      {
+        "song_title": "Mary",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Mary.pdf",
+        "file_size_bytes": 976635,
+        "page_range": [
+          70,
+          75
+        ]
+      },
+      {
+        "song_title": "Take To The Sky",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Take To The Sky.pdf",
+        "file_size_bytes": 1238936,
+        "page_range": [
+          75,
+          81
+        ]
+      },
+      {
+        "song_title": "Sweet Dreams",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Sweet Dreams.pdf",
+        "file_size_bytes": 2010480,
+        "page_range": [
+          81,
+          92
+        ]
+      },
+      {
+        "song_title": "Past The Mission",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Past The Mission.pdf",
+        "file_size_bytes": 3159151,
+        "page_range": [
+          92,
+          108
+        ]
+      },
+      {
+        "song_title": "Baker Baker",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Baker Baker.pdf",
+        "file_size_bytes": 648752,
+        "page_range": [
+          108,
+          111
+        ]
+      },
+      {
+        "song_title": "Cornflake Girl",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Cornflake Girl.pdf",
+        "file_size_bytes": 1600660,
+        "page_range": [
+          111,
+          119
+        ]
+      },
+      {
+        "song_title": "Hey Jupiter",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Hey Jupiter.pdf",
+        "file_size_bytes": 1184073,
+        "page_range": [
+          119,
+          126
+        ]
+      },
+      {
+        "song_title": "Caught A Lite Sneeze",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Caught A Lite Sneeze.pdf",
+        "file_size_bytes": 2911396,
+        "page_range": [
+          126,
+          142
+        ]
+      },
+      {
+        "song_title": "Putting The Damage On",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Putting The Damage On.pdf",
+        "file_size_bytes": 1743882,
+        "page_range": [
+          142,
+          152
+        ]
+      },
+      {
+        "song_title": "Professional Widow",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Professional Widow.pdf",
+        "file_size_bytes": 1476347,
+        "page_range": [
+          152,
+          160
+        ]
+      },
+      {
+        "song_title": "Northern Lad",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Northern Lad.pdf",
+        "file_size_bytes": 1130516,
+        "page_range": [
+          160,
+          166
+        ]
+      },
+      {
+        "song_title": "Spark",
+        "artist": "Tori Amos",
+        "output_uri": "s3://jsmith-output/Tori Amos/Tori Amos - [book] Anthology/Songs/Tori Amos - Spark.pdf",
+        "file_size_bytes": 1498856,
+        "page_range": [
+          166,
+          174
+        ]
+      }
+    ]
+  }
+}

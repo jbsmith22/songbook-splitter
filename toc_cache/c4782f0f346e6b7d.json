@@ -1,0 +1,428 @@
+{
+  "book_id": "c4782f0f346e6b7d",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "A Sight for Sore Eyes",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Annie's Back in Town",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blue Valentines",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Broken Bicycles",
+        "page_number": 119,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Burma Shave",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Christmas Card from a Hooker in Minneapolis",
+        "page_number": 93,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Foreign Affair",
+        "page_number": 140,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ghosts of Saturday Night (After Hours at Napoleone's Pizza House)",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Heartattack and Vine",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Never Talk to Strangers",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Wish I Was in New Orleans (In the Ninth Ward)",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Invitation to the Blues",
+        "page_number": 132,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jersey Girl",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kentucky Avenue",
+        "page_number": 77,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Martha",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "New Coat of Paint",
+        "page_number": 113,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ol' 55",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Old Boyfriends",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "On the Nickel",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Red Shoes by the Drugstore",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ruby's Arms",
+        "page_number": 105,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "San Diego Serenade",
+        "page_number": 85,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Semi Suite",
+        "page_number": 122,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shiver Me Timbers",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take Me Home",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(Looking for) The Heart of Saturday Night",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "This One's from the Heart",
+        "page_number": 129,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "'Til the Money Runs Out",
+        "page_number": 126,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tom Traubert's Blues (Four Sheets to the Wind in Copenhagen)",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "(Looking for) The Heart of Saturday Night",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - (looking For) The Heart Of Saturday Night.pdf",
+        "file_size_bytes": 185246,
+        "page_range": [
+          2,
+          9
+        ]
+      },
+      {
+        "song_title": "Ghosts of Saturday Night (After Hours at Napoleone's Pizza House)",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Ghosts Of Saturday Night (after Hours At Napoleone's Pizza House).pdf",
+        "file_size_bytes": 36691,
+        "page_range": [
+          9,
+          11
+        ]
+      },
+      {
+        "song_title": "Burma Shave",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Burma Shave.pdf",
+        "file_size_bytes": 305079,
+        "page_range": [
+          11,
+          22
+        ]
+      },
+      {
+        "song_title": "Tom Traubert's Blues (Four Sheets to the Wind in Copenhagen)",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Tom Traubert's Blues (four Sheets To The Wind In Copenhagen).pdf",
+        "file_size_bytes": 178613,
+        "page_range": [
+          22,
+          29
+        ]
+      },
+      {
+        "song_title": "Jersey Girl",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Jersey Girl.pdf",
+        "file_size_bytes": 100094,
+        "page_range": [
+          29,
+          33
+        ]
+      },
+      {
+        "song_title": "Ol' 55",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Ol' 55.pdf",
+        "file_size_bytes": 197142,
+        "page_range": [
+          33,
+          40
+        ]
+      },
+      {
+        "song_title": "Heartattack and Vine",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Heartattack And Vine.pdf",
+        "file_size_bytes": 108244,
+        "page_range": [
+          40,
+          44
+        ]
+      },
+      {
+        "song_title": "Annie's Back in Town",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Annie's Back In Town.pdf",
+        "file_size_bytes": 114772,
+        "page_range": [
+          44,
+          48
+        ]
+      },
+      {
+        "song_title": "Old Boyfriends",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Old Boyfriends.pdf",
+        "file_size_bytes": 100323,
+        "page_range": [
+          48,
+          52
+        ]
+      },
+      {
+        "song_title": "On the Nickel",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - On The Nickel.pdf",
+        "file_size_bytes": 284227,
+        "page_range": [
+          52,
+          62
+        ]
+      },
+      {
+        "song_title": "Martha",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Martha.pdf",
+        "file_size_bytes": 123726,
+        "page_range": [
+          62,
+          66
+        ]
+      },
+      {
+        "song_title": "I Never Talk to Strangers",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - I Never Talk To Strangers.pdf",
+        "file_size_bytes": 147891,
+        "page_range": [
+          66,
+          71
+        ]
+      },
+      {
+        "song_title": "Kentucky Avenue",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Kentucky Avenue.pdf",
+        "file_size_bytes": 126858,
+        "page_range": [
+          71,
+          76
+        ]
+      },
+      {
+        "song_title": "Take Me Home",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Take Me Home.pdf",
+        "file_size_bytes": 53533,
+        "page_range": [
+          76,
+          78
+        ]
+      },
+      {
+        "song_title": "San Diego Serenade",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - San Diego Serenade.pdf",
+        "file_size_bytes": 466651,
+        "page_range": [
+          78,
+          93
+        ]
+      },
+      {
+        "song_title": "A Sight for Sore Eyes",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - A Sight For Sore Eyes.pdf",
+        "file_size_bytes": 98815,
+        "page_range": [
+          93,
+          98
+        ]
+      },
+      {
+        "song_title": "Ruby's Arms",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Ruby's Arms.pdf",
+        "file_size_bytes": 174487,
+        "page_range": [
+          98,
+          105
+        ]
+      },
+      {
+        "song_title": "New Coat of Paint",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - New Coat Of Paint.pdf",
+        "file_size_bytes": 81699,
+        "page_range": [
+          105,
+          108
+        ]
+      },
+      {
+        "song_title": "Blue Valentines",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Blue Valentines.pdf",
+        "file_size_bytes": 72626,
+        "page_range": [
+          108,
+          111
+        ]
+      },
+      {
+        "song_title": "Broken Bicycles",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Broken Bicycles.pdf",
+        "file_size_bytes": 77472,
+        "page_range": [
+          111,
+          114
+        ]
+      },
+      {
+        "song_title": "Semi Suite",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Semi Suite.pdf",
+        "file_size_bytes": 136706,
+        "page_range": [
+          114,
+          120
+        ]
+      },
+      {
+        "song_title": "This One's from the Heart",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - This One's From The Heart.pdf",
+        "file_size_bytes": 79843,
+        "page_range": [
+          120,
+          123
+        ]
+      },
+      {
+        "song_title": "Invitation to the Blues",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Invitation To The Blues.pdf",
+        "file_size_bytes": 161702,
+        "page_range": [
+          123,
+          130
+        ]
+      },
+      {
+        "song_title": "Foreign Affair",
+        "artist": "Tom Waits",
+        "output_uri": "s3://jsmith-output/Tom Waits/Tom Waits - Anthology/Songs/Tom Waits - Foreign Affair.pdf",
+        "file_size_bytes": 154699,
+        "page_range": [
+          130,
+          135
+        ]
+      }
+    ]
+  }
+}

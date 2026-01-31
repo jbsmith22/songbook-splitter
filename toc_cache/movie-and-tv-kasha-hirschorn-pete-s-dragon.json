@@ -1,0 +1,110 @@
+{
+  "book_id": "movie-and-tv-kasha-hirschorn-pete-s-dragon",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "BOO BOP BOPBOP BOP (I LOVE YOU, TOO)",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I SAW A DRAGON",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT'S NOT EASY",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CANDLE ON THE WATER",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THERE'S ROOM FOR EVERYONE",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BRAZZLE DAZZLE DAY",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "BOO BOP BOPBOP BOP (I LOVE YOU, TOO)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Kasha & Hirschorn - Pete's Dragon/Songs/Al Kasha And Joel Hirschhorn - Boo Bop Bopbop Bop (i Love You, Too).pdf",
+        "file_size_bytes": 3233603,
+        "page_range": [
+          3,
+          12
+        ]
+      },
+      {
+        "song_title": "I SAW A DRAGON",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Kasha & Hirschorn - Pete's Dragon/Songs/Al Kasha And Joel Hirschhorn - I Saw A Dragon.pdf",
+        "file_size_bytes": 6876641,
+        "page_range": [
+          12,
+          25
+        ]
+      },
+      {
+        "song_title": "IT'S NOT EASY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Kasha & Hirschorn - Pete's Dragon/Songs/Al Kasha And Joel Hirschhorn - It's Not Easy.pdf",
+        "file_size_bytes": 982905,
+        "page_range": [
+          25,
+          30
+        ]
+      },
+      {
+        "song_title": "CANDLE ON THE WATER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Kasha & Hirschorn - Pete's Dragon/Songs/Al Kasha And Joel Hirschhorn - Candle On The Water.pdf",
+        "file_size_bytes": 872951,
+        "page_range": [
+          30,
+          34
+        ]
+      },
+      {
+        "song_title": "THERE'S ROOM FOR EVERYONE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Kasha & Hirschorn - Pete's Dragon/Songs/Al Kasha And Joel Hirschhorn - There's Room For Everyone.pdf",
+        "file_size_bytes": 1113039,
+        "page_range": [
+          34,
+          40
+        ]
+      },
+      {
+        "song_title": "BRAZZLE DAZZLE DAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Kasha & Hirschorn - Pete's Dragon/Songs/Al Kasha And Joel Hirschhorn - Brazzle Dazzle Day.pdf",
+        "file_size_bytes": 941120,
+        "page_range": [
+          40,
+          45
+        ]
+      }
+    ]
+  }
+}

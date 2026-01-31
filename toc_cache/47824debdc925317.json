@@ -1,0 +1,93 @@
+{
+  "book_id": "47824debdc925317",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Baseball Theme",
+        "artist": "Vince Guaraldi",
+        "output_uri": "s3://jsmith-output/Vince Guaraldi/Vince Guaraldi - Peanuts Songbook/Songs/Vince Guaraldi - Baseball Theme.pdf",
+        "file_size_bytes": 62448,
+        "page_range": [
+          1,
+          5
+        ]
+      },
+      {
+        "song_title": "Blue Charlie Brown",
+        "artist": "Vince Guaraldi",
+        "output_uri": "s3://jsmith-output/Vince Guaraldi/Vince Guaraldi - Peanuts Songbook/Songs/Vince Guaraldi - Blue Charlie Brown.pdf",
+        "file_size_bytes": 58527,
+        "page_range": [
+          5,
+          9
+        ]
+      },
+      {
+        "song_title": "Camptown Races",
+        "artist": "Vince Guaraldi",
+        "output_uri": "s3://jsmith-output/Vince Guaraldi/Vince Guaraldi - Peanuts Songbook/Songs/Vince Guaraldi - Camptown Races.pdf",
+        "file_size_bytes": 63208,
+        "page_range": [
+          9,
+          13
+        ]
+      },
+      {
+        "song_title": "Charlie Brown Theme",
+        "artist": "Vince Guaraldi",
+        "output_uri": "s3://jsmith-output/Vince Guaraldi/Vince Guaraldi - Peanuts Songbook/Songs/Vince Guaraldi - Charlie Brown Theme.pdf",
+        "file_size_bytes": 165218,
+        "page_range": [
+          13,
+          23
+        ]
+      },
+      {
+        "song_title": "The Christmas Song (Chestnuts Roasting on an Open Fire)",
+        "artist": "Vince Guaraldi",
+        "output_uri": "s3://jsmith-output/Vince Guaraldi/Vince Guaraldi - Peanuts Songbook/Songs/Vince Guaraldi - The Christmas Song (chestnuts Roasting On An Open Fire).pdf",
+        "file_size_bytes": 147610,
+        "page_range": [
+          23,
+          33
+        ]
+      },
+      {
+        "song_title": "The Great Pumpkin Waltz",
+        "artist": "Vince Guaraldi",
+        "output_uri": "s3://jsmith-output/Vince Guaraldi/Vince Guaraldi - Peanuts Songbook/Songs/Vince Guaraldi - The Great Pumpkin Waltz.pdf",
+        "file_size_bytes": 218891,
+        "page_range": [
+          33,
+          48
+        ]
+      },
+      {
+        "song_title": "Linus and Lucy",
+        "artist": "Vince Guaraldi",
+        "output_uri": "s3://jsmith-output/Vince Guaraldi/Vince Guaraldi - Peanuts Songbook/Songs/Vince Guaraldi - Linus And Lucy.pdf",
+        "file_size_bytes": 86658,
+        "page_range": [
+          48,
+          54
+        ]
+      },
+      {
+        "song_title": "My Little Drum",
+        "artist": "Vince Guaraldi",
+        "output_uri": "s3://jsmith-output/Vince Guaraldi/Vince Guaraldi - Peanuts Songbook/Songs/Vince Guaraldi - My Little Drum.pdf",
+        "file_size_bytes": 643323,
+        "page_range": [
+          54,
+          99
+        ]
+      }
+    ]
+  }
+}

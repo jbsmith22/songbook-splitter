@@ -1,0 +1,313 @@
+{
+  "book_id": "edeceba7dcafbf17",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "American Idiot",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Billie Joe - American Idiot.pdf",
+        "file_size_bytes": 1060531,
+        "page_range": [
+          29,
+          36
+        ]
+      },
+      {
+        "song_title": "Breakaway",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Matthew Gerrard, Avril Lavigne And Bridget Benenate - Breakaway.pdf",
+        "file_size_bytes": 2450808,
+        "page_range": [
+          36,
+          52
+        ]
+      },
+      {
+        "song_title": "Burn",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Usher Raymond, Jermaine Dupri And Brian Cox - Burn.pdf",
+        "file_size_bytes": 1076604,
+        "page_range": [
+          52,
+          59
+        ]
+      },
+      {
+        "song_title": "Come Clean",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/John Shanks And Kara Dioguardi - Come Clean.pdf",
+        "file_size_bytes": 3660309,
+        "page_range": [
+          59,
+          83
+        ]
+      },
+      {
+        "song_title": "Follow Through",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Gavin Degraw - Follow Through.pdf",
+        "file_size_bytes": 924127,
+        "page_range": [
+          83,
+          89
+        ]
+      },
+      {
+        "song_title": "Here Without You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Based On The Credits Listed, The Artists Appear To Be Brad Arnold, Robert Harrell, Chris Henderson, And Matthew Roberts - Here Without You.pdf",
+        "file_size_bytes": 6035318,
+        "page_range": [
+          89,
+          128
+        ]
+      },
+      {
+        "song_title": "Life for Rent",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Dido Armstrong And Paolo Armstrong - Life For Rent.pdf",
+        "file_size_bytes": 747885,
+        "page_range": [
+          128,
+          133
+        ]
+      },
+      {
+        "song_title": "Left Outside Alone",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Dallas Austin, Claudette Ortiz And Anastacia Newkirk - Left Outside Alone.pdf",
+        "file_size_bytes": 1242610,
+        "page_range": [
+          133,
+          141
+        ]
+      },
+      {
+        "song_title": "Listen With Your Heart",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Unknown Artist - Listen With Your Heart.pdf",
+        "file_size_bytes": 1082579,
+        "page_range": [
+          141,
+          148
+        ]
+      },
+      {
+        "song_title": "My Prerogative",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Bobby Brown, Gene Griffin And Terry Riley - My Prerogative.pdf",
+        "file_size_bytes": 2327825,
+        "page_range": [
+          148,
+          163
+        ]
+      },
+      {
+        "song_title": "Naughty Girl",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Beyonc\u00e9 Knowles, Scott Storch, Robert Waller, Angela Beyinc\u00e9, Pete Bellotte, Giorgio Moroder And Donna Summer - Naughty Girl.pdf",
+        "file_size_bytes": 959239,
+        "page_range": [
+          163,
+          169
+        ]
+      },
+      {
+        "song_title": "1985",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Jaret Reddick, Mitch Allan And John Allen - 1985.pdf",
+        "file_size_bytes": 2518053,
+        "page_range": [
+          169,
+          185
+        ]
+      },
+      {
+        "song_title": "Perfect",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Charles-andre Comeau, Jean-francois Sting, Sebastien Lefebvre, David Desrosiers And Chrissi Dawn Lann - Perfect.pdf",
+        "file_size_bytes": 947062,
+        "page_range": [
+          185,
+          191
+        ]
+      },
+      {
+        "song_title": "Pieces of Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/John Shanks, Kara Dioguardi, And Ashlee Simpson - Pieces Of Me.pdf",
+        "file_size_bytes": 2325487,
+        "page_range": [
+          191,
+          206
+        ]
+      },
+      {
+        "song_title": "The Reason",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Daniel Estrin And Douglas Robb - The Reason.pdf",
+        "file_size_bytes": 787642,
+        "page_range": [
+          206,
+          211
+        ]
+      },
+      {
+        "song_title": "Red-Blooded Woman",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Jonathan Coulton And Karen Poole - Red-blooded Woman.pdf",
+        "file_size_bytes": 3173374,
+        "page_range": [
+          211,
+          231
+        ]
+      },
+      {
+        "song_title": "SCAR",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Kevin Griffin And Missy Higgins - Scar.pdf",
+        "file_size_bytes": 772543,
+        "page_range": [
+          231,
+          236
+        ]
+      },
+      {
+        "song_title": "Sexed Up",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Robert Williams, Guy Chambers - Sexed Up.pdf",
+        "file_size_bytes": 774333,
+        "page_range": [
+          236,
+          241
+        ]
+      },
+      {
+        "song_title": "Shadow",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/John Shanks, Kara Dioguardi And Ashlee Simpson - Shadow.pdf",
+        "file_size_bytes": 3569278,
+        "page_range": [
+          241,
+          264
+        ]
+      },
+      {
+        "song_title": "Sick and Tired",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Dallas Austin, Glen Ballard And Anastacia Newkirk - Sick And Tired.pdf",
+        "file_size_bytes": 789654,
+        "page_range": [
+          264,
+          269
+        ]
+      },
+      {
+        "song_title": "So Beautiful",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Pete Murray - So Beautiful.pdf",
+        "file_size_bytes": 1829021,
+        "page_range": [
+          269,
+          281
+        ]
+      },
+      {
+        "song_title": "Someday",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Lyrics By Chad Kroeger, Mike Kroeger, Ryan Peake. Music By Nickelback - Someday.pdf",
+        "file_size_bytes": 3097131,
+        "page_range": [
+          281,
+          301
+        ]
+      },
+      {
+        "song_title": "These Words",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Andrew Frampton, Wayne Wilkins And Stephen Kipner - These Words.pdf",
+        "file_size_bytes": 917322,
+        "page_range": [
+          301,
+          307
+        ]
+      },
+      {
+        "song_title": "This Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/James Valentine, Adam Levine, Jesse Carmichael, Ryan Dusick And Mickey Madden - This Love.pdf",
+        "file_size_bytes": 910184,
+        "page_range": [
+          307,
+          313
+        ]
+      },
+      {
+        "song_title": "Toxic",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Cathy Dennis, Christian Karlsson, Pontus Winberg And Henrick Jonback - Toxic.pdf",
+        "file_size_bytes": 909183,
+        "page_range": [
+          313,
+          319
+        ]
+      },
+      {
+        "song_title": "Trick Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Dallas Austin - Trick Me.pdf",
+        "file_size_bytes": 764524,
+        "page_range": [
+          319,
+          324
+        ]
+      },
+      {
+        "song_title": "THE VOICE WITHIN",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Christina Aguilera - The Voice Within.pdf",
+        "file_size_bytes": 1995884,
+        "page_range": [
+          324,
+          337
+        ]
+      },
+      {
+        "song_title": "What About Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Garry Frost And Frances Swan - What About Me.pdf",
+        "file_size_bytes": 908207,
+        "page_range": [
+          337,
+          343
+        ]
+      },
+      {
+        "song_title": "What You Waiting For?",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Linda Perry And David Stefan - What You Waiting For-.pdf",
+        "file_size_bytes": 2113268,
+        "page_range": [
+          343,
+          357
+        ]
+      },
+      {
+        "song_title": "You Raise Me Up",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Hits Of 2004-2005/Songs/Rolf Lovland And Brendan Graham - You Raise Me Up.pdf",
+        "file_size_bytes": 787427,
+        "page_range": [
+          357,
+          362
+        ]
+      }
+    ]
+  }
+}

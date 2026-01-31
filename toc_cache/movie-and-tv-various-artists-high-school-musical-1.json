@@ -1,0 +1,94 @@
+{
+  "book_id": "movie-and-tv-various-artists-high-school-musical-1",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Bop to the Top",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Female: I be - lieve ... in dream - ing...",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "shoot - ing for the stars",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Male: Ba - by, to be num - ber one,",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "got to raise the bar",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Female: A - kick - in' and a - scratch - in',",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "grind - in' out my beat;",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Male: an - y - thing it takes to climb the",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "lad - der of suc-cess.",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Both: Work our tails off ev - 'ry day;",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Bop to the Top",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 1/Songs/Randy Petersen And Kevin Quinn - Bop To The Top.pdf",
+        "file_size_bytes": 359294,
+        "page_range": [
+          0,
+          1
+        ]
+      },
+      {
+        "song_title": "Female: A - kick - in' and a - scratch - in',",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 1/Songs/Unknown Artist - Female- A - Kick - In' And A - Scratch - In',.pdf",
+        "file_size_bytes": 28367295,
+        "page_range": [
+          1,
+          63
+        ]
+      }
+    ]
+  }
+}

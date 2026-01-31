@@ -1,0 +1,93 @@
+{
+  "book_id": "creedence-clearwater-revival-8-pcs-book",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Who'll Stop the Rain",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/8 Pcs Book/Songs/Unknown Artist - Who'll Stop The Rain.pdf",
+        "file_size_bytes": 581912,
+        "page_range": [
+          1,
+          4
+        ]
+      },
+      {
+        "song_title": "Bedroom Rising",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/8 Pcs Book/Songs/John Corigliano - Bedroom Rising.pdf",
+        "file_size_bytes": 488073,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "Proud Mary",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/8 Pcs Book/Songs/John C. Fogerty - Proud Mary.pdf",
+        "file_size_bytes": 356644,
+        "page_range": [
+          7,
+          9
+        ]
+      },
+      {
+        "song_title": "Down on the Corner",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/8 Pcs Book/Songs/John Crissinger - Down On The Corner.pdf",
+        "file_size_bytes": 375862,
+        "page_range": [
+          9,
+          11
+        ]
+      },
+      {
+        "song_title": "Commotion",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/8 Pcs Book/Songs/John C. Fogerty - Commotion.pdf",
+        "file_size_bytes": 368630,
+        "page_range": [
+          11,
+          13
+        ]
+      },
+      {
+        "song_title": "Fortunate Son",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/8 Pcs Book/Songs/John Fogerty - Fortunate Son.pdf",
+        "file_size_bytes": 391794,
+        "page_range": [
+          13,
+          15
+        ]
+      },
+      {
+        "song_title": "Lodi",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/8 Pcs Book/Songs/John Fogerty - Lodi.pdf",
+        "file_size_bytes": 386905,
+        "page_range": [
+          15,
+          17
+        ]
+      },
+      {
+        "song_title": "Green River",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/8 Pcs Book/Songs/John D. Loudermilk - Green River.pdf",
+        "file_size_bytes": 543976,
+        "page_range": [
+          17,
+          20
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "book_id": "cb90390edbaeceb2",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Overture",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Richard Rodgers - Overture.pdf",
+        "file_size_bytes": 8880673,
+        "page_range": [
+          4,
+          27
+        ]
+      },
+      {
+        "song_title": "Some Enchanted Evening",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - Some Enchanted Evening.pdf",
+        "file_size_bytes": 461188,
+        "page_range": [
+          27,
+          28
+        ]
+      },
+      {
+        "song_title": "Finaletto - Scene I",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - Finaletto - Scene I.pdf",
+        "file_size_bytes": 368359,
+        "page_range": [
+          28,
+          29
+        ]
+      },
+      {
+        "song_title": "Bloody Mary",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - Bloody Mary.pdf",
+        "file_size_bytes": 368516,
+        "page_range": [
+          29,
+          30
+        ]
+      },
+      {
+        "song_title": "Warming for July",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - Warming For July.pdf",
+        "file_size_bytes": 1043139,
+        "page_range": [
+          30,
+          33
+        ]
+      },
+      {
+        "song_title": "There Is Nothin' Like A Dame",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - There Is Nothin' Like A Dame.pdf",
+        "file_size_bytes": 12752834,
+        "page_range": [
+          33,
+          69
+        ]
+      },
+      {
+        "song_title": "I'm Gonna Wash That Man Right Out-a My Hair",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Nellie's Encore - I'm Gonna Wash That Man Right Out-a My Hair.pdf",
+        "file_size_bytes": 2472685,
+        "page_range": [
+          69,
+          76
+        ]
+      },
+      {
+        "song_title": "I'm In Love With A Wonderful Guy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - I'm In Love With A Wonderful Guy.pdf",
+        "file_size_bytes": 4194865,
+        "page_range": [
+          76,
+          88
+        ]
+      },
+      {
+        "song_title": "Girls' Reprise of \"Bali Ha'i\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - Girls' Reprise Of -bali Ha'i-.pdf",
+        "file_size_bytes": 1078844,
+        "page_range": [
+          88,
+          91
+        ]
+      },
+      {
+        "song_title": "Younger Than Springtime",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/(cable And Lina) - Younger Than Springtime.pdf",
+        "file_size_bytes": 2869692,
+        "page_range": [
+          91,
+          99
+        ]
+      },
+      {
+        "song_title": "I'm In Love With A Wonderful Guy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - I'm In Love With A Wonderful Guy.pdf",
+        "file_size_bytes": 1267843,
+        "page_range": [
+          99,
+          103
+        ]
+      },
+      {
+        "song_title": "This Is How It Feels",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - This Is How It Feels.pdf",
+        "file_size_bytes": 22345768,
+        "page_range": [
+          103,
+          169
+        ]
+      },
+      {
+        "song_title": "Finale Ultimo",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - Finale Ultimo.pdf",
+        "file_size_bytes": 285780,
+        "page_range": [
+          169,
+          170
+        ]
+      },
+      {
+        "song_title": "Nellie a Pupil",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Rogers And Hammerstein - South Pacific/Songs/Unknown Artist - Nellie A Pupil.pdf",
+        "file_size_bytes": 1558347,
+        "page_range": [
+          170,
+          175
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "book_id": "doobie-brothers-songs",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Clear as the Driven Snow",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/Patrick Simmons - Clear As The Driven Snow.pdf",
+        "file_size_bytes": 4053162,
+        "page_range": [
+          0,
+          10
+        ]
+      },
+      {
+        "song_title": "Cotton Mouth",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/James Seals And Dash Crofts - Cotton Mouth.pdf",
+        "file_size_bytes": 2673694,
+        "page_range": [
+          10,
+          16
+        ]
+      },
+      {
+        "song_title": "Mhamakai",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/Patrick Simmons - Mhamakai.pdf",
+        "file_size_bytes": 2706525,
+        "page_range": [
+          16,
+          22
+        ]
+      },
+      {
+        "song_title": "Rockin' Down the Highway",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/Tom Johnston - Rockin' Down The Highway.pdf",
+        "file_size_bytes": 2850151,
+        "page_range": [
+          22,
+          29
+        ]
+      },
+      {
+        "song_title": "Snake Man",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/Tom Johnston - Snake Man.pdf",
+        "file_size_bytes": 1181670,
+        "page_range": [
+          29,
+          32
+        ]
+      },
+      {
+        "song_title": "South City Midnight Lady",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/Patricia Simmons - South City Midnight Lady.pdf",
+        "file_size_bytes": 2912857,
+        "page_range": [
+          32,
+          39
+        ]
+      },
+      {
+        "song_title": "Takin' It to the Streets",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/Michael Mcdonald And Robert Gerry Brown Jr - Takin' It To The Streets.pdf",
+        "file_size_bytes": 154622,
+        "page_range": [
+          39,
+          42
+        ]
+      },
+      {
+        "song_title": "What a Fool Believes",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/Doobie Brothers - What A Fool Believes.pdf",
+        "file_size_bytes": 3655506,
+        "page_range": [
+          42,
+          48
+        ]
+      },
+      {
+        "song_title": "Without You",
+        "artist": "Doobie Brothers",
+        "output_uri": "s3://jsmith-output/Doobie Brothers/Songs/Songs/Tom Johnston - Without You.pdf",
+        "file_size_bytes": 3011411,
+        "page_range": [
+          48,
+          55
+        ]
+      }
+    ]
+  }
+}

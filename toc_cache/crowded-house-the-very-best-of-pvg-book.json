@@ -1,0 +1,318 @@
+{
+  "book_id": "crowded-house-the-very-best-of-pvg-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Weather With You",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "World Where You Live",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fall At Your Feet",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Locked Out",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Dream It's Over",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Into Temptation",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pineapple Head",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "When You Come",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Private Universe",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Not The Girl You Think You Are",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Instinct",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Feel Possessed",
+        "page_number": 71,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Four Seasons In One Day",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Only Natural",
+        "page_number": 81,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Distant Sun",
+        "page_number": 86,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Something So Strong",
+        "page_number": 92,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mean To Me",
+        "page_number": 96,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Better Be Home Soon",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Everything Is Good For You",
+        "page_number": 103,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Weather With You",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn And Tim Finn - Weather With You.pdf",
+        "file_size_bytes": 1051848,
+        "page_range": [
+          2,
+          7
+        ]
+      },
+      {
+        "song_title": "World Where You Live",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - World Where You Live.pdf",
+        "file_size_bytes": 956504,
+        "page_range": [
+          7,
+          12
+        ]
+      },
+      {
+        "song_title": "Fall At Your Feet",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Noel Finn - Fall At Your Feet.pdf",
+        "file_size_bytes": 1089659,
+        "page_range": [
+          12,
+          17
+        ]
+      },
+      {
+        "song_title": "Locked Out",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Unknown Artist - Locked Out.pdf",
+        "file_size_bytes": 1002239,
+        "page_range": [
+          17,
+          22
+        ]
+      },
+      {
+        "song_title": "Don't Dream It's Over",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - Don't Dream It's Over.pdf",
+        "file_size_bytes": 1208145,
+        "page_range": [
+          22,
+          29
+        ]
+      },
+      {
+        "song_title": "Into Temptation",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Noel Finn - Into Temptation.pdf",
+        "file_size_bytes": 1294700,
+        "page_range": [
+          29,
+          35
+        ]
+      },
+      {
+        "song_title": "Pineapple Head",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - Pineapple Head.pdf",
+        "file_size_bytes": 1242734,
+        "page_range": [
+          35,
+          41
+        ]
+      },
+      {
+        "song_title": "When You Come",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - When You Come.pdf",
+        "file_size_bytes": 1422533,
+        "page_range": [
+          41,
+          48
+        ]
+      },
+      {
+        "song_title": "Private Universe",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - Private Universe.pdf",
+        "file_size_bytes": 1229348,
+        "page_range": [
+          48,
+          54
+        ]
+      },
+      {
+        "song_title": "Not The Girl You Think You Are",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Unknown Artist - Not The Girl You Think You Are.pdf",
+        "file_size_bytes": 1066973,
+        "page_range": [
+          54,
+          59
+        ]
+      },
+      {
+        "song_title": "Instinct",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Pann - Instinct.pdf",
+        "file_size_bytes": 849601,
+        "page_range": [
+          59,
+          63
+        ]
+      },
+      {
+        "song_title": "I Feel Possessed",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - I Feel Possessed.pdf",
+        "file_size_bytes": 1284235,
+        "page_range": [
+          63,
+          70
+        ]
+      },
+      {
+        "song_title": "Four Seasons In One Day",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Ned Finn And Tim Finn - Four Seasons In One Day.pdf",
+        "file_size_bytes": 688069,
+        "page_range": [
+          70,
+          73
+        ]
+      },
+      {
+        "song_title": "It's Only Natural",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Unknown Artist - It's Only Natural.pdf",
+        "file_size_bytes": 1116678,
+        "page_range": [
+          73,
+          78
+        ]
+      },
+      {
+        "song_title": "Distant Sun",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - Distant Sun.pdf",
+        "file_size_bytes": 1257993,
+        "page_range": [
+          78,
+          84
+        ]
+      },
+      {
+        "song_title": "Something So Strong",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn And Mitchel Froom - Something So Strong.pdf",
+        "file_size_bytes": 734726,
+        "page_range": [
+          84,
+          88
+        ]
+      },
+      {
+        "song_title": "Mean To Me",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Nat Finn - Mean To Me.pdf",
+        "file_size_bytes": 802283,
+        "page_range": [
+          88,
+          92
+        ]
+      },
+      {
+        "song_title": "Better Be Home Soon",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - Better Be Home Soon.pdf",
+        "file_size_bytes": 593416,
+        "page_range": [
+          92,
+          95
+        ]
+      },
+      {
+        "song_title": "Everything Is Good For You",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/The Very Best Of [pvg Book]/Songs/Neil Finn - Everything Is Good For You.pdf",
+        "file_size_bytes": 1476884,
+        "page_range": [
+          95,
+          102
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "book_id": "john-denver-anthology",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "American Child",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Annie's Song",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Autography",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Back Home Again",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Calypso",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Christmas For Cowboys",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Country Girl In Paris",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dreamland Express",
+        "page_number": 35,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eagles And Horses (I'm Flying Again)",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Eagle And The Hawk",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eclipse",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Flower That Shattered The Stone",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fly Away",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Flying For Me",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Follow Me",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For Baby (For Bobbie)",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For You",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Garden Song",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodbye Again",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Grandma's Feather Bed",
+        "page_number": 95,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Heart To Heart",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Higher Ground",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "How Can I Leave You Again",
+        "page_number": 119,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Guess He'd Rather Be In Colorado",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Want To Live",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'd Rather Be A Cowboy (Lady's Chains)",
+        "page_number": 129,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm Sorry",
+        "page_number": 138,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Joseph & Joe",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Leaving On A Jet Plane",
+        "page_number": 126,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Let Us Begin (What Are We Making Weapons For?)",
+        "page_number": 142,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Like A Sad Song",
+        "page_number": 148,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Looking For Space",
+        "page_number": 153,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Matthew",
+        "page_number": 160,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Sweet Lady",
+        "page_number": 157,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Never A Doubt",
+        "page_number": 165,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "On The Wings Of A Dream",
+        "page_number": 182,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Perhaps Love",
+        "page_number": 170,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Poems, Prayers And Promises",
+        "page_number": 174,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rhymes And Reasons",
+        "page_number": 178,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rocky Mountain High",
+        "page_number": 187,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Seasons Of The Heart",
+        "page_number": 200,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shanghai Breezes",
+        "page_number": 193,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shipmates And Cheyenne",
+        "page_number": 207,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Starwood In Aspen",
+        "page_number": 204,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunshine On My Shoulders",
+        "page_number": 212,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sweet Surrender",
+        "page_number": 218,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take Me Home, Country Roads",
+        "page_number": 215,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thank God I'm A Country Boy",
+        "page_number": 227,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "To The Wild Country",
+        "page_number": 222,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Welcome To My Morning (Farewell Andromeda)",
+        "page_number": 230,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What One Man Can Do",
+        "page_number": 234,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Whispering Jesse",
+        "page_number": 248,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wild Montana Skies",
+        "page_number": 239,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Windsong",
+        "page_number": 252,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "American Child",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - American Child.pdf",
+        "file_size_bytes": 282197,
+        "page_range": [
+          8,
+          15
+        ]
+      },
+      {
+        "song_title": "Annie's Song",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Annie's Song.pdf",
+        "file_size_bytes": 205633,
+        "page_range": [
+          15,
+          19
+        ]
+      },
+      {
+        "song_title": "Autography",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Autography.pdf",
+        "file_size_bytes": 196519,
+        "page_range": [
+          19,
+          23
+        ]
+      },
+      {
+        "song_title": "Calypso",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Calypso.pdf",
+        "file_size_bytes": 476449,
+        "page_range": [
+          23,
+          33
+        ]
+      },
+      {
+        "song_title": "Christmas For Cowboys",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Christmas For Cowboys.pdf",
+        "file_size_bytes": 150155,
+        "page_range": [
+          33,
+          36
+        ]
+      },
+      {
+        "song_title": "Dreamland Express",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Dreamland Express.pdf",
+        "file_size_bytes": 308036,
+        "page_range": [
+          36,
+          43
+        ]
+      },
+      {
+        "song_title": "A Country Girl In Paris",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - A Country Girl In Paris.pdf",
+        "file_size_bytes": 153315,
+        "page_range": [
+          43,
+          47
+        ]
+      },
+      {
+        "song_title": "Eagles And Horses (I'm Flying Again)",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Eagles And Horses (i'm Flying Again).pdf",
+        "file_size_bytes": 229846,
+        "page_range": [
+          47,
+          52
+        ]
+      },
+      {
+        "song_title": "The Eagle And The Hawk",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - The Eagle And The Hawk.pdf",
+        "file_size_bytes": 137184,
+        "page_range": [
+          52,
+          55
+        ]
+      },
+      {
+        "song_title": "Eclipse",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Eclipse.pdf",
+        "file_size_bytes": 177966,
+        "page_range": [
+          55,
+          59
+        ]
+      },
+      {
+        "song_title": "The Flower That Shattered The Stone",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - The Flower That Shattered The Stone.pdf",
+        "file_size_bytes": 185331,
+        "page_range": [
+          59,
+          63
+        ]
+      },
+      {
+        "song_title": "Fly Away",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Fly Away.pdf",
+        "file_size_bytes": 168113,
+        "page_range": [
+          63,
+          67
+        ]
+      },
+      {
+        "song_title": "Flying For Me",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Flying For Me.pdf",
+        "file_size_bytes": 302256,
+        "page_range": [
+          67,
+          74
+        ]
+      },
+      {
+        "song_title": "Follow Me",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Follow Me.pdf",
+        "file_size_bytes": 163283,
+        "page_range": [
+          74,
+          77
+        ]
+      },
+      {
+        "song_title": "For Baby (For Bobbie)",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - For Baby (for Bobbie).pdf",
+        "file_size_bytes": 99260,
+        "page_range": [
+          77,
+          79
+        ]
+      },
+      {
+        "song_title": "For You",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - For You.pdf",
+        "file_size_bytes": 190594,
+        "page_range": [
+          79,
+          83
+        ]
+      },
+      {
+        "song_title": "Garden Song",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Garden Song.pdf",
+        "file_size_bytes": 300421,
+        "page_range": [
+          83,
+          89
+        ]
+      },
+      {
+        "song_title": "Goodbye Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Goodbye Again.pdf",
+        "file_size_bytes": 132021,
+        "page_range": [
+          89,
+          91
+        ]
+      },
+      {
+        "song_title": "Higher Ground",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Higher Ground.pdf",
+        "file_size_bytes": 250243,
+        "page_range": [
+          91,
+          96
+        ]
+      },
+      {
+        "song_title": "Grandma's Feather Bed",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Grandma's Feather Bed.pdf",
+        "file_size_bytes": 226254,
+        "page_range": [
+          96,
+          101
+        ]
+      },
+      {
+        "song_title": "Heart To Heart",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Heart To Heart.pdf",
+        "file_size_bytes": 308245,
+        "page_range": [
+          101,
+          107
+        ]
+      },
+      {
+        "song_title": "I Guess He'd Rather Be In Colorado",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - I Guess He'd Rather Be In Colorado.pdf",
+        "file_size_bytes": 88572,
+        "page_range": [
+          107,
+          109
+        ]
+      },
+      {
+        "song_title": "I Want To Live",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - I Want To Live.pdf",
+        "file_size_bytes": 300713,
+        "page_range": [
+          109,
+          115
+        ]
+      },
+      {
+        "song_title": "Joseph & Joe",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Joseph & Joe.pdf",
+        "file_size_bytes": 259820,
+        "page_range": [
+          115,
+          120
+        ]
+      },
+      {
+        "song_title": "How Can I Leave You Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - How Can I Leave You Again.pdf",
+        "file_size_bytes": 315887,
+        "page_range": [
+          120,
+          127
+        ]
+      },
+      {
+        "song_title": "Leaving On A Jet Plane",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Leaving On A Jet Plane.pdf",
+        "file_size_bytes": 156991,
+        "page_range": [
+          127,
+          130
+        ]
+      },
+      {
+        "song_title": "I'd Rather Be A Cowboy (Lady's Chains)",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - I'd Rather Be A Cowboy (lady's Chains).pdf",
+        "file_size_bytes": 565801,
+        "page_range": [
+          130,
+          139
+        ]
+      },
+      {
+        "song_title": "I'm Sorry",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - I'm Sorry.pdf",
+        "file_size_bytes": 198015,
+        "page_range": [
+          139,
+          143
+        ]
+      },
+      {
+        "song_title": "Let Us Begin (What Are We Making Weapons For?)",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Let Us Begin (what Are We Making Weapons For-).pdf",
+        "file_size_bytes": 293480,
+        "page_range": [
+          143,
+          149
+        ]
+      },
+      {
+        "song_title": "Like A Sad Song",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Like A Sad Song.pdf",
+        "file_size_bytes": 243208,
+        "page_range": [
+          149,
+          154
+        ]
+      },
+      {
+        "song_title": "Looking For Space",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Looking For Space.pdf",
+        "file_size_bytes": 213042,
+        "page_range": [
+          154,
+          158
+        ]
+      },
+      {
+        "song_title": "My Sweet Lady",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - My Sweet Lady.pdf",
+        "file_size_bytes": 139540,
+        "page_range": [
+          158,
+          161
+        ]
+      },
+      {
+        "song_title": "Matthew",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Matthew.pdf",
+        "file_size_bytes": 233483,
+        "page_range": [
+          161,
+          166
+        ]
+      },
+      {
+        "song_title": "Never A Doubt",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Never A Doubt.pdf",
+        "file_size_bytes": 270242,
+        "page_range": [
+          166,
+          171
+        ]
+      },
+      {
+        "song_title": "Perhaps Love",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Perhaps Love.pdf",
+        "file_size_bytes": 209379,
+        "page_range": [
+          171,
+          175
+        ]
+      },
+      {
+        "song_title": "Poems, Prayers And Promises",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Poems, Prayers And Promises.pdf",
+        "file_size_bytes": 205550,
+        "page_range": [
+          175,
+          179
+        ]
+      },
+      {
+        "song_title": "Rhymes And Reasons",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Rhymes And Reasons.pdf",
+        "file_size_bytes": 211131,
+        "page_range": [
+          179,
+          183
+        ]
+      },
+      {
+        "song_title": "On The Wings Of A Dream",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - On The Wings Of A Dream.pdf",
+        "file_size_bytes": 226986,
+        "page_range": [
+          183,
+          188
+        ]
+      },
+      {
+        "song_title": "Rocky Mountain High",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Rocky Mountain High.pdf",
+        "file_size_bytes": 316153,
+        "page_range": [
+          188,
+          194
+        ]
+      },
+      {
+        "song_title": "Shanghai Breezes",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Shanghai Breezes.pdf",
+        "file_size_bytes": 372266,
+        "page_range": [
+          194,
+          201
+        ]
+      },
+      {
+        "song_title": "Seasons Of The Heart",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Seasons Of The Heart.pdf",
+        "file_size_bytes": 197769,
+        "page_range": [
+          201,
+          205
+        ]
+      },
+      {
+        "song_title": "Starwood In Aspen",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Starwood In Aspen.pdf",
+        "file_size_bytes": 141144,
+        "page_range": [
+          205,
+          208
+        ]
+      },
+      {
+        "song_title": "Shipmates And Cheyenne",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Shipmates And Cheyenne.pdf",
+        "file_size_bytes": 262942,
+        "page_range": [
+          208,
+          213
+        ]
+      },
+      {
+        "song_title": "Sunshine On My Shoulders",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Sunshine On My Shoulders.pdf",
+        "file_size_bytes": 64922,
+        "page_range": [
+          213,
+          214
+        ]
+      },
+      {
+        "song_title": "Take Me Home, Country Roads",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Take Me Home, Country Roads.pdf",
+        "file_size_bytes": 290882,
+        "page_range": [
+          214,
+          219
+        ]
+      },
+      {
+        "song_title": "Sweet Surrender",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Sweet Surrender.pdf",
+        "file_size_bytes": 194739,
+        "page_range": [
+          219,
+          223
+        ]
+      },
+      {
+        "song_title": "To The Wild Country",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - To The Wild Country.pdf",
+        "file_size_bytes": 262193,
+        "page_range": [
+          223,
+          228
+        ]
+      },
+      {
+        "song_title": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Thank God I'm A Country Boy.pdf",
+        "file_size_bytes": 143009,
+        "page_range": [
+          228,
+          231
+        ]
+      },
+      {
+        "song_title": "Welcome To My Morning (Farewell Andromeda)",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Welcome To My Morning (farewell Andromeda).pdf",
+        "file_size_bytes": 192312,
+        "page_range": [
+          231,
+          235
+        ]
+      },
+      {
+        "song_title": "What One Man Can Do",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - What One Man Can Do.pdf",
+        "file_size_bytes": 236580,
+        "page_range": [
+          235,
+          240
+        ]
+      },
+      {
+        "song_title": "Wild Montana Skies",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Wild Montana Skies.pdf",
+        "file_size_bytes": 380131,
+        "page_range": [
+          240,
+          249
+        ]
+      },
+      {
+        "song_title": "Whispering Jesse",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Whispering Jesse.pdf",
+        "file_size_bytes": 179797,
+        "page_range": [
+          249,
+          253
+        ]
+      },
+      {
+        "song_title": "Windsong",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/Anthology/Songs/John Denver - Windsong.pdf",
+        "file_size_bytes": 611893,
+        "page_range": [
+          253,
+          260
+        ]
+      }
+    ]
+  }
+}

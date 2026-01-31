@@ -1,0 +1,32 @@
+{
+  "book_id": "movie-and-tv-various-artists-disney-solos-for-violin",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Colors of the Wind",
+        "page_number": 10,
+        "artist": "from Walt Disney's POCAHONTAS",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Colors of the Wind": "from Walt Disney's POCAHONTAS"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Colors of the Wind",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Disney Solos For Violin/Songs/From Walt Disney's Pocahontas - Colors Of The Wind.pdf",
+        "file_size_bytes": 3587591,
+        "page_range": [
+          1,
+          30
+        ]
+      }
+    ]
+  }
+}

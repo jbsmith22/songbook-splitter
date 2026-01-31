@@ -1,0 +1,350 @@
+{
+  "book_id": "billy-joel-greatest-hits",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "ALLENTOWN",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BIG SHOT",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DON'T ASK ME WHY",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GOODNIGHT SAIGON",
+        "page_number": 103,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT'S STILL ROCK AND ROLL TO ME",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JUST THE WAY YOU ARE",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE LONGEST TIME",
+        "page_number": 120,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MOVIN' OUT (ANTHONY'S SONG)",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MY LIFE",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE NIGHT IS STILL YOUNG",
+        "page_number": 130,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NEW YORK STATE OF MIND",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ONLY THE GOOD DIE YOUNG",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PIANO MAN",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PRESSURE",
+        "page_number": 96,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SAY GOODBYE TO HOLLYWOOD",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHE'S ALWAYS A WOMAN",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE STRANGER",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TELL HER ABOUT IT",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "UPTOWN GIRL",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU MAY BE RIGHT",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU'RE ONLY HUMAN (SECOND WIND)",
+        "page_number": 126,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "PIANO MAN",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-PIANO MAN.pdf",
+        "file_size_bytes": 193634,
+        "page_range": [
+          3,
+          8
+        ]
+      },
+      {
+        "song_title": "SAY GOODBYE TO HOLLYWOOD",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-SAY GOODBYE TO HOLLYWOOD.pdf",
+        "file_size_bytes": 168029,
+        "page_range": [
+          8,
+          12
+        ]
+      },
+      {
+        "song_title": "NEW YORK STATE OF MIND",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-NEW YORK STATE OF MIND.pdf",
+        "file_size_bytes": 164841,
+        "page_range": [
+          12,
+          16
+        ]
+      },
+      {
+        "song_title": "THE STRANGER",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-THE STRANGER.pdf",
+        "file_size_bytes": 432462,
+        "page_range": [
+          16,
+          26
+        ]
+      },
+      {
+        "song_title": "JUST THE WAY YOU ARE",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-JUST THE WAY YOU ARE.pdf",
+        "file_size_bytes": 408047,
+        "page_range": [
+          26,
+          35
+        ]
+      },
+      {
+        "song_title": "MOVIN' OUT (ANTHONY'S SONG)",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-MOVIN' OUT (ANTHONY'S SONG).pdf",
+        "file_size_bytes": 184090,
+        "page_range": [
+          35,
+          39
+        ]
+      },
+      {
+        "song_title": "ONLY THE GOOD DIE YOUNG",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-ONLY THE GOOD DIE YOUNG.pdf",
+        "file_size_bytes": 368513,
+        "page_range": [
+          39,
+          48
+        ]
+      },
+      {
+        "song_title": "SHE'S ALWAYS A WOMAN",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-SHE'S ALWAYS A WOMAN.pdf",
+        "file_size_bytes": 326966,
+        "page_range": [
+          48,
+          54
+        ]
+      },
+      {
+        "song_title": "MY LIFE",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-MY LIFE.pdf",
+        "file_size_bytes": 305163,
+        "page_range": [
+          54,
+          61
+        ]
+      },
+      {
+        "song_title": "YOU MAY BE RIGHT",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-YOU MAY BE RIGHT.pdf",
+        "file_size_bytes": 331557,
+        "page_range": [
+          61,
+          68
+        ]
+      },
+      {
+        "song_title": "BIG SHOT",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-BIG SHOT.pdf",
+        "file_size_bytes": 362307,
+        "page_range": [
+          68,
+          76
+        ]
+      },
+      {
+        "song_title": "IT'S STILL ROCK AND ROLL TO ME",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-IT'S STILL ROCK AND ROLL TO ME.pdf",
+        "file_size_bytes": 316850,
+        "page_range": [
+          76,
+          84
+        ]
+      },
+      {
+        "song_title": "DON'T ASK ME WHY",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-DON'T ASK ME WHY.pdf",
+        "file_size_bytes": 391150,
+        "page_range": [
+          84,
+          92
+        ]
+      },
+      {
+        "song_title": "ALLENTOWN",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-ALLENTOWN.pdf",
+        "file_size_bytes": 232725,
+        "page_range": [
+          92,
+          98
+        ]
+      },
+      {
+        "song_title": "PRESSURE",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-PRESSURE.pdf",
+        "file_size_bytes": 273303,
+        "page_range": [
+          98,
+          105
+        ]
+      },
+      {
+        "song_title": "GOODNIGHT SAIGON",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-GOODNIGHT SAIGON.pdf",
+        "file_size_bytes": 184194,
+        "page_range": [
+          105,
+          110
+        ]
+      },
+      {
+        "song_title": "TELL HER ABOUT IT",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-TELL HER ABOUT IT.pdf",
+        "file_size_bytes": 292066,
+        "page_range": [
+          110,
+          118
+        ]
+      },
+      {
+        "song_title": "UPTOWN GIRL",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-UPTOWN GIRL.pdf",
+        "file_size_bytes": 150585,
+        "page_range": [
+          118,
+          122
+        ]
+      },
+      {
+        "song_title": "THE LONGEST TIME",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-THE LONGEST TIME.pdf",
+        "file_size_bytes": 217008,
+        "page_range": [
+          122,
+          128
+        ]
+      },
+      {
+        "song_title": "YOU'RE ONLY HUMAN (SECOND WIND)",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-YOU'RE ONLY HUMAN (SECOND WIND).pdf",
+        "file_size_bytes": 205195,
+        "page_range": [
+          128,
+          132
+        ]
+      },
+      {
+        "song_title": "THE NIGHT IS STILL YOUNG",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Greatest Hits/Billy Joel-THE NIGHT IS STILL YOUNG.pdf",
+        "file_size_bytes": 2422282,
+        "page_range": [
+          132,
+          138
+        ]
+      }
+    ]
+  }
+}

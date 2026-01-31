@@ -1,0 +1,233 @@
+{
+  "book_id": "c7e8b3aaa3231808",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Opening",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(sally, Lucy, Snoopy, Schroeder & Linus With Charlie Brown) - Opening.pdf",
+        "file_size_bytes": 683002,
+        "page_range": [
+          2,
+          13
+        ]
+      },
+      {
+        "song_title": "\"You're a Good Man, Charlie Brown\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/[c. Brown] - -you're A Good Man, Charlie Brown-.pdf",
+        "file_size_bytes": 135889,
+        "page_range": [
+          13,
+          15
+        ]
+      },
+      {
+        "song_title": "You're a Good Man, Charlie Brown",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/C. Brown - You're A Good Man, Charlie Brown.pdf",
+        "file_size_bytes": 241355,
+        "page_range": [
+          15,
+          19
+        ]
+      },
+      {
+        "song_title": "You're a Good Man, Charlie Brown",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/[c. Brown] And Other Names Listed Appear To Be Character Names Rather Than An Artist Name - You're A Good Man, Charlie Brown.pdf",
+        "file_size_bytes": 486153,
+        "page_range": [
+          19,
+          26
+        ]
+      },
+      {
+        "song_title": "Snoopy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(snoopy With [featured] Sally And Lacy) - Snoopy.pdf",
+        "file_size_bytes": 1207955,
+        "page_range": [
+          26,
+          45
+        ]
+      },
+      {
+        "song_title": "Queen Lucy - Melodrama",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(orchestra With Lucy) - Queen Lucy - Melodrama.pdf",
+        "file_size_bytes": 169642,
+        "page_range": [
+          45,
+          48
+        ]
+      },
+      {
+        "song_title": "The Kite",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Charlie Brown - The Kite.pdf",
+        "file_size_bytes": 395251,
+        "page_range": [
+          48,
+          54
+        ]
+      },
+      {
+        "song_title": "Quick Changes - Valentines",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(orchestra) Schroder, Howe - Quick Changes - Valentines.pdf",
+        "file_size_bytes": 144599,
+        "page_range": [
+          54,
+          56
+        ]
+      },
+      {
+        "song_title": "The Doctor Is In",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Charlie Brown & Lucy - The Doctor Is In.pdf",
+        "file_size_bytes": 444821,
+        "page_range": [
+          56,
+          63
+        ]
+      },
+      {
+        "song_title": "\"Beethoven Day\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(schroeder & Company) - -beethoven Day-.pdf",
+        "file_size_bytes": 750239,
+        "page_range": [
+          63,
+          75
+        ]
+      },
+      {
+        "song_title": "Rabbit Chasing - Pantomime [and Quick Changes - The Wall]",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Unknown Artist - Rabbit Chasing - Pantomime [and Quick Changes - The Wall].pdf",
+        "file_size_bytes": 353868,
+        "page_range": [
+          75,
+          80
+        ]
+      },
+      {
+        "song_title": "\"The Book Report\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(lucy, Schroeder, Charlie Brown & Linus With Sally & Snoopy) - -the Book Report-.pdf",
+        "file_size_bytes": 52961,
+        "page_range": [
+          80,
+          81
+        ]
+      },
+      {
+        "song_title": "\"The Book Report\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Unknown Artist - -the Book Report-.pdf",
+        "file_size_bytes": 64010,
+        "page_range": [
+          81,
+          82
+        ]
+      },
+      {
+        "song_title": "Lucy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Unknown Artist - Lucy.pdf",
+        "file_size_bytes": 320897,
+        "page_range": [
+          82,
+          87
+        ]
+      },
+      {
+        "song_title": "\"The Book Raper\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(brown) - -the Book Raper-.pdf",
+        "file_size_bytes": 450944,
+        "page_range": [
+          87,
+          94
+        ]
+      },
+      {
+        "song_title": "The Real Winger",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Unknown Artist - The Real Winger.pdf",
+        "file_size_bytes": 167867,
+        "page_range": [
+          94,
+          97
+        ]
+      },
+      {
+        "song_title": "The Black Dyke",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Unknown Artist - The Black Dyke.pdf",
+        "file_size_bytes": 140477,
+        "page_range": [
+          97,
+          99
+        ]
+      },
+      {
+        "song_title": "The Red Baron - Melodrama",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(orchestra & Singers With [abridged] Suite) - The Red Baron - Melodrama.pdf",
+        "file_size_bytes": 1101934,
+        "page_range": [
+          99,
+          116
+        ]
+      },
+      {
+        "song_title": "Baseball Game Pantomime",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/C. Brown (hoodie Vol.) (pres. Hoodie.) - Baseball Game Pantomime.pdf",
+        "file_size_bytes": 1333720,
+        "page_range": [
+          116,
+          138
+        ]
+      },
+      {
+        "song_title": "With Keen Eyes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Unknown Artist - With Keen Eyes.pdf",
+        "file_size_bytes": 1007021,
+        "page_range": [
+          138,
+          154
+        ]
+      },
+      {
+        "song_title": "Happiness",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/(peanuts Company) - Happiness.pdf",
+        "file_size_bytes": 320060,
+        "page_range": [
+          154,
+          159
+        ]
+      },
+      {
+        "song_title": "\"Happiness\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - You're A Good Man Charlie Brown [revival] [score]/Songs/Sally (van Heusen), Snooky & C. Brown, Schroeder & Linen, C. Brown - -happiness-.pdf",
+        "file_size_bytes": 631406,
+        "page_range": [
+          159,
+          170
+        ]
+      }
+    ]
+  }
+}

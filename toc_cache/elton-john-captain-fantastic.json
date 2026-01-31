@@ -1,0 +1,30 @@
+{
+  "book_id": "elton-john-captain-fantastic",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "(Gotta Get A) Meal Ticket",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "(Gotta Get A) Meal Ticket",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Captain Fantastic/Songs/Elton John & Bernie Taupin - (gotta Get A) Meal Ticket.pdf",
+        "file_size_bytes": 11024968,
+        "page_range": [
+          1,
+          40
+        ]
+      }
+    ]
+  }
+}

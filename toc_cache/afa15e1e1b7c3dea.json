@@ -1,0 +1,73 @@
+{
+  "book_id": "afa15e1e1b7c3dea",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "No One Mourns the Wicked",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wicked [pvg]/Songs/Stephen Schwartz - No One Mourns The Wicked.pdf",
+        "file_size_bytes": 3071613,
+        "page_range": [
+          11,
+          25
+        ]
+      },
+      {
+        "song_title": "Dreamily",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wicked [pvg]/Songs/Unknown Artist - Dreamily.pdf",
+        "file_size_bytes": 9496266,
+        "page_range": [
+          25,
+          69
+        ]
+      },
+      {
+        "song_title": "DEFYING GRAVITY",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wicked [pvg]/Songs/Stephen Schwartz - Defying Gravity.pdf",
+        "file_size_bytes": 2495234,
+        "page_range": [
+          69,
+          80
+        ]
+      },
+      {
+        "song_title": "I Couldn't Be Happier",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wicked [pvg]/Songs/Stephen Schwartz - I Couldn't Be Happier.pdf",
+        "file_size_bytes": 3294334,
+        "page_range": [
+          80,
+          95
+        ]
+      },
+      {
+        "song_title": "As Long As You're Mine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wicked [pvg]/Songs/Stephen Schwartz - As Long As You're Mine.pdf",
+        "file_size_bytes": 2116711,
+        "page_range": [
+          95,
+          105
+        ]
+      },
+      {
+        "song_title": "No Good Deed",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Wicked [pvg]/Songs/Stephen Schwartz - No Good Deed.pdf",
+        "file_size_bytes": 3896451,
+        "page_range": [
+          105,
+          124
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "book_id": "0659e2aefca07bae",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "And I Love Her",
+        "page_number": 4,
+        "artist": "The Beatles",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Anyone Who Had A Heart",
+        "page_number": 8,
+        "artist": "Cilla Black",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Baby Now That I've Found You",
+        "page_number": 14,
+        "artist": "The Foundations",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Brown Eyed Girl",
+        "page_number": 18,
+        "artist": "Van Morrison",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Can't Help Falling In Love",
+        "page_number": 22,
+        "artist": "Elvis Presley",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Can't Take My Eyes Off You",
+        "page_number": 26,
+        "artist": "Andy Williams",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(They Long To Be) Close To You",
+        "page_number": 32,
+        "artist": "Dionne Warwick",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Crazy",
+        "page_number": 54,
+        "artist": "Patsy Cline",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Let The Sun Catch You Crying",
+        "page_number": 36,
+        "artist": "Gerry & The Pacemakers",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The First Cut Is The Deepest",
+        "page_number": 40,
+        "artist": "Cat Stevens",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fly Me To The Moon (In Other Words)",
+        "page_number": 42,
+        "artist": "Frank Sinatra",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Go Now",
+        "page_number": 46,
+        "artist": "The Moody Blues",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "God Only Knows",
+        "page_number": 50,
+        "artist": "The Beach Boys",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Here, There And Everywhere",
+        "page_number": 57,
+        "artist": "The Beatles",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Can't Stop Loving You",
+        "page_number": 60,
+        "artist": "Ray Charles",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Close My Eyes And Count To Ten",
+        "page_number": 66,
+        "artist": "Dusty Springfield",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Left My Heart In San Francisco",
+        "page_number": 76,
+        "artist": "Tony Bennett",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Say A Little Prayer",
+        "page_number": 71,
+        "artist": "Aretha Franklin",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Minute You're Gone",
+        "page_number": 80,
+        "artist": "Cliff Richard",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(Take A Little) Piece Of My Heart",
+        "page_number": 84,
+        "artist": "Erma Franklin",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Somethin' Stupid",
+        "page_number": 87,
+        "artist": "Nancy Sinatra & Frank Sinatra",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "This Guy's In Love With You",
+        "page_number": 92,
+        "artist": "Herb Alpert & The Tijuana Brass",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Unchained Melody",
+        "page_number": 104,
+        "artist": "The Righteous Brothers",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Until It's Time For You To Go",
+        "page_number": 97,
+        "artist": "Buffy Saint-Marie",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Words",
+        "page_number": 108,
+        "artist": "Bee Gees",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "And I Love Her": "The Beatles",
+      "Anyone Who Had A Heart": "Cilla Black",
+      "Baby Now That I've Found You": "The Foundations",
+      "Brown Eyed Girl": "Van Morrison",
+      "Can't Help Falling In Love": "Elvis Presley",
+      "Can't Take My Eyes Off You": "Andy Williams",
+      "(They Long To Be) Close To You": "Dionne Warwick",
+      "Crazy": "Patsy Cline",
+      "Don't Let The Sun Catch You Crying": "Gerry & The Pacemakers",
+      "The First Cut Is The Deepest": "Cat Stevens",
+      "Fly Me To The Moon (In Other Words)": "Frank Sinatra",
+      "Go Now": "The Moody Blues",
+      "God Only Knows": "The Beach Boys",
+      "Here, There And Everywhere": "The Beatles",
+      "I Can't Stop Loving You": "Ray Charles",
+      "I Close My Eyes And Count To Ten": "Dusty Springfield",
+      "I Left My Heart In San Francisco": "Tony Bennett",
+      "I Say A Little Prayer": "Aretha Franklin",
+      "The Minute You're Gone": "Cliff Richard",
+      "(Take A Little) Piece Of My Heart": "Erma Franklin",
+      "Somethin' Stupid": "Nancy Sinatra & Frank Sinatra",
+      "This Guy's In Love With You": "Herb Alpert & The Tijuana Brass",
+      "Unchained Melody": "The Righteous Brothers",
+      "Until It's Time For You To Go": "Buffy Saint-Marie",
+      "Words": "Bee Gees"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "And I Love Her",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/The Beatles - And I Love Her.pdf",
+        "file_size_bytes": 228085,
+        "page_range": [
+          4,
+          8
+        ]
+      },
+      {
+        "song_title": "Anyone Who Had A Heart",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Cilla Black - Anyone Who Had A Heart.pdf",
+        "file_size_bytes": 388357,
+        "page_range": [
+          8,
+          14
+        ]
+      },
+      {
+        "song_title": "Baby Now That I've Found You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/The Foundations - Baby Now That I've Found You.pdf",
+        "file_size_bytes": 489140,
+        "page_range": [
+          14,
+          22
+        ]
+      },
+      {
+        "song_title": "Can't Help Falling In Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Elvis Presley - Can't Help Falling In Love.pdf",
+        "file_size_bytes": 621757,
+        "page_range": [
+          22,
+          32
+        ]
+      },
+      {
+        "song_title": "(They Long To Be) Close To You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Dionne Warwick - (they Long To Be) Close To You.pdf",
+        "file_size_bytes": 688176,
+        "page_range": [
+          32,
+          42
+        ]
+      },
+      {
+        "song_title": "Fly Me To The Moon (In Other Words)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Frank Sinatra - Fly Me To The Moon (in Other Words).pdf",
+        "file_size_bytes": 302863,
+        "page_range": [
+          42,
+          46
+        ]
+      },
+      {
+        "song_title": "Go Now",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/The Moody Blues - Go Now.pdf",
+        "file_size_bytes": 295135,
+        "page_range": [
+          46,
+          50
+        ]
+      },
+      {
+        "song_title": "God Only Knows",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/The Beach Boys - God Only Knows.pdf",
+        "file_size_bytes": 276382,
+        "page_range": [
+          50,
+          54
+        ]
+      },
+      {
+        "song_title": "Crazy",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Patsy Cline - Crazy.pdf",
+        "file_size_bytes": 198776,
+        "page_range": [
+          54,
+          57
+        ]
+      },
+      {
+        "song_title": "Here, There And Everywhere",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/The Beatles - Here, There And Everywhere.pdf",
+        "file_size_bytes": 244473,
+        "page_range": [
+          57,
+          60
+        ]
+      },
+      {
+        "song_title": "I Can't Stop Loving You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Ray Charles - I Can't Stop Loving You.pdf",
+        "file_size_bytes": 347106,
+        "page_range": [
+          60,
+          66
+        ]
+      },
+      {
+        "song_title": "I Close My Eyes And Count To Ten",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Dusty Springfield - I Close My Eyes And Count To Ten.pdf",
+        "file_size_bytes": 353215,
+        "page_range": [
+          66,
+          71
+        ]
+      },
+      {
+        "song_title": "I Say A Little Prayer",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Aretha Franklin - I Say A Little Prayer.pdf",
+        "file_size_bytes": 342509,
+        "page_range": [
+          71,
+          76
+        ]
+      },
+      {
+        "song_title": "I Left My Heart In San Francisco",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Tony Bennett - I Left My Heart In San Francisco.pdf",
+        "file_size_bytes": 309869,
+        "page_range": [
+          76,
+          80
+        ]
+      },
+      {
+        "song_title": "The Minute You're Gone",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Cliff Richard - The Minute You're Gone.pdf",
+        "file_size_bytes": 252592,
+        "page_range": [
+          80,
+          84
+        ]
+      },
+      {
+        "song_title": "(Take A Little) Piece Of My Heart",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Erma Franklin - (take A Little) Piece Of My Heart.pdf",
+        "file_size_bytes": 187933,
+        "page_range": [
+          84,
+          87
+        ]
+      },
+      {
+        "song_title": "Somethin' Stupid",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Nancy Sinatra & Frank Sinatra - Somethin' Stupid.pdf",
+        "file_size_bytes": 351324,
+        "page_range": [
+          87,
+          92
+        ]
+      },
+      {
+        "song_title": "This Guy's In Love With You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Herb Alpert & The Tijuana Brass - This Guy's In Love With You.pdf",
+        "file_size_bytes": 737005,
+        "page_range": [
+          92,
+          104
+        ]
+      },
+      {
+        "song_title": "Unchained Melody",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/The Righteous Brothers - Unchained Melody.pdf",
+        "file_size_bytes": 379310,
+        "page_range": [
+          104,
+          108
+        ]
+      },
+      {
+        "song_title": "Words",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 60s/Songs/Bee Gees - Words.pdf",
+        "file_size_bytes": 580930,
+        "page_range": [
+          108,
+          114
+        ]
+      }
+    ]
+  }
+}

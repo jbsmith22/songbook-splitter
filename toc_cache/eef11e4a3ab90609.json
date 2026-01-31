@@ -1,0 +1,102 @@
+{
+  "book_id": "eef11e4a3ab90609",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "A Trick of the Tail",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mad Man Moon",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ripples",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Robbery, Assault and Battery",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Squonk",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Entangled",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dance On A Volcano",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Los Endos",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Trick of the Tail",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Genesis - A Trick Of The Tail [book]/Songs/Genesis - A Trick Of The Tail.pdf",
+        "file_size_bytes": 1884877,
+        "page_range": [
+          2,
+          9
+        ]
+      },
+      {
+        "song_title": "Mad Man Moon",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Genesis - A Trick Of The Tail [book]/Songs/Genesis - Mad Man Moon.pdf",
+        "file_size_bytes": 4193926,
+        "page_range": [
+          9,
+          32
+        ]
+      },
+      {
+        "song_title": "Squonk",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Genesis - A Trick Of The Tail [book]/Songs/Genesis - Squonk.pdf",
+        "file_size_bytes": 2241728,
+        "page_range": [
+          32,
+          43
+        ]
+      },
+      {
+        "song_title": "Entangled",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Genesis - A Trick Of The Tail [book]/Songs/Genesis - Entangled.pdf",
+        "file_size_bytes": 4341093,
+        "page_range": [
+          43,
+          64
+        ]
+      }
+    ]
+  }
+}

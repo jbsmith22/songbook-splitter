@@ -1,0 +1,113 @@
+{
+  "book_id": "billy-joel---glass-houses",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "YOU MAY BE RIGHT",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - You May Be Right.pdf",
+        "file_size_bytes": 1156720,
+        "page_range": [
+          2,
+          7
+        ]
+      },
+      {
+        "song_title": "SOMETIMES A FANTASY",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - Sometimes A Fantasy.pdf",
+        "file_size_bytes": 1684736,
+        "page_range": [
+          7,
+          14
+        ]
+      },
+      {
+        "song_title": "DON'T ASK ME WHY",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - Don't Ask Me Why.pdf",
+        "file_size_bytes": 2068325,
+        "page_range": [
+          14,
+          22
+        ]
+      },
+      {
+        "song_title": "It's Still Rock and Roll to Me",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - It's Still Rock And Roll To Me.pdf",
+        "file_size_bytes": 1831922,
+        "page_range": [
+          22,
+          30
+        ]
+      },
+      {
+        "song_title": "All For Leyna",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - All For Leyna.pdf",
+        "file_size_bytes": 1810591,
+        "page_range": [
+          30,
+          37
+        ]
+      },
+      {
+        "song_title": "I DON'T WANT TO BE ALONE",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - I Don't Want To Be Alone.pdf",
+        "file_size_bytes": 1862424,
+        "page_range": [
+          37,
+          44
+        ]
+      },
+      {
+        "song_title": "Sleeping With The Television On",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - Sleeping With The Television On.pdf",
+        "file_size_bytes": 1306458,
+        "page_range": [
+          44,
+          49
+        ]
+      },
+      {
+        "song_title": "Close to the Borderline",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - Close To The Borderline.pdf",
+        "file_size_bytes": 2358751,
+        "page_range": [
+          49,
+          58
+        ]
+      },
+      {
+        "song_title": "C'etait Toi (You Were The One)",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - C'etait Toi (you Were The One).pdf",
+        "file_size_bytes": 1046750,
+        "page_range": [
+          58,
+          62
+        ]
+      },
+      {
+        "song_title": "THROUGH THE LONG NIGHT",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel - Glass Houses/Songs/Billy Joel - Through The Long Night.pdf",
+        "file_size_bytes": 956854,
+        "page_range": [
+          62,
+          66
+        ]
+      }
+    ]
+  }
+}

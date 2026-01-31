@@ -1,0 +1,198 @@
+=== S3 vs Local Comparison Report ===
+Generated: 2026-01-27 00:40:48
+S3 Bucket: jsmith-output
+Local Directory: .\ProcessedSongs
+
+Local Songs: 11811
+
+S3 Songs: 0
+
+=== SUMMARY ===
+Total in S3: 0
+Total Local: 11811
+Missing (in S3, not local): 0
+Extra (in local, not S3): 11811
+
+=== EXTRA SONGS (in local, not S3) ===
+
+_broadway Shows: 1517 songs (1356.67 MB)
+_movie And Tv: 1840 songs (1135.3 MB)
+Abba: 1 songs (0.74 MB)
+Acdc: 3 songs (12.21 MB)
+Adele: 12 songs (5.97 MB)
+Aerosmith: 15 songs (15.28 MB)
+Allman Brothers: 51 songs (86.98 MB)
+America: 28 songs (12.89 MB)
+Asia: 11 songs (7.21 MB)
+Avril Lavigne: 13 songs (24.53 MB)
+Barry Manilow: 65 songs (40.69 MB)
+Beatles: 1651 songs (657.03 MB)
+Bee Gees: 1 songs (4.79 MB)
+Belinda Carlisle: 5 songs (5.45 MB)
+Ben Folds: 55 songs (24.02 MB)
+Billy Joel: 263 songs (408.48 MB)
+Billy Ocean: 10 songs (3.19 MB)
+Black Eyed Peas: 11 songs (20.25 MB)
+Blondie: 1 songs (1.28 MB)
+Blues Brothers: 12 songs (3.04 MB)
+Bob Dylan: 329 songs (140.94 MB)
+Bob Marley And The Wailers: 1 songs (0.79 MB)
+Bob Seger: 19 songs (14.17 MB)
+Bon Jovi: 19 songs (13.95 MB)
+Bonnie Raitt: 23 songs (29.06 MB)
+Bonnie Tyler: 7 songs (4.64 MB)
+Bread: 4 songs (6.73 MB)
+Bruce Springsteen: 43 songs (44.7 MB)
+Buddy Holly: 27 songs (18.97 MB)
+Burl Ives: 107 songs (53.03 MB)
+Burt Bacharach: 87 songs (22.35 MB)
+Carole King: 154 songs (125.07 MB)
+Carpenters: 76 songs (168.65 MB)
+Cheap Trick: 1 songs (4.24 MB)
+Chicago: 1 songs (0.56 MB)
+Colbie Caillat: 13 songs (23.55 MB)
+Cole Porter: 38 songs (20.07 MB)
+Cream: 25 songs (13.16 MB)
+Creedence Clearwater Revival: 56 songs (26.62 MB)
+Crosby Stills And Nash: 22 songs (7.34 MB)
+Crowded House: 32 songs (39.04 MB)
+David Crosby: 1 songs (10.03 MB)
+Dire Straits: 33 songs (93.9 MB)
+Don Henley: 11 songs (56.35 MB)
+Doobie Brothers: 10 songs (26.23 MB)
+Doors: 13 songs (9.3 MB)
+Dr John: 3 songs (2.34 MB)
+Dr. Hook: 1 songs (0.66 MB)
+Duran Duran: 41 songs (7.6 MB)
+Eagles: 106 songs (60.85 MB)
+Elo: 66 songs (128.52 MB)
+Elton John: 185 songs (305.15 MB)
+Elvis Costello: 42 songs (27.07 MB)
+Emerson Lake And Palmer: 32 songs (60.53 MB)
+Eric Clapton: 38 songs (41.46 MB)
+Fleetwood Mac: 132 songs (138.83 MB)
+Frank Zappa: 29 songs (46.86 MB)
+Fray: 1 songs (8.41 MB)
+Garth Brooks: 29 songs (54.29 MB)
+Genesis: 89 songs (120.68 MB)
+George Michael: 40 songs (28.02 MB)
+Grand Funk Railroad: 46 songs (84.88 MB)
+Harry Chapin: 9 songs (5.05 MB)
+Henri Mancini: 13 songs (1.26 MB)
+Herman's Hermits: 11 songs (7.18 MB)
+Jackson Browne: 39 songs (65.92 MB)
+James Blunt: 11 songs (18.62 MB)
+James Taylor: 109 songs (113.9 MB)
+Jim Croce: 1 songs (6.39 MB)
+Jimmy Buffet: 18 songs (11.23 MB)
+Joe Cocker: 33 songs (21.39 MB)
+John Denver: 147 songs (51.17 MB)
+John Lennon: 18 songs (27.92 MB)
+Joni Mitchell: 36 songs (26.41 MB)
+Journey: 179 songs (64.41 MB)
+Judy Garland: 13 songs (11.3 MB)
+Katy Perry: 12 songs (15.71 MB)
+Kelly Clarkson: 2 songs (3.05 MB)
+Kenny Rogers: 10 songs (1.28 MB)
+Kinks: 58 songs (43.47 MB)
+Led Zepplin: 2 songs (9.74 MB)
+Lynyrd Skynyrd: 5 songs (5.91 MB)
+Meatloaf: 1 songs (11.7 MB)
+Melissa Etheridge: 10 songs (1.77 MB)
+Michael Jackson: 66 songs (99.96 MB)
+Monkees: 11 songs (7.97 MB)
+Moody Blues: 23 songs (10.37 MB)
+Neil Diamond: 40 songs (10.95 MB)
+Neil Young: 98 songs (66.26 MB)
+Night Ranger: 10 songs (4.26 MB)
+Paul Mccartney: 122 songs (488.95 MB)
+Paul Simon: 63 songs (83.58 MB)
+Peter Frampton: 11 songs (25.62 MB)
+Pink: 12 songs (75.4 MB)
+Pink Floyd: 137 songs (103.54 MB)
+Police: 12 songs (2.38 MB)
+Pretenders: 16 songs (4.02 MB)
+Prince: 1 songs (5.13 MB)
+Queen: 57 songs (137.83 MB)
+Randy Newman: 1 songs (9.54 MB)
+Reo Speedwagon: 14 songs (60.75 MB)
+Rod Stewart: 16 songs (15.49 MB)
+Rolling Stones: 39 songs (54.43 MB)
+Roy Orbison: 19 songs (8.83 MB)
+Santana: 8 songs (11.8 MB)
+Scott Joplin: 17 songs (12.97 MB)
+Shania Twain: 41 songs (10.82 MB)
+Sheryl Crow: 28 songs (34.9 MB)
+Spice Girls: 11 songs (13.51 MB)
+Steve Miller Band: 21 songs (7.17 MB)
+Steve Winwood: 15 songs (66.7 MB)
+Supertramp: 20 songs (63.36 MB)
+Survivor: 10 songs (11.06 MB)
+Taylor Swift: 64 songs (54.29 MB)
+The Band: 46 songs (59.56 MB)
+Tom Waits: 29 songs (3.4 MB)
+Tori Amos: 25 songs (30.06 MB)
+Toto: 31 songs (10.8 MB)
+Traveling Wilburys: 1 songs (20.18 MB)
+Van Morrison: 58 songs (99.05 MB)
+Various Artists: 2121 songs (1059.44 MB)
+Vince Guaraldi: 37 songs (6.57 MB)
+Whitney Houston: 10 songs (58.62 MB)
+Who: 45 songs (52.58 MB)
+Yes: 29 songs (18.07 MB)
+Zz Top: 42 songs (14.11 MB)
+
+First 50 extra files:
+  _movie And Tv/Various Artists - Tv Fakebook 2nd Ed/Songs/Sammy Cahn, Axel Stordahl And Paul Weston - Day By Day.pdf
+  Various Artists/70's Hits [easy Piano]/Songs/Bill Withers - Ain't No Sunshine.pdf
+  Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/Stephen Stills - 49 Bye-byes.pdf
+  _movie And Tv/Various Artists - Movie Fakebook/Songs/By Frank Loesser - Wonderful Copenhagen.pdf
+  Van Morrison/Anthology/Songs/Van Morrison - Wavelength.pdf
+  _movie And Tv/Various Artists - Movie Fakebook/Songs/From Warner Bros. Pictures -the Polar Express- - Believe.pdf
+  John Denver/Anthology/Songs/John Denver - Annie's Song.pdf
+  Roy Orbison/Greatest Hits/Songs/Roy Orbison - Crying.pdf
+  _broadway Shows/Various Artists - Wizard Of Oz (rsc Piano-conductor)/Songs/(no Clear Artist Name Provided) - Unekees Deezhoo Weegens I Keeree Kankow.pdf
+  Peter Frampton/The Best Of [guitar Tab]/Songs/Peter Frampton - I Can't Stand It No More.pdf
+  Various Artists/Heavy Rock Hits Of The 80s [pvg]/Songs/Bill Withers, Larry Hill And Frank Beard - Legs.pdf
+  Jackson Browne/Deluxe Anthology/Songs/Jackson Browne - Linda Paloma.pdf
+  George Michael/Greatest Hits/Songs/George Michael - Star People.pdf
+  Night Ranger/Seven Wishes [jap Score]/Songs/Night Ranger - Seven Wishes.pdf
+  _movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - The Perfect Nanny.pdf
+  Beatles/Fake Songbook (guitar)/Songs/Lennon-mccartney - Michelle.pdf
+  _broadway Shows/Various Artists - Avenue X - Vocal Chorus Book/Songs/Unknown Artist - Where Is Love- (duet).pdf
+  Various Artists/557 Standards (sheet Music - Piano)(2)/Songs/(a. Johnston) - My Old Flame.pdf
+  _movie And Tv/Various Artists - Disney Fake Book/Songs/From Walt Disney's Beauty And The Beast- The Broadway Musical (music By Alan Menken, Lyrics By Tim Rice) - No Matter What.pdf
+  Beatles/All Songs 1962-1974/Songs/John Lennon And Paul Mccartney - I Feel Fine.pdf
+  Various Artists/Ultimate 100 Pop Hits Of The 90s/Songs/Bob Carlisle And Randy Thomas - Butterfly Kisses.pdf
+  _broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Unknown Artist - I'd Rather Be Right.pdf
+  Various Artists/Golden Era Of Rock And Roll (grab It!)/Songs/Recorded By Ernie K. Doe On Minit Records - Mother-in-law.pdf
+  Eric Clapton/Unplugged [book]/Songs/Eric Clapton - Nobody Knows You.pdf
+  Beatles/100 Hits For All Keyboards/Songs/Unknown Artist - Help.pdf
+  Billy Joel/Billy Joel Greatest Hits Vols 1 And 2-(0001)/Songs/Billy Joel - Only The Good Die Young.pdf
+  _movie And Tv/Various Artists - Disney Duets/Songs/From The Many Adventures Of Winnie The Pooh - Winnie The Pooh.pdf
+  Burl Ives/Song Book/Songs/Unknown Artist - The Escape Of Old John Webb.pdf
+  Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Song To A Seagull.pdf
+  Kenny Rogers/Love Or Something Like It [book]/Songs/Kenny Rogers - Momma's Waiting.pdf
+  Carpenters/Love Songs/Songs/Leon Russell And Bonnie Bramlett - Superstar.pdf
+  _broadway Shows/Various Artists - Lion King [score]/Songs/Unknown Artist - I Just Can't Wait To Be King.pdf
+  The Band/Band - Northern Lights Southern Cross [pvg]/Songs/The Band - Hobo Jungle.pdf
+  Beatles/Complete Scores/Songs/Words & Music By B. Holland & R.c. Gorman - Please Mr. Postman.pdf
+  Garth Brooks/No Fences [guitar Tab]/Songs/Garth Brooks - Mr. Blue.pdf
+  Beatles/Anthology/Songs/John Lennon And Paul Mccartney - Oh! Darling.pdf
+  Crosby Stills And Nash/Crosby Stills Nash & Young - Deja Vu [pvg Book]/Songs/David Crosby - Cut My Hair.pdf
+  Eagles/New Eagles Complete/Songs/Don Henley & Don Henley - Visions.pdf
+  Van Morrison/Back On Top [book]/Songs/Van Morrison - Philosophers Stone.pdf
+  _movie And Tv/Various Artists - Star Trek - Them From Search For Spock/Songs/James Horner - The Search For Spock.pdf
+  Beatles/100 Hits For All Keyboards/Songs/Words & Music By John Lennon And Paul Mccartney - Hello Goodbye.pdf
+  _broadway Shows/Various Artists - Avenue X - Vocal Chorus Book/Songs/The Lyrics Are By John Bier And The Music Is By Ray Leslie, But There Is No Single Artist Name Given - Woman Of The World.pdf
+  Beatles/Fake Songbook (guitar)/Songs/The Beatles - I Want You (she's So Heavy).pdf
+  Billy Joel/My Lives/Songs/John Lennon And Paul Mccartney - A Hard Day's Night.pdf
+  Bob Dylan/Anthology/Songs/Bob Dylan - Sweetheart Like You.pdf
+  _broadway Shows/Various Artists - Phantom Of The Opera/Songs/Andrew Lloyd Webber - Think Of Me.pdf
+  Beatles/Essential Songs/Songs/John Lennon And Paul Mccartney - When I'm Sixty-four.pdf
+  _movie And Tv/Various Artists - Movie Fakebook/Songs/Johnny Mercer And Victor Schertzinger - Tangerine.pdf
+  Carole King/Classics (3)/Songs/Gerry Goffin, Carole King And Jerry Wexler - (you Make Me Feel Like A) Natural Woman.pdf
+  _broadway Shows/Various Artists - The Ultimate Broadway Fakebook/Songs/Here I'll Stay (written By Alan Jay Lerner) - Love Life.pdf
+  ... and 11761 more
+
+=== END OF REPORT ===

@@ -1,0 +1,153 @@
+{
+  "book_id": "billy-joel-billy-joel-greatest-hits-vols-1-and-2",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Just The Way You Are",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Just The Way You Are.pdf",
+        "file_size_bytes": 428022,
+        "page_range": [
+          1,
+          8
+        ]
+      },
+      {
+        "song_title": "MY LIFE",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - My Life.pdf",
+        "file_size_bytes": 302705,
+        "page_range": [
+          8,
+          15
+        ]
+      },
+      {
+        "song_title": "Piano Man",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Piano Man.pdf",
+        "file_size_bytes": 227639,
+        "page_range": [
+          15,
+          20
+        ]
+      },
+      {
+        "song_title": "Vienna",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Vienna.pdf",
+        "file_size_bytes": 924324,
+        "page_range": [
+          20,
+          28
+        ]
+      },
+      {
+        "song_title": "Root Beer Rag",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel, Arr. Robert Wells, Orian Fahlstrom - Root Beer Rag.pdf",
+        "file_size_bytes": 152214,
+        "page_range": [
+          28,
+          36
+        ]
+      },
+      {
+        "song_title": "Piano Man",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Piano Man.pdf",
+        "file_size_bytes": 2438069,
+        "page_range": [
+          36,
+          41
+        ]
+      },
+      {
+        "song_title": "Say Goodbye to Hollywood",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Say Goodbye To Hollywood.pdf",
+        "file_size_bytes": 2140524,
+        "page_range": [
+          41,
+          45
+        ]
+      },
+      {
+        "song_title": "NEW YORK STATE OF MIND",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - New York State Of Mind.pdf",
+        "file_size_bytes": 2082479,
+        "page_range": [
+          45,
+          49
+        ]
+      },
+      {
+        "song_title": "The Stranger",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - The Stranger.pdf",
+        "file_size_bytes": 1006810,
+        "page_range": [
+          49,
+          51
+        ]
+      },
+      {
+        "song_title": "The Stranger",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - The Stranger.pdf",
+        "file_size_bytes": 3354296,
+        "page_range": [
+          51,
+          57
+        ]
+      },
+      {
+        "song_title": "Just The Way You Are",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Just The Way You Are.pdf",
+        "file_size_bytes": 5168435,
+        "page_range": [
+          57,
+          66
+        ]
+      },
+      {
+        "song_title": "Movin' Out (Anthony's Song)",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Movin' Out (anthony's Song).pdf",
+        "file_size_bytes": 3501295,
+        "page_range": [
+          66,
+          72
+        ]
+      },
+      {
+        "song_title": "Only the Good Die Young",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - Only The Good Die Young.pdf",
+        "file_size_bytes": 3847343,
+        "page_range": [
+          72,
+          79
+        ]
+      },
+      {
+        "song_title": "She's Always A Woman",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Billy Joel Greatest Hits Vols 1 And 2/Songs/Billy Joel - She's Always A Woman.pdf",
+        "file_size_bytes": 3202984,
+        "page_range": [
+          79,
+          84
+        ]
+      }
+    ]
+  }
+}

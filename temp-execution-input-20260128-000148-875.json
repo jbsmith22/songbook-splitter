@@ -1,0 +1,8 @@
+{
+    "bucket":  "jsmith-input",
+    "source_pdf_uri":  "s3://jsmith-input/books/Crosby Stills and Nash/Crosby, Stills, Nash \u0026 Young - The Guitar Collection.pdf",
+    "artist":  "Crosby Stills and Nash",
+    "key":  "books/Crosby Stills and Nash/Crosby, Stills, Nash \u0026 Young - The Guitar Collection.pdf",
+    "book_id":  "d1f7252c1d40b1af",
+    "book_name":  "Crosby, Stills, Nash \u0026 Young - The Guitar Collection"
+}

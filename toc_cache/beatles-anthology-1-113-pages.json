@@ -1,0 +1,436 @@
+{
+  "book_id": "beatles-anthology-1-113-pages",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "All My Loving",
+        "page_number": 85,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Can't Buy Me Love",
+        "page_number": 81,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eight Days A Week",
+        "page_number": 109,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Free As A Bird",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "From Me To You",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Hard Day's Night",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hello Little Girl",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Saw Her Standing There",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Wanna Be Your Man",
+        "page_number": 99,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Want To Hold Your Hand",
+        "page_number": 77,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'll Be Back",
+        "page_number": 102,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'll Get You",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In Spite Of All The Danger",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Like Dreamers Do",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Me Do",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Money (That's What I Want)",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "No Reply",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One After 909",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Please Please Me",
+        "page_number": 35,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Searchin'",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Loves You",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "This Boy (Ringo's Theme)",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Three Cool Cats",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Twist And Shout",
+        "page_number": 69,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Can't Do That",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Really Got A Hold On Me",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You'll Be Mine",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Free As A Bird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/Beatles Version By Paul Mccartney, George Harrison And Ringo Starr - Free As A Bird.pdf",
+        "file_size_bytes": 338062,
+        "page_range": [
+          5,
+          10
+        ]
+      },
+      {
+        "song_title": "In Spite Of All The Danger",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/Paul Mccartney And George Harrison - In Spite Of All The Danger.pdf",
+        "file_size_bytes": 184833,
+        "page_range": [
+          10,
+          13
+        ]
+      },
+      {
+        "song_title": "You'll Be Mine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/Unknown Artist - You'll Be Mine.pdf",
+        "file_size_bytes": 300259,
+        "page_range": [
+          13,
+          18
+        ]
+      },
+      {
+        "song_title": "Searchin'",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/Jerry Leiber And Mike Stoller - Searchin'.pdf",
+        "file_size_bytes": 259296,
+        "page_range": [
+          18,
+          22
+        ]
+      },
+      {
+        "song_title": "Three Cool Cats",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/Jerry Leiber And Mike Stoller - Three Cool Cats.pdf",
+        "file_size_bytes": 201324,
+        "page_range": [
+          22,
+          25
+        ]
+      },
+      {
+        "song_title": "Like Dreamers Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - Like Dreamers Do.pdf",
+        "file_size_bytes": 213325,
+        "page_range": [
+          25,
+          28
+        ]
+      },
+      {
+        "song_title": "Hello Little Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - Hello Little Girl.pdf",
+        "file_size_bytes": 281942,
+        "page_range": [
+          28,
+          32
+        ]
+      },
+      {
+        "song_title": "Love Me Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - Love Me Do.pdf",
+        "file_size_bytes": 202956,
+        "page_range": [
+          32,
+          35
+        ]
+      },
+      {
+        "song_title": "Please Please Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon - Paul Mccartney - Please Please Me.pdf",
+        "file_size_bytes": 552197,
+        "page_range": [
+          35,
+          43
+        ]
+      },
+      {
+        "song_title": "I'll Get You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - I'll Get You.pdf",
+        "file_size_bytes": 137932,
+        "page_range": [
+          43,
+          45
+        ]
+      },
+      {
+        "song_title": "I Saw Her Standing There",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - I Saw Her Standing There.pdf",
+        "file_size_bytes": 407699,
+        "page_range": [
+          45,
+          51
+        ]
+      },
+      {
+        "song_title": "From Me To You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - From Me To You.pdf",
+        "file_size_bytes": 127778,
+        "page_range": [
+          51,
+          53
+        ]
+      },
+      {
+        "song_title": "Money (That's What I Want)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/Unknown Artist - Money (that's What I Want).pdf",
+        "file_size_bytes": 391241,
+        "page_range": [
+          53,
+          59
+        ]
+      },
+      {
+        "song_title": "You Really Got A Hold On Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/William -smokey- Robinson - You Really Got A Hold On Me.pdf",
+        "file_size_bytes": 266994,
+        "page_range": [
+          59,
+          63
+        ]
+      },
+      {
+        "song_title": "She Loves You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - She Loves You.pdf",
+        "file_size_bytes": 326026,
+        "page_range": [
+          63,
+          68
+        ]
+      },
+      {
+        "song_title": "Twist And Shout",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/Bert Russell And Phil Medley - Twist And Shout.pdf",
+        "file_size_bytes": 290902,
+        "page_range": [
+          68,
+          72
+        ]
+      },
+      {
+        "song_title": "This Boy (Ringo's Theme)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon - This Boy (ringo's Theme).pdf",
+        "file_size_bytes": 294045,
+        "page_range": [
+          72,
+          76
+        ]
+      },
+      {
+        "song_title": "I Want To Hold Your Hand",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - I Want To Hold Your Hand.pdf",
+        "file_size_bytes": 285814,
+        "page_range": [
+          76,
+          80
+        ]
+      },
+      {
+        "song_title": "Can't Buy Me Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - Can't Buy Me Love.pdf",
+        "file_size_bytes": 279088,
+        "page_range": [
+          80,
+          84
+        ]
+      },
+      {
+        "song_title": "All My Loving",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - All My Loving.pdf",
+        "file_size_bytes": 262951,
+        "page_range": [
+          84,
+          88
+        ]
+      },
+      {
+        "song_title": "You Can't Do That",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - You Can't Do That.pdf",
+        "file_size_bytes": 330870,
+        "page_range": [
+          88,
+          93
+        ]
+      },
+      {
+        "song_title": "A Hard Day's Night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - A Hard Day's Night.pdf",
+        "file_size_bytes": 339936,
+        "page_range": [
+          93,
+          98
+        ]
+      },
+      {
+        "song_title": "I Wanna Be Your Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - I Wanna Be Your Man.pdf",
+        "file_size_bytes": 200216,
+        "page_range": [
+          98,
+          101
+        ]
+      },
+      {
+        "song_title": "I'll Be Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - I'll Be Back.pdf",
+        "file_size_bytes": 276979,
+        "page_range": [
+          101,
+          105
+        ]
+      },
+      {
+        "song_title": "No Reply",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - No Reply.pdf",
+        "file_size_bytes": 205887,
+        "page_range": [
+          105,
+          108
+        ]
+      },
+      {
+        "song_title": "Eight Days A Week",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 1 (113 Pages)/Songs/John Lennon And Paul Mccartney - Eight Days A Week.pdf",
+        "file_size_bytes": 313209,
+        "page_range": [
+          108,
+          113
+        ]
+      }
+    ]
+  }
+}

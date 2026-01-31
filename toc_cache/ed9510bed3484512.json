@@ -1,0 +1,222 @@
+{
+  "book_id": "ed9510bed3484512",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "CAROL FOR ANOTHER CHRISTMAS",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE CHRISTMAS SONG",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE LITTLE DRUMMER BOY",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Medley",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FROSTY THE SNOW MAN",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "RUDOLPH, THE RED-NOSED REINDEER",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Medley",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GOD REST YE MERRY GENTLEMEN",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DECK THE HALLS",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HARK! THE HERALD ANGELS SING",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Medley",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT CAME UPON A MIDNIGHT CLEAR",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "AWAY IN A MANGER",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE FIRST NOEL",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Medley",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JINGLE BELLS",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SLEIGH RIDE",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Medley",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SILENT NIGHT",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "O HOLY NIGHT",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "O LITTLE TOWN OF BETHLEHEM",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Medley",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WE THREE KINGS OF ORIENT ARE",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "O COME, ALL YE FAITHFUL(Adeste Fideles)",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JOY TO THE WORLD",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Medley",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WINTER WONDERLAND",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SILVER BELLS",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "THE LITTLE DRUMMER BOY",
+        "artist": "Henri Mancini",
+        "output_uri": "s3://jsmith-output/Henri Mancini/Henry Mancini - A Merry Mancini Christmas/Songs/Henri Mancini - The Little Drummer Boy.pdf",
+        "file_size_bytes": 1233803,
+        "page_range": [
+          2,
+          49
+        ]
+      },
+      {
+        "song_title": "Medley",
+        "artist": "Henri Mancini",
+        "output_uri": "s3://jsmith-output/Henri Mancini/Henry Mancini - A Merry Mancini Christmas/Songs/Henri Mancini - Medley.pdf",
+        "file_size_bytes": 41150,
+        "page_range": [
+          49,
+          50
+        ]
+      },
+      {
+        "song_title": "AWAY IN A MANGER",
+        "artist": "Henri Mancini",
+        "output_uri": "s3://jsmith-output/Henri Mancini/Henry Mancini - A Merry Mancini Christmas/Songs/Henri Mancini - Away In A Manger.pdf",
+        "file_size_bytes": 33388,
+        "page_range": [
+          50,
+          52
+        ]
+      },
+      {
+        "song_title": "THE FIRST NOEL",
+        "artist": "Henri Mancini",
+        "output_uri": "s3://jsmith-output/Henri Mancini/Henry Mancini - A Merry Mancini Christmas/Songs/Henri Mancini - The First Noel.pdf",
+        "file_size_bytes": 46817,
+        "page_range": [
+          52,
+          54
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "book_id": "94505d4e64f1ae52",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The World Above",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The World Above.pdf",
+        "file_size_bytes": 831532,
+        "page_range": [
+          8,
+          32
+        ]
+      },
+      {
+        "song_title": "The World Above - Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Music By Alan Menken, Lyric By Glenn Slater - The World Above - Reprise.pdf",
+        "file_size_bytes": 65071,
+        "page_range": [
+          32,
+          34
+        ]
+      },
+      {
+        "song_title": "Where I Belong - Ariel Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - Where I Belong - Ariel Reprise.pdf",
+        "file_size_bytes": 109015,
+        "page_range": [
+          34,
+          37
+        ]
+      },
+      {
+        "song_title": "P'y'The Little Memorial",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - P'y'the Little Memorial.pdf",
+        "file_size_bytes": 252236,
+        "page_range": [
+          37,
+          44
+        ]
+      },
+      {
+        "song_title": "The Little Weatherhog",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Weatherhog.pdf",
+        "file_size_bytes": 1141233,
+        "page_range": [
+          44,
+          73
+        ]
+      },
+      {
+        "song_title": "The Long Runner",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Long Runner.pdf",
+        "file_size_bytes": 177412,
+        "page_range": [
+          73,
+          77
+        ]
+      },
+      {
+        "song_title": "She's in Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - She's In Love.pdf",
+        "file_size_bytes": 445242,
+        "page_range": [
+          77,
+          88
+        ]
+      },
+      {
+        "song_title": "The Storm",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Storm.pdf",
+        "file_size_bytes": 116994,
+        "page_range": [
+          88,
+          91
+        ]
+      },
+      {
+        "song_title": "The Storm",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Storm.pdf",
+        "file_size_bytes": 33184,
+        "page_range": [
+          91,
+          92
+        ]
+      },
+      {
+        "song_title": "Under the Sea",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Music By Alan Menken, Lyrics By Howard Ashman - Under The Sea.pdf",
+        "file_size_bytes": 179624,
+        "page_range": [
+          92,
+          97
+        ]
+      },
+      {
+        "song_title": "Under the Sea",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - Under The Sea.pdf",
+        "file_size_bytes": 461106,
+        "page_range": [
+          97,
+          111
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 35729,
+        "page_range": [
+          111,
+          112
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 184565,
+        "page_range": [
+          112,
+          117
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 38110,
+        "page_range": [
+          117,
+          118
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 41068,
+        "page_range": [
+          118,
+          119
+        ]
+      },
+      {
+        "song_title": "The Lord Worketh",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Lord Worketh.pdf",
+        "file_size_bytes": 32084,
+        "page_range": [
+          119,
+          120
+        ]
+      },
+      {
+        "song_title": "The Little Mermaids' Pav. 28/1005",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaids' Pav. 28-1005.pdf",
+        "file_size_bytes": 90402,
+        "page_range": [
+          120,
+          122
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 803193,
+        "page_range": [
+          122,
+          145
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 41266,
+        "page_range": [
+          145,
+          146
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 167617,
+        "page_range": [
+          146,
+          151
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 121433,
+        "page_range": [
+          151,
+          154
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 36720,
+        "page_range": [
+          154,
+          155
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 92562,
+        "page_range": [
+          155,
+          157
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 137145,
+        "page_range": [
+          157,
+          162
+        ]
+      },
+      {
+        "song_title": "Kiss the Girl",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - Kiss The Girl.pdf",
+        "file_size_bytes": 153376,
+        "page_range": [
+          162,
+          166
+        ]
+      },
+      {
+        "song_title": "All Good Things Must End",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - All Good Things Must End.pdf",
+        "file_size_bytes": 79658,
+        "page_range": [
+          166,
+          168
+        ]
+      },
+      {
+        "song_title": "All Good Things Must End",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - All Good Things Must End.pdf",
+        "file_size_bytes": 106199,
+        "page_range": [
+          168,
+          171
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 65025,
+        "page_range": [
+          171,
+          173
+        ]
+      },
+      {
+        "song_title": "The Little Mermaid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score.pdf/Songs/Unknown Artist - The Little Mermaid.pdf",
+        "file_size_bytes": 99723,
+        "page_range": [
+          173,
+          175
+        ]
+      }
+    ]
+  }
+}

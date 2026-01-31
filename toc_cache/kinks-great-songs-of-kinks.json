@@ -1,0 +1,154 @@
+{
+  "book_id": "kinks-great-songs-of-kinks",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Apeman",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Arthur",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Autumn Almanac",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Days",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Deadend Street",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Death Of A Clown",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lola",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shangrila",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunny Afternoon",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Waterloo Sunset",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Deadend Street",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Great Songs Of Kinks/Songs/Kinks - Deadend Street.pdf",
+        "file_size_bytes": 1348217,
+        "page_range": [
+          2,
+          8
+        ]
+      },
+      {
+        "song_title": "Apeman",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Great Songs Of Kinks/Songs/Kinks - Apeman.pdf",
+        "file_size_bytes": 1333929,
+        "page_range": [
+          8,
+          14
+        ]
+      },
+      {
+        "song_title": "Death Of A Clown",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Great Songs Of Kinks/Songs/Kinks - Death Of A Clown.pdf",
+        "file_size_bytes": 716890,
+        "page_range": [
+          14,
+          17
+        ]
+      },
+      {
+        "song_title": "Waterloo Sunset",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Great Songs Of Kinks/Songs/Kinks - Waterloo Sunset.pdf",
+        "file_size_bytes": 570280,
+        "page_range": [
+          17,
+          20
+        ]
+      },
+      {
+        "song_title": "Lola",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Great Songs Of Kinks/Songs/Kinks - Lola.pdf",
+        "file_size_bytes": 1436501,
+        "page_range": [
+          20,
+          27
+        ]
+      },
+      {
+        "song_title": "Days",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Great Songs Of Kinks/Songs/Kinks - Days.pdf",
+        "file_size_bytes": 2006181,
+        "page_range": [
+          27,
+          36
+        ]
+      },
+      {
+        "song_title": "Autumn Almanac",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Great Songs Of Kinks/Songs/Kinks - Autumn Almanac.pdf",
+        "file_size_bytes": 981971,
+        "page_range": [
+          36,
+          40
+        ]
+      },
+      {
+        "song_title": "Shangrila",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Great Songs Of Kinks/Songs/Kinks - Shangrila.pdf",
+        "file_size_bytes": 1657351,
+        "page_range": [
+          40,
+          48
+        ]
+      }
+    ]
+  }
+}

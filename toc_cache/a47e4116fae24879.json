@@ -1,0 +1,473 @@
+{
+  "book_id": "a47e4116fae24879",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Elvis, by Ray Connolly",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Discography",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Big Hunk Of Love",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ain't That Loving You Baby",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All Shook Up",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Mess Of Blues",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Anything That's Part Of You",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Anyway You Want Me",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Are You Lonesome Tonight",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Baby I Don't Care",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Baby Lets Play House",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blue Christmas",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blue Suede Shoes",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Burning Love",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Can't Help Falling In Love",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Crying In The Chapel",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Devil In Disguise",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Be Cruel",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Cry Daddy",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Leave Me Now",
+        "page_number": 79,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Be Bas",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Girl Of My Best Friend",
+        "page_number": 86,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Got A Lot Of Livin' To Do",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hard Headed Woman",
+        "page_number": 92,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Heartbreak Hotel",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "His Latest Flame",
+        "page_number": 101,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Home Cecilia",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hunk Of You",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Got Stung",
+        "page_number": 107,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Gotta Know",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Just Can't Help Believin'",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Love You Because",
+        "page_number": 120,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Need Your Love Tonight",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm Left, You're Right, She's Gone",
+        "page_number": 128,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In The Ghetto",
+        "page_number": 136,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I've Lost You",
+        "page_number": 119,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It Hurts Me",
+        "page_number": 122,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Want You, I Need You, I Love You",
+        "page_number": 134,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Now Or Never",
+        "page_number": 132,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jailhouse Rock",
+        "page_number": 136,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kentucky Rain",
+        "page_number": 138,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "King Creole",
+        "page_number": 142,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lawdy, Miss Clawdy",
+        "page_number": 144,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Sister",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Long Tall Sally",
+        "page_number": 148,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Me",
+        "page_number": 150,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Me Tender",
+        "page_number": 152,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Loving You",
+        "page_number": 154,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mean Woman Blues",
+        "page_number": 156,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Money Honey",
+        "page_number": 160,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Moody Blue",
+        "page_number": 163,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Baby Left Me",
+        "page_number": 168,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Boy",
+        "page_number": 172,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mystery Train",
+        "page_number": 170,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Old Shep",
+        "page_number": 175,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Night",
+        "page_number": 178,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Paralyzed",
+        "page_number": 180,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ready Teddy",
+        "page_number": 182,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Return To Sender",
+        "page_number": 185,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She's Not You",
+        "page_number": 188,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "So Glad You're Mine",
+        "page_number": 190,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Stuck On You",
+        "page_number": 198,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Suspicion",
+        "page_number": 192,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Teddy Bear",
+        "page_number": 194,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "That's All Right",
+        "page_number": 196,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Trying To Get To You",
+        "page_number": 201,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "There Goes My Everything",
+        "page_number": 204,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Too Much",
+        "page_number": 206,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Treat Me Nice",
+        "page_number": 208,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Truth Truth",
+        "page_number": 210,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Until Its Time for You To Go",
+        "page_number": 213,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Way Down",
+        "page_number": 218,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wear My Ring Around Your Neck",
+        "page_number": 222,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "When My Blue Moon Turns To Gold Again",
+        "page_number": 225,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wild In The Country",
+        "page_number": 228,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wooden Heart",
+        "page_number": 230,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

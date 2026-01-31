@@ -1,0 +1,83 @@
+{
+  "book_id": "1e10ef9dc3188dc7",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Believe",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Chart Hits 04-05/Songs/From Warner Bros. Pictures' The Polar Express (words And Music By Glen Ballard And Alan Silvestri) - Believe.pdf",
+        "file_size_bytes": 435302,
+        "page_range": [
+          4,
+          9
+        ]
+      },
+      {
+        "song_title": "Breakaway",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Chart Hits 04-05/Songs/Bridget Benenate, Avril Lavigne And Matthew Gerrard - Breakaway.pdf",
+        "file_size_bytes": 6287721,
+        "page_range": [
+          9,
+          64
+        ]
+      },
+      {
+        "song_title": "My Happy Ending",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Chart Hits 04-05/Songs/Avril Lavigne, Butch Walker - My Happy Ending.pdf",
+        "file_size_bytes": 1710577,
+        "page_range": [
+          64,
+          77
+        ]
+      },
+      {
+        "song_title": "On the Way Down",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Chart Hits 04-05/Songs/Ryan Cabrera, Curt Frasca And Sabelle Breer - On The Way Down.pdf",
+        "file_size_bytes": 3210788,
+        "page_range": [
+          77,
+          101
+        ]
+      },
+      {
+        "song_title": "This Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Chart Hits 04-05/Songs/Adam Levine And Jesse Carmichael - This Love.pdf",
+        "file_size_bytes": 935022,
+        "page_range": [
+          101,
+          114
+        ]
+      },
+      {
+        "song_title": "White Houses",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Chart Hits 04-05/Songs/Vanessa Carlton And Stephen Jenkins - White Houses.pdf",
+        "file_size_bytes": 682145,
+        "page_range": [
+          114,
+          123
+        ]
+      },
+      {
+        "song_title": "World on Fire",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Chart Hits 04-05/Songs/Sarah Mclachlan And Pierre Marchand - World On Fire.pdf",
+        "file_size_bytes": 1656930,
+        "page_range": [
+          123,
+          136
+        ]
+      }
+    ]
+  }
+}

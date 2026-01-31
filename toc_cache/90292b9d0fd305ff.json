@@ -1,0 +1,92 @@
+{
+  "book_id": "90292b9d0fd305ff",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "I Feel the Earth Move",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Too Late",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jazzman",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(You Make Me Feel Like) A Natural Woman",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "So Far Away",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sweet Seasons",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Will You Love Me Tomorrow (Will You Still Love Me Tomorrow)",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You've Got a Friend",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "I Feel the Earth Move",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/Carole King - Keyboard Play-along Vol 22/Songs/Carole King - I Feel The Earth Move.pdf",
+        "file_size_bytes": 660592,
+        "page_range": [
+          2,
+          16
+        ]
+      },
+      {
+        "song_title": "Jazzman",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/Carole King - Keyboard Play-along Vol 22/Songs/Carole King - Jazzman.pdf",
+        "file_size_bytes": 716848,
+        "page_range": [
+          16,
+          31
+        ]
+      },
+      {
+        "song_title": "So Far Away",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/Carole King - Keyboard Play-along Vol 22/Songs/Carole King - So Far Away.pdf",
+        "file_size_bytes": 1363142,
+        "page_range": [
+          31,
+          63
+        ]
+      }
+    ]
+  }
+}

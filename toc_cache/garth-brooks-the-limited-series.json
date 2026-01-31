@@ -1,0 +1,372 @@
+{
+  "book_id": "garth-brooks-the-limited-series",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Against The Grain",
+        "page_number": 146,
+        "artist": "Ropin' The Wind",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ain't Going Down (Til The Sun Comes Up)",
+        "page_number": 241,
+        "artist": "In Pieces",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alabama Clay",
+        "page_number": 66,
+        "artist": "Garth Brooks",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "American Honky-Tonk Bar Association",
+        "page_number": 280,
+        "artist": "In Pieces",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Anonymous",
+        "page_number": 286,
+        "artist": "In Pieces",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Beaches Of Cheyenne",
+        "page_number": 296,
+        "artist": "Fresh Horses",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Burning Bridges",
+        "page_number": 141,
+        "artist": "Ropin' The Wind",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Callin' Baton Rouge",
+        "page_number": 256,
+        "artist": "In Pieces",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Change",
+        "page_number": 300,
+        "artist": "Fresh Horses",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cold Shoulder",
+        "page_number": 162,
+        "artist": "Ropin' The Wind",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cowboy Bill",
+        "page_number": 70,
+        "artist": "Garth Brooks",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Cowboy Song",
+        "page_number": 246,
+        "artist": "In Pieces",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cowboys And Angels",
+        "page_number": 304,
+        "artist": "Fresh Horses",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Dance",
+        "page_number": 73,
+        "artist": "Garth Brooks",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dixie Chicken",
+        "page_number": 192,
+        "artist": "The Chase",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Every Now And Then",
+        "page_number": 196,
+        "artist": "The Chase",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Everytime That It Rains",
+        "page_number": 76,
+        "artist": "Garth Brooks",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Face To Face",
+        "page_number": 210,
+        "artist": "The Chase",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Fever",
+        "page_number": 312,
+        "artist": "Fresh Horses",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Know One",
+        "page_number": 79,
+        "artist": "Garth Brooks",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If Tomorrow Never Comes",
+        "page_number": 84,
+        "artist": "Garth Brooks",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Against The Grain": "Ropin' The Wind",
+      "Ain't Going Down (Til The Sun Comes Up)": "In Pieces",
+      "Alabama Clay": "Garth Brooks",
+      "American Honky-Tonk Bar Association": "In Pieces",
+      "Anonymous": "In Pieces",
+      "The Beaches Of Cheyenne": "Fresh Horses",
+      "Burning Bridges": "Ropin' The Wind",
+      "Callin' Baton Rouge": "In Pieces",
+      "The Change": "Fresh Horses",
+      "Cold Shoulder": "Ropin' The Wind",
+      "Cowboy Bill": "Garth Brooks",
+      "The Cowboy Song": "In Pieces",
+      "Cowboys And Angels": "Fresh Horses",
+      "The Dance": "Garth Brooks",
+      "Dixie Chicken": "The Chase",
+      "Every Now And Then": "The Chase",
+      "Everytime That It Rains": "Garth Brooks",
+      "Face To Face": "The Chase",
+      "The Fever": "Fresh Horses",
+      "I Know One": "Garth Brooks",
+      "If Tomorrow Never Comes": "Garth Brooks"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Alabama Clay",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Alabama Clay.pdf",
+        "file_size_bytes": 345542,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "Cowboy Bill",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Cowboy Bill.pdf",
+        "file_size_bytes": 262620,
+        "page_range": [
+          6,
+          9
+        ]
+      },
+      {
+        "song_title": "The Dance",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - The Dance.pdf",
+        "file_size_bytes": 261992,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "Everytime That It Rains",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Everytime That It Rains.pdf",
+        "file_size_bytes": 279512,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "I Know One",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - I Know One.pdf",
+        "file_size_bytes": 419392,
+        "page_range": [
+          15,
+          20
+        ]
+      },
+      {
+        "song_title": "If Tomorrow Never Comes",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - If Tomorrow Never Comes.pdf",
+        "file_size_bytes": 5744464,
+        "page_range": [
+          20,
+          77
+        ]
+      },
+      {
+        "song_title": "Burning Bridges",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Burning Bridges.pdf",
+        "file_size_bytes": 352632,
+        "page_range": [
+          77,
+          82
+        ]
+      },
+      {
+        "song_title": "Against The Grain",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Against The Grain.pdf",
+        "file_size_bytes": 1271920,
+        "page_range": [
+          82,
+          98
+        ]
+      },
+      {
+        "song_title": "Cold Shoulder",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Cold Shoulder.pdf",
+        "file_size_bytes": 2458247,
+        "page_range": [
+          98,
+          128
+        ]
+      },
+      {
+        "song_title": "Dixie Chicken",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Dixie Chicken.pdf",
+        "file_size_bytes": 407875,
+        "page_range": [
+          128,
+          133
+        ]
+      },
+      {
+        "song_title": "Every Now And Then",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Every Now And Then.pdf",
+        "file_size_bytes": 1233015,
+        "page_range": [
+          133,
+          147
+        ]
+      },
+      {
+        "song_title": "Face To Face",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Face To Face.pdf",
+        "file_size_bytes": 2920935,
+        "page_range": [
+          147,
+          178
+        ]
+      },
+      {
+        "song_title": "Ain't Going Down (Til The Sun Comes Up)",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Ain't Going Down (til The Sun Comes Up).pdf",
+        "file_size_bytes": 359174,
+        "page_range": [
+          178,
+          183
+        ]
+      },
+      {
+        "song_title": "The Cowboy Song",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - The Cowboy Song.pdf",
+        "file_size_bytes": 739976,
+        "page_range": [
+          183,
+          193
+        ]
+      },
+      {
+        "song_title": "Callin' Baton Rouge",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Callin' Baton Rouge.pdf",
+        "file_size_bytes": 1836884,
+        "page_range": [
+          193,
+          217
+        ]
+      },
+      {
+        "song_title": "American Honky-Tonk Bar Association",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - American Honky-tonk Bar Association.pdf",
+        "file_size_bytes": 409385,
+        "page_range": [
+          217,
+          223
+        ]
+      },
+      {
+        "song_title": "Anonymous",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Anonymous.pdf",
+        "file_size_bytes": 1116557,
+        "page_range": [
+          223,
+          233
+        ]
+      },
+      {
+        "song_title": "The Beaches Of Cheyenne",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - The Beaches Of Cheyenne.pdf",
+        "file_size_bytes": 316002,
+        "page_range": [
+          233,
+          237
+        ]
+      },
+      {
+        "song_title": "The Change",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - The Change.pdf",
+        "file_size_bytes": 327284,
+        "page_range": [
+          237,
+          241
+        ]
+      },
+      {
+        "song_title": "Cowboys And Angels",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - Cowboys And Angels.pdf",
+        "file_size_bytes": 643887,
+        "page_range": [
+          241,
+          249
+        ]
+      },
+      {
+        "song_title": "The Fever",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/The Limited Series/Songs/Garth Brooks - The Fever.pdf",
+        "file_size_bytes": 3098999,
+        "page_range": [
+          249,
+          287
+        ]
+      }
+    ]
+  }
+}

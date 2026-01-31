@@ -1,0 +1,30 @@
+{
+  "book_id": "elton-john-goodbye-yellow-brick-road",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Funeral for a Friend",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Funeral for a Friend",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Goodbye Yellow Brick Road/Songs/Elton John, Bernie Taupin - Funeral For A Friend.pdf",
+        "file_size_bytes": 23604621,
+        "page_range": [
+          1,
+          68
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "book_id": "3a4cf59a2e2940dc",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "From a Buick 6",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - Highway 61 Revisited/Songs/Bob Dylan - From A Buick 6.pdf",
+        "file_size_bytes": 5963678,
+        "page_range": [
+          29,
+          36
+        ]
+      }
+    ]
+  }
+}

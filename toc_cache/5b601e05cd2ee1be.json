@@ -1,0 +1,163 @@
+{
+  "book_id": "5b601e05cd2ee1be",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Livin' Thing",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Livin' Thing.pdf",
+        "file_size_bytes": 1801172,
+        "page_range": [
+          7,
+          10
+        ]
+      },
+      {
+        "song_title": "Telephone Line",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Telephone Line.pdf",
+        "file_size_bytes": 15137594,
+        "page_range": [
+          10,
+          35
+        ]
+      },
+      {
+        "song_title": "Sweet Talkin' Woman",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Sweet Talkin' Woman.pdf",
+        "file_size_bytes": 3814906,
+        "page_range": [
+          35,
+          41
+        ]
+      },
+      {
+        "song_title": "Boy Blue",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Boy Blue.pdf",
+        "file_size_bytes": 3329682,
+        "page_range": [
+          41,
+          46
+        ]
+      },
+      {
+        "song_title": "It's Over",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - It's Over.pdf",
+        "file_size_bytes": 10820109,
+        "page_range": [
+          46,
+          63
+        ]
+      },
+      {
+        "song_title": "Mission (A World Record)",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Mission (a World Record).pdf",
+        "file_size_bytes": 3213724,
+        "page_range": [
+          63,
+          68
+        ]
+      },
+      {
+        "song_title": "Wild West Hero",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Wild West Hero.pdf",
+        "file_size_bytes": 6938920,
+        "page_range": [
+          68,
+          79
+        ]
+      },
+      {
+        "song_title": "Night in the City",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Night In The City.pdf",
+        "file_size_bytes": 7381637,
+        "page_range": [
+          79,
+          91
+        ]
+      },
+      {
+        "song_title": "Above the Clouds",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Above The Clouds.pdf",
+        "file_size_bytes": 4784840,
+        "page_range": [
+          91,
+          99
+        ]
+      },
+      {
+        "song_title": "Shangri-La",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Shangri-la.pdf",
+        "file_size_bytes": 1756256,
+        "page_range": [
+          99,
+          102
+        ]
+      },
+      {
+        "song_title": "Nightrider",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Nightrider.pdf",
+        "file_size_bytes": 4724854,
+        "page_range": [
+          102,
+          110
+        ]
+      },
+      {
+        "song_title": "Poker",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Poker.pdf",
+        "file_size_bytes": 5871940,
+        "page_range": [
+          110,
+          120
+        ]
+      },
+      {
+        "song_title": "Waterfall",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Waterfall.pdf",
+        "file_size_bytes": 5719610,
+        "page_range": [
+          120,
+          129
+        ]
+      },
+      {
+        "song_title": "Showdown",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Showdown.pdf",
+        "file_size_bytes": 1847929,
+        "page_range": [
+          129,
+          132
+        ]
+      },
+      {
+        "song_title": "Ma-Ma-Ma Belle",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Anthology [pvg]/Songs/Elo - Ma-ma-ma Belle.pdf",
+        "file_size_bytes": 7883237,
+        "page_range": [
+          132,
+          146
+        ]
+      }
+    ]
+  }
+}

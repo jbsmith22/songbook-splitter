@@ -1,0 +1,48 @@
+{
+  "book_id": "14305c8dfea42cb1",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Your Song",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'd buy a big house",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "this one's for you",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "And you can tell ev'ry-bod-y",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Your Song",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Very Best Of/Songs/Elton John - Your Song.pdf",
+        "file_size_bytes": 2420137,
+        "page_range": [
+          48,
+          126
+        ]
+      }
+    ]
+  }
+}

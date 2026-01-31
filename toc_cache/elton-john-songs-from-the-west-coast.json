@@ -1,0 +1,32 @@
+{
+  "book_id": "elton-john-songs-from-the-west-coast",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "The Emperor's New Clothes",
+        "page_number": 72,
+        "artist": "Elton John",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "The Emperor's New Clothes": "Elton John"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Emperor's New Clothes",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Songs From The West Coast/Songs/Elton John - The Emperor's New Clothes.pdf",
+        "file_size_bytes": 4473037,
+        "page_range": [
+          1,
+          65
+        ]
+      }
+    ]
+  }
+}

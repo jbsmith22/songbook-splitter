@@ -1,0 +1,30 @@
+{
+  "book_id": "ben-folds-rockin-the-suburbs-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "annie waits",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "annie waits",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Rockin' The Suburbs [book]/Songs/Ben Folds - Annie Waits.pdf",
+        "file_size_bytes": 5480642,
+        "page_range": [
+          0,
+          86
+        ]
+      }
+    ]
+  }
+}

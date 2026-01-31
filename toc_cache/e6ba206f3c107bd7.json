@@ -1,0 +1,33 @@
+{
+  "book_id": "e6ba206f3c107bd7",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Wild Horses",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/Garth Brooks - No Fences [guitar Tab]/Songs/Garth Brooks - Wild Horses.pdf",
+        "file_size_bytes": 231552,
+        "page_range": [
+          57,
+          62
+        ]
+      },
+      {
+        "song_title": "Wolves",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/Garth Brooks - No Fences [guitar Tab]/Songs/Garth Brooks - Wolves.pdf",
+        "file_size_bytes": 1649463,
+        "page_range": [
+          62,
+          70
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "bucket":  "jsmith-input",
+    "source_pdf_uri":  "s3://jsmith-input/books/_Broadway Shows/Various Artists - Little Shop Of Horrors (Broadway).pdf",
+    "artist":  "_Broadway Shows",
+    "key":  "books/_Broadway Shows/Various Artists - Little Shop Of Horrors (Broadway).pdf",
+    "book_id":  "d9d27279b3f1683c",
+    "book_name":  "Various Artists - Little Shop Of Horrors (Broadway)"
+}

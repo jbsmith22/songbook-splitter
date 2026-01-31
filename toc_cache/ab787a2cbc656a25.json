@@ -1,0 +1,30 @@
+{
+  "book_id": "ab787a2cbc656a25",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Sheep",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sheep",
+        "artist": "Pink Floyd",
+        "output_uri": "s3://jsmith-output/Pink Floyd/Pink Floyd - Anthology - P110-175/Songs/Pink Floyd - Sheep.pdf",
+        "file_size_bytes": 2828539,
+        "page_range": [
+          0,
+          66
+        ]
+      }
+    ]
+  }
+}

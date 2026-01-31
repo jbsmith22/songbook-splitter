@@ -1,0 +1,93 @@
+{
+  "book_id": "a834bfe09258b825",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sharp Dressed Man",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits/Songs/Zz Top - Sharp Dressed Man.pdf",
+        "file_size_bytes": 1994624,
+        "page_range": [
+          14,
+          68
+        ]
+      },
+      {
+        "song_title": "Cheap Sunglasses",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits/Songs/Zz Top - Cheap Sunglasses.pdf",
+        "file_size_bytes": 1482228,
+        "page_range": [
+          68,
+          110
+        ]
+      },
+      {
+        "song_title": "Pearl Necklace",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits/Songs/Zz Top - Pearl Necklace.pdf",
+        "file_size_bytes": 655563,
+        "page_range": [
+          110,
+          127
+        ]
+      },
+      {
+        "song_title": "Got Me Under Pressure",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits/Songs/Zz Top - Got Me Under Pressure.pdf",
+        "file_size_bytes": 792809,
+        "page_range": [
+          127,
+          149
+        ]
+      },
+      {
+        "song_title": "La Grange",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits/Songs/Zz Top - La Grange.pdf",
+        "file_size_bytes": 670686,
+        "page_range": [
+          149,
+          169
+        ]
+      },
+      {
+        "song_title": "Outro Solo",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits/Songs/Zz Top - Outro Solo.pdf",
+        "file_size_bytes": 109863,
+        "page_range": [
+          169,
+          172
+        ]
+      },
+      {
+        "song_title": "Planet of Women",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits/Songs/Zz Top - Planet Of Women.pdf",
+        "file_size_bytes": 705887,
+        "page_range": [
+          172,
+          192
+        ]
+      },
+      {
+        "song_title": "Tube Snake Boogie",
+        "artist": "ZZ Top",
+        "output_uri": "s3://jsmith-output/Zz Top/Zz Top- Greatest Hits/Songs/Zz Top - Tube Snake Boogie.pdf",
+        "file_size_bytes": 529619,
+        "page_range": [
+          192,
+          208
+        ]
+      }
+    ]
+  }
+}

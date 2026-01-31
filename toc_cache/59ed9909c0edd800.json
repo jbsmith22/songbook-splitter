@@ -1,0 +1,83 @@
+{
+  "book_id": "59ed9909c0edd800",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Cover Me",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born In The Usa/Songs/Bruce Springsteen - Cover Me.pdf",
+        "file_size_bytes": 3284954,
+        "page_range": [
+          5,
+          16
+        ]
+      },
+      {
+        "song_title": "Working On The Highway",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born In The Usa/Songs/Bruce Springsteen - Working On The Highway.pdf",
+        "file_size_bytes": 7309057,
+        "page_range": [
+          16,
+          39
+        ]
+      },
+      {
+        "song_title": "BOBBY JEAN",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born In The Usa/Songs/Bruce Springsteen - Bobby Jean.pdf",
+        "file_size_bytes": 5720145,
+        "page_range": [
+          39,
+          60
+        ]
+      },
+      {
+        "song_title": "My Hometown",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born In The Usa/Songs/Bruce Springsteen - My Hometown.pdf",
+        "file_size_bytes": 579949,
+        "page_range": [
+          60,
+          62
+        ]
+      },
+      {
+        "song_title": "My Hometown",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born In The Usa/Songs/Bruce Springsteen - My Hometown.pdf",
+        "file_size_bytes": 594760,
+        "page_range": [
+          62,
+          64
+        ]
+      },
+      {
+        "song_title": "My Hometown",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born In The Usa/Songs/Bruce Springsteen - My Hometown.pdf",
+        "file_size_bytes": 416372,
+        "page_range": [
+          64,
+          66
+        ]
+      },
+      {
+        "song_title": "Pink Cadillac",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Born In The Usa/Songs/Bruce Springsteen - Pink Cadillac.pdf",
+        "file_size_bytes": 1425504,
+        "page_range": [
+          66,
+          71
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "book_id": "432e424c722d6385",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "carrying cathy",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Rockin' The Suburbs/Songs/Ben Folds - Carrying Cathy.pdf",
+        "file_size_bytes": 182349,
+        "page_range": [
+          6,
+          14
+        ]
+      },
+      {
+        "song_title": "fired",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Rockin' The Suburbs/Songs/Ben Folds - Fired.pdf",
+        "file_size_bytes": 219542,
+        "page_range": [
+          14,
+          24
+        ]
+      },
+      {
+        "song_title": "fred jones part 2",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Rockin' The Suburbs/Songs/Ben Folds - Fred Jones Part 2.pdf",
+        "file_size_bytes": 96435,
+        "page_range": [
+          24,
+          28
+        ]
+      },
+      {
+        "song_title": "gone",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Rockin' The Suburbs/Songs/Ben Folds - Gone.pdf",
+        "file_size_bytes": 119893,
+        "page_range": [
+          28,
+          33
+        ]
+      },
+      {
+        "song_title": "Hiro's Song",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Rockin' The Suburbs/Songs/Ben Folds - Hiro's Song.pdf",
+        "file_size_bytes": 178804,
+        "page_range": [
+          33,
+          40
+        ]
+      },
+      {
+        "song_title": "losing lisa",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Rockin' The Suburbs/Songs/Ben Folds - Losing Lisa.pdf",
+        "file_size_bytes": 295944,
+        "page_range": [
+          40,
+          53
+        ]
+      },
+      {
+        "song_title": "Rockin' the Suburbs",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Rockin' The Suburbs/Songs/Ben Folds - Rockin' The Suburbs.pdf",
+        "file_size_bytes": 759071,
+        "page_range": [
+          53,
+          86
+        ]
+      }
+    ]
+  }
+}

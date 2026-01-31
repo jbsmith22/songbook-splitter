@@ -1,0 +1,204 @@
+{
+  "book_id": "movie-and-tv-various-artists-music-from-the-movies-the-animated-collection",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Aladdin Marketplace",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Madagascar Best Friends / Zoosters Breakout",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "An American Tail Main Title",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Neighbour Totoro Catbus",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Belleville Rendez-vous Opening Theme / Jazzy Bach",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Over The Hedge Still",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Chicken Run Main Titles",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pinocchio Grand In Pleasure Island",
+        "page_number": 65,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fantasia The Sorcerer's Apprentice",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Porco Rosso The Era Of Adventuring Aviators / Piccolo Corp Ita / The Theme Of Marco And Gina",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Finding Nemo Wow / Nemo Egg (Main Title) / Fronds Like These",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Robots Robot City",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fritz The Cat Duke's Theme",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shrek True Love's First Kiss",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ghost In The Shell 2: Innocence The Doll House I & II",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Spongebob Squarepants Movie The Best Day Ever",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Howl's Moving Castle The Merry-Go-Round Of Life",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Toy Story I Will Go Sailing No More",
+        "page_number": 79,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ice Age Giving Back The Baby",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Valiant End Titles - March Of The R.A.F.S.",
+        "page_number": 84,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Jungle Book The Bare Necessities",
+        "page_number": 41,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wallace & Gromit: The Curse Of The Were-Rabbit A Grand Day Out / Wallace & Gromit",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kiki's Delivery Service On A Clear Day...",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Yellow Submarine Pepperland / Yellow Submarine In Pepperland",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Lion King Can You Feel The Love Tonight",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Aladdin Marketplace",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Music From The Movies The Animated Collection/Songs/Composed By Alan Menken - Aladdin Marketplace.pdf",
+        "file_size_bytes": 1653837,
+        "page_range": [
+          1,
+          34
+        ]
+      },
+      {
+        "song_title": "An American Tail Main Title",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Music From The Movies The Animated Collection/Songs/James Horner - An American Tail Main Title.pdf",
+        "file_size_bytes": 1355869,
+        "page_range": [
+          34,
+          59
+        ]
+      },
+      {
+        "song_title": "The Jungle Book The Bare Necessities",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Music From The Movies The Animated Collection/Songs/Composed By Terry Gilkyson - The Jungle Book The Bare Necessities.pdf",
+        "file_size_bytes": 1411328,
+        "page_range": [
+          59,
+          87
+        ]
+      },
+      {
+        "song_title": "Kiki's Delivery Service On A Clear Day...",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Music From The Movies The Animated Collection/Songs/Composed By Joe Hisaishi - Kiki's Delivery Service On A Clear Day.pdf",
+        "file_size_bytes": 356538,
+        "page_range": [
+          87,
+          94
+        ]
+      }
+    ]
+  }
+}

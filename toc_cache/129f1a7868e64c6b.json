@@ -1,0 +1,183 @@
+{
+  "book_id": "129f1a7868e64c6b",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Christmas Bells #1",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Christmas Bells #1.pdf",
+        "file_size_bytes": 827578,
+        "page_range": [
+          27,
+          42
+        ]
+      },
+      {
+        "song_title": "Light My Candle",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Light My Candle.pdf",
+        "file_size_bytes": 86272,
+        "page_range": [
+          42,
+          43
+        ]
+      },
+      {
+        "song_title": "Light My Candle",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Light My Candle.pdf",
+        "file_size_bytes": 1793800,
+        "page_range": [
+          43,
+          75
+        ]
+      },
+      {
+        "song_title": "Tango Maureen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Piano-conductor - Tango Maureen.pdf",
+        "file_size_bytes": 520820,
+        "page_range": [
+          75,
+          84
+        ]
+      },
+      {
+        "song_title": "Tango Maureen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Tango Maureen.pdf",
+        "file_size_bytes": 3913753,
+        "page_range": [
+          84,
+          153
+        ]
+      },
+      {
+        "song_title": "Christmas Bells",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Christmas Bells.pdf",
+        "file_size_bytes": 1724256,
+        "page_range": [
+          153,
+          186
+        ]
+      },
+      {
+        "song_title": "Over the Moon",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Over The Moon.pdf",
+        "file_size_bytes": 80434,
+        "page_range": [
+          186,
+          187
+        ]
+      },
+      {
+        "song_title": "Over the Moon - Playoff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Over The Moon - Playoff.pdf",
+        "file_size_bytes": 3146175,
+        "page_range": [
+          187,
+          230
+        ]
+      },
+      {
+        "song_title": "Seasons of Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Seasons Of Love.pdf",
+        "file_size_bytes": 454291,
+        "page_range": [
+          230,
+          237
+        ]
+      },
+      {
+        "song_title": "Seasons of Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Seasons Of Love.pdf",
+        "file_size_bytes": 1485552,
+        "page_range": [
+          237,
+          263
+        ]
+      },
+      {
+        "song_title": "Valentine's Day X-Over",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Valentine's Day X-over.pdf",
+        "file_size_bytes": 657802,
+        "page_range": [
+          263,
+          275
+        ]
+      },
+      {
+        "song_title": "Seasons of Love, B.",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Seasons Of Love, B.pdf",
+        "file_size_bytes": 1710804,
+        "page_range": [
+          275,
+          306
+        ]
+      },
+      {
+        "song_title": "Goodbye Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Goodbye Love.pdf",
+        "file_size_bytes": 546843,
+        "page_range": [
+          306,
+          316
+        ]
+      },
+      {
+        "song_title": "Goodbye Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Goodbye Love.pdf",
+        "file_size_bytes": 202358,
+        "page_range": [
+          316,
+          319
+        ]
+      },
+      {
+        "song_title": "Goodbye Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Roger - Goodbye Love.pdf",
+        "file_size_bytes": 184401,
+        "page_range": [
+          319,
+          322
+        ]
+      },
+      {
+        "song_title": "Goodbye Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Goodbye Love.pdf",
+        "file_size_bytes": 135321,
+        "page_range": [
+          322,
+          324
+        ]
+      },
+      {
+        "song_title": "Goodbye Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Goodbye Love.pdf",
+        "file_size_bytes": 3238233,
+        "page_range": [
+          324,
+          380
+        ]
+      }
+    ]
+  }
+}

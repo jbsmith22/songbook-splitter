@@ -1,0 +1,2113 @@
+{
+  "book_id": "beatles-complete-scores",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Across the Universe",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Across The Universe.pdf",
+        "file_size_bytes": 1483992,
+        "page_range": [
+          3,
+          9
+        ]
+      },
+      {
+        "song_title": "Act Naturally",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words By Vance Morrison, Music By Johnny Russell - Act Naturally.pdf",
+        "file_size_bytes": 1446922,
+        "page_range": [
+          9,
+          15
+        ]
+      },
+      {
+        "song_title": "All I've Got to Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - All I've Got To Do.pdf",
+        "file_size_bytes": 976249,
+        "page_range": [
+          15,
+          19
+        ]
+      },
+      {
+        "song_title": "All My Loving",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - All My Loving.pdf",
+        "file_size_bytes": 1250638,
+        "page_range": [
+          19,
+          24
+        ]
+      },
+      {
+        "song_title": "All Together Now",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - All Together Now.pdf",
+        "file_size_bytes": 1440129,
+        "page_range": [
+          24,
+          30
+        ]
+      },
+      {
+        "song_title": "All You Need Is Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - All You Need Is Love.pdf",
+        "file_size_bytes": 1207689,
+        "page_range": [
+          30,
+          35
+        ]
+      },
+      {
+        "song_title": "And I Love Her",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - And I Love Her.pdf",
+        "file_size_bytes": 1144554,
+        "page_range": [
+          35,
+          40
+        ]
+      },
+      {
+        "song_title": "And Your Bird Can Sing",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - And Your Bird Can Sing.pdf",
+        "file_size_bytes": 1463344,
+        "page_range": [
+          40,
+          46
+        ]
+      },
+      {
+        "song_title": "Anna (Go To Him)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Arthur Alexander - Anna (go To Him).pdf",
+        "file_size_bytes": 1466576,
+        "page_range": [
+          46,
+          52
+        ]
+      },
+      {
+        "song_title": "Another Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Another Girl.pdf",
+        "file_size_bytes": 995014,
+        "page_range": [
+          52,
+          56
+        ]
+      },
+      {
+        "song_title": "Any Time At All",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Any Time At All.pdf",
+        "file_size_bytes": 1187412,
+        "page_range": [
+          56,
+          61
+        ]
+      },
+      {
+        "song_title": "Ask Me Why",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Ask Me Why.pdf",
+        "file_size_bytes": 1203834,
+        "page_range": [
+          61,
+          66
+        ]
+      },
+      {
+        "song_title": "Baby It's You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Hal David, Burt Bacharach & Barney Williams - Baby It's You.pdf",
+        "file_size_bytes": 959261,
+        "page_range": [
+          66,
+          70
+        ]
+      },
+      {
+        "song_title": "Baby's in Black",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Baby's In Black.pdf",
+        "file_size_bytes": 936008,
+        "page_range": [
+          70,
+          74
+        ]
+      },
+      {
+        "song_title": "Baby You're a Rich Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Baby You're A Rich Man.pdf",
+        "file_size_bytes": 1456120,
+        "page_range": [
+          74,
+          80
+        ]
+      },
+      {
+        "song_title": "Back in the USSR",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Back In The Ussr.pdf",
+        "file_size_bytes": 1926946,
+        "page_range": [
+          80,
+          87
+        ]
+      },
+      {
+        "song_title": "Bad Boy",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Larry Williams - Bad Boy.pdf",
+        "file_size_bytes": 1245354,
+        "page_range": [
+          87,
+          92
+        ]
+      },
+      {
+        "song_title": "The Ballad of John and Yoko",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - The Ballad Of John And Yoko.pdf",
+        "file_size_bytes": 1269414,
+        "page_range": [
+          92,
+          97
+        ]
+      },
+      {
+        "song_title": "Because",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Because.pdf",
+        "file_size_bytes": 980813,
+        "page_range": [
+          97,
+          101
+        ]
+      },
+      {
+        "song_title": "Being for the Benefit of Mr. Kite",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Being For The Benefit Of Mr. Kite.pdf",
+        "file_size_bytes": 1458030,
+        "page_range": [
+          101,
+          107
+        ]
+      },
+      {
+        "song_title": "Birthday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Birthday.pdf",
+        "file_size_bytes": 1588019,
+        "page_range": [
+          107,
+          113
+        ]
+      },
+      {
+        "song_title": "Blackbird",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Blackbird.pdf",
+        "file_size_bytes": 932018,
+        "page_range": [
+          113,
+          117
+        ]
+      },
+      {
+        "song_title": "Blue Jay Way",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Blue Jay Way.pdf",
+        "file_size_bytes": 1217731,
+        "page_range": [
+          117,
+          122
+        ]
+      },
+      {
+        "song_title": "Boys",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Luther Dixon & Wes Ferrell - Boys.pdf",
+        "file_size_bytes": 1493756,
+        "page_range": [
+          122,
+          128
+        ]
+      },
+      {
+        "song_title": "Can't Buy Me Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Can't Buy Me Love.pdf",
+        "file_size_bytes": 1383445,
+        "page_range": [
+          128,
+          134
+        ]
+      },
+      {
+        "song_title": "Carry That Weight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Carry That Weight.pdf",
+        "file_size_bytes": 969635,
+        "page_range": [
+          134,
+          138
+        ]
+      },
+      {
+        "song_title": "Chains",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Gerry Goffin & Carole King - Chains.pdf",
+        "file_size_bytes": 918768,
+        "page_range": [
+          138,
+          142
+        ]
+      },
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Come Together.pdf",
+        "file_size_bytes": 2727648,
+        "page_range": [
+          142,
+          153
+        ]
+      },
+      {
+        "song_title": "Cry Baby Cry",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Cry Baby Cry.pdf",
+        "file_size_bytes": 1031497,
+        "page_range": [
+          153,
+          157
+        ]
+      },
+      {
+        "song_title": "A Day in the Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - A Day In The Life.pdf",
+        "file_size_bytes": 2515979,
+        "page_range": [
+          157,
+          167
+        ]
+      },
+      {
+        "song_title": "Day Tripper",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Day Tripper.pdf",
+        "file_size_bytes": 1654794,
+        "page_range": [
+          167,
+          174
+        ]
+      },
+      {
+        "song_title": "Dear Prudence",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Dear Prudence.pdf",
+        "file_size_bytes": 1856725,
+        "page_range": [
+          174,
+          181
+        ]
+      },
+      {
+        "song_title": "Devil in Her Heart",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Richard B. Dopkin - Devil In Her Heart.pdf",
+        "file_size_bytes": 1011847,
+        "page_range": [
+          181,
+          185
+        ]
+      },
+      {
+        "song_title": "Dig a Pony",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Dig A Pony.pdf",
+        "file_size_bytes": 1503389,
+        "page_range": [
+          185,
+          191
+        ]
+      },
+      {
+        "song_title": "Dig It",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon, Paul Mccartney, George Harrison & Richard Starkey - Dig It.pdf",
+        "file_size_bytes": 912491,
+        "page_range": [
+          191,
+          195
+        ]
+      },
+      {
+        "song_title": "Dizzy Miss Lizzy",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Larry Williams - Dizzy Miss Lizzy.pdf",
+        "file_size_bytes": 1282096,
+        "page_range": [
+          195,
+          200
+        ]
+      },
+      {
+        "song_title": "Doctor Robert",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon And Paul Mccartney - Doctor Robert.pdf",
+        "file_size_bytes": 1240766,
+        "page_range": [
+          200,
+          205
+        ]
+      },
+      {
+        "song_title": "Don't Bother Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Don't Bother Me.pdf",
+        "file_size_bytes": 1421381,
+        "page_range": [
+          205,
+          211
+        ]
+      },
+      {
+        "song_title": "Don't Let Me Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Don't Let Me Down.pdf",
+        "file_size_bytes": 1279607,
+        "page_range": [
+          211,
+          216
+        ]
+      },
+      {
+        "song_title": "Don't Pass Me By",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Ringo Starr - Don't Pass Me By.pdf",
+        "file_size_bytes": 1495556,
+        "page_range": [
+          216,
+          222
+        ]
+      },
+      {
+        "song_title": "Do You Want to Know a Secret?",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Do You Want To Know A Secret-.pdf",
+        "file_size_bytes": 715796,
+        "page_range": [
+          222,
+          225
+        ]
+      },
+      {
+        "song_title": "Drive My Car",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Drive My Car.pdf",
+        "file_size_bytes": 1255816,
+        "page_range": [
+          225,
+          230
+        ]
+      },
+      {
+        "song_title": "Eight Days a Week",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon, Paul Mccartney - Eight Days A Week.pdf",
+        "file_size_bytes": 905528,
+        "page_range": [
+          230,
+          234
+        ]
+      },
+      {
+        "song_title": "Eleanor Rigby",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Eleanor Rigby.pdf",
+        "file_size_bytes": 909083,
+        "page_range": [
+          234,
+          238
+        ]
+      },
+      {
+        "song_title": "The End",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - The End.pdf",
+        "file_size_bytes": 1678095,
+        "page_range": [
+          238,
+          245
+        ]
+      },
+      {
+        "song_title": "Everybody's Got Something to Hide Except Me and My Monkey",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon And Paul Mccartney - Everybody's Got Something To Hide Except Me And My Monkey.pdf",
+        "file_size_bytes": 984079,
+        "page_range": [
+          245,
+          249
+        ]
+      },
+      {
+        "song_title": "Everybody's Trying to Be My Baby",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Carl Lee Perkins - Everybody's Trying To Be My Baby.pdf",
+        "file_size_bytes": 1853537,
+        "page_range": [
+          249,
+          257
+        ]
+      },
+      {
+        "song_title": "Every Little Thing",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Every Little Thing.pdf",
+        "file_size_bytes": 959101,
+        "page_range": [
+          257,
+          261
+        ]
+      },
+      {
+        "song_title": "Fixing a Hole",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Fixing A Hole.pdf",
+        "file_size_bytes": 1638571,
+        "page_range": [
+          261,
+          268
+        ]
+      },
+      {
+        "song_title": "Flying",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/By John Lennon, Paul Mccartney, George Harrison And Richard Starkey - Flying.pdf",
+        "file_size_bytes": 1196528,
+        "page_range": [
+          268,
+          273
+        ]
+      },
+      {
+        "song_title": "Fool on the Hill",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Fool On The Hill.pdf",
+        "file_size_bytes": 1378739,
+        "page_range": [
+          273,
+          279
+        ]
+      },
+      {
+        "song_title": "For No One",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - For No One.pdf",
+        "file_size_bytes": 950056,
+        "page_range": [
+          279,
+          283
+        ]
+      },
+      {
+        "song_title": "For You Blue",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - For You Blue.pdf",
+        "file_size_bytes": 1178965,
+        "page_range": [
+          283,
+          288
+        ]
+      },
+      {
+        "song_title": "From Me To You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - From Me To You.pdf",
+        "file_size_bytes": 953206,
+        "page_range": [
+          288,
+          292
+        ]
+      },
+      {
+        "song_title": "Get Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Get Back.pdf",
+        "file_size_bytes": 1845114,
+        "page_range": [
+          292,
+          299
+        ]
+      },
+      {
+        "song_title": "Getting Better",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Getting Better.pdf",
+        "file_size_bytes": 2255747,
+        "page_range": [
+          299,
+          308
+        ]
+      },
+      {
+        "song_title": "Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon, Paul Mccartney - Girl.pdf",
+        "file_size_bytes": 1200103,
+        "page_range": [
+          308,
+          313
+        ]
+      },
+      {
+        "song_title": "Glass Onion",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Glass Onion.pdf",
+        "file_size_bytes": 1021888,
+        "page_range": [
+          313,
+          317
+        ]
+      },
+      {
+        "song_title": "Golden Slumbers",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Golden Slumbers.pdf",
+        "file_size_bytes": 699933,
+        "page_range": [
+          317,
+          320
+        ]
+      },
+      {
+        "song_title": "Good Day Sunshine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Good Day Sunshine.pdf",
+        "file_size_bytes": 1428551,
+        "page_range": [
+          320,
+          326
+        ]
+      },
+      {
+        "song_title": "Good Morning Good Morning",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Good Morning Good Morning.pdf",
+        "file_size_bytes": 1774868,
+        "page_range": [
+          326,
+          333
+        ]
+      },
+      {
+        "song_title": "Goodnight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Goodnight.pdf",
+        "file_size_bytes": 1161237,
+        "page_range": [
+          333,
+          338
+        ]
+      },
+      {
+        "song_title": "Got to Get You Into My Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Got To Get You Into My Life.pdf",
+        "file_size_bytes": 1346290,
+        "page_range": [
+          338,
+          344
+        ]
+      },
+      {
+        "song_title": "Happiness Is A Warm Gun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon, Paul Mccartney - Happiness Is A Warm Gun.pdf",
+        "file_size_bytes": 1542124,
+        "page_range": [
+          344,
+          350
+        ]
+      },
+      {
+        "song_title": "A Hard Day's Night",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - A Hard Day's Night.pdf",
+        "file_size_bytes": 1458037,
+        "page_range": [
+          350,
+          356
+        ]
+      },
+      {
+        "song_title": "Hello Goodbye",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Hello Goodbye.pdf",
+        "file_size_bytes": 1476193,
+        "page_range": [
+          356,
+          362
+        ]
+      },
+      {
+        "song_title": "Help!",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Help!.pdf",
+        "file_size_bytes": 1470804,
+        "page_range": [
+          362,
+          368
+        ]
+      },
+      {
+        "song_title": "Helter Skelter",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Helter Skelter.pdf",
+        "file_size_bytes": 2041929,
+        "page_range": [
+          368,
+          376
+        ]
+      },
+      {
+        "song_title": "Here Comes the Sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Here Comes The Sun.pdf",
+        "file_size_bytes": 1730233,
+        "page_range": [
+          376,
+          383
+        ]
+      },
+      {
+        "song_title": "Here, There and Everywhere",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Here, There And Everywhere.pdf",
+        "file_size_bytes": 941605,
+        "page_range": [
+          383,
+          387
+        ]
+      },
+      {
+        "song_title": "Her Majesty",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Her Majesty.pdf",
+        "file_size_bytes": 474188,
+        "page_range": [
+          387,
+          389
+        ]
+      },
+      {
+        "song_title": "Hey Bulldog",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Hey Bulldog.pdf",
+        "file_size_bytes": 1157008,
+        "page_range": [
+          389,
+          394
+        ]
+      },
+      {
+        "song_title": "Hey Jude",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Hey Jude.pdf",
+        "file_size_bytes": 1283143,
+        "page_range": [
+          394,
+          399
+        ]
+      },
+      {
+        "song_title": "Hold Me Tight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Hold Me Tight.pdf",
+        "file_size_bytes": 704352,
+        "page_range": [
+          399,
+          402
+        ]
+      },
+      {
+        "song_title": "Honey Don't",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Carl Lee Perkins - Honey Don't.pdf",
+        "file_size_bytes": 1597519,
+        "page_range": [
+          402,
+          409
+        ]
+      },
+      {
+        "song_title": "Honey Pie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Honey Pie.pdf",
+        "file_size_bytes": 1684925,
+        "page_range": [
+          409,
+          416
+        ]
+      },
+      {
+        "song_title": "I Am The Walrus",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I Am The Walrus.pdf",
+        "file_size_bytes": 1720855,
+        "page_range": [
+          416,
+          423
+        ]
+      },
+      {
+        "song_title": "I Call Your Name",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I Call Your Name.pdf",
+        "file_size_bytes": 1200894,
+        "page_range": [
+          423,
+          428
+        ]
+      },
+      {
+        "song_title": "I Don't Want to Spoil the Party",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I Don't Want To Spoil The Party.pdf",
+        "file_size_bytes": 1373436,
+        "page_range": [
+          428,
+          434
+        ]
+      },
+      {
+        "song_title": "I Feel Fine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon, Paul Mccartney - I Feel Fine.pdf",
+        "file_size_bytes": 1466499,
+        "page_range": [
+          434,
+          440
+        ]
+      },
+      {
+        "song_title": "If I Fell",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon And Paul Mccartney - If I Fell.pdf",
+        "file_size_bytes": 912101,
+        "page_range": [
+          440,
+          444
+        ]
+      },
+      {
+        "song_title": "If I Needed Someone",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - If I Needed Someone.pdf",
+        "file_size_bytes": 1478683,
+        "page_range": [
+          444,
+          450
+        ]
+      },
+      {
+        "song_title": "I'll Be Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'll Be Back.pdf",
+        "file_size_bytes": 938308,
+        "page_range": [
+          450,
+          454
+        ]
+      },
+      {
+        "song_title": "I'll Cry Instead",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'll Cry Instead.pdf",
+        "file_size_bytes": 959985,
+        "page_range": [
+          454,
+          458
+        ]
+      },
+      {
+        "song_title": "I'll Follow the Sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'll Follow The Sun.pdf",
+        "file_size_bytes": 939118,
+        "page_range": [
+          458,
+          462
+        ]
+      },
+      {
+        "song_title": "I'll Get You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'll Get You.pdf",
+        "file_size_bytes": 904726,
+        "page_range": [
+          462,
+          466
+        ]
+      },
+      {
+        "song_title": "I'm a Loser",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'm A Loser.pdf",
+        "file_size_bytes": 1136868,
+        "page_range": [
+          466,
+          471
+        ]
+      },
+      {
+        "song_title": "I'm Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'm Down.pdf",
+        "file_size_bytes": 1455484,
+        "page_range": [
+          471,
+          477
+        ]
+      },
+      {
+        "song_title": "I Me Mine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - I Me Mine.pdf",
+        "file_size_bytes": 1015376,
+        "page_range": [
+          477,
+          481
+        ]
+      },
+      {
+        "song_title": "I'M HAPPY JUST TO DANCE WITH YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'm Happy Just To Dance With You.pdf",
+        "file_size_bytes": 1018432,
+        "page_range": [
+          481,
+          485
+        ]
+      },
+      {
+        "song_title": "I'm Looking Through You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'm Looking Through You.pdf",
+        "file_size_bytes": 1280088,
+        "page_range": [
+          485,
+          490
+        ]
+      },
+      {
+        "song_title": "I'm Only Sleeping",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'm Only Sleeping.pdf",
+        "file_size_bytes": 1471438,
+        "page_range": [
+          490,
+          496
+        ]
+      },
+      {
+        "song_title": "I'm So Tired",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I'm So Tired.pdf",
+        "file_size_bytes": 791762,
+        "page_range": [
+          496,
+          499
+        ]
+      },
+      {
+        "song_title": "I Need You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - I Need You.pdf",
+        "file_size_bytes": 1000797,
+        "page_range": [
+          499,
+          503
+        ]
+      },
+      {
+        "song_title": "In My Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - In My Life.pdf",
+        "file_size_bytes": 1273173,
+        "page_range": [
+          503,
+          508
+        ]
+      },
+      {
+        "song_title": "The Inner Light",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - The Inner Light.pdf",
+        "file_size_bytes": 941093,
+        "page_range": [
+          508,
+          512
+        ]
+      },
+      {
+        "song_title": "I Saw Her Standing There",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I Saw Her Standing There.pdf",
+        "file_size_bytes": 1447749,
+        "page_range": [
+          512,
+          518
+        ]
+      },
+      {
+        "song_title": "I Should Have Known Better",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I Should Have Known Better.pdf",
+        "file_size_bytes": 1450036,
+        "page_range": [
+          518,
+          524
+        ]
+      },
+      {
+        "song_title": "It's All Too Much",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - It's All Too Much.pdf",
+        "file_size_bytes": 1625142,
+        "page_range": [
+          524,
+          531
+        ]
+      },
+      {
+        "song_title": "It's Only Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - It's Only Love.pdf",
+        "file_size_bytes": 910798,
+        "page_range": [
+          531,
+          535
+        ]
+      },
+      {
+        "song_title": "It Won't Be Long",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - It Won't Be Long.pdf",
+        "file_size_bytes": 977668,
+        "page_range": [
+          535,
+          539
+        ]
+      },
+      {
+        "song_title": "I've Got a Feeling",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - I've Got A Feeling.pdf",
+        "file_size_bytes": 1808463,
+        "page_range": [
+          539,
+          546
+        ]
+      },
+      {
+        "song_title": "I've Just Seen a Face",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I've Just Seen A Face.pdf",
+        "file_size_bytes": 1419142,
+        "page_range": [
+          546,
+          552
+        ]
+      },
+      {
+        "song_title": "I Wanna Be Your Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - I Wanna Be Your Man.pdf",
+        "file_size_bytes": 978109,
+        "page_range": [
+          552,
+          556
+        ]
+      },
+      {
+        "song_title": "I Want To Hold Your Hand",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I Want To Hold Your Hand.pdf",
+        "file_size_bytes": 1219946,
+        "page_range": [
+          556,
+          561
+        ]
+      },
+      {
+        "song_title": "I Want To Tell You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - I Want To Tell You.pdf",
+        "file_size_bytes": 1125153,
+        "page_range": [
+          561,
+          566
+        ]
+      },
+      {
+        "song_title": "I Want You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I Want You.pdf",
+        "file_size_bytes": 2032958,
+        "page_range": [
+          566,
+          574
+        ]
+      },
+      {
+        "song_title": "I Will",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - I Will.pdf",
+        "file_size_bytes": 942754,
+        "page_range": [
+          574,
+          578
+        ]
+      },
+      {
+        "song_title": "Julia",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Julia.pdf",
+        "file_size_bytes": 758681,
+        "page_range": [
+          578,
+          581
+        ]
+      },
+      {
+        "song_title": "Kansas City",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Jerry Leiber & Mike Stoller - Kansas City.pdf",
+        "file_size_bytes": 2010048,
+        "page_range": [
+          581,
+          589
+        ]
+      },
+      {
+        "song_title": "Lady Madonna",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Lady Madonna.pdf",
+        "file_size_bytes": 1259790,
+        "page_range": [
+          589,
+          594
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Let It Be.pdf",
+        "file_size_bytes": 1520254,
+        "page_range": [
+          594,
+          600
+        ]
+      },
+      {
+        "song_title": "Little Child",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Little Child.pdf",
+        "file_size_bytes": 1227955,
+        "page_range": [
+          600,
+          605
+        ]
+      },
+      {
+        "song_title": "The Long and Winding Road",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - The Long And Winding Road.pdf",
+        "file_size_bytes": 966116,
+        "page_range": [
+          605,
+          609
+        ]
+      },
+      {
+        "song_title": "Long Long Long",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Long Long Long.pdf",
+        "file_size_bytes": 932212,
+        "page_range": [
+          609,
+          613
+        ]
+      },
+      {
+        "song_title": "Long Tall Sally",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By Ernie Johnson, Richard Penniman & Robert Blackwell - Long Tall Sally.pdf",
+        "file_size_bytes": 1778154,
+        "page_range": [
+          613,
+          620
+        ]
+      },
+      {
+        "song_title": "Lovely Rita",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon, Paul Mccartney - Lovely Rita.pdf",
+        "file_size_bytes": 1503726,
+        "page_range": [
+          620,
+          626
+        ]
+      },
+      {
+        "song_title": "Love Me Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Love Me Do.pdf",
+        "file_size_bytes": 1140621,
+        "page_range": [
+          626,
+          631
+        ]
+      },
+      {
+        "song_title": "Love You To",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Love You To.pdf",
+        "file_size_bytes": 1343578,
+        "page_range": [
+          631,
+          637
+        ]
+      },
+      {
+        "song_title": "Lucy in the Sky with Diamonds",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Lucy In The Sky With Diamonds.pdf",
+        "file_size_bytes": 1205191,
+        "page_range": [
+          637,
+          642
+        ]
+      },
+      {
+        "song_title": "Maggie Mae",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Arranged By John Lennon, Paul Mccartney, George Harrison & Richard Starkey - Maggie Mae.pdf",
+        "file_size_bytes": 706039,
+        "page_range": [
+          642,
+          645
+        ]
+      },
+      {
+        "song_title": "Magical Mystery Tour",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Magical Mystery Tour.pdf",
+        "file_size_bytes": 1974740,
+        "page_range": [
+          645,
+          653
+        ]
+      },
+      {
+        "song_title": "Martha My Dear",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Martha My Dear.pdf",
+        "file_size_bytes": 1252939,
+        "page_range": [
+          653,
+          658
+        ]
+      },
+      {
+        "song_title": "Matchbox",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Carl Lee Perkins - Matchbox.pdf",
+        "file_size_bytes": 989315,
+        "page_range": [
+          658,
+          662
+        ]
+      },
+      {
+        "song_title": "Maxwell's Silver Hammer",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Maxwell's Silver Hammer.pdf",
+        "file_size_bytes": 1240975,
+        "page_range": [
+          662,
+          667
+        ]
+      },
+      {
+        "song_title": "Mean Mr. Mustard",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Mean Mr. Mustard.pdf",
+        "file_size_bytes": 693594,
+        "page_range": [
+          667,
+          670
+        ]
+      },
+      {
+        "song_title": "Michelle",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Michelle.pdf",
+        "file_size_bytes": 1462716,
+        "page_range": [
+          670,
+          676
+        ]
+      },
+      {
+        "song_title": "Misery",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Misery.pdf",
+        "file_size_bytes": 962293,
+        "page_range": [
+          676,
+          680
+        ]
+      },
+      {
+        "song_title": "Money (That's What I Want)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By Berry Gordy Junior & Janie Bradford - Money (that's What I Want).pdf",
+        "file_size_bytes": 1318745,
+        "page_range": [
+          680,
+          685
+        ]
+      },
+      {
+        "song_title": "Mother Nature's Son",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Mother Nature's Son.pdf",
+        "file_size_bytes": 751241,
+        "page_range": [
+          685,
+          688
+        ]
+      },
+      {
+        "song_title": "Mr. Moonlight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By Ray Lee Johnson - Mr. Moonlight.pdf",
+        "file_size_bytes": 1471058,
+        "page_range": [
+          688,
+          694
+        ]
+      },
+      {
+        "song_title": "The Night Before",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - The Night Before.pdf",
+        "file_size_bytes": 1495554,
+        "page_range": [
+          694,
+          700
+        ]
+      },
+      {
+        "song_title": "No Reply",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon, Paul Mccartney - No Reply.pdf",
+        "file_size_bytes": 747620,
+        "page_range": [
+          700,
+          703
+        ]
+      },
+      {
+        "song_title": "Norwegian Wood",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Norwegian Wood.pdf",
+        "file_size_bytes": 1033459,
+        "page_range": [
+          703,
+          707
+        ]
+      },
+      {
+        "song_title": "Not a Second Time",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Not A Second Time.pdf",
+        "file_size_bytes": 995585,
+        "page_range": [
+          707,
+          711
+        ]
+      },
+      {
+        "song_title": "Nowhere Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Nowhere Man.pdf",
+        "file_size_bytes": 1238093,
+        "page_range": [
+          711,
+          716
+        ]
+      },
+      {
+        "song_title": "Ob-la-di Ob-la-da",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Ob-la-di Ob-la-da.pdf",
+        "file_size_bytes": 1234855,
+        "page_range": [
+          716,
+          721
+        ]
+      },
+      {
+        "song_title": "Octopus's Garden",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Ringo Starr - Octopus's Garden.pdf",
+        "file_size_bytes": 1259962,
+        "page_range": [
+          721,
+          726
+        ]
+      },
+      {
+        "song_title": "Oh! Darling",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Oh! Darling.pdf",
+        "file_size_bytes": 1264196,
+        "page_range": [
+          726,
+          731
+        ]
+      },
+      {
+        "song_title": "Old Brown Shoe",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Old Brown Shoe.pdf",
+        "file_size_bytes": 1748089,
+        "page_range": [
+          731,
+          738
+        ]
+      },
+      {
+        "song_title": "One After 909",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - One After 909.pdf",
+        "file_size_bytes": 2295110,
+        "page_range": [
+          738,
+          747
+        ]
+      },
+      {
+        "song_title": "Only a Northern Song",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Only A Northern Song.pdf",
+        "file_size_bytes": 1459762,
+        "page_range": [
+          747,
+          753
+        ]
+      },
+      {
+        "song_title": "Paperback Writer",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Paperback Writer.pdf",
+        "file_size_bytes": 1217003,
+        "page_range": [
+          753,
+          758
+        ]
+      },
+      {
+        "song_title": "Penny Lane",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Penny Lane.pdf",
+        "file_size_bytes": 1392919,
+        "page_range": [
+          758,
+          764
+        ]
+      },
+      {
+        "song_title": "Piggies",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Piggies.pdf",
+        "file_size_bytes": 974699,
+        "page_range": [
+          764,
+          768
+        ]
+      },
+      {
+        "song_title": "Please Mr. Postman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By B. Holland & R.c. Gorman - Please Mr. Postman.pdf",
+        "file_size_bytes": 1262448,
+        "page_range": [
+          768,
+          773
+        ]
+      },
+      {
+        "song_title": "Please Please Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Please Please Me.pdf",
+        "file_size_bytes": 987505,
+        "page_range": [
+          773,
+          777
+        ]
+      },
+      {
+        "song_title": "Polythene Pam",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Polythene Pam.pdf",
+        "file_size_bytes": 1196730,
+        "page_range": [
+          777,
+          782
+        ]
+      },
+      {
+        "song_title": "P.S. I Love You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - P.s. I Love You.pdf",
+        "file_size_bytes": 743187,
+        "page_range": [
+          782,
+          785
+        ]
+      },
+      {
+        "song_title": "Rain",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Rain.pdf",
+        "file_size_bytes": 1505214,
+        "page_range": [
+          785,
+          791
+        ]
+      },
+      {
+        "song_title": "Revolution",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Revolution.pdf",
+        "file_size_bytes": 1774779,
+        "page_range": [
+          791,
+          798
+        ]
+      },
+      {
+        "song_title": "Revolution 1",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Revolution 1.pdf",
+        "file_size_bytes": 1842161,
+        "page_range": [
+          798,
+          805
+        ]
+      },
+      {
+        "song_title": "Revolution 9",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Revolution 9.pdf",
+        "file_size_bytes": 2353453,
+        "page_range": [
+          805,
+          815
+        ]
+      },
+      {
+        "song_title": "Rock and Roll Music",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Chuck Berry - Rock And Roll Music.pdf",
+        "file_size_bytes": 692969,
+        "page_range": [
+          815,
+          818
+        ]
+      },
+      {
+        "song_title": "Rocky Raccoon",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Rocky Raccoon.pdf",
+        "file_size_bytes": 1505687,
+        "page_range": [
+          818,
+          824
+        ]
+      },
+      {
+        "song_title": "Roll Over Beethoven",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Chuck Berry - Roll Over Beethoven.pdf",
+        "file_size_bytes": 1758835,
+        "page_range": [
+          824,
+          831
+        ]
+      },
+      {
+        "song_title": "Run For Your Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Run For Your Life.pdf",
+        "file_size_bytes": 1410888,
+        "page_range": [
+          831,
+          837
+        ]
+      },
+      {
+        "song_title": "Savoy Truffle",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Savoy Truffle.pdf",
+        "file_size_bytes": 1550455,
+        "page_range": [
+          837,
+          843
+        ]
+      },
+      {
+        "song_title": "Sexy Sadie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Sexy Sadie.pdf",
+        "file_size_bytes": 1038691,
+        "page_range": [
+          843,
+          847
+        ]
+      },
+      {
+        "song_title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - Sgt. Pepper's Lonely Hearts Club Band.pdf",
+        "file_size_bytes": 1261999,
+        "page_range": [
+          847,
+          852
+        ]
+      },
+      {
+        "song_title": "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon, Paul Mccartney - Sgt. Pepper's Lonely Hearts Club Band (reprise).pdf",
+        "file_size_bytes": 952166,
+        "page_range": [
+          852,
+          856
+        ]
+      },
+      {
+        "song_title": "She Came In Through The Bathroom Window",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - She Came In Through The Bathroom Window.pdf",
+        "file_size_bytes": 745729,
+        "page_range": [
+          856,
+          859
+        ]
+      },
+      {
+        "song_title": "She Loves You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - She Loves You.pdf",
+        "file_size_bytes": 1152549,
+        "page_range": [
+          859,
+          864
+        ]
+      },
+      {
+        "song_title": "She Said She Said",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - She Said She Said.pdf",
+        "file_size_bytes": 1005106,
+        "page_range": [
+          864,
+          868
+        ]
+      },
+      {
+        "song_title": "She's a Woman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - She's A Woman.pdf",
+        "file_size_bytes": 1689439,
+        "page_range": [
+          868,
+          875
+        ]
+      },
+      {
+        "song_title": "She's Leaving Home",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - She's Leaving Home.pdf",
+        "file_size_bytes": 3041647,
+        "page_range": [
+          875,
+          888
+        ]
+      },
+      {
+        "song_title": "Slow Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Larry Williams - Slow Down.pdf",
+        "file_size_bytes": 2027669,
+        "page_range": [
+          888,
+          896
+        ]
+      },
+      {
+        "song_title": "Something",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Something.pdf",
+        "file_size_bytes": 1053536,
+        "page_range": [
+          896,
+          900
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1414465,
+        "page_range": [
+          900,
+          906
+        ]
+      },
+      {
+        "song_title": "Sun King",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Sun King.pdf",
+        "file_size_bytes": 997160,
+        "page_range": [
+          906,
+          910
+        ]
+      },
+      {
+        "song_title": "A Taste of Honey",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words By Ric Marlow, Music By Bobby Scott - A Taste Of Honey.pdf",
+        "file_size_bytes": 746403,
+        "page_range": [
+          910,
+          913
+        ]
+      },
+      {
+        "song_title": "Taxman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Taxman.pdf",
+        "file_size_bytes": 1489959,
+        "page_range": [
+          913,
+          919
+        ]
+      },
+      {
+        "song_title": "Tell Me What You See",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Tell Me What You See.pdf",
+        "file_size_bytes": 903986,
+        "page_range": [
+          919,
+          923
+        ]
+      },
+      {
+        "song_title": "Tell Me Why",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Tell Me Why.pdf",
+        "file_size_bytes": 1210958,
+        "page_range": [
+          923,
+          928
+        ]
+      },
+      {
+        "song_title": "Thank You Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Thank You Girl.pdf",
+        "file_size_bytes": 986683,
+        "page_range": [
+          928,
+          932
+        ]
+      },
+      {
+        "song_title": "There's a Place",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - There's A Place.pdf",
+        "file_size_bytes": 945758,
+        "page_range": [
+          932,
+          936
+        ]
+      },
+      {
+        "song_title": "Things We Said Today",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Things We Said Today.pdf",
+        "file_size_bytes": 999363,
+        "page_range": [
+          936,
+          940
+        ]
+      },
+      {
+        "song_title": "Think For Yourself",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Think For Yourself.pdf",
+        "file_size_bytes": 1313977,
+        "page_range": [
+          940,
+          945
+        ]
+      },
+      {
+        "song_title": "This Boy",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - This Boy.pdf",
+        "file_size_bytes": 954776,
+        "page_range": [
+          945,
+          949
+        ]
+      },
+      {
+        "song_title": "Ticket to Ride",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Ticket To Ride.pdf",
+        "file_size_bytes": 1176786,
+        "page_range": [
+          949,
+          954
+        ]
+      },
+      {
+        "song_title": "Till There Was You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Meredith Willson - Till There Was You.pdf",
+        "file_size_bytes": 1170081,
+        "page_range": [
+          954,
+          959
+        ]
+      },
+      {
+        "song_title": "Tomorrow Never Knows",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Tomorrow Never Knows.pdf",
+        "file_size_bytes": 1175096,
+        "page_range": [
+          959,
+          964
+        ]
+      },
+      {
+        "song_title": "Twist and Shout",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Bert Russell & Phil Medley - Twist And Shout.pdf",
+        "file_size_bytes": 1528939,
+        "page_range": [
+          964,
+          970
+        ]
+      },
+      {
+        "song_title": "Two of Us",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Two Of Us.pdf",
+        "file_size_bytes": 1215794,
+        "page_range": [
+          970,
+          975
+        ]
+      },
+      {
+        "song_title": "Wait",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Wait.pdf",
+        "file_size_bytes": 954116,
+        "page_range": [
+          975,
+          979
+        ]
+      },
+      {
+        "song_title": "We Can Work It Out",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - We Can Work It Out.pdf",
+        "file_size_bytes": 962249,
+        "page_range": [
+          979,
+          983
+        ]
+      },
+      {
+        "song_title": "What Goes On?",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon, Paul Mccartney & Richard Starkey - What Goes On-.pdf",
+        "file_size_bytes": 1512310,
+        "page_range": [
+          983,
+          989
+        ]
+      },
+      {
+        "song_title": "What You're Doing",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - What You're Doing.pdf",
+        "file_size_bytes": 1411793,
+        "page_range": [
+          989,
+          995
+        ]
+      },
+      {
+        "song_title": "When I Get Home",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - When I Get Home.pdf",
+        "file_size_bytes": 1122785,
+        "page_range": [
+          995,
+          1000
+        ]
+      },
+      {
+        "song_title": "When I'm Sixty Four",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - When I'm Sixty Four.pdf",
+        "file_size_bytes": 1405070,
+        "page_range": [
+          1000,
+          1006
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 2414007,
+        "page_range": [
+          1006,
+          1015
+        ]
+      },
+      {
+        "song_title": "Why Don't We Do It in the Road?",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Why Don't We Do It In The Road-.pdf",
+        "file_size_bytes": 699250,
+        "page_range": [
+          1015,
+          1018
+        ]
+      },
+      {
+        "song_title": "Wild Honey Pie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Wild Honey Pie.pdf",
+        "file_size_bytes": 645655,
+        "page_range": [
+          1018,
+          1021
+        ]
+      },
+      {
+        "song_title": "With a Little Help From My Friends",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - With A Little Help From My Friends.pdf",
+        "file_size_bytes": 1741464,
+        "page_range": [
+          1021,
+          1028
+        ]
+      },
+      {
+        "song_title": "Within You Without You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - Within You Without You.pdf",
+        "file_size_bytes": 2862597,
+        "page_range": [
+          1028,
+          1040
+        ]
+      },
+      {
+        "song_title": "The Word",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - The Word.pdf",
+        "file_size_bytes": 1268137,
+        "page_range": [
+          1040,
+          1045
+        ]
+      },
+      {
+        "song_title": "Words of Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Buddy Holly - Words Of Love.pdf",
+        "file_size_bytes": 733543,
+        "page_range": [
+          1045,
+          1048
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Yellow Submarine.pdf",
+        "file_size_bytes": 1340004,
+        "page_range": [
+          1048,
+          1054
+        ]
+      },
+      {
+        "song_title": "Yer Blues",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Yer Blues.pdf",
+        "file_size_bytes": 1790555,
+        "page_range": [
+          1054,
+          1061
+        ]
+      },
+      {
+        "song_title": "Yes It Is",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Yes It Is.pdf",
+        "file_size_bytes": 912300,
+        "page_range": [
+          1061,
+          1065
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Yesterday.pdf",
+        "file_size_bytes": 683440,
+        "page_range": [
+          1065,
+          1068
+        ]
+      },
+      {
+        "song_title": "You Can't Do That",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - You Can't Do That.pdf",
+        "file_size_bytes": 1461820,
+        "page_range": [
+          1068,
+          1074
+        ]
+      },
+      {
+        "song_title": "You Know My Name (Look Up The Number)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/Words & Music By John Lennon & Paul Mccartney - You Know My Name (look Up The Number).pdf",
+        "file_size_bytes": 2166664,
+        "page_range": [
+          1074,
+          1083
+        ]
+      },
+      {
+        "song_title": "You Like Me Too Much",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/George Harrison - You Like Me Too Much.pdf",
+        "file_size_bytes": 1738430,
+        "page_range": [
+          1083,
+          1090
+        ]
+      },
+      {
+        "song_title": "You Never Give Me Your Money",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - You Never Give Me Your Money.pdf",
+        "file_size_bytes": 1967243,
+        "page_range": [
+          1090,
+          1098
+        ]
+      },
+      {
+        "song_title": "You're Going to Lose That Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - You're Going To Lose That Girl.pdf",
+        "file_size_bytes": 1291991,
+        "page_range": [
+          1098,
+          1103
+        ]
+      },
+      {
+        "song_title": "Your Mother Should Know",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - Your Mother Should Know.pdf",
+        "file_size_bytes": 1200877,
+        "page_range": [
+          1103,
+          1108
+        ]
+      },
+      {
+        "song_title": "You've Got to Hide Your Love Away",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - You've Got To Hide Your Love Away.pdf",
+        "file_size_bytes": 717306,
+        "page_range": [
+          1108,
+          1111
+        ]
+      },
+      {
+        "song_title": "You've Really Got a Hold on Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/William Robinson - You've Really Got A Hold On Me.pdf",
+        "file_size_bytes": 1030834,
+        "page_range": [
+          1111,
+          1115
+        ]
+      },
+      {
+        "song_title": "You Won't See Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Complete Scores/Songs/John Lennon & Paul Mccartney - You Won't See Me.pdf",
+        "file_size_bytes": 1531492,
+        "page_range": [
+          1115,
+          1121
+        ]
+      }
+    ]
+  }
+}

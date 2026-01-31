@@ -1,0 +1,103 @@
+{
+  "book_id": "99f5dc0137a823b5",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Jousts",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Alan Jay Lerner And Frederick Loewe - The Jousts.pdf",
+        "file_size_bytes": 4211101,
+        "page_range": [
+          100,
+          141
+        ]
+      },
+      {
+        "song_title": "Madrigal And \"If Ever I Would Leave You\"",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Unknown Artist - Madrigal And -if Ever I Would Leave You-.pdf",
+        "file_size_bytes": 902234,
+        "page_range": [
+          141,
+          149
+        ]
+      },
+      {
+        "song_title": "The Seven Deadly Virtues",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Unknown Artist - The Seven Deadly Virtues.pdf",
+        "file_size_bytes": 638849,
+        "page_range": [
+          149,
+          155
+        ]
+      },
+      {
+        "song_title": "What Do The Simple Folk Do?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Unknown Artist - What Do The Simple Folk Do-.pdf",
+        "file_size_bytes": 1608029,
+        "page_range": [
+          155,
+          172
+        ]
+      },
+      {
+        "song_title": "The Enchanted Forest",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Unknown Artist - The Enchanted Forest.pdf",
+        "file_size_bytes": 605456,
+        "page_range": [
+          172,
+          178
+        ]
+      },
+      {
+        "song_title": "The Persuasion",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Unknown Artist - The Persuasion.pdf",
+        "file_size_bytes": 1440587,
+        "page_range": [
+          178,
+          193
+        ]
+      },
+      {
+        "song_title": "I Loved You Once In Silence",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Unknown Artist - I Loved You Once In Silence.pdf",
+        "file_size_bytes": 634103,
+        "page_range": [
+          193,
+          199
+        ]
+      },
+      {
+        "song_title": "Guenevere",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Unknown Artist - Guenevere.pdf",
+        "file_size_bytes": 2097776,
+        "page_range": [
+          199,
+          220
+        ]
+      },
+      {
+        "song_title": "Farewell",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lerner And Loewe - Camelot/Songs/Unknown Artist - Farewell.pdf",
+        "file_size_bytes": 1633421,
+        "page_range": [
+          220,
+          237
+        ]
+      }
+    ]
+  }
+}

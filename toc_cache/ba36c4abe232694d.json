@@ -1,0 +1,63 @@
+{
+  "book_id": "ba36c4abe232694d",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Phantom Of The Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 472764,
+        "page_range": [
+          1,
+          8
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 231404,
+        "page_range": [
+          8,
+          9
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 256652,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 511432,
+        "page_range": [
+          12,
+          19
+        ]
+      },
+      {
+        "song_title": "THE PHANTOM OF THE OPERA",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 338941,
+        "page_range": [
+          19,
+          23
+        ]
+      }
+    ]
+  }
+}

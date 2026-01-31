@@ -1,0 +1,30 @@
+{
+  "book_id": "ef87ba668409148a",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Star Trek Voyager",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Star Trek Voyager",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Voyager/Songs/Music By Jerry Goldsmith - Star Trek Voyager.pdf",
+        "file_size_bytes": 635652,
+        "page_range": [
+          0,
+          3
+        ]
+      }
+    ]
+  }
+}

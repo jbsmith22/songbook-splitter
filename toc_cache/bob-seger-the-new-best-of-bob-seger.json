@@ -1,0 +1,130 @@
+{
+  "book_id": "bob-seger-the-new-best-of-bob-seger",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Against the Wind",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Even Now",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Feel Like a Number",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fire Lake",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Horizontal Bop",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Night Moves",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Nine Tonight",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Roll Me Away",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Still the Same",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We've Got Tonight",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You'll Accomp'ny Me",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "We've Got Tonight",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/The New Best Of Bob Seger/Songs/Unknown Artist - We've Got Tonight.pdf",
+        "file_size_bytes": 2265586,
+        "page_range": [
+          2,
+          8
+        ]
+      },
+      {
+        "song_title": "Night Moves",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/The New Best Of Bob Seger/Songs/Bob Seger - Night Moves.pdf",
+        "file_size_bytes": 3173940,
+        "page_range": [
+          8,
+          17
+        ]
+      },
+      {
+        "song_title": "Against the Wind",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/The New Best Of Bob Seger/Songs/Bob Seger - Against The Wind.pdf",
+        "file_size_bytes": 1780589,
+        "page_range": [
+          17,
+          22
+        ]
+      },
+      {
+        "song_title": "Fire Lake",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/The New Best Of Bob Seger/Songs/Bob Seger - Fire Lake.pdf",
+        "file_size_bytes": 2411540,
+        "page_range": [
+          22,
+          29
+        ]
+      },
+      {
+        "song_title": "Still the Same",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/The New Best Of Bob Seger/Songs/Bob Seger - Still The Same.pdf",
+        "file_size_bytes": 1311224,
+        "page_range": [
+          29,
+          33
+        ]
+      }
+    ]
+  }
+}

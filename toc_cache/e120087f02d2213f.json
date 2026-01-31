@@ -1,0 +1,108 @@
+{
+  "book_id": "e120087f02d2213f",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "ALL RIGHT NOW",
+        "page_number": 4,
+        "artist": "(FREE)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A WHITER SHADE OF PALE",
+        "page_number": 64,
+        "artist": "(PROCOL HARUM)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BUS STOP",
+        "page_number": 59,
+        "artist": "(THE HOLLIES)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GET IT ON",
+        "page_number": 13,
+        "artist": "(T. REX)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LET'S SPEND THE NIGHT TOGETHER",
+        "page_number": 70,
+        "artist": "(THE ROLLING STONES)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MY GENERATION",
+        "page_number": 37,
+        "artist": "(THE WHO)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PARANOID",
+        "page_number": 20,
+        "artist": "(BLACK SABBATH)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SMOKE ON THE WATER",
+        "page_number": 26,
+        "artist": "(DEEP PURPLE)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHILE MY GUITAR GENTLY WEEPS",
+        "page_number": 46,
+        "artist": "(THE BEATLES)",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "ALL RIGHT NOW": "(FREE)",
+      "A WHITER SHADE OF PALE": "(PROCOL HARUM)",
+      "BUS STOP": "(THE HOLLIES)",
+      "GET IT ON": "(T. REX)",
+      "LET'S SPEND THE NIGHT TOGETHER": "(THE ROLLING STONES)",
+      "MY GENERATION": "(THE WHO)",
+      "PARANOID": "(BLACK SABBATH)",
+      "SMOKE ON THE WATER": "(DEEP PURPLE)",
+      "WHILE MY GUITAR GENTLY WEEPS": "(THE BEATLES)"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "ALL RIGHT NOW",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The 60s And 70s Rock Score/Songs/(free) - All Right Now.pdf",
+        "file_size_bytes": 1519983,
+        "page_range": [
+          2,
+          23
+        ]
+      },
+      {
+        "song_title": "SMOKE ON THE WATER",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The 60s And 70s Rock Score/Songs/(deep Purple) - Smoke On The Water.pdf",
+        "file_size_bytes": 2517564,
+        "page_range": [
+          23,
+          61
+        ]
+      },
+      {
+        "song_title": "A WHITER SHADE OF PALE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The 60s And 70s Rock Score/Songs/(procol Harum) - A Whiter Shade Of Pale.pdf",
+        "file_size_bytes": 1199083,
+        "page_range": [
+          61,
+          78
+        ]
+      }
+    ]
+  }
+}

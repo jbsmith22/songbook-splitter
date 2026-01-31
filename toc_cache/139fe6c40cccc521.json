@@ -1,0 +1,243 @@
+{
+  "book_id": "139fe6c40cccc521",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Aja",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Aja.pdf",
+        "file_size_bytes": 1533420,
+        "page_range": [
+          1,
+          10
+        ]
+      },
+      {
+        "song_title": "Bad Sneakers",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Bad Sneakers.pdf",
+        "file_size_bytes": 660511,
+        "page_range": [
+          10,
+          14
+        ]
+      },
+      {
+        "song_title": "S'Choral",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - S'choral.pdf",
+        "file_size_bytes": 536056,
+        "page_range": [
+          14,
+          17
+        ]
+      },
+      {
+        "song_title": "Black Friday",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Black Friday.pdf",
+        "file_size_bytes": 737281,
+        "page_range": [
+          17,
+          21
+        ]
+      },
+      {
+        "song_title": "Bodhisattva",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Bodhisattva.pdf",
+        "file_size_bytes": 1612218,
+        "page_range": [
+          21,
+          30
+        ]
+      },
+      {
+        "song_title": "Chain Lightning",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Chain Lightning.pdf",
+        "file_size_bytes": 1070200,
+        "page_range": [
+          30,
+          36
+        ]
+      },
+      {
+        "song_title": "Deacon Blues",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Deacon Blues.pdf",
+        "file_size_bytes": 1900296,
+        "page_range": [
+          36,
+          47
+        ]
+      },
+      {
+        "song_title": "Don't Take Me Alive",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Don't Take Me Alive.pdf",
+        "file_size_bytes": 1052388,
+        "page_range": [
+          47,
+          53
+        ]
+      },
+      {
+        "song_title": "Gaucho",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Gaucho.pdf",
+        "file_size_bytes": 1198764,
+        "page_range": [
+          53,
+          61
+        ]
+      },
+      {
+        "song_title": "Coda",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Coda.pdf",
+        "file_size_bytes": 155787,
+        "page_range": [
+          61,
+          62
+        ]
+      },
+      {
+        "song_title": "Green Earrings",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Green Earrings.pdf",
+        "file_size_bytes": 1211742,
+        "page_range": [
+          62,
+          69
+        ]
+      },
+      {
+        "song_title": "Hey Nineteen",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Hey Nineteen.pdf",
+        "file_size_bytes": 1644503,
+        "page_range": [
+          69,
+          79
+        ]
+      },
+      {
+        "song_title": "Josie",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Josie.pdf",
+        "file_size_bytes": 943821,
+        "page_range": [
+          79,
+          85
+        ]
+      },
+      {
+        "song_title": "Kid Charlemagne",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Kid Charlemagne.pdf",
+        "file_size_bytes": 1351301,
+        "page_range": [
+          85,
+          93
+        ]
+      },
+      {
+        "song_title": "My Old School",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - My Old School.pdf",
+        "file_size_bytes": 1750897,
+        "page_range": [
+          93,
+          103
+        ]
+      },
+      {
+        "song_title": "Night By Night",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Night By Night.pdf",
+        "file_size_bytes": 825752,
+        "page_range": [
+          103,
+          108
+        ]
+      },
+      {
+        "song_title": "Parker's Band",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Parker's Band.pdf",
+        "file_size_bytes": 959857,
+        "page_range": [
+          108,
+          114
+        ]
+      },
+      {
+        "song_title": "Peg",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Peg.pdf",
+        "file_size_bytes": 874713,
+        "page_range": [
+          114,
+          119
+        ]
+      },
+      {
+        "song_title": "Pretzel Logic",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Pretzel Logic.pdf",
+        "file_size_bytes": 1077679,
+        "page_range": [
+          119,
+          125
+        ]
+      },
+      {
+        "song_title": "Reelin' In The Years",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Reelin' In The Years.pdf",
+        "file_size_bytes": 1459692,
+        "page_range": [
+          125,
+          133
+        ]
+      },
+      {
+        "song_title": "Verse",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Verse.pdf",
+        "file_size_bytes": 744965,
+        "page_range": [
+          133,
+          137
+        ]
+      },
+      {
+        "song_title": "Rikki Don't Lose That Number",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Rikki Don't Lose That Number.pdf",
+        "file_size_bytes": 854561,
+        "page_range": [
+          137,
+          142
+        ]
+      },
+      {
+        "song_title": "Time Out Of Mind",
+        "artist": "Steely Dan",
+        "output_uri": "s3://jsmith-output/Steely Dan/Steely Dan - The Best/Songs/Steely Dan - Time Out Of Mind.pdf",
+        "file_size_bytes": 1387415,
+        "page_range": [
+          142,
+          149
+        ]
+      }
+    ]
+  }
+}

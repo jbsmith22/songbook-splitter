@@ -1,0 +1,210 @@
+{
+  "book_id": "de53f081d483217f",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Jackson Cannery",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Philosophy",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Johanne",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Where's Summer B?",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alice Childress",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Underground",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sports & Wine",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Uncle Walter",
+        "page_number": 65,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Best Imitation of Myself",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Video",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Last Polka",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Boxing",
+        "page_number": 103,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tom and Mary",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eddie Walker",
+        "page_number": 121,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Emaline",
+        "page_number": 127,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bad Idea",
+        "page_number": 139,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Jackson Cannery",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Jackson Cannery.pdf",
+        "file_size_bytes": 318829,
+        "page_range": [
+          2,
+          9
+        ]
+      },
+      {
+        "song_title": "Philosophy",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Philosophy.pdf",
+        "file_size_bytes": 650106,
+        "page_range": [
+          9,
+          23
+        ]
+      },
+      {
+        "song_title": "Where's Summer B?",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Where's Summer B-.pdf",
+        "file_size_bytes": 339930,
+        "page_range": [
+          23,
+          31
+        ]
+      },
+      {
+        "song_title": "Alice Childress",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Alice Childress.pdf",
+        "file_size_bytes": 829777,
+        "page_range": [
+          31,
+          50
+        ]
+      },
+      {
+        "song_title": "Sports & Wine",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Sports & Wine.pdf",
+        "file_size_bytes": 534998,
+        "page_range": [
+          50,
+          63
+        ]
+      },
+      {
+        "song_title": "Uncle Walter",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Uncle Walter.pdf",
+        "file_size_bytes": 670058,
+        "page_range": [
+          63,
+          78
+        ]
+      },
+      {
+        "song_title": "Video",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Video.pdf",
+        "file_size_bytes": 357822,
+        "page_range": [
+          78,
+          87
+        ]
+      },
+      {
+        "song_title": "The Last Polka",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - The Last Polka.pdf",
+        "file_size_bytes": 543517,
+        "page_range": [
+          87,
+          101
+        ]
+      },
+      {
+        "song_title": "Boxing",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Boxing.pdf",
+        "file_size_bytes": 437544,
+        "page_range": [
+          101,
+          112
+        ]
+      },
+      {
+        "song_title": "Tom and Mary",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Songs/Ben Folds - Tom And Mary.pdf",
+        "file_size_bytes": 1287011,
+        "page_range": [
+          112,
+          143
+        ]
+      }
+    ]
+  }
+}

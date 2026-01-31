@@ -1,0 +1,206 @@
+{
+  "book_id": "john-denver-the-authentic-guitar-style-of",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Annie's Song",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Back Home Again",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Follow Me",
+        "page_number": 35,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodbye Again",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm Sorry",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Leaving On A Jet Plane",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Sweet Lady",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Poems, Prayers And Promises",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rocky Mountain High",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunshine On My Shoulders",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take Me Home, Country Roads",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "This Old Guitar",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Take Me Home, Country Roads",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Take Me Home, Country Roads.pdf",
+        "file_size_bytes": 769625,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "Rocky Mountain High",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Rocky Mountain High.pdf",
+        "file_size_bytes": 785601,
+        "page_range": [
+          6,
+          10
+        ]
+      },
+      {
+        "song_title": "Annie's Song",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Annie's Song.pdf",
+        "file_size_bytes": 170170,
+        "page_range": [
+          10,
+          11
+        ]
+      },
+      {
+        "song_title": "I'm Sorry",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - I'm Sorry.pdf",
+        "file_size_bytes": 759567,
+        "page_range": [
+          11,
+          15
+        ]
+      },
+      {
+        "song_title": "Sunshine On My Shoulders",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Sunshine On My Shoulders.pdf",
+        "file_size_bytes": 967438,
+        "page_range": [
+          15,
+          20
+        ]
+      },
+      {
+        "song_title": "Leaving On A Jet Plane",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Leaving On A Jet Plane.pdf",
+        "file_size_bytes": 741831,
+        "page_range": [
+          20,
+          24
+        ]
+      },
+      {
+        "song_title": "Poems, Prayers And Promises",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Poems, Prayers And Promises.pdf",
+        "file_size_bytes": 771291,
+        "page_range": [
+          24,
+          28
+        ]
+      },
+      {
+        "song_title": "Back Home Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Back Home Again.pdf",
+        "file_size_bytes": 919925,
+        "page_range": [
+          28,
+          33
+        ]
+      },
+      {
+        "song_title": "Follow Me",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Follow Me.pdf",
+        "file_size_bytes": 616274,
+        "page_range": [
+          33,
+          36
+        ]
+      },
+      {
+        "song_title": "Goodbye Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - Goodbye Again.pdf",
+        "file_size_bytes": 723219,
+        "page_range": [
+          36,
+          40
+        ]
+      },
+      {
+        "song_title": "This Old Guitar",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - This Old Guitar.pdf",
+        "file_size_bytes": 708808,
+        "page_range": [
+          40,
+          44
+        ]
+      },
+      {
+        "song_title": "My Sweet Lady",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/The Authentic Guitar Style Of/Songs/John Denver - My Sweet Lady.pdf",
+        "file_size_bytes": 643611,
+        "page_range": [
+          44,
+          48
+        ]
+      }
+    ]
+  }
+}

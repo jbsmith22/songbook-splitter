@@ -1,0 +1,190 @@
+{
+  "book_id": "elton-john-made-in-england",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Believe",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Made in England",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "House",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cold",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pain",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Belfast",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Latitude",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Please",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Man",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lies",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blessed",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Believe",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Believe.pdf",
+        "file_size_bytes": 1196906,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "Made in England",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Elton John - Made In England.pdf",
+        "file_size_bytes": 1804924,
+        "page_range": [
+          6,
+          12
+        ]
+      },
+      {
+        "song_title": "House",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - House.pdf",
+        "file_size_bytes": 940950,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "Cold",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Cold.pdf",
+        "file_size_bytes": 2024517,
+        "page_range": [
+          15,
+          22
+        ]
+      },
+      {
+        "song_title": "Pain",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Pain.pdf",
+        "file_size_bytes": 2035870,
+        "page_range": [
+          22,
+          28
+        ]
+      },
+      {
+        "song_title": "Belfast",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Belfast.pdf",
+        "file_size_bytes": 2562916,
+        "page_range": [
+          28,
+          37
+        ]
+      },
+      {
+        "song_title": "Latitude",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Latitude.pdf",
+        "file_size_bytes": 1427020,
+        "page_range": [
+          37,
+          42
+        ]
+      },
+      {
+        "song_title": "Please",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Please.pdf",
+        "file_size_bytes": 1627722,
+        "page_range": [
+          42,
+          47
+        ]
+      },
+      {
+        "song_title": "Man",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Man.pdf",
+        "file_size_bytes": 1750586,
+        "page_range": [
+          47,
+          53
+        ]
+      },
+      {
+        "song_title": "Lies",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Lies.pdf",
+        "file_size_bytes": 1641060,
+        "page_range": [
+          53,
+          58
+        ]
+      },
+      {
+        "song_title": "Blessed",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Made In England/Songs/Music By Elton John, Lyrics By Bernie Taupin - Blessed.pdf",
+        "file_size_bytes": 1953809,
+        "page_range": [
+          58,
+          65
+        ]
+      }
+    ]
+  }
+}

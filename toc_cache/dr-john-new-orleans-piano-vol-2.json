@@ -1,0 +1,43 @@
+{
+  "book_id": "dr-john-new-orleans-piano-vol-2",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Charles Brown Style-Major/Minor Blues",
+        "artist": "Dr John",
+        "output_uri": "s3://jsmith-output/Dr John/New Orleans Piano Vol 2/Songs/Unknown Artist - Charles Brown Style-major-minor Blues.pdf",
+        "file_size_bytes": 423942,
+        "page_range": [
+          4,
+          6
+        ]
+      },
+      {
+        "song_title": "St. James Infirmary",
+        "artist": "Dr John",
+        "output_uri": "s3://jsmith-output/Dr John/New Orleans Piano Vol 2/Songs/Unknown Artist - St. James Infirmary.pdf",
+        "file_size_bytes": 485498,
+        "page_range": [
+          6,
+          8
+        ]
+      },
+      {
+        "song_title": "Pretty Libby",
+        "artist": "Dr John",
+        "output_uri": "s3://jsmith-output/Dr John/New Orleans Piano Vol 2/Songs/Unknown Artist - Pretty Libby.pdf",
+        "file_size_bytes": 1539195,
+        "page_range": [
+          8,
+          14
+        ]
+      }
+    ]
+  }
+}

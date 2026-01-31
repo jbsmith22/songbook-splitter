@@ -1,0 +1,174 @@
+{
+  "book_id": "michael-jackson-the-great-songs-of",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Ben",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rockin' Robin",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Got To Be There",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Day In Your Life",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She's Out Of My Life",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rock With You",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Baby Be Mine",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Lady In My Life",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thriller",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Off The Wall",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Ben",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - Ben.pdf",
+        "file_size_bytes": 714494,
+        "page_range": [
+          1,
+          3
+        ]
+      },
+      {
+        "song_title": "Rockin' Robin",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - Rockin' Robin.pdf",
+        "file_size_bytes": 781797,
+        "page_range": [
+          3,
+          5
+        ]
+      },
+      {
+        "song_title": "Got To Be There",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - Got To Be There.pdf",
+        "file_size_bytes": 1178363,
+        "page_range": [
+          5,
+          8
+        ]
+      },
+      {
+        "song_title": "One Day In Your Life",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - One Day In Your Life.pdf",
+        "file_size_bytes": 1011165,
+        "page_range": [
+          8,
+          11
+        ]
+      },
+      {
+        "song_title": "She's Out Of My Life",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - She's Out Of My Life.pdf",
+        "file_size_bytes": 1275643,
+        "page_range": [
+          11,
+          14
+        ]
+      },
+      {
+        "song_title": "Rock With You",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - Rock With You.pdf",
+        "file_size_bytes": 1003532,
+        "page_range": [
+          14,
+          17
+        ]
+      },
+      {
+        "song_title": "Baby Be Mine",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - Baby Be Mine.pdf",
+        "file_size_bytes": 2266016,
+        "page_range": [
+          17,
+          23
+        ]
+      },
+      {
+        "song_title": "The Lady In My Life",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - The Lady In My Life.pdf",
+        "file_size_bytes": 2062251,
+        "page_range": [
+          23,
+          29
+        ]
+      },
+      {
+        "song_title": "Thriller",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - Thriller.pdf",
+        "file_size_bytes": 1983871,
+        "page_range": [
+          29,
+          35
+        ]
+      },
+      {
+        "song_title": "Off The Wall",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/The Great Songs Of/Songs/Michael Jackson - Off The Wall.pdf",
+        "file_size_bytes": 1751663,
+        "page_range": [
+          35,
+          40
+        ]
+      }
+    ]
+  }
+}

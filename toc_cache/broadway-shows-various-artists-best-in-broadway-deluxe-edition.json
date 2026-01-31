@@ -1,0 +1,1076 @@
+{
+  "book_id": "broadway-shows-various-artists-best-in-broadway-deluxe-edition",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Ain't Misbehavin'",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All of You",
+        "page_number": 8,
+        "artist": "Silk Stockings",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "And All That Jazz",
+        "page_number": 12,
+        "artist": "Chicago",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Another Op'nin', Another Show",
+        "page_number": 20,
+        "artist": "Kiss Me, Kate",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Aquarius",
+        "page_number": 25,
+        "artist": "Hair",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Beautiful City",
+        "page_number": 28,
+        "artist": "Godspell",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Best Things in Life Are Free",
+        "page_number": 32,
+        "artist": "Good News!",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bewitched",
+        "page_number": 34,
+        "artist": "Pal Joey",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Big Spender",
+        "page_number": 38,
+        "artist": "Sweet Charity",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Camelot",
+        "page_number": 41,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Come Rain or Come Shine",
+        "page_number": 46,
+        "artist": "St. Louis Woman",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Comedy Tonight",
+        "page_number": 50,
+        "artist": "A Funny Thing Happened on the Way to the Forum",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Corner of the Sky",
+        "page_number": 53,
+        "artist": "Pippin",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Blame Me",
+        "page_number": 57,
+        "artist": "Sugar Babies",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Cry for Me Argentina",
+        "page_number": 61,
+        "artist": "Evita",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ease On Down the Road",
+        "page_number": 65,
+        "artist": "The Wiz",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Everything's Coming Up Roses",
+        "page_number": 70,
+        "artist": "Gypsy",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "From This Moment On",
+        "page_number": 76,
+        "artist": "Kiss Me, Kate",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Get Me to the Church on Time",
+        "page_number": 82,
+        "artist": "My Fair Lady",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gigi",
+        "page_number": 85,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hey, Look Me Over",
+        "page_number": 91,
+        "artist": "Wildcat",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honeysuckle Rose",
+        "page_number": 94,
+        "artist": "Ain't Misbehavin'",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "How Are Things in Glocca Morra",
+        "page_number": 98,
+        "artist": "Finian's Rainbow",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Could Have Danced All Night",
+        "page_number": 102,
+        "artist": "My Fair Lady",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Could Write a Book",
+        "page_number": 112,
+        "artist": "Pal Joey",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Don't Know How to Love Him",
+        "page_number": 116,
+        "artist": "Jesus Christ Superstar",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Remember It Well",
+        "page_number": 107,
+        "artist": "Gigi",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If Ever I Would Leave You",
+        "page_number": 120,
+        "artist": "Camelot",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If We Only Have Love",
+        "page_number": 124,
+        "artist": "Jacques Brel Is Alive & Well",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's All Right With Me",
+        "page_number": 130,
+        "artist": "Can-Can",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I've Grown Accustomed to Her Face",
+        "page_number": 127,
+        "artist": "My Fair Lady",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Just in Time",
+        "page_number": 135,
+        "artist": "Bells Are Ringing",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lost in the Stars",
+        "page_number": 139,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lullaby of Broadway",
+        "page_number": 142,
+        "artist": "42nd Street",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mack the Knife",
+        "page_number": 145,
+        "artist": "The Threepenny Opera",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Make Someone Happy",
+        "page_number": 148,
+        "artist": "Do Re Mi",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Cup Runneth Over",
+        "page_number": 153,
+        "artist": "I Do! I Do!",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Funny Valentine",
+        "page_number": 158,
+        "artist": "Babes in Arms",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Own Best Friend",
+        "page_number": 160,
+        "artist": "Chicago",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Ship",
+        "page_number": 165,
+        "artist": "Lady in the Dark",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Not While I'm Around",
+        "page_number": 168,
+        "artist": "Sweeney Todd",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ol' Man River",
+        "page_number": 171,
+        "artist": "Show Boat",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Old Devil Moon",
+        "page_number": 176,
+        "artist": "Finian's Rainbow",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "On a Clear Day (You Can See Forever)",
+        "page_number": 180,
+        "artist": "On a Clear Day You Can See Forever",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "On the Street Where You Live",
+        "page_number": 183,
+        "artist": "My Fair Lady",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Party's Over",
+        "page_number": 186,
+        "artist": "Bells Are Ringing",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "People",
+        "page_number": 189,
+        "artist": "Funny Girl",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Put On a Happy Face",
+        "page_number": 192,
+        "artist": "Bye Bye Birdie",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ragtime",
+        "page_number": 194,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Send in the Clowns",
+        "page_number": 200,
+        "artist": "A Little Night Music",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "September Song",
+        "page_number": 208,
+        "artist": "Knickerbocker Holiday",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Loves Me",
+        "page_number": 212,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "So in Love",
+        "page_number": 203,
+        "artist": "Kiss Me, Kate",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Somewhere That's Green",
+        "page_number": 218,
+        "artist": "Little Shop of Horrors",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Speak Low",
+        "page_number": 221,
+        "artist": "One Touch of Venus",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Starting Here, Starting Now",
+        "page_number": 232,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Summertime",
+        "page_number": 224,
+        "artist": "Porgy and Bess",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunrise, Sunset",
+        "page_number": 228,
+        "artist": "Fiddler on the Roof",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "They Call the Wind Maria",
+        "page_number": 238,
+        "artist": "Paint Your Wagon",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tomorrow",
+        "page_number": 235,
+        "artist": "Annie",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Try to Remember",
+        "page_number": 242,
+        "artist": "The Fantasticks",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wouldn't It Be Loverly",
+        "page_number": 245,
+        "artist": "My Fair Lady",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Young and Foolish",
+        "page_number": 248,
+        "artist": "Plain and Fancy",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You're the Top",
+        "page_number": 250,
+        "artist": "Anything Goes",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "All of You": "Silk Stockings",
+      "And All That Jazz": "Chicago",
+      "Another Op'nin', Another Show": "Kiss Me, Kate",
+      "Aquarius": "Hair",
+      "Beautiful City": "Godspell",
+      "The Best Things in Life Are Free": "Good News!",
+      "Bewitched": "Pal Joey",
+      "Big Spender": "Sweet Charity",
+      "Come Rain or Come Shine": "St. Louis Woman",
+      "Comedy Tonight": "A Funny Thing Happened on the Way to the Forum",
+      "Corner of the Sky": "Pippin",
+      "Don't Blame Me": "Sugar Babies",
+      "Don't Cry for Me Argentina": "Evita",
+      "Ease On Down the Road": "The Wiz",
+      "Everything's Coming Up Roses": "Gypsy",
+      "From This Moment On": "Kiss Me, Kate",
+      "Get Me to the Church on Time": "My Fair Lady",
+      "Hey, Look Me Over": "Wildcat",
+      "Honeysuckle Rose": "Ain't Misbehavin'",
+      "How Are Things in Glocca Morra": "Finian's Rainbow",
+      "I Could Have Danced All Night": "My Fair Lady",
+      "I Could Write a Book": "Pal Joey",
+      "I Don't Know How to Love Him": "Jesus Christ Superstar",
+      "I Remember It Well": "Gigi",
+      "If Ever I Would Leave You": "Camelot",
+      "If We Only Have Love": "Jacques Brel Is Alive & Well",
+      "It's All Right With Me": "Can-Can",
+      "I've Grown Accustomed to Her Face": "My Fair Lady",
+      "Just in Time": "Bells Are Ringing",
+      "Lullaby of Broadway": "42nd Street",
+      "Mack the Knife": "The Threepenny Opera",
+      "Make Someone Happy": "Do Re Mi",
+      "My Cup Runneth Over": "I Do! I Do!",
+      "My Funny Valentine": "Babes in Arms",
+      "My Own Best Friend": "Chicago",
+      "My Ship": "Lady in the Dark",
+      "Not While I'm Around": "Sweeney Todd",
+      "Ol' Man River": "Show Boat",
+      "Old Devil Moon": "Finian's Rainbow",
+      "On a Clear Day (You Can See Forever)": "On a Clear Day You Can See Forever",
+      "On the Street Where You Live": "My Fair Lady",
+      "The Party's Over": "Bells Are Ringing",
+      "People": "Funny Girl",
+      "Put On a Happy Face": "Bye Bye Birdie",
+      "Send in the Clowns": "A Little Night Music",
+      "September Song": "Knickerbocker Holiday",
+      "So in Love": "Kiss Me, Kate",
+      "Somewhere That's Green": "Little Shop of Horrors",
+      "Speak Low": "One Touch of Venus",
+      "Summertime": "Porgy and Bess",
+      "Sunrise, Sunset": "Fiddler on the Roof",
+      "They Call the Wind Maria": "Paint Your Wagon",
+      "Tomorrow": "Annie",
+      "Try to Remember": "The Fantasticks",
+      "Wouldn't It Be Loverly": "My Fair Lady",
+      "Young and Foolish": "Plain and Fancy",
+      "You're the Top": "Anything Goes"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Ain't Misbehavin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Andy Razaf And Thomas -fats- Waller And Harry Brooks - Ain't Misbehavin'.pdf",
+        "file_size_bytes": 158046,
+        "page_range": [
+          4,
+          8
+        ]
+      },
+      {
+        "song_title": "All of You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Silk Stockings - All Of You.pdf",
+        "file_size_bytes": 114564,
+        "page_range": [
+          8,
+          12
+        ]
+      },
+      {
+        "song_title": "And All That Jazz",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Chicago - And All That Jazz.pdf",
+        "file_size_bytes": 220518,
+        "page_range": [
+          12,
+          20
+        ]
+      },
+      {
+        "song_title": "Another Op'nin', Another Show",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Kiss Me, Kate - Another Op'nin', Another Show.pdf",
+        "file_size_bytes": 132747,
+        "page_range": [
+          20,
+          25
+        ]
+      },
+      {
+        "song_title": "Aquarius",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Hair - Aquarius.pdf",
+        "file_size_bytes": 80858,
+        "page_range": [
+          25,
+          28
+        ]
+      },
+      {
+        "song_title": "Beautiful City",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Godspell - Beautiful City.pdf",
+        "file_size_bytes": 92346,
+        "page_range": [
+          28,
+          32
+        ]
+      },
+      {
+        "song_title": "The Best Things in Life Are Free",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Good News! - The Best Things In Life Are Free.pdf",
+        "file_size_bytes": 50015,
+        "page_range": [
+          32,
+          34
+        ]
+      },
+      {
+        "song_title": "Bewitched",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Pal Joey - Bewitched.pdf",
+        "file_size_bytes": 105648,
+        "page_range": [
+          34,
+          38
+        ]
+      },
+      {
+        "song_title": "Big Spender",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Sweet Charity - Big Spender.pdf",
+        "file_size_bytes": 91038,
+        "page_range": [
+          38,
+          41
+        ]
+      },
+      {
+        "song_title": "Camelot",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Music By Frederick Loewe, Words By Alan Jay Lerner - Camelot.pdf",
+        "file_size_bytes": 159025,
+        "page_range": [
+          41,
+          46
+        ]
+      },
+      {
+        "song_title": "Come Rain or Come Shine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/St. Louis Woman - Come Rain Or Come Shine.pdf",
+        "file_size_bytes": 109243,
+        "page_range": [
+          46,
+          50
+        ]
+      },
+      {
+        "song_title": "Comedy Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/A Funny Thing Happened On The Way To The Forum - Comedy Tonight.pdf",
+        "file_size_bytes": 102818,
+        "page_range": [
+          50,
+          53
+        ]
+      },
+      {
+        "song_title": "Corner of the Sky",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Pippin - Corner Of The Sky.pdf",
+        "file_size_bytes": 109716,
+        "page_range": [
+          53,
+          57
+        ]
+      },
+      {
+        "song_title": "Don't Blame Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Sugar Babies - Don't Blame Me.pdf",
+        "file_size_bytes": 128150,
+        "page_range": [
+          57,
+          61
+        ]
+      },
+      {
+        "song_title": "Don't Cry for Me Argentina",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Evita - Don't Cry For Me Argentina.pdf",
+        "file_size_bytes": 135871,
+        "page_range": [
+          61,
+          65
+        ]
+      },
+      {
+        "song_title": "Ease On Down the Road",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/The Wiz - Ease On Down The Road.pdf",
+        "file_size_bytes": 162879,
+        "page_range": [
+          65,
+          70
+        ]
+      },
+      {
+        "song_title": "Everything's Coming Up Roses",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Gypsy - Everything's Coming Up Roses.pdf",
+        "file_size_bytes": 206762,
+        "page_range": [
+          70,
+          76
+        ]
+      },
+      {
+        "song_title": "From This Moment On",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Kiss Me, Kate - From This Moment On.pdf",
+        "file_size_bytes": 161656,
+        "page_range": [
+          76,
+          82
+        ]
+      },
+      {
+        "song_title": "Get Me to the Church on Time",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/My Fair Lady - Get Me To The Church On Time.pdf",
+        "file_size_bytes": 120023,
+        "page_range": [
+          82,
+          85
+        ]
+      },
+      {
+        "song_title": "Gigi",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Lyrics By Alan Jay Lerner, Music By Frederick Loewe - Gigi.pdf",
+        "file_size_bytes": 210202,
+        "page_range": [
+          85,
+          91
+        ]
+      },
+      {
+        "song_title": "Hey, Look Me Over",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Wildcat - Hey, Look Me Over.pdf",
+        "file_size_bytes": 113060,
+        "page_range": [
+          91,
+          94
+        ]
+      },
+      {
+        "song_title": "Honeysuckle Rose",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Ain't Misbehavin' - Honeysuckle Rose.pdf",
+        "file_size_bytes": 134801,
+        "page_range": [
+          94,
+          98
+        ]
+      },
+      {
+        "song_title": "How Are Things in Glocca Morra",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Finian's Rainbow - How Are Things In Glocca Morra.pdf",
+        "file_size_bytes": 130326,
+        "page_range": [
+          98,
+          102
+        ]
+      },
+      {
+        "song_title": "I Could Have Danced All Night",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/My Fair Lady - I Could Have Danced All Night.pdf",
+        "file_size_bytes": 166142,
+        "page_range": [
+          102,
+          107
+        ]
+      },
+      {
+        "song_title": "I Remember It Well",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Gigi - I Remember It Well.pdf",
+        "file_size_bytes": 293504,
+        "page_range": [
+          107,
+          116
+        ]
+      },
+      {
+        "song_title": "I Don't Know How to Love Him",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Jesus Christ Superstar - I Don't Know How To Love Him.pdf",
+        "file_size_bytes": 143399,
+        "page_range": [
+          116,
+          120
+        ]
+      },
+      {
+        "song_title": "If Ever I Would Leave You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Camelot - If Ever I Would Leave You.pdf",
+        "file_size_bytes": 161589,
+        "page_range": [
+          120,
+          124
+        ]
+      },
+      {
+        "song_title": "If We Only Have Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Jacques Brel Is Alive & Well - If We Only Have Love.pdf",
+        "file_size_bytes": 104712,
+        "page_range": [
+          124,
+          127
+        ]
+      },
+      {
+        "song_title": "I've Grown Accustomed to Her Face",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/My Fair Lady - I've Grown Accustomed To Her Face.pdf",
+        "file_size_bytes": 100677,
+        "page_range": [
+          127,
+          130
+        ]
+      },
+      {
+        "song_title": "It's All Right With Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Can-can - It's All Right With Me.pdf",
+        "file_size_bytes": 164842,
+        "page_range": [
+          130,
+          135
+        ]
+      },
+      {
+        "song_title": "Just in Time",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Bells Are Ringing - Just In Time.pdf",
+        "file_size_bytes": 250388,
+        "page_range": [
+          135,
+          142
+        ]
+      },
+      {
+        "song_title": "Lullaby of Broadway",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/42nd Street - Lullaby Of Broadway.pdf",
+        "file_size_bytes": 105428,
+        "page_range": [
+          142,
+          145
+        ]
+      },
+      {
+        "song_title": "Mack the Knife",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/The Threepenny Opera - Mack The Knife.pdf",
+        "file_size_bytes": 95485,
+        "page_range": [
+          145,
+          148
+        ]
+      },
+      {
+        "song_title": "Make Someone Happy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Do Re Mi - Make Someone Happy.pdf",
+        "file_size_bytes": 159090,
+        "page_range": [
+          148,
+          153
+        ]
+      },
+      {
+        "song_title": "My Cup Runneth Over",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/I Do! I Do! - My Cup Runneth Over.pdf",
+        "file_size_bytes": 128103,
+        "page_range": [
+          153,
+          158
+        ]
+      },
+      {
+        "song_title": "My Funny Valentine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Babes In Arms - My Funny Valentine.pdf",
+        "file_size_bytes": 76888,
+        "page_range": [
+          158,
+          160
+        ]
+      },
+      {
+        "song_title": "My Own Best Friend",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Chicago - My Own Best Friend.pdf",
+        "file_size_bytes": 139520,
+        "page_range": [
+          160,
+          165
+        ]
+      },
+      {
+        "song_title": "My Ship",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Lady In The Dark - My Ship.pdf",
+        "file_size_bytes": 126176,
+        "page_range": [
+          165,
+          168
+        ]
+      },
+      {
+        "song_title": "Not While I'm Around",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Sweeney Todd - Not While I'm Around.pdf",
+        "file_size_bytes": 102749,
+        "page_range": [
+          168,
+          171
+        ]
+      },
+      {
+        "song_title": "Ol' Man River",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Show Boat - Ol' Man River.pdf",
+        "file_size_bytes": 163441,
+        "page_range": [
+          171,
+          176
+        ]
+      },
+      {
+        "song_title": "Old Devil Moon",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Finian's Rainbow - Old Devil Moon.pdf",
+        "file_size_bytes": 131167,
+        "page_range": [
+          176,
+          180
+        ]
+      },
+      {
+        "song_title": "On a Clear Day (You Can See Forever)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/On A Clear Day You Can See Forever - On A Clear Day (you Can See Forever).pdf",
+        "file_size_bytes": 99827,
+        "page_range": [
+          180,
+          183
+        ]
+      },
+      {
+        "song_title": "On the Street Where You Live",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/My Fair Lady - On The Street Where You Live.pdf",
+        "file_size_bytes": 171476,
+        "page_range": [
+          183,
+          187
+        ]
+      },
+      {
+        "song_title": "The Party's Over",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Bells Are Ringing - The Party's Over.pdf",
+        "file_size_bytes": 118268,
+        "page_range": [
+          187,
+          190
+        ]
+      },
+      {
+        "song_title": "People",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Funny Girl - People.pdf",
+        "file_size_bytes": 108968,
+        "page_range": [
+          190,
+          193
+        ]
+      },
+      {
+        "song_title": "Put On a Happy Face",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Bye Bye Birdie - Put On A Happy Face.pdf",
+        "file_size_bytes": 90637,
+        "page_range": [
+          193,
+          195
+        ]
+      },
+      {
+        "song_title": "Ragtime",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Ragtime.pdf",
+        "file_size_bytes": 206551,
+        "page_range": [
+          195,
+          201
+        ]
+      },
+      {
+        "song_title": "Send in the Clowns",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/A Little Night Music - Send In The Clowns.pdf",
+        "file_size_bytes": 113227,
+        "page_range": [
+          201,
+          204
+        ]
+      },
+      {
+        "song_title": "So in Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Kiss Me, Kate - So In Love.pdf",
+        "file_size_bytes": 133034,
+        "page_range": [
+          204,
+          209
+        ]
+      },
+      {
+        "song_title": "September Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Knickerbocker Holiday - September Song.pdf",
+        "file_size_bytes": 120524,
+        "page_range": [
+          209,
+          213
+        ]
+      },
+      {
+        "song_title": "She Loves Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Jerry Bock - She Loves Me.pdf",
+        "file_size_bytes": 180184,
+        "page_range": [
+          213,
+          219
+        ]
+      },
+      {
+        "song_title": "Somewhere That's Green",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Little Shop Of Horrors - Somewhere That's Green.pdf",
+        "file_size_bytes": 102621,
+        "page_range": [
+          219,
+          222
+        ]
+      },
+      {
+        "song_title": "Speak Low",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/One Touch Of Venus - Speak Low.pdf",
+        "file_size_bytes": 120273,
+        "page_range": [
+          222,
+          225
+        ]
+      },
+      {
+        "song_title": "Summertime",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Porgy And Bess - Summertime.pdf",
+        "file_size_bytes": 136137,
+        "page_range": [
+          225,
+          229
+        ]
+      },
+      {
+        "song_title": "Sunrise, Sunset",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Fiddler On The Roof - Sunrise, Sunset.pdf",
+        "file_size_bytes": 117484,
+        "page_range": [
+          229,
+          233
+        ]
+      },
+      {
+        "song_title": "Starting Here, Starting Now",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Richard Maltby, Jr - Starting Here, Starting Now.pdf",
+        "file_size_bytes": 94272,
+        "page_range": [
+          233,
+          236
+        ]
+      },
+      {
+        "song_title": "Tomorrow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Annie - Tomorrow.pdf",
+        "file_size_bytes": 108983,
+        "page_range": [
+          236,
+          239
+        ]
+      },
+      {
+        "song_title": "They Call the Wind Maria",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Paint Your Wagon - They Call The Wind Maria.pdf",
+        "file_size_bytes": 145443,
+        "page_range": [
+          239,
+          243
+        ]
+      },
+      {
+        "song_title": "Try to Remember",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/The Fantasticks - Try To Remember.pdf",
+        "file_size_bytes": 93917,
+        "page_range": [
+          243,
+          246
+        ]
+      },
+      {
+        "song_title": "Wouldn't It Be Loverly",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/My Fair Lady - Wouldn't It Be Loverly.pdf",
+        "file_size_bytes": 93788,
+        "page_range": [
+          246,
+          249
+        ]
+      },
+      {
+        "song_title": "Young and Foolish",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Plain And Fancy - Young And Foolish.pdf",
+        "file_size_bytes": 65171,
+        "page_range": [
+          249,
+          251
+        ]
+      },
+      {
+        "song_title": "You're the Top",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Best In Broadway Deluxe Edition/Songs/Anything Goes - You're The Top.pdf",
+        "file_size_bytes": 1516701,
+        "page_range": [
+          251,
+          259
+        ]
+      }
+    ]
+  }
+}

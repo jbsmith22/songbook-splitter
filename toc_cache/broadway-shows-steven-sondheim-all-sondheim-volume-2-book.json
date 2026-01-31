@@ -1,0 +1,337 @@
+{
+  "book_id": "broadway-shows-steven-sondheim-all-sondheim-volume-2-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "All Things Bright And Beautiful",
+        "page_number": 126,
+        "artist": "Marry Me A Little",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fear No More",
+        "page_number": 110,
+        "artist": "The Frogs",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Finishing The Hat",
+        "page_number": 118,
+        "artist": "Sunday In The Park With George",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Girls Of Summer, The",
+        "page_number": 95,
+        "artist": "Marry Me A Little",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Glamorous Life, The",
+        "page_number": 17,
+        "artist": "A Little Night Music",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Good Thing Going",
+        "page_number": 101,
+        "artist": "Merrily We Roll Along",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Do Like You",
+        "page_number": 34,
+        "artist": "A Funny Thing Happened On The Way To The Forum",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Invocation And Instructions To The Audience",
+        "page_number": 2,
+        "artist": "The Frogs",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Isn't It?",
+        "page_number": 74,
+        "artist": "You're Gonna Love Tomorrow",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little White House/Who Could Be Blue?",
+        "page_number": 63,
+        "artist": "Marry Me A Little",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Marry Me A Little",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Not A Day Goes By",
+        "page_number": 44,
+        "artist": "Merrily We Roll Along",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Old Friends",
+        "page_number": 138,
+        "artist": "Merrily We Roll Along",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Silly People",
+        "page_number": 68,
+        "artist": "Marry Me A Little",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "So Many People",
+        "page_number": 105,
+        "artist": "Marry Me A Little",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunday",
+        "page_number": 90,
+        "artist": "Sunday In The Park With George",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take Me To The World",
+        "page_number": 113,
+        "artist": "Evening Primrose",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Uptown, Downtown",
+        "page_number": 48,
+        "artist": "Marry Me A Little",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What More Do I Need?",
+        "page_number": 55,
+        "artist": "Marry Me A Little",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "All Things Bright And Beautiful": "Marry Me A Little",
+      "Fear No More": "The Frogs",
+      "Finishing The Hat": "Sunday In The Park With George",
+      "Girls Of Summer, The": "Marry Me A Little",
+      "Glamorous Life, The": "A Little Night Music",
+      "Good Thing Going": "Merrily We Roll Along",
+      "I Do Like You": "A Funny Thing Happened On The Way To The Forum",
+      "Invocation And Instructions To The Audience": "The Frogs",
+      "Isn't It?": "You're Gonna Love Tomorrow",
+      "Little White House/Who Could Be Blue?": "Marry Me A Little",
+      "Not A Day Goes By": "Merrily We Roll Along",
+      "Old Friends": "Merrily We Roll Along",
+      "Silly People": "Marry Me A Little",
+      "So Many People": "Marry Me A Little",
+      "Sunday": "Sunday In The Park With George",
+      "Take Me To The World": "Evening Primrose",
+      "Uptown, Downtown": "Marry Me A Little",
+      "What More Do I Need?": "Marry Me A Little"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Invocation And Instructions To The Audience",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/The Frogs - Invocation And Instructions To The Audience.pdf",
+        "file_size_bytes": 388163,
+        "page_range": [
+          3,
+          18
+        ]
+      },
+      {
+        "song_title": "Glamorous Life, The",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/A Little Night Music - Glamorous Life, The.pdf",
+        "file_size_bytes": 417686,
+        "page_range": [
+          18,
+          35
+        ]
+      },
+      {
+        "song_title": "I Do Like You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/A Funny Thing Happened On The Way To The Forum - I Do Like You.pdf",
+        "file_size_bytes": 245472,
+        "page_range": [
+          35,
+          45
+        ]
+      },
+      {
+        "song_title": "Not A Day Goes By",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Merrily We Roll Along - Not A Day Goes By.pdf",
+        "file_size_bytes": 134013,
+        "page_range": [
+          45,
+          49
+        ]
+      },
+      {
+        "song_title": "Uptown, Downtown",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Marry Me A Little - Uptown, Downtown.pdf",
+        "file_size_bytes": 203040,
+        "page_range": [
+          49,
+          56
+        ]
+      },
+      {
+        "song_title": "What More Do I Need?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Marry Me A Little - What More Do I Need-.pdf",
+        "file_size_bytes": 220716,
+        "page_range": [
+          56,
+          64
+        ]
+      },
+      {
+        "song_title": "Little White House/Who Could Be Blue?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Marry Me A Little - Little White House-who Could Be Blue-.pdf",
+        "file_size_bytes": 132754,
+        "page_range": [
+          64,
+          69
+        ]
+      },
+      {
+        "song_title": "Silly People",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Marry Me A Little - Silly People.pdf",
+        "file_size_bytes": 174737,
+        "page_range": [
+          69,
+          75
+        ]
+      },
+      {
+        "song_title": "Isn't It?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/You're Gonna Love Tomorrow - Isn't It-.pdf",
+        "file_size_bytes": 95820,
+        "page_range": [
+          75,
+          79
+        ]
+      },
+      {
+        "song_title": "Marry Me A Little",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Stephen Sondheim - Marry Me A Little.pdf",
+        "file_size_bytes": 341431,
+        "page_range": [
+          79,
+          91
+        ]
+      },
+      {
+        "song_title": "Sunday",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Sunday In The Park With George - Sunday.pdf",
+        "file_size_bytes": 138160,
+        "page_range": [
+          91,
+          96
+        ]
+      },
+      {
+        "song_title": "Girls Of Summer, The",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Marry Me A Little - Girls Of Summer, The.pdf",
+        "file_size_bytes": 172520,
+        "page_range": [
+          96,
+          102
+        ]
+      },
+      {
+        "song_title": "Good Thing Going",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Merrily We Roll Along - Good Thing Going.pdf",
+        "file_size_bytes": 133932,
+        "page_range": [
+          102,
+          106
+        ]
+      },
+      {
+        "song_title": "So Many People",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Marry Me A Little - So Many People.pdf",
+        "file_size_bytes": 175957,
+        "page_range": [
+          106,
+          111
+        ]
+      },
+      {
+        "song_title": "Fear No More",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/The Frogs - Fear No More.pdf",
+        "file_size_bytes": 108817,
+        "page_range": [
+          111,
+          114
+        ]
+      },
+      {
+        "song_title": "Take Me To The World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Evening Primrose - Take Me To The World.pdf",
+        "file_size_bytes": 198887,
+        "page_range": [
+          114,
+          119
+        ]
+      },
+      {
+        "song_title": "Finishing The Hat",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Sunday In The Park With George - Finishing The Hat.pdf",
+        "file_size_bytes": 317201,
+        "page_range": [
+          119,
+          127
+        ]
+      },
+      {
+        "song_title": "All Things Bright And Beautiful",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Marry Me A Little - All Things Bright And Beautiful.pdf",
+        "file_size_bytes": 442822,
+        "page_range": [
+          127,
+          139
+        ]
+      },
+      {
+        "song_title": "Old Friends",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Merrily We Roll Along - Old Friends.pdf",
+        "file_size_bytes": 708668,
+        "page_range": [
+          139,
+          148
+        ]
+      }
+    ]
+  }
+}

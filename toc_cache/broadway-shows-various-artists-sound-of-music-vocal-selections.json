@@ -1,0 +1,83 @@
+{
+  "book_id": "broadway-shows-various-artists-sound-of-music-vocal-selections",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Sound of Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music (vocal Selections)/Songs/Rodgers And Hammerstein - The Sound Of Music.pdf",
+        "file_size_bytes": 56479,
+        "page_range": [
+          0,
+          2
+        ]
+      },
+      {
+        "song_title": "The Sound Of Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music (vocal Selections)/Songs/Richard Rodgers - The Sound Of Music.pdf",
+        "file_size_bytes": 541071,
+        "page_range": [
+          2,
+          7
+        ]
+      },
+      {
+        "song_title": "Sixteen Going On Seventeen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music (vocal Selections)/Songs/Richard Rodgers (music), Oscar Hammerstein 2nd (words) - Sixteen Going On Seventeen.pdf",
+        "file_size_bytes": 1277536,
+        "page_range": [
+          7,
+          21
+        ]
+      },
+      {
+        "song_title": "My Favorite Things",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music (vocal Selections)/Songs/Music By Richard Rodgers, Words By Oscar Hammerstein Ii - My Favorite Things.pdf",
+        "file_size_bytes": 229207,
+        "page_range": [
+          21,
+          25
+        ]
+      },
+      {
+        "song_title": "THE LONELY GOATHERD",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music (vocal Selections)/Songs/Lyrics By Oscar Hammerstein Ii, Music By Richard Rodgers - The Lonely Goatherd.pdf",
+        "file_size_bytes": 667692,
+        "page_range": [
+          25,
+          31
+        ]
+      },
+      {
+        "song_title": "Climb Ev'ry Mountain",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music (vocal Selections)/Songs/Richard Rodgers, Oscar Hammerstein Ii - Climb Ev'ry Mountain.pdf",
+        "file_size_bytes": 198075,
+        "page_range": [
+          31,
+          34
+        ]
+      },
+      {
+        "song_title": "Edelweiss",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music (vocal Selections)/Songs/Richard Rodgers, Oscar Hammerstein Ii - Edelweiss.pdf",
+        "file_size_bytes": 165150,
+        "page_range": [
+          34,
+          37
+        ]
+      }
+    ]
+  }
+}

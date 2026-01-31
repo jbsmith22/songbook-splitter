@@ -1,0 +1,32 @@
+[
+    {
+        "status":  "SUCCEEDED",
+        "book":  "Billy Joel - Anthology",
+        "arn":  "arn:aws:states:us-east-1:227027150061:execution:jsmith-sheetmusic-splitter-pipeline:BillyJoel-Billy-Joel---Anthology-20260127160806"
+    },
+    {
+        "status":  "SUCCEEDED",
+        "book":  "Billy Joel - Complete Vol  1",
+        "arn":  "arn:aws:states:us-east-1:227027150061:execution:jsmith-sheetmusic-splitter-pipeline:BillyJoel-Billy-Joel---Complete-Vol-1-20260127160809"
+    },
+    {
+        "status":  "SUCCEEDED",
+        "book":  "Billy Joel - Fantasies \u0026 Delusions",
+        "arn":  "arn:aws:states:us-east-1:227027150061:execution:jsmith-sheetmusic-splitter-pipeline:BillyJoel-Billy-Joel---Fantasies--Delusions-20260127160812"
+    },
+    {
+        "status":  "SUCCEEDED",
+        "book":  "Billy Joel - Glass Houses",
+        "arn":  "arn:aws:states:us-east-1:227027150061:execution:jsmith-sheetmusic-splitter-pipeline:BillyJoel-Billy-Joel---Glass-Houses-20260127160816"
+    },
+    {
+        "status":  "SUCCEEDED",
+        "book":  "Billy Joel - Greatest Hits",
+        "arn":  "arn:aws:states:us-east-1:227027150061:execution:jsmith-sheetmusic-splitter-pipeline:BillyJoel-Billy-Joel---Greatest-Hits-20260127160819"
+    },
+    {
+        "status":  "SUCCEEDED",
+        "book":  "Billy Joel - Keyboard Book",
+        "arn":  "arn:aws:states:us-east-1:227027150061:execution:jsmith-sheetmusic-splitter-pipeline:BillyJoel-Billy-Joel---Keyboard-Book-20260127160822"
+    }
+]

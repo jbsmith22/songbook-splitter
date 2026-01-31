@@ -1,0 +1,73 @@
+{
+  "book_id": "6627bc356f005e3f",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Planet Earth",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Duran Duran - Decade [pvg Book]/Songs/Duran Duran - Planet Earth.pdf",
+        "file_size_bytes": 661543,
+        "page_range": [
+          4,
+          20
+        ]
+      },
+      {
+        "song_title": "Save a Prayer",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Duran Duran - Decade [pvg Book]/Songs/Duran Duran - Save A Prayer.pdf",
+        "file_size_bytes": 777363,
+        "page_range": [
+          20,
+          32
+        ]
+      },
+      {
+        "song_title": "THE REFLEX",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Duran Duran - Decade [pvg Book]/Songs/Duran Duran - The Reflex.pdf",
+        "file_size_bytes": 574746,
+        "page_range": [
+          32,
+          46
+        ]
+      },
+      {
+        "song_title": "Notorious",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Duran Duran - Decade [pvg Book]/Songs/Duran Duran - Notorious.pdf",
+        "file_size_bytes": 520991,
+        "page_range": [
+          46,
+          55
+        ]
+      },
+      {
+        "song_title": "I DON'T WANT YOUR LOVE",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Duran Duran - Decade [pvg Book]/Songs/Duran Duran - I Don't Want Your Love.pdf",
+        "file_size_bytes": 260008,
+        "page_range": [
+          55,
+          60
+        ]
+      },
+      {
+        "song_title": "All She Wants Is",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Duran Duran - Decade [pvg Book]/Songs/Duran Duran - All She Wants Is.pdf",
+        "file_size_bytes": 91954,
+        "page_range": [
+          60,
+          64
+        ]
+      }
+    ]
+  }
+}

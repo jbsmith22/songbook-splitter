@@ -1,0 +1,30 @@
+{
+  "book_id": "36de646b9e4e1042",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "I'll Have To Say I Love You In A Song",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "I'll Have To Say I Love You In A Song",
+        "artist": "Jim Croce",
+        "output_uri": "s3://jsmith-output/Jim Croce/Jim Croce - Acoustic Fingerstyle Video Guitar Lessons/Songs/Jim Croce - I'll Have To Say I Love You In A Song.pdf",
+        "file_size_bytes": 6701341,
+        "page_range": [
+          1,
+          28
+        ]
+      }
+    ]
+  }
+}

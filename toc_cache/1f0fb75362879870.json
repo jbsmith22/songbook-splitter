@@ -1,0 +1,30 @@
+{
+  "book_id": "1f0fb75362879870",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Turn to Stone",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Turn to Stone",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Out Of The Blue [book]/Songs/Elo - Turn To Stone.pdf",
+        "file_size_bytes": 12744280,
+        "page_range": [
+          1,
+          76
+        ]
+      }
+    ]
+  }
+}

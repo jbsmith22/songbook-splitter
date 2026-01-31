@@ -1,0 +1,303 @@
+{
+  "book_id": "george-michael-greatest-hits",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Different Corner",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - A Different Corner.pdf",
+        "file_size_bytes": 760690,
+        "page_range": [
+          2,
+          7
+        ]
+      },
+      {
+        "song_title": "A Moment With You",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - A Moment With You.pdf",
+        "file_size_bytes": 515983,
+        "page_range": [
+          7,
+          13
+        ]
+      },
+      {
+        "song_title": "As",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - As.pdf",
+        "file_size_bytes": 1135655,
+        "page_range": [
+          13,
+          21
+        ]
+      },
+      {
+        "song_title": "Careless Whisper",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Careless Whisper.pdf",
+        "file_size_bytes": 384184,
+        "page_range": [
+          21,
+          24
+        ]
+      },
+      {
+        "song_title": "Cowboys and Angels",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Cowboys And Angels.pdf",
+        "file_size_bytes": 1344331,
+        "page_range": [
+          24,
+          34
+        ]
+      },
+      {
+        "song_title": "Desafinado",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Desafinado.pdf",
+        "file_size_bytes": 570129,
+        "page_range": [
+          34,
+          40
+        ]
+      },
+      {
+        "song_title": "DON'T LET THE SUN GO DOWN ON ME",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Don't Let The Sun Go Down On Me.pdf",
+        "file_size_bytes": 643676,
+        "page_range": [
+          40,
+          45
+        ]
+      },
+      {
+        "song_title": "Faith",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Faith.pdf",
+        "file_size_bytes": 551124,
+        "page_range": [
+          45,
+          49
+        ]
+      },
+      {
+        "song_title": "Fantasy",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Fantasy.pdf",
+        "file_size_bytes": 1424000,
+        "page_range": [
+          49,
+          59
+        ]
+      },
+      {
+        "song_title": "FASTLOVE",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Fastlove.pdf",
+        "file_size_bytes": 783767,
+        "page_range": [
+          59,
+          66
+        ]
+      },
+      {
+        "song_title": "Father Figure",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Father Figure.pdf",
+        "file_size_bytes": 1068805,
+        "page_range": [
+          66,
+          75
+        ]
+      },
+      {
+        "song_title": "Freedom '90",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Freedom '90.pdf",
+        "file_size_bytes": 2754512,
+        "page_range": [
+          75,
+          91
+        ]
+      },
+      {
+        "song_title": "Heal the Pain",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Heal The Pain.pdf",
+        "file_size_bytes": 1092395,
+        "page_range": [
+          91,
+          104
+        ]
+      },
+      {
+        "song_title": "I Can't Make You Love Me",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - I Can't Make You Love Me.pdf",
+        "file_size_bytes": 457560,
+        "page_range": [
+          104,
+          108
+        ]
+      },
+      {
+        "song_title": "I KNEW YOU WERE WAITING (FOR ME)",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - I Knew You Were Waiting (for Me).pdf",
+        "file_size_bytes": 889239,
+        "page_range": [
+          108,
+          114
+        ]
+      },
+      {
+        "song_title": "I WANT YOUR SEX (Part II)",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - I Want Your Sex (part Ii).pdf",
+        "file_size_bytes": 1180848,
+        "page_range": [
+          114,
+          122
+        ]
+      },
+      {
+        "song_title": "Jesus to a Child",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Jesus To A Child.pdf",
+        "file_size_bytes": 706873,
+        "page_range": [
+          122,
+          128
+        ]
+      },
+      {
+        "song_title": "Killer/Papa Was A Rolling Stone",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Killer-papa Was A Rolling Stone.pdf",
+        "file_size_bytes": 1181557,
+        "page_range": [
+          128,
+          137
+        ]
+      },
+      {
+        "song_title": "Kissing a Fool",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Kissing A Fool.pdf",
+        "file_size_bytes": 759934,
+        "page_range": [
+          137,
+          143
+        ]
+      },
+      {
+        "song_title": "One More Try",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - One More Try.pdf",
+        "file_size_bytes": 606403,
+        "page_range": [
+          143,
+          147
+        ]
+      },
+      {
+        "song_title": "Outside",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Outside.pdf",
+        "file_size_bytes": 933490,
+        "page_range": [
+          147,
+          154
+        ]
+      },
+      {
+        "song_title": "Praying For Time",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Praying For Time.pdf",
+        "file_size_bytes": 910536,
+        "page_range": [
+          154,
+          164
+        ]
+      },
+      {
+        "song_title": "Somebody to Love",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Somebody To Love.pdf",
+        "file_size_bytes": 952304,
+        "page_range": [
+          164,
+          172
+        ]
+      },
+      {
+        "song_title": "Spinning the Wheel",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Spinning The Wheel.pdf",
+        "file_size_bytes": 924628,
+        "page_range": [
+          172,
+          179
+        ]
+      },
+      {
+        "song_title": "Star People",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Star People.pdf",
+        "file_size_bytes": 1065255,
+        "page_range": [
+          179,
+          186
+        ]
+      },
+      {
+        "song_title": "THE STRANGEST THING",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - The Strangest Thing.pdf",
+        "file_size_bytes": 869231,
+        "page_range": [
+          186,
+          193
+        ]
+      },
+      {
+        "song_title": "Too Funky",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Too Funky.pdf",
+        "file_size_bytes": 939249,
+        "page_range": [
+          193,
+          202
+        ]
+      },
+      {
+        "song_title": "Waiting for That Day",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - Waiting For That Day.pdf",
+        "file_size_bytes": 1454879,
+        "page_range": [
+          202,
+          214
+        ]
+      },
+      {
+        "song_title": "YOU HAVE BEEN LOVED",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/Greatest Hits/Songs/George Michael - You Have Been Loved.pdf",
+        "file_size_bytes": 577761,
+        "page_range": [
+          214,
+          219
+        ]
+      }
+    ]
+  }
+}

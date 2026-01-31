@@ -1,0 +1,53 @@
+{
+  "book_id": "68d7c55ceddb23ca",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "BREAKAWAY",
+        "artist": "Kelly Clarkson",
+        "output_uri": "s3://jsmith-output/Kelly Clarkson/Kelly Clarkson - Breakaway (book)/Songs/Kelly Clarkson - Breakaway.pdf",
+        "file_size_bytes": 1576329,
+        "page_range": [
+          0,
+          37
+        ]
+      },
+      {
+        "song_title": "WHERE IS YOUR HEART",
+        "artist": "Kelly Clarkson",
+        "output_uri": "s3://jsmith-output/Kelly Clarkson/Kelly Clarkson - Breakaway (book)/Songs/Kelly Clarkson - Where Is Your Heart.pdf",
+        "file_size_bytes": 604011,
+        "page_range": [
+          37,
+          52
+        ]
+      },
+      {
+        "song_title": "YOU FOUND ME",
+        "artist": "Kelly Clarkson",
+        "output_uri": "s3://jsmith-output/Kelly Clarkson/Kelly Clarkson - Breakaway (book)/Songs/Kelly Clarkson - You Found Me.pdf",
+        "file_size_bytes": 257892,
+        "page_range": [
+          52,
+          58
+        ]
+      },
+      {
+        "song_title": "I Hate Myself for Losing You",
+        "artist": "Kelly Clarkson",
+        "output_uri": "s3://jsmith-output/Kelly Clarkson/Kelly Clarkson - Breakaway (book)/Songs/Kelly Clarkson - I Hate Myself For Losing You.pdf",
+        "file_size_bytes": 758621,
+        "page_range": [
+          58,
+          76
+        ]
+      }
+    ]
+  }
+}

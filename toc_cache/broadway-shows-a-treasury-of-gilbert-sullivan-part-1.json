@@ -1,0 +1,513 @@
+{
+  "book_id": "broadway-shows-a-treasury-of-gilbert-sullivan-part-1",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "When First My Old, Old Love I Knew",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When First My Old, Old Love I Knew.pdf",
+        "file_size_bytes": 358480,
+        "page_range": [
+          20,
+          26
+        ]
+      },
+      {
+        "song_title": "With a Sense of Deep Emotion",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - With A Sense Of Deep Emotion.pdf",
+        "file_size_bytes": 869366,
+        "page_range": [
+          26,
+          36
+        ]
+      },
+      {
+        "song_title": "Time Was, When Love and I",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Time Was, When Love And I.pdf",
+        "file_size_bytes": 141943,
+        "page_range": [
+          36,
+          38
+        ]
+      },
+      {
+        "song_title": "My Name Is John Wellington Wells",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - My Name Is John Wellington Wells.pdf",
+        "file_size_bytes": 526791,
+        "page_range": [
+          38,
+          45
+        ]
+      },
+      {
+        "song_title": "Now to the Banquet We Press",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Now To The Banquet We Press.pdf",
+        "file_size_bytes": 1692646,
+        "page_range": [
+          45,
+          54
+        ]
+      },
+      {
+        "song_title": "We Sail the Ocean Blue",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - We Sail The Ocean Blue.pdf",
+        "file_size_bytes": 226733,
+        "page_range": [
+          54,
+          57
+        ]
+      },
+      {
+        "song_title": "I'm Called Little Buttercup",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - I'm Called Little Buttercup.pdf",
+        "file_size_bytes": 199595,
+        "page_range": [
+          57,
+          60
+        ]
+      },
+      {
+        "song_title": "A Maiden Fair to See",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - A Maiden Fair To See.pdf",
+        "file_size_bytes": 198306,
+        "page_range": [
+          60,
+          63
+        ]
+      },
+      {
+        "song_title": "I Am the Captain of the Pinafore",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - I Am The Captain Of The Pinafore.pdf",
+        "file_size_bytes": 188958,
+        "page_range": [
+          63,
+          66
+        ]
+      },
+      {
+        "song_title": "Sorry Her Lot",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Sorry Her Lot.pdf",
+        "file_size_bytes": 140951,
+        "page_range": [
+          66,
+          68
+        ]
+      },
+      {
+        "song_title": "I Am the Monarch of the Sea",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - I Am The Monarch Of The Sea.pdf",
+        "file_size_bytes": 214577,
+        "page_range": [
+          68,
+          71
+        ]
+      },
+      {
+        "song_title": "When I Was a Lad",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Sir Joseph - When I Was A Lad.pdf",
+        "file_size_bytes": 301535,
+        "page_range": [
+          71,
+          75
+        ]
+      },
+      {
+        "song_title": "Refrain, Audacious Tar",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Refrain, Audacious Tar.pdf",
+        "file_size_bytes": 221159,
+        "page_range": [
+          75,
+          78
+        ]
+      },
+      {
+        "song_title": "Things Are Seldom What They Seem",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Things Are Seldom What They Seem.pdf",
+        "file_size_bytes": 234251,
+        "page_range": [
+          78,
+          81
+        ]
+      },
+      {
+        "song_title": "Never Mind the Why and Wherefore",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Never Mind The Why And Wherefore.pdf",
+        "file_size_bytes": 286353,
+        "page_range": [
+          81,
+          85
+        ]
+      },
+      {
+        "song_title": "Kind Captain, I've Important Information",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Kind Captain, I've Important Information.pdf",
+        "file_size_bytes": 138827,
+        "page_range": [
+          85,
+          87
+        ]
+      },
+      {
+        "song_title": "Carefully on Tiptoe Stealing",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Carefully On Tiptoe Stealing.pdf",
+        "file_size_bytes": 162936,
+        "page_range": [
+          87,
+          89
+        ]
+      },
+      {
+        "song_title": "He Is an Englishman",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Boatswain (from The Musical Notation) - He Is An Englishman.pdf",
+        "file_size_bytes": 153537,
+        "page_range": [
+          89,
+          91
+        ]
+      },
+      {
+        "song_title": "Farewell, My Own",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Farewell, My Own.pdf",
+        "file_size_bytes": 1087016,
+        "page_range": [
+          91,
+          100
+        ]
+      },
+      {
+        "song_title": "When Frederic Was a Little Lad",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When Frederic Was A Little Lad.pdf",
+        "file_size_bytes": 131824,
+        "page_range": [
+          100,
+          102
+        ]
+      },
+      {
+        "song_title": "Oh Better Far to Live and Die",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Oh Better Far To Live And Die.pdf",
+        "file_size_bytes": 134901,
+        "page_range": [
+          102,
+          104
+        ]
+      },
+      {
+        "song_title": "Pirate King",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Pirate King.pdf",
+        "file_size_bytes": 72327,
+        "page_range": [
+          104,
+          105
+        ]
+      },
+      {
+        "song_title": "Climbing Over Rocky Mountain",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Climbing Over Rocky Mountain.pdf",
+        "file_size_bytes": 195226,
+        "page_range": [
+          105,
+          108
+        ]
+      },
+      {
+        "song_title": "Oh, Is There Not One Maiden Breast",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Oh, Is There Not One Maiden Breast.pdf",
+        "file_size_bytes": 282677,
+        "page_range": [
+          108,
+          112
+        ]
+      },
+      {
+        "song_title": "Poor Wandering One",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Poor Wandering One.pdf",
+        "file_size_bytes": 831381,
+        "page_range": [
+          112,
+          125
+        ]
+      },
+      {
+        "song_title": "When the Foeman Bares His Steel",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When The Foeman Bares His Steel.pdf",
+        "file_size_bytes": 566325,
+        "page_range": [
+          125,
+          133
+        ]
+      },
+      {
+        "song_title": "Ah, Leave Me Not to Pine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Ah, Leave Me Not To Pine.pdf",
+        "file_size_bytes": 1123884,
+        "page_range": [
+          133,
+          147
+        ]
+      },
+      {
+        "song_title": "Twenty Love-Sick Maidens We",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Twenty Love-sick Maidens We.pdf",
+        "file_size_bytes": 132470,
+        "page_range": [
+          147,
+          149
+        ]
+      },
+      {
+        "song_title": "I Cannot Tell What This Love May Be",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - I Cannot Tell What This Love May Be.pdf",
+        "file_size_bytes": 635157,
+        "page_range": [
+          149,
+          159
+        ]
+      },
+      {
+        "song_title": "If You're Anxious For to Shine",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - If You're Anxious For To Shine.pdf",
+        "file_size_bytes": 174502,
+        "page_range": [
+          159,
+          162
+        ]
+      },
+      {
+        "song_title": "Prithee, Pretty Maiden",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Prithee, Pretty Maiden.pdf",
+        "file_size_bytes": 127744,
+        "page_range": [
+          162,
+          164
+        ]
+      },
+      {
+        "song_title": "Silvered Is the Raven Hair",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Silvered Is The Raven Hair.pdf",
+        "file_size_bytes": 123449,
+        "page_range": [
+          164,
+          166
+        ]
+      },
+      {
+        "song_title": "The Magnet and the Churn",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - The Magnet And The Churn.pdf",
+        "file_size_bytes": 200467,
+        "page_range": [
+          166,
+          169
+        ]
+      },
+      {
+        "song_title": "Love Is a Plaintive Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Love Is A Plaintive Song.pdf",
+        "file_size_bytes": 132551,
+        "page_range": [
+          169,
+          171
+        ]
+      },
+      {
+        "song_title": "When I Go Out of Door",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When I Go Out Of Door.pdf",
+        "file_size_bytes": 1010997,
+        "page_range": [
+          171,
+          179
+        ]
+      },
+      {
+        "song_title": "We Are Dainty Little Fairies",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - We Are Dainty Little Fairies.pdf",
+        "file_size_bytes": 273972,
+        "page_range": [
+          179,
+          183
+        ]
+      },
+      {
+        "song_title": "Good Morrow, Good Lover",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Good Morrow, Good Lover.pdf",
+        "file_size_bytes": 113020,
+        "page_range": [
+          183,
+          185
+        ]
+      },
+      {
+        "song_title": "None Shall Part Us",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - None Shall Part Us.pdf",
+        "file_size_bytes": 189934,
+        "page_range": [
+          185,
+          188
+        ]
+      },
+      {
+        "song_title": "Loudly Let the Trumpet Bray",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Loudly Let The Trumpet Bray.pdf",
+        "file_size_bytes": 496599,
+        "page_range": [
+          188,
+          196
+        ]
+      },
+      {
+        "song_title": "Of All the Young Ladies I Know",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Of All The Young Ladies I Know.pdf",
+        "file_size_bytes": 150201,
+        "page_range": [
+          196,
+          198
+        ]
+      },
+      {
+        "song_title": "Spurn Not the Nobly Born",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Spurn Not The Nobly Born.pdf",
+        "file_size_bytes": 71191,
+        "page_range": [
+          198,
+          199
+        ]
+      },
+      {
+        "song_title": "When I Went to the Bar",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When I Went To The Bar.pdf",
+        "file_size_bytes": 130362,
+        "page_range": [
+          199,
+          201
+        ]
+      },
+      {
+        "song_title": "Young Strephon Is the Kind of Lout",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Young Strephon Is The Kind Of Lout.pdf",
+        "file_size_bytes": 183895,
+        "page_range": [
+          201,
+          204
+        ]
+      },
+      {
+        "song_title": "When All Night Long",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Private Willis - When All Night Long.pdf",
+        "file_size_bytes": 196714,
+        "page_range": [
+          204,
+          207
+        ]
+      },
+      {
+        "song_title": "When Britain Really Ruled the Waves",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When Britain Really Ruled The Waves.pdf",
+        "file_size_bytes": 129181,
+        "page_range": [
+          207,
+          209
+        ]
+      },
+      {
+        "song_title": "Oh, Foolish Fay",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Oh, Foolish Fay.pdf",
+        "file_size_bytes": 181183,
+        "page_range": [
+          209,
+          212
+        ]
+      },
+      {
+        "song_title": "When You're Lying Awake",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Lord Chancellor - When You're Lying Awake.pdf",
+        "file_size_bytes": 384755,
+        "page_range": [
+          212,
+          218
+        ]
+      },
+      {
+        "song_title": "Faint Heart Never Won Fair Lady",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Faint Heart Never Won Fair Lady.pdf",
+        "file_size_bytes": 129015,
+        "page_range": [
+          218,
+          220
+        ]
+      },
+      {
+        "song_title": "LORD CHANCELLOR",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Lord Chancellor.pdf",
+        "file_size_bytes": 117414,
+        "page_range": [
+          220,
+          222
+        ]
+      },
+      {
+        "song_title": "If We're Weak Enough to Tarry",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - If We're Weak Enough To Tarry.pdf",
+        "file_size_bytes": 265264,
+        "page_range": [
+          222,
+          226
+        ]
+      }
+    ]
+  }
+}

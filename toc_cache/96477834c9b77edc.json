@@ -1,0 +1,103 @@
+{
+  "book_id": "96477834c9b77edc",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Science Fiction",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/Unknown Artist - Science Fiction.pdf",
+        "file_size_bytes": 4629907,
+        "page_range": [
+          4,
+          24
+        ]
+      },
+      {
+        "song_title": "Time Warp",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/Riff Raft, Magenta, Columbia, Narrator - Time Warp.pdf",
+        "file_size_bytes": 2694437,
+        "page_range": [
+          24,
+          36
+        ]
+      },
+      {
+        "song_title": "Sweet Transvestite",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/Frank (based On The Vocal Credit -vocal- Frank- At The Top) - Sweet Transvestite.pdf",
+        "file_size_bytes": 4957367,
+        "page_range": [
+          36,
+          58
+        ]
+      },
+      {
+        "song_title": "Rock N' Roll",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/Unknown Artist - Rock N' Roll.pdf",
+        "file_size_bytes": 1746359,
+        "page_range": [
+          58,
+          66
+        ]
+      },
+      {
+        "song_title": "Entr'acte",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/Unknown Artist - Entr'acte.pdf",
+        "file_size_bytes": 5620348,
+        "page_range": [
+          66,
+          93
+        ]
+      },
+      {
+        "song_title": "William Tell Underture",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/Unknown Artist - William Tell Underture.pdf",
+        "file_size_bytes": 311846,
+        "page_range": [
+          93,
+          95
+        ]
+      },
+      {
+        "song_title": "Eddie's Teddy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/(vocal- Dr. Scott, Narrator, Frank Columbia) - Eddie's Teddy.pdf",
+        "file_size_bytes": 6583694,
+        "page_range": [
+          95,
+          123
+        ]
+      },
+      {
+        "song_title": "I'M GOING HOME",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/Frank - I'm Going Home.pdf",
+        "file_size_bytes": 2364897,
+        "page_range": [
+          123,
+          134
+        ]
+      },
+      {
+        "song_title": "Science Fiction Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show Revised - Full Score/Songs/Unknown Artist - Science Fiction Reprise.pdf",
+        "file_size_bytes": 2853194,
+        "page_range": [
+          134,
+          148
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "book_id": "beatles-anthology-2-page-41-72",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Norwegian Wood (This Bird Has Flown)",
+        "page_number": 41,
+        "artist": "John Lennon and Paul McCartney",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Norwegian Wood (This Bird Has Flown)": "John Lennon and Paul McCartney"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Norwegian Wood (This Bird Has Flown)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 2 (page 41 -72)/Songs/John Lennon And Paul Mccartney - Norwegian Wood (this Bird Has Flown).pdf",
+        "file_size_bytes": 7640053,
+        "page_range": [
+          0,
+          32
+        ]
+      }
+    ]
+  }
+}

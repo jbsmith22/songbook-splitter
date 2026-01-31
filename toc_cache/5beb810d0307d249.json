@@ -1,0 +1,23 @@
+{
+  "book_id": "5beb810d0307d249",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "It Stops Today",
+        "artist": "Colbie Caillat",
+        "output_uri": "s3://jsmith-output/Colbie Caillat/Colbie Caillat - Breakthrough [pvg Book]/Songs/Colbie Caillat - It Stops Today.pdf",
+        "file_size_bytes": 4205968,
+        "page_range": [
+          62,
+          75
+        ]
+      }
+    ]
+  }
+}

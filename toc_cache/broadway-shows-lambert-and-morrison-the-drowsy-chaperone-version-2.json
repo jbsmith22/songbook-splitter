@@ -1,0 +1,48 @@
+{
+  "book_id": "broadway-shows-lambert-and-morrison-the-drowsy-chaperone-version-2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Overture",
+        "page_number": 1,
+        "artist": "Broadway Version-Mar.17 (Revised from L.A. prod.)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Anyway, it's very cold and...",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Overture": "Broadway Version-Mar.17 (Revised from L.A. prod.)"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Overture",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lambert And Morrison - The Drowsy Chaperone (version 2)/Songs/Broadway Version-mar.17 (revised From L.a. Prod.) - Overture.pdf",
+        "file_size_bytes": 50235,
+        "page_range": [
+          0,
+          1
+        ]
+      },
+      {
+        "song_title": "Anyway, it's very cold and...",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Lambert And Morrison - The Drowsy Chaperone (version 2)/Songs/Unknown Artist - Anyway, It's Very Cold And.pdf",
+        "file_size_bytes": 8507665,
+        "page_range": [
+          1,
+          176
+        ]
+      }
+    ]
+  }
+}

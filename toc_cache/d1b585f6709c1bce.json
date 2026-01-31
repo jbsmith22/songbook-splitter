@@ -1,0 +1,113 @@
+{
+  "book_id": "d1b585f6709c1bce",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Baby Baby",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/Unknown Artist - Baby Baby.pdf",
+        "file_size_bytes": 14152176,
+        "page_range": [
+          2,
+          30
+        ]
+      },
+      {
+        "song_title": "Downtown Train",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/Tom Waits - Downtown Train.pdf",
+        "file_size_bytes": 6962507,
+        "page_range": [
+          30,
+          45
+        ]
+      },
+      {
+        "song_title": "Have I Told You Lately",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/Unknown Artist - Have I Told You Lately.pdf",
+        "file_size_bytes": 7790714,
+        "page_range": [
+          45,
+          60
+        ]
+      },
+      {
+        "song_title": "HOW AM I SUPPOSED TO LIVE WITHOUT YOU",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/Michael Bolton And Doug James - How Am I Supposed To Live Without You.pdf",
+        "file_size_bytes": 11509536,
+        "page_range": [
+          60,
+          82
+        ]
+      },
+      {
+        "song_title": "I'll Remember",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/(from The Film -with Honors-) - I'll Remember.pdf",
+        "file_size_bytes": 2276702,
+        "page_range": [
+          82,
+          86
+        ]
+      },
+      {
+        "song_title": "Love Takes Time",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/Mariah Carey - Love Takes Time.pdf",
+        "file_size_bytes": 2173733,
+        "page_range": [
+          86,
+          90
+        ]
+      },
+      {
+        "song_title": "THE ONE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/Elton John And Bernie Taupin - The One.pdf",
+        "file_size_bytes": 16210652,
+        "page_range": [
+          90,
+          123
+        ]
+      },
+      {
+        "song_title": "That's What Love Is For",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/Unknown Artist - That's What Love Is For.pdf",
+        "file_size_bytes": 8959819,
+        "page_range": [
+          123,
+          140
+        ]
+      },
+      {
+        "song_title": "Unchained Melody",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/The Image Does Not Explicitly State The Artist Name, But It Mentions The Song Is -from The Motion Picture 'unchained' And As Featured In 'ghost'- And The Lyric Is By Hy Zaret With Music By Alex No.pdf",
+        "file_size_bytes": 2239712,
+        "page_range": [
+          140,
+          144
+        ]
+      },
+      {
+        "song_title": "YOU'RE IN LOVE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Adult Contemporary Hits Of The Nineties/Songs/The Artist Names Are Not Clearly Displayed, But The Image Shows Sheet Music With The Song Title -you're In Love- Prominently Displayed At The Top, Along With Musical Notation And Lyrics Below. Thi.pdf",
+        "file_size_bytes": 9127207,
+        "page_range": [
+          144,
+          162
+        ]
+      }
+    ]
+  }
+}

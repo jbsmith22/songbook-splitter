@@ -1,0 +1,112 @@
+{
+  "book_id": "3b14a78d699f4900",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Willkommen",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hap-py to see you,",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blei-be, res-te, stay.",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Will-kom - men, bien - ve - nue,",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wel-come,",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Im Cab-a - rei,",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "au Cab-a - rei,",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "to Cab-a - ret!",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Frem-de,",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "e - tran - ger,",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "stran-ger.",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gl\u00fcck-lich",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "zu",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Willkommen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (1998 Version)/Songs/Unknown Artist - Willkommen.pdf",
+        "file_size_bytes": 26421436,
+        "page_range": [
+          1,
+          181
+        ]
+      },
+      {
+        "song_title": "Hap-py to see you,",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (1998 Version)/Songs/Unknown Artist - Hap-py To See You,.pdf",
+        "file_size_bytes": 535235,
+        "page_range": [
+          181,
+          186
+        ]
+      }
+    ]
+  }
+}

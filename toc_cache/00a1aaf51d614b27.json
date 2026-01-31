@@ -1,0 +1,150 @@
+{
+  "book_id": "00a1aaf51d614b27",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Believe",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Made in England",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "House",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cold",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pain",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Belfast",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Latitude",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Please",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Man",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lies",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blessed",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Believe",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Made In England/Songs/Elton John - Believe.pdf",
+        "file_size_bytes": 3942194,
+        "page_range": [
+          2,
+          15
+        ]
+      },
+      {
+        "song_title": "Cold",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Made In England/Songs/Elton John - Cold.pdf",
+        "file_size_bytes": 4060094,
+        "page_range": [
+          15,
+          28
+        ]
+      },
+      {
+        "song_title": "Belfast",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Made In England/Songs/Elton John - Belfast.pdf",
+        "file_size_bytes": 3989643,
+        "page_range": [
+          28,
+          42
+        ]
+      },
+      {
+        "song_title": "Please",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Made In England/Songs/Elton John - Please.pdf",
+        "file_size_bytes": 1627722,
+        "page_range": [
+          42,
+          47
+        ]
+      },
+      {
+        "song_title": "Man",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Made In England/Songs/Elton John - Man.pdf",
+        "file_size_bytes": 1750586,
+        "page_range": [
+          47,
+          53
+        ]
+      },
+      {
+        "song_title": "Lies",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Made In England/Songs/Elton John - Lies.pdf",
+        "file_size_bytes": 1641060,
+        "page_range": [
+          53,
+          58
+        ]
+      },
+      {
+        "song_title": "Blessed",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Made In England/Songs/Elton John - Blessed.pdf",
+        "file_size_bytes": 1953809,
+        "page_range": [
+          58,
+          65
+        ]
+      }
+    ]
+  }
+}

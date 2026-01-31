@@ -1,0 +1,196 @@
+{
+  "book_id": "d642618e26321ce7",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "One Angry Dwarf and 200 Solemn Faces",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fair",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Brick",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Song for the Dumped",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Selfless, Cold and Composed",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kate",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Smoke",
+        "page_number": 84,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cigarette",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Steven's Last Night in Town",
+        "page_number": 102,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Battle of Who Could Care Less",
+        "page_number": 118,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Missing the War",
+        "page_number": 128,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Evaporated",
+        "page_number": 134,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "One Angry Dwarf and 200 Solemn Faces",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - One Angry Dwarf And 200 Solemn Faces.pdf",
+        "file_size_bytes": 509080,
+        "page_range": [
+          2,
+          16
+        ]
+      },
+      {
+        "song_title": "Fair",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Fair.pdf",
+        "file_size_bytes": 488519,
+        "page_range": [
+          16,
+          29
+        ]
+      },
+      {
+        "song_title": "Brick",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Brick.pdf",
+        "file_size_bytes": 405860,
+        "page_range": [
+          29,
+          39
+        ]
+      },
+      {
+        "song_title": "Song for the Dumped",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Song For The Dumped.pdf",
+        "file_size_bytes": 386234,
+        "page_range": [
+          39,
+          49
+        ]
+      },
+      {
+        "song_title": "Selfless, Cold and Composed",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Selfless, Cold And Composed.pdf",
+        "file_size_bytes": 789032,
+        "page_range": [
+          49,
+          70
+        ]
+      },
+      {
+        "song_title": "Kate",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Kate.pdf",
+        "file_size_bytes": 1018144,
+        "page_range": [
+          70,
+          96
+        ]
+      },
+      {
+        "song_title": "Cigarette",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Cigarette.pdf",
+        "file_size_bytes": 64174,
+        "page_range": [
+          96,
+          98
+        ]
+      },
+      {
+        "song_title": "Steven's Last Night in Town",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Steven's Last Night In Town.pdf",
+        "file_size_bytes": 636792,
+        "page_range": [
+          98,
+          114
+        ]
+      },
+      {
+        "song_title": "Battle of Who Could Care Less",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Battle Of Who Could Care Less.pdf",
+        "file_size_bytes": 399432,
+        "page_range": [
+          114,
+          124
+        ]
+      },
+      {
+        "song_title": "Missing the War",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Missing The War.pdf",
+        "file_size_bytes": 297048,
+        "page_range": [
+          124,
+          130
+        ]
+      },
+      {
+        "song_title": "Evaporated",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Songs/Ben Folds - Evaporated.pdf",
+        "file_size_bytes": 396705,
+        "page_range": [
+          130,
+          141
+        ]
+      }
+    ]
+  }
+}

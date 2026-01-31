@@ -1,0 +1,33 @@
+{
+  "book_id": "e177db8693454a68",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Buried Treasures",
+        "artist": "Kenny Rogers",
+        "output_uri": "s3://jsmith-output/Kenny Rogers/Kenny Rogers - Love Or Something Like It [book]/Songs/Kenny Rogers - Buried Treasures.pdf",
+        "file_size_bytes": 632459,
+        "page_range": [
+          14,
+          38
+        ]
+      },
+      {
+        "song_title": "Sail Away",
+        "artist": "Kenny Rogers",
+        "output_uri": "s3://jsmith-output/Kenny Rogers/Kenny Rogers - Love Or Something Like It [book]/Songs/Kenny Rogers - Sail Away.pdf",
+        "file_size_bytes": 461043,
+        "page_range": [
+          38,
+          56
+        ]
+      }
+    ]
+  }
+}

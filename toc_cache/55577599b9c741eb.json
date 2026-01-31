@@ -1,0 +1,93 @@
+{
+  "book_id": "55577599b9c741eb",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "THE DIFFICULT KIND",
+        "artist": "Sheryl Crow",
+        "output_uri": "s3://jsmith-output/Sheryl Crow/Sheryl Crow - Very Best/Songs/Sheryl Crow - The Difficult Kind.pdf",
+        "file_size_bytes": 4102000,
+        "page_range": [
+          2,
+          16
+        ]
+      },
+      {
+        "song_title": "There Goes the Neighborhood",
+        "artist": "Sheryl Crow",
+        "output_uri": "s3://jsmith-output/Sheryl Crow/Sheryl Crow - Very Best/Songs/Sheryl Crow - There Goes The Neighborhood.pdf",
+        "file_size_bytes": 2368891,
+        "page_range": [
+          16,
+          23
+        ]
+      },
+      {
+        "song_title": "Soak Up the Sun",
+        "artist": "Sheryl Crow",
+        "output_uri": "s3://jsmith-output/Sheryl Crow/Sheryl Crow - Very Best/Songs/Sheryl Crow - Soak Up The Sun.pdf",
+        "file_size_bytes": 1752033,
+        "page_range": [
+          23,
+          29
+        ]
+      },
+      {
+        "song_title": "Steve McQueen",
+        "artist": "Sheryl Crow",
+        "output_uri": "s3://jsmith-output/Sheryl Crow/Sheryl Crow - Very Best/Songs/Sheryl Crow - Steve Mcqueen.pdf",
+        "file_size_bytes": 5675981,
+        "page_range": [
+          29,
+          47
+        ]
+      },
+      {
+        "song_title": "THE FIRST CUT IS THE DEEPEST",
+        "artist": "Sheryl Crow",
+        "output_uri": "s3://jsmith-output/Sheryl Crow/Sheryl Crow - Very Best/Songs/Sheryl Crow - The First Cut Is The Deepest.pdf",
+        "file_size_bytes": 5637717,
+        "page_range": [
+          47,
+          64
+        ]
+      },
+      {
+        "song_title": "A CHANGE WOULD DO YOU GOOD",
+        "artist": "Sheryl Crow",
+        "output_uri": "s3://jsmith-output/Sheryl Crow/Sheryl Crow - Very Best/Songs/Sheryl Crow - A Change Would Do You Good.pdf",
+        "file_size_bytes": 7477464,
+        "page_range": [
+          64,
+          87
+        ]
+      },
+      {
+        "song_title": "If It Makes You Happy",
+        "artist": "Sheryl Crow",
+        "output_uri": "s3://jsmith-output/Sheryl Crow/Sheryl Crow - Very Best/Songs/Sheryl Crow - If It Makes You Happy.pdf",
+        "file_size_bytes": 4640508,
+        "page_range": [
+          87,
+          100
+        ]
+      },
+      {
+        "song_title": "Strong Enough",
+        "artist": "Sheryl Crow",
+        "output_uri": "s3://jsmith-output/Sheryl Crow/Sheryl Crow - Very Best/Songs/Sheryl Crow - Strong Enough.pdf",
+        "file_size_bytes": 1269492,
+        "page_range": [
+          100,
+          104
+        ]
+      }
+    ]
+  }
+}

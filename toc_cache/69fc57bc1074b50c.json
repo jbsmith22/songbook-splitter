@@ -1,0 +1,113 @@
+{
+  "book_id": "69fc57bc1074b50c",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Different Corner",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - A Different Corner.pdf",
+        "file_size_bytes": 9178101,
+        "page_range": [
+          2,
+          75
+        ]
+      },
+      {
+        "song_title": "Freedom '90",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - Freedom '90.pdf",
+        "file_size_bytes": 2754512,
+        "page_range": [
+          75,
+          91
+        ]
+      },
+      {
+        "song_title": "Heal the Pain",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - Heal The Pain.pdf",
+        "file_size_bytes": 4325184,
+        "page_range": [
+          91,
+          128
+        ]
+      },
+      {
+        "song_title": "Killer/Papa Was A Rolling Stone",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - Killer-papa Was A Rolling Stone.pdf",
+        "file_size_bytes": 1181557,
+        "page_range": [
+          128,
+          137
+        ]
+      },
+      {
+        "song_title": "Kissing a Fool",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - Kissing A Fool.pdf",
+        "file_size_bytes": 1365864,
+        "page_range": [
+          137,
+          147
+        ]
+      },
+      {
+        "song_title": "Outside",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - Outside.pdf",
+        "file_size_bytes": 933490,
+        "page_range": [
+          147,
+          154
+        ]
+      },
+      {
+        "song_title": "Praying For Time",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - Praying For Time.pdf",
+        "file_size_bytes": 910536,
+        "page_range": [
+          154,
+          164
+        ]
+      },
+      {
+        "song_title": "Somebody to Love",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - Somebody To Love.pdf",
+        "file_size_bytes": 4748952,
+        "page_range": [
+          164,
+          202
+        ]
+      },
+      {
+        "song_title": "Waiting for That Day",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - Waiting For That Day.pdf",
+        "file_size_bytes": 1454879,
+        "page_range": [
+          202,
+          214
+        ]
+      },
+      {
+        "song_title": "YOU HAVE BEEN LOVED",
+        "artist": "George Michael",
+        "output_uri": "s3://jsmith-output/George Michael/George Michael - Greatest Hits/Songs/George Michael - You Have Been Loved.pdf",
+        "file_size_bytes": 577761,
+        "page_range": [
+          214,
+          219
+        ]
+      }
+    ]
+  }
+}

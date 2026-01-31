@@ -1,0 +1,53 @@
+{
+  "book_id": "752b54683e016d27",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Africa",
+        "artist": "Toto",
+        "output_uri": "s3://jsmith-output/Toto/Toto - Collection/Songs/David Paich And Jeff Porcaro - Africa.pdf",
+        "file_size_bytes": 1648241,
+        "page_range": [
+          5,
+          38
+        ]
+      },
+      {
+        "song_title": "I'll Be Over You",
+        "artist": "Toto",
+        "output_uri": "s3://jsmith-output/Toto/Toto - Collection/Songs/Steve Lukather And Randy Goodrum - I'll Be Over You.pdf",
+        "file_size_bytes": 732251,
+        "page_range": [
+          38,
+          53
+        ]
+      },
+      {
+        "song_title": "Pamela",
+        "artist": "Toto",
+        "output_uri": "s3://jsmith-output/Toto/Toto - Collection/Songs/David Paich And Joseph Williams - Pamela.pdf",
+        "file_size_bytes": 618765,
+        "page_range": [
+          53,
+          65
+        ]
+      },
+      {
+        "song_title": "Stop Loving You",
+        "artist": "Toto",
+        "output_uri": "s3://jsmith-output/Toto/Toto - Collection/Songs/David Paton And Steve Lillywhite - Stop Loving You.pdf",
+        "file_size_bytes": 177821,
+        "page_range": [
+          65,
+          69
+        ]
+      }
+    ]
+  }
+}

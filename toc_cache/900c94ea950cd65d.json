@@ -1,0 +1,220 @@
+{
+  "book_id": "900c94ea950cd65d",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "PARANOID",
+        "page_number": 113,
+        "artist": "Black Sabbath",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "REELING IN THE YEARS",
+        "page_number": 117,
+        "artist": "Steely Dan",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ROCK AND ROLL HOOCHIE KOO",
+        "page_number": 129,
+        "artist": "Rick Derringer",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SATURDAY NIGHT'S ALRIGHT (FOR FIGHTING)",
+        "page_number": 140,
+        "artist": "Elton John",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHOW ME THE WAY",
+        "page_number": 148,
+        "artist": "Peter Frampton",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SO INTO YOU",
+        "page_number": 156,
+        "artist": "Atlanta Rhythm Section",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SPACE ODDITY",
+        "page_number": 170,
+        "artist": "David Bowie",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "STAYIN' ALIVE",
+        "page_number": 177,
+        "artist": "The Bee Gees",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SWEET HOME ALABAMA",
+        "page_number": 182,
+        "artist": "Lynyrd Skynyrd",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TEACH YOUR CHILDREN",
+        "page_number": 190,
+        "artist": "Crosby, Stills, Nash & Young",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TIME IN A BOTTLE",
+        "page_number": 197,
+        "artist": "Jim Croce",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WALK THIS WAY",
+        "page_number": 202,
+        "artist": "Aerosmith",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHEEL IN THE SKY",
+        "page_number": 211,
+        "artist": "Journey",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU AIN'T SEEN NOTHIN' YET",
+        "page_number": 220,
+        "artist": "Bachman-Turner Overdrive",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU REALLY GOT ME",
+        "page_number": 225,
+        "artist": "Van Halen",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "PARANOID": "Black Sabbath",
+      "REELING IN THE YEARS": "Steely Dan",
+      "ROCK AND ROLL HOOCHIE KOO": "Rick Derringer",
+      "SATURDAY NIGHT'S ALRIGHT (FOR FIGHTING)": "Elton John",
+      "SHOW ME THE WAY": "Peter Frampton",
+      "SO INTO YOU": "Atlanta Rhythm Section",
+      "SPACE ODDITY": "David Bowie",
+      "STAYIN' ALIVE": "The Bee Gees",
+      "SWEET HOME ALABAMA": "Lynyrd Skynyrd",
+      "TEACH YOUR CHILDREN": "Crosby, Stills, Nash & Young",
+      "TIME IN A BOTTLE": "Jim Croce",
+      "WALK THIS WAY": "Aerosmith",
+      "WHEEL IN THE SKY": "Journey",
+      "YOU AIN'T SEEN NOTHIN' YET": "Bachman-Turner Overdrive",
+      "YOU REALLY GOT ME": "Van Halen"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "PARANOID",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/Black Sabbath - Paranoid.pdf",
+        "file_size_bytes": 3365902,
+        "page_range": [
+          108,
+          124
+        ]
+      },
+      {
+        "song_title": "ROCK AND ROLL HOOCHIE KOO",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/Rick Derringer - Rock And Roll Hoochie Koo.pdf",
+        "file_size_bytes": 2174759,
+        "page_range": [
+          124,
+          135
+        ]
+      },
+      {
+        "song_title": "SATURDAY NIGHT'S ALRIGHT (FOR FIGHTING)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/Elton John - Saturday Night's Alright (for Fighting).pdf",
+        "file_size_bytes": 2264122,
+        "page_range": [
+          135,
+          146
+        ]
+      },
+      {
+        "song_title": "SHOW ME THE WAY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/Peter Frampton - Show Me The Way.pdf",
+        "file_size_bytes": 3785028,
+        "page_range": [
+          146,
+          165
+        ]
+      },
+      {
+        "song_title": "SPACE ODDITY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/David Bowie - Space Oddity.pdf",
+        "file_size_bytes": 1496777,
+        "page_range": [
+          165,
+          172
+        ]
+      },
+      {
+        "song_title": "STAYIN' ALIVE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/The Bee Gees - Stayin' Alive.pdf",
+        "file_size_bytes": 946451,
+        "page_range": [
+          172,
+          177
+        ]
+      },
+      {
+        "song_title": "SWEET HOME ALABAMA",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/Lynyrd Skynyrd - Sweet Home Alabama.pdf",
+        "file_size_bytes": 3271987,
+        "page_range": [
+          177,
+          192
+        ]
+      },
+      {
+        "song_title": "TIME IN A BOTTLE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/Jim Croce - Time In A Bottle.pdf",
+        "file_size_bytes": 2749424,
+        "page_range": [
+          192,
+          206
+        ]
+      },
+      {
+        "song_title": "WHEEL IN THE SKY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/Journey - Wheel In The Sky.pdf",
+        "file_size_bytes": 1846176,
+        "page_range": [
+          206,
+          215
+        ]
+      },
+      {
+        "song_title": "YOU AIN'T SEEN NOTHIN' YET",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Great Songs Of The 70s [guitar Tab]/Songs/Bachman-turner Overdrive - You Ain't Seen Nothin' Yet.pdf",
+        "file_size_bytes": 2793265,
+        "page_range": [
+          215,
+          227
+        ]
+      }
+    ]
+  }
+}

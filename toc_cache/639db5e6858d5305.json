@@ -1,0 +1,326 @@
+{
+  "book_id": "639db5e6858d5305",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Livin' On A Prayer",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Keep The Faith",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Always",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wanted Dead Or Alive",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lay Your Hands On Me",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Give Love A Bad Name",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bed Of Roses",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tokyo Road",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bad Medicine",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'll Be There For You",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In & Out Of Love",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Runaway",
+        "page_number": 134,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Never Say Goodbye",
+        "page_number": 144,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blaze Of Glory",
+        "page_number": 152,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Don't Know Me",
+        "page_number": 165,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shot Through The Heart",
+        "page_number": 174,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Breakout",
+        "page_number": 190,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Get Ready",
+        "page_number": 207,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Silent Night",
+        "page_number": 222,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Living In Sin",
+        "page_number": 230,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dry County",
+        "page_number": 238,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Believe",
+        "page_number": 252,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Livin' On A Prayer",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Livin' On A Prayer.pdf",
+        "file_size_bytes": 472268,
+        "page_range": [
+          1,
+          10
+        ]
+      },
+      {
+        "song_title": "Keep The Faith",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Keep The Faith.pdf",
+        "file_size_bytes": 1633622,
+        "page_range": [
+          10,
+          38
+        ]
+      },
+      {
+        "song_title": "Lay Your Hands On Me",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Lay Your Hands On Me.pdf",
+        "file_size_bytes": 810341,
+        "page_range": [
+          38,
+          54
+        ]
+      },
+      {
+        "song_title": "Bed Of Roses",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Bed Of Roses.pdf",
+        "file_size_bytes": 809579,
+        "page_range": [
+          54,
+          68
+        ]
+      },
+      {
+        "song_title": "Tokyo Road",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Tokyo Road.pdf",
+        "file_size_bytes": 687924,
+        "page_range": [
+          68,
+          78
+        ]
+      },
+      {
+        "song_title": "Bad Medicine",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Bad Medicine.pdf",
+        "file_size_bytes": 1422112,
+        "page_range": [
+          78,
+          102
+        ]
+      },
+      {
+        "song_title": "In & Out Of Love",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - In & Out Of Love.pdf",
+        "file_size_bytes": 643853,
+        "page_range": [
+          102,
+          112
+        ]
+      },
+      {
+        "song_title": "Runaway",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Runaway.pdf",
+        "file_size_bytes": 677620,
+        "page_range": [
+          112,
+          122
+        ]
+      },
+      {
+        "song_title": "Never Say Goodbye",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Never Say Goodbye.pdf",
+        "file_size_bytes": 505027,
+        "page_range": [
+          122,
+          130
+        ]
+      },
+      {
+        "song_title": "Blaze Of Glory",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Blaze Of Glory.pdf",
+        "file_size_bytes": 676768,
+        "page_range": [
+          130,
+          141
+        ]
+      },
+      {
+        "song_title": "She Don't Know Me",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - She Don't Know Me.pdf",
+        "file_size_bytes": 664920,
+        "page_range": [
+          141,
+          150
+        ]
+      },
+      {
+        "song_title": "Shot Through The Heart",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Shot Through The Heart.pdf",
+        "file_size_bytes": 849354,
+        "page_range": [
+          150,
+          166
+        ]
+      },
+      {
+        "song_title": "Breakout",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Breakout.pdf",
+        "file_size_bytes": 989593,
+        "page_range": [
+          166,
+          183
+        ]
+      },
+      {
+        "song_title": "Get Ready",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Get Ready.pdf",
+        "file_size_bytes": 937837,
+        "page_range": [
+          183,
+          198
+        ]
+      },
+      {
+        "song_title": "Silent Night",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Silent Night.pdf",
+        "file_size_bytes": 505613,
+        "page_range": [
+          198,
+          206
+        ]
+      },
+      {
+        "song_title": "Living In Sin",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Living In Sin.pdf",
+        "file_size_bytes": 487265,
+        "page_range": [
+          206,
+          214
+        ]
+      },
+      {
+        "song_title": "Dry County",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - Dry County.pdf",
+        "file_size_bytes": 1062671,
+        "page_range": [
+          214,
+          228
+        ]
+      },
+      {
+        "song_title": "I Believe",
+        "artist": "Bon Jovi",
+        "output_uri": "s3://jsmith-output/Bon Jovi/Bon Jovi - Best Of Bon Jovi/Songs/Bon Jovi - I Believe.pdf",
+        "file_size_bytes": 788142,
+        "page_range": [
+          228,
+          240
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "book_id": "487a273fe299726f",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Just Like a Woman",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - The Harp Styles Of Bob Dylan [harmonica]/Songs/Bob Dylan - Just Like A Woman.pdf",
+        "file_size_bytes": 3456271,
+        "page_range": [
+          30,
+          41
+        ]
+      },
+      {
+        "song_title": "I Shall Be Released",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - The Harp Styles Of Bob Dylan [harmonica]/Songs/Bob Dylan - I Shall Be Released.pdf",
+        "file_size_bytes": 8270639,
+        "page_range": [
+          41,
+          66
+        ]
+      },
+      {
+        "song_title": "What Was It You Wanted",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Bob Dylan - The Harp Styles Of Bob Dylan [harmonica]/Songs/Bob Dylan - What Was It You Wanted.pdf",
+        "file_size_bytes": 2744328,
+        "page_range": [
+          66,
+          73
+        ]
+      }
+    ]
+  }
+}

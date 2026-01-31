@@ -1,0 +1,30 @@
+{
+  "book_id": "c28048f134b090b1",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Star Trek First Contact",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Star Trek First Contact",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - First Contact/Songs/Jerry Goldsmith - Star Trek First Contact.pdf",
+        "file_size_bytes": 627844,
+        "page_range": [
+          0,
+          3
+        ]
+      }
+    ]
+  }
+}

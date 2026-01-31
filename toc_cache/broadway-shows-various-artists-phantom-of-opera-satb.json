@@ -1,0 +1,173 @@
+{
+  "book_id": "broadway-shows-various-artists-phantom-of-opera-satb",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Phantom of the Opera (Medley)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Andrew Lloyd Webber - The Phantom Of The Opera (medley).pdf",
+        "file_size_bytes": 229123,
+        "page_range": [
+          0,
+          1
+        ]
+      },
+      {
+        "song_title": "The Phantom Of The Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 264389,
+        "page_range": [
+          1,
+          3
+        ]
+      },
+      {
+        "song_title": "THE PHANTOM OF THE OPERA",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 227853,
+        "page_range": [
+          3,
+          4
+        ]
+      },
+      {
+        "song_title": "THE PHANTOM OF THE OPERA",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 229097,
+        "page_range": [
+          4,
+          5
+        ]
+      },
+      {
+        "song_title": "Think of Me (from The Phantom of the Opera)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - Think Of Me (from The Phantom Of The Opera).pdf",
+        "file_size_bytes": 262493,
+        "page_range": [
+          5,
+          7
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 222356,
+        "page_range": [
+          7,
+          8
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 231404,
+        "page_range": [
+          8,
+          9
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 256652,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 276961,
+        "page_range": [
+          12,
+          14
+        ]
+      },
+      {
+        "song_title": "THE PHANTOM OF THE OPERA",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 218867,
+        "page_range": [
+          14,
+          15
+        ]
+      },
+      {
+        "song_title": "All I Ask of You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Andrew Lloyd Webber (lyrics By Charles Hart, Additional Lyrics By Richard Stilgoe) - All I Ask Of You.pdf",
+        "file_size_bytes": 229659,
+        "page_range": [
+          15,
+          16
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 234249,
+        "page_range": [
+          16,
+          17
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 234856,
+        "page_range": [
+          17,
+          18
+        ]
+      },
+      {
+        "song_title": "The Phantom of the Opera",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 233620,
+        "page_range": [
+          18,
+          19
+        ]
+      },
+      {
+        "song_title": "THE PHANTOM OF THE OPERA",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Unknown Artist - The Phantom Of The Opera.pdf",
+        "file_size_bytes": 229489,
+        "page_range": [
+          19,
+          20
+        ]
+      },
+      {
+        "song_title": "The Point of No Return",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of Opera [satb]/Songs/Charles Hart - The Point Of No Return.pdf",
+        "file_size_bytes": 292808,
+        "page_range": [
+          20,
+          23
+        ]
+      }
+    ]
+  }
+}

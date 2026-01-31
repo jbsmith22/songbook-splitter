@@ -1,0 +1,164 @@
+{
+  "book_id": "0f17a72b27078253",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "OVER THE RAINBOW",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DING-DONG! THE WITCH IS DEAD",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE JITTERBUG",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WE'RE OFF TO SEE THE WIZARD",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE MERRY OLD LAND OF OZ",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IF I ONLY HAD A BRAIN",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MUNCHKINLAND",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LULLABY LEAGUE AND LOLLYPOP GUILD",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IF I WERE KING OF THE FOREST",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "OPTIMISTIC VOICES",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "OVER THE RAINBOW",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/Harold Arlen - Over The Rainbow.pdf",
+        "file_size_bytes": 791826,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "DING-DONG! THE WITCH IS DEAD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/E.y. Harburg (lyric By), Harold Arlen (music By) - Ding-dong! The Witch Is Dead.pdf",
+        "file_size_bytes": 811308,
+        "page_range": [
+          6,
+          10
+        ]
+      },
+      {
+        "song_title": "THE JITTERBUG",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/Harold Arlen - The Jitterbug.pdf",
+        "file_size_bytes": 1040702,
+        "page_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "song_title": "WE'RE OFF TO SEE THE WIZARD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/Unknown Artist - We're Off To See The Wizard.pdf",
+        "file_size_bytes": 675247,
+        "page_range": [
+          15,
+          18
+        ]
+      },
+      {
+        "song_title": "THE MERRY OLD LAND OF OZ",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/Unknown Artist - The Merry Old Land Of Oz.pdf",
+        "file_size_bytes": 778596,
+        "page_range": [
+          18,
+          22
+        ]
+      },
+      {
+        "song_title": "IF I ONLY HAD A BRAIN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/Unknown Artist - If I Only Had A Brain.pdf",
+        "file_size_bytes": 875847,
+        "page_range": [
+          22,
+          26
+        ]
+      },
+      {
+        "song_title": "MUNCHKINLAND",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/Music By Harold Arlen, Lyrics By E.y. Harburg - Munchkinland.pdf",
+        "file_size_bytes": 1095333,
+        "page_range": [
+          26,
+          32
+        ]
+      },
+      {
+        "song_title": "IF I WERE KING OF THE FOREST",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/Unknown Artist - If I Were King Of The Forest.pdf",
+        "file_size_bytes": 355769,
+        "page_range": [
+          32,
+          34
+        ]
+      },
+      {
+        "song_title": "OPTIMISTIC VOICES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Wizard Of Oz [book]/Songs/Lyrics By E.y. Harburg, Music By Harold Arlen And Herbert Stothart - Optimistic Voices.pdf",
+        "file_size_bytes": 317856,
+        "page_range": [
+          34,
+          36
+        ]
+      }
+    ]
+  }
+}

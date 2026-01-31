@@ -1,0 +1,30 @@
+{
+  "book_id": "don-henley-actual-miles-greatest-hits",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Dirty Laundry",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Dirty Laundry",
+        "artist": "Don Henley",
+        "output_uri": "s3://jsmith-output/Don Henley/Actual Miles (greatest Hits)/Songs/Don Henley And Danny Kortchmar - Dirty Laundry.pdf",
+        "file_size_bytes": 1733089,
+        "page_range": [
+          1,
+          86
+        ]
+      }
+    ]
+  }
+}

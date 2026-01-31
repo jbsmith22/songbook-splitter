@@ -1,0 +1,73 @@
+{
+  "book_id": "68052b7cc174b0da",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Logical Song",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Anthology/Songs/Supertramp - The Logical Song.pdf",
+        "file_size_bytes": 1831773,
+        "page_range": [
+          64,
+          68
+        ]
+      },
+      {
+        "song_title": "Goodbye Stranger",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Anthology/Songs/Supertramp - Goodbye Stranger.pdf",
+        "file_size_bytes": 5142207,
+        "page_range": [
+          68,
+          79
+        ]
+      },
+      {
+        "song_title": "Lord Is It Mine",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Anthology/Songs/Supertramp - Lord Is It Mine.pdf",
+        "file_size_bytes": 2008974,
+        "page_range": [
+          79,
+          84
+        ]
+      },
+      {
+        "song_title": "It's Raining Again",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Anthology/Songs/Supertramp - It's Raining Again.pdf",
+        "file_size_bytes": 2445811,
+        "page_range": [
+          84,
+          89
+        ]
+      },
+      {
+        "song_title": "Waiting So Long",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Anthology/Songs/Supertramp - Waiting So Long.pdf",
+        "file_size_bytes": 6482351,
+        "page_range": [
+          89,
+          104
+        ]
+      },
+      {
+        "song_title": "Know Who You Are",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Anthology/Songs/Supertramp - Know Who You Are.pdf",
+        "file_size_bytes": 4120925,
+        "page_range": [
+          104,
+          113
+        ]
+      }
+    ]
+  }
+}

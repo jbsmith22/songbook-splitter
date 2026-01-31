@@ -1,0 +1,174 @@
+{
+  "book_id": "bob-dylan-highway-61-revisited",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "BALLAD OF A THIN MAN",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DESOLATION ROW",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FROM A BUICK 6",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HIGHWAY 61 REVISITED",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT TAKES A LOT TO LAUGH, IT TAKES A TRAIN TO CRY",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JUST LIKE TOM THUMB'S BLUES",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LIKE A ROLLING STONE",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "POSITIVELY 4th STREET",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "QUEEN JANE APPROXIMATELY",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TOMBSTONE BLUES",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "POSITIVELY 4th STREET",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - Positively 4th Street.pdf",
+        "file_size_bytes": 1417637,
+        "page_range": [
+          3,
+          5
+        ]
+      },
+      {
+        "song_title": "LIKE A ROLLING STONE",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - Like A Rolling Stone.pdf",
+        "file_size_bytes": 3555010,
+        "page_range": [
+          5,
+          9
+        ]
+      },
+      {
+        "song_title": "HIGHWAY 61 REVISITED",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - Highway 61 Revisited.pdf",
+        "file_size_bytes": 2343306,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "DESOLATION ROW",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - Desolation Row.pdf",
+        "file_size_bytes": 2722386,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "TOMBSTONE BLUES",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - Tombstone Blues.pdf",
+        "file_size_bytes": 2929241,
+        "page_range": [
+          15,
+          19
+        ]
+      },
+      {
+        "song_title": "BALLAD OF A THIN MAN",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - Ballad Of A Thin Man.pdf",
+        "file_size_bytes": 2973901,
+        "page_range": [
+          19,
+          23
+        ]
+      },
+      {
+        "song_title": "QUEEN JANE APPROXIMATELY",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - Queen Jane Approximately.pdf",
+        "file_size_bytes": 1450883,
+        "page_range": [
+          23,
+          25
+        ]
+      },
+      {
+        "song_title": "JUST LIKE TOM THUMB'S BLUES",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - Just Like Tom Thumb's Blues.pdf",
+        "file_size_bytes": 1678904,
+        "page_range": [
+          25,
+          27
+        ]
+      },
+      {
+        "song_title": "IT TAKES A LOT TO LAUGH, IT TAKES A TRAIN TO CRY",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - It Takes A Lot To Laugh, It Takes A Train To Cry.pdf",
+        "file_size_bytes": 1360828,
+        "page_range": [
+          27,
+          29
+        ]
+      },
+      {
+        "song_title": "FROM A BUICK 6",
+        "artist": "Bob Dylan",
+        "output_uri": "s3://jsmith-output/Bob Dylan/Highway 61 Revisited/Songs/Bob Dylan - From A Buick 6.pdf",
+        "file_size_bytes": 5963678,
+        "page_range": [
+          29,
+          36
+        ]
+      }
+    ]
+  }
+}

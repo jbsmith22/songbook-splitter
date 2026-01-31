@@ -1,0 +1,143 @@
+{
+  "book_id": "ben-folds-songs-for-the-silverman",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "not the same",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Not The Same.pdf",
+        "file_size_bytes": 201760,
+        "page_range": [
+          0,
+          6
+        ]
+      },
+      {
+        "song_title": "zak and sara",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Zak And Sara.pdf",
+        "file_size_bytes": 331448,
+        "page_range": [
+          6,
+          16
+        ]
+      },
+      {
+        "song_title": "Jesusland",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Jesusland.pdf",
+        "file_size_bytes": 253900,
+        "page_range": [
+          16,
+          24
+        ]
+      },
+      {
+        "song_title": "LATE",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Late.pdf",
+        "file_size_bytes": 189668,
+        "page_range": [
+          24,
+          30
+        ]
+      },
+      {
+        "song_title": "You to Thank",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - You To Thank.pdf",
+        "file_size_bytes": 233955,
+        "page_range": [
+          30,
+          39
+        ]
+      },
+      {
+        "song_title": "Trusted",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Trusted.pdf",
+        "file_size_bytes": 285149,
+        "page_range": [
+          39,
+          48
+        ]
+      },
+      {
+        "song_title": "Time",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Unknown Artist - Time.pdf",
+        "file_size_bytes": 445079,
+        "page_range": [
+          48,
+          57
+        ]
+      },
+      {
+        "song_title": "Sentimental Guy",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Sentimental Guy.pdf",
+        "file_size_bytes": 162033,
+        "page_range": [
+          57,
+          62
+        ]
+      },
+      {
+        "song_title": "Prison Food",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Prison Food.pdf",
+        "file_size_bytes": 230327,
+        "page_range": [
+          62,
+          70
+        ]
+      },
+      {
+        "song_title": "Gracie",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Gracie.pdf",
+        "file_size_bytes": 150411,
+        "page_range": [
+          70,
+          75
+        ]
+      },
+      {
+        "song_title": "LANDED",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Landed.pdf",
+        "file_size_bytes": 246630,
+        "page_range": [
+          75,
+          82
+        ]
+      },
+      {
+        "song_title": "Bastard",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Ben Folds - Bastard.pdf",
+        "file_size_bytes": 296002,
+        "page_range": [
+          82,
+          90
+        ]
+      },
+      {
+        "song_title": "Give Judy My Notice",
+        "artist": "Ben Folds",
+        "output_uri": "s3://jsmith-output/Ben Folds/Songs For The Silverman/Songs/Bill Deegan - Give Judy My Notice.pdf",
+        "file_size_bytes": 161169,
+        "page_range": [
+          90,
+          94
+        ]
+      }
+    ]
+  }
+}

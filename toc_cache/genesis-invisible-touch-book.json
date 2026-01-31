@@ -1,0 +1,148 @@
+{
+  "book_id": "genesis-invisible-touch-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "INVISIBLE TOUCH",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TONIGHT, TONIGHT, TONIGHT",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LAND OF CONFUSION",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IN TOO DEEP",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ANYTHING SHE DOES",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DOMINO PART ONE - IN THE GLOW OF THE NIGHT",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DOMINO PART TWO - THE LAST DOMINO",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THROWING IT ALL AWAY",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE BRAZILIAN",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "INVISIBLE TOUCH",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Invisible Touch [book]/Songs/Genesis - Invisible Touch.pdf",
+        "file_size_bytes": 1784051,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "TONIGHT, TONIGHT, TONIGHT",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Invisible Touch [book]/Songs/Genesis - Tonight, Tonight, Tonight.pdf",
+        "file_size_bytes": 3619349,
+        "page_range": [
+          6,
+          15
+        ]
+      },
+      {
+        "song_title": "LAND OF CONFUSION",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Invisible Touch [book]/Songs/Genesis - Land Of Confusion.pdf",
+        "file_size_bytes": 2641219,
+        "page_range": [
+          15,
+          21
+        ]
+      },
+      {
+        "song_title": "IN TOO DEEP",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Invisible Touch [book]/Songs/Genesis - In Too Deep.pdf",
+        "file_size_bytes": 4360611,
+        "page_range": [
+          21,
+          31
+        ]
+      },
+      {
+        "song_title": "DOMINO PART ONE - IN THE GLOW OF THE NIGHT",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Invisible Touch [book]/Songs/Genesis - Domino Part One - In The Glow Of The Night.pdf",
+        "file_size_bytes": 4095584,
+        "page_range": [
+          31,
+          40
+        ]
+      },
+      {
+        "song_title": "DOMINO PART TWO - THE LAST DOMINO",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Invisible Touch [book]/Songs/Genesis - Domino Part Two - The Last Domino.pdf",
+        "file_size_bytes": 3557966,
+        "page_range": [
+          40,
+          48
+        ]
+      },
+      {
+        "song_title": "THROWING IT ALL AWAY",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Invisible Touch [book]/Songs/Genesis - Throwing It All Away.pdf",
+        "file_size_bytes": 2334345,
+        "page_range": [
+          48,
+          53
+        ]
+      },
+      {
+        "song_title": "THE BRAZILIAN",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Invisible Touch [book]/Songs/Genesis - The Brazilian.pdf",
+        "file_size_bytes": 1808622,
+        "page_range": [
+          53,
+          58
+        ]
+      }
+    ]
+  }
+}

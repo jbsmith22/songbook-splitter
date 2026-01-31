@@ -1,0 +1,53 @@
+{
+  "book_id": "bc3930ae4c12d6ad",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "For Forever",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - For Forever.pdf",
+        "file_size_bytes": 2642274,
+        "page_range": [
+          24,
+          36
+        ]
+      },
+      {
+        "song_title": "Sincerely, Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/Dear Evan Hansen - Sincerely, Me.pdf",
+        "file_size_bytes": 3166805,
+        "page_range": [
+          36,
+          51
+        ]
+      },
+      {
+        "song_title": "REQUIEM",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/From Dear Evan Hansen - Requiem.pdf",
+        "file_size_bytes": 18451098,
+        "page_range": [
+          51,
+          137
+        ]
+      },
+      {
+        "song_title": "GOOD FOR YOU",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dear Evan Hansen (pvg)/Songs/From Dear Evan Hansen - Good For You.pdf",
+        "file_size_bytes": 6984509,
+        "page_range": [
+          137,
+          169
+        ]
+      }
+    ]
+  }
+}

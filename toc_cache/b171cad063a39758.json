@@ -1,0 +1,376 @@
+{
+  "book_id": "b171cad063a39758",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "#1 Wildcat Cheer",
+        "page_number": 1,
+        "artist": "COMPANY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#2 Start of Something New",
+        "page_number": 4,
+        "artist": "TROY, GABRIELLA, COMPANY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#3 Start of Something New (Playoff)",
+        "page_number": 9,
+        "artist": "sfx/band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#4 Homeroom",
+        "page_number": 9,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#5 Gabriella's Phone",
+        "page_number": 10,
+        "artist": "sfx",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#6 School Bell",
+        "page_number": 11,
+        "artist": "sfx",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#7 Announcement Transition 1",
+        "page_number": 11,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#8 Hallway",
+        "page_number": 11,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#9 Announcement Transition 2",
+        "page_number": 14,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#10 Basketball Practice",
+        "page_number": 15,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#11 Get'cha Head in the Game",
+        "page_number": 15,
+        "artist": "TROY, JOCKS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#12 Get'cha (Playoff) into Lab",
+        "page_number": 20,
+        "artist": "TROY, JOCKS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#13 Sharpay Dials",
+        "page_number": 22,
+        "artist": "sfx",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#14 The Plot Thickens",
+        "page_number": 23,
+        "artist": "sfx/band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#15 Announcement Transition 3",
+        "page_number": 24,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#16 Detention",
+        "page_number": 24,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#17 Announcement Transition 4",
+        "page_number": 29,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#18 Auditions (Bop to the Top /What I've...)",
+        "page_number": 29,
+        "artist": "THESPIANS, MS. DARBUS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#19 What I've Been Looking For",
+        "page_number": 33,
+        "artist": "RYAN, SHARPAY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#20 School Bell",
+        "page_number": 35,
+        "artist": "sfx",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#21 What I've Been Looking For (Reprise)",
+        "page_number": 39,
+        "artist": "TROY, GABRIELLA",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#22 Cellular Fusion",
+        "page_number": 42,
+        "artist": "CHAD, TAYLOR, COMPANY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#23 Stick to the Status Quo",
+        "page_number": 44,
+        "artist": "COMPANY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#24 Entr'acte (Stick to the Status Quo)",
+        "page_number": 51,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#25 Rooftop Garden",
+        "page_number": 51,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#26 I Can't Take My Eyes Off of You",
+        "page_number": 53,
+        "artist": "TROY, GABRIELLA",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#27 Sharpay's Locker",
+        "page_number": 55,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#28 Study Hall",
+        "page_number": 56,
+        "artist": "sfx/band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#29 Wildcat Cheer (Reprise)",
+        "page_number": 58,
+        "artist": "CHEERLEADERS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#30 Counting on You",
+        "page_number": 64,
+        "artist": "JOCKS, BRAINIACS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#31 Taylor's Cell",
+        "page_number": 68,
+        "artist": "sfx",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#32 When There Was Me and You",
+        "page_number": 69,
+        "artist": "GABRIELLA, TROY, JOCKS, BRAINS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#33 Boom Box Rehearsal",
+        "page_number": 71,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#34 Boom Box / Theater",
+        "page_number": 74,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#35 Gabriella's Cell",
+        "page_number": 74,
+        "artist": "sfx",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#36 Start of Something New (Reprise)",
+        "page_number": 75,
+        "artist": "TROY, GABRIELLA",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#37 Study Hall",
+        "page_number": 77,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#38 Announcement Transition 5",
+        "page_number": 77,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#39 Sorry, Troy",
+        "page_number": 78,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#40 We're All in This Together",
+        "page_number": 80,
+        "artist": "CHAD, TAYLOR, KELSI, JOCKS, BRAINS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#41 Bumpy Ride",
+        "page_number": 84,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#42 Bop to the Top",
+        "page_number": 84,
+        "artist": "SHARPAY, RYAN, BRAINIACS, JOCKS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#43 Meltdown",
+        "page_number": 87,
+        "artist": "sfx",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#44 In the Lab",
+        "page_number": 88,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#45 In the Theater",
+        "page_number": 88,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#46 Kelsi Tries",
+        "page_number": 91,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#47 Breaking Free",
+        "page_number": 92,
+        "artist": "TROY, GABRIELLA, COMPANY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#48 Game Buzzer",
+        "page_number": 95,
+        "artist": "sfx",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#49 Wildcat Vamp",
+        "page_number": 95,
+        "artist": "band",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#50 We're All in This Together (Reprise)",
+        "page_number": 98,
+        "artist": "COMPANY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#51 High School Musical Megamix",
+        "page_number": 102,
+        "artist": "COMPANY",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "#52 Exit Music (Bop to the Top)",
+        "page_number": 106,
+        "artist": "band",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "#1 Wildcat Cheer": "COMPANY",
+      "#2 Start of Something New": "TROY, GABRIELLA, COMPANY",
+      "#3 Start of Something New (Playoff)": "sfx/band",
+      "#4 Homeroom": "band",
+      "#5 Gabriella's Phone": "sfx",
+      "#6 School Bell": "sfx",
+      "#7 Announcement Transition 1": "band",
+      "#8 Hallway": "band",
+      "#9 Announcement Transition 2": "band",
+      "#10 Basketball Practice": "band",
+      "#11 Get'cha Head in the Game": "TROY, JOCKS",
+      "#12 Get'cha (Playoff) into Lab": "TROY, JOCKS",
+      "#13 Sharpay Dials": "sfx",
+      "#14 The Plot Thickens": "sfx/band",
+      "#15 Announcement Transition 3": "band",
+      "#16 Detention": "band",
+      "#17 Announcement Transition 4": "band",
+      "#18 Auditions (Bop to the Top /What I've...)": "THESPIANS, MS. DARBUS",
+      "#19 What I've Been Looking For": "RYAN, SHARPAY",
+      "#20 School Bell": "sfx",
+      "#21 What I've Been Looking For (Reprise)": "TROY, GABRIELLA",
+      "#22 Cellular Fusion": "CHAD, TAYLOR, COMPANY",
+      "#23 Stick to the Status Quo": "COMPANY",
+      "#24 Entr'acte (Stick to the Status Quo)": "band",
+      "#25 Rooftop Garden": "band",
+      "#26 I Can't Take My Eyes Off of You": "TROY, GABRIELLA",
+      "#27 Sharpay's Locker": "band",
+      "#28 Study Hall": "sfx/band",
+      "#29 Wildcat Cheer (Reprise)": "CHEERLEADERS",
+      "#30 Counting on You": "JOCKS, BRAINIACS",
+      "#31 Taylor's Cell": "sfx",
+      "#32 When There Was Me and You": "GABRIELLA, TROY, JOCKS, BRAINS",
+      "#33 Boom Box Rehearsal": "band",
+      "#34 Boom Box / Theater": "band",
+      "#35 Gabriella's Cell": "sfx",
+      "#36 Start of Something New (Reprise)": "TROY, GABRIELLA",
+      "#37 Study Hall": "band",
+      "#38 Announcement Transition 5": "band",
+      "#39 Sorry, Troy": "band",
+      "#40 We're All in This Together": "CHAD, TAYLOR, KELSI, JOCKS, BRAINS",
+      "#41 Bumpy Ride": "band",
+      "#42 Bop to the Top": "SHARPAY, RYAN, BRAINIACS, JOCKS",
+      "#43 Meltdown": "sfx",
+      "#44 In the Lab": "band",
+      "#45 In the Theater": "band",
+      "#46 Kelsi Tries": "band",
+      "#47 Breaking Free": "TROY, GABRIELLA, COMPANY",
+      "#48 Game Buzzer": "sfx",
+      "#49 Wildcat Vamp": "band",
+      "#50 We're All in This Together (Reprise)": "COMPANY",
+      "#51 High School Musical Megamix": "COMPANY",
+      "#52 Exit Music (Bop to the Top)": "band"
+    }
+  },
+  "output": null
+}

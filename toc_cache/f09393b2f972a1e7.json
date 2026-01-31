@@ -1,0 +1,223 @@
+{
+  "book_id": "f09393b2f972a1e7",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Omigod, You Guys",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Laurence O'keefe - Omigod, You Guys.pdf",
+        "file_size_bytes": 1448348,
+        "page_range": [
+          0,
+          28
+        ]
+      },
+      {
+        "song_title": "What You Want",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Legally Blonde - What You Want.pdf",
+        "file_size_bytes": 1842004,
+        "page_range": [
+          28,
+          60
+        ]
+      },
+      {
+        "song_title": "Legally Blonde",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - Legally Blonde.pdf",
+        "file_size_bytes": 672524,
+        "page_range": [
+          60,
+          75
+        ]
+      },
+      {
+        "song_title": "Professor Callahan!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - Professor Callahan!.pdf",
+        "file_size_bytes": 912362,
+        "page_range": [
+          75,
+          92
+        ]
+      },
+      {
+        "song_title": "Good Boy!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Laurence O'keefe, Nell Benjamin - Good Boy!.pdf",
+        "file_size_bytes": 86124,
+        "page_range": [
+          92,
+          94
+        ]
+      },
+      {
+        "song_title": "Good Boy [Rag 123456]",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - Good Boy [rag 123456].pdf",
+        "file_size_bytes": 46793,
+        "page_range": [
+          94,
+          95
+        ]
+      },
+      {
+        "song_title": "Good Boy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - Good Boy.pdf",
+        "file_size_bytes": 509567,
+        "page_range": [
+          95,
+          104
+        ]
+      },
+      {
+        "song_title": "Good Boy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Legally Blonde - Good Boy.pdf",
+        "file_size_bytes": 606555,
+        "page_range": [
+          104,
+          116
+        ]
+      },
+      {
+        "song_title": "Legally Blonde",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Chip On Shoulder - Legally Blonde.pdf",
+        "file_size_bytes": 68114,
+        "page_range": [
+          116,
+          117
+        ]
+      },
+      {
+        "song_title": "Legally Blonde",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - Legally Blonde.pdf",
+        "file_size_bytes": 90242,
+        "page_range": [
+          117,
+          119
+        ]
+      },
+      {
+        "song_title": "Legally Blonde",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - Legally Blonde.pdf",
+        "file_size_bytes": 555212,
+        "page_range": [
+          119,
+          130
+        ]
+      },
+      {
+        "song_title": "Legally Blonde",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - Legally Blonde.pdf",
+        "file_size_bytes": 424631,
+        "page_range": [
+          130,
+          138
+        ]
+      },
+      {
+        "song_title": "Legally Blonde",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Chip On Shoulder Part 2 - [1129904] - Legally Blonde.pdf",
+        "file_size_bytes": 1264710,
+        "page_range": [
+          138,
+          161
+        ]
+      },
+      {
+        "song_title": "Whipped Into Shape",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Brooke -some On Indian- - Whipped Into Shape.pdf",
+        "file_size_bytes": 651104,
+        "page_range": [
+          161,
+          174
+        ]
+      },
+      {
+        "song_title": "Take It Like A Man",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Benjamin-krebs - Take It Like A Man.pdf",
+        "file_size_bytes": 293627,
+        "page_range": [
+          174,
+          180
+        ]
+      },
+      {
+        "song_title": "God I love shopping for guys!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - God I Love Shopping For Guys!.pdf",
+        "file_size_bytes": 397052,
+        "page_range": [
+          180,
+          188
+        ]
+      },
+      {
+        "song_title": "Gay Or European?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Legally Blonde (elle, Emmett, Callahan, Enid, Vivienne, Warner, Nikos, Carlos, Ensemble) - Gay Or European-.pdf",
+        "file_size_bytes": 620584,
+        "page_range": [
+          188,
+          199
+        ]
+      },
+      {
+        "song_title": "To Hell With Them",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Callahan, Ellie - To Hell With Them.pdf",
+        "file_size_bytes": 507579,
+        "page_range": [
+          199,
+          209
+        ]
+      },
+      {
+        "song_title": "Legally Blonde",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Laurence O'keefe - Legally Blonde.pdf",
+        "file_size_bytes": 106037,
+        "page_range": [
+          209,
+          211
+        ]
+      },
+      {
+        "song_title": "Legally Blonde Trio Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Unknown Artist - Legally Blonde Trio Song.pdf",
+        "file_size_bytes": 206140,
+        "page_range": [
+          211,
+          215
+        ]
+      },
+      {
+        "song_title": "Legally Blonde Remix!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Legally Blonde - Score/Songs/Vivienne (based On The Dialogue Lines Attributed To -vivienne- In The Sheet Music) - Legally Blonde Remix!.pdf",
+        "file_size_bytes": 1812841,
+        "page_range": [
+          215,
+          248
+        ]
+      }
+    ]
+  }
+}

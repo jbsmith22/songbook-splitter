@@ -1,0 +1,222 @@
+{
+  "book_id": "emerson-lake-and-palmer-tarkus-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "TARKUS",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE STONES OF YEARS",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ICONOCLAST",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MASS",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MANTICORE",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE BATTLEFIELD",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "AQUATARKUS",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JEREMY BENDER",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BITCHES CRYSTAL",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE ONLY WAY (HYMN)",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "INFINITE SPACE (CONCLUSION)",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A TIME AND A PLACE",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ARE YOU READY EDDIE?",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "TARKUS",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Tarkus.pdf",
+        "file_size_bytes": 272053,
+        "page_range": [
+          2,
+          8
+        ]
+      },
+      {
+        "song_title": "THE STONES OF YEARS",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - The Stones Of Years.pdf",
+        "file_size_bytes": 158768,
+        "page_range": [
+          8,
+          11
+        ]
+      },
+      {
+        "song_title": "ICONOCLAST",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Iconoclast.pdf",
+        "file_size_bytes": 149074,
+        "page_range": [
+          11,
+          14
+        ]
+      },
+      {
+        "song_title": "MASS",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Mass.pdf",
+        "file_size_bytes": 209977,
+        "page_range": [
+          14,
+          18
+        ]
+      },
+      {
+        "song_title": "MANTICORE",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Manticore.pdf",
+        "file_size_bytes": 257944,
+        "page_range": [
+          18,
+          23
+        ]
+      },
+      {
+        "song_title": "THE BATTLEFIELD",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - The Battlefield.pdf",
+        "file_size_bytes": 208616,
+        "page_range": [
+          23,
+          27
+        ]
+      },
+      {
+        "song_title": "AQUATARKUS",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Aquatarkus.pdf",
+        "file_size_bytes": 374652,
+        "page_range": [
+          27,
+          35
+        ]
+      },
+      {
+        "song_title": "JEREMY BENDER",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Jeremy Bender.pdf",
+        "file_size_bytes": 183252,
+        "page_range": [
+          35,
+          39
+        ]
+      },
+      {
+        "song_title": "BITCHES CRYSTAL",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Bitches Crystal.pdf",
+        "file_size_bytes": 479966,
+        "page_range": [
+          39,
+          49
+        ]
+      },
+      {
+        "song_title": "THE ONLY WAY (HYMN)",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - The Only Way (hymn).pdf",
+        "file_size_bytes": 301138,
+        "page_range": [
+          49,
+          55
+        ]
+      },
+      {
+        "song_title": "INFINITE SPACE (CONCLUSION)",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Infinite Space (conclusion).pdf",
+        "file_size_bytes": 320349,
+        "page_range": [
+          55,
+          62
+        ]
+      },
+      {
+        "song_title": "A TIME AND A PLACE",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - A Time And A Place.pdf",
+        "file_size_bytes": 208656,
+        "page_range": [
+          62,
+          66
+        ]
+      },
+      {
+        "song_title": "ARE YOU READY EDDIE?",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Tarkus [book]/Songs/Emerson Lake And Palmer - Are You Ready Eddie-.pdf",
+        "file_size_bytes": 100451,
+        "page_range": [
+          66,
+          68
+        ]
+      }
+    ]
+  }
+}

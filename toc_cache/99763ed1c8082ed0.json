@@ -1,0 +1,104 @@
+{
+  "book_id": "99763ed1c8082ed0",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Baby Be Mine",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Beat It",
+        "page_number": 35,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Billie Jean",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Girl Is Mine",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Human Nature",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Lady In My Life",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "P.Y.T. (Pretty Young Thing)",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thriller",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wanna Be Startin' Somethin'",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blus the Smook Hit",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Wanna Be Startin' Somethin'",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Thriller (the Complete Song Book)/Songs/Michael Jackson - Wanna Be Startin' Somethin'.pdf",
+        "file_size_bytes": 1472514,
+        "page_range": [
+          2,
+          9
+        ]
+      },
+      {
+        "song_title": "Baby Be Mine",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Thriller (the Complete Song Book)/Songs/Michael Jackson - Baby Be Mine.pdf",
+        "file_size_bytes": 9070782,
+        "page_range": [
+          9,
+          47
+        ]
+      },
+      {
+        "song_title": "The Girl Is Mine",
+        "artist": "Michael Jackson",
+        "output_uri": "s3://jsmith-output/Michael Jackson/Michael Jackson - Thriller (the Complete Song Book)/Songs/Michael Jackson - The Girl Is Mine.pdf",
+        "file_size_bytes": 3284950,
+        "page_range": [
+          47,
+          61
+        ]
+      }
+    ]
+  }
+}

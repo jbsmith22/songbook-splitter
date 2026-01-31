@@ -1,0 +1,142 @@
+{
+  "book_id": "kinks-jam-with-the-kinks-tab",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "You Really Got Me",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All Day And All Of The Night",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Where Have All The Good Times Gone",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dedicated Follower Of Fashion",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunny Afternoon",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Waterloo Sunset",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lola",
+        "page_number": 55,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Come Dancing",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "You Really Got Me",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Jam With The Kinks [tab]/Songs/Kinks - You Really Got Me.pdf",
+        "file_size_bytes": 207005,
+        "page_range": [
+          10,
+          16
+        ]
+      },
+      {
+        "song_title": "All Day And All Of The Night",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Jam With The Kinks [tab]/Songs/Kinks - All Day And All Of The Night.pdf",
+        "file_size_bytes": 212731,
+        "page_range": [
+          16,
+          22
+        ]
+      },
+      {
+        "song_title": "Where Have All The Good Times Gone",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Jam With The Kinks [tab]/Songs/Kinks - Where Have All The Good Times Gone.pdf",
+        "file_size_bytes": 323112,
+        "page_range": [
+          22,
+          31
+        ]
+      },
+      {
+        "song_title": "Dedicated Follower Of Fashion",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Jam With The Kinks [tab]/Songs/Kinks - Dedicated Follower Of Fashion.pdf",
+        "file_size_bytes": 276678,
+        "page_range": [
+          31,
+          39
+        ]
+      },
+      {
+        "song_title": "Sunny Afternoon",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Jam With The Kinks [tab]/Songs/Kinks - Sunny Afternoon.pdf",
+        "file_size_bytes": 218059,
+        "page_range": [
+          39,
+          46
+        ]
+      },
+      {
+        "song_title": "Waterloo Sunset",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Jam With The Kinks [tab]/Songs/Kinks - Waterloo Sunset.pdf",
+        "file_size_bytes": 308506,
+        "page_range": [
+          46,
+          55
+        ]
+      },
+      {
+        "song_title": "Lola",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Jam With The Kinks [tab]/Songs/Kinks - Lola.pdf",
+        "file_size_bytes": 473935,
+        "page_range": [
+          55,
+          67
+        ]
+      },
+      {
+        "song_title": "Come Dancing",
+        "artist": "Kinks",
+        "output_uri": "s3://jsmith-output/Kinks/Jam With The Kinks [tab]/Songs/Kinks - Come Dancing.pdf",
+        "file_size_bytes": 2501464,
+        "page_range": [
+          67,
+          78
+        ]
+      }
+    ]
+  }
+}

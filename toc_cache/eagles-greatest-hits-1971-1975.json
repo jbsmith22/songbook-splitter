@@ -1,0 +1,174 @@
+{
+  "book_id": "eagles-greatest-hits-1971-1975",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Take It Easy",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Witchy Woman",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lyin' Eyes",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Already Gone",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Desperado",
+        "page_number": 87,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Of These Nights",
+        "page_number": 93,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tequila Sunrise",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take It To The Limit",
+        "page_number": 117,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Peaceful Easy Feeling",
+        "page_number": 130,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Best Of My Love",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Take It Easy",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Jackson Browne And Glenn Frey - Take It Easy.pdf",
+        "file_size_bytes": 544433,
+        "page_range": [
+          3,
+          23
+        ]
+      },
+      {
+        "song_title": "Witchy Woman",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Bernie Leadon And Don Henley - Witchy Woman.pdf",
+        "file_size_bytes": 540808,
+        "page_range": [
+          23,
+          38
+        ]
+      },
+      {
+        "song_title": "Lyin' Eyes",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Don Henley And Glenn Frey - Lyin' Eyes.pdf",
+        "file_size_bytes": 707535,
+        "page_range": [
+          38,
+          61
+        ]
+      },
+      {
+        "song_title": "Already Gone",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Jack Tempchin And Ricki Strandlund - Already Gone.pdf",
+        "file_size_bytes": 818144,
+        "page_range": [
+          61,
+          86
+        ]
+      },
+      {
+        "song_title": "Desperado",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Don Henley And Glenn Frey - Desperado.pdf",
+        "file_size_bytes": 192242,
+        "page_range": [
+          86,
+          92
+        ]
+      },
+      {
+        "song_title": "One Of These Nights",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Don Henley And Glenn Frey - One Of These Nights.pdf",
+        "file_size_bytes": 466040,
+        "page_range": [
+          92,
+          105
+        ]
+      },
+      {
+        "song_title": "Tequila Sunrise",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Don Henley And Glenn Frey - Tequila Sunrise.pdf",
+        "file_size_bytes": 292656,
+        "page_range": [
+          105,
+          116
+        ]
+      },
+      {
+        "song_title": "Take It To The Limit",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Don Henley, Glenn Frey And Randy Meisner - Take It To The Limit.pdf",
+        "file_size_bytes": 372905,
+        "page_range": [
+          116,
+          129
+        ]
+      },
+      {
+        "song_title": "Peaceful Easy Feeling",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/Jack Tempchin - Peaceful Easy Feeling.pdf",
+        "file_size_bytes": 493454,
+        "page_range": [
+          129,
+          145
+        ]
+      },
+      {
+        "song_title": "The Best Of My Love",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Greatest Hits (1971-1975)/Songs/The Song Credits List Don Henley, Glenn Frey, And John David Souther As The Writers, Suggesting This Is A Song By The Band The Eagles - The Best Of My Love.pdf",
+        "file_size_bytes": 469126,
+        "page_range": [
+          145,
+          160
+        ]
+      }
+    ]
+  }
+}

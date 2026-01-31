@@ -1,0 +1,23 @@
+{
+  "book_id": "aac48b56b8cdf5bc",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Beautiful",
+        "artist": "Carole King",
+        "output_uri": "s3://jsmith-output/Carole King/Carole King - You're The Voice/Songs/Carole King - Beautiful.pdf",
+        "file_size_bytes": 18951350,
+        "page_range": [
+          19,
+          51
+        ]
+      }
+    ]
+  }
+}

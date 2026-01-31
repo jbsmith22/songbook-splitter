@@ -1,0 +1,756 @@
+{
+  "book_id": "broadway-shows-various-artists-rent-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Tune Up A",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Voice Mail #1",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tune Up B",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rent",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Christmas Bells #1",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Okay, Honey",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tune Up - Reprise",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Song Glory",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Light My Candle",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Voice Mail #2",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Today For You A",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Today For You B",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You'll See",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tango Maureen Intro",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tango Maureen",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Support Group",
+        "page_number": 83,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Out Tonight",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Another Day",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Will I",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "On The Street",
+        "page_number": 118,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Santa Fe",
+        "page_number": 122,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'll Cover You",
+        "page_number": 135,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We're OK",
+        "page_number": 145,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Christmas Bells",
+        "page_number": 150,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Over The Moon",
+        "page_number": 175,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Over The Moon Playoff",
+        "page_number": 184,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "La Vie Boheme/I Should Tell You",
+        "page_number": 185,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Seasons Of Love A",
+        "page_number": 221,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Happy New Year A",
+        "page_number": 229,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Voice Mail #3",
+        "page_number": 240,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Voice Mail #4",
+        "page_number": 241,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Happy New Year B",
+        "page_number": 242,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Valentine's Day Crossover",
+        "page_number": 254,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take Me Or Leave Me",
+        "page_number": 255,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Seasons Of Love B",
+        "page_number": 266,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Without You",
+        "page_number": 269,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Voice Mail #5",
+        "page_number": 279,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Contact",
+        "page_number": 280,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'll Cover You - Reprise",
+        "page_number": 285,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Halloween",
+        "page_number": 293,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodbye Love",
+        "page_number": 297,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What You Own",
+        "page_number": 318,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Voice Mail #6",
+        "page_number": 335,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Finale A",
+        "page_number": 337,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Your Eyes",
+        "page_number": 354,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Finale B",
+        "page_number": 359,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Exit Music (I'll Cover You)",
+        "page_number": 367,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Tune Up A",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Tune Up A.pdf",
+        "file_size_bytes": 150209,
+        "page_range": [
+          4,
+          6
+        ]
+      },
+      {
+        "song_title": "Voice Mail #1",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Voice Mail #1.pdf",
+        "file_size_bytes": 77262,
+        "page_range": [
+          6,
+          7
+        ]
+      },
+      {
+        "song_title": "Tune Up B",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Tune Up B.pdf",
+        "file_size_bytes": 267421,
+        "page_range": [
+          7,
+          11
+        ]
+      },
+      {
+        "song_title": "Rent",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Rent.pdf",
+        "file_size_bytes": 881287,
+        "page_range": [
+          11,
+          27
+        ]
+      },
+      {
+        "song_title": "Christmas Bells #1",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Christmas Bells #1.pdf",
+        "file_size_bytes": 82076,
+        "page_range": [
+          27,
+          28
+        ]
+      },
+      {
+        "song_title": "You Okay, Honey",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - You Okay, Honey.pdf",
+        "file_size_bytes": 296447,
+        "page_range": [
+          28,
+          33
+        ]
+      },
+      {
+        "song_title": "Tune Up - Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Tune Up - Reprise.pdf",
+        "file_size_bytes": 126423,
+        "page_range": [
+          33,
+          35
+        ]
+      },
+      {
+        "song_title": "One Song Glory",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - One Song Glory.pdf",
+        "file_size_bytes": 417961,
+        "page_range": [
+          35,
+          42
+        ]
+      },
+      {
+        "song_title": "Light My Candle",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Light My Candle.pdf",
+        "file_size_bytes": 540246,
+        "page_range": [
+          42,
+          51
+        ]
+      },
+      {
+        "song_title": "Voice Mail #2",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Voice Mail #2.pdf",
+        "file_size_bytes": 97981,
+        "page_range": [
+          51,
+          52
+        ]
+      },
+      {
+        "song_title": "Today For You A",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Today For You A.pdf",
+        "file_size_bytes": 286844,
+        "page_range": [
+          52,
+          57
+        ]
+      },
+      {
+        "song_title": "Today For You B",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Today For You B.pdf",
+        "file_size_bytes": 348657,
+        "page_range": [
+          57,
+          63
+        ]
+      },
+      {
+        "song_title": "You'll See",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - You'll See.pdf",
+        "file_size_bytes": 594844,
+        "page_range": [
+          63,
+          73
+        ]
+      },
+      {
+        "song_title": "Tango Maureen Intro",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Piano Conductor - Tango Maureen Intro.pdf",
+        "file_size_bytes": 136250,
+        "page_range": [
+          73,
+          73
+        ]
+      },
+      {
+        "song_title": "Tango Maureen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Piano Conductor - Tango Maureen.pdf",
+        "file_size_bytes": 747805,
+        "page_range": [
+          73,
+          86
+        ]
+      },
+      {
+        "song_title": "Support Group",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Support Group.pdf",
+        "file_size_bytes": 355660,
+        "page_range": [
+          86,
+          92
+        ]
+      },
+      {
+        "song_title": "Out Tonight",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Out Tonight.pdf",
+        "file_size_bytes": 568439,
+        "page_range": [
+          92,
+          101
+        ]
+      },
+      {
+        "song_title": "Another Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Another Day.pdf",
+        "file_size_bytes": 1108573,
+        "page_range": [
+          101,
+          119
+        ]
+      },
+      {
+        "song_title": "Will I",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Will I.pdf",
+        "file_size_bytes": 240817,
+        "page_range": [
+          119,
+          123
+        ]
+      },
+      {
+        "song_title": "On The Street",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - On The Street.pdf",
+        "file_size_bytes": 135779,
+        "page_range": [
+          123,
+          125
+        ]
+      },
+      {
+        "song_title": "Santa Fe",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Santa Fe.pdf",
+        "file_size_bytes": 709477,
+        "page_range": [
+          125,
+          138
+        ]
+      },
+      {
+        "song_title": "I'll Cover You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - I'll Cover You.pdf",
+        "file_size_bytes": 605892,
+        "page_range": [
+          138,
+          148
+        ]
+      },
+      {
+        "song_title": "We're OK",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - We're Ok.pdf",
+        "file_size_bytes": 290629,
+        "page_range": [
+          148,
+          153
+        ]
+      },
+      {
+        "song_title": "Christmas Bells",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Christmas Bells.pdf",
+        "file_size_bytes": 1396976,
+        "page_range": [
+          153,
+          180
+        ]
+      },
+      {
+        "song_title": "Over The Moon",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Over The Moon.pdf",
+        "file_size_bytes": 407643,
+        "page_range": [
+          180,
+          187
+        ]
+      },
+      {
+        "song_title": "Over The Moon Playoff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Over The Moon Playoff.pdf",
+        "file_size_bytes": 61944,
+        "page_range": [
+          187,
+          188
+        ]
+      },
+      {
+        "song_title": "La Vie Boheme/I Should Tell You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - La Vie Boheme-i Should Tell You.pdf",
+        "file_size_bytes": 3095548,
+        "page_range": [
+          188,
+          230
+        ]
+      },
+      {
+        "song_title": "Seasons Of Love A",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Seasons Of Love A.pdf",
+        "file_size_bytes": 515745,
+        "page_range": [
+          230,
+          238
+        ]
+      },
+      {
+        "song_title": "Happy New Year A",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Happy New Year A.pdf",
+        "file_size_bytes": 647126,
+        "page_range": [
+          238,
+          249
+        ]
+      },
+      {
+        "song_title": "Voice Mail #3",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Voice Mail #3.pdf",
+        "file_size_bytes": 76392,
+        "page_range": [
+          249,
+          250
+        ]
+      },
+      {
+        "song_title": "Voice Mail #4",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Voice Mail #4.pdf",
+        "file_size_bytes": 88488,
+        "page_range": [
+          250,
+          251
+        ]
+      },
+      {
+        "song_title": "Happy New Year B",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Happy New Year B.pdf",
+        "file_size_bytes": 707103,
+        "page_range": [
+          251,
+          263
+        ]
+      },
+      {
+        "song_title": "Valentine's Day Crossover",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Valentine's Day Crossover.pdf",
+        "file_size_bytes": 61160,
+        "page_range": [
+          263,
+          264
+        ]
+      },
+      {
+        "song_title": "Take Me Or Leave Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Take Me Or Leave Me.pdf",
+        "file_size_bytes": 607985,
+        "page_range": [
+          264,
+          275
+        ]
+      },
+      {
+        "song_title": "Seasons Of Love B",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Seasons Of Love B.pdf",
+        "file_size_bytes": 310155,
+        "page_range": [
+          275,
+          280
+        ]
+      },
+      {
+        "song_title": "Without You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Without You.pdf",
+        "file_size_bytes": 468419,
+        "page_range": [
+          280,
+          288
+        ]
+      },
+      {
+        "song_title": "Voice Mail #5",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Voice Mail #5.pdf",
+        "file_size_bytes": 84645,
+        "page_range": [
+          288,
+          289
+        ]
+      },
+      {
+        "song_title": "Contact",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Contact.pdf",
+        "file_size_bytes": 301406,
+        "page_range": [
+          289,
+          294
+        ]
+      },
+      {
+        "song_title": "I'll Cover You - Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - I'll Cover You - Reprise.pdf",
+        "file_size_bytes": 459543,
+        "page_range": [
+          294,
+          302
+        ]
+      },
+      {
+        "song_title": "Halloween",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Halloween.pdf",
+        "file_size_bytes": 245341,
+        "page_range": [
+          302,
+          306
+        ]
+      },
+      {
+        "song_title": "Goodbye Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Goodbye Love.pdf",
+        "file_size_bytes": 1312058,
+        "page_range": [
+          306,
+          331
+        ]
+      },
+      {
+        "song_title": "What You Own",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - What You Own.pdf",
+        "file_size_bytes": 832555,
+        "page_range": [
+          331,
+          346
+        ]
+      },
+      {
+        "song_title": "Finale A",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Finale A.pdf",
+        "file_size_bytes": 932727,
+        "page_range": [
+          346,
+          363
+        ]
+      },
+      {
+        "song_title": "Your Eyes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Your Eyes.pdf",
+        "file_size_bytes": 333376,
+        "page_range": [
+          363,
+          369
+        ]
+      },
+      {
+        "song_title": "Finale B",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Finale B.pdf",
+        "file_size_bytes": 436411,
+        "page_range": [
+          369,
+          376
+        ]
+      },
+      {
+        "song_title": "Exit Music (I'll Cover You)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rent [score]/Songs/Unknown Artist - Exit Music (i'll Cover You).pdf",
+        "file_size_bytes": 471008,
+        "page_range": [
+          376,
+          380
+        ]
+      }
+    ]
+  }
+}

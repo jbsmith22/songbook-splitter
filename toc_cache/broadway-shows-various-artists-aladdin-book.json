@@ -1,0 +1,93 @@
+{
+  "book_id": "broadway-shows-various-artists-aladdin-book",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Aladdin",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - Aladdin.pdf",
+        "file_size_bytes": 745797,
+        "page_range": [
+          0,
+          1
+        ]
+      },
+      {
+        "song_title": "Arabian Nights",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - Arabian Nights.pdf",
+        "file_size_bytes": 473384,
+        "page_range": [
+          1,
+          5
+        ]
+      },
+      {
+        "song_title": "One Jump Ahead",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - One Jump Ahead.pdf",
+        "file_size_bytes": 1149927,
+        "page_range": [
+          5,
+          14
+        ]
+      },
+      {
+        "song_title": "One Jump Ahead (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - One Jump Ahead (reprise).pdf",
+        "file_size_bytes": 300426,
+        "page_range": [
+          14,
+          16
+        ]
+      },
+      {
+        "song_title": "Friend Like Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - Friend Like Me.pdf",
+        "file_size_bytes": 1577017,
+        "page_range": [
+          16,
+          26
+        ]
+      },
+      {
+        "song_title": "Prince Ali",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - Prince Ali.pdf",
+        "file_size_bytes": 1471351,
+        "page_range": [
+          26,
+          38
+        ]
+      },
+      {
+        "song_title": "A Whole New World",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - A Whole New World.pdf",
+        "file_size_bytes": 879904,
+        "page_range": [
+          38,
+          45
+        ]
+      },
+      {
+        "song_title": "Prince Ali (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Aladdin (book)/Songs/Unknown Artist - Prince Ali (reprise).pdf",
+        "file_size_bytes": 604016,
+        "page_range": [
+          45,
+          50
+        ]
+      }
+    ]
+  }
+}

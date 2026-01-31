@@ -1,0 +1,42 @@
+{
+  "book_id": "beatles-anthology-3-page-80-111",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Oh! Darling",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Harm",
+        "page_number": 81,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alone",
+        "page_number": 81,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Oh! Darling",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Anthology 3 (page 80 - 111)/Songs/John Lennon And Paul Mccartney - Oh! Darling.pdf",
+        "file_size_bytes": 7477506,
+        "page_range": [
+          0,
+          33
+        ]
+      }
+    ]
+  }
+}

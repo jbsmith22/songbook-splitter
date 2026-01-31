@@ -1,0 +1,38 @@
+{
+  "book_id": "519bf75f309fa764",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Theme from the Paramount Picture STAR TREK: THE MOTION PICTURE",
+        "page_number": 42,
+        "artist": "Music by JERRY GOLDSMITH",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Power Rock shuffle",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Theme from the Paramount Picture STAR TREK: THE MOTION PICTURE": "Music by JERRY GOLDSMITH"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Theme from the Paramount Picture STAR TREK: THE MOTION PICTURE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Star Trek The Motion Picture/Songs/Music By Jerry Goldsmith - Theme From The Paramount Picture Star Trek- The Motion Picture.pdf",
+        "file_size_bytes": 718992,
+        "page_range": [
+          0,
+          3
+        ]
+      }
+    ]
+  }
+}

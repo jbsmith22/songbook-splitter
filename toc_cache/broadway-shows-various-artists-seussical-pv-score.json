@@ -1,0 +1,564 @@
+{
+  "book_id": "broadway-shows-various-artists-seussical-pv-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Seussical Overture",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Oh, The Thinks You Can Think!",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Horton Hears A Who!",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Biggest Blame Fool",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Biggest Blame Playoff / Gertrude McFuzz",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Here On Who",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Meet JoJo The Who",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "How To Raise A Child",
+        "page_number": 69,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Oh, The Thinks You Can Think! (Reprise)",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Possible (Part 1)",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Possible (Part 2)",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alone In The Universe",
+        "page_number": 84,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The One Feather Tail of Miss Gertrude McFuzz Amayzing Mayzie",
+        "page_number": 97,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Amayzing Gertrude (Part 1)",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Amayzing Gertrude (Part 2)",
+        "page_number": 109,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Monkey Around / Chasing the Whos",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Notice Me, Horton",
+        "page_number": 129,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "How Lucky You Are",
+        "page_number": 139,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mayzie's Exit / Horton Sits on the Egg / Dilemma / Hunters",
+        "page_number": 144,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Egg, Nest, and Tree",
+        "page_number": 152,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sold / Mayzie in Palm Beach",
+        "page_number": 158,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mayzie At The Circus",
+        "page_number": 162,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Amayzing Horton",
+        "page_number": 163,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alone In The Universe (Reprise)",
+        "page_number": 167,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Solla Sollew",
+        "page_number": 169,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gertrude / Espionage Part 1",
+        "page_number": 177,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gertrude / Espionage (Part 2)",
+        "page_number": 178,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All For You",
+        "page_number": 179,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Whos Return / The People Vs. Horton the Elephant (Pt.1)",
+        "page_number": 187,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The People Versus Horton the Elephant (Part 2)",
+        "page_number": 195,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Yopp!",
+        "page_number": 206,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alone In The Universe (Reprise)",
+        "page_number": 209,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Oh, The Thinks You Can Think! (Finale)",
+        "page_number": 212,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Green Eggs And Ham (Finale Bows)",
+        "page_number": 218,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Exit Music",
+        "page_number": 225,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Seussical Overture",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Seussical Overture.pdf",
+        "file_size_bytes": 1243620,
+        "page_range": [
+          2,
+          10
+        ]
+      },
+      {
+        "song_title": "Oh, The Thinks You Can Think!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Music By Stephen Flaherty - Oh, The Thinks You Can Think!.pdf",
+        "file_size_bytes": 3241520,
+        "page_range": [
+          10,
+          27
+        ]
+      },
+      {
+        "song_title": "Horton Hears A Who!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lynn Ahrens - Horton Hears A Who!.pdf",
+        "file_size_bytes": 1621475,
+        "page_range": [
+          27,
+          36
+        ]
+      },
+      {
+        "song_title": "Biggest Blame Fool",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Biggest Blame Fool.pdf",
+        "file_size_bytes": 2961781,
+        "page_range": [
+          36,
+          52
+        ]
+      },
+      {
+        "song_title": "Biggest Blame Playoff / Gertrude McFuzz",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Biggest Blame Playoff - Gertrude Mcfuzz.pdf",
+        "file_size_bytes": 653130,
+        "page_range": [
+          52,
+          56
+        ]
+      },
+      {
+        "song_title": "Here On Who",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Here On Who.pdf",
+        "file_size_bytes": 2528423,
+        "page_range": [
+          56,
+          71
+        ]
+      },
+      {
+        "song_title": "Meet JoJo The Who",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Meet Jojo The Who.pdf",
+        "file_size_bytes": 112269,
+        "page_range": [
+          71,
+          72
+        ]
+      },
+      {
+        "song_title": "How To Raise A Child",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(mr. Mayor, Mrs. Mayor) - Lyrics By Lynn Ahrens, Music By Stephen Flaherty - How To Raise A Child.pdf",
+        "file_size_bytes": 458934,
+        "page_range": [
+          72,
+          75
+        ]
+      },
+      {
+        "song_title": "Oh, The Thinks You Can Think! (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(cat In The Hat, Role) - Oh, The Thinks You Can Think! (reprise).pdf",
+        "file_size_bytes": 320040,
+        "page_range": [
+          75,
+          77
+        ]
+      },
+      {
+        "song_title": "It's Possible (Part 1)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - It's Possible (part 1).pdf",
+        "file_size_bytes": 1274383,
+        "page_range": [
+          77,
+          84
+        ]
+      },
+      {
+        "song_title": "It's Possible (Part 2)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - It's Possible (part 2).pdf",
+        "file_size_bytes": 405264,
+        "page_range": [
+          84,
+          87
+        ]
+      },
+      {
+        "song_title": "Alone In The Universe",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical Tya (male Cat) - Alone In The Universe.pdf",
+        "file_size_bytes": 2296219,
+        "page_range": [
+          87,
+          100
+        ]
+      },
+      {
+        "song_title": "The One Feather Tail of Miss Gertrude McFuzz Amayzing Mayzie",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(gertrude, Mayzie, Bird Girls) - The One Feather Tail Of Miss Gertrude Mcfuzz Amayzing Mayzie.pdf",
+        "file_size_bytes": 1889437,
+        "page_range": [
+          100,
+          111
+        ]
+      },
+      {
+        "song_title": "Amayzing Gertrude (Part 1)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(gertrude) - Amayzing Gertrude (part 1).pdf",
+        "file_size_bytes": 162380,
+        "page_range": [
+          111,
+          112
+        ]
+      },
+      {
+        "song_title": "Amayzing Gertrude (Part 2)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Amayzing Gertrude (part 2).pdf",
+        "file_size_bytes": 1112564,
+        "page_range": [
+          112,
+          119
+        ]
+      },
+      {
+        "song_title": "Monkey Around / Chasing the Whos",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Wickersham Brothers, Horton, Sour Puss (from Musical Seussical) - Monkey Around - Chasing The Whos.pdf",
+        "file_size_bytes": 2291699,
+        "page_range": [
+          119,
+          132
+        ]
+      },
+      {
+        "song_title": "Notice Me, Horton",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical-tya (male Cat) - Notice Me, Horton.pdf",
+        "file_size_bytes": 1651906,
+        "page_range": [
+          132,
+          142
+        ]
+      },
+      {
+        "song_title": "How Lucky You Are",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical-tya (male Cat) - How Lucky You Are.pdf",
+        "file_size_bytes": 777980,
+        "page_range": [
+          142,
+          147
+        ]
+      },
+      {
+        "song_title": "Mayzie's Exit / Horton Sits on the Egg / Dilemma / Hunters",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Mayzie's Exit - Horton Sits On The Egg - Dilemma - Hunters.pdf",
+        "file_size_bytes": 2740042,
+        "page_range": [
+          147,
+          161
+        ]
+      },
+      {
+        "song_title": "Sold / Mayzie in Palm Beach",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Sold - Mayzie In Palm Beach.pdf",
+        "file_size_bytes": 838320,
+        "page_range": [
+          161,
+          165
+        ]
+      },
+      {
+        "song_title": "Mayzie At The Circus",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Mayzie At The Circus.pdf",
+        "file_size_bytes": 234277,
+        "page_range": [
+          165,
+          166
+        ]
+      },
+      {
+        "song_title": "Amayzing Horton",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(male Cat) Seussical Tya - Amayzing Horton.pdf",
+        "file_size_bytes": 811513,
+        "page_range": [
+          166,
+          170
+        ]
+      },
+      {
+        "song_title": "Alone In The Universe (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Alone In The Universe (reprise).pdf",
+        "file_size_bytes": 326034,
+        "page_range": [
+          170,
+          172
+        ]
+      },
+      {
+        "song_title": "Solla Sollew",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical Tya (male Cat) (horton, Jojo, Mayor, Mrs. Mayor, Circus Animals) - Solla Sollew.pdf",
+        "file_size_bytes": 1513980,
+        "page_range": [
+          172,
+          180
+        ]
+      },
+      {
+        "song_title": "Gertrude / Espionage Part 1",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Gertrude - Espionage Part 1.pdf",
+        "file_size_bytes": 143378,
+        "page_range": [
+          180,
+          181
+        ]
+      },
+      {
+        "song_title": "Gertrude / Espionage (Part 2)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Gertrude - Espionage (part 2).pdf",
+        "file_size_bytes": 149816,
+        "page_range": [
+          181,
+          182
+        ]
+      },
+      {
+        "song_title": "All For You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical Tya (male Cat) - All For You.pdf",
+        "file_size_bytes": 1389799,
+        "page_range": [
+          182,
+          190
+        ]
+      },
+      {
+        "song_title": "The Whos Return / The People Vs. Horton the Elephant (Pt.1)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical-tya (male Cast) - The Whos Return - The People Vs. Horton The Elephant (pt.1).pdf",
+        "file_size_bytes": 1525841,
+        "page_range": [
+          190,
+          198
+        ]
+      },
+      {
+        "song_title": "The People Versus Horton the Elephant (Part 2)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - The People Versus Horton The Elephant (part 2).pdf",
+        "file_size_bytes": 2037101,
+        "page_range": [
+          198,
+          209
+        ]
+      },
+      {
+        "song_title": "Yopp!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Yopp!.pdf",
+        "file_size_bytes": 541676,
+        "page_range": [
+          209,
+          212
+        ]
+      },
+      {
+        "song_title": "Alone In The Universe (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical-tya (male Cat) - Alone In The Universe (reprise).pdf",
+        "file_size_bytes": 474162,
+        "page_range": [
+          212,
+          215
+        ]
+      },
+      {
+        "song_title": "Oh, The Thinks You Can Think! (Finale)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(company) - Oh, The Thinks You Can Think! (finale).pdf",
+        "file_size_bytes": 995911,
+        "page_range": [
+          215,
+          221
+        ]
+      },
+      {
+        "song_title": "Green Eggs And Ham (Finale Bows)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Green Eggs And Ham (finale Bows).pdf",
+        "file_size_bytes": 1331657,
+        "page_range": [
+          221,
+          228
+        ]
+      },
+      {
+        "song_title": "Exit Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Stephen Flaherty - Exit Music.pdf",
+        "file_size_bytes": 539580,
+        "page_range": [
+          228,
+          231
+        ]
+      }
+    ]
+  }
+}

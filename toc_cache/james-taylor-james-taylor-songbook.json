@@ -1,0 +1,398 @@
+{
+  "book_id": "james-taylor-james-taylor-songbook",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Anywhere Like Heaven",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Brighten Your Night With My Day",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Carolina In My Mind",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Country Road",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fire And Rain",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gorilla",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Handy Man",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hey Mister That's Me Up On The Jukebox",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Highway Song",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lo And Behold",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Long Ago And Far Away",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mud Slide Slim",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Night Owl",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Oh Susanna",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rainy Day Man",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Riding On A Railroad",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shower The People",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Song For You Far Away",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Suite For 20G",
+        "page_number": 35,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunny Skies",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sweet Baby James",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "That's Why I'm Here",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Can Close Your Eyes",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You've Got A Friend",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sweet Baby James",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Sweet Baby James.pdf",
+        "file_size_bytes": 581148,
+        "page_range": [
+          2,
+          3
+        ]
+      },
+      {
+        "song_title": "Night Owl",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Night Owl.pdf",
+        "file_size_bytes": 1095431,
+        "page_range": [
+          3,
+          5
+        ]
+      },
+      {
+        "song_title": "Song For You Far Away",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Song For You Far Away.pdf",
+        "file_size_bytes": 1120244,
+        "page_range": [
+          5,
+          7
+        ]
+      },
+      {
+        "song_title": "Rainy Day Man",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Rainy Day Man.pdf",
+        "file_size_bytes": 1156383,
+        "page_range": [
+          7,
+          9
+        ]
+      },
+      {
+        "song_title": "Anywhere Like Heaven",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Anywhere Like Heaven.pdf",
+        "file_size_bytes": 1064597,
+        "page_range": [
+          9,
+          11
+        ]
+      },
+      {
+        "song_title": "Carolina In My Mind",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Carolina In My Mind.pdf",
+        "file_size_bytes": 1167375,
+        "page_range": [
+          11,
+          13
+        ]
+      },
+      {
+        "song_title": "Sunny Skies",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Sunny Skies.pdf",
+        "file_size_bytes": 1045457,
+        "page_range": [
+          13,
+          15
+        ]
+      },
+      {
+        "song_title": "Hey Mister That's Me Up On The Jukebox",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Hey Mister That's Me Up On The Jukebox.pdf",
+        "file_size_bytes": 1170296,
+        "page_range": [
+          15,
+          17
+        ]
+      },
+      {
+        "song_title": "Shower The People",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Shower The People.pdf",
+        "file_size_bytes": 1076163,
+        "page_range": [
+          17,
+          19
+        ]
+      },
+      {
+        "song_title": "You Can Close Your Eyes",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - You Can Close Your Eyes.pdf",
+        "file_size_bytes": 1066768,
+        "page_range": [
+          19,
+          21
+        ]
+      },
+      {
+        "song_title": "Riding On A Railroad",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Riding On A Railroad.pdf",
+        "file_size_bytes": 1063887,
+        "page_range": [
+          21,
+          23
+        ]
+      },
+      {
+        "song_title": "That's Why I'm Here",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - That's Why I'm Here.pdf",
+        "file_size_bytes": 1201319,
+        "page_range": [
+          23,
+          25
+        ]
+      },
+      {
+        "song_title": "Handy Man",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Handy Man.pdf",
+        "file_size_bytes": 1103017,
+        "page_range": [
+          25,
+          27
+        ]
+      },
+      {
+        "song_title": "Highway Song",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Highway Song.pdf",
+        "file_size_bytes": 1165016,
+        "page_range": [
+          27,
+          29
+        ]
+      },
+      {
+        "song_title": "Mud Slide Slim",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Mud Slide Slim.pdf",
+        "file_size_bytes": 1122272,
+        "page_range": [
+          29,
+          31
+        ]
+      },
+      {
+        "song_title": "Fire And Rain",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Fire And Rain.pdf",
+        "file_size_bytes": 1091647,
+        "page_range": [
+          31,
+          33
+        ]
+      },
+      {
+        "song_title": "Gorilla",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Gorilla.pdf",
+        "file_size_bytes": 576331,
+        "page_range": [
+          33,
+          34
+        ]
+      },
+      {
+        "song_title": "Suite For 20G",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Suite For 20g.pdf",
+        "file_size_bytes": 1594951,
+        "page_range": [
+          34,
+          37
+        ]
+      },
+      {
+        "song_title": "Brighten Your Night With My Day",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Brighten Your Night With My Day.pdf",
+        "file_size_bytes": 1090806,
+        "page_range": [
+          37,
+          39
+        ]
+      },
+      {
+        "song_title": "Long Ago And Far Away",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Long Ago And Far Away.pdf",
+        "file_size_bytes": 1135739,
+        "page_range": [
+          39,
+          41
+        ]
+      },
+      {
+        "song_title": "Lo And Behold",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Lo And Behold.pdf",
+        "file_size_bytes": 1099748,
+        "page_range": [
+          41,
+          43
+        ]
+      },
+      {
+        "song_title": "Country Road",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Country Road.pdf",
+        "file_size_bytes": 1097756,
+        "page_range": [
+          43,
+          45
+        ]
+      },
+      {
+        "song_title": "You've Got A Friend",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - You've Got A Friend.pdf",
+        "file_size_bytes": 1086636,
+        "page_range": [
+          45,
+          47
+        ]
+      },
+      {
+        "song_title": "Oh Susanna",
+        "artist": "James Taylor",
+        "output_uri": "s3://jsmith-output/James Taylor/James Taylor Songbook/Songs/James Taylor - Oh Susanna.pdf",
+        "file_size_bytes": 599769,
+        "page_range": [
+          47,
+          48
+        ]
+      }
+    ]
+  }
+}

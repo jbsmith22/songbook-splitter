@@ -1,0 +1,942 @@
+{
+  "book_id": "elton-john-the-ultimate-collection-vol-1",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "All the Girls Love Alice",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Amazes Me",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bad Side of the Moon",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ball and Chain",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Believe",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bennie and the Jets",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Bitch Is Back",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bite Your Lip (Get Up and Dance)",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blessed",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blue Eyes",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blues for Baby and Me",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Border Song",
+        "page_number": 45,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Burn Down the Mission",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Can You Feel the Love Tonight",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Candle in the Wind",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Candle in the Wind 1997",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Captain Fantastic and the Brown Dirt Cowboy",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Carla Etude",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Chloe",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Circle of Life",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Club at the End of the Street",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cold",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Come Down in Time",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Country Comfort",
+        "page_number": 101,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Crocodile Rock",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Curtains",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Daniel",
+        "page_number": 120,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Go Breaking My Heart",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Let the Sun Go Down on Me",
+        "page_number": 128,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Duets for One",
+        "page_number": 115,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ego",
+        "page_number": 132,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Empty Garden (Hey Hey Johnny)",
+        "page_number": 136,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fanfare",
+        "page_number": 144,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Friends",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Funeral for a Friend",
+        "page_number": 148,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodbye Yellow Brick Road",
+        "page_number": 141,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Grey Seal",
+        "page_number": 152,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Grow Some Funk of Your Own",
+        "page_number": 156,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Harmony",
+        "page_number": 160,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Have Mercy on the Criminal",
+        "page_number": 172,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Healing Hands",
+        "page_number": 178,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Heartache All over the World",
+        "page_number": 182,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "High Flying Bird",
+        "page_number": 188,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honky Cat",
+        "page_number": 192,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Don't Wanna Go on with You Like That",
+        "page_number": 165,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Feel Like a Bullet (In the Gun of Robert Ford)",
+        "page_number": 198,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Guess That's Why They Call It the Blues",
+        "page_number": 202,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Need You to Turn To",
+        "page_number": 205,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm Still Standing",
+        "page_number": 208,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In Neon",
+        "page_number": 216,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Indian Sunset",
+        "page_number": 220,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Island Girl",
+        "page_number": 228,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kiss the Bride",
+        "page_number": 211,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Last Song",
+        "page_number": 232,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Legal Boys",
+        "page_number": 236,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lies",
+        "page_number": 241,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Jeannie",
+        "page_number": 250,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Levon",
+        "page_number": 246,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "All the Girls Love Alice",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - All The Girls Love Alice.pdf",
+        "file_size_bytes": 802709,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "Amazes Me",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Amazes Me.pdf",
+        "file_size_bytes": 828324,
+        "page_range": [
+          7,
+          10
+        ]
+      },
+      {
+        "song_title": "Bad Side of the Moon",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Bad Side Of The Moon.pdf",
+        "file_size_bytes": 1227446,
+        "page_range": [
+          10,
+          13
+        ]
+      },
+      {
+        "song_title": "Ball and Chain",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Gary Osborne - Ball And Chain.pdf",
+        "file_size_bytes": 1523533,
+        "page_range": [
+          13,
+          18
+        ]
+      },
+      {
+        "song_title": "Believe",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Believe.pdf",
+        "file_size_bytes": 1032935,
+        "page_range": [
+          18,
+          22
+        ]
+      },
+      {
+        "song_title": "Bennie and the Jets",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John - Bennie And The Jets.pdf",
+        "file_size_bytes": 901438,
+        "page_range": [
+          22,
+          25
+        ]
+      },
+      {
+        "song_title": "The Bitch Is Back",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John - The Bitch Is Back.pdf",
+        "file_size_bytes": 1070709,
+        "page_range": [
+          25,
+          28
+        ]
+      },
+      {
+        "song_title": "Bite Your Lip (Get Up and Dance)",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Bite Your Lip (get Up And Dance).pdf",
+        "file_size_bytes": 1088425,
+        "page_range": [
+          28,
+          32
+        ]
+      },
+      {
+        "song_title": "Blessed",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Blessed.pdf",
+        "file_size_bytes": 1619330,
+        "page_range": [
+          32,
+          38
+        ]
+      },
+      {
+        "song_title": "Blue Eyes",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Gary Osborne - Blue Eyes.pdf",
+        "file_size_bytes": 630884,
+        "page_range": [
+          38,
+          40
+        ]
+      },
+      {
+        "song_title": "Blues for Baby and Me",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Blues For Baby And Me.pdf",
+        "file_size_bytes": 1447660,
+        "page_range": [
+          40,
+          45
+        ]
+      },
+      {
+        "song_title": "Border Song",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Border Song.pdf",
+        "file_size_bytes": 897355,
+        "page_range": [
+          45,
+          48
+        ]
+      },
+      {
+        "song_title": "Burn Down the Mission",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Burn Down The Mission.pdf",
+        "file_size_bytes": 1251228,
+        "page_range": [
+          48,
+          52
+        ]
+      },
+      {
+        "song_title": "Can You Feel the Love Tonight",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John - Can You Feel The Love Tonight.pdf",
+        "file_size_bytes": 1185779,
+        "page_range": [
+          52,
+          56
+        ]
+      },
+      {
+        "song_title": "Candle in the Wind",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John (words By Bernie Taupin) - Candle In The Wind.pdf",
+        "file_size_bytes": 1940577,
+        "page_range": [
+          56,
+          63
+        ]
+      },
+      {
+        "song_title": "Candle in the Wind 1997",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John - Candle In The Wind 1997.pdf",
+        "file_size_bytes": 1377809,
+        "page_range": [
+          63,
+          68
+        ]
+      },
+      {
+        "song_title": "Captain Fantastic and the Brown Dirt Cowboy",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Captain Fantastic And The Brown Dirt Cowboy.pdf",
+        "file_size_bytes": 1985644,
+        "page_range": [
+          68,
+          74
+        ]
+      },
+      {
+        "song_title": "Carla Etude",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John - Carla Etude.pdf",
+        "file_size_bytes": 1151212,
+        "page_range": [
+          74,
+          78
+        ]
+      },
+      {
+        "song_title": "Chloe",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Gary Osborne - Chloe.pdf",
+        "file_size_bytes": 1068969,
+        "page_range": [
+          78,
+          82
+        ]
+      },
+      {
+        "song_title": "Circle of Life",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John - Circle Of Life.pdf",
+        "file_size_bytes": 2191941,
+        "page_range": [
+          82,
+          90
+        ]
+      },
+      {
+        "song_title": "Club at the End of the Street",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Unknown Artist - Club At The End Of The Street.pdf",
+        "file_size_bytes": 1156757,
+        "page_range": [
+          90,
+          94
+        ]
+      },
+      {
+        "song_title": "Cold",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Cold.pdf",
+        "file_size_bytes": 1759856,
+        "page_range": [
+          94,
+          101
+        ]
+      },
+      {
+        "song_title": "Country Comfort",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Country Comfort.pdf",
+        "file_size_bytes": 894410,
+        "page_range": [
+          101,
+          104
+        ]
+      },
+      {
+        "song_title": "Come Down in Time",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Come Down In Time.pdf",
+        "file_size_bytes": 1157121,
+        "page_range": [
+          104,
+          108
+        ]
+      },
+      {
+        "song_title": "Crocodile Rock",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Crocodile Rock.pdf",
+        "file_size_bytes": 1177456,
+        "page_range": [
+          108,
+          112
+        ]
+      },
+      {
+        "song_title": "Curtains",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Curtains.pdf",
+        "file_size_bytes": 919236,
+        "page_range": [
+          112,
+          115
+        ]
+      },
+      {
+        "song_title": "Duets for One",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John - Duets For One.pdf",
+        "file_size_bytes": 1336550,
+        "page_range": [
+          115,
+          120
+        ]
+      },
+      {
+        "song_title": "Daniel",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Daniel.pdf",
+        "file_size_bytes": 1129350,
+        "page_range": [
+          120,
+          124
+        ]
+      },
+      {
+        "song_title": "Don't Go Breaking My Heart",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Carrie Blanche And Ann Orson - Don't Go Breaking My Heart.pdf",
+        "file_size_bytes": 1217669,
+        "page_range": [
+          124,
+          128
+        ]
+      },
+      {
+        "song_title": "Don't Let the Sun Go Down on Me",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Don't Let The Sun Go Down On Me.pdf",
+        "file_size_bytes": 1409664,
+        "page_range": [
+          128,
+          132
+        ]
+      },
+      {
+        "song_title": "Ego",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Ego.pdf",
+        "file_size_bytes": 1234760,
+        "page_range": [
+          132,
+          136
+        ]
+      },
+      {
+        "song_title": "Empty Garden (Hey Hey Johnny)",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Empty Garden (hey Hey Johnny).pdf",
+        "file_size_bytes": 1456230,
+        "page_range": [
+          136,
+          141
+        ]
+      },
+      {
+        "song_title": "Goodbye Yellow Brick Road",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Goodbye Yellow Brick Road.pdf",
+        "file_size_bytes": 946499,
+        "page_range": [
+          141,
+          144
+        ]
+      },
+      {
+        "song_title": "Fanfare",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Words By Elton John, Music By James Newton Howard - Fanfare.pdf",
+        "file_size_bytes": 549745,
+        "page_range": [
+          144,
+          146
+        ]
+      },
+      {
+        "song_title": "Friends",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Friends.pdf",
+        "file_size_bytes": 641999,
+        "page_range": [
+          146,
+          148
+        ]
+      },
+      {
+        "song_title": "Funeral for a Friend",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Funeral For A Friend.pdf",
+        "file_size_bytes": 1072895,
+        "page_range": [
+          148,
+          152
+        ]
+      },
+      {
+        "song_title": "Grey Seal",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/The Lyrics And Music Are Credited To Elton John And Bernie Taupin At The Top Of The Page, Indicating This Is The First Page Of The Song -grey Seal- By The Artist(s) Elton John And Bernie Taupin.pdf",
+        "file_size_bytes": 1166013,
+        "page_range": [
+          152,
+          156
+        ]
+      },
+      {
+        "song_title": "Grow Some Funk of Your Own",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Unknown Artist - Grow Some Funk Of Your Own.pdf",
+        "file_size_bytes": 1207575,
+        "page_range": [
+          156,
+          160
+        ]
+      },
+      {
+        "song_title": "Harmony",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Harmony.pdf",
+        "file_size_bytes": 1496427,
+        "page_range": [
+          160,
+          165
+        ]
+      },
+      {
+        "song_title": "I Don't Wanna Go on with You Like That",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - I Don't Wanna Go On With You Like That.pdf",
+        "file_size_bytes": 1959149,
+        "page_range": [
+          165,
+          172
+        ]
+      },
+      {
+        "song_title": "Have Mercy on the Criminal",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Have Mercy On The Criminal.pdf",
+        "file_size_bytes": 1744673,
+        "page_range": [
+          172,
+          178
+        ]
+      },
+      {
+        "song_title": "Healing Hands",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Healing Hands.pdf",
+        "file_size_bytes": 1138343,
+        "page_range": [
+          178,
+          182
+        ]
+      },
+      {
+        "song_title": "Heartache All over the World",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Heartache All Over The World.pdf",
+        "file_size_bytes": 1643904,
+        "page_range": [
+          182,
+          188
+        ]
+      },
+      {
+        "song_title": "High Flying Bird",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - High Flying Bird.pdf",
+        "file_size_bytes": 1103967,
+        "page_range": [
+          188,
+          192
+        ]
+      },
+      {
+        "song_title": "Honky Cat",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Honky Cat.pdf",
+        "file_size_bytes": 1967755,
+        "page_range": [
+          192,
+          198
+        ]
+      },
+      {
+        "song_title": "I Feel Like a Bullet (In the Gun of Robert Ford)",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - I Feel Like A Bullet (in The Gun Of Robert Ford).pdf",
+        "file_size_bytes": 1169602,
+        "page_range": [
+          198,
+          202
+        ]
+      },
+      {
+        "song_title": "I Guess That's Why They Call It the Blues",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John, Bernie Taupin And Davey Johnstone - I Guess That's Why They Call It The Blues.pdf",
+        "file_size_bytes": 1008842,
+        "page_range": [
+          202,
+          205
+        ]
+      },
+      {
+        "song_title": "I Need You to Turn To",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - I Need You To Turn To.pdf",
+        "file_size_bytes": 847255,
+        "page_range": [
+          205,
+          208
+        ]
+      },
+      {
+        "song_title": "I'm Still Standing",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/The Song Is Written By Elton John And Bernie Taupin Based On The Credits Shown At The Top Of The Sheet Music - I'm Still Standing.pdf",
+        "file_size_bytes": 952092,
+        "page_range": [
+          208,
+          211
+        ]
+      },
+      {
+        "song_title": "Kiss the Bride",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Kiss The Bride.pdf",
+        "file_size_bytes": 1524403,
+        "page_range": [
+          211,
+          216
+        ]
+      },
+      {
+        "song_title": "In Neon",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - In Neon.pdf",
+        "file_size_bytes": 1235602,
+        "page_range": [
+          216,
+          220
+        ]
+      },
+      {
+        "song_title": "Indian Sunset",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Indian Sunset.pdf",
+        "file_size_bytes": 2343505,
+        "page_range": [
+          220,
+          228
+        ]
+      },
+      {
+        "song_title": "Island Girl",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Island Girl.pdf",
+        "file_size_bytes": 1279448,
+        "page_range": [
+          228,
+          232
+        ]
+      },
+      {
+        "song_title": "The Last Song",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - The Last Song.pdf",
+        "file_size_bytes": 1113983,
+        "page_range": [
+          232,
+          236
+        ]
+      },
+      {
+        "song_title": "Legal Boys",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Legal Boys.pdf",
+        "file_size_bytes": 1572832,
+        "page_range": [
+          236,
+          241
+        ]
+      },
+      {
+        "song_title": "Lies",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Lies.pdf",
+        "file_size_bytes": 1492558,
+        "page_range": [
+          241,
+          246
+        ]
+      },
+      {
+        "song_title": "Levon",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Bernie Taupin - Levon.pdf",
+        "file_size_bytes": 1212410,
+        "page_range": [
+          246,
+          250
+        ]
+      },
+      {
+        "song_title": "Little Jeannie",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/The Ultimate Collection Vol. 1/Songs/Elton John And Gary Osborne - Little Jeannie.pdf",
+        "file_size_bytes": 1747301,
+        "page_range": [
+          250,
+          256
+        ]
+      }
+    ]
+  }
+}

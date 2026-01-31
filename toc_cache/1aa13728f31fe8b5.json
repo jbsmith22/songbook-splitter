@@ -1,0 +1,23 @@
+{
+  "book_id": "1aa13728f31fe8b5",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "ALBATROSS",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Opening",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

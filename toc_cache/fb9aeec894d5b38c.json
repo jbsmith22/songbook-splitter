@@ -1,0 +1,43 @@
+{
+  "book_id": "fb9aeec894d5b38c",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Gone Hollywood",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Breakfast In America [pvg Book]/Songs/Supertramp - Gone Hollywood.pdf",
+        "file_size_bytes": 206459,
+        "page_range": [
+          26,
+          27
+        ]
+      },
+      {
+        "song_title": "Goodbye Stranger",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Breakfast In America [pvg Book]/Songs/Supertramp - Goodbye Stranger.pdf",
+        "file_size_bytes": 12678672,
+        "page_range": [
+          27,
+          64
+        ]
+      },
+      {
+        "song_title": "Child of Vision",
+        "artist": "Supertramp",
+        "output_uri": "s3://jsmith-output/Supertramp/Supertramp - Breakfast In America [pvg Book]/Songs/Supertramp - Child Of Vision.pdf",
+        "file_size_bytes": 1709612,
+        "page_range": [
+          64,
+          70
+        ]
+      }
+    ]
+  }
+}

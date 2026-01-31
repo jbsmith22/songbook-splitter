@@ -1,0 +1,154 @@
+{
+  "book_id": "genesis-seconds-out",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Squonk",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Carpet Crawl",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Robbery Assault & Battery",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Afterglow",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Firth Of Fifth",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Know What I Like",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Lamb Lies Down On Broadway",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Supper's Ready",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Musical Box",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cinema Show",
+        "page_number": 83,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Squonk",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Seconds Out/Songs/Genesis - Squonk.pdf",
+        "file_size_bytes": 1560454,
+        "page_range": [
+          3,
+          9
+        ]
+      },
+      {
+        "song_title": "The Carpet Crawl",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Seconds Out/Songs/Genesis - The Carpet Crawl.pdf",
+        "file_size_bytes": 6838316,
+        "page_range": [
+          9,
+          25
+        ]
+      },
+      {
+        "song_title": "I Know What I Like",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Seconds Out/Songs/Genesis - I Know What I Like.pdf",
+        "file_size_bytes": 854392,
+        "page_range": [
+          25,
+          27
+        ]
+      },
+      {
+        "song_title": "Afterglow",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Seconds Out/Songs/Genesis - Afterglow.pdf",
+        "file_size_bytes": 1329907,
+        "page_range": [
+          27,
+          30
+        ]
+      },
+      {
+        "song_title": "The Lamb Lies Down On Broadway",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Seconds Out/Songs/Genesis - The Lamb Lies Down On Broadway.pdf",
+        "file_size_bytes": 3953543,
+        "page_range": [
+          30,
+          39
+        ]
+      },
+      {
+        "song_title": "Supper's Ready",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Seconds Out/Songs/Genesis - Supper's Ready.pdf",
+        "file_size_bytes": 14375665,
+        "page_range": [
+          39,
+          73
+        ]
+      },
+      {
+        "song_title": "The Musical Box",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Seconds Out/Songs/Genesis - The Musical Box.pdf",
+        "file_size_bytes": 4024163,
+        "page_range": [
+          73,
+          82
+        ]
+      },
+      {
+        "song_title": "Cinema Show",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Seconds Out/Songs/Genesis - Cinema Show.pdf",
+        "file_size_bytes": 2574429,
+        "page_range": [
+          82,
+          88
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "book_id": "broadway-shows-various-artists-little-shop-of-horrors-broadway",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Prologue",
+        "page_number": 1,
+        "artist": "Little Shop Of Horrors",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Prologue": "Little Shop Of Horrors"
+    }
+  },
+  "output": {
+    "output_files": []
+  }
+}

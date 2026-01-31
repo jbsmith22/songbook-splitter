@@ -1,0 +1,33 @@
+{
+  "book_id": "cb5e54e90eb9f902",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Birds",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Songs From The West Coast/Songs/Elton John - Birds.pdf",
+        "file_size_bytes": 2199543,
+        "page_range": [
+          21,
+          52
+        ]
+      },
+      {
+        "song_title": "Mansfield",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - Songs From The West Coast/Songs/Elton John - Mansfield.pdf",
+        "file_size_bytes": 916449,
+        "page_range": [
+          52,
+          65
+        ]
+      }
+    ]
+  }
+}

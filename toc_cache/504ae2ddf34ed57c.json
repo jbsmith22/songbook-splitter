@@ -1,0 +1,118 @@
+{
+  "book_id": "504ae2ddf34ed57c",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "STAR TREK",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LABOR OF LOVE",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HELLA BAR TALK",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NICE TO MELD YOU",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DOES IT STILL McFLY?",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NERO FIDDLES, NARADA BURNS",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BACK FROM BLACK",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THAT NEW CAR SMELL",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TO BOLDLY GO*",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "STAR TREK",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek (piano Solo)/Songs/Michael Giacchino - Star Trek.pdf",
+        "file_size_bytes": 1971183,
+        "page_range": [
+          3,
+          16
+        ]
+      },
+      {
+        "song_title": "DOES IT STILL McFLY?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek (piano Solo)/Songs/Unknown Artist - Does It Still Mcfly-.pdf",
+        "file_size_bytes": 1405556,
+        "page_range": [
+          16,
+          25
+        ]
+      },
+      {
+        "song_title": "BACK FROM BLACK",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek (piano Solo)/Songs/Michael Giacchino - Back From Black.pdf",
+        "file_size_bytes": 145680,
+        "page_range": [
+          25,
+          26
+        ]
+      },
+      {
+        "song_title": "THAT NEW CAR SMELL",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek (piano Solo)/Songs/By Michael Giacchino - That New Car Smell.pdf",
+        "file_size_bytes": 933936,
+        "page_range": [
+          26,
+          32
+        ]
+      },
+      {
+        "song_title": "TO BOLDLY GO*",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek (piano Solo)/Songs/Unknown Artist - To Boldly Go-.pdf",
+        "file_size_bytes": 1296917,
+        "page_range": [
+          32,
+          40
+        ]
+      }
+    ]
+  }
+}

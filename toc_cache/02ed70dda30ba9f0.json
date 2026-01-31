@@ -1,0 +1,130 @@
+{
+  "book_id": "02ed70dda30ba9f0",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "How Can I Leave You Again",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tradewinds",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bet On The Blues",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dearest Esmeralda",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lil' Amazin' Me",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thirsty Boots",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ripplin' Waters",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Singing Skies and Dancing Waters",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Want To Live",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Druthers",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "To The Wild Country",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "How Can I Leave You Again",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - I Want To Live [pvg Book]/Songs/John Denver - How Can I Leave You Again.pdf",
+        "file_size_bytes": 188406,
+        "page_range": [
+          4,
+          11
+        ]
+      },
+      {
+        "song_title": "Tradewinds",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - I Want To Live [pvg Book]/Songs/John Denver - Tradewinds.pdf",
+        "file_size_bytes": 418081,
+        "page_range": [
+          11,
+          28
+        ]
+      },
+      {
+        "song_title": "Lil' Amazin' Me",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - I Want To Live [pvg Book]/Songs/John Denver - Lil' Amazin' Me.pdf",
+        "file_size_bytes": 174942,
+        "page_range": [
+          28,
+          33
+        ]
+      },
+      {
+        "song_title": "Thirsty Boots",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - I Want To Live [pvg Book]/Songs/John Denver - Thirsty Boots.pdf",
+        "file_size_bytes": 675973,
+        "page_range": [
+          33,
+          56
+        ]
+      },
+      {
+        "song_title": "Druthers",
+        "artist": "John Denver",
+        "output_uri": "s3://jsmith-output/John Denver/John Denver - I Want To Live [pvg Book]/Songs/John Denver - Druthers.pdf",
+        "file_size_bytes": 482089,
+        "page_range": [
+          56,
+          66
+        ]
+      }
+    ]
+  }
+}

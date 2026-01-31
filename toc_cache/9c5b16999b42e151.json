@@ -1,0 +1,30 @@
+{
+  "book_id": "9c5b16999b42e151",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Breaking Free",
+        "page_number": 45,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Breaking Free",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/High School Musical - Breaking Free - Piano Sheet Music/Songs/Jamie Houston - Breaking Free.pdf",
+        "file_size_bytes": 5993123,
+        "page_range": [
+          0,
+          8
+        ]
+      }
+    ]
+  }
+}

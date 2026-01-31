@@ -1,0 +1,137 @@
+{
+  "book_id": "77a14f6004f123ec",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "A swatch of ging-ham!",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Buy a sou-ven-ir'a strand of straw!",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ra-ding past us, fling 'em!",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "En - flow-er them, and show-er them with praise!",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For since the Wiz-ard",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "came,",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "this",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "is",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "our",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "fest",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "i",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "vest",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "of",
+        "page_number": 1902,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "days!",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "News!",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She's",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dead!",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Witch of the West",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "is",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "dead!",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The wick-ed-est witch there",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

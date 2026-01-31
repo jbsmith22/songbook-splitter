@@ -1,0 +1,30 @@
+{
+  "book_id": "dfb323f75fd6f4ef",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Whole Lotta Love",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Whole Lotta Love",
+        "artist": "Led Zepplin",
+        "output_uri": "s3://jsmith-output/Led Zepplin/Led Zeppelin - Led Zeppelin Ii/Songs/Led Zepplin - Whole Lotta Love.pdf",
+        "file_size_bytes": 8469592,
+        "page_range": [
+          1,
+          103
+        ]
+      }
+    ]
+  }
+}

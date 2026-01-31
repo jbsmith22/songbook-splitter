@@ -1,0 +1,190 @@
+{
+  "book_id": "billy-joel-songs-in-the-attic",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "MIAMI 2017",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SUMMER, HIGHLAND FALLS",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "STREETLIFE SERENADER",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOS ANGELENOS",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SHE'S GOT A WAY",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EVERYBODY LOVES YOU NOW",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SAY GOODBYE TO HOLLYWOOD",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU'RE MY HOME",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CAPTAIN JACK",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'VE LOVED THESE DAYS",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE BALLAD OF BILLY THE KID",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "MIAMI 2017",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - Miami 2017.pdf",
+        "file_size_bytes": 2722242,
+        "page_range": [
+          2,
+          10
+        ]
+      },
+      {
+        "song_title": "SUMMER, HIGHLAND FALLS",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - Summer, Highland Falls.pdf",
+        "file_size_bytes": 1359821,
+        "page_range": [
+          10,
+          14
+        ]
+      },
+      {
+        "song_title": "STREETLIFE SERENADER",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - Streetlife Serenader.pdf",
+        "file_size_bytes": 1937679,
+        "page_range": [
+          14,
+          19
+        ]
+      },
+      {
+        "song_title": "LOS ANGELENOS",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - Los Angelenos.pdf",
+        "file_size_bytes": 1147704,
+        "page_range": [
+          19,
+          22
+        ]
+      },
+      {
+        "song_title": "SHE'S GOT A WAY",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - She's Got A Way.pdf",
+        "file_size_bytes": 1708254,
+        "page_range": [
+          22,
+          27
+        ]
+      },
+      {
+        "song_title": "EVERYBODY LOVES YOU NOW",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - Everybody Loves You Now.pdf",
+        "file_size_bytes": 1689463,
+        "page_range": [
+          27,
+          32
+        ]
+      },
+      {
+        "song_title": "SAY GOODBYE TO HOLLYWOOD",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - Say Goodbye To Hollywood.pdf",
+        "file_size_bytes": 1436979,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "YOU'RE MY HOME",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - You're My Home.pdf",
+        "file_size_bytes": 1155164,
+        "page_range": [
+          36,
+          39
+        ]
+      },
+      {
+        "song_title": "CAPTAIN JACK",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - Captain Jack.pdf",
+        "file_size_bytes": 1602741,
+        "page_range": [
+          39,
+          44
+        ]
+      },
+      {
+        "song_title": "I'VE LOVED THESE DAYS",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - I've Loved These Days.pdf",
+        "file_size_bytes": 1039427,
+        "page_range": [
+          44,
+          47
+        ]
+      },
+      {
+        "song_title": "THE BALLAD OF BILLY THE KID",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/Songs In The Attic/Songs/Billy Joel - The Ballad Of Billy The Kid.pdf",
+        "file_size_bytes": 1775331,
+        "page_range": [
+          47,
+          52
+        ]
+      }
+    ]
+  }
+}

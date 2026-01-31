@@ -1,0 +1,43 @@
+{
+  "book_id": "7500b5ca338d0af1",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "hooked on you",
+        "artist": "Bread",
+        "output_uri": "s3://jsmith-output/Bread/Bread - Best Of Bread/Songs/Bread - Hooked On You.pdf",
+        "file_size_bytes": 1289232,
+        "page_range": [
+          27,
+          34
+        ]
+      },
+      {
+        "song_title": "It Don't Matter to Me",
+        "artist": "Bread",
+        "output_uri": "s3://jsmith-output/Bread/Bread - Best Of Bread/Songs/Bread - It Don't Matter To Me.pdf",
+        "file_size_bytes": 2555011,
+        "page_range": [
+          34,
+          48
+        ]
+      },
+      {
+        "song_title": "The Other Side of Life",
+        "artist": "Bread",
+        "output_uri": "s3://jsmith-output/Bread/Bread - Best Of Bread/Songs/Bread - The Other Side Of Life.pdf",
+        "file_size_bytes": 2077887,
+        "page_range": [
+          48,
+          60
+        ]
+      }
+    ]
+  }
+}

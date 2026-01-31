@@ -1,0 +1,30 @@
+{
+  "book_id": "meatloaf-bat-out-of-hell",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Bat Out Of Hell",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Bat Out Of Hell",
+        "artist": "MeatLoaf",
+        "output_uri": "s3://jsmith-output/Meatloaf/Bat Out Of Hell/Songs/Meatloaf - Bat Out Of Hell.pdf",
+        "file_size_bytes": 12264494,
+        "page_range": [
+          1,
+          285
+        ]
+      }
+    ]
+  }
+}

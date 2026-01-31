@@ -1,0 +1,406 @@
+{
+  "book_id": "broadway-shows-various-artists-high-school-musical-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Wildcat Cheer",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Start of Something New",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Start of Something New (Playoff)",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Homeroom",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gabriella's Phone",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "School Bell",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Announcement Transition 1",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hallway",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Announcement Transition 2",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Basketball Practice",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Get'cha Head in the Game",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Get'cha (Playoff) into Lab",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sharpay Dials",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Plot Thickens",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Announcement Transition 3",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Detention",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Announcement Transition 4",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Auditions (Bop to the Top/What I've Been Looking For)",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What I've Been Looking For",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "School Bell",
+        "page_number": 69,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What I've Been Looking For (Reprise)",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cellular Fusion",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Stick to the Status Quo",
+        "page_number": 81,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Entr'acte (Stick to the Status Quo)",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rooftop Garden",
+        "page_number": 103,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Can't Take My Eyes Off of You",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sharpay's Locker",
+        "page_number": 113,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Study Hall",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wildcat Cheer (Reprise)",
+        "page_number": 115,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Counting on You",
+        "page_number": 117,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Taylor's Cell",
+        "page_number": 129,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "When There Was Me and You",
+        "page_number": 130,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Boom Box Rehearsal",
+        "page_number": 143,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Boom Box / Theater",
+        "page_number": 145,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gabriella's Cell",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Start of Something New (Reprise)",
+        "page_number": 147,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Study Hall",
+        "page_number": 151,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Announcement Transition 5",
+        "page_number": 152,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sorry, Troy",
+        "page_number": 153,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We're All in This Together",
+        "page_number": 154,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bumpy Ride",
+        "page_number": 164,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bop to the Top",
+        "page_number": 165,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Meltdown",
+        "page_number": 176,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In the Lab",
+        "page_number": 177,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In the Theater",
+        "page_number": 178,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kelsi Tries",
+        "page_number": 179,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Breaking Free",
+        "page_number": 180,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Game Buzzer",
+        "page_number": 192,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wildcat Vamp",
+        "page_number": 193,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We're All in This Together (Reprise)",
+        "page_number": 196,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "High School Musical Megamix",
+        "page_number": 211,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Exit Music (Bop to the Top)",
+        "page_number": 232,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Wildcat Cheer",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical (company) - Wildcat Cheer.pdf",
+        "file_size_bytes": 167342,
+        "page_range": [
+          4,
+          9
+        ]
+      },
+      {
+        "song_title": "Start of Something New",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical (troy, Gabriella, Company) - Start Of Something New.pdf",
+        "file_size_bytes": 363858,
+        "page_range": [
+          9,
+          23
+        ]
+      },
+      {
+        "song_title": "Start of Something New (Playoff)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Start Of Something New (playoff).pdf",
+        "file_size_bytes": 100079,
+        "page_range": [
+          23,
+          24
+        ]
+      },
+      {
+        "song_title": "Homeroom",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Homeroom.pdf",
+        "file_size_bytes": 201139,
+        "page_range": [
+          24,
+          25
+        ]
+      },
+      {
+        "song_title": "Gabriella's Phone",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - Gabriella's Phone.pdf",
+        "file_size_bytes": 1706025,
+        "page_range": [
+          25,
+          72
+        ]
+      },
+      {
+        "song_title": "School Bell",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/From Disney's High School Musical - School Bell.pdf",
+        "file_size_bytes": 5123027,
+        "page_range": [
+          72,
+          221
+        ]
+      },
+      {
+        "song_title": "What I've Been Looking For",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/Unknown Artist - What I've Been Looking For.pdf",
+        "file_size_bytes": 137119,
+        "page_range": [
+          221,
+          221
+        ]
+      },
+      {
+        "song_title": "What I've Been Looking For (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - High School Musical [score]/Songs/Unknown Artist - What I've Been Looking For (reprise).pdf",
+        "file_size_bytes": 678627,
+        "page_range": [
+          221,
+          242
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "book_id": "garth-brooks-no-fences-guitar-tab",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "FRIENDS IN LOW PLACES",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MR. BLUE",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NEW WAY TO FLY",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SAME OLD STORY",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE THUNDER ROLLS",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TWO OF A KIND, WORKIN' ON A FULL HOUSE",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "UNANSWERED PRAYERS",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "VICTIM OF THE GAME",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WILD HORSES",
+        "page_number": 69,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WOLVES",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "UNANSWERED PRAYERS",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/No Fences [guitar Tab]/Songs/Garth Brooks - Unanswered Prayers.pdf",
+        "file_size_bytes": 399507,
+        "page_range": [
+          2,
+          10
+        ]
+      },
+      {
+        "song_title": "FRIENDS IN LOW PLACES",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/No Fences [guitar Tab]/Songs/Garth Brooks - Friends In Low Places.pdf",
+        "file_size_bytes": 1268597,
+        "page_range": [
+          10,
+          34
+        ]
+      },
+      {
+        "song_title": "MR. BLUE",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/No Fences [guitar Tab]/Songs/Garth Brooks - Mr. Blue.pdf",
+        "file_size_bytes": 268565,
+        "page_range": [
+          34,
+          40
+        ]
+      },
+      {
+        "song_title": "SAME OLD STORY",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/No Fences [guitar Tab]/Songs/Garth Brooks - Same Old Story.pdf",
+        "file_size_bytes": 434661,
+        "page_range": [
+          40,
+          50
+        ]
+      },
+      {
+        "song_title": "VICTIM OF THE GAME",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/No Fences [guitar Tab]/Songs/Garth Brooks - Victim Of The Game.pdf",
+        "file_size_bytes": 266147,
+        "page_range": [
+          50,
+          57
+        ]
+      },
+      {
+        "song_title": "WILD HORSES",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/No Fences [guitar Tab]/Songs/Garth Brooks - Wild Horses.pdf",
+        "file_size_bytes": 231552,
+        "page_range": [
+          57,
+          62
+        ]
+      },
+      {
+        "song_title": "WOLVES",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/No Fences [guitar Tab]/Songs/Garth Brooks - Wolves.pdf",
+        "file_size_bytes": 1649463,
+        "page_range": [
+          62,
+          70
+        ]
+      }
+    ]
+  }
+}

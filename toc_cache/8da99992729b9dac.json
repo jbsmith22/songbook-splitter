@@ -1,0 +1,540 @@
+{
+  "book_id": "8da99992729b9dac",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Alley Cat Song",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "As Long As He Needs Me",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "As Tears Go By",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "By The Time I Get To Phoenix",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cabaret",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "California Dreamin'",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Can't Help Falling In Love",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Chapel Of Love",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Daydream",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dominique",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Downtown",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Exodus Song, The",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ferry Cross The Mersey",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fly Me To The Moon",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Georgy Girl",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Girl From Ipanema, The",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goin' Out Of My Head",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Green Green Grass Of Home",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Groovin'",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hang On Sloopy",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Happy Together",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hello Mary Lou",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honey",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Left My Heart In San Francisco",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Want To Hold Your Hand",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If I Had A Hammer",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If I Were A Carpenter",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's My Party",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Not Unusual",
+        "page_number": 84,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "King Of The Road",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Green Apples",
+        "page_number": 77,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Is Blue",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Monday, Monday",
+        "page_number": 92,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "More",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Coloring Book",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Cup Runneth Over",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Na Na Hey Hey Kiss Him Goodbye",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Tin Soldier",
+        "page_number": 97,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Our Day Will Come",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Paper Roses",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "People",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Please, Please Me",
+        "page_number": 118,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "San Francisco (Be Sure To Wear Some Flowers In Your Hair)",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Loves You",
+        "page_number": 121,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Spanish Harlem",
+        "page_number": 128,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Strangers In The Night",
+        "page_number": 130,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sunrise, Sunset",
+        "page_number": 133,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "That's Life",
+        "page_number": 136,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Things",
+        "page_number": 140,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Those Were The Days",
+        "page_number": 144,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Try To Remember",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Turn! Turn! Turn!",
+        "page_number": 148,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Twist, The",
+        "page_number": 152,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Up, Up And Away",
+        "page_number": 154,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Watch What Happens",
+        "page_number": 157,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "What Kind Of Fool Am I?",
+        "page_number": 160,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Where Have All The Flowers Gone?",
+        "page_number": 162,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Whiter Shade Of Pale, A",
+        "page_number": 165,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Who Can I Turn To (When Nobody Needs Me)",
+        "page_number": 168,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wooden Heart",
+        "page_number": 171,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Yesterday, When I Was Young",
+        "page_number": 174,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Alley Cat Song",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Words By Jack Harlen, Music By Frank Bjorn - Alley Cat Song.pdf",
+        "file_size_bytes": 795440,
+        "page_range": [
+          11,
+          15
+        ]
+      },
+      {
+        "song_title": "As Tears Go By",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Unknown Artist - As Tears Go By.pdf",
+        "file_size_bytes": 379959,
+        "page_range": [
+          15,
+          17
+        ]
+      },
+      {
+        "song_title": "As Long As He Needs Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Lionel Bart - As Long As He Needs Me.pdf",
+        "file_size_bytes": 408856,
+        "page_range": [
+          17,
+          19
+        ]
+      },
+      {
+        "song_title": "By The Time I Get To Phoenix",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Jimmy Webb - By The Time I Get To Phoenix.pdf",
+        "file_size_bytes": 644276,
+        "page_range": [
+          19,
+          22
+        ]
+      },
+      {
+        "song_title": "Cabaret",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Unknown Artist - Cabaret.pdf",
+        "file_size_bytes": 470127,
+        "page_range": [
+          22,
+          24
+        ]
+      },
+      {
+        "song_title": "California Dreamin'",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/John Phillips - California Dreamin'.pdf",
+        "file_size_bytes": 650878,
+        "page_range": [
+          24,
+          27
+        ]
+      },
+      {
+        "song_title": "Can't Help Falling In Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/George Weiss, Hugo Peretti & Luigi Creatore - Can't Help Falling In Love.pdf",
+        "file_size_bytes": 689391,
+        "page_range": [
+          27,
+          30
+        ]
+      },
+      {
+        "song_title": "Daydream",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Unknown Artist - Daydream.pdf",
+        "file_size_bytes": 1142202,
+        "page_range": [
+          30,
+          35
+        ]
+      },
+      {
+        "song_title": "Dominique",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Soeur Sourire, O.p. (english Lyrics By Noel Regney) - Dominique.pdf",
+        "file_size_bytes": 446024,
+        "page_range": [
+          35,
+          37
+        ]
+      },
+      {
+        "song_title": "Downtown",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Tony Hatch - Downtown.pdf",
+        "file_size_bytes": 661394,
+        "page_range": [
+          37,
+          40
+        ]
+      },
+      {
+        "song_title": "Georgy Girl",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Words By Jim Dale, Music By Tom Springfield - Georgy Girl.pdf",
+        "file_size_bytes": 641145,
+        "page_range": [
+          40,
+          43
+        ]
+      },
+      {
+        "song_title": "Exodus Song, The",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Words By Pat Boone, Music By Ernest Gold - Exodus Song, The.pdf",
+        "file_size_bytes": 29452033,
+        "page_range": [
+          43,
+          174
+        ]
+      },
+      {
+        "song_title": "Ferry Cross The Mersey",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Unknown Artist - Ferry Cross The Mersey.pdf",
+        "file_size_bytes": 575587,
+        "page_range": [
+          174,
+          174
+        ]
+      },
+      {
+        "song_title": "It's Not Unusual",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Unknown Artist - It's Not Unusual.pdf",
+        "file_size_bytes": 575587,
+        "page_range": [
+          174,
+          174
+        ]
+      },
+      {
+        "song_title": "Our Day Will Come",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Unknown Artist - Our Day Will Come.pdf",
+        "file_size_bytes": 575587,
+        "page_range": [
+          174,
+          174
+        ]
+      },
+      {
+        "song_title": "Up, Up And Away",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Songs Of The 60s [pvg]/Songs/Unknown Artist - Up, Up And Away.pdf",
+        "file_size_bytes": 300155,
+        "page_range": [
+          174,
+          175
+        ]
+      }
+    ]
+  }
+}

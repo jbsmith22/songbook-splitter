@@ -1,0 +1,353 @@
+{
+  "book_id": "d7988a00c0f09742",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Great Balls of Fire",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Jerry Lee Lewis (as Recorded By Jerry Lee Lewis On Sun Records) - Great Balls Of Fire.pdf",
+        "file_size_bytes": 758353,
+        "page_range": [
+          42,
+          52
+        ]
+      },
+      {
+        "song_title": "MORE TODAY THAN YESTERDAY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Pat Lippon - More Today Than Yesterday.pdf",
+        "file_size_bytes": 1778821,
+        "page_range": [
+          52,
+          76
+        ]
+      },
+      {
+        "song_title": "Book of Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/The Monotones On Argo Records - Book Of Love.pdf",
+        "file_size_bytes": 75870,
+        "page_range": [
+          76,
+          77
+        ]
+      },
+      {
+        "song_title": "BOOK OF LOVE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Unknown Artist - Book Of Love.pdf",
+        "file_size_bytes": 366295,
+        "page_range": [
+          77,
+          82
+        ]
+      },
+      {
+        "song_title": "All Shook Up",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Elvis Presley - All Shook Up.pdf",
+        "file_size_bytes": 1473984,
+        "page_range": [
+          82,
+          102
+        ]
+      },
+      {
+        "song_title": "I WANT YOU TO KNOW",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Antoine Domino, Dave Bartholomew - I Want You To Know.pdf",
+        "file_size_bytes": 541429,
+        "page_range": [
+          102,
+          109
+        ]
+      },
+      {
+        "song_title": "IT'S GONNA TAKE A MIRACLE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/The Royalettes On Mgm Records - It's Gonna Take A Miracle.pdf",
+        "file_size_bytes": 1494860,
+        "page_range": [
+          109,
+          128
+        ]
+      },
+      {
+        "song_title": "Let the Four Winds Blow",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Dave Bartholomew And Antoine Domino - Let The Four Winds Blow.pdf",
+        "file_size_bytes": 70804,
+        "page_range": [
+          128,
+          129
+        ]
+      },
+      {
+        "song_title": "TOSSIN' AND TURNIN'",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Bobby Lewis On Beltone Records - Tossin' And Turnin'.pdf",
+        "file_size_bytes": 1018557,
+        "page_range": [
+          129,
+          143
+        ]
+      },
+      {
+        "song_title": "Party Doll",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Buddy Knox On Roulette Records - Party Doll.pdf",
+        "file_size_bytes": 162575,
+        "page_range": [
+          143,
+          145
+        ]
+      },
+      {
+        "song_title": "Let's Twist Again",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Chubby Checker On Parkway Records - Let's Twist Again.pdf",
+        "file_size_bytes": 584140,
+        "page_range": [
+          145,
+          153
+        ]
+      },
+      {
+        "song_title": "MAYBE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Richard Barrett - Maybe.pdf",
+        "file_size_bytes": 445751,
+        "page_range": [
+          153,
+          159
+        ]
+      },
+      {
+        "song_title": "HEARTS OF STONE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Eddy Ray, Music By Rudolph Jackson - Hearts Of Stone.pdf",
+        "file_size_bytes": 175141,
+        "page_range": [
+          159,
+          161
+        ]
+      },
+      {
+        "song_title": "LONG TALL SALLY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Little Richard -- Espec'ly Ricky Nelson - Long Tall Sally.pdf",
+        "file_size_bytes": 1114739,
+        "page_range": [
+          161,
+          175
+        ]
+      },
+      {
+        "song_title": "Love Is All We Need",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Tommy Edwards On Mgm Records - Love Is All We Need.pdf",
+        "file_size_bytes": 614069,
+        "page_range": [
+          175,
+          183
+        ]
+      },
+      {
+        "song_title": "Happy, Happy Birthday, Baby",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Mario Sylva, Gilbert Lopez - Happy, Happy Birthday, Baby.pdf",
+        "file_size_bytes": 552099,
+        "page_range": [
+          183,
+          190
+        ]
+      },
+      {
+        "song_title": "THE HOUSE OF THE RISING SUN",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Alan Price - The House Of The Rising Sun.pdf",
+        "file_size_bytes": 561536,
+        "page_range": [
+          190,
+          197
+        ]
+      },
+      {
+        "song_title": "Rock and Roll Music",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Chuck Berry - Rock And Roll Music.pdf",
+        "file_size_bytes": 428202,
+        "page_range": [
+          197,
+          203
+        ]
+      },
+      {
+        "song_title": "SUSIE-Q",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Recorded By Dale Hawkins On Checker Records - Susie-q.pdf",
+        "file_size_bytes": 122206,
+        "page_range": [
+          203,
+          205
+        ]
+      },
+      {
+        "song_title": "MOTHER-IN-LAW",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Recorded By Ernie K. Doe On Minit Records - Mother-in-law.pdf",
+        "file_size_bytes": 354691,
+        "page_range": [
+          205,
+          209
+        ]
+      },
+      {
+        "song_title": "Sweet Little Sixteen",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Chuck Berry - Sweet Little Sixteen.pdf",
+        "file_size_bytes": 162788,
+        "page_range": [
+          209,
+          211
+        ]
+      },
+      {
+        "song_title": "GRADUATION DAY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/The Four Freshmen On Capitol Records - Graduation Day.pdf",
+        "file_size_bytes": 640516,
+        "page_range": [
+          211,
+          219
+        ]
+      },
+      {
+        "song_title": "RUNAROUND",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Chuck Berry On Chess Records - Runaround.pdf",
+        "file_size_bytes": 175419,
+        "page_range": [
+          219,
+          221
+        ]
+      },
+      {
+        "song_title": "Mr. Blue",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Recorded By The Fleetwoods On Dolton Records - Mr. Blue.pdf",
+        "file_size_bytes": 155790,
+        "page_range": [
+          221,
+          223
+        ]
+      },
+      {
+        "song_title": "MABELLENE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Chuck Berry - Mabellene.pdf",
+        "file_size_bytes": 464452,
+        "page_range": [
+          223,
+          229
+        ]
+      },
+      {
+        "song_title": "Needles and Pins",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Sonny Bono - Needles And Pins.pdf",
+        "file_size_bytes": 125526,
+        "page_range": [
+          229,
+          231
+        ]
+      },
+      {
+        "song_title": "Sherry",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Bob Gaudio - Sherry.pdf",
+        "file_size_bytes": 294662,
+        "page_range": [
+          231,
+          235
+        ]
+      },
+      {
+        "song_title": "Secretly",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Jimmie Rodgers On Roulette Records - Secretly.pdf",
+        "file_size_bytes": 166954,
+        "page_range": [
+          235,
+          237
+        ]
+      },
+      {
+        "song_title": "My Love, My Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Toni James On Mgm Records - My Love, My Love.pdf",
+        "file_size_bytes": 452838,
+        "page_range": [
+          237,
+          243
+        ]
+      },
+      {
+        "song_title": "Sealed With A Kiss",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Gary Geld - Sealed With A Kiss.pdf",
+        "file_size_bytes": 179039,
+        "page_range": [
+          243,
+          245
+        ]
+      },
+      {
+        "song_title": "JOHNNY B. GOODE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Chuck Berry - Johnny B. Goode.pdf",
+        "file_size_bytes": 157055,
+        "page_range": [
+          245,
+          247
+        ]
+      },
+      {
+        "song_title": "A Lover's Question",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Richard Dehr And Jimmy Williams - A Lover's Question.pdf",
+        "file_size_bytes": 416780,
+        "page_range": [
+          247,
+          253
+        ]
+      },
+      {
+        "song_title": "My Boy Lollipop",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Johnny Roberts - My Boy Lollipop.pdf",
+        "file_size_bytes": 170269,
+        "page_range": [
+          253,
+          255
+        ]
+      },
+      {
+        "song_title": "MY HEART IS AN OPEN BOOK",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Golden Era Of Rock And Roll (grab It!)/Songs/Lee David - My Heart Is An Open Book.pdf",
+        "file_size_bytes": 67332,
+        "page_range": [
+          255,
+          256
+        ]
+      }
+    ]
+  }
+}

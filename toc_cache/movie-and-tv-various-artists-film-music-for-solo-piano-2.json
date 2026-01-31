@@ -1,0 +1,413 @@
+{
+  "book_id": "movie-and-tv-various-artists-film-music-for-solo-piano-2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Aberdeen from Aberdeen",
+        "page_number": 4,
+        "artist": "ZBIGNIEW PREISNER",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alicia Vive from Talk To Her",
+        "page_number": 89,
+        "artist": "ALBERTO IGLESIAS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All Love Can Be from A Beautiful Mind",
+        "page_number": 9,
+        "artist": "JAMES HORNER",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Anna's Theme from The Red Violin",
+        "page_number": 57,
+        "artist": "JOHN CORIGLIANO",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Autumn In Connecticut from Far From Heaven",
+        "page_number": 34,
+        "artist": "ELMER BERNSTEIN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Le Banquet from Amelie",
+        "page_number": 6,
+        "artist": "YANN TIERSEN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Beetlejuice from Beetlejuice",
+        "page_number": 12,
+        "artist": "DANNY ELFMAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "C'est Le Vent, Betty from Betty Blue",
+        "page_number": 15,
+        "artist": "GABRIEL YARED",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Chronicle Scherzo from Citizen Kane",
+        "page_number": 28,
+        "artist": "BERNARD HERRMANN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Departure from Gattaca",
+        "page_number": 37,
+        "artist": "MICHAEL NYMAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eternal Vow from Crouching Tiger, Hidden Dragon",
+        "page_number": 32,
+        "artist": "TAN DUN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Heart Asks Pleasure First / The Promise / The Sacrifice from The Piano",
+        "page_number": 62,
+        "artist": "MICHAEL NYMAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Hours from The Hours",
+        "page_number": 40,
+        "artist": "PHILIP GLASS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Theme from Romeo & Juliet",
+        "page_number": 70,
+        "artist": "NINO ROTA",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Merry Christmas, Mr Lawrence from Merry Christmas, Mr Lawrence",
+        "page_number": 50,
+        "artist": "RYUICHI SAKAMOTO",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Murder On The Orient Express from Murder On The Orient Express",
+        "page_number": 60,
+        "artist": "RICHARD RODNEY BENNETT",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Father's Favourite from Sense & Sensibility",
+        "page_number": 73,
+        "artist": "PATRICK DOYLE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Heart Will Go On from Titanic",
+        "page_number": 92,
+        "artist": "JAMES HORNER",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Passage Of Time from Chocolat",
+        "page_number": 25,
+        "artist": "RACHEL PORTMAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pelagia's Song from Captain Corelli's Mandolin",
+        "page_number": 22,
+        "artist": "STEPHEN WARBECK",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Prelude / Main Theme from The Belles of St Trinian's",
+        "page_number": 20,
+        "artist": "SIR MALCOLM ARNOLD",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Reprise from Spirited Away",
+        "page_number": 78,
+        "artist": "JOE HISAISHI",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Theme from Schindler's List",
+        "page_number": 66,
+        "artist": "JOHN WILLIAMS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Theme from Somewhere In Time",
+        "page_number": 86,
+        "artist": "JOHN BARRY",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Aberdeen from Aberdeen": "ZBIGNIEW PREISNER",
+      "Alicia Vive from Talk To Her": "ALBERTO IGLESIAS",
+      "All Love Can Be from A Beautiful Mind": "JAMES HORNER",
+      "Anna's Theme from The Red Violin": "JOHN CORIGLIANO",
+      "Autumn In Connecticut from Far From Heaven": "ELMER BERNSTEIN",
+      "Le Banquet from Amelie": "YANN TIERSEN",
+      "Beetlejuice from Beetlejuice": "DANNY ELFMAN",
+      "C'est Le Vent, Betty from Betty Blue": "GABRIEL YARED",
+      "Chronicle Scherzo from Citizen Kane": "BERNARD HERRMANN",
+      "The Departure from Gattaca": "MICHAEL NYMAN",
+      "Eternal Vow from Crouching Tiger, Hidden Dragon": "TAN DUN",
+      "The Heart Asks Pleasure First / The Promise / The Sacrifice from The Piano": "MICHAEL NYMAN",
+      "The Hours from The Hours": "PHILIP GLASS",
+      "Love Theme from Romeo & Juliet": "NINO ROTA",
+      "Merry Christmas, Mr Lawrence from Merry Christmas, Mr Lawrence": "RYUICHI SAKAMOTO",
+      "Murder On The Orient Express from Murder On The Orient Express": "RICHARD RODNEY BENNETT",
+      "My Father's Favourite from Sense & Sensibility": "PATRICK DOYLE",
+      "My Heart Will Go On from Titanic": "JAMES HORNER",
+      "Passage Of Time from Chocolat": "RACHEL PORTMAN",
+      "Pelagia's Song from Captain Corelli's Mandolin": "STEPHEN WARBECK",
+      "Prelude / Main Theme from The Belles of St Trinian's": "SIR MALCOLM ARNOLD",
+      "Reprise from Spirited Away": "JOE HISAISHI",
+      "Theme from Schindler's List": "JOHN WILLIAMS",
+      "Theme from Somewhere In Time": "JOHN BARRY"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Aberdeen from Aberdeen",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Zbigniew Preisner - Aberdeen From Aberdeen.pdf",
+        "file_size_bytes": 304231,
+        "page_range": [
+          2,
+          4
+        ]
+      },
+      {
+        "song_title": "Le Banquet from Amelie",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Yann Tiersen - Le Banquet From Amelie.pdf",
+        "file_size_bytes": 462538,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "All Love Can Be from A Beautiful Mind",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/James Horner - All Love Can Be From A Beautiful Mind.pdf",
+        "file_size_bytes": 410428,
+        "page_range": [
+          7,
+          10
+        ]
+      },
+      {
+        "song_title": "Beetlejuice from Beetlejuice",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Danny Elfman - Beetlejuice From Beetlejuice.pdf",
+        "file_size_bytes": 434380,
+        "page_range": [
+          10,
+          13
+        ]
+      },
+      {
+        "song_title": "C'est Le Vent, Betty from Betty Blue",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Gabriel Yared - C'est Le Vent, Betty From Betty Blue.pdf",
+        "file_size_bytes": 743968,
+        "page_range": [
+          13,
+          18
+        ]
+      },
+      {
+        "song_title": "Prelude / Main Theme from The Belles of St Trinian's",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Sir Malcolm Arnold - Prelude - Main Theme From The Belles Of St Trinian's.pdf",
+        "file_size_bytes": 328602,
+        "page_range": [
+          18,
+          20
+        ]
+      },
+      {
+        "song_title": "Pelagia's Song from Captain Corelli's Mandolin",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Stephen Warbeck - Pelagia's Song From Captain Corelli's Mandolin.pdf",
+        "file_size_bytes": 463071,
+        "page_range": [
+          20,
+          23
+        ]
+      },
+      {
+        "song_title": "Passage Of Time from Chocolat",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Rachel Portman - Passage Of Time From Chocolat.pdf",
+        "file_size_bytes": 487714,
+        "page_range": [
+          23,
+          26
+        ]
+      },
+      {
+        "song_title": "Chronicle Scherzo from Citizen Kane",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Bernard Herrmann - Chronicle Scherzo From Citizen Kane.pdf",
+        "file_size_bytes": 712098,
+        "page_range": [
+          26,
+          30
+        ]
+      },
+      {
+        "song_title": "Eternal Vow from Crouching Tiger, Hidden Dragon",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Tan Dun - Eternal Vow From Crouching Tiger, Hidden Dragon.pdf",
+        "file_size_bytes": 256457,
+        "page_range": [
+          30,
+          32
+        ]
+      },
+      {
+        "song_title": "Autumn In Connecticut from Far From Heaven",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Elmer Bernstein - Autumn In Connecticut From Far From Heaven.pdf",
+        "file_size_bytes": 450264,
+        "page_range": [
+          32,
+          35
+        ]
+      },
+      {
+        "song_title": "The Departure from Gattaca",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Michael Nyman - The Departure From Gattaca.pdf",
+        "file_size_bytes": 2009520,
+        "page_range": [
+          35,
+          47
+        ]
+      },
+      {
+        "song_title": "Merry Christmas, Mr Lawrence from Merry Christmas, Mr Lawrence",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Ryuichi Sakamoto - Merry Christmas, Mr Lawrence From Merry Christmas, Mr Lawrence.pdf",
+        "file_size_bytes": 1045778,
+        "page_range": [
+          47,
+          54
+        ]
+      },
+      {
+        "song_title": "Anna's Theme from The Red Violin",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/John Corigliano - Anna's Theme From The Red Violin.pdf",
+        "file_size_bytes": 358123,
+        "page_range": [
+          54,
+          57
+        ]
+      },
+      {
+        "song_title": "Murder On The Orient Express from Murder On The Orient Express",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Richard Rodney Bennett - Murder On The Orient Express From Murder On The Orient Express.pdf",
+        "file_size_bytes": 322327,
+        "page_range": [
+          57,
+          59
+        ]
+      },
+      {
+        "song_title": "The Heart Asks Pleasure First / The Promise / The Sacrifice from The Piano",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Michael Nyman - The Heart Asks Pleasure First - The Promise - The Sacrifice From The Piano.pdf",
+        "file_size_bytes": 744144,
+        "page_range": [
+          59,
+          63
+        ]
+      },
+      {
+        "song_title": "Theme from Schindler's List",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/John Williams - Theme From Schindler's List.pdf",
+        "file_size_bytes": 666837,
+        "page_range": [
+          63,
+          67
+        ]
+      },
+      {
+        "song_title": "Love Theme from Romeo & Juliet",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Nino Rota - Love Theme From Romeo & Juliet.pdf",
+        "file_size_bytes": 418898,
+        "page_range": [
+          67,
+          70
+        ]
+      },
+      {
+        "song_title": "My Father's Favourite from Sense & Sensibility",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Patrick Doyle - My Father's Favourite From Sense & Sensibility.pdf",
+        "file_size_bytes": 682560,
+        "page_range": [
+          70,
+          75
+        ]
+      },
+      {
+        "song_title": "Reprise from Spirited Away",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Joe Hisaishi - Reprise From Spirited Away.pdf",
+        "file_size_bytes": 1208848,
+        "page_range": [
+          75,
+          83
+        ]
+      },
+      {
+        "song_title": "Theme from Somewhere In Time",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/John Barry - Theme From Somewhere In Time.pdf",
+        "file_size_bytes": 409791,
+        "page_range": [
+          83,
+          86
+        ]
+      },
+      {
+        "song_title": "Alicia Vive from Talk To Her",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/Alberto Iglesias - Alicia Vive From Talk To Her.pdf",
+        "file_size_bytes": 377429,
+        "page_range": [
+          86,
+          89
+        ]
+      },
+      {
+        "song_title": "My Heart Will Go On from Titanic",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Music For Solo Piano (2)/Songs/James Horner - My Heart Will Go On From Titanic.pdf",
+        "file_size_bytes": 829294,
+        "page_range": [
+          89,
+          94
+        ]
+      }
+    ]
+  }
+}

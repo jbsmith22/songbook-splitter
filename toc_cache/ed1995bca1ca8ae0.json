@@ -1,0 +1,293 @@
+{
+  "book_id": "ed1995bca1ca8ae0",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Baby Elephant Walk",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Hal David, Music By Henry Mancini - Baby Elephant Walk.pdf",
+        "file_size_bytes": 458804,
+        "page_range": [
+          23,
+          49
+        ]
+      },
+      {
+        "song_title": "Cruisin'",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/William -smokey- Robinson And Marvin Tarplin - Cruisin'.pdf",
+        "file_size_bytes": 131466,
+        "page_range": [
+          49,
+          55
+        ]
+      },
+      {
+        "song_title": "DO YOU KNOW WHERE YOU'RE GOING TO?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Gerry Goffin, Music By Marvin Hamlisch - Do You Know Where You're Going To-.pdf",
+        "file_size_bytes": 475895,
+        "page_range": [
+          55,
+          79
+        ]
+      },
+      {
+        "song_title": "FOR THE FIRST TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/James Newton Howard, Joe Denicolas And Kristen Anderson-lopez - For The First Time.pdf",
+        "file_size_bytes": 85650,
+        "page_range": [
+          79,
+          83
+        ]
+      },
+      {
+        "song_title": "The Friendship Theme",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Georges Delerue - The Friendship Theme.pdf",
+        "file_size_bytes": 309606,
+        "page_range": [
+          83,
+          100
+        ]
+      },
+      {
+        "song_title": "A Guy What Takes His Time",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/(from She Done Him Wrong) - A Guy What Takes His Time.pdf",
+        "file_size_bytes": 784302,
+        "page_range": [
+          100,
+          146
+        ]
+      },
+      {
+        "song_title": "Les Poissons",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/From Walt Disney's The Little Mermaid, Lyrics By Howard Ashman, Music By Alan Menken - Les Poissons.pdf",
+        "file_size_bytes": 235815,
+        "page_range": [
+          146,
+          157
+        ]
+      },
+      {
+        "song_title": "THE LOOK OF LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/From Casino Royale - The Look Of Love.pdf",
+        "file_size_bytes": 358830,
+        "page_range": [
+          157,
+          178
+        ]
+      },
+      {
+        "song_title": "ONE DAY I'LL FLY AWAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Will Jennings And Jack Sampson - One Day I'll Fly Away.pdf",
+        "file_size_bytes": 202632,
+        "page_range": [
+          178,
+          189
+        ]
+      },
+      {
+        "song_title": "PICNIC",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/From The Columbia Technicolor Picture Picnic - Picnic.pdf",
+        "file_size_bytes": 130490,
+        "page_range": [
+          189,
+          195
+        ]
+      },
+      {
+        "song_title": "Puttin' On The Ritz",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/(from The Motion Picture -puttin' On The Ritz- Irving Berlin) - Puttin' On The Ritz.pdf",
+        "file_size_bytes": 77311,
+        "page_range": [
+          195,
+          199
+        ]
+      },
+      {
+        "song_title": "Raiders March",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/John Williams - Raiders March.pdf",
+        "file_size_bytes": 377120,
+        "page_range": [
+          199,
+          223
+        ]
+      },
+      {
+        "song_title": "Seize the Day",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/From Walt Disney's Newsies - Seize The Day.pdf",
+        "file_size_bytes": 160848,
+        "page_range": [
+          223,
+          231
+        ]
+      },
+      {
+        "song_title": "SOMETHING TO TALK ABOUT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Shirley Richards - Something To Talk About.pdf",
+        "file_size_bytes": 354790,
+        "page_range": [
+          231,
+          251
+        ]
+      },
+      {
+        "song_title": "Speak Softly, Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Nino Rota - Speak Softly, Love.pdf",
+        "file_size_bytes": 41603,
+        "page_range": [
+          251,
+          253
+        ]
+      },
+      {
+        "song_title": "Step by Step",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/John Lennon - Step By Step.pdf",
+        "file_size_bytes": 252962,
+        "page_range": [
+          253,
+          265
+        ]
+      },
+      {
+        "song_title": "Take My Breath Away (Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/From The Paramount Picture Top Gun - Take My Breath Away (love Theme).pdf",
+        "file_size_bytes": 85060,
+        "page_range": [
+          265,
+          270
+        ]
+      },
+      {
+        "song_title": "Then You Look At Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Will Jennings & Joe Sample (from The Film -bicentennial Man-) - Then You Look At Me.pdf",
+        "file_size_bytes": 90562,
+        "page_range": [
+          270,
+          275
+        ]
+      },
+      {
+        "song_title": "Theme from \"Terms of Endearment\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/By Michael Gore - Theme From -terms Of Endearment-.pdf",
+        "file_size_bytes": 81991,
+        "page_range": [
+          275,
+          281
+        ]
+      },
+      {
+        "song_title": "That's Entertainment",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/From The Band Wagon - That's Entertainment.pdf",
+        "file_size_bytes": 216870,
+        "page_range": [
+          281,
+          290
+        ]
+      },
+      {
+        "song_title": "THE WAY WE WERE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Alan And Marilyn Bergman (music By Marvin Hamlisch) - The Way We Were.pdf",
+        "file_size_bytes": 53066,
+        "page_range": [
+          290,
+          293
+        ]
+      },
+      {
+        "song_title": "TRUE GRIT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Don Black - True Grit.pdf",
+        "file_size_bytes": 144426,
+        "page_range": [
+          293,
+          301
+        ]
+      },
+      {
+        "song_title": "What If I Loved You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Unknown Artist - What If I Loved You.pdf",
+        "file_size_bytes": 117313,
+        "page_range": [
+          301,
+          307
+        ]
+      },
+      {
+        "song_title": "Where the Boys Are",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Neil Sedaka - Where The Boys Are.pdf",
+        "file_size_bytes": 53577,
+        "page_range": [
+          307,
+          310
+        ]
+      },
+      {
+        "song_title": "A WINK AND A SMILE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Marc Shaiman - A Wink And A Smile.pdf",
+        "file_size_bytes": 95463,
+        "page_range": [
+          310,
+          315
+        ]
+      },
+      {
+        "song_title": "Wild Wild West",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/Stevie Wonder, Will Smith And Morhonda Deweese - Wild Wild West.pdf",
+        "file_size_bytes": 278013,
+        "page_range": [
+          315,
+          331
+        ]
+      },
+      {
+        "song_title": "Your Heart Will Lead You Home",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/From Walt Disney Pictures' -the Tigger Movie- (words And Music By Richard M. Sherman, Robert B. Sherman And Kenny Loggins) - Your Heart Will Lead You Home.pdf",
+        "file_size_bytes": 141892,
+        "page_range": [
+          331,
+          339
+        ]
+      },
+      {
+        "song_title": "Zero to Hero",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Budget Books - Movie Songs/Songs/From Walt Disney Pictures' Hercules (music By Alan Menken, Lyrics By David Zippel) - Zero To Hero.pdf",
+        "file_size_bytes": 600108,
+        "page_range": [
+          339,
+          353
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "book_id": "elton-john-reg-strikes-back",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Town Of Plenty",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Word In Spanish",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mona Lisas And Mad Hatters",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Don't Wanna Go On With You Like That",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Japanese Hands",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodbye Marlon Brando",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Camera Never Lies",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Heavy Traffic",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Poor Cow",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Since God Invented Girls",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Town Of Plenty",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-j.taupin - Town Of Plenty.pdf",
+        "file_size_bytes": 460181,
+        "page_range": [
+          3,
+          7
+        ]
+      },
+      {
+        "song_title": "A Word In Spanish",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-taupin - A Word In Spanish.pdf",
+        "file_size_bytes": 1245231,
+        "page_range": [
+          7,
+          18
+        ]
+      },
+      {
+        "song_title": "I Don't Wanna Go On With You Like That",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-taupin - I Don't Wanna Go On With You Like That.pdf",
+        "file_size_bytes": 882995,
+        "page_range": [
+          18,
+          26
+        ]
+      },
+      {
+        "song_title": "Japanese Hands",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-taupin - Japanese Hands.pdf",
+        "file_size_bytes": 577077,
+        "page_range": [
+          26,
+          31
+        ]
+      },
+      {
+        "song_title": "Goodbye Marlon Brando",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-taupin - Goodbye Marlon Brando.pdf",
+        "file_size_bytes": 570237,
+        "page_range": [
+          31,
+          36
+        ]
+      },
+      {
+        "song_title": "The Camera Never Lies",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-taupin - The Camera Never Lies.pdf",
+        "file_size_bytes": 736055,
+        "page_range": [
+          36,
+          42
+        ]
+      },
+      {
+        "song_title": "Heavy Traffic",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-taupin-davey Johnstone - Heavy Traffic.pdf",
+        "file_size_bytes": 576822,
+        "page_range": [
+          42,
+          47
+        ]
+      },
+      {
+        "song_title": "Poor Cow",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-arkin - Poor Cow.pdf",
+        "file_size_bytes": 702710,
+        "page_range": [
+          47,
+          53
+        ]
+      },
+      {
+        "song_title": "Since God Invented Girls",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Reg Strikes Back/Songs/Elton John-taupin - Since God Invented Girls.pdf",
+        "file_size_bytes": 650434,
+        "page_range": [
+          53,
+          58
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "book_id": "movie-and-tv-various-artists-decades-of-film-90s",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Beautiful Stranger",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Because You Loved Me",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bohemian Rhapsody",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Braveheart",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Duel Of The Fates",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(Everything I Do) I Do It For You",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Exhale (Shoop Shoop)",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "How Do I Live",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Don't Want To Miss A Thing",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Will Always Love You",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In All The Right Places",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Kiss From A Rose",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Make Someone Happy",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mustang Sally",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Girl",
+        "page_number": 86,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Guy",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Heart Will Go On",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Shoop Shoop Song (It's In His Kiss)",
+        "page_number": 105,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "When You Say Nothing At All",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Sexy Thing",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Beautiful Stranger",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -austin Powers- The Spy Who Shagged Me- - Beautiful Stranger.pdf",
+        "file_size_bytes": 2558662,
+        "page_range": [
+          3,
+          10
+        ]
+      },
+      {
+        "song_title": "Because You Loved Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/Unknown Artist - Because You Loved Me.pdf",
+        "file_size_bytes": 1782880,
+        "page_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "song_title": "Braveheart",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/Unknown Artist - Braveheart.pdf",
+        "file_size_bytes": 632556,
+        "page_range": [
+          15,
+          17
+        ]
+      },
+      {
+        "song_title": "Bohemian Rhapsody",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -wayne's World- - Bohemian Rhapsody.pdf",
+        "file_size_bytes": 3774067,
+        "page_range": [
+          17,
+          28
+        ]
+      },
+      {
+        "song_title": "Duel Of The Fates",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -star Wars Episode I- The Phantom Menace- - Duel Of The Fates.pdf",
+        "file_size_bytes": 3131453,
+        "page_range": [
+          28,
+          37
+        ]
+      },
+      {
+        "song_title": "Exhale (Shoop Shoop)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -waiting To Exhale- - Exhale (shoop Shoop).pdf",
+        "file_size_bytes": 1733481,
+        "page_range": [
+          37,
+          42
+        ]
+      },
+      {
+        "song_title": "(Everything I Do) I Do It For You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -robin Hood, Prince Of Thieves- - (everything I Do) I Do It For You.pdf",
+        "file_size_bytes": 2228192,
+        "page_range": [
+          42,
+          49
+        ]
+      },
+      {
+        "song_title": "How Do I Live",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/Unknown Artist - How Do I Live.pdf",
+        "file_size_bytes": 1275492,
+        "page_range": [
+          49,
+          53
+        ]
+      },
+      {
+        "song_title": "I Will Always Love You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -the Bodyguard- - I Will Always Love You.pdf",
+        "file_size_bytes": 1877303,
+        "page_range": [
+          53,
+          58
+        ]
+      },
+      {
+        "song_title": "I Don't Want To Miss A Thing",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -armageddon- - I Don't Want To Miss A Thing.pdf",
+        "file_size_bytes": 2547878,
+        "page_range": [
+          58,
+          65
+        ]
+      },
+      {
+        "song_title": "In All The Right Places",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -indecent Proposal- - In All The Right Places.pdf",
+        "file_size_bytes": 2332985,
+        "page_range": [
+          65,
+          72
+        ]
+      },
+      {
+        "song_title": "Make Someone Happy",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -sleepless In Seattle- (lyrics By Marc Shaiman And Ramsey Lewis) - Make Someone Happy.pdf",
+        "file_size_bytes": 1062288,
+        "page_range": [
+          72,
+          75
+        ]
+      },
+      {
+        "song_title": "Kiss From A Rose",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -batman Returns- - Kiss From A Rose.pdf",
+        "file_size_bytes": 2272398,
+        "page_range": [
+          75,
+          81
+        ]
+      },
+      {
+        "song_title": "Mustang Sally",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -the Commitments- - Mustang Sally.pdf",
+        "file_size_bytes": 1396699,
+        "page_range": [
+          81,
+          85
+        ]
+      },
+      {
+        "song_title": "My Girl",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/Unknown Artist - My Girl.pdf",
+        "file_size_bytes": 1402274,
+        "page_range": [
+          85,
+          89
+        ]
+      },
+      {
+        "song_title": "My Heart Will Go On",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/Unknown Artist - My Heart Will Go On.pdf",
+        "file_size_bytes": 3861531,
+        "page_range": [
+          89,
+          99
+        ]
+      },
+      {
+        "song_title": "My Guy",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/(from -sister Act- Musical) - My Guy.pdf",
+        "file_size_bytes": 1571565,
+        "page_range": [
+          99,
+          104
+        ]
+      },
+      {
+        "song_title": "The Shoop Shoop Song (It's In His Kiss)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/From -mermaids- - The Shoop Shoop Song (it's In His Kiss).pdf",
+        "file_size_bytes": 969331,
+        "page_range": [
+          104,
+          107
+        ]
+      },
+      {
+        "song_title": "When You Say Nothing At All",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/Unknown Artist - When You Say Nothing At All.pdf",
+        "file_size_bytes": 2055497,
+        "page_range": [
+          107,
+          113
+        ]
+      },
+      {
+        "song_title": "You Sexy Thing",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Decades Of Film '90s/Songs/The Full Monty - You Sexy Thing.pdf",
+        "file_size_bytes": 3003074,
+        "page_range": [
+          113,
+          120
+        ]
+      }
+    ]
+  }
+}

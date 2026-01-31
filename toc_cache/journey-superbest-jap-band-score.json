@@ -1,0 +1,163 @@
+{
+  "book_id": "journey-superbest-jap-band-score",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "SEPARATE WAYS (WORLDS APART)",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Separate Ways (worlds Apart).pdf",
+        "file_size_bytes": 660614,
+        "page_range": [
+          1,
+          14
+        ]
+      },
+      {
+        "song_title": "Mother, Father",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Mother, Father.pdf",
+        "file_size_bytes": 755928,
+        "page_range": [
+          14,
+          26
+        ]
+      },
+      {
+        "song_title": "DON'T STOP BELIEVIN'",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Don't Stop Believin'.pdf",
+        "file_size_bytes": 722174,
+        "page_range": [
+          26,
+          37
+        ]
+      },
+      {
+        "song_title": "WHO'S CRYING NOW",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Who's Crying Now.pdf",
+        "file_size_bytes": 858736,
+        "page_range": [
+          37,
+          51
+        ]
+      },
+      {
+        "song_title": "Stone in Love",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Stone In Love.pdf",
+        "file_size_bytes": 857450,
+        "page_range": [
+          51,
+          65
+        ]
+      },
+      {
+        "song_title": "OPEN ARMS",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Open Arms.pdf",
+        "file_size_bytes": 393079,
+        "page_range": [
+          65,
+          73
+        ]
+      },
+      {
+        "song_title": "Faithfully",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Faithfully.pdf",
+        "file_size_bytes": 551510,
+        "page_range": [
+          73,
+          84
+        ]
+      },
+      {
+        "song_title": "I SEND HER MY LOVE",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - I Send Her My Love.pdf",
+        "file_size_bytes": 648426,
+        "page_range": [
+          84,
+          96
+        ]
+      },
+      {
+        "song_title": "RUBICON",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Rubicon.pdf",
+        "file_size_bytes": 616554,
+        "page_range": [
+          96,
+          107
+        ]
+      },
+      {
+        "song_title": "Chain Reaction",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Chain Reaction.pdf",
+        "file_size_bytes": 719699,
+        "page_range": [
+          107,
+          120
+        ]
+      },
+      {
+        "song_title": "Lights",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Lights.pdf",
+        "file_size_bytes": 531319,
+        "page_range": [
+          120,
+          129
+        ]
+      },
+      {
+        "song_title": "LOVIN', TOUCHIN', SQUEEZIN'",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Lovin', Touchin', Squeezin'.pdf",
+        "file_size_bytes": 634490,
+        "page_range": [
+          129,
+          140
+        ]
+      },
+      {
+        "song_title": "Any Way You Want It",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Any Way You Want It.pdf",
+        "file_size_bytes": 768329,
+        "page_range": [
+          140,
+          153
+        ]
+      },
+      {
+        "song_title": "Only the Young",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Only The Young.pdf",
+        "file_size_bytes": 930562,
+        "page_range": [
+          153,
+          167
+        ]
+      },
+      {
+        "song_title": "Escape",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Superbest [jap Band Score]/Songs/Journey - Escape.pdf",
+        "file_size_bytes": 1384326,
+        "page_range": [
+          167,
+          189
+        ]
+      }
+    ]
+  }
+}

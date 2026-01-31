@@ -1,0 +1,54 @@
+{
+  "book_id": "fc3b6bb7b542cdfb",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I look at you all, world, wings",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "see the love and I no play",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "there thee you are",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "sleep ing turn stag ing",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Anthology 3 (page 37 - 79/Songs/Beatles - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 9124407,
+        "page_range": [
+          1,
+          43
+        ]
+      }
+    ]
+  }
+}

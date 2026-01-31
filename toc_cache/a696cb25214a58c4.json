@@ -1,0 +1,150 @@
+{
+  "book_id": "a696cb25214a58c4",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Tim McGraw",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Picture to Burn",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Teardrops on My Guitar",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Place in This World",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cold as You",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Outside",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tied Together with a Smile",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Stay Beautiful",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Should've Said No",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mary's Song (Oh My My My)",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Our Song",
+        "page_number": 63,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Tim McGraw",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift/Songs/Taylor Swift - Tim Mcgraw.pdf",
+        "file_size_bytes": 618406,
+        "page_range": [
+          3,
+          20
+        ]
+      },
+      {
+        "song_title": "A Place in This World",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift/Songs/Taylor Swift - A Place In This World.pdf",
+        "file_size_bytes": 570314,
+        "page_range": [
+          20,
+          36
+        ]
+      },
+      {
+        "song_title": "Tied Together with a Smile",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift/Songs/Taylor Swift - Tied Together With A Smile.pdf",
+        "file_size_bytes": 207520,
+        "page_range": [
+          36,
+          42
+        ]
+      },
+      {
+        "song_title": "Stay Beautiful",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift/Songs/Taylor Swift - Stay Beautiful.pdf",
+        "file_size_bytes": 225273,
+        "page_range": [
+          42,
+          48
+        ]
+      },
+      {
+        "song_title": "Should've Said No",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift/Songs/Taylor Swift - Should've Said No.pdf",
+        "file_size_bytes": 286255,
+        "page_range": [
+          48,
+          56
+        ]
+      },
+      {
+        "song_title": "Mary's Song (Oh My My My)",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift/Songs/Taylor Swift - Mary's Song (oh My My My).pdf",
+        "file_size_bytes": 215998,
+        "page_range": [
+          56,
+          62
+        ]
+      },
+      {
+        "song_title": "Our Song",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Taylor Swift/Songs/Taylor Swift - Our Song.pdf",
+        "file_size_bytes": 660009,
+        "page_range": [
+          62,
+          73
+        ]
+      }
+    ]
+  }
+}

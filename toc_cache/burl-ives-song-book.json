@@ -1,0 +1,1093 @@
+{
+  "book_id": "burl-ives-song-book",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Little Mohee",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Little Mohee.pdf",
+        "file_size_bytes": 1296219,
+        "page_range": [
+          18,
+          24
+        ]
+      },
+      {
+        "song_title": "Old Hundred",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Old Hundred.pdf",
+        "file_size_bytes": 431127,
+        "page_range": [
+          24,
+          26
+        ]
+      },
+      {
+        "song_title": "The Seven Joys of Mary",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Seven Joys Of Mary.pdf",
+        "file_size_bytes": 392793,
+        "page_range": [
+          26,
+          28
+        ]
+      },
+      {
+        "song_title": "The Indian Christmas Carol",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Indian Christmas Carol.pdf",
+        "file_size_bytes": 411035,
+        "page_range": [
+          28,
+          30
+        ]
+      },
+      {
+        "song_title": "Mother Goose Nursery Rhymes",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Mother Goose Nursery Rhymes.pdf",
+        "file_size_bytes": 186084,
+        "page_range": [
+          30,
+          31
+        ]
+      },
+      {
+        "song_title": "Fiddle-De-Dee",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Fiddle-de-dee.pdf",
+        "file_size_bytes": 221442,
+        "page_range": [
+          31,
+          32
+        ]
+      },
+      {
+        "song_title": "Mr. Froggie Went A-Courting",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(a Traditional Folk Song For Children In The English Language. It First Occurs In A Scottish Manuscript, 1680. -the Frog Cam' To The Mill Door- (mill Door).) - Mr. Froggie Went A-courting.pdf",
+        "file_size_bytes": 388497,
+        "page_range": [
+          32,
+          34
+        ]
+      },
+      {
+        "song_title": "The Tailor and the Mouse",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Tailor And The Mouse.pdf",
+        "file_size_bytes": 444265,
+        "page_range": [
+          34,
+          36
+        ]
+      },
+      {
+        "song_title": "THE FOX",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Fox.pdf",
+        "file_size_bytes": 452330,
+        "page_range": [
+          36,
+          38
+        ]
+      },
+      {
+        "song_title": "The Escape of Old John Webb",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Escape Of Old John Webb.pdf",
+        "file_size_bytes": 592502,
+        "page_range": [
+          38,
+          41
+        ]
+      },
+      {
+        "song_title": "Let Simon's Beard Alone",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Let Simon's Beard Alone.pdf",
+        "file_size_bytes": 179178,
+        "page_range": [
+          41,
+          42
+        ]
+      },
+      {
+        "song_title": "Greensleeves",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Greensleeves.pdf",
+        "file_size_bytes": 469940,
+        "page_range": [
+          42,
+          44
+        ]
+      },
+      {
+        "song_title": "The Riddle Song",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Riddle Song.pdf",
+        "file_size_bytes": 449980,
+        "page_range": [
+          44,
+          46
+        ]
+      },
+      {
+        "song_title": "The Devil's Nine Questions",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Devil's Nine Questions.pdf",
+        "file_size_bytes": 350811,
+        "page_range": [
+          46,
+          48
+        ]
+      },
+      {
+        "song_title": "Paper of Pins",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Paper Of Pins.pdf",
+        "file_size_bytes": 322026,
+        "page_range": [
+          48,
+          50
+        ]
+      },
+      {
+        "song_title": "The Golden Vanity",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(an Early Ballad From A Song -walter Raleigh's Sailing In The Lowlands.-) - The Golden Vanity.pdf",
+        "file_size_bytes": 892362,
+        "page_range": [
+          50,
+          54
+        ]
+      },
+      {
+        "song_title": "Henry Martin",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Based On The Tune Source Of Killaloe, A 14th Century Irish Song (1470s) - Henry Martin.pdf",
+        "file_size_bytes": 396505,
+        "page_range": [
+          54,
+          56
+        ]
+      },
+      {
+        "song_title": "Edward",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Edward.pdf",
+        "file_size_bytes": 413621,
+        "page_range": [
+          56,
+          58
+        ]
+      },
+      {
+        "song_title": "Barbara Allen",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Barbara Allen.pdf",
+        "file_size_bytes": 418745,
+        "page_range": [
+          58,
+          60
+        ]
+      },
+      {
+        "song_title": "Brennan on the Moor",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Brennan On The Moor.pdf",
+        "file_size_bytes": 577620,
+        "page_range": [
+          60,
+          63
+        ]
+      },
+      {
+        "song_title": "Lord Thomas and Fair Ellinor",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/This Scottish Ballad Came Over With 7,000 Followers Of Bonnie Prince Charlie Setting A Scots Tradition After His Defeat In 1745 - Lord Thomas And Fair Ellinor.pdf",
+        "file_size_bytes": 571476,
+        "page_range": [
+          63,
+          66
+        ]
+      },
+      {
+        "song_title": "Lord Randall",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(a Scottish Ballad, Found In Earliest Text In 1737, Of The Tragic Ballad Type That Came To America About 1750. Very Free In Delivery) - Lord Randall.pdf",
+        "file_size_bytes": 416151,
+        "page_range": [
+          66,
+          68
+        ]
+      },
+      {
+        "song_title": "The Foggy, Foggy Dew",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Foggy, Foggy Dew.pdf",
+        "file_size_bytes": 435871,
+        "page_range": [
+          68,
+          70
+        ]
+      },
+      {
+        "song_title": "Pretty Polly",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(an English Ballad Called -the Crugest Tragedy- Or -the Cruel Ship's Carpenter- First Attested In 1770, Was The Source Of This Song. The Subject Of The Woman Murdered And Thrown Overboard In Balla.pdf",
+        "file_size_bytes": 442879,
+        "page_range": [
+          70,
+          72
+        ]
+      },
+      {
+        "song_title": "Robin",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Robin.pdf",
+        "file_size_bytes": 434586,
+        "page_range": [
+          72,
+          74
+        ]
+      },
+      {
+        "song_title": "Why Soldiers Why?",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Why Soldiers Why-.pdf",
+        "file_size_bytes": 413687,
+        "page_range": [
+          74,
+          76
+        ]
+      },
+      {
+        "song_title": "On Springfield Mountain",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - On Springfield Mountain.pdf",
+        "file_size_bytes": 449700,
+        "page_range": [
+          76,
+          78
+        ]
+      },
+      {
+        "song_title": "THE BOLD SOLDIER",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/The British Professional Soldier Was Much In Evidence During The Wars Of The Colonial Period, Captain Miles Standish And Captain John Smith Were Two Soldiers Of Fortune - The Bold Soldier.pdf",
+        "file_size_bytes": 463796,
+        "page_range": [
+          78,
+          80
+        ]
+      },
+      {
+        "song_title": "Yankee Doodle",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Yankee Doodle.pdf",
+        "file_size_bytes": 2315645,
+        "page_range": [
+          80,
+          90
+        ]
+      },
+      {
+        "song_title": "Heart of Oak",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Dr. Boyce - Heart Of Oak.pdf",
+        "file_size_bytes": 429510,
+        "page_range": [
+          90,
+          92
+        ]
+      },
+      {
+        "song_title": "The Ballad of the Tea Party",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Ballad Of The Tea Party.pdf",
+        "file_size_bytes": 437089,
+        "page_range": [
+          92,
+          94
+        ]
+      },
+      {
+        "song_title": "The Boston Tea Tax",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Boston Tea Tax.pdf",
+        "file_size_bytes": 433998,
+        "page_range": [
+          94,
+          96
+        ]
+      },
+      {
+        "song_title": "Free America",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Free America.pdf",
+        "file_size_bytes": 500477,
+        "page_range": [
+          96,
+          98
+        ]
+      },
+      {
+        "song_title": "Chester",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Chester.pdf",
+        "file_size_bytes": 380266,
+        "page_range": [
+          98,
+          100
+        ]
+      },
+      {
+        "song_title": "The Riflemen's Song at Bennington",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Riflemen's Song At Bennington.pdf",
+        "file_size_bytes": 453716,
+        "page_range": [
+          100,
+          102
+        ]
+      },
+      {
+        "song_title": "The Battle of Saratoga",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Battle Of Saratoga.pdf",
+        "file_size_bytes": 471233,
+        "page_range": [
+          102,
+          104
+        ]
+      },
+      {
+        "song_title": "The Yankee Man-of-War",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Yankee Man-of-war.pdf",
+        "file_size_bytes": 460752,
+        "page_range": [
+          104,
+          106
+        ]
+      },
+      {
+        "song_title": "Johnny Has Gone for a Soldier",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Johnny Has Gone For A Soldier.pdf",
+        "file_size_bytes": 483245,
+        "page_range": [
+          106,
+          108
+        ]
+      },
+      {
+        "song_title": "How Happy the Soldier",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - How Happy The Soldier.pdf",
+        "file_size_bytes": 406573,
+        "page_range": [
+          108,
+          110
+        ]
+      },
+      {
+        "song_title": "Sir Peter Parker",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Sir Peter Parker.pdf",
+        "file_size_bytes": 426497,
+        "page_range": [
+          110,
+          112
+        ]
+      },
+      {
+        "song_title": "Cornwallis Country Dance",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Cornwallis Country Dance.pdf",
+        "file_size_bytes": 464155,
+        "page_range": [
+          112,
+          114
+        ]
+      },
+      {
+        "song_title": "THE WORLD UPSIDE TURNED DOWN",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The World Upside Turned Down.pdf",
+        "file_size_bytes": 443716,
+        "page_range": [
+          114,
+          116
+        ]
+      },
+      {
+        "song_title": "MY DAYS HAVE BEEN SO WONDROUS FREE",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Francis Hopkinson Of Philadelphia (1737-1791), One Of The First Composers, Wrote The Score Of This Scottish Song. Hopkinson Was A Painter, Hopkinson Became Our First Secretary Of The Navy - My Day.pdf",
+        "file_size_bytes": 1379305,
+        "page_range": [
+          116,
+          122
+        ]
+      },
+      {
+        "song_title": "The Maid of Amsterdam",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/This Song, First Appearing In A 1915 Play By Thomas Heyward - -the Boys Of The Line- - -showing Off A Wonderful Soldier-, Is Not Attributed To A Specific Artist Or Composer In The Image - The Maid.pdf",
+        "file_size_bytes": 413242,
+        "page_range": [
+          122,
+          124
+        ]
+      },
+      {
+        "song_title": "High Barbaree",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Charles Dibdin - High Barbaree.pdf",
+        "file_size_bytes": 425287,
+        "page_range": [
+          124,
+          126
+        ]
+      },
+      {
+        "song_title": "The Pirate Song",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Pirate Song.pdf",
+        "file_size_bytes": 424024,
+        "page_range": [
+          126,
+          128
+        ]
+      },
+      {
+        "song_title": "The Constitution and the Guerriere",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Constitution And The Guerriere.pdf",
+        "file_size_bytes": 404282,
+        "page_range": [
+          128,
+          130
+        ]
+      },
+      {
+        "song_title": "The Hornet and the Peacock",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Hornet And The Peacock.pdf",
+        "file_size_bytes": 872245,
+        "page_range": [
+          130,
+          134
+        ]
+      },
+      {
+        "song_title": "The Patriotic Diggers",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Samuel Woodworth, Composer Of -the Old Oaken Bucket- - The Patriotic Diggers.pdf",
+        "file_size_bytes": 462622,
+        "page_range": [
+          134,
+          136
+        ]
+      },
+      {
+        "song_title": "Miss Baileys Ghost",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Miss Baileys Ghost.pdf",
+        "file_size_bytes": 426043,
+        "page_range": [
+          136,
+          138
+        ]
+      },
+      {
+        "song_title": "Blow the Man Down",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Blow The Man Down.pdf",
+        "file_size_bytes": 400961,
+        "page_range": [
+          138,
+          140
+        ]
+      },
+      {
+        "song_title": "Away, Rio",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Away, Rio.pdf",
+        "file_size_bytes": 451182,
+        "page_range": [
+          140,
+          142
+        ]
+      },
+      {
+        "song_title": "Shenandoah",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Shenandoah.pdf",
+        "file_size_bytes": 354958,
+        "page_range": [
+          142,
+          144
+        ]
+      },
+      {
+        "song_title": "The Drunken Sailor",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Drunken Sailor.pdf",
+        "file_size_bytes": 384201,
+        "page_range": [
+          144,
+          146
+        ]
+      },
+      {
+        "song_title": "Hullabaloo Belay",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Hullabaloo Belay.pdf",
+        "file_size_bytes": 448641,
+        "page_range": [
+          146,
+          148
+        ]
+      },
+      {
+        "song_title": "Plant Among the Vines",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Plant Among The Vines.pdf",
+        "file_size_bytes": 403523,
+        "page_range": [
+          148,
+          150
+        ]
+      },
+      {
+        "song_title": "Sacramento",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Sacramento.pdf",
+        "file_size_bytes": 389782,
+        "page_range": [
+          150,
+          152
+        ]
+      },
+      {
+        "song_title": "Rocking Home",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Rocking Home.pdf",
+        "file_size_bytes": 415335,
+        "page_range": [
+          152,
+          154
+        ]
+      },
+      {
+        "song_title": "Blow Ye Winds",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Blow Ye Winds.pdf",
+        "file_size_bytes": 384865,
+        "page_range": [
+          154,
+          156
+        ]
+      },
+      {
+        "song_title": "The Whale",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Whale.pdf",
+        "file_size_bytes": 383071,
+        "page_range": [
+          156,
+          158
+        ]
+      },
+      {
+        "song_title": "Song of the Fishes",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Song Of The Fishes.pdf",
+        "file_size_bytes": 389909,
+        "page_range": [
+          158,
+          160
+        ]
+      },
+      {
+        "song_title": "The Dreadnought",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Dreadnought.pdf",
+        "file_size_bytes": 474400,
+        "page_range": [
+          160,
+          162
+        ]
+      },
+      {
+        "song_title": "The Crocodile Song",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Crocodile Song.pdf",
+        "file_size_bytes": 1453901,
+        "page_range": [
+          162,
+          168
+        ]
+      },
+      {
+        "song_title": "The Wayfaring Stranger",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/White Spiritual About 1800 - The Wayfaring Stranger.pdf",
+        "file_size_bytes": 380181,
+        "page_range": [
+          168,
+          170
+        ]
+      },
+      {
+        "song_title": "The Wayfaring Stranger",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Wayfaring Stranger.pdf",
+        "file_size_bytes": 394320,
+        "page_range": [
+          170,
+          172
+        ]
+      },
+      {
+        "song_title": "Nearer My God To Thee",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Nearer My God To Thee.pdf",
+        "file_size_bytes": 218976,
+        "page_range": [
+          172,
+          173
+        ]
+      },
+      {
+        "song_title": "Wondrous Love",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Wondrous Love.pdf",
+        "file_size_bytes": 169006,
+        "page_range": [
+          173,
+          174
+        ]
+      },
+      {
+        "song_title": "The Turtle Dove",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Turtle Dove.pdf",
+        "file_size_bytes": 311435,
+        "page_range": [
+          174,
+          176
+        ]
+      },
+      {
+        "song_title": "Billy Boy",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(traditional) - Billy Boy.pdf",
+        "file_size_bytes": 436680,
+        "page_range": [
+          176,
+          178
+        ]
+      },
+      {
+        "song_title": "Billy Boy",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Billy Boy.pdf",
+        "file_size_bytes": 503685,
+        "page_range": [
+          178,
+          180
+        ]
+      },
+      {
+        "song_title": "The Devil and the Farmer",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(of Irish And English Origin, This Version Is From Our Archives, Where Irish Immigrants Worked As Day Laborers) - The Devil And The Farmer.pdf",
+        "file_size_bytes": 561148,
+        "page_range": [
+          180,
+          183
+        ]
+      },
+      {
+        "song_title": "Aunt Rhody",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Aunt Rhody.pdf",
+        "file_size_bytes": 173459,
+        "page_range": [
+          183,
+          184
+        ]
+      },
+      {
+        "song_title": "Aunt Rhody",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Aunt Rhody.pdf",
+        "file_size_bytes": 430083,
+        "page_range": [
+          184,
+          186
+        ]
+      },
+      {
+        "song_title": "The Wee Cooper O'Fife",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Wee Cooper O'fife.pdf",
+        "file_size_bytes": 405689,
+        "page_range": [
+          186,
+          188
+        ]
+      },
+      {
+        "song_title": "A Bonnie Wee Lassie",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Traditional Scottish Ballad, Additional Verse By Marjorie Kelman - A Bonnie Wee Lassie.pdf",
+        "file_size_bytes": 422087,
+        "page_range": [
+          188,
+          190
+        ]
+      },
+      {
+        "song_title": "Old Blue",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Traditional Southern And Midwestern United States - Old Blue.pdf",
+        "file_size_bytes": 416839,
+        "page_range": [
+          190,
+          192
+        ]
+      },
+      {
+        "song_title": "SOURWOOD MOUNTAIN",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Sourwood Mountain.pdf",
+        "file_size_bytes": 395239,
+        "page_range": [
+          192,
+          194
+        ]
+      },
+      {
+        "song_title": "Down in the Valley",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Traditional Mountain Song - Down In The Valley.pdf",
+        "file_size_bytes": 444906,
+        "page_range": [
+          194,
+          196
+        ]
+      },
+      {
+        "song_title": "Lolly Too Dum",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(traditional Miniature Dialogue Song) - Lolly Too Dum.pdf",
+        "file_size_bytes": 412643,
+        "page_range": [
+          196,
+          198
+        ]
+      },
+      {
+        "song_title": "I'm Sad and I'm Lonely",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - I'm Sad And I'm Lonely.pdf",
+        "file_size_bytes": 418847,
+        "page_range": [
+          198,
+          200
+        ]
+      },
+      {
+        "song_title": "Careless Love",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Careless Love.pdf",
+        "file_size_bytes": 396616,
+        "page_range": [
+          200,
+          202
+        ]
+      },
+      {
+        "song_title": "Skip To My Lou",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Skip To My Lou.pdf",
+        "file_size_bytes": 403192,
+        "page_range": [
+          202,
+          204
+        ]
+      },
+      {
+        "song_title": "Turkey in the Straw",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Turkey In The Straw.pdf",
+        "file_size_bytes": 656398,
+        "page_range": [
+          204,
+          207
+        ]
+      },
+      {
+        "song_title": "Grandfather's Clock",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Grandfather's Clock.pdf",
+        "file_size_bytes": 719433,
+        "page_range": [
+          207,
+          210
+        ]
+      },
+      {
+        "song_title": "Old Dan Tucker",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Old Dan Tucker.pdf",
+        "file_size_bytes": 379409,
+        "page_range": [
+          210,
+          212
+        ]
+      },
+      {
+        "song_title": "Kemo-Kimo",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/This Song Was Taught Me By Uncle Mose, A Mississippi Plantation Worker, When I Was Five - Kemo-kimo.pdf",
+        "file_size_bytes": 387877,
+        "page_range": [
+          212,
+          214
+        ]
+      },
+      {
+        "song_title": "The Blue-Tail Fly",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(based On The Image, The Artist Is Not Explicitly Stated, But It Mentions -puls Version Of Don Bennett's Minstrel Song.-) - The Blue-tail Fly.pdf",
+        "file_size_bytes": 398342,
+        "page_range": [
+          214,
+          216
+        ]
+      },
+      {
+        "song_title": "Buffalo Gals",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(based On The Negro Dialect Song -lubly Fan,- 1844) - Buffalo Gals.pdf",
+        "file_size_bytes": 446056,
+        "page_range": [
+          216,
+          218
+        ]
+      },
+      {
+        "song_title": "The Abolitionist Hymn",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Abolitionist Hymn.pdf",
+        "file_size_bytes": 392591,
+        "page_range": [
+          218,
+          220
+        ]
+      },
+      {
+        "song_title": "Nicodemus",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Nicodemus.pdf",
+        "file_size_bytes": 1389853,
+        "page_range": [
+          220,
+          228
+        ]
+      },
+      {
+        "song_title": "The Young Man Who Wouldn't Hoe Corn",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Young Man Who Wouldn't Hoe Corn.pdf",
+        "file_size_bytes": 372746,
+        "page_range": [
+          228,
+          230
+        ]
+      },
+      {
+        "song_title": "The Sow Took the Measles",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/The Lyrics Mention -william Cole- But Do Not Clearly Indicate An Artist Name - The Sow Took The Measles.pdf",
+        "file_size_bytes": 482408,
+        "page_range": [
+          230,
+          232
+        ]
+      },
+      {
+        "song_title": "The Grey Goose",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Grey Goose.pdf",
+        "file_size_bytes": 396794,
+        "page_range": [
+          232,
+          234
+        ]
+      },
+      {
+        "song_title": "Peter Gray",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/(folk Version Of Comic Song Of The Early 18th Century) - Peter Gray.pdf",
+        "file_size_bytes": 377118,
+        "page_range": [
+          234,
+          236
+        ]
+      },
+      {
+        "song_title": "The Erie Canal",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Erie Canal.pdf",
+        "file_size_bytes": 392065,
+        "page_range": [
+          236,
+          238
+        ]
+      },
+      {
+        "song_title": "The Praties They Grow Small",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Praties They Grow Small.pdf",
+        "file_size_bytes": 564068,
+        "page_range": [
+          238,
+          240
+        ]
+      },
+      {
+        "song_title": "Patrick on the Railroad",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Patrick On The Railroad.pdf",
+        "file_size_bytes": 380729,
+        "page_range": [
+          240,
+          242
+        ]
+      },
+      {
+        "song_title": "Sweet Betsy from Pike",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Sweet Betsy From Pike.pdf",
+        "file_size_bytes": 393799,
+        "page_range": [
+          242,
+          244
+        ]
+      },
+      {
+        "song_title": "The Ox-Driving Song",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Ox-driving Song.pdf",
+        "file_size_bytes": 452814,
+        "page_range": [
+          244,
+          246
+        ]
+      },
+      {
+        "song_title": "Joe Bowers",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Joe Bowers.pdf",
+        "file_size_bytes": 817102,
+        "page_range": [
+          246,
+          250
+        ]
+      },
+      {
+        "song_title": "The Sioux Indians",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Sioux Indians.pdf",
+        "file_size_bytes": 442756,
+        "page_range": [
+          250,
+          252
+        ]
+      },
+      {
+        "song_title": "The Hand-Cart Song",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Hand-cart Song.pdf",
+        "file_size_bytes": 371675,
+        "page_range": [
+          252,
+          254
+        ]
+      },
+      {
+        "song_title": "Old Rosin the Beau",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Old Rosin The Beau.pdf",
+        "file_size_bytes": 425868,
+        "page_range": [
+          254,
+          256
+        ]
+      },
+      {
+        "song_title": "Ben Bolt",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Ben Bolt.pdf",
+        "file_size_bytes": 473769,
+        "page_range": [
+          256,
+          258
+        ]
+      },
+      {
+        "song_title": "The Little Old Sod Shanty",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Little Old Sod Shanty.pdf",
+        "file_size_bytes": 477608,
+        "page_range": [
+          258,
+          260
+        ]
+      },
+      {
+        "song_title": "I've Got No Use For Women",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - I've Got No Use For Women.pdf",
+        "file_size_bytes": 796655,
+        "page_range": [
+          260,
+          264
+        ]
+      },
+      {
+        "song_title": "Poor Boy",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - Poor Boy.pdf",
+        "file_size_bytes": 879773,
+        "page_range": [
+          264,
+          268
+        ]
+      },
+      {
+        "song_title": "The Cowboy's Lament",
+        "artist": "Burl Ives",
+        "output_uri": "s3://jsmith-output/Burl Ives/Song Book/Songs/Unknown Artist - The Cowboy's Lament.pdf",
+        "file_size_bytes": 3057250,
+        "page_range": [
+          268,
+          285
+        ]
+      }
+    ]
+  }
+}

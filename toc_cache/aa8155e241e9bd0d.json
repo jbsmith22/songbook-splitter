@@ -1,0 +1,30 @@
+{
+  "book_id": "aa8155e241e9bd0d",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Don't Let Him Go",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Don't Let Him Go",
+        "artist": "REO Speedwagon",
+        "output_uri": "s3://jsmith-output/Reo Speedwagon/Reo Speedwagon - Hi Infidelity/Songs/Reo Speedwagon - Don't Let Him Go.pdf",
+        "file_size_bytes": 21766037,
+        "page_range": [
+          1,
+          38
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,683 @@
+{
+  "book_id": "eagles-new-eagles-complete",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Take It Easy",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Jackson Browne & Glenn Frey - Take It Easy.pdf",
+        "file_size_bytes": 583896,
+        "page_range": [
+          4,
+          10
+        ]
+      },
+      {
+        "song_title": "Peaceful Easy Feeling",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/M.k. Franklin - Peaceful Easy Feeling.pdf",
+        "file_size_bytes": 588345,
+        "page_range": [
+          10,
+          16
+        ]
+      },
+      {
+        "song_title": "Witchy Woman",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Bernie Leadon & Don Henley - Witchy Woman.pdf",
+        "file_size_bytes": 414956,
+        "page_range": [
+          16,
+          20
+        ]
+      },
+      {
+        "song_title": "Most of Us Are Sad",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Glenn Frey - Most Of Us Are Sad.pdf",
+        "file_size_bytes": 409110,
+        "page_range": [
+          20,
+          24
+        ]
+      },
+      {
+        "song_title": "Tryin'",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Sandy Posey - Tryin'.pdf",
+        "file_size_bytes": 547089,
+        "page_range": [
+          24,
+          29
+        ]
+      },
+      {
+        "song_title": "Earlybird",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Randy Wisher & Serene Leaon - Earlybird.pdf",
+        "file_size_bytes": 464104,
+        "page_range": [
+          29,
+          34
+        ]
+      },
+      {
+        "song_title": "Nightingale",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Jackson Browne - Nightingale.pdf",
+        "file_size_bytes": 759860,
+        "page_range": [
+          34,
+          42
+        ]
+      },
+      {
+        "song_title": "Take the Devil",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Randy Webber - Take The Devil.pdf",
+        "file_size_bytes": 383110,
+        "page_range": [
+          42,
+          46
+        ]
+      },
+      {
+        "song_title": "Chug All Night",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Glenn Frey - Chug All Night.pdf",
+        "file_size_bytes": 568336,
+        "page_range": [
+          46,
+          52
+        ]
+      },
+      {
+        "song_title": "Train Leaves Here This Mornin'",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Gene Clark & Bernie Leadon - Train Leaves Here This Mornin'.pdf",
+        "file_size_bytes": 401403,
+        "page_range": [
+          52,
+          56
+        ]
+      },
+      {
+        "song_title": "Desperado",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/John Henley & Glenn Frey - Desperado.pdf",
+        "file_size_bytes": 586386,
+        "page_range": [
+          56,
+          62
+        ]
+      },
+      {
+        "song_title": "Out of Control",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey And Tom Nixon - Out Of Control.pdf",
+        "file_size_bytes": 623408,
+        "page_range": [
+          62,
+          69
+        ]
+      },
+      {
+        "song_title": "Tequila Sunrise",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Townes Van Zandt, Don Henley & Glenn Frey - Tequila Sunrise.pdf",
+        "file_size_bytes": 477829,
+        "page_range": [
+          69,
+          74
+        ]
+      },
+      {
+        "song_title": "DOOLIN-DALTON",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Glenn Frey, John David Souther, Don Henley & Jackson Browne - Doolin-dalton.pdf",
+        "file_size_bytes": 586098,
+        "page_range": [
+          74,
+          80
+        ]
+      },
+      {
+        "song_title": "Twenty One",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Bernie Leadon - Twenty One.pdf",
+        "file_size_bytes": 534003,
+        "page_range": [
+          80,
+          86
+        ]
+      },
+      {
+        "song_title": "Desperado Part II",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley & Glenn Frey - Desperado Part Ii.pdf",
+        "file_size_bytes": 302814,
+        "page_range": [
+          86,
+          89
+        ]
+      },
+      {
+        "song_title": "Doolin-Dalton Part II",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/John David Souther, Glenn Frey, John David Browne, Don Henley & J.d. Souther - Doolin-dalton Part Ii.pdf",
+        "file_size_bytes": 296173,
+        "page_range": [
+          89,
+          92
+        ]
+      },
+      {
+        "song_title": "Outlaw Man",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/David Blue - Outlaw Man.pdf",
+        "file_size_bytes": 712265,
+        "page_range": [
+          92,
+          99
+        ]
+      },
+      {
+        "song_title": "Certain Kind of Fool",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Randy Bachman, Glenn Frey & Don Henley - Certain Kind Of Fool.pdf",
+        "file_size_bytes": 604406,
+        "page_range": [
+          99,
+          106
+        ]
+      },
+      {
+        "song_title": "Bitter Creek",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Bernie Leadon - Bitter Creek.pdf",
+        "file_size_bytes": 613649,
+        "page_range": [
+          106,
+          112
+        ]
+      },
+      {
+        "song_title": "Saturday Night",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Randy Webber, Don Henley, Glenn Frey & Bernie Leadon - Saturday Night.pdf",
+        "file_size_bytes": 477042,
+        "page_range": [
+          112,
+          117
+        ]
+      },
+      {
+        "song_title": "The Best of My Love",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey & John David Souther - The Best Of My Love.pdf",
+        "file_size_bytes": 460987,
+        "page_range": [
+          117,
+          122
+        ]
+      },
+      {
+        "song_title": "Ol' '55",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Tom Waits - Ol' '55.pdf",
+        "file_size_bytes": 511156,
+        "page_range": [
+          122,
+          127
+        ]
+      },
+      {
+        "song_title": "James Dean",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Jackson Browne, John David Souther, Don Henley & Glenn Frey - James Dean.pdf",
+        "file_size_bytes": 644919,
+        "page_range": [
+          127,
+          134
+        ]
+      },
+      {
+        "song_title": "Already Gone",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Jack Erjavec & Rob Strandlund - Already Gone.pdf",
+        "file_size_bytes": 582109,
+        "page_range": [
+          134,
+          140
+        ]
+      },
+      {
+        "song_title": "On the Border",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Bernie Leadon, Don Henley & Glenn Frey - On The Border.pdf",
+        "file_size_bytes": 520378,
+        "page_range": [
+          140,
+          145
+        ]
+      },
+      {
+        "song_title": "You Never Cry Like a Lover",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/John David Souther & Don Henley - You Never Cry Like A Lover.pdf",
+        "file_size_bytes": 476824,
+        "page_range": [
+          145,
+          150
+        ]
+      },
+      {
+        "song_title": "Midnight Flyer",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Paul Kraft - Midnight Flyer.pdf",
+        "file_size_bytes": 371405,
+        "page_range": [
+          150,
+          154
+        ]
+      },
+      {
+        "song_title": "A Good Day in Hell",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Glenn Frey & Don Henley - A Good Day In Hell.pdf",
+        "file_size_bytes": 486419,
+        "page_range": [
+          154,
+          159
+        ]
+      },
+      {
+        "song_title": "My Man",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Unknown Artist - My Man.pdf",
+        "file_size_bytes": 499265,
+        "page_range": [
+          159,
+          164
+        ]
+      },
+      {
+        "song_title": "Is It True?",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Randy Wiesner - Is It True-.pdf",
+        "file_size_bytes": 410898,
+        "page_range": [
+          164,
+          168
+        ]
+      },
+      {
+        "song_title": "Lyin' Eyes",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Josh Ringle & Chris Frey - Lyin' Eyes.pdf",
+        "file_size_bytes": 500376,
+        "page_range": [
+          168,
+          174
+        ]
+      },
+      {
+        "song_title": "One of These Nights",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley & Glenn Frey - One Of These Nights.pdf",
+        "file_size_bytes": 309271,
+        "page_range": [
+          174,
+          178
+        ]
+      },
+      {
+        "song_title": "Take It to the Limit",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Song Title And Music Notation, This Appears To Be The First Page Of The Song -take It To The Limit- - Take It To The Limit.pdf",
+        "file_size_bytes": 290930,
+        "page_range": [
+          178,
+          181
+        ]
+      },
+      {
+        "song_title": "After the Thrill Is Gone",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley & Glenn Frey - After The Thrill Is Gone.pdf",
+        "file_size_bytes": 271281,
+        "page_range": [
+          181,
+          184
+        ]
+      },
+      {
+        "song_title": "Hollywood Waltz",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Bernie Leadon, Tom Leadon, Don Henley & Glenn Frey - Hollywood Waltz.pdf",
+        "file_size_bytes": 250962,
+        "page_range": [
+          184,
+          187
+        ]
+      },
+      {
+        "song_title": "Too Many Hands",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Randy Meisner & Don Felder - Too Many Hands.pdf",
+        "file_size_bytes": 254699,
+        "page_range": [
+          187,
+          190
+        ]
+      },
+      {
+        "song_title": "Visions",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley & Don Henley - Visions.pdf",
+        "file_size_bytes": 352101,
+        "page_range": [
+          190,
+          194
+        ]
+      },
+      {
+        "song_title": "Journey of the Sorcerer",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Bernie Leadon - Journey Of The Sorcerer.pdf",
+        "file_size_bytes": 163195,
+        "page_range": [
+          194,
+          196
+        ]
+      },
+      {
+        "song_title": "I Wish You Peace",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Patti Davis & Bernie Leadon - I Wish You Peace.pdf",
+        "file_size_bytes": 294336,
+        "page_range": [
+          196,
+          199
+        ]
+      },
+      {
+        "song_title": "Hotel California",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey And Don Felder - Hotel California.pdf",
+        "file_size_bytes": 626304,
+        "page_range": [
+          199,
+          206
+        ]
+      },
+      {
+        "song_title": "New Kid in Town",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/John Henry Caufield - John David Souther - New Kid In Town.pdf",
+        "file_size_bytes": 683748,
+        "page_range": [
+          206,
+          213
+        ]
+      },
+      {
+        "song_title": "Life in the Fast Lane",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey And Joe Walsh - Life In The Fast Lane.pdf",
+        "file_size_bytes": 606886,
+        "page_range": [
+          213,
+          220
+        ]
+      },
+      {
+        "song_title": "Wasted Time",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley And Glenn Frey - Wasted Time.pdf",
+        "file_size_bytes": 628000,
+        "page_range": [
+          220,
+          226
+        ]
+      },
+      {
+        "song_title": "Victim of Love",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Felder, Don Henley, John David Souther And Glenn Frey - Victim Of Love.pdf",
+        "file_size_bytes": 395910,
+        "page_range": [
+          226,
+          230
+        ]
+      },
+      {
+        "song_title": "Pretty Maids All in a Row",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Joe Walsh And Joe Vitale - Pretty Maids All In A Row.pdf",
+        "file_size_bytes": 386554,
+        "page_range": [
+          230,
+          234
+        ]
+      },
+      {
+        "song_title": "The Last Resort",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley And Glenn Frey - The Last Resort.pdf",
+        "file_size_bytes": 640342,
+        "page_range": [
+          234,
+          240
+        ]
+      },
+      {
+        "song_title": "Try and Love Again",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Sandy Mesner - Try And Love Again.pdf",
+        "file_size_bytes": 283884,
+        "page_range": [
+          240,
+          243
+        ]
+      },
+      {
+        "song_title": "Heartache Tonight",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey, Bob Seger And J.d. Souther - Heartache Tonight.pdf",
+        "file_size_bytes": 689256,
+        "page_range": [
+          243,
+          250
+        ]
+      },
+      {
+        "song_title": "The Long Run",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley And Glenn Frey - The Long Run.pdf",
+        "file_size_bytes": 397477,
+        "page_range": [
+          250,
+          254
+        ]
+      },
+      {
+        "song_title": "I Can't Tell You Why",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey And Timothy B. Schmit - I Can't Tell You Why.pdf",
+        "file_size_bytes": 415139,
+        "page_range": [
+          254,
+          258
+        ]
+      },
+      {
+        "song_title": "In the City",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Joe Walsh And Barry Gibb - In The City.pdf",
+        "file_size_bytes": 382762,
+        "page_range": [
+          258,
+          262
+        ]
+      },
+      {
+        "song_title": "The Disco Strangler",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey And Don Felder - The Disco Strangler.pdf",
+        "file_size_bytes": 430622,
+        "page_range": [
+          262,
+          267
+        ]
+      },
+      {
+        "song_title": "Teenage Jail",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey And J.d. Souther - Teenage Jail.pdf",
+        "file_size_bytes": 286914,
+        "page_range": [
+          267,
+          270
+        ]
+      },
+      {
+        "song_title": "King of Hollywood",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley And Glenn Frey - King Of Hollywood.pdf",
+        "file_size_bytes": 569489,
+        "page_range": [
+          270,
+          276
+        ]
+      },
+      {
+        "song_title": "Those Shoes",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Glenn Frey And Don Felder - Those Shoes.pdf",
+        "file_size_bytes": 356002,
+        "page_range": [
+          276,
+          280
+        ]
+      },
+      {
+        "song_title": "The Sad Cafe",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Jonathan Frey, Joe Walsh And J.d. Souther - The Sad Cafe.pdf",
+        "file_size_bytes": 617780,
+        "page_range": [
+          280,
+          286
+        ]
+      },
+      {
+        "song_title": "The Greeks Don't Want No Freaks",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley And Glenn Frey - The Greeks Don't Want No Freaks.pdf",
+        "file_size_bytes": 292353,
+        "page_range": [
+          286,
+          289
+        ]
+      },
+      {
+        "song_title": "Seven Bridges Road",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Steve Young - Seven Bridges Road.pdf",
+        "file_size_bytes": 417650,
+        "page_range": [
+          289,
+          294
+        ]
+      },
+      {
+        "song_title": "Life's Been Good",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Joe Walsh - Life's Been Good.pdf",
+        "file_size_bytes": 421262,
+        "page_range": [
+          294,
+          298
+        ]
+      },
+      {
+        "song_title": "DOOLIN DALTON (REPRISE II)",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Music By Don Henley, Glenn Frey And Jim Ed Norman - Doolin Dalton (reprise Ii).pdf",
+        "file_size_bytes": 57221,
+        "page_range": [
+          298,
+          299
+        ]
+      },
+      {
+        "song_title": "All Night Long",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Joe Walsh - All Night Long.pdf",
+        "file_size_bytes": 516332,
+        "page_range": [
+          299,
+          304
+        ]
+      },
+      {
+        "song_title": "Get Over It",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley And Glenn Frey - Get Over It.pdf",
+        "file_size_bytes": 510639,
+        "page_range": [
+          304,
+          310
+        ]
+      },
+      {
+        "song_title": "The Girl From Yesterday",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Glennis Frey And Jack Tempchin - The Girl From Yesterday.pdf",
+        "file_size_bytes": 448990,
+        "page_range": [
+          310,
+          315
+        ]
+      },
+      {
+        "song_title": "Learn to Be Still",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley & Stan Lynch - Learn To Be Still.pdf",
+        "file_size_bytes": 400415,
+        "page_range": [
+          315,
+          320
+        ]
+      },
+      {
+        "song_title": "Love Will Keep Us Alive",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Jim Capaldi, Peter Vale And Paul Carrack - Love Will Keep Us Alive.pdf",
+        "file_size_bytes": 390823,
+        "page_range": [
+          320,
+          325
+        ]
+      },
+      {
+        "song_title": "New York Minute",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/New Eagles Complete/Songs/Don Henley, Danny Kortchmar And Jai Winding - New York Minute.pdf",
+        "file_size_bytes": 709085,
+        "page_range": [
+          325,
+          332
+        ]
+      }
+    ]
+  }
+}

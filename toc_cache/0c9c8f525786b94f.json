@@ -1,0 +1,336 @@
+{
+  "book_id": "0c9c8f525786b94f",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "All You Get From Love Is A Love Song.",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(They Long To Be) Close To You",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For All We Know",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodbye To Love",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hurting Each Other",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Just Fall In Love Again",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Need To Be In Love",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Won't Last A Day Without You",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Make Believe It's Your First Time",
+        "page_number": 83,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Only Yesterday",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rainy Days And Mondays",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Solitaire",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Song For You",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Superstar",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "This Masquerade",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Top Of The World",
+        "page_number": 93,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We've Only Just Begun",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "When I Fall In Love",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Where Do I Go From Here?",
+        "page_number": 103,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Yesterday Once More",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You're The One",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bonus Song: Karen's Theme",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Bonus Song: Karen's Theme",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Bonus Song- Karen's Theme.pdf",
+        "file_size_bytes": 756677,
+        "page_range": [
+          2,
+          5
+        ]
+      },
+      {
+        "song_title": "All You Get From Love Is A Love Song.",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - All You Get From Love Is A Love Song.pdf",
+        "file_size_bytes": 1563157,
+        "page_range": [
+          5,
+          11
+        ]
+      },
+      {
+        "song_title": "(They Long To Be) Close To You",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - (they Long To Be) Close To You.pdf",
+        "file_size_bytes": 1188497,
+        "page_range": [
+          11,
+          15
+        ]
+      },
+      {
+        "song_title": "For All We Know",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - For All We Know.pdf",
+        "file_size_bytes": 1543356,
+        "page_range": [
+          15,
+          21
+        ]
+      },
+      {
+        "song_title": "Goodbye To Love",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Goodbye To Love.pdf",
+        "file_size_bytes": 963653,
+        "page_range": [
+          21,
+          25
+        ]
+      },
+      {
+        "song_title": "I Just Fall In Love Again",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - I Just Fall In Love Again.pdf",
+        "file_size_bytes": 1902951,
+        "page_range": [
+          25,
+          34
+        ]
+      },
+      {
+        "song_title": "I Won't Last A Day Without You",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - I Won't Last A Day Without You.pdf",
+        "file_size_bytes": 1205666,
+        "page_range": [
+          34,
+          40
+        ]
+      },
+      {
+        "song_title": "Only Yesterday",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Only Yesterday.pdf",
+        "file_size_bytes": 2832540,
+        "page_range": [
+          40,
+          54
+        ]
+      },
+      {
+        "song_title": "A Song For You",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - A Song For You.pdf",
+        "file_size_bytes": 1432654,
+        "page_range": [
+          54,
+          62
+        ]
+      },
+      {
+        "song_title": "This Masquerade",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - This Masquerade.pdf",
+        "file_size_bytes": 1057630,
+        "page_range": [
+          62,
+          67
+        ]
+      },
+      {
+        "song_title": "Yesterday Once More",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Yesterday Once More.pdf",
+        "file_size_bytes": 845162,
+        "page_range": [
+          67,
+          71
+        ]
+      },
+      {
+        "song_title": "We've Only Just Begun",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - We've Only Just Begun.pdf",
+        "file_size_bytes": 846282,
+        "page_range": [
+          71,
+          75
+        ]
+      },
+      {
+        "song_title": "Hurting Each Other",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Hurting Each Other.pdf",
+        "file_size_bytes": 643062,
+        "page_range": [
+          75,
+          78
+        ]
+      },
+      {
+        "song_title": "Make Believe It's Your First Time",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Make Believe It's Your First Time.pdf",
+        "file_size_bytes": 1408173,
+        "page_range": [
+          78,
+          85
+        ]
+      },
+      {
+        "song_title": "Rainy Days And Mondays",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Rainy Days And Mondays.pdf",
+        "file_size_bytes": 601632,
+        "page_range": [
+          85,
+          88
+        ]
+      },
+      {
+        "song_title": "Top Of The World",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Top Of The World.pdf",
+        "file_size_bytes": 969051,
+        "page_range": [
+          88,
+          93
+        ]
+      },
+      {
+        "song_title": "When I Fall In Love",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - When I Fall In Love.pdf",
+        "file_size_bytes": 979080,
+        "page_range": [
+          93,
+          98
+        ]
+      },
+      {
+        "song_title": "Where Do I Go From Here?",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - Where Do I Go From Here-.pdf",
+        "file_size_bytes": 1039099,
+        "page_range": [
+          98,
+          103
+        ]
+      },
+      {
+        "song_title": "You're The One",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Love Songs/Songs/Carpenters - You're The One.pdf",
+        "file_size_bytes": 863352,
+        "page_range": [
+          103,
+          108
+        ]
+      }
+    ]
+  }
+}

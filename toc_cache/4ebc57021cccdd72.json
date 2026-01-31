@@ -1,0 +1,83 @@
+{
+  "book_id": "4ebc57021cccdd72",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "World Where You Live",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - The Very Best Of [pvg Book]/Songs/Crowded House - World Where You Live.pdf",
+        "file_size_bytes": 2045871,
+        "page_range": [
+          7,
+          17
+        ]
+      },
+      {
+        "song_title": "Locked Out",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - The Very Best Of [pvg Book]/Songs/Crowded House - Locked Out.pdf",
+        "file_size_bytes": 2210091,
+        "page_range": [
+          17,
+          29
+        ]
+      },
+      {
+        "song_title": "Into Temptation",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - The Very Best Of [pvg Book]/Songs/Crowded House - Into Temptation.pdf",
+        "file_size_bytes": 1294700,
+        "page_range": [
+          29,
+          35
+        ]
+      },
+      {
+        "song_title": "Pineapple Head",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - The Very Best Of [pvg Book]/Songs/Crowded House - Pineapple Head.pdf",
+        "file_size_bytes": 3894028,
+        "page_range": [
+          35,
+          54
+        ]
+      },
+      {
+        "song_title": "Not The Girl You Think You Are",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - The Very Best Of [pvg Book]/Songs/Crowded House - Not The Girl You Think You Are.pdf",
+        "file_size_bytes": 1916281,
+        "page_range": [
+          54,
+          63
+        ]
+      },
+      {
+        "song_title": "I Feel Possessed",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - The Very Best Of [pvg Book]/Songs/Crowded House - I Feel Possessed.pdf",
+        "file_size_bytes": 6475641,
+        "page_range": [
+          63,
+          95
+        ]
+      },
+      {
+        "song_title": "Everything Is Good For You",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - The Very Best Of [pvg Book]/Songs/Crowded House - Everything Is Good For You.pdf",
+        "file_size_bytes": 1476884,
+        "page_range": [
+          95,
+          102
+        ]
+      }
+    ]
+  }
+}

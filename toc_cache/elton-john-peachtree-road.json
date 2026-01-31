@@ -1,0 +1,186 @@
+{
+  "book_id": "elton-john-peachtree-road",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Weight Of The World",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Porch Swing In Tupelo",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Answer In The Sky",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Turn The Lights Out When You Leave",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Elusive Drug",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "They Call Her The Cat",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Freaks In Love",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All That I'm Allowed",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Stop And I Breathe",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Too Many Tears",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Getting Dark In Here",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Can't Keep This From You",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Weight Of The World",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Elliot John - Weight Of The World.pdf",
+        "file_size_bytes": 161908,
+        "page_range": [
+          2,
+          7
+        ]
+      },
+      {
+        "song_title": "Porch Swing In Tupelo",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Words By Harrell Whitt, Music By Terry Whitt - Porch Swing In Tupelo.pdf",
+        "file_size_bytes": 156108,
+        "page_range": [
+          7,
+          12
+        ]
+      },
+      {
+        "song_title": "Answer In The Sky",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Elton John - Answer In The Sky.pdf",
+        "file_size_bytes": 236256,
+        "page_range": [
+          12,
+          20
+        ]
+      },
+      {
+        "song_title": "Turn The Lights Out When You Leave",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Bernie Taupin - Turn The Lights Out When You Leave.pdf",
+        "file_size_bytes": 151984,
+        "page_range": [
+          20,
+          26
+        ]
+      },
+      {
+        "song_title": "My Elusive Drug",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Unknown Artist - My Elusive Drug.pdf",
+        "file_size_bytes": 154566,
+        "page_range": [
+          26,
+          31
+        ]
+      },
+      {
+        "song_title": "They Call Her The Cat",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Elton John - They Call Her The Cat.pdf",
+        "file_size_bytes": 188671,
+        "page_range": [
+          31,
+          38
+        ]
+      },
+      {
+        "song_title": "Freaks In Love",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Bernie Taupin - Freaks In Love.pdf",
+        "file_size_bytes": 130338,
+        "page_range": [
+          38,
+          42
+        ]
+      },
+      {
+        "song_title": "All That I'm Allowed",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Sherree Patton - All That I'm Allowed.pdf",
+        "file_size_bytes": 220662,
+        "page_range": [
+          42,
+          49
+        ]
+      },
+      {
+        "song_title": "I Stop And I Breathe",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Herman Trupti - I Stop And I Breathe.pdf",
+        "file_size_bytes": 367399,
+        "page_range": [
+          49,
+          62
+        ]
+      },
+      {
+        "song_title": "Too Many Tears",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Peachtree Road/Songs/Bernie Taupin (words By), Elton John (music By) - Too Many Tears.pdf",
+        "file_size_bytes": 378911,
+        "page_range": [
+          62,
+          70
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "book_id": "genesis-anthology",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "HOLD ON MY HEART",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Hold On My Heart.pdf",
+        "file_size_bytes": 515511,
+        "page_range": [
+          0,
+          5
+        ]
+      },
+      {
+        "song_title": "Many Too Many",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Many Too Many.pdf",
+        "file_size_bytes": 406362,
+        "page_range": [
+          5,
+          8
+        ]
+      },
+      {
+        "song_title": "ANYTHING SHE DOES",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Anything She Does.pdf",
+        "file_size_bytes": 692800,
+        "page_range": [
+          8,
+          13
+        ]
+      },
+      {
+        "song_title": "Land of Confusion",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Land Of Confusion.pdf",
+        "file_size_bytes": 824580,
+        "page_range": [
+          13,
+          19
+        ]
+      },
+      {
+        "song_title": "DUCHESS",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Duchess.pdf",
+        "file_size_bytes": 541320,
+        "page_range": [
+          19,
+          23
+        ]
+      },
+      {
+        "song_title": "JESUS HE KNOWS ME",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Jesus He Knows Me.pdf",
+        "file_size_bytes": 754294,
+        "page_range": [
+          23,
+          30
+        ]
+      },
+      {
+        "song_title": "No Son of Mine",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - No Son Of Mine.pdf",
+        "file_size_bytes": 824693,
+        "page_range": [
+          30,
+          37
+        ]
+      },
+      {
+        "song_title": "I Can't Dance",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - I Can't Dance.pdf",
+        "file_size_bytes": 715638,
+        "page_range": [
+          37,
+          43
+        ]
+      },
+      {
+        "song_title": "No Reply At All",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - No Reply At All.pdf",
+        "file_size_bytes": 1123256,
+        "page_range": [
+          43,
+          51
+        ]
+      },
+      {
+        "song_title": "DRIVING THE LAST SPIKE",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Driving The Last Spike.pdf",
+        "file_size_bytes": 1724546,
+        "page_range": [
+          51,
+          64
+        ]
+      },
+      {
+        "song_title": "In Too Deep",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - In Too Deep.pdf",
+        "file_size_bytes": 795825,
+        "page_range": [
+          64,
+          69
+        ]
+      },
+      {
+        "song_title": "MAMA",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Mama.pdf",
+        "file_size_bytes": 737573,
+        "page_range": [
+          69,
+          74
+        ]
+      },
+      {
+        "song_title": "NEVER A TIME",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Never A Time.pdf",
+        "file_size_bytes": 625519,
+        "page_range": [
+          74,
+          78
+        ]
+      },
+      {
+        "song_title": "THROWING IT ALL AWAY",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Throwing It All Away.pdf",
+        "file_size_bytes": 793459,
+        "page_range": [
+          78,
+          83
+        ]
+      },
+      {
+        "song_title": "Tell Me Why",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Tell Me Why.pdf",
+        "file_size_bytes": 953650,
+        "page_range": [
+          83,
+          90
+        ]
+      },
+      {
+        "song_title": "ONE FOR THE VINE",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - One For The Vine.pdf",
+        "file_size_bytes": 1851872,
+        "page_range": [
+          90,
+          101
+        ]
+      },
+      {
+        "song_title": "Trick of the Tail",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Trick Of The Tail.pdf",
+        "file_size_bytes": 977355,
+        "page_range": [
+          101,
+          107
+        ]
+      },
+      {
+        "song_title": "TURN IT ON AGAIN",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Turn It On Again.pdf",
+        "file_size_bytes": 727811,
+        "page_range": [
+          107,
+          111
+        ]
+      },
+      {
+        "song_title": "Paperlate",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Paperlate.pdf",
+        "file_size_bytes": 853544,
+        "page_range": [
+          111,
+          116
+        ]
+      },
+      {
+        "song_title": "HEATHHAZE",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Heathhaze.pdf",
+        "file_size_bytes": 861118,
+        "page_range": [
+          116,
+          121
+        ]
+      },
+      {
+        "song_title": "Behind the Lines",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Behind The Lines.pdf",
+        "file_size_bytes": 1026290,
+        "page_range": [
+          121,
+          127
+        ]
+      },
+      {
+        "song_title": "Man on the Corner",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Man On The Corner.pdf",
+        "file_size_bytes": 695640,
+        "page_range": [
+          127,
+          131
+        ]
+      },
+      {
+        "song_title": "Illegal Alien",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Illegal Alien.pdf",
+        "file_size_bytes": 1297806,
+        "page_range": [
+          131,
+          139
+        ]
+      },
+      {
+        "song_title": "ABACAB",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Abacab.pdf",
+        "file_size_bytes": 958395,
+        "page_range": [
+          139,
+          145
+        ]
+      },
+      {
+        "song_title": "LIVING FOREVER",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Living Forever.pdf",
+        "file_size_bytes": 645147,
+        "page_range": [
+          145,
+          150
+        ]
+      },
+      {
+        "song_title": "Fading Lights",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Fading Lights.pdf",
+        "file_size_bytes": 644274,
+        "page_range": [
+          150,
+          155
+        ]
+      },
+      {
+        "song_title": "Dance on a Volcano",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Dance On A Volcano.pdf",
+        "file_size_bytes": 1376599,
+        "page_range": [
+          155,
+          163
+        ]
+      },
+      {
+        "song_title": "I KNOW WHAT I LIKE (IN YOUR WARDROBE)",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - I Know What I Like (in Your Wardrobe).pdf",
+        "file_size_bytes": 598339,
+        "page_range": [
+          163,
+          167
+        ]
+      },
+      {
+        "song_title": "THE BRAZILIAN",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - The Brazilian.pdf",
+        "file_size_bytes": 676646,
+        "page_range": [
+          167,
+          172
+        ]
+      },
+      {
+        "song_title": "Since I Lost You",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Since I Lost You.pdf",
+        "file_size_bytes": 627623,
+        "page_range": [
+          172,
+          177
+        ]
+      },
+      {
+        "song_title": "Tonight, Tonight, Tonight",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Tonight, Tonight, Tonight.pdf",
+        "file_size_bytes": 1327970,
+        "page_range": [
+          177,
+          186
+        ]
+      },
+      {
+        "song_title": "THAT'S ALL",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - That's All.pdf",
+        "file_size_bytes": 763933,
+        "page_range": [
+          186,
+          191
+        ]
+      },
+      {
+        "song_title": "TAKING IT ALL TOO HARD",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Taking It All Too Hard.pdf",
+        "file_size_bytes": 947495,
+        "page_range": [
+          191,
+          197
+        ]
+      },
+      {
+        "song_title": "YOUR OWN SPECIAL WAY",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Your Own Special Way.pdf",
+        "file_size_bytes": 900496,
+        "page_range": [
+          197,
+          203
+        ]
+      },
+      {
+        "song_title": "DOMINO PART I",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Domino Part I.pdf",
+        "file_size_bytes": 1341628,
+        "page_range": [
+          203,
+          212
+        ]
+      },
+      {
+        "song_title": "DOMINO PART II",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Domino Part Ii.pdf",
+        "file_size_bytes": 1107545,
+        "page_range": [
+          212,
+          220
+        ]
+      },
+      {
+        "song_title": "Dreaming While You Sleep",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Dreaming While You Sleep.pdf",
+        "file_size_bytes": 754111,
+        "page_range": [
+          220,
+          227
+        ]
+      },
+      {
+        "song_title": "Invisible Touch",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Invisible Touch.pdf",
+        "file_size_bytes": 635834,
+        "page_range": [
+          227,
+          231
+        ]
+      },
+      {
+        "song_title": "Misunderstanding",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Misunderstanding.pdf",
+        "file_size_bytes": 626329,
+        "page_range": [
+          231,
+          235
+        ]
+      },
+      {
+        "song_title": "Follow You, Follow Me",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Follow You, Follow Me.pdf",
+        "file_size_bytes": 482466,
+        "page_range": [
+          235,
+          238
+        ]
+      },
+      {
+        "song_title": "Mad Man Moon",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Mad Man Moon.pdf",
+        "file_size_bytes": 1010149,
+        "page_range": [
+          238,
+          245
+        ]
+      },
+      {
+        "song_title": "Way of the World",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Way Of The World.pdf",
+        "file_size_bytes": 757797,
+        "page_range": [
+          245,
+          251
+        ]
+      },
+      {
+        "song_title": "THE LAMB LIES DOWN ON BROADWAY",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - The Lamb Lies Down On Broadway.pdf",
+        "file_size_bytes": 795002,
+        "page_range": [
+          251,
+          257
+        ]
+      },
+      {
+        "song_title": "Keep It Dark",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Anthology/Songs/Genesis - Keep It Dark.pdf",
+        "file_size_bytes": 1036039,
+        "page_range": [
+          257,
+          265
+        ]
+      }
+    ]
+  }
+}

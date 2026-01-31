@@ -1,0 +1,198 @@
+{
+  "book_id": "673cff1f970b11d0",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "And Your Bird Can Sing",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Doctor Robert",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eleanor Rigby",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For No One",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Good Day Sunshine",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Got to Get You Into My Life",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Here, There and Everywhere",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Want to Tell You",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm Only Sleeping",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love You To",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She Said She Said",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Taxman",
+        "page_number": 77,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tomorrow Never Knows",
+        "page_number": 87,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "page_number": 91,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "And Your Bird Can Sing",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - And Your Bird Can Sing.pdf",
+        "file_size_bytes": 626953,
+        "page_range": [
+          2,
+          17
+        ]
+      },
+      {
+        "song_title": "Eleanor Rigby",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - Eleanor Rigby.pdf",
+        "file_size_bytes": 469788,
+        "page_range": [
+          17,
+          28
+        ]
+      },
+      {
+        "song_title": "For No One",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - For No One.pdf",
+        "file_size_bytes": 311729,
+        "page_range": [
+          28,
+          35
+        ]
+      },
+      {
+        "song_title": "Good Day Sunshine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - Good Day Sunshine.pdf",
+        "file_size_bytes": 332627,
+        "page_range": [
+          35,
+          42
+        ]
+      },
+      {
+        "song_title": "Here, There and Everywhere",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - Here, There And Everywhere.pdf",
+        "file_size_bytes": 233793,
+        "page_range": [
+          42,
+          47
+        ]
+      },
+      {
+        "song_title": "I Want to Tell You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - I Want To Tell You.pdf",
+        "file_size_bytes": 832944,
+        "page_range": [
+          47,
+          67
+        ]
+      },
+      {
+        "song_title": "She Said She Said",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - She Said She Said.pdf",
+        "file_size_bytes": 425710,
+        "page_range": [
+          67,
+          77
+        ]
+      },
+      {
+        "song_title": "Taxman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - Taxman.pdf",
+        "file_size_bytes": 373907,
+        "page_range": [
+          77,
+          87
+        ]
+      },
+      {
+        "song_title": "Tomorrow Never Knows",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - Tomorrow Never Knows.pdf",
+        "file_size_bytes": 210475,
+        "page_range": [
+          87,
+          92
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Revolver/Songs/Beatles - Yellow Submarine.pdf",
+        "file_size_bytes": 151391,
+        "page_range": [
+          92,
+          96
+        ]
+      }
+    ]
+  }
+}

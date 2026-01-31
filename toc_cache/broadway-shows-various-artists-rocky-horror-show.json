@@ -1,0 +1,38 @@
+{
+  "book_id": "broadway-shows-various-artists-rocky-horror-show",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Science Fiction",
+        "page_number": 3,
+        "artist": "Magenta",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Come To Night",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Science Fiction": "Magenta"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Science Fiction",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Rocky Horror Show/Songs/Magenta - Science Fiction.pdf",
+        "file_size_bytes": 14377155,
+        "page_range": [
+          1,
+          128
+        ]
+      }
+    ]
+  }
+}

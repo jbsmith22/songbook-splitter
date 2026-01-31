@@ -1,0 +1,145 @@
+{
+  "book_id": "103865d666184a36",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "AUGUST RUSH (PIANO SUITE)",
+        "page_number": 4,
+        "artist": "AUGUST RUSH",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CORPSE BRIDE (MAIN TITLE)",
+        "page_number": 9,
+        "artist": "CORPSE BRIDE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FALLING SLOWLY",
+        "page_number": 12,
+        "artist": "ONCE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HEDWIG'S THEME",
+        "page_number": 18,
+        "artist": "HARRY POTTER",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IN DREAMS",
+        "page_number": 23,
+        "artist": "LORD OF THE RINGS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE NOTEBOOK (MAIN TITLE)",
+        "page_number": 26,
+        "artist": "THE NOTEBOOK",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "RAIDERS MARCH",
+        "page_number": 36,
+        "artist": "INDIANA JONES AND THE KINGDOM OF THE CRYSTAL SKULL",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "STAR WARS (MAIN TITLE)",
+        "page_number": 40,
+        "artist": "STAR WARS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SUPERMAN THEME",
+        "page_number": 44,
+        "artist": "SUPERMAN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WAY BACK INTO LOVE",
+        "page_number": 29,
+        "artist": "MUSIC AND LYRICS",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "AUGUST RUSH (PIANO SUITE)": "AUGUST RUSH",
+      "CORPSE BRIDE (MAIN TITLE)": "CORPSE BRIDE",
+      "FALLING SLOWLY": "ONCE",
+      "HEDWIG'S THEME": "HARRY POTTER",
+      "IN DREAMS": "LORD OF THE RINGS",
+      "THE NOTEBOOK (MAIN TITLE)": "THE NOTEBOOK",
+      "RAIDERS MARCH": "INDIANA JONES AND THE KINGDOM OF THE CRYSTAL SKULL",
+      "STAR WARS (MAIN TITLE)": "STAR WARS",
+      "SUPERMAN THEME": "SUPERMAN",
+      "WAY BACK INTO LOVE": "MUSIC AND LYRICS"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "AUGUST RUSH (PIANO SUITE)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Top Movie Hits/Songs/August Rush - August Rush (piano Suite).pdf",
+        "file_size_bytes": 253227,
+        "page_range": [
+          2,
+          14
+        ]
+      },
+      {
+        "song_title": "CORPSE BRIDE (MAIN TITLE)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Top Movie Hits/Songs/Corpse Bride - Corpse Bride (main Title).pdf",
+        "file_size_bytes": 154397,
+        "page_range": [
+          14,
+          22
+        ]
+      },
+      {
+        "song_title": "THE NOTEBOOK (MAIN TITLE)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Top Movie Hits/Songs/The Notebook - The Notebook (main Title).pdf",
+        "file_size_bytes": 193138,
+        "page_range": [
+          22,
+          30
+        ]
+      },
+      {
+        "song_title": "WAY BACK INTO LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Top Movie Hits/Songs/Music And Lyrics - Way Back Into Love.pdf",
+        "file_size_bytes": 198952,
+        "page_range": [
+          30,
+          38
+        ]
+      },
+      {
+        "song_title": "STAR WARS (MAIN TITLE)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Top Movie Hits/Songs/Star Wars - Star Wars (main Title).pdf",
+        "file_size_bytes": 86791,
+        "page_range": [
+          38,
+          42
+        ]
+      },
+      {
+        "song_title": "SUPERMAN THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Top Movie Hits/Songs/Superman - Superman Theme.pdf",
+        "file_size_bytes": 105733,
+        "page_range": [
+          42,
+          46
+        ]
+      }
+    ]
+  }
+}

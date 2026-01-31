@@ -1,0 +1,153 @@
+{
+  "book_id": "beatles-rubber-soul",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Drive My Car",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/John Lennon & Paul Mccartney - Drive My Car.pdf",
+        "file_size_bytes": 850503,
+        "page_range": [
+          1,
+          5
+        ]
+      },
+      {
+        "song_title": "You Won't See Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - You Won't See Me.pdf",
+        "file_size_bytes": 1028987,
+        "page_range": [
+          5,
+          9
+        ]
+      },
+      {
+        "song_title": "Norwegian Wood",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/John Lennon & Paul Mccartney - Norwegian Wood.pdf",
+        "file_size_bytes": 643651,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "Nowhere Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/John Lennon & Paul Mccartney - Nowhere Man.pdf",
+        "file_size_bytes": 732185,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "Think For Yourself",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - Think For Yourself.pdf",
+        "file_size_bytes": 666530,
+        "page_range": [
+          15,
+          18
+        ]
+      },
+      {
+        "song_title": "The Word",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - The Word.pdf",
+        "file_size_bytes": 678735,
+        "page_range": [
+          18,
+          21
+        ]
+      },
+      {
+        "song_title": "Michelle",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - Michelle.pdf",
+        "file_size_bytes": 1976333,
+        "page_range": [
+          21,
+          30
+        ]
+      },
+      {
+        "song_title": "Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Words & Music By John Lennon And Paul Mccartney - Girl.pdf",
+        "file_size_bytes": 744099,
+        "page_range": [
+          30,
+          33
+        ]
+      },
+      {
+        "song_title": "I'M LOOKING THROUGH YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - I'm Looking Through You.pdf",
+        "file_size_bytes": 932169,
+        "page_range": [
+          33,
+          37
+        ]
+      },
+      {
+        "song_title": "In My Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - In My Life.pdf",
+        "file_size_bytes": 623852,
+        "page_range": [
+          37,
+          40
+        ]
+      },
+      {
+        "song_title": "If I Needed Someone",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - If I Needed Someone.pdf",
+        "file_size_bytes": 676326,
+        "page_range": [
+          40,
+          43
+        ]
+      },
+      {
+        "song_title": "Wait",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - Wait.pdf",
+        "file_size_bytes": 918321,
+        "page_range": [
+          43,
+          47
+        ]
+      },
+      {
+        "song_title": "Run For Your Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/Unknown Artist - Run For Your Life.pdf",
+        "file_size_bytes": 644303,
+        "page_range": [
+          47,
+          50
+        ]
+      },
+      {
+        "song_title": "Drive My Car",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Rubber Soul/Songs/The Beatles - Drive My Car.pdf",
+        "file_size_bytes": 280542,
+        "page_range": [
+          50,
+          51
+        ]
+      }
+    ]
+  }
+}

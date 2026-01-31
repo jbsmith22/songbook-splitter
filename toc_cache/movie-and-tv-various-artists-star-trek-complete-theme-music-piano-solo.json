@@ -1,0 +1,173 @@
+{
+  "book_id": "movie-and-tv-various-artists-star-trek-complete-theme-music-piano-solo",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Motion Picture",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/(based On The Star Trek Logo And Imagery, This Appears To Be Sheet Music From The Soundtrack Or Score For A Star Trek Movie) - The Motion Picture.pdf",
+        "file_size_bytes": 1756864,
+        "page_range": [
+          0,
+          2
+        ]
+      },
+      {
+        "song_title": "Star Trek",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Gene Roddenberry, Music By Alexander Courage - Star Trek.pdf",
+        "file_size_bytes": 834018,
+        "page_range": [
+          2,
+          5
+        ]
+      },
+      {
+        "song_title": "Star Trek: The Next Generation",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/By Alexander Courage, Gene Roddenberry And Jerry Goldsmith - Star Trek- The Next Generation.pdf",
+        "file_size_bytes": 877070,
+        "page_range": [
+          5,
+          9
+        ]
+      },
+      {
+        "song_title": "Star Trek Deep Space Nine",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/By Dennis Mccarthy - Star Trek Deep Space Nine.pdf",
+        "file_size_bytes": 659224,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "Star Trek Voyager",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Music By Jerry Goldsmith - Star Trek Voyager.pdf",
+        "file_size_bytes": 635478,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "Enterprise (Where My Heart Will Take Me)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Diane Warren - Enterprise (where My Heart Will Take Me).pdf",
+        "file_size_bytes": 715045,
+        "page_range": [
+          15,
+          18
+        ]
+      },
+      {
+        "song_title": "Star Trek: The Motion Picture",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Music By Jerry Goldsmith - Star Trek- The Motion Picture.pdf",
+        "file_size_bytes": 718818,
+        "page_range": [
+          18,
+          21
+        ]
+      },
+      {
+        "song_title": "Star Trek II: The Wrath of Khan",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Music By Alexander Courage And James Horner - Star Trek Ii- The Wrath Of Khan.pdf",
+        "file_size_bytes": 643156,
+        "page_range": [
+          21,
+          24
+        ]
+      },
+      {
+        "song_title": "Main Theme",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Unknown Artist - Main Theme.pdf",
+        "file_size_bytes": 1427434,
+        "page_range": [
+          24,
+          30
+        ]
+      },
+      {
+        "song_title": "The Search for Spock",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Music By James Horner - The Search For Spock.pdf",
+        "file_size_bytes": 1199879,
+        "page_range": [
+          30,
+          35
+        ]
+      },
+      {
+        "song_title": "Theme from the Paramount Motion Picture STAR TREK IV: THE VOYAGE HOME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Music By Alexander Courage And Leonard Rosenman - Theme From The Paramount Motion Picture Star Trek Iv- The Voyage Home.pdf",
+        "file_size_bytes": 537045,
+        "page_range": [
+          35,
+          37
+        ]
+      },
+      {
+        "song_title": "THE MOON'S A WINDOW TO HEAVEN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/From The Paramount Motion Picture Star Trek V- The Final Frontier, Words By John Bettis, Music By Jerry Goldsmith - The Moon's A Window To Heaven.pdf",
+        "file_size_bytes": 1611062,
+        "page_range": [
+          37,
+          43
+        ]
+      },
+      {
+        "song_title": "Star Trek VI: The Undiscovered Country",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Music By Cliff Eidelman - Star Trek Vi- The Undiscovered Country.pdf",
+        "file_size_bytes": 747454,
+        "page_range": [
+          43,
+          46
+        ]
+      },
+      {
+        "song_title": "Generations",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Dennis Mccarthy - Generations.pdf",
+        "file_size_bytes": 745163,
+        "page_range": [
+          46,
+          49
+        ]
+      },
+      {
+        "song_title": "Star Trek First Contact",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Jerry Goldsmith - Star Trek First Contact.pdf",
+        "file_size_bytes": 627670,
+        "page_range": [
+          49,
+          52
+        ]
+      },
+      {
+        "song_title": "Star Trek: Insurrection",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Complete Theme Music (piano Solo)/Songs/Jerry Goldsmith - Star Trek- Insurrection.pdf",
+        "file_size_bytes": 1091257,
+        "page_range": [
+          52,
+          57
+        ]
+      }
+    ]
+  }
+}

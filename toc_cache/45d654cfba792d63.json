@@ -1,0 +1,30 @@
+{
+  "book_id": "45d654cfba792d63",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Battle of the Heroes",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Battle of the Heroes",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/John Williams - Star Wars Episode Iii - Revenge Of The Sith.(incomplete Grab)/Songs/John Williams - Battle Of The Heroes.pdf",
+        "file_size_bytes": 8209122,
+        "page_range": [
+          0,
+          32
+        ]
+      }
+    ]
+  }
+}

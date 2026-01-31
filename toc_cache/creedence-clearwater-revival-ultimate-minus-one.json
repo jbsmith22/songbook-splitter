@@ -1,0 +1,126 @@
+{
+  "book_id": "creedence-clearwater-revival-ultimate-minus-one",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Down on the Corner",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fortunate Son",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Have You Ever Seen the Rain?",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Heard It Through the Grapevine",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Looking Out My Back Door",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Proud Mary",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Up Around the Bend",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Down on the Corner",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Ultimate Minus One/Songs/Unknown Artist - Down On The Corner.pdf",
+        "file_size_bytes": 1281200,
+        "page_range": [
+          2,
+          5
+        ]
+      },
+      {
+        "song_title": "Have You Ever Seen the Rain?",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Ultimate Minus One/Songs/J.c. Fogerty - Have You Ever Seen The Rain-.pdf",
+        "file_size_bytes": 860625,
+        "page_range": [
+          5,
+          7
+        ]
+      },
+      {
+        "song_title": "I Heard It Through the Grapevine",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Ultimate Minus One/Songs/N. Whitfield, B. Strong - I Heard It Through The Grapevine.pdf",
+        "file_size_bytes": 2994192,
+        "page_range": [
+          7,
+          13
+        ]
+      },
+      {
+        "song_title": "Looking Out My Back Door",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Ultimate Minus One/Songs/J. C. Fogerty - Looking Out My Back Door.pdf",
+        "file_size_bytes": 2737287,
+        "page_range": [
+          13,
+          19
+        ]
+      },
+      {
+        "song_title": "Fortunate Son",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Ultimate Minus One/Songs/J. C. Fogerty - Fortunate Son.pdf",
+        "file_size_bytes": 2401877,
+        "page_range": [
+          19,
+          24
+        ]
+      },
+      {
+        "song_title": "Proud Mary",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Ultimate Minus One/Songs/J.c. Fogerty - Proud Mary.pdf",
+        "file_size_bytes": 1266932,
+        "page_range": [
+          24,
+          27
+        ]
+      },
+      {
+        "song_title": "Up Around the Bend",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Ultimate Minus One/Songs/J. C. Fogerty - Up Around The Bend.pdf",
+        "file_size_bytes": 1398103,
+        "page_range": [
+          27,
+          30
+        ]
+      }
+    ]
+  }
+}

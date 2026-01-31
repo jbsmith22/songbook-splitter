@@ -1,0 +1,73 @@
+{
+  "book_id": "fe876c711e7ad22f",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Kare Kare",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - Together Alone [pvg Book]/Songs/Crowded House - Kare Kare.pdf",
+        "file_size_bytes": 1185106,
+        "page_range": [
+          6,
+          11
+        ]
+      },
+      {
+        "song_title": "In My Command",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - Together Alone [pvg Book]/Songs/Crowded House - In My Command.pdf",
+        "file_size_bytes": 1845700,
+        "page_range": [
+          11,
+          18
+        ]
+      },
+      {
+        "song_title": "Nails in My Feet",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - Together Alone [pvg Book]/Songs/Crowded House - Nails In My Feet.pdf",
+        "file_size_bytes": 1701728,
+        "page_range": [
+          18,
+          25
+        ]
+      },
+      {
+        "song_title": "Black and White Boy",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - Together Alone [pvg Book]/Songs/Crowded House - Black And White Boy.pdf",
+        "file_size_bytes": 4762161,
+        "page_range": [
+          25,
+          44
+        ]
+      },
+      {
+        "song_title": "Locked Out",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - Together Alone [pvg Book]/Songs/Crowded House - Locked Out.pdf",
+        "file_size_bytes": 1483674,
+        "page_range": [
+          44,
+          50
+        ]
+      },
+      {
+        "song_title": "Private Universe",
+        "artist": "Crowded House",
+        "output_uri": "s3://jsmith-output/Crowded House/Crowded House - Together Alone [pvg Book]/Songs/Crowded House - Private Universe.pdf",
+        "file_size_bytes": 9586482,
+        "page_range": [
+          50,
+          89
+        ]
+      }
+    ]
+  }
+}

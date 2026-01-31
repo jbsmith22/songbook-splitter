@@ -1,0 +1,142 @@
+{
+  "book_id": "dire-straits-jam-with-dire-straits-guitar-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Sultans of swing",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Brothers in arms",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Romeo and Juliet",
+        "page_number": 35,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Private investigations",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Telegraph road",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Money for nothing",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Walk of life",
+        "page_number": 113,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tunnel of love",
+        "page_number": 122,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sultans of swing",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Jam With Dire Straits [guitar Book]/Songs/Mark Knopfler - Sultans Of Swing.pdf",
+        "file_size_bytes": 6089353,
+        "page_range": [
+          7,
+          23
+        ]
+      },
+      {
+        "song_title": "Brothers in arms",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Jam With Dire Straits [guitar Book]/Songs/Mark Knopfler - Brothers In Arms.pdf",
+        "file_size_bytes": 3363905,
+        "page_range": [
+          23,
+          32
+        ]
+      },
+      {
+        "song_title": "Romeo and Juliet",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Jam With Dire Straits [guitar Book]/Songs/Mark Knopfler - Romeo And Juliet.pdf",
+        "file_size_bytes": 6865153,
+        "page_range": [
+          32,
+          50
+        ]
+      },
+      {
+        "song_title": "Private investigations",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Jam With Dire Straits [guitar Book]/Songs/Mark Knopfler - Private Investigations.pdf",
+        "file_size_bytes": 4094200,
+        "page_range": [
+          50,
+          61
+        ]
+      },
+      {
+        "song_title": "Telegraph road",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Jam With Dire Straits [guitar Book]/Songs/Mark Knopfler - Telegraph Road.pdf",
+        "file_size_bytes": 9328618,
+        "page_range": [
+          61,
+          86
+        ]
+      },
+      {
+        "song_title": "Money for nothing",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Jam With Dire Straits [guitar Book]/Songs/Mark Knopfler & Sting - Money For Nothing.pdf",
+        "file_size_bytes": 8933408,
+        "page_range": [
+          86,
+          110
+        ]
+      },
+      {
+        "song_title": "Walk of life",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Jam With Dire Straits [guitar Book]/Songs/Mark Knopfler - Walk Of Life.pdf",
+        "file_size_bytes": 3403257,
+        "page_range": [
+          110,
+          119
+        ]
+      },
+      {
+        "song_title": "Tunnel of love",
+        "artist": "Dire Straits",
+        "output_uri": "s3://jsmith-output/Dire Straits/Jam With Dire Straits [guitar Book]/Songs/Mark Knopfler - Tunnel Of Love.pdf",
+        "file_size_bytes": 9024427,
+        "page_range": [
+          119,
+          142
+        ]
+      }
+    ]
+  }
+}

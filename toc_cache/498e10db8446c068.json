@@ -1,0 +1,19 @@
+{
+  "book_id": "498e10db8446c068",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Handle With Care",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": []
+  }
+}

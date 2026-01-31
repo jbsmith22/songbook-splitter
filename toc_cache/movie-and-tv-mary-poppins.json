@@ -1,0 +1,123 @@
+{
+  "book_id": "movie-and-tv-mary-poppins",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Spoonful Of Sugar",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - A Spoonful Of Sugar.pdf",
+        "file_size_bytes": 1999275,
+        "page_range": [
+          0,
+          3
+        ]
+      },
+      {
+        "song_title": "Chim Chim Cher-ee",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - Chim Chim Cher-ee.pdf",
+        "file_size_bytes": 3523145,
+        "page_range": [
+          3,
+          8
+        ]
+      },
+      {
+        "song_title": "Feed The Birds (Tuppence A Bag)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - Feed The Birds (tuppence A Bag).pdf",
+        "file_size_bytes": 2648190,
+        "page_range": [
+          8,
+          12
+        ]
+      },
+      {
+        "song_title": "I Love To Laugh",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - I Love To Laugh.pdf",
+        "file_size_bytes": 3384927,
+        "page_range": [
+          12,
+          17
+        ]
+      },
+      {
+        "song_title": "Jolly Holiday",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - Jolly Holiday.pdf",
+        "file_size_bytes": 2299338,
+        "page_range": [
+          17,
+          20
+        ]
+      },
+      {
+        "song_title": "Let's Go Fly A Kite",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - Let's Go Fly A Kite.pdf",
+        "file_size_bytes": 1809700,
+        "page_range": [
+          20,
+          23
+        ]
+      },
+      {
+        "song_title": "Sister Suffragette",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - Sister Suffragette.pdf",
+        "file_size_bytes": 3176397,
+        "page_range": [
+          23,
+          28
+        ]
+      },
+      {
+        "song_title": "Stay Awake",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - Stay Awake.pdf",
+        "file_size_bytes": 1432022,
+        "page_range": [
+          28,
+          30
+        ]
+      },
+      {
+        "song_title": "Step In Time",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - Step In Time.pdf",
+        "file_size_bytes": 2071018,
+        "page_range": [
+          30,
+          33
+        ]
+      },
+      {
+        "song_title": "Supercalifragilisticexpialidocious",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/The Song Credits Richard M. Sherman And Robert B. Sherman As The Words And Music Writers - Supercalifragilisticexpialidocious.pdf",
+        "file_size_bytes": 2975888,
+        "page_range": [
+          33,
+          37
+        ]
+      },
+      {
+        "song_title": "The Perfect Nanny",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Mary Poppins/Songs/Richard M. Sherman And Robert B. Sherman - The Perfect Nanny.pdf",
+        "file_size_bytes": 1751023,
+        "page_range": [
+          37,
+          40
+        ]
+      }
+    ]
+  }
+}

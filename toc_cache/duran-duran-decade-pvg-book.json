@@ -1,0 +1,238 @@
+{
+  "book_id": "duran-duran-decade-pvg-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Planet Earth",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Girls on Film",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hungry Like the Wolf",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rio",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Save a Prayer",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Is There Something I Should Know",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Union of the Snake",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Reflex",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wild Boys",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A View to a Kill",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Notorious",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Skin Trade",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Don't Want Your Love",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All She Wants Is",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Planet Earth",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Unknown Artist - Planet Earth.pdf",
+        "file_size_bytes": 103150,
+        "page_range": [
+          4,
+          8
+        ]
+      },
+      {
+        "song_title": "Girls on Film",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Duran Duran (words And Music By) - Girls On Film.pdf",
+        "file_size_bytes": 199566,
+        "page_range": [
+          8,
+          12
+        ]
+      },
+      {
+        "song_title": "Hungry Like the Wolf",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Song Title, It Is Likely By The Band Duran Duran - Hungry Like The Wolf.pdf",
+        "file_size_bytes": 251604,
+        "page_range": [
+          12,
+          16
+        ]
+      },
+      {
+        "song_title": "Rio",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/The Lyrics And Music Credits At The Bottom Indicate This Is The First Page For The Song -rio- By Michael Nesmith And John Bettis - Rio.pdf",
+        "file_size_bytes": 110659,
+        "page_range": [
+          16,
+          20
+        ]
+      },
+      {
+        "song_title": "Save a Prayer",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Unknown Artist - Save A Prayer.pdf",
+        "file_size_bytes": 220106,
+        "page_range": [
+          20,
+          24
+        ]
+      },
+      {
+        "song_title": "Is There Something I Should Know",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Unknown Artist - Is There Something I Should Know.pdf",
+        "file_size_bytes": 247859,
+        "page_range": [
+          24,
+          28
+        ]
+      },
+      {
+        "song_title": "Union of the Snake",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Unknown Artist - Union Of The Snake.pdf",
+        "file_size_bytes": 311735,
+        "page_range": [
+          28,
+          32
+        ]
+      },
+      {
+        "song_title": "The Reflex",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Unknown Artist - The Reflex.pdf",
+        "file_size_bytes": 253994,
+        "page_range": [
+          32,
+          37
+        ]
+      },
+      {
+        "song_title": "Wild Boys",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Duran Duran - Wild Boys.pdf",
+        "file_size_bytes": 185286,
+        "page_range": [
+          37,
+          41
+        ]
+      },
+      {
+        "song_title": "A View to a Kill",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/The Sheet Music Does Not Explicitly List The Artist Name, But Based On The Song Title, It Is Likely Performed By Duran Duran As They Recorded The Theme Song For The James Bond Film -a View To A Ki.pdf",
+        "file_size_bytes": 137741,
+        "page_range": [
+          41,
+          46
+        ]
+      },
+      {
+        "song_title": "Notorious",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Taylor Shades-le Ris - Notorious.pdf",
+        "file_size_bytes": 257609,
+        "page_range": [
+          46,
+          51
+        ]
+      },
+      {
+        "song_title": "Skin Trade",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Unknown Artist - Skin Trade.pdf",
+        "file_size_bytes": 264506,
+        "page_range": [
+          51,
+          55
+        ]
+      },
+      {
+        "song_title": "I Don't Want Your Love",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Taylor Rhodes & Josh - I Don't Want Your Love.pdf",
+        "file_size_bytes": 260008,
+        "page_range": [
+          55,
+          60
+        ]
+      },
+      {
+        "song_title": "All She Wants Is",
+        "artist": "Duran Duran",
+        "output_uri": "s3://jsmith-output/Duran Duran/Decade [pvg Book]/Songs/Unknown Artist - All She Wants Is.pdf",
+        "file_size_bytes": 91954,
+        "page_range": [
+          60,
+          64
+        ]
+      }
+    ]
+  }
+}

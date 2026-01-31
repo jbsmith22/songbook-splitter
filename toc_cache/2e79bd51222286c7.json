@@ -1,0 +1,73 @@
+{
+  "book_id": "2e79bd51222286c7",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Kind Of Magic",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Greatest Hits Ii [pvg]/Songs/Queen - A Kind Of Magic.pdf",
+        "file_size_bytes": 12518736,
+        "page_range": [
+          10,
+          31
+        ]
+      },
+      {
+        "song_title": "I Want It All",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Greatest Hits Ii [pvg]/Songs/Queen - I Want It All.pdf",
+        "file_size_bytes": 30730169,
+        "page_range": [
+          31,
+          83
+        ]
+      },
+      {
+        "song_title": "The Miracle",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Greatest Hits Ii [pvg]/Songs/Queen - The Miracle.pdf",
+        "file_size_bytes": 11253064,
+        "page_range": [
+          83,
+          102
+        ]
+      },
+      {
+        "song_title": "Hammer To Fall",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Greatest Hits Ii [pvg]/Songs/Queen - Hammer To Fall.pdf",
+        "file_size_bytes": 8353167,
+        "page_range": [
+          102,
+          116
+        ]
+      },
+      {
+        "song_title": "The Show Must Go On",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Greatest Hits Ii [pvg]/Songs/Queen - The Show Must Go On.pdf",
+        "file_size_bytes": 4077368,
+        "page_range": [
+          116,
+          123
+        ]
+      },
+      {
+        "song_title": "One Vision",
+        "artist": "Queen",
+        "output_uri": "s3://jsmith-output/Queen/Queen - Greatest Hits Ii [pvg]/Songs/Queen - One Vision.pdf",
+        "file_size_bytes": 5083934,
+        "page_range": [
+          123,
+          132
+        ]
+      }
+    ]
+  }
+}

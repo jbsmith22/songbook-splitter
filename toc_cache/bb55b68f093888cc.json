@@ -1,0 +1,156 @@
+{
+  "book_id": "bb55b68f093888cc",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Fearless",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fifteen",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Forever & Always",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hey Stephen",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Story",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Our Song",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Picture to Burn",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Should've Said No",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Teardrops on My Guitar",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "White Horse",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Belong with Me",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You're Not Sorry",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Fearless",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Best Of [easy Piano]/Songs/Taylor Swift - Fearless.pdf",
+        "file_size_bytes": 402915,
+        "page_range": [
+          2,
+          8
+        ]
+      },
+      {
+        "song_title": "Fifteen",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Best Of [easy Piano]/Songs/Taylor Swift - Fifteen.pdf",
+        "file_size_bytes": 505172,
+        "page_range": [
+          8,
+          15
+        ]
+      },
+      {
+        "song_title": "Love Story",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Best Of [easy Piano]/Songs/Taylor Swift - Love Story.pdf",
+        "file_size_bytes": 917490,
+        "page_range": [
+          15,
+          28
+        ]
+      },
+      {
+        "song_title": "Hey Stephen",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Best Of [easy Piano]/Songs/Taylor Swift - Hey Stephen.pdf",
+        "file_size_bytes": 2292762,
+        "page_range": [
+          28,
+          60
+        ]
+      },
+      {
+        "song_title": "You Belong with Me",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Best Of [easy Piano]/Songs/Taylor Swift - You Belong With Me.pdf",
+        "file_size_bytes": 506622,
+        "page_range": [
+          60,
+          66
+        ]
+      },
+      {
+        "song_title": "You're Not Sorry",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Best Of [easy Piano]/Songs/Taylor Swift - You're Not Sorry.pdf",
+        "file_size_bytes": 437854,
+        "page_range": [
+          66,
+          72
+        ]
+      },
+      {
+        "song_title": "Our Song",
+        "artist": "Taylor Swift",
+        "output_uri": "s3://jsmith-output/Taylor Swift/Taylor Swift - Best Of [easy Piano]/Songs/Taylor Swift - Our Song.pdf",
+        "file_size_bytes": 676679,
+        "page_range": [
+          72,
+          82
+        ]
+      }
+    ]
+  }
+}

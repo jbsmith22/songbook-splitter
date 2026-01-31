@@ -1,0 +1,223 @@
+{
+  "book_id": "7d56e969770dacee",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "All You Get From Love Is a Love Song",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - All You Get From Love Is A Love Song.pdf",
+        "file_size_bytes": 2084187,
+        "page_range": [
+          5,
+          8
+        ]
+      },
+      {
+        "song_title": "Back in My Life Again",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Back In My Life Again.pdf",
+        "file_size_bytes": 24385076,
+        "page_range": [
+          8,
+          44
+        ]
+      },
+      {
+        "song_title": "The End of the World",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - The End Of The World.pdf",
+        "file_size_bytes": 7651898,
+        "page_range": [
+          44,
+          55
+        ]
+      },
+      {
+        "song_title": "Druscilla Penny",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Druscilla Penny.pdf",
+        "file_size_bytes": 14022235,
+        "page_range": [
+          55,
+          75
+        ]
+      },
+      {
+        "song_title": "Goofus",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Goofus.pdf",
+        "file_size_bytes": 4173384,
+        "page_range": [
+          75,
+          81
+        ]
+      },
+      {
+        "song_title": "I Just Fall in Love Again",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - I Just Fall In Love Again.pdf",
+        "file_size_bytes": 12556975,
+        "page_range": [
+          81,
+          99
+        ]
+      },
+      {
+        "song_title": "It's Going to Take Some Time",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - It's Going To Take Some Time.pdf",
+        "file_size_bytes": 4846789,
+        "page_range": [
+          99,
+          106
+        ]
+      },
+      {
+        "song_title": "Let Me Be the One",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Let Me Be The One.pdf",
+        "file_size_bytes": 2064193,
+        "page_range": [
+          106,
+          109
+        ]
+      },
+      {
+        "song_title": "Make Believe It's Your First Time",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Make Believe It's Your First Time.pdf",
+        "file_size_bytes": 19311693,
+        "page_range": [
+          109,
+          137
+        ]
+      },
+      {
+        "song_title": "Please Mr. Postman",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Please Mr. Postman.pdf",
+        "file_size_bytes": 4147316,
+        "page_range": [
+          137,
+          143
+        ]
+      },
+      {
+        "song_title": "Saturday",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Saturday.pdf",
+        "file_size_bytes": 2133219,
+        "page_range": [
+          143,
+          146
+        ]
+      },
+      {
+        "song_title": "Superstar",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Superstar.pdf",
+        "file_size_bytes": 10092059,
+        "page_range": [
+          146,
+          161
+        ]
+      },
+      {
+        "song_title": "Sometimes",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Sometimes.pdf",
+        "file_size_bytes": 6643095,
+        "page_range": [
+          161,
+          171
+        ]
+      },
+      {
+        "song_title": "Sweet Sweet Smile",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Sweet Sweet Smile.pdf",
+        "file_size_bytes": 3378149,
+        "page_range": [
+          171,
+          176
+        ]
+      },
+      {
+        "song_title": "Ticket to Ride",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Ticket To Ride.pdf",
+        "file_size_bytes": 7669091,
+        "page_range": [
+          176,
+          187
+        ]
+      },
+      {
+        "song_title": "This Masquerade",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - This Masquerade.pdf",
+        "file_size_bytes": 4034615,
+        "page_range": [
+          187,
+          193
+        ]
+      },
+      {
+        "song_title": "Those Good Old Dreams",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Those Good Old Dreams.pdf",
+        "file_size_bytes": 4019952,
+        "page_range": [
+          193,
+          199
+        ]
+      },
+      {
+        "song_title": "Top of the World",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Top Of The World.pdf",
+        "file_size_bytes": 1981522,
+        "page_range": [
+          199,
+          204
+        ]
+      },
+      {
+        "song_title": "WHEN I FALL IN LOVE",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - When I Fall In Love.pdf",
+        "file_size_bytes": 4432065,
+        "page_range": [
+          204,
+          217
+        ]
+      },
+      {
+        "song_title": "Where Do I Go From Here",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Where Do I Go From Here.pdf",
+        "file_size_bytes": 4141419,
+        "page_range": [
+          217,
+          227
+        ]
+      },
+      {
+        "song_title": "Yesterday Once More",
+        "artist": "Carpenters",
+        "output_uri": "s3://jsmith-output/Carpenters/Carpenters - Anthology/Songs/Carpenters - Yesterday Once More.pdf",
+        "file_size_bytes": 3919036,
+        "page_range": [
+          227,
+          232
+        ]
+      }
+    ]
+  }
+}

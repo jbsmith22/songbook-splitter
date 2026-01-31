@@ -1,0 +1,124 @@
+{
+  "book_id": "30394162c9d8c147",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "C'est La Vie",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Endless Enigma Part I",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Endless Enigma Part II",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "From The Beginning",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Believe In Father Christmas",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Karn Evil 9 (1st Impression Part II)",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lucky Man",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Still... You Turn Me On",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take A Pebble",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Trilogy",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "C'est La Vie",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Greatest Hits/Songs/Emerson Lake And Palmer - C'est La Vie.pdf",
+        "file_size_bytes": 364739,
+        "page_range": [
+          10,
+          16
+        ]
+      },
+      {
+        "song_title": "The Endless Enigma Part I",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Greatest Hits/Songs/Emerson Lake And Palmer - The Endless Enigma Part I.pdf",
+        "file_size_bytes": 2226364,
+        "page_range": [
+          16,
+          47
+        ]
+      },
+      {
+        "song_title": "I Believe In Father Christmas",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Greatest Hits/Songs/Emerson Lake And Palmer - I Believe In Father Christmas.pdf",
+        "file_size_bytes": 229784,
+        "page_range": [
+          47,
+          50
+        ]
+      },
+      {
+        "song_title": "Lucky Man",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Greatest Hits/Songs/Emerson Lake And Palmer - Lucky Man.pdf",
+        "file_size_bytes": 252762,
+        "page_range": [
+          50,
+          54
+        ]
+      },
+      {
+        "song_title": "Trilogy",
+        "artist": "Emerson Lake and Palmer",
+        "output_uri": "s3://jsmith-output/Emerson Lake And Palmer/Emerson Lake And Palmer - Greatest Hits/Songs/Emerson Lake And Palmer - Trilogy.pdf",
+        "file_size_bytes": 1774213,
+        "page_range": [
+          54,
+          78
+        ]
+      }
+    ]
+  }
+}

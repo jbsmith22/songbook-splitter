@@ -1,0 +1,33 @@
+{
+  "book_id": "d5d0ee3a592e30b2",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Boo Bop Bop Bop Bop (I Love You, Too)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Kasha & Hirschorn - Pete's Dragon/Songs/Al Kasha And Joel Hirschhorn - Boo Bop Bop Bop Bop (i Love You, Too).pdf",
+        "file_size_bytes": 3233603,
+        "page_range": [
+          3,
+          12
+        ]
+      },
+      {
+        "song_title": "I SAW A DRAGON",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Kasha & Hirschorn - Pete's Dragon/Songs/Al Kasha And Joel Hirschhorn - I Saw A Dragon.pdf",
+        "file_size_bytes": 10785601,
+        "page_range": [
+          12,
+          45
+        ]
+      }
+    ]
+  }
+}

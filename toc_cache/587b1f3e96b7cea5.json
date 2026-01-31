@@ -1,0 +1,140 @@
+{
+  "book_id": "587b1f3e96b7cea5",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "ACROSS THE GREAT DIVIDE",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "AIN'T GOT NO CRIB",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CALIFORNIA MISSION",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CHEST FEVER",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GET UP JAKE",
+        "page_number": 85,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HANDS UP MY ROCK AND ROLL SHIDIS",
+        "page_number": 69,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I MUST PURSUE WHAT'S MINE / YOUNG",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LIFE IS A CARNIVAL",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE NIGHT THEY DROVE OLD DIXIE DOWN",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "KIN MAMA MAS",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE SHAPE I'M IN",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FLIGHT FEIGHT",
+        "page_number": 45,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE UNFAITHFUL SERVANT",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE WEIGHT",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THIS WHEEL'S ON FIRE",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "W. S. WALCOTT MEDICINE SHOW",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "W. S. WALCOTT MEDICINE SHOW",
+        "artist": "The Band",
+        "output_uri": "s3://jsmith-output/The Band/The Band - Rock Of Ages [pvg Book]/Songs/The Band - W. S. Walcott Medicine Show.pdf",
+        "file_size_bytes": 2594905,
+        "page_range": [
+          14,
+          49
+        ]
+      },
+      {
+        "song_title": "CALIFORNIA MISSION",
+        "artist": "The Band",
+        "output_uri": "s3://jsmith-output/The Band/The Band - Rock Of Ages [pvg Book]/Songs/The Band - California Mission.pdf",
+        "file_size_bytes": 71059,
+        "page_range": [
+          49,
+          50
+        ]
+      },
+      {
+        "song_title": "LIFE IS A CARNIVAL",
+        "artist": "The Band",
+        "output_uri": "s3://jsmith-output/The Band/The Band - Rock Of Ages [pvg Book]/Songs/The Band - Life Is A Carnival.pdf",
+        "file_size_bytes": 1382046,
+        "page_range": [
+          50,
+          67
+        ]
+      }
+    ]
+  }
+}

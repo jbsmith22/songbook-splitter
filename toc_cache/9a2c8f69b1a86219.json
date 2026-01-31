@@ -1,0 +1,71 @@
+{
+  "book_id": "9a2c8f69b1a86219",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "\u672c\u66f8\u3067\u4f7f\u7528\u3057\u305f\u30ec\u30b3\u30fc\u30c9",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "\u30ca\u30a4\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30fb\u30b5\u30a6\u30f3\u30c9",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "\u30ae\u30bf\u30fc\u594f\u6cd5\u89e3\u8aac",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SEVEN WISHES",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FOUR IN THE MORNING",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SENTIMENTAL STREET",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THIS BOY NEEDS TO ROCK",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "RUMOURS IN THE AIR",
+        "page_number": 55,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CALL MY NAME",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EDDIE'S COMIN' OUT TONIGHT",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

@@ -1,0 +1,140 @@
+{
+  "book_id": "acdc-anthology",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Back In Black",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For Those About To Rock (We Salute You)",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Girls Got Rhythm",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Highway To Hell",
+        "page_number": 84,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Let Me Put My Love Into You",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love At First Feel",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Moneytalks",
+        "page_number": 136,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Night Prowler",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Razors Edge",
+        "page_number": 127,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ride On",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shake Your Foundations",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shoot To Thrill",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shot Down In Flames",
+        "page_number": 98,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Squealer",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thunderstruck",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Shook Me All Night Long",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "For Those About To Rock (We Salute You)",
+        "artist": "ACDC",
+        "output_uri": "s3://jsmith-output/Acdc/Anthology/Songs/Young-young-johnson - For Those About To Rock (we Salute You).pdf",
+        "file_size_bytes": 2084894,
+        "page_range": [
+          9,
+          30
+        ]
+      },
+      {
+        "song_title": "Let Me Put My Love Into You",
+        "artist": "ACDC",
+        "output_uri": "s3://jsmith-output/Acdc/Anthology/Songs/Angus Young-malcolm Young-brian Johnson - Let Me Put My Love Into You.pdf",
+        "file_size_bytes": 9854094,
+        "page_range": [
+          30,
+          136
+        ]
+      },
+      {
+        "song_title": "You Shook Me All Night Long",
+        "artist": "ACDC",
+        "output_uri": "s3://jsmith-output/Acdc/Anthology/Songs/Angus Young - Malcolm Young - Brian Johnson - You Shook Me All Night Long.pdf",
+        "file_size_bytes": 868617,
+        "page_range": [
+          136,
+          143
+        ]
+      }
+    ]
+  }
+}

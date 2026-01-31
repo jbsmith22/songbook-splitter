@@ -1,0 +1,484 @@
+{
+  "book_id": "broadway-shows-various-artists-beauty-and-the-beast-1994-mti-pc-score-complete",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Overture",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "1a. Prologue",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "2. Belle",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "2a. Belle Playoff",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "2b. Maurice's Entrance",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "3. No Matter What",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "3a. No Matter What Reprise",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "4. Wolf Chase",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "4a. Maurice and the Beast",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "4b. Gaston's Casanova",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "5. Me",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "6. Belle Reprise",
+        "page_number": 71,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "6a. Then I'll Find Him Myself",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "6b. Belle in Castle",
+        "page_number": 75,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "7. Home",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "7a. Home Tag",
+        "page_number": 87,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "8. Gaston",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "8a. Gaston Reprise",
+        "page_number": 115,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "8b. How Long Must This Go On?",
+        "page_number": 127,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "9. Be Our Guest",
+        "page_number": 132,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "9a. Belle in the West Wing",
+        "page_number": 176,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "10. If I Can't Love Her?",
+        "page_number": 172,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "11. Entr'acte",
+        "page_number": 187,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "11a. Wolf Chase # 2",
+        "page_number": 194,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "12. Something There",
+        "page_number": 199,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "13. Human Again",
+        "page_number": 213,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "14. Maison de Lunes",
+        "page_number": 239,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "14a. Before 'Beauty & the Beast'",
+        "page_number": 252,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "15. Beauty & the Beast",
+        "page_number": 253,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "15a. Beast Lets Belle Go",
+        "page_number": 258,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "16. If I Can't Love Her Reprise",
+        "page_number": 261,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "16a. A Change in Me",
+        "page_number": 266,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "16b. Show Me The Beast",
+        "page_number": 276,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "17. The Mob Song",
+        "page_number": 292,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "17a. The Battle",
+        "page_number": 302,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "17b. Fight on the Tower",
+        "page_number": 302,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "18. Is This Home Reprise",
+        "page_number": 308,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "19. Transformation/Finale",
+        "page_number": 311,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "20. Bows",
+        "page_number": 330,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "21. Exit Music",
+        "page_number": 334,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Overture",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - Overture.pdf",
+        "file_size_bytes": 243902,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "1a. Prologue",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - 1a. Prologue.pdf",
+        "file_size_bytes": 519378,
+        "page_range": [
+          6,
+          13
+        ]
+      },
+      {
+        "song_title": "2. Belle",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 2. Belle.pdf",
+        "file_size_bytes": 1873271,
+        "page_range": [
+          13,
+          37
+        ]
+      },
+      {
+        "song_title": "2a. Belle Playoff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 2a. Belle Playoff.pdf",
+        "file_size_bytes": 241229,
+        "page_range": [
+          37,
+          40
+        ]
+      },
+      {
+        "song_title": "2b. Maurice's Entrance",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 2b. Maurice's Entrance.pdf",
+        "file_size_bytes": 50947,
+        "page_range": [
+          40,
+          41
+        ]
+      },
+      {
+        "song_title": "3. No Matter What",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - 3. No Matter What.pdf",
+        "file_size_bytes": 762927,
+        "page_range": [
+          41,
+          50
+        ]
+      },
+      {
+        "song_title": "3a. No Matter What Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 3a. No Matter What Reprise.pdf",
+        "file_size_bytes": 368870,
+        "page_range": [
+          50,
+          55
+        ]
+      },
+      {
+        "song_title": "4. Wolf Chase",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 4. Wolf Chase.pdf",
+        "file_size_bytes": 281375,
+        "page_range": [
+          55,
+          59
+        ]
+      },
+      {
+        "song_title": "4a. Maurice and the Beast",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 4a. Maurice And The Beast.pdf",
+        "file_size_bytes": 3699888,
+        "page_range": [
+          59,
+          109
+        ]
+      },
+      {
+        "song_title": "4b. Gaston's Casanova",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 4b. Gaston's Casanova.pdf",
+        "file_size_bytes": 928946,
+        "page_range": [
+          109,
+          120
+        ]
+      },
+      {
+        "song_title": "6. Belle Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 6. Belle Reprise.pdf",
+        "file_size_bytes": 132836,
+        "page_range": [
+          120,
+          120
+        ]
+      },
+      {
+        "song_title": "8. Gaston",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 8. Gaston.pdf",
+        "file_size_bytes": 10748584,
+        "page_range": [
+          120,
+          265
+        ]
+      },
+      {
+        "song_title": "8a. Gaston Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 8a. Gaston Reprise.pdf",
+        "file_size_bytes": 70400,
+        "page_range": [
+          265,
+          266
+        ]
+      },
+      {
+        "song_title": "16. If I Can't Love Her Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 16. If I Can't Love Her Reprise.pdf",
+        "file_size_bytes": 195805,
+        "page_range": [
+          266,
+          269
+        ]
+      },
+      {
+        "song_title": "16a. A Change in Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - 16a. A Change In Me.pdf",
+        "file_size_bytes": 563425,
+        "page_range": [
+          269,
+          277
+        ]
+      },
+      {
+        "song_title": "16b. Show Me The Beast",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Beauty & The Beast - 16b. Show Me The Beast.pdf",
+        "file_size_bytes": 1260400,
+        "page_range": [
+          277,
+          291
+        ]
+      },
+      {
+        "song_title": "17. The Mob Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 17. The Mob Song.pdf",
+        "file_size_bytes": 671155,
+        "page_range": [
+          291,
+          299
+        ]
+      },
+      {
+        "song_title": "17a. The Battle",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 17a. The Battle.pdf",
+        "file_size_bytes": 477032,
+        "page_range": [
+          299,
+          305
+        ]
+      },
+      {
+        "song_title": "17b. Fight on the Tower",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 17b. Fight On The Tower.pdf",
+        "file_size_bytes": 495768,
+        "page_range": [
+          305,
+          311
+        ]
+      },
+      {
+        "song_title": "18. Is This Home Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 18. Is This Home Reprise.pdf",
+        "file_size_bytes": 180723,
+        "page_range": [
+          311,
+          314
+        ]
+      },
+      {
+        "song_title": "19. Transformation/Finale",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 19. Transformation-finale.pdf",
+        "file_size_bytes": 1688357,
+        "page_range": [
+          314,
+          333
+        ]
+      },
+      {
+        "song_title": "20. Bows",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 20. Bows.pdf",
+        "file_size_bytes": 378892,
+        "page_range": [
+          333,
+          338
+        ]
+      },
+      {
+        "song_title": "21. Exit Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)/Songs/Unknown Artist - 21. Exit Music.pdf",
+        "file_size_bytes": 844799,
+        "page_range": [
+          338,
+          349
+        ]
+      }
+    ]
+  }
+}

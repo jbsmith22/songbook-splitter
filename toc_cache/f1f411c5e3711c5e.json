@@ -1,0 +1,153 @@
+{
+  "book_id": "f1f411c5e3711c5e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "When First My Old, Old Love I Knew",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When First My Old, Old Love I Knew.pdf",
+        "file_size_bytes": 3588068,
+        "page_range": [
+          20,
+          54
+        ]
+      },
+      {
+        "song_title": "We Sail the Ocean Blue",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - We Sail The Ocean Blue.pdf",
+        "file_size_bytes": 953372,
+        "page_range": [
+          54,
+          68
+        ]
+      },
+      {
+        "song_title": "I Am the Monarch of the Sea",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - I Am The Monarch Of The Sea.pdf",
+        "file_size_bytes": 2797848,
+        "page_range": [
+          68,
+          100
+        ]
+      },
+      {
+        "song_title": "When Frederic Was a Little Lad",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When Frederic Was A Little Lad.pdf",
+        "file_size_bytes": 131828,
+        "page_range": [
+          100,
+          102
+        ]
+      },
+      {
+        "song_title": "Oh Better Far to Live and Die",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Oh Better Far To Live And Die.pdf",
+        "file_size_bytes": 1515336,
+        "page_range": [
+          102,
+          125
+        ]
+      },
+      {
+        "song_title": "When the Foeman Bares His Steel",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - When The Foeman Bares His Steel.pdf",
+        "file_size_bytes": 1689916,
+        "page_range": [
+          125,
+          147
+        ]
+      },
+      {
+        "song_title": "Twenty Love-Sick Maidens We",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Twenty Love-sick Maidens We.pdf",
+        "file_size_bytes": 1192151,
+        "page_range": [
+          147,
+          166
+        ]
+      },
+      {
+        "song_title": "The Magnet and the Churn",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - The Magnet And The Churn.pdf",
+        "file_size_bytes": 1729836,
+        "page_range": [
+          166,
+          185
+        ]
+      },
+      {
+        "song_title": "None Shall Part Us",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - None Shall Part Us.pdf",
+        "file_size_bytes": 686241,
+        "page_range": [
+          185,
+          196
+        ]
+      },
+      {
+        "song_title": "Of All the Young Ladies I Know",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Of All The Young Ladies I Know.pdf",
+        "file_size_bytes": 534765,
+        "page_range": [
+          196,
+          204
+        ]
+      },
+      {
+        "song_title": "When All Night Long",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Private Willis - When All Night Long.pdf",
+        "file_size_bytes": 506490,
+        "page_range": [
+          204,
+          212
+        ]
+      },
+      {
+        "song_title": "When You're Lying Awake",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Lord Chancellor - When You're Lying Awake.pdf",
+        "file_size_bytes": 384755,
+        "page_range": [
+          212,
+          218
+        ]
+      },
+      {
+        "song_title": "Faint Heart Never Won Fair Lady",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - Faint Heart Never Won Fair Lady.pdf",
+        "file_size_bytes": 246136,
+        "page_range": [
+          218,
+          222
+        ]
+      },
+      {
+        "song_title": "If We're Weak Enough to Tarry",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/A Treasury Of Gilbert & Sullivan Part 1/Songs/Unknown Artist - If We're Weak Enough To Tarry.pdf",
+        "file_size_bytes": 265264,
+        "page_range": [
+          222,
+          226
+        ]
+      }
+    ]
+  }
+}

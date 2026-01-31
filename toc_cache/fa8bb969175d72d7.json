@@ -1,0 +1,163 @@
+{
+  "book_id": "fa8bb969175d72d7",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "THE SWEETEST THING",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Otis Young - The Sweetest Thing.pdf",
+        "file_size_bytes": 677384,
+        "page_range": [
+          1,
+          25
+        ]
+      },
+      {
+        "song_title": "HELP ME MAKE IT THROUGH THE NIGHT",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Sammi Smith - Help Me Make It Through The Night.pdf",
+        "file_size_bytes": 71220,
+        "page_range": [
+          25,
+          27
+        ]
+      },
+      {
+        "song_title": "THE HAPPIEST GIRL IN THE WHOLE U.S.A.",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Donna Fargo - The Happiest Girl In The Whole U.s.a.pdf",
+        "file_size_bytes": 478266,
+        "page_range": [
+          27,
+          41
+        ]
+      },
+      {
+        "song_title": "MOCKIN' BIRD HILL",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Vaughn Horton - Mockin' Bird Hill.pdf",
+        "file_size_bytes": 427036,
+        "page_range": [
+          41,
+          54
+        ]
+      },
+      {
+        "song_title": "A Rain-y Night in Geor-gia",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Unknown Artist - A Rain-y Night In Geor-gia.pdf",
+        "file_size_bytes": 54118,
+        "page_range": [
+          54,
+          56
+        ]
+      },
+      {
+        "song_title": "Laura (What's He Got That I Ain't Got)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Leon Ashley And Margie Singleton - Laura (what's He Got That I Ain't Got).pdf",
+        "file_size_bytes": 230351,
+        "page_range": [
+          56,
+          63
+        ]
+      },
+      {
+        "song_title": "You Decorated My Life",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Kenny Rogers - You Decorated My Life.pdf",
+        "file_size_bytes": 402858,
+        "page_range": [
+          63,
+          76
+        ]
+      },
+      {
+        "song_title": "'TIL I CAN MAKE IT ON MY OWN",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Tammy Wynette - 'til I Can Make It On My Own.pdf",
+        "file_size_bytes": 78573,
+        "page_range": [
+          76,
+          79
+        ]
+      },
+      {
+        "song_title": "Kids (Say The Darndest Things)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Tammy Bravette - Kids (say The Darndest Things).pdf",
+        "file_size_bytes": 563897,
+        "page_range": [
+          79,
+          98
+        ]
+      },
+      {
+        "song_title": "Listen to the Radio",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Fred O. Knipe - Listen To The Radio.pdf",
+        "file_size_bytes": 298327,
+        "page_range": [
+          98,
+          107
+        ]
+      },
+      {
+        "song_title": "TAKE ME TO YOUR WORLD",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Tammy Wynette - Take Me To Your World.pdf",
+        "file_size_bytes": 323400,
+        "page_range": [
+          107,
+          117
+        ]
+      },
+      {
+        "song_title": "THE LEGEND OF BONNIE AND CLYDE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Merle Haggard And Bonnie Owens - The Legend Of Bonnie And Clyde.pdf",
+        "file_size_bytes": 313670,
+        "page_range": [
+          117,
+          127
+        ]
+      },
+      {
+        "song_title": "Bird Dog",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Boudleaux Bryant - Bird Dog.pdf",
+        "file_size_bytes": 418187,
+        "page_range": [
+          127,
+          142
+        ]
+      },
+      {
+        "song_title": "A Boy Named Sue",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Johnny Cash - A Boy Named Sue.pdf",
+        "file_size_bytes": 259832,
+        "page_range": [
+          142,
+          151
+        ]
+      },
+      {
+        "song_title": "Dreams of the Everyday Housewife",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Country Classics [pvg]/Songs/Chris Gantry - Dreams Of The Everyday Housewife.pdf",
+        "file_size_bytes": 1001632,
+        "page_range": [
+          151,
+          160
+        ]
+      }
+    ]
+  }
+}

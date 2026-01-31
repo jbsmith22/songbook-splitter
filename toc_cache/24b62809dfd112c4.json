@@ -1,0 +1,344 @@
+{
+  "book_id": "24b62809dfd112c4",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "A Man Needs a Maid",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "After the Gold Rush",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Broken Arrow",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Burned",
+        "page_number": 3,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Campaigner",
+        "page_number": 127,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cinnamon Girl",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cortez the Killer",
+        "page_number": 130,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cowgirl in the Sand",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Deep Forbidden Lake",
+        "page_number": 117,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Down by the River",
+        "page_number": 45,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Down to the Wire",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Expecting To Fly",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "For the Turnstiles",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Harvest",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Heart of Gold",
+        "page_number": 71,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Helpless",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Am a Child",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Believe in You",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Like A Hurricane",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Loner",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Long May You Run",
+        "page_number": 134,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Is a Rose",
+        "page_number": 121,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mr. Soul",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Needle and the Damage Done",
+        "page_number": 96,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ohio",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Old Laughing Lady",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Old Man",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Soldier",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Southern Man",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Star of Bethlehem",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sugar Mountain",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tired Eyes",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tonight's the Night",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Walk On",
+        "page_number": 107,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Winterlong",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Burned",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - Burned.pdf",
+        "file_size_bytes": 785951,
+        "page_range": [
+          2,
+          15
+        ]
+      },
+      {
+        "song_title": "Broken Arrow",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - Broken Arrow.pdf",
+        "file_size_bytes": 280408,
+        "page_range": [
+          15,
+          20
+        ]
+      },
+      {
+        "song_title": "Sugar Mountain",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - Sugar Mountain.pdf",
+        "file_size_bytes": 554468,
+        "page_range": [
+          20,
+          28
+        ]
+      },
+      {
+        "song_title": "The Loner",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - The Loner.pdf",
+        "file_size_bytes": 307628,
+        "page_range": [
+          28,
+          33
+        ]
+      },
+      {
+        "song_title": "I Am a Child",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - I Am A Child.pdf",
+        "file_size_bytes": 115613,
+        "page_range": [
+          33,
+          35
+        ]
+      },
+      {
+        "song_title": "Cinnamon Girl",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - Cinnamon Girl.pdf",
+        "file_size_bytes": 238969,
+        "page_range": [
+          35,
+          39
+        ]
+      },
+      {
+        "song_title": "The Old Laughing Lady",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - The Old Laughing Lady.pdf",
+        "file_size_bytes": 296924,
+        "page_range": [
+          39,
+          44
+        ]
+      },
+      {
+        "song_title": "Down by the River",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - Down By The River.pdf",
+        "file_size_bytes": 419341,
+        "page_range": [
+          44,
+          50
+        ]
+      },
+      {
+        "song_title": "Cowgirl in the Sand",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - Cowgirl In The Sand.pdf",
+        "file_size_bytes": 185503,
+        "page_range": [
+          50,
+          53
+        ]
+      },
+      {
+        "song_title": "After the Gold Rush",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - After The Gold Rush.pdf",
+        "file_size_bytes": 315424,
+        "page_range": [
+          53,
+          59
+        ]
+      },
+      {
+        "song_title": "Southern Man",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - Southern Man.pdf",
+        "file_size_bytes": 1453558,
+        "page_range": [
+          59,
+          85
+        ]
+      },
+      {
+        "song_title": "Helpless",
+        "artist": "Neil Young",
+        "output_uri": "s3://jsmith-output/Neil Young/Neil Young - Decade/Songs/Neil Young - Helpless.pdf",
+        "file_size_bytes": 311410,
+        "page_range": [
+          85,
+          91
+        ]
+      }
+    ]
+  }
+}

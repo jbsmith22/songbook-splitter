@@ -1,0 +1,94 @@
+{
+  "book_id": "3bb287a656f88f7f",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Better Days",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Big Muddy",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Souls of the Departed",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Seeds of Freedom",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "If I Should Fall Behind",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Leap of Faith",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Living Proof",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Local Hero",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lucky Town",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Beautiful Reward",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "If I Should Fall Behind",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Lucky Town/Songs/Bruce Springsteen - If I Should Fall Behind.pdf",
+        "file_size_bytes": 1303933,
+        "page_range": [
+          4,
+          10
+        ]
+      },
+      {
+        "song_title": "Leap of Faith",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Bruce Springsteen - Lucky Town/Songs/Bruce Springsteen - Leap Of Faith.pdf",
+        "file_size_bytes": 4362104,
+        "page_range": [
+          10,
+          38
+        ]
+      }
+    ]
+  }
+}

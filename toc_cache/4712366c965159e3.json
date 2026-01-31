@@ -1,0 +1,268 @@
+{
+  "book_id": "4712366c965159e3",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "only the lonely (know the way i feel)",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "leah",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "in dreams",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "up town",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "it's over",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "crying",
+        "page_number": 25,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "dream baby (how long must i dream)",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "blue angel",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "working for the man",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "candy man",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "running scared",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "falling",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "i'm hurtin'",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "claudette",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "oh, pretty woman",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "mean woman blues",
+        "page_number": 65,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ooby-dooby",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "lana",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "blue bayou",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "only the lonely (know the way i feel)",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Only The Lonely (know The Way I Feel).pdf",
+        "file_size_bytes": 250127,
+        "page_range": [
+          5,
+          7
+        ]
+      },
+      {
+        "song_title": "leah",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Leah.pdf",
+        "file_size_bytes": 2650299,
+        "page_range": [
+          7,
+          28
+        ]
+      },
+      {
+        "song_title": "in dreams",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - In Dreams.pdf",
+        "file_size_bytes": 111400,
+        "page_range": [
+          28,
+          29
+        ]
+      },
+      {
+        "song_title": "dream baby (how long must i dream)",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Dream Baby (how Long Must I Dream).pdf",
+        "file_size_bytes": 105896,
+        "page_range": [
+          29,
+          30
+        ]
+      },
+      {
+        "song_title": "blue angel",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Blue Angel.pdf",
+        "file_size_bytes": 378667,
+        "page_range": [
+          30,
+          33
+        ]
+      },
+      {
+        "song_title": "working for the man",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Working For The Man.pdf",
+        "file_size_bytes": 384335,
+        "page_range": [
+          33,
+          36
+        ]
+      },
+      {
+        "song_title": "candy man",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Candy Man.pdf",
+        "file_size_bytes": 1140612,
+        "page_range": [
+          36,
+          45
+        ]
+      },
+      {
+        "song_title": "falling",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Falling.pdf",
+        "file_size_bytes": 505329,
+        "page_range": [
+          45,
+          49
+        ]
+      },
+      {
+        "song_title": "i'm hurtin'",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - I'm Hurtin'.pdf",
+        "file_size_bytes": 1015564,
+        "page_range": [
+          49,
+          57
+        ]
+      },
+      {
+        "song_title": "oh, pretty woman",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Oh, Pretty Woman.pdf",
+        "file_size_bytes": 804826,
+        "page_range": [
+          57,
+          64
+        ]
+      },
+      {
+        "song_title": "mean woman blues",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Mean Woman Blues.pdf",
+        "file_size_bytes": 361521,
+        "page_range": [
+          64,
+          67
+        ]
+      },
+      {
+        "song_title": "ooby-dooby",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Ooby-dooby.pdf",
+        "file_size_bytes": 440254,
+        "page_range": [
+          67,
+          71
+        ]
+      },
+      {
+        "song_title": "lana",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Lana.pdf",
+        "file_size_bytes": 726176,
+        "page_range": [
+          71,
+          77
+        ]
+      },
+      {
+        "song_title": "blue bayou",
+        "artist": "Roy Orbison",
+        "output_uri": "s3://jsmith-output/Roy Orbison/Roy Orbison - Greatest Hits/Songs/Roy Orbison - Blue Bayou.pdf",
+        "file_size_bytes": 380123,
+        "page_range": [
+          77,
+          80
+        ]
+      }
+    ]
+  }
+}

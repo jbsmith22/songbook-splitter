@@ -1,0 +1,63 @@
+{
+  "book_id": "41e7a16f856bb746",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Before You Accuse Me",
+        "artist": "Eric Clapton",
+        "output_uri": "s3://jsmith-output/Eric Clapton/Eric Clapton - Unplugged [book]/Songs/Eric Clapton - Before You Accuse Me.pdf",
+        "file_size_bytes": 3328528,
+        "page_range": [
+          7,
+          27
+        ]
+      },
+      {
+        "song_title": "Malted Milk",
+        "artist": "Eric Clapton",
+        "output_uri": "s3://jsmith-output/Eric Clapton/Eric Clapton - Unplugged [book]/Songs/Eric Clapton - Malted Milk.pdf",
+        "file_size_bytes": 2883252,
+        "page_range": [
+          27,
+          44
+        ]
+      },
+      {
+        "song_title": "Nobody Knows You When You're Down and Out",
+        "artist": "Eric Clapton",
+        "output_uri": "s3://jsmith-output/Eric Clapton/Eric Clapton - Unplugged [book]/Songs/Eric Clapton - Nobody Knows You When You're Down And Out.pdf",
+        "file_size_bytes": 8037660,
+        "page_range": [
+          44,
+          92
+        ]
+      },
+      {
+        "song_title": "Walkin' Blues",
+        "artist": "Eric Clapton",
+        "output_uri": "s3://jsmith-output/Eric Clapton/Eric Clapton - Unplugged [book]/Songs/Eric Clapton - Walkin' Blues.pdf",
+        "file_size_bytes": 1086809,
+        "page_range": [
+          92,
+          98
+        ]
+      },
+      {
+        "song_title": "San Francisco Bay Blues",
+        "artist": "Eric Clapton",
+        "output_uri": "s3://jsmith-output/Eric Clapton/Eric Clapton - Unplugged [book]/Songs/Eric Clapton - San Francisco Bay Blues.pdf",
+        "file_size_bytes": 1318317,
+        "page_range": [
+          98,
+          105
+        ]
+      }
+    ]
+  }
+}

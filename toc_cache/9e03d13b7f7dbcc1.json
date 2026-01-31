@@ -1,0 +1,370 @@
+{
+  "book_id": "9e03d13b7f7dbcc1",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Against All Odds (Take A Look At Me Now)",
+        "page_number": 4,
+        "artist": "Phil Collins",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All Around The World",
+        "page_number": 10,
+        "artist": "Lisa Stansfield",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All Out Of Love",
+        "page_number": 16,
+        "artist": "Air Supply",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Anything For You",
+        "page_number": 20,
+        "artist": "Gloria Estefan",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blue Eyes",
+        "page_number": 25,
+        "artist": "Elton John",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Didn't We Almost Have It All",
+        "page_number": 28,
+        "artist": "Whitney Houston",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Eternal Flame",
+        "page_number": 32,
+        "artist": "The Bangles",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hard To Say I'm Sorry",
+        "page_number": 40,
+        "artist": "Chicago",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Have I Told You Lately",
+        "page_number": 36,
+        "artist": "Van Morrison",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hello",
+        "page_number": 45,
+        "artist": "Lionel Richie",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(I Just) Died In Your Arms Tonight",
+        "page_number": 48,
+        "artist": "Cutting Crew",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Want To Know What Love Is",
+        "page_number": 62,
+        "artist": "Foreigner",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It Must Be Love",
+        "page_number": 66,
+        "artist": "Madness",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(I've Had) The Time Of My Life",
+        "page_number": 55,
+        "artist": "Bill Medley & Jennifer Warnes",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Keep On Loving You",
+        "page_number": 71,
+        "artist": "REO Speedwagon",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Changes Everything",
+        "page_number": 76,
+        "artist": "Michael Crawford",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Nothing's Gonna Stop Us Now",
+        "page_number": 81,
+        "artist": "Starship",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Power Of Love",
+        "page_number": 86,
+        "artist": "Frankie Goes To Hollywood",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Somewhere Out There",
+        "page_number": 92,
+        "artist": "Linda Ronstadt & James Ingram",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Take My Breath Away",
+        "page_number": 97,
+        "artist": "Berlin",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Time After Time",
+        "page_number": 102,
+        "artist": "Cyndi Lauper",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Up Where We Belong",
+        "page_number": 108,
+        "artist": "Joe Cocker & Jennifer Warnes",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Winner Takes It All",
+        "page_number": 112,
+        "artist": "Abba",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Woman",
+        "page_number": 121,
+        "artist": "John Lennon",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Woman In Love",
+        "page_number": 124,
+        "artist": "Barbra Streisand",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Against All Odds (Take A Look At Me Now)": "Phil Collins",
+      "All Around The World": "Lisa Stansfield",
+      "All Out Of Love": "Air Supply",
+      "Anything For You": "Gloria Estefan",
+      "Blue Eyes": "Elton John",
+      "Didn't We Almost Have It All": "Whitney Houston",
+      "Eternal Flame": "The Bangles",
+      "Hard To Say I'm Sorry": "Chicago",
+      "Have I Told You Lately": "Van Morrison",
+      "Hello": "Lionel Richie",
+      "(I Just) Died In Your Arms Tonight": "Cutting Crew",
+      "I Want To Know What Love Is": "Foreigner",
+      "It Must Be Love": "Madness",
+      "(I've Had) The Time Of My Life": "Bill Medley & Jennifer Warnes",
+      "Keep On Loving You": "REO Speedwagon",
+      "Love Changes Everything": "Michael Crawford",
+      "Nothing's Gonna Stop Us Now": "Starship",
+      "The Power Of Love": "Frankie Goes To Hollywood",
+      "Somewhere Out There": "Linda Ronstadt & James Ingram",
+      "Take My Breath Away": "Berlin",
+      "Time After Time": "Cyndi Lauper",
+      "Up Where We Belong": "Joe Cocker & Jennifer Warnes",
+      "The Winner Takes It All": "Abba",
+      "Woman": "John Lennon",
+      "A Woman In Love": "Barbra Streisand"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Phil Collins - Against All Odds (take A Look At Me Now).pdf",
+        "file_size_bytes": 1360044,
+        "page_range": [
+          4,
+          25
+        ]
+      },
+      {
+        "song_title": "Blue Eyes",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Elton John - Blue Eyes.pdf",
+        "file_size_bytes": 236188,
+        "page_range": [
+          25,
+          28
+        ]
+      },
+      {
+        "song_title": "Didn't We Almost Have It All",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Whitney Houston - Didn't We Almost Have It All.pdf",
+        "file_size_bytes": 342274,
+        "page_range": [
+          28,
+          32
+        ]
+      },
+      {
+        "song_title": "Eternal Flame",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/The Bangles - Eternal Flame.pdf",
+        "file_size_bytes": 952406,
+        "page_range": [
+          32,
+          45
+        ]
+      },
+      {
+        "song_title": "Hello",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Lionel Richie - Hello.pdf",
+        "file_size_bytes": 236238,
+        "page_range": [
+          45,
+          48
+        ]
+      },
+      {
+        "song_title": "(I Just) Died In Your Arms Tonight",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Cutting Crew - (i Just) Died In Your Arms Tonight.pdf",
+        "file_size_bytes": 544406,
+        "page_range": [
+          48,
+          55
+        ]
+      },
+      {
+        "song_title": "(I've Had) The Time Of My Life",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Bill Medley & Jennifer Warnes - (i've Had) The Time Of My Life.pdf",
+        "file_size_bytes": 545779,
+        "page_range": [
+          55,
+          62
+        ]
+      },
+      {
+        "song_title": "I Want To Know What Love Is",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Foreigner - I Want To Know What Love Is.pdf",
+        "file_size_bytes": 303390,
+        "page_range": [
+          62,
+          66
+        ]
+      },
+      {
+        "song_title": "It Must Be Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Madness - It Must Be Love.pdf",
+        "file_size_bytes": 314307,
+        "page_range": [
+          66,
+          71
+        ]
+      },
+      {
+        "song_title": "Keep On Loving You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Reo Speedwagon - Keep On Loving You.pdf",
+        "file_size_bytes": 316408,
+        "page_range": [
+          71,
+          76
+        ]
+      },
+      {
+        "song_title": "Love Changes Everything",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Michael Crawford - Love Changes Everything.pdf",
+        "file_size_bytes": 320434,
+        "page_range": [
+          76,
+          81
+        ]
+      },
+      {
+        "song_title": "Nothing's Gonna Stop Us Now",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Starship - Nothing's Gonna Stop Us Now.pdf",
+        "file_size_bytes": 317909,
+        "page_range": [
+          81,
+          86
+        ]
+      },
+      {
+        "song_title": "The Power Of Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Frankie Goes To Hollywood - The Power Of Love.pdf",
+        "file_size_bytes": 357263,
+        "page_range": [
+          86,
+          92
+        ]
+      },
+      {
+        "song_title": "Somewhere Out There",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Linda Ronstadt & James Ingram - Somewhere Out There.pdf",
+        "file_size_bytes": 399772,
+        "page_range": [
+          92,
+          97
+        ]
+      },
+      {
+        "song_title": "Take My Breath Away",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Berlin - Take My Breath Away.pdf",
+        "file_size_bytes": 774690,
+        "page_range": [
+          97,
+          108
+        ]
+      },
+      {
+        "song_title": "Up Where We Belong",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Joe Cocker & Jennifer Warnes - Up Where We Belong.pdf",
+        "file_size_bytes": 351162,
+        "page_range": [
+          108,
+          112
+        ]
+      },
+      {
+        "song_title": "The Winner Takes It All",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/Abba - The Winner Takes It All.pdf",
+        "file_size_bytes": 1070380,
+        "page_range": [
+          112,
+          127
+        ]
+      },
+      {
+        "song_title": "Woman",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Greatest Love Songs Of The 80s/Songs/John Lennon - Woman.pdf",
+        "file_size_bytes": 521143,
+        "page_range": [
+          127,
+          131
+        ]
+      }
+    ]
+  }
+}

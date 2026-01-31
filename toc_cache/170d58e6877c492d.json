@@ -1,0 +1,203 @@
+{
+  "book_id": "170d58e6877c492d",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Great Big Stuff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Dirty Rotten Scoundrels - Great Big Stuff.pdf",
+        "file_size_bytes": 431213,
+        "page_range": [
+          21,
+          23
+        ]
+      },
+      {
+        "song_title": "Great Big Stuff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Dirty Rotten Scoundrels - Great Big Stuff.pdf",
+        "file_size_bytes": 742697,
+        "page_range": [
+          23,
+          26
+        ]
+      },
+      {
+        "song_title": "6 GREAT BIG STUFF",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Dirty Rotten Scoundrels - 6 Great Big Stuff.pdf",
+        "file_size_bytes": 877399,
+        "page_range": [
+          26,
+          30
+        ]
+      },
+      {
+        "song_title": "10 Great Big Stuff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Daryl Runswick - 10 Great Big Stuff.pdf",
+        "file_size_bytes": 2249433,
+        "page_range": [
+          30,
+          40
+        ]
+      },
+      {
+        "song_title": "Oklahoma - Part One",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Dirty Rotten Scoundrels - Oklahoma - Part One.pdf",
+        "file_size_bytes": 5147584,
+        "page_range": [
+          40,
+          61
+        ]
+      },
+      {
+        "song_title": "Here I Am",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Unknown Artist - Here I Am.pdf",
+        "file_size_bytes": 829812,
+        "page_range": [
+          61,
+          64
+        ]
+      },
+      {
+        "song_title": "Here I Am",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Unknown Artist - Here I Am.pdf",
+        "file_size_bytes": 1032835,
+        "page_range": [
+          64,
+          68
+        ]
+      },
+      {
+        "song_title": "Nothing Is Part One",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Unknown Artist - Nothing Is Part One.pdf",
+        "file_size_bytes": 1081240,
+        "page_range": [
+          68,
+          72
+        ]
+      },
+      {
+        "song_title": "NOTHING IS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Daryl Runswick - Nothing Is.pdf",
+        "file_size_bytes": 3719817,
+        "page_range": [
+          72,
+          88
+        ]
+      },
+      {
+        "song_title": "Shufflehausen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Dirty Rotten Scoundrels - Shufflehausen.pdf",
+        "file_size_bytes": 4159439,
+        "page_range": [
+          88,
+          105
+        ]
+      },
+      {
+        "song_title": "THE MORE WE DANCE\u2014Part One",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/David Ackles - The More We Dance\u2014part One.pdf",
+        "file_size_bytes": 452627,
+        "page_range": [
+          105,
+          107
+        ]
+      },
+      {
+        "song_title": "The More We Dance",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Derry Roderic Secundus - The More We Dance.pdf",
+        "file_size_bytes": 836040,
+        "page_range": [
+          107,
+          111
+        ]
+      },
+      {
+        "song_title": "THE MORE WE DANCE\u2014Part Two",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Dirty Rotten Scoundrels - The More We Dance\u2014part Two.pdf",
+        "file_size_bytes": 437202,
+        "page_range": [
+          111,
+          113
+        ]
+      },
+      {
+        "song_title": "3. THE MORE WE DANCE - Part Two",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Darry Ronen Sommerstein - 3. The More We Dance - Part Two.pdf",
+        "file_size_bytes": 496136,
+        "page_range": [
+          113,
+          115
+        ]
+      },
+      {
+        "song_title": "The More We Dance...Part Two",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Unknown Artist - The More We Dance...part Two.pdf",
+        "file_size_bytes": 1120249,
+        "page_range": [
+          115,
+          120
+        ]
+      },
+      {
+        "song_title": "The More We Dance",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Unknown Artist - The More We Dance.pdf",
+        "file_size_bytes": 1795798,
+        "page_range": [
+          120,
+          128
+        ]
+      },
+      {
+        "song_title": "Love is my legs",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Daryl Rotter Secundus - Love Is My Legs.pdf",
+        "file_size_bytes": 244175,
+        "page_range": [
+          128,
+          129
+        ]
+      },
+      {
+        "song_title": "7 LOVE IS MY LEGS",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Daryl Runswick - 7 Love Is My Legs.pdf",
+        "file_size_bytes": 1919902,
+        "page_range": [
+          129,
+          137
+        ]
+      },
+      {
+        "song_title": "The Reckoning",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Dirty Rotten Scoundrels (piano-vocal)/Songs/Unknown Artist - The Reckoning.pdf",
+        "file_size_bytes": 3700007,
+        "page_range": [
+          137,
+          153
+        ]
+      }
+    ]
+  }
+}

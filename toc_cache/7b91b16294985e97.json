@@ -1,0 +1,429 @@
+{
+  "book_id": "7b91b16294985e97",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "BAD MEDICINE",
+        "page_number": 2,
+        "artist": "BON JOVI",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CENTERFOLD",
+        "page_number": 8,
+        "artist": "J. GEILS BAND",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DON'T YOU (FORGET ABOUT ME)",
+        "page_number": 14,
+        "artist": "SIMPLE MINDS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EVERY BREATH YOU TAKE",
+        "page_number": 18,
+        "artist": "THE POLICE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EVERY ROSE HAS ITS THORN",
+        "page_number": 20,
+        "artist": "POISON",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FAITH",
+        "page_number": 26,
+        "artist": "GEORGE MICHAEL",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FOREVER YOUNG",
+        "page_number": 23,
+        "artist": "ROD STEWART",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HEART AND SOUL",
+        "page_number": 40,
+        "artist": "HUEY LEWIS & THE NEWS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HOLD ME NOW",
+        "page_number": 50,
+        "artist": "THOMPSON TWINS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I LOVE ROCK 'N ROLL",
+        "page_number": 46,
+        "artist": "JOAN JETT",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IF YOU LOVE SOMEBODY SET THEM FREE",
+        "page_number": 62,
+        "artist": "STING",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT'S STILL ROCK AND ROLL TO ME",
+        "page_number": 54,
+        "artist": "BILLY JOEL",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE BITES",
+        "page_number": 72,
+        "artist": "DEF LEPPARD",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "LOVE IS A BATTLEFIELD",
+        "page_number": 78,
+        "artist": "PAT BENATAR",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MANIAC",
+        "page_number": 67,
+        "artist": "MICHAEL SEMBELLO",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NIKITA",
+        "page_number": 84,
+        "artist": "ELTON JOHN",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NOBODY'S FOOL",
+        "page_number": 89,
+        "artist": "CINDERELLA",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ONCE BITTEN TWICE SHY",
+        "page_number": 94,
+        "artist": "GREAT WHITE",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "POUR SOME SUGAR ON ME",
+        "page_number": 100,
+        "artist": "DEF LEPPARD",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PRIDE (IN THE NAME OF LOVE)",
+        "page_number": 106,
+        "artist": "U2",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ROUND AND ROUND",
+        "page_number": 111,
+        "artist": "RATT",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SAY SAY SAY",
+        "page_number": 116,
+        "artist": "PAUL McCARTNEY & MICHAEL JACKSON",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SISTER CHRISTIAN",
+        "page_number": 120,
+        "artist": "NIGHT RANGER",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SOMEBODY SAVE ME",
+        "page_number": 123,
+        "artist": "CINDERELLA",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SWEET DREAMS (ARE MADE OF THIS)",
+        "page_number": 130,
+        "artist": "EURYTHMICS",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TALK DIRTY TO ME",
+        "page_number": 136,
+        "artist": "POISON",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WALK THIS WAY",
+        "page_number": 148,
+        "artist": "RUN D.M.C",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WE BUILT THIS CITY",
+        "page_number": 154,
+        "artist": "STARSHIP",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WE'RE NOT GONNA TAKE IT",
+        "page_number": 160,
+        "artist": "TWISTED SISTER",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHAT'S LOVE GOT TO DO WITH IT",
+        "page_number": 143,
+        "artist": "TINA TURNER",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WITH OR WITHOUT YOU",
+        "page_number": 184,
+        "artist": "U2",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU GIVE LOVE A BAD NAME",
+        "page_number": 171,
+        "artist": "BON JOVI",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "BAD MEDICINE": "BON JOVI",
+      "CENTERFOLD": "J. GEILS BAND",
+      "DON'T YOU (FORGET ABOUT ME)": "SIMPLE MINDS",
+      "EVERY BREATH YOU TAKE": "THE POLICE",
+      "EVERY ROSE HAS ITS THORN": "POISON",
+      "FAITH": "GEORGE MICHAEL",
+      "FOREVER YOUNG": "ROD STEWART",
+      "HEART AND SOUL": "HUEY LEWIS & THE NEWS",
+      "HOLD ME NOW": "THOMPSON TWINS",
+      "I LOVE ROCK 'N ROLL": "JOAN JETT",
+      "IF YOU LOVE SOMEBODY SET THEM FREE": "STING",
+      "IT'S STILL ROCK AND ROLL TO ME": "BILLY JOEL",
+      "LOVE BITES": "DEF LEPPARD",
+      "LOVE IS A BATTLEFIELD": "PAT BENATAR",
+      "MANIAC": "MICHAEL SEMBELLO",
+      "NIKITA": "ELTON JOHN",
+      "NOBODY'S FOOL": "CINDERELLA",
+      "ONCE BITTEN TWICE SHY": "GREAT WHITE",
+      "POUR SOME SUGAR ON ME": "DEF LEPPARD",
+      "PRIDE (IN THE NAME OF LOVE)": "U2",
+      "ROUND AND ROUND": "RATT",
+      "SAY SAY SAY": "PAUL McCARTNEY & MICHAEL JACKSON",
+      "SISTER CHRISTIAN": "NIGHT RANGER",
+      "SOMEBODY SAVE ME": "CINDERELLA",
+      "SWEET DREAMS (ARE MADE OF THIS)": "EURYTHMICS",
+      "TALK DIRTY TO ME": "POISON",
+      "WALK THIS WAY": "RUN D.M.C",
+      "WE BUILT THIS CITY": "STARSHIP",
+      "WE'RE NOT GONNA TAKE IT": "TWISTED SISTER",
+      "WHAT'S LOVE GOT TO DO WITH IT": "TINA TURNER",
+      "WITH OR WITHOUT YOU": "U2",
+      "YOU GIVE LOVE A BAD NAME": "BON JOVI"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "BAD MEDICINE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Bon Jovi - Bad Medicine.pdf",
+        "file_size_bytes": 23885944,
+        "page_range": [
+          2,
+          59
+        ]
+      },
+      {
+        "song_title": "DON'T YOU (FORGET ABOUT ME)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Simple Minds - Don't You (forget About Me).pdf",
+        "file_size_bytes": 2538151,
+        "page_range": [
+          59,
+          65
+        ]
+      },
+      {
+        "song_title": "EVERY BREATH YOU TAKE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/The Police - Every Breath You Take.pdf",
+        "file_size_bytes": 8434961,
+        "page_range": [
+          65,
+          85
+        ]
+      },
+      {
+        "song_title": "IT'S STILL ROCK AND ROLL TO ME",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Billy Joel - It's Still Rock And Roll To Me.pdf",
+        "file_size_bytes": 1657305,
+        "page_range": [
+          85,
+          89
+        ]
+      },
+      {
+        "song_title": "NOBODY'S FOOL",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Cinderella - Nobody's Fool.pdf",
+        "file_size_bytes": 2073705,
+        "page_range": [
+          89,
+          94
+        ]
+      },
+      {
+        "song_title": "ONCE BITTEN TWICE SHY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Great White - Once Bitten Twice Shy.pdf",
+        "file_size_bytes": 2237960,
+        "page_range": [
+          94,
+          100
+        ]
+      },
+      {
+        "song_title": "POUR SOME SUGAR ON ME",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Def Leppard - Pour Some Sugar On Me.pdf",
+        "file_size_bytes": 2353304,
+        "page_range": [
+          100,
+          106
+        ]
+      },
+      {
+        "song_title": "PRIDE (IN THE NAME OF LOVE)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/U2 - Pride (in The Name Of Love).pdf",
+        "file_size_bytes": 2124659,
+        "page_range": [
+          106,
+          111
+        ]
+      },
+      {
+        "song_title": "ROUND AND ROUND",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Ratt - Round And Round.pdf",
+        "file_size_bytes": 2176285,
+        "page_range": [
+          111,
+          116
+        ]
+      },
+      {
+        "song_title": "SAY SAY SAY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Paul Mccartney & Michael Jackson - Say Say Say.pdf",
+        "file_size_bytes": 1843329,
+        "page_range": [
+          116,
+          120
+        ]
+      },
+      {
+        "song_title": "SISTER CHRISTIAN",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Night Ranger - Sister Christian.pdf",
+        "file_size_bytes": 1344640,
+        "page_range": [
+          120,
+          123
+        ]
+      },
+      {
+        "song_title": "SOMEBODY SAVE ME",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Cinderella - Somebody Save Me.pdf",
+        "file_size_bytes": 2662809,
+        "page_range": [
+          123,
+          130
+        ]
+      },
+      {
+        "song_title": "SWEET DREAMS (ARE MADE OF THIS)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Eurythmics - Sweet Dreams (are Made Of This).pdf",
+        "file_size_bytes": 2274446,
+        "page_range": [
+          130,
+          136
+        ]
+      },
+      {
+        "song_title": "TALK DIRTY TO ME",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Poison - Talk Dirty To Me.pdf",
+        "file_size_bytes": 2762789,
+        "page_range": [
+          136,
+          143
+        ]
+      },
+      {
+        "song_title": "WHAT'S LOVE GOT TO DO WITH IT",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Tina Turner - What's Love Got To Do With It.pdf",
+        "file_size_bytes": 2220336,
+        "page_range": [
+          143,
+          148
+        ]
+      },
+      {
+        "song_title": "WALK THIS WAY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Run D.m.c - Walk This Way.pdf",
+        "file_size_bytes": 2104073,
+        "page_range": [
+          148,
+          154
+        ]
+      },
+      {
+        "song_title": "WE BUILT THIS CITY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Starship - We Built This City.pdf",
+        "file_size_bytes": 1873063,
+        "page_range": [
+          154,
+          159
+        ]
+      },
+      {
+        "song_title": "WE'RE NOT GONNA TAKE IT",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Twisted Sister - We're Not Gonna Take It.pdf",
+        "file_size_bytes": 4927897,
+        "page_range": [
+          159,
+          171
+        ]
+      },
+      {
+        "song_title": "YOU GIVE LOVE A BAD NAME",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of 80s Rock [pvg]/Songs/Bon Jovi - You Give Love A Bad Name.pdf",
+        "file_size_bytes": 3357514,
+        "page_range": [
+          171,
+          178
+        ]
+      }
+    ]
+  }
+}

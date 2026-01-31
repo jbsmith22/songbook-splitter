@@ -1,0 +1,223 @@
+{
+  "book_id": "c4babb3ffeab0d16",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "THE ACCIDENTAL TOURIST, THEME FROM . . .THE ACCIDENTAL TOURIST (1988)",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ARTHUR'S THEME (BEST THAT YOU COULD DO)",
+        "page_number": 15,
+        "artist": "ARTHUR (1981)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE BATMAN THEME",
+        "page_number": 93,
+        "artist": "BATMAN (1989)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BEAUTIFUL MARIA OF MY SOUL",
+        "page_number": 153,
+        "artist": "THE MAMBO KINGS (1992)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CHARIOTS OF FIRE",
+        "page_number": 20,
+        "artist": "CHARIOTS OF FIRE (1981)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CLAUDIA'S THEME",
+        "page_number": 149,
+        "artist": "UNFORGIVEN (1992)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CONTACT (MAIN TITLE)",
+        "page_number": 248,
+        "artist": "CONTACT (1997)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CRAZY FOR YOU",
+        "page_number": 61,
+        "artist": "VISION QUEST (1985)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DOE EYES (LOVE THEME FROM \"THE BRIDGES OF MADISON COUNTY\")",
+        "page_number": 207,
+        "artist": "THE BRIDGES OF MADISON COUNTY (1995)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DRIVING MISS DAISY",
+        "page_number": 99,
+        "artist": "DRIVING MISS DAISY (1989)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EXSULTATE JUSTI",
+        "page_number": 76,
+        "artist": "EMPIRE OF THE SUN (1987)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FACE TO FACE",
+        "page_number": 131,
+        "artist": "BATMAN RETURNS (1992)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FREE TO GO",
+        "page_number": 263,
+        "artist": "U.S. MARSHALS (1998)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FREE WILLY (MAIN TITLE THEME)",
+        "page_number": 169,
+        "artist": "FREE WILLY (1993)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE FUGITIVE (MAIN TITLE)",
+        "page_number": 177,
+        "artist": "THE FUGITIVE (1993)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GIZMO (THEME FROM \"GREMLINS\")",
+        "page_number": 42,
+        "artist": "GREMLINS (1984)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "GOTHAM CITY",
+        "page_number": 242,
+        "artist": "BATMAN AND ROBIN (1997)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HOW DO YOU KEEP THE MUSIC PLAYING?",
+        "page_number": 23,
+        "artist": "BEST FRIENDS (1982)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I BELIEVE I CAN FLY",
+        "page_number": 232,
+        "artist": "SPACE JAM (1996)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I CROSS MY HEART",
+        "page_number": 160,
+        "artist": "PURE COUNTRY (1992)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(EVERYTHING I DO) I DO IT FOR YOU",
+        "page_number": 120,
+        "artist": "ROBIN HOOD: PRINCE OF THIEVES (1991)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I WILL ALWAYS LOVE YOU",
+        "page_number": 137,
+        "artist": "THE BODYGUARD (1992)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'LL REMEMBER",
+        "page_number": 189,
+        "artist": "WITH HONORS (1994)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'M ALRIGHT",
+        "page_number": 7,
+        "artist": "CADDYSHACK (1980)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT'S PROBABLY ME",
+        "page_number": 141,
+        "artist": "LETHAL WEAPON 3 (1992)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JFK, THEME FROM",
+        "page_number": 116,
+        "artist": "JFK (1991)",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JUST CAUSE (MAIN TITLE)",
+        "page_number": 204,
+        "artist": "JUST CAUSE (1995)",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "ARTHUR'S THEME (BEST THAT YOU COULD DO)": "ARTHUR (1981)",
+      "THE BATMAN THEME": "BATMAN (1989)",
+      "BEAUTIFUL MARIA OF MY SOUL": "THE MAMBO KINGS (1992)",
+      "CHARIOTS OF FIRE": "CHARIOTS OF FIRE (1981)",
+      "CLAUDIA'S THEME": "UNFORGIVEN (1992)",
+      "CONTACT (MAIN TITLE)": "CONTACT (1997)",
+      "CRAZY FOR YOU": "VISION QUEST (1985)",
+      "DOE EYES (LOVE THEME FROM \"THE BRIDGES OF MADISON COUNTY\")": "THE BRIDGES OF MADISON COUNTY (1995)",
+      "DRIVING MISS DAISY": "DRIVING MISS DAISY (1989)",
+      "EXSULTATE JUSTI": "EMPIRE OF THE SUN (1987)",
+      "FACE TO FACE": "BATMAN RETURNS (1992)",
+      "FREE TO GO": "U.S. MARSHALS (1998)",
+      "FREE WILLY (MAIN TITLE THEME)": "FREE WILLY (1993)",
+      "THE FUGITIVE (MAIN TITLE)": "THE FUGITIVE (1993)",
+      "GIZMO (THEME FROM \"GREMLINS\")": "GREMLINS (1984)",
+      "GOTHAM CITY": "BATMAN AND ROBIN (1997)",
+      "HOW DO YOU KEEP THE MUSIC PLAYING?": "BEST FRIENDS (1982)",
+      "I BELIEVE I CAN FLY": "SPACE JAM (1996)",
+      "I CROSS MY HEART": "PURE COUNTRY (1992)",
+      "(EVERYTHING I DO) I DO IT FOR YOU": "ROBIN HOOD: PRINCE OF THIEVES (1991)",
+      "I WILL ALWAYS LOVE YOU": "THE BODYGUARD (1992)",
+      "I'LL REMEMBER": "WITH HONORS (1994)",
+      "I'M ALRIGHT": "CADDYSHACK (1980)",
+      "IT'S PROBABLY ME": "LETHAL WEAPON 3 (1992)",
+      "JFK, THEME FROM": "JFK (1991)",
+      "JUST CAUSE (MAIN TITLE)": "JUST CAUSE (1995)"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "I'M ALRIGHT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Warner Bros 75th Anniversary/Songs/Caddyshack (1980) - I'm Alright.pdf",
+        "file_size_bytes": 2710062,
+        "page_range": [
+          92,
+          195
+        ]
+      },
+      {
+        "song_title": "THE ACCIDENTAL TOURIST, THEME FROM . . .THE ACCIDENTAL TOURIST (1988)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Warner Bros 75th Anniversary/Songs/John Williams - The Accidental Tourist, Theme From . . .the Accidental Tourist (1988).pdf",
+        "file_size_bytes": 1079331,
+        "page_range": [
+          195,
+          216
+        ]
+      }
+    ]
+  }
+}

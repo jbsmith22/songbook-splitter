@@ -1,0 +1,174 @@
+{
+  "book_id": "genesis-best-of-vol-1",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "DANCING WITH THE MOONLIGHT KNIGHT",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE BATTLE OF EPPING FOREST",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BLOOD ON THE ROOFTOPS",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ALONE TONIGHT",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ABACAB",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MAMA",
+        "page_number": 41,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THAT'S ALL",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ILLEGAL ALIEN",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I CAN'T DANCE",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IN TOO DEEP",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "DANCING WITH THE MOONLIGHT KNIGHT",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - Dancing With The Moonlight Knight.pdf",
+        "file_size_bytes": 1203821,
+        "page_range": [
+          2,
+          14
+        ]
+      },
+      {
+        "song_title": "THE BATTLE OF EPPING FOREST",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - The Battle Of Epping Forest.pdf",
+        "file_size_bytes": 1293287,
+        "page_range": [
+          14,
+          26
+        ]
+      },
+      {
+        "song_title": "BLOOD ON THE ROOFTOPS",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - Blood On The Rooftops.pdf",
+        "file_size_bytes": 444818,
+        "page_range": [
+          26,
+          30
+        ]
+      },
+      {
+        "song_title": "ALONE TONIGHT",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - Alone Tonight.pdf",
+        "file_size_bytes": 427505,
+        "page_range": [
+          30,
+          34
+        ]
+      },
+      {
+        "song_title": "ABACAB",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - Abacab.pdf",
+        "file_size_bytes": 650249,
+        "page_range": [
+          34,
+          41
+        ]
+      },
+      {
+        "song_title": "MAMA",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - Mama.pdf",
+        "file_size_bytes": 498107,
+        "page_range": [
+          41,
+          46
+        ]
+      },
+      {
+        "song_title": "THAT'S ALL",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - That's All.pdf",
+        "file_size_bytes": 498191,
+        "page_range": [
+          46,
+          50
+        ]
+      },
+      {
+        "song_title": "ILLEGAL ALIEN",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - Illegal Alien.pdf",
+        "file_size_bytes": 736144,
+        "page_range": [
+          50,
+          57
+        ]
+      },
+      {
+        "song_title": "I CAN'T DANCE",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - I Can't Dance.pdf",
+        "file_size_bytes": 342231,
+        "page_range": [
+          57,
+          60
+        ]
+      },
+      {
+        "song_title": "IN TOO DEEP",
+        "artist": "Genesis",
+        "output_uri": "s3://jsmith-output/Genesis/Best Of Vol 1/Songs/Genesis - In Too Deep.pdf",
+        "file_size_bytes": 426528,
+        "page_range": [
+          60,
+          64
+        ]
+      }
+    ]
+  }
+}

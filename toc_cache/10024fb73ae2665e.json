@@ -1,0 +1,32 @@
+{
+  "book_id": "10024fb73ae2665e",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Ain't Going Down ('Til The Sun Comes Up)",
+        "page_number": 3,
+        "artist": "Garth Brooks",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Ain't Going Down ('Til The Sun Comes Up)": "Garth Brooks"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Ain't Going Down ('Til The Sun Comes Up)",
+        "artist": "Garth Brooks",
+        "output_uri": "s3://jsmith-output/Garth Brooks/Garth Brooks - The Hits [guitar Tab]/Songs/Garth Brooks - Ain't Going Down ('til The Sun Comes Up).pdf",
+        "file_size_bytes": 27603266,
+        "page_range": [
+          1,
+          152
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "book_id": "journey-greatest-hits-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Any Way You Want It",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Stop Believin'",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Faithfully",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lovin', Touchin', Squeezin'",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Open Arms",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Send Her My Love",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Separate Ways (Worlds Apart)",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Stay Awhile",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Still They Ride",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Walks Like A Lady",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wheel In The Sky",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Who's Cryin' Now",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Open Arms",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Greatest Hits (book)/Songs/Journey - Open Arms.pdf",
+        "file_size_bytes": 409940,
+        "page_range": [
+          3,
+          19
+        ]
+      },
+      {
+        "song_title": "Send Her My Love",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Greatest Hits (book)/Songs/Journey - Send Her My Love.pdf",
+        "file_size_bytes": 196076,
+        "page_range": [
+          19,
+          24
+        ]
+      },
+      {
+        "song_title": "Faithfully",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Greatest Hits (book)/Songs/Journey - Faithfully.pdf",
+        "file_size_bytes": 274230,
+        "page_range": [
+          24,
+          35
+        ]
+      },
+      {
+        "song_title": "Any Way You Want It",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Greatest Hits (book)/Songs/Journey - Any Way You Want It.pdf",
+        "file_size_bytes": 508529,
+        "page_range": [
+          35,
+          54
+        ]
+      },
+      {
+        "song_title": "Lovin', Touchin', Squeezin'",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Greatest Hits (book)/Songs/Journey - Lovin', Touchin', Squeezin'.pdf",
+        "file_size_bytes": 1006536,
+        "page_range": [
+          54,
+          61
+        ]
+      }
+    ]
+  }
+}

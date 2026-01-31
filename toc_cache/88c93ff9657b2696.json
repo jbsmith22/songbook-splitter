@@ -1,0 +1,73 @@
+{
+  "book_id": "88c93ff9657b2696",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Boys of Summer",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Heavy Rock Hits Of The 80s [pvg]/Songs/Don Henley And Mike Campbell - The Boys Of Summer.pdf",
+        "file_size_bytes": 1703595,
+        "page_range": [
+          2,
+          7
+        ]
+      },
+      {
+        "song_title": "Can't Fight This Feeling",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Heavy Rock Hits Of The 80s [pvg]/Songs/Kevin Cronin - Can't Fight This Feeling.pdf",
+        "file_size_bytes": 3157214,
+        "page_range": [
+          7,
+          15
+        ]
+      },
+      {
+        "song_title": "Dance Hall Days",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Heavy Rock Hits Of The 80s [pvg]/Songs/Jack Hues - Dance Hall Days.pdf",
+        "file_size_bytes": 6748403,
+        "page_range": [
+          15,
+          33
+        ]
+      },
+      {
+        "song_title": "Heat of the Moment",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Heavy Rock Hits Of The 80s [pvg]/Songs/John Wetton, Geoffrey Downes - Heat Of The Moment.pdf",
+        "file_size_bytes": 17112136,
+        "page_range": [
+          33,
+          70
+        ]
+      },
+      {
+        "song_title": "Smuggler's Blues",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Heavy Rock Hits Of The 80s [pvg]/Songs/Glenn Frey And Jack Tempchin - Smuggler's Blues.pdf",
+        "file_size_bytes": 5732844,
+        "page_range": [
+          70,
+          85
+        ]
+      },
+      {
+        "song_title": "Take It On The Run",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Heavy Rock Hits Of The 80s [pvg]/Songs/Unknown Artist - Take It On The Run.pdf",
+        "file_size_bytes": 11137246,
+        "page_range": [
+          85,
+          111
+        ]
+      }
+    ]
+  }
+}

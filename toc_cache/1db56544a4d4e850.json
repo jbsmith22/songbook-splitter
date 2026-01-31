@@ -1,0 +1,113 @@
+{
+  "book_id": "1db56544a4d4e850",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Night in the City",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Night In The City.pdf",
+        "file_size_bytes": 576530,
+        "page_range": [
+          29,
+          32
+        ]
+      },
+      {
+        "song_title": "Nathan La Franceer",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Nathan La Franceer.pdf",
+        "file_size_bytes": 719022,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "Song to a Seagull",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Song To A Seagull.pdf",
+        "file_size_bytes": 2437315,
+        "page_range": [
+          36,
+          49
+        ]
+      },
+      {
+        "song_title": "Michael from Mountains",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Michael From Mountains.pdf",
+        "file_size_bytes": 3103719,
+        "page_range": [
+          49,
+          66
+        ]
+      },
+      {
+        "song_title": "Roses Blue",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Roses Blue.pdf",
+        "file_size_bytes": 2257027,
+        "page_range": [
+          66,
+          78
+        ]
+      },
+      {
+        "song_title": "Both Sides Now",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Both Sides Now.pdf",
+        "file_size_bytes": 2503844,
+        "page_range": [
+          78,
+          92
+        ]
+      },
+      {
+        "song_title": "The Arrangement",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - The Arrangement.pdf",
+        "file_size_bytes": 1378380,
+        "page_range": [
+          92,
+          100
+        ]
+      },
+      {
+        "song_title": "Willie",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Willie.pdf",
+        "file_size_bytes": 1066123,
+        "page_range": [
+          100,
+          106
+        ]
+      },
+      {
+        "song_title": "Woodstock",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - Woodstock.pdf",
+        "file_size_bytes": 2127426,
+        "page_range": [
+          106,
+          118
+        ]
+      },
+      {
+        "song_title": "The Circle Game",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell Songbook Complete Vol1 1966-1970/Songs/Joni Mitchell - The Circle Game.pdf",
+        "file_size_bytes": 532979,
+        "page_range": [
+          118,
+          121
+        ]
+      }
+    ]
+  }
+}

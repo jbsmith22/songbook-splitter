@@ -1,0 +1,352 @@
+{
+  "book_id": "e35a527565c17c87",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Seussical Ent'Acte",
+        "page_number": 241,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Our Story Resumes (Part 1)",
+        "page_number": 249,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Our Story Resumes (Part 2)",
+        "page_number": 250,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Free Nest & Tree",
+        "page_number": 255,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Circus McGurks (Part 1)",
+        "page_number": 264,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Circus McGurks (Part 2)",
+        "page_number": 274,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Circus McGurks (Part 3)",
+        "page_number": 282,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Circus On Tour/How Lucky You Are (Reprise)",
+        "page_number": 277,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mayrzie In Palm Beach",
+        "page_number": 282,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mayrzie At The Circus",
+        "page_number": 286,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Amayzing Horton (Part 2)",
+        "page_number": 293,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alone In The Universe (Reprise)",
+        "page_number": 297,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Solla Sollew",
+        "page_number": 295,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Green Eggs And Ham II",
+        "page_number": 309,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Battle Battle",
+        "page_number": 311,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Saving Private JoJo",
+        "page_number": 311,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Into The Who's Christmas Pageant",
+        "page_number": 313,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Grinch Carved The Roast Beast",
+        "page_number": 316,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Message From The Front/Solla Sollew (Reprise)",
+        "page_number": 322,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "How Sour",
+        "page_number": 324,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Re-enactment",
+        "page_number": 324,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "JoJo Alone In The Universe",
+        "page_number": 328,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Havin' A Hunch",
+        "page_number": 336,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Havin' A Hunch (Part 2: Nightmare Ballet)",
+        "page_number": 336,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Havin' A Hunch (Part 3: Oh, The Thinks!)",
+        "page_number": 341,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Havin' A Hunch (Part 4)",
+        "page_number": 345,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gertrude/Espionage",
+        "page_number": 352,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All For You (Verse)",
+        "page_number": 358,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All For You",
+        "page_number": 358,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Who's Return",
+        "page_number": 365,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The People Versus Horton The Elephant (Part 1)",
+        "page_number": 367,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The People Versus Horton The Elephant (Part 2)",
+        "page_number": 378,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The People Versus Horton The Elephant (Part 3)",
+        "page_number": 378,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The People Versus Horton The Elephant (Part 4)",
+        "page_number": 389,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Yopp! Alone In The Universe (reprise)",
+        "page_number": 395,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Oh The Thinks You Can Think! (Finale Act 2)",
+        "page_number": 402,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Green Eggs & Ham (Finale Bows: Swing)",
+        "page_number": 408,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Exit Music",
+        "page_number": 420,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Seussical Ent'Acte",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/Unknown Artist - Seussical Ent'acte.pdf",
+        "file_size_bytes": 598326,
+        "page_range": [
+          244,
+          250
+        ]
+      },
+      {
+        "song_title": "Our Story Resumes (Part 1)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/Unknown Artist - Our Story Resumes (part 1).pdf",
+        "file_size_bytes": 81488,
+        "page_range": [
+          250,
+          251
+        ]
+      },
+      {
+        "song_title": "Our Story Resumes (Part 2)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/Unknown Artist - Our Story Resumes (part 2).pdf",
+        "file_size_bytes": 1909751,
+        "page_range": [
+          251,
+          270
+        ]
+      },
+      {
+        "song_title": "The Circus McGurks (Part 1)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/Unknown Artist - The Circus Mcgurks (part 1).pdf",
+        "file_size_bytes": 795554,
+        "page_range": [
+          270,
+          278
+        ]
+      },
+      {
+        "song_title": "The Circus On Tour/How Lucky You Are (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/Unknown Artist - The Circus On Tour-how Lucky You Are (reprise).pdf",
+        "file_size_bytes": 593136,
+        "page_range": [
+          278,
+          283
+        ]
+      },
+      {
+        "song_title": "Mayrzie In Palm Beach",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/(music By Stephen Flaherty, Lyrics By Lynn Ahrens) - Mayrzie In Palm Beach.pdf",
+        "file_size_bytes": 440471,
+        "page_range": [
+          283,
+          287
+        ]
+      },
+      {
+        "song_title": "Mayrzie At The Circus",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/(mayzie, Horton) - Mayrzie At The Circus.pdf",
+        "file_size_bytes": 498465,
+        "page_range": [
+          287,
+          292
+        ]
+      },
+      {
+        "song_title": "Amayzing Horton (Part 2)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/Unknown Artist - Amayzing Horton (part 2).pdf",
+        "file_size_bytes": 415022,
+        "page_range": [
+          292,
+          296
+        ]
+      },
+      {
+        "song_title": "Solla Sollew",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/(horton, July, Meyer, Mrs. Hays, Other Animals) - Solla Sollew.pdf",
+        "file_size_bytes": 9747370,
+        "page_range": [
+          296,
+          396
+        ]
+      },
+      {
+        "song_title": "Alone In The Universe (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Alone In The Universe (reprise).pdf",
+        "file_size_bytes": 2339093,
+        "page_range": [
+          396,
+          419
+        ]
+      },
+      {
+        "song_title": "Green Eggs And Ham II",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [piano-conductor]/Songs/Unknown Artist - Green Eggs And Ham Ii.pdf",
+        "file_size_bytes": 485029,
+        "page_range": [
+          419,
+          424
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "book_id": "8aae8f757bba2b2e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Alouette",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Alouette.pdf",
+        "file_size_bytes": 43522,
+        "page_range": [
+          4,
+          5
+        ]
+      },
+      {
+        "song_title": "ALPHABET SONG",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Alphabet Song.pdf",
+        "file_size_bytes": 328172,
+        "page_range": [
+          5,
+          14
+        ]
+      },
+      {
+        "song_title": "BE KIND TO YOUR PARENTS",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Fanny - Be Kind To Your Parents.pdf",
+        "file_size_bytes": 431971,
+        "page_range": [
+          14,
+          26
+        ]
+      },
+      {
+        "song_title": "Bingo",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Bingo.pdf",
+        "file_size_bytes": 157995,
+        "page_range": [
+          26,
+          30
+        ]
+      },
+      {
+        "song_title": "THE BRADY BUNCH",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Sherwood Schwartz And Frank Devol - The Brady Bunch.pdf",
+        "file_size_bytes": 842371,
+        "page_range": [
+          30,
+          52
+        ]
+      },
+      {
+        "song_title": "Oh, My Darling Clementine",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Percy Wenrich - Oh, My Darling Clementine.pdf",
+        "file_size_bytes": 193336,
+        "page_range": [
+          52,
+          58
+        ]
+      },
+      {
+        "song_title": "Dites-Moi (Tell Me Why)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From South Pacific - Dites-moi (tell Me Why).pdf",
+        "file_size_bytes": 90335,
+        "page_range": [
+          58,
+          60
+        ]
+      },
+      {
+        "song_title": "DOWN BY THE STATION",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Down By The Station.pdf",
+        "file_size_bytes": 214868,
+        "page_range": [
+          60,
+          66
+        ]
+      },
+      {
+        "song_title": "A Dream Is a Wish Your Heart Makes",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Cinderella - A Dream Is A Wish Your Heart Makes.pdf",
+        "file_size_bytes": 487842,
+        "page_range": [
+          66,
+          78
+        ]
+      },
+      {
+        "song_title": "Frere Jacques",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/(traditional) - Frere Jacques.pdf",
+        "file_size_bytes": 73227,
+        "page_range": [
+          78,
+          80
+        ]
+      },
+      {
+        "song_title": "Friend Like Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Aladdin - Friend Like Me.pdf",
+        "file_size_bytes": 414520,
+        "page_range": [
+          80,
+          90
+        ]
+      },
+      {
+        "song_title": "Getting to Know You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Oscar Hammerstein Ii, Music By Richard Rodgers - Getting To Know You.pdf",
+        "file_size_bytes": 991577,
+        "page_range": [
+          90,
+          116
+        ]
+      },
+      {
+        "song_title": "Hello Mudduh, Hello Fadduh! (A Letter from Camp)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Allan Sherman, Lou Busch - Hello Mudduh, Hello Fadduh! (a Letter From Camp).pdf",
+        "file_size_bytes": 306871,
+        "page_range": [
+          116,
+          124
+        ]
+      },
+      {
+        "song_title": "HOW MUCH IS THAT DOGGIE IN THE WINDOW",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Unknown Artist - How Much Is That Doggie In The Window.pdf",
+        "file_size_bytes": 472743,
+        "page_range": [
+          124,
+          136
+        ]
+      },
+      {
+        "song_title": "I'M LATE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Alice In Wonderland - I'm Late.pdf",
+        "file_size_bytes": 569852,
+        "page_range": [
+          136,
+          151
+        ]
+      },
+      {
+        "song_title": "John Jacob Jingleheimer Schmidt",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - John Jacob Jingleheimer Schmidt.pdf",
+        "file_size_bytes": 178741,
+        "page_range": [
+          151,
+          156
+        ]
+      },
+      {
+        "song_title": "Jesus Loves Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Words By Anna Warner, Music By William Bradbury - Jesus Loves Me.pdf",
+        "file_size_bytes": 140487,
+        "page_range": [
+          156,
+          160
+        ]
+      },
+      {
+        "song_title": "LAVENDER BLUE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/(ditty Ditty) From Walt Disney's So Dear To My Heart - Lavender Blue.pdf",
+        "file_size_bytes": 217295,
+        "page_range": [
+          160,
+          166
+        ]
+      },
+      {
+        "song_title": "Let Me Entertain You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Gypsy - Let Me Entertain You.pdf",
+        "file_size_bytes": 718033,
+        "page_range": [
+          166,
+          184
+        ]
+      },
+      {
+        "song_title": "MICHAEL ROW THE BOAT ASHORE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Unknown Artist - Michael Row The Boat Ashore.pdf",
+        "file_size_bytes": 89246,
+        "page_range": [
+          184,
+          186
+        ]
+      },
+      {
+        "song_title": "Mickey Mouse March",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's The Mickey Mouse Club - Mickey Mouse March.pdf",
+        "file_size_bytes": 221126,
+        "page_range": [
+          186,
+          192
+        ]
+      },
+      {
+        "song_title": "MY BONNIE LIES OVER THE OCEAN",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - My Bonnie Lies Over The Ocean.pdf",
+        "file_size_bytes": 316648,
+        "page_range": [
+          192,
+          200
+        ]
+      },
+      {
+        "song_title": "OH WHERE, OH WHERE HAS MY LITTLE DOG GONE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Sip Winner (american Words By) - Oh Where, Oh Where Has My Little Dog Gone.pdf",
+        "file_size_bytes": 169947,
+        "page_range": [
+          200,
+          204
+        ]
+      },
+      {
+        "song_title": "On Top of Spaghetti",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Tom Glazer - On Top Of Spaghetti.pdf",
+        "file_size_bytes": 144934,
+        "page_range": [
+          204,
+          208
+        ]
+      },
+      {
+        "song_title": "ONCE UPON A DREAM",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Sleeping Beauty (words And Music By Sammy Fain And Jack Lawrence) - Once Upon A Dream.pdf",
+        "file_size_bytes": 84585,
+        "page_range": [
+          208,
+          210
+        ]
+      },
+      {
+        "song_title": "OVER THE RIVER AND THROUGH THE WOODS",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Over The River And Through The Woods.pdf",
+        "file_size_bytes": 99624,
+        "page_range": [
+          210,
+          212
+        ]
+      },
+      {
+        "song_title": "Part of Your World",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's The Little Mermaid - Part Of Your World.pdf",
+        "file_size_bytes": 413331,
+        "page_range": [
+          212,
+          223
+        ]
+      },
+      {
+        "song_title": "Polly Wolly Doodle",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional American Miniature Song - Polly Wolly Doodle.pdf",
+        "file_size_bytes": 120094,
+        "page_range": [
+          223,
+          226
+        ]
+      },
+      {
+        "song_title": "POP GOES THE WEASEL",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Pop Goes The Weasel.pdf",
+        "file_size_bytes": 71771,
+        "page_range": [
+          226,
+          228
+        ]
+      },
+      {
+        "song_title": "Puff the Magic Dragon",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Words By Leonard Lipton, Music By Peter Yarrow - Puff The Magic Dragon.pdf",
+        "file_size_bytes": 333129,
+        "page_range": [
+          228,
+          236
+        ]
+      },
+      {
+        "song_title": "Ring Around the Rosie",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Ring Around The Rosie.pdf",
+        "file_size_bytes": 153883,
+        "page_range": [
+          236,
+          240
+        ]
+      },
+      {
+        "song_title": "Rubber Duckie",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Jeff Moss - Rubber Duckie.pdf",
+        "file_size_bytes": 128822,
+        "page_range": [
+          240,
+          243
+        ]
+      },
+      {
+        "song_title": "SAYING GOODBYE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Jeff Moss - Saying Goodbye.pdf",
+        "file_size_bytes": 327249,
+        "page_range": [
+          243,
+          251
+        ]
+      },
+      {
+        "song_title": "Supercalifragilisticexpialidocious",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Mary Poppins - Words And Music By Richard M. Sherman And Robert B. Sherman - Supercalifragilisticexpialidocious.pdf",
+        "file_size_bytes": 134786,
+        "page_range": [
+          251,
+          254
+        ]
+      },
+      {
+        "song_title": "A Spoonful of Sugar",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Mary Poppins (words And Music By Richard M. Sherman And Robert B. Sherman) - A Spoonful Of Sugar.pdf",
+        "file_size_bytes": 500336,
+        "page_range": [
+          254,
+          266
+        ]
+      },
+      {
+        "song_title": "This Old Man",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Unknown Artist - This Old Man.pdf",
+        "file_size_bytes": 95637,
+        "page_range": [
+          266,
+          268
+        ]
+      },
+      {
+        "song_title": "Three Blind Mice",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Three Blind Mice.pdf",
+        "file_size_bytes": 80314,
+        "page_range": [
+          268,
+          270
+        ]
+      },
+      {
+        "song_title": "Tomorrow",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From The Musical Production Annie - Tomorrow.pdf",
+        "file_size_bytes": 115601,
+        "page_range": [
+          270,
+          273
+        ]
+      },
+      {
+        "song_title": "THE UNBIRTHDAY SONG",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Alice In Wonderland - The Unbirthday Song.pdf",
+        "file_size_bytes": 200260,
+        "page_range": [
+          273,
+          278
+        ]
+      },
+      {
+        "song_title": "WHEN YOU WISH UPON A STAR",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Pinocchio - When You Wish Upon A Star.pdf",
+        "file_size_bytes": 83640,
+        "page_range": [
+          278,
+          281
+        ]
+      },
+      {
+        "song_title": "Who's Afraid of the Big Bad Wolf?",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Three Little Pigs (words And Music By Frank Churchill, Orchestrated By Paul Smith) - Who's Afraid Of The Big Bad Wolf-.pdf",
+        "file_size_bytes": 168270,
+        "page_range": [
+          281,
+          286
+        ]
+      },
+      {
+        "song_title": "A WHOLE NEW WORLD",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Aladdin - A Whole New World.pdf",
+        "file_size_bytes": 154549,
+        "page_range": [
+          286,
+          290
+        ]
+      },
+      {
+        "song_title": "WINNIE THE POOH",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's The Many Adventures Of Winnie The Pooh - Winnie The Pooh.pdf",
+        "file_size_bytes": 146527,
+        "page_range": [
+          290,
+          294
+        ]
+      },
+      {
+        "song_title": "Won't You Be My Neighbor?",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/(from Mister Rogers' Neighborhood) - Won't You Be My Neighbor-.pdf",
+        "file_size_bytes": 88677,
+        "page_range": [
+          294,
+          296
+        ]
+      },
+      {
+        "song_title": "Zacchaeus",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/Traditional - Zacchaeus.pdf",
+        "file_size_bytes": 86005,
+        "page_range": [
+          296,
+          298
+        ]
+      },
+      {
+        "song_title": "ZIP-A-DEE-DOO-DAH",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/From Walt Disney's Song Of The South - Zip-a-dee-doo-dah.pdf",
+        "file_size_bytes": 75122,
+        "page_range": [
+          298,
+          300
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - The Best Children's Songs Ever (easy Piano)/Songs/John Lennon And Paul Mccartney - Yellow Submarine.pdf",
+        "file_size_bytes": 1516755,
+        "page_range": [
+          300,
+          304
+        ]
+      }
+    ]
+  }
+}

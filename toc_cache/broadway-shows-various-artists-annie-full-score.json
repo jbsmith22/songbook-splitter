@@ -1,0 +1,484 @@
+{
+  "book_id": "broadway-shows-various-artists-annie-full-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Overture",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Maybe",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Annie's Escape",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hard Knock Life",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hard Knock Life Reprise",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tomorrow",
+        "page_number": 83,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hooverville",
+        "page_number": 101,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hooverville Raid",
+        "page_number": 120,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Girls",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Girls Reprise",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Think I'm Gonna Like It Here",
+        "page_number": 151,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "N.Y.C.",
+        "page_number": 187,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Easy Street",
+        "page_number": 236,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Why Change A Thing?",
+        "page_number": 265,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Won't Be An Orphan For Long",
+        "page_number": 290,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "N.Y. Entr'Acte",
+        "page_number": 318,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fully Dressed",
+        "page_number": 340,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dressed (Children)",
+        "page_number": 356,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Easy Street Reprise",
+        "page_number": 377,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Train Music",
+        "page_number": 382,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cabinet Tomorrow",
+        "page_number": 387,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cabinet End",
+        "page_number": 400,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Train Scene",
+        "page_number": 408,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Something Was Missing",
+        "page_number": 410,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Don't Need Anything But You",
+        "page_number": 426,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Party Music",
+        "page_number": 468,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Same Effect On Everyone",
+        "page_number": 472,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A New Deal For Christmas",
+        "page_number": 480,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bows",
+        "page_number": 498,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Exit Music",
+        "page_number": 509,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Overture",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Overture.pdf",
+        "file_size_bytes": 435529,
+        "page_range": [
+          4,
+          29
+        ]
+      },
+      {
+        "song_title": "Maybe",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Maybe.pdf",
+        "file_size_bytes": 357796,
+        "page_range": [
+          29,
+          52
+        ]
+      },
+      {
+        "song_title": "Annie's Escape",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Annie's Escape.pdf",
+        "file_size_bytes": 151228,
+        "page_range": [
+          52,
+          55
+        ]
+      },
+      {
+        "song_title": "Hard Knock Life",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Annie 4 - Hard Knock Life.pdf",
+        "file_size_bytes": 365453,
+        "page_range": [
+          55,
+          75
+        ]
+      },
+      {
+        "song_title": "Hard Knock Life Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Hard Knock Life Reprise.pdf",
+        "file_size_bytes": 225715,
+        "page_range": [
+          75,
+          86
+        ]
+      },
+      {
+        "song_title": "Tomorrow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Tomorrow.pdf",
+        "file_size_bytes": 325693,
+        "page_range": [
+          86,
+          104
+        ]
+      },
+      {
+        "song_title": "Hooverville",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Hooverville.pdf",
+        "file_size_bytes": 372901,
+        "page_range": [
+          104,
+          121
+        ]
+      },
+      {
+        "song_title": "Hooverville Raid",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Hooverville Raid.pdf",
+        "file_size_bytes": 179677,
+        "page_range": [
+          121,
+          126
+        ]
+      },
+      {
+        "song_title": "Little Girls",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Little Girls.pdf",
+        "file_size_bytes": 342293,
+        "page_range": [
+          126,
+          146
+        ]
+      },
+      {
+        "song_title": "Little Girls Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Little Girls Reprise.pdf",
+        "file_size_bytes": 408281,
+        "page_range": [
+          146,
+          159
+        ]
+      },
+      {
+        "song_title": "I Think I'm Gonna Like It Here",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - I Think I'm Gonna Like It Here.pdf",
+        "file_size_bytes": 598109,
+        "page_range": [
+          159,
+          195
+        ]
+      },
+      {
+        "song_title": "N.Y.C.",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - N.y.c.pdf",
+        "file_size_bytes": 917927,
+        "page_range": [
+          195,
+          244
+        ]
+      },
+      {
+        "song_title": "Easy Street",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Easy Street.pdf",
+        "file_size_bytes": 571957,
+        "page_range": [
+          244,
+          276
+        ]
+      },
+      {
+        "song_title": "Why Change A Thing?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Why Change A Thing-.pdf",
+        "file_size_bytes": 294536,
+        "page_range": [
+          276,
+          299
+        ]
+      },
+      {
+        "song_title": "You Won't Be An Orphan For Long",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - You Won't Be An Orphan For Long.pdf",
+        "file_size_bytes": 479451,
+        "page_range": [
+          299,
+          334
+        ]
+      },
+      {
+        "song_title": "N.Y. Entr'Acte",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - N.y. Entr'acte.pdf",
+        "file_size_bytes": 361833,
+        "page_range": [
+          334,
+          357
+        ]
+      },
+      {
+        "song_title": "Fully Dressed",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Fully Dressed.pdf",
+        "file_size_bytes": 303396,
+        "page_range": [
+          357,
+          373
+        ]
+      },
+      {
+        "song_title": "Dressed (Children)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Dressed (children).pdf",
+        "file_size_bytes": 383862,
+        "page_range": [
+          373,
+          394
+        ]
+      },
+      {
+        "song_title": "Easy Street Reprise",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Easy Street Reprise.pdf",
+        "file_size_bytes": 193742,
+        "page_range": [
+          394,
+          399
+        ]
+      },
+      {
+        "song_title": "Train Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Train Music.pdf",
+        "file_size_bytes": 169872,
+        "page_range": [
+          399,
+          404
+        ]
+      },
+      {
+        "song_title": "Cabinet Tomorrow",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Cabinet Tomorrow.pdf",
+        "file_size_bytes": 393952,
+        "page_range": [
+          404,
+          417
+        ]
+      },
+      {
+        "song_title": "Cabinet End",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Cabinet End.pdf",
+        "file_size_bytes": 210925,
+        "page_range": [
+          417,
+          425
+        ]
+      },
+      {
+        "song_title": "Train Scene",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Train Scene.pdf",
+        "file_size_bytes": 238814,
+        "page_range": [
+          425,
+          434
+        ]
+      },
+      {
+        "song_title": "Something Was Missing",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Something Was Missing.pdf",
+        "file_size_bytes": 764751,
+        "page_range": [
+          434,
+          469
+        ]
+      },
+      {
+        "song_title": "I Don't Need Anything But You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - I Don't Need Anything But You.pdf",
+        "file_size_bytes": 723747,
+        "page_range": [
+          469,
+          512
+        ]
+      },
+      {
+        "song_title": "Same Effect On Everyone",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Same Effect On Everyone.pdf",
+        "file_size_bytes": 182510,
+        "page_range": [
+          512,
+          520
+        ]
+      },
+      {
+        "song_title": "A New Deal For Christmas",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - A New Deal For Christmas.pdf",
+        "file_size_bytes": 374338,
+        "page_range": [
+          520,
+          538
+        ]
+      },
+      {
+        "song_title": "Bows",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Bows.pdf",
+        "file_size_bytes": 297599,
+        "page_range": [
+          538,
+          550
+        ]
+      },
+      {
+        "song_title": "Exit Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Annie - Full Score/Songs/Unknown Artist - Exit Music.pdf",
+        "file_size_bytes": 299758,
+        "page_range": [
+          550,
+          566
+        ]
+      }
+    ]
+  }
+}

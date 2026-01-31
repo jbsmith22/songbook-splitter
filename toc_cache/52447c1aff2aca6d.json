@@ -1,0 +1,163 @@
+{
+  "book_id": "52447c1aff2aca6d",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Horton Hears a Who (Cat in the Hat, Horton Hatches the Egg, Gertrude McFuzz at the Circus)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lynn Ahrens - Horton Hears A Who (cat In The Hat, Horton Hatches The Egg, Gertrude Mcfuzz At The Circus).pdf",
+        "file_size_bytes": 7764087,
+        "page_range": [
+          27,
+          71
+        ]
+      },
+      {
+        "song_title": "Meet JoJo the Who",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Meet Jojo The Who.pdf",
+        "file_size_bytes": 112269,
+        "page_range": [
+          71,
+          72
+        ]
+      },
+      {
+        "song_title": "How to Raise a Child",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(mr. Mayor, Mrs. Mayor) - Lyrics By Lynn Ahrens, Music By Stephen Flaherty - How To Raise A Child.pdf",
+        "file_size_bytes": 2195739,
+        "page_range": [
+          72,
+          85
+        ]
+      },
+      {
+        "song_title": "It's Possible (Pt. 2)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical Tya (male Cat) - It's Possible (pt. 2).pdf",
+        "file_size_bytes": 2909759,
+        "page_range": [
+          85,
+          102
+        ]
+      },
+      {
+        "song_title": "GERTRUDE MCFUZZ / AMAZING MAYZIE (rep.)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(musical Tyr. Made Car) - Gertrude Mcfuzz - Amazing Mayzie (rep.).pdf",
+        "file_size_bytes": 179977,
+        "page_range": [
+          102,
+          103
+        ]
+      },
+      {
+        "song_title": "AMAZING MAYZIE",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Gertrude Vertizz - Amazing Mayzie.pdf",
+        "file_size_bytes": 1358220,
+        "page_range": [
+          103,
+          111
+        ]
+      },
+      {
+        "song_title": "Amayzing Gertrude (Pt. 1)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(gertrude) - Amayzing Gertrude (pt. 1).pdf",
+        "file_size_bytes": 3566052,
+        "page_range": [
+          111,
+          132
+        ]
+      },
+      {
+        "song_title": "Notice Me, Horton",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical-tya (male Cat) - Notice Me, Horton.pdf",
+        "file_size_bytes": 3991828,
+        "page_range": [
+          132,
+          155
+        ]
+      },
+      {
+        "song_title": "Egg Nest and Tree",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lynn Abrams - Egg Nest And Tree.pdf",
+        "file_size_bytes": 5193085,
+        "page_range": [
+          155,
+          182
+        ]
+      },
+      {
+        "song_title": "All for You",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Seussical Tya (male Cat) - All For You.pdf",
+        "file_size_bytes": 4952177,
+        "page_range": [
+          182,
+          209
+        ]
+      },
+      {
+        "song_title": "Yopp!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Yopp!.pdf",
+        "file_size_bytes": 170827,
+        "page_range": [
+          209,
+          210
+        ]
+      },
+      {
+        "song_title": "SOUR KANGAROO",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Sour Kangaroo.pdf",
+        "file_size_bytes": 845015,
+        "page_range": [
+          210,
+          215
+        ]
+      },
+      {
+        "song_title": "Oh, The Thinks You Can Think!",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/(company) - Oh, The Thinks You Can Think!.pdf",
+        "file_size_bytes": 995911,
+        "page_range": [
+          215,
+          221
+        ]
+      },
+      {
+        "song_title": "Green Eggs and Ham (Finale Bows)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Lyrics By Lynn Ahrens, Music By Stephen Flaherty - Green Eggs And Ham (finale Bows).pdf",
+        "file_size_bytes": 766489,
+        "page_range": [
+          221,
+          225
+        ]
+      },
+      {
+        "song_title": "Green Eggs and Ham (BROWNS)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Seussical [pv Score]/Songs/Unknown Artist - Green Eggs And Ham (browns).pdf",
+        "file_size_bytes": 1104748,
+        "page_range": [
+          225,
+          231
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "book_id": "72699da97b7981bf",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "If",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of The 70s & 80s [solo Piano]/Songs/David Gates (words And Music By) - If.pdf",
+        "file_size_bytes": 424367,
+        "page_range": [
+          21,
+          33
+        ]
+      },
+      {
+        "song_title": "Till I Loved You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of The 70s & 80s [solo Piano]/Songs/Maury Yeston, Arranged By Dan Coates - Till I Loved You.pdf",
+        "file_size_bytes": 647248,
+        "page_range": [
+          33,
+          49
+        ]
+      },
+      {
+        "song_title": "Stairway to Heaven",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of The 70s & 80s [solo Piano]/Songs/Jimmy Page And Robert Plant - Stairway To Heaven.pdf",
+        "file_size_bytes": 292941,
+        "page_range": [
+          49,
+          57
+        ]
+      },
+      {
+        "song_title": "Hymne",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of The 70s & 80s [solo Piano]/Songs/R. Vangelis (arranged By Dan Coates) - Hymne.pdf",
+        "file_size_bytes": 445290,
+        "page_range": [
+          57,
+          69
+        ]
+      },
+      {
+        "song_title": "THE WIND BENEATH MY WINGS",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Best Of The 70s & 80s [solo Piano]/Songs/Larry Henley And Jeff Silbar - The Wind Beneath My Wings.pdf",
+        "file_size_bytes": 189398,
+        "page_range": [
+          69,
+          73
+        ]
+      }
+    ]
+  }
+}

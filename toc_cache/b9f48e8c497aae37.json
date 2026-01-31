@@ -1,0 +1,23 @@
+{
+  "book_id": "b9f48e8c497aae37",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Hotel California",
+        "artist": "Eagles",
+        "output_uri": "s3://jsmith-output/Eagles/Eagles - Hotel California (guitar Songbook)/Songs/Eagles - Hotel California.pdf",
+        "file_size_bytes": 1112704,
+        "page_range": [
+          0,
+          20
+        ]
+      }
+    ]
+  }
+}

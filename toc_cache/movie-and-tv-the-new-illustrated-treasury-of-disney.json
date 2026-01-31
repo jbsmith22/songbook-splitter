@@ -1,0 +1,693 @@
+{
+  "book_id": "movie-and-tv-the-new-illustrated-treasury-of-disney",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A Dream Is A Wish Your Heart Makes",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Cinderella - A Dream Is A Wish Your Heart Makes.pdf",
+        "file_size_bytes": 205459,
+        "page_range": [
+          1,
+          3
+        ]
+      },
+      {
+        "song_title": "Friend Like Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Aladdin - Friend Like Me.pdf",
+        "file_size_bytes": 527149,
+        "page_range": [
+          3,
+          8
+        ]
+      },
+      {
+        "song_title": "A Spoonful Of Sugar",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Mary Poppins - A Spoonful Of Sugar.pdf",
+        "file_size_bytes": 122187,
+        "page_range": [
+          8,
+          9
+        ]
+      },
+      {
+        "song_title": "A Whole New World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Aladdin - A Whole New World.pdf",
+        "file_size_bytes": 294238,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "Baby Mine",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Dumbo - Baby Mine.pdf",
+        "file_size_bytes": 423625,
+        "page_range": [
+          12,
+          16
+        ]
+      },
+      {
+        "song_title": "Be Our Guest",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/Howard Ashman & Alan Menken - Be Our Guest.pdf",
+        "file_size_bytes": 214467,
+        "page_range": [
+          16,
+          18
+        ]
+      },
+      {
+        "song_title": "Beauty And The Beast",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Beauty And The Beast - Beauty And The Beast.pdf",
+        "file_size_bytes": 405272,
+        "page_range": [
+          18,
+          22
+        ]
+      },
+      {
+        "song_title": "Bella Notte (This Is The Night)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Lady And The Tramp (words And Music By Peggy Lee And Sonny Burke) - Bella Notte (this Is The Night).pdf",
+        "file_size_bytes": 208072,
+        "page_range": [
+          22,
+          24
+        ]
+      },
+      {
+        "song_title": "Belle",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Beauty And The Beast - Belle.pdf",
+        "file_size_bytes": 523770,
+        "page_range": [
+          24,
+          29
+        ]
+      },
+      {
+        "song_title": "Best Of Friends",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Fox And The Hound - Best Of Friends.pdf",
+        "file_size_bytes": 327788,
+        "page_range": [
+          29,
+          32
+        ]
+      },
+      {
+        "song_title": "Bibbidi-Bobbidi-Boo (The Magic Song)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Cinderella - Bibbidi-bobbidi-boo (the Magic Song).pdf",
+        "file_size_bytes": 211190,
+        "page_range": [
+          32,
+          34
+        ]
+      },
+      {
+        "song_title": "Can You Feel The Love Tonight",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney Pictures' The Lion King - Can You Feel The Love Tonight.pdf",
+        "file_size_bytes": 364799,
+        "page_range": [
+          34,
+          38
+        ]
+      },
+      {
+        "song_title": "Candle On The Water",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Pete's Dragon - Candle On The Water.pdf",
+        "file_size_bytes": 324091,
+        "page_range": [
+          38,
+          41
+        ]
+      },
+      {
+        "song_title": "Castle In Spain",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Babes In Toyland - Music By George Bruns - Castle In Spain.pdf",
+        "file_size_bytes": 207632,
+        "page_range": [
+          41,
+          43
+        ]
+      },
+      {
+        "song_title": "Colors Of The Wind",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Pocahontas - Colors Of The Wind.pdf",
+        "file_size_bytes": 506286,
+        "page_range": [
+          43,
+          48
+        ]
+      },
+      {
+        "song_title": "Cruella De Vil",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's 101 Dalmatians - Cruella De Vil.pdf",
+        "file_size_bytes": 327348,
+        "page_range": [
+          48,
+          51
+        ]
+      },
+      {
+        "song_title": "Ev'rybody Wants To Be A Cat",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Aristocats - Ev'rybody Wants To Be A Cat.pdf",
+        "file_size_bytes": 364997,
+        "page_range": [
+          51,
+          54
+        ]
+      },
+      {
+        "song_title": "Fortuosity",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Happiest Millionaire - Fortuosity.pdf",
+        "file_size_bytes": 245750,
+        "page_range": [
+          54,
+          56
+        ]
+      },
+      {
+        "song_title": "Give A Little Whistle",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Pinocchio - Give A Little Whistle.pdf",
+        "file_size_bytes": 308837,
+        "page_range": [
+          56,
+          59
+        ]
+      },
+      {
+        "song_title": "Go The Distance",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney Pictures' Hercules - Go The Distance.pdf",
+        "file_size_bytes": 400927,
+        "page_range": [
+          59,
+          63
+        ]
+      },
+      {
+        "song_title": "God Help The Outcasts",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Hunchback Of Notre Dame (music By Alan Menken, Lyrics By Stephen Schwartz) - God Help The Outcasts.pdf",
+        "file_size_bytes": 354097,
+        "page_range": [
+          63,
+          67
+        ]
+      },
+      {
+        "song_title": "Hakuna Matata",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney Pictures' The Lion King - Hakuna Matata.pdf",
+        "file_size_bytes": 500295,
+        "page_range": [
+          67,
+          73
+        ]
+      },
+      {
+        "song_title": "Heigh-Ho",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Snow White And The Seven Dwarfs - Heigh-ho.pdf",
+        "file_size_bytes": 383729,
+        "page_range": [
+          73,
+          77
+        ]
+      },
+      {
+        "song_title": "Hi-Diddle-Dee-dee (An Actor's Life for Me)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Pinocchio - Hi-diddle-dee-dee (an Actor's Life For Me).pdf",
+        "file_size_bytes": 270281,
+        "page_range": [
+          77,
+          80
+        ]
+      },
+      {
+        "song_title": "Higitus Figitus",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Sword In The Stone - Higitus Figitus.pdf",
+        "file_size_bytes": 415524,
+        "page_range": [
+          80,
+          84
+        ]
+      },
+      {
+        "song_title": "Honor To Us All",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney Pictures' Mulan (matthew Wilder And David Zippel) - Honor To Us All.pdf",
+        "file_size_bytes": 546407,
+        "page_range": [
+          84,
+          90
+        ]
+      },
+      {
+        "song_title": "If I Never Knew You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Pocahontas - If I Never Knew You.pdf",
+        "file_size_bytes": 261297,
+        "page_range": [
+          90,
+          93
+        ]
+      },
+      {
+        "song_title": "I'm Late",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Alice In Wonderland - I'm Late.pdf",
+        "file_size_bytes": 194688,
+        "page_range": [
+          93,
+          95
+        ]
+      },
+      {
+        "song_title": "I'm Wishing",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Snow White And The Seven Dwarfs - I'm Wishing.pdf",
+        "file_size_bytes": 341399,
+        "page_range": [
+          95,
+          99
+        ]
+      },
+      {
+        "song_title": "It's A Small World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/Richard M. Sherman, Robert B. Sherman - It's A Small World.pdf",
+        "file_size_bytes": 202149,
+        "page_range": [
+          99,
+          101
+        ]
+      },
+      {
+        "song_title": "I've Got No Strings",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Pinocchio - I've Got No Strings.pdf",
+        "file_size_bytes": 272745,
+        "page_range": [
+          101,
+          104
+        ]
+      },
+      {
+        "song_title": "Kiss The Girl",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Little Mermaid (lyrics By Howard Ashman, Music By Alan Menken) - Kiss The Girl.pdf",
+        "file_size_bytes": 385325,
+        "page_range": [
+          104,
+          108
+        ]
+      },
+      {
+        "song_title": "Lavender Blue (Dilly Dilly)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's So Dear To My Heart - Lavender Blue (dilly Dilly).pdf",
+        "file_size_bytes": 292261,
+        "page_range": [
+          108,
+          111
+        ]
+      },
+      {
+        "song_title": "Let's Get Together",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Parent Trap (words And Music By Richard M. Sherman And Robert B. Sherman) - Let's Get Together.pdf",
+        "file_size_bytes": 307725,
+        "page_range": [
+          111,
+          114
+        ]
+      },
+      {
+        "song_title": "Little April Shower",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Bambi (words By Arry Morey, Music By Frank Churchill) - Little April Shower.pdf",
+        "file_size_bytes": 201967,
+        "page_range": [
+          114,
+          116
+        ]
+      },
+      {
+        "song_title": "Mickey Mouse March",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Mickey Mouse Club - Mickey Mouse March.pdf",
+        "file_size_bytes": 202638,
+        "page_range": [
+          116,
+          118
+        ]
+      },
+      {
+        "song_title": "Minnie's Yoo Hoo",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/Walt Disney And Carl Stalling - Minnie's Yoo Hoo.pdf",
+        "file_size_bytes": 316177,
+        "page_range": [
+          118,
+          121
+        ]
+      },
+      {
+        "song_title": "Old Yeller",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Old Yeller - Old Yeller.pdf",
+        "file_size_bytes": 344627,
+        "page_range": [
+          121,
+          124
+        ]
+      },
+      {
+        "song_title": "Once Upon A Dream",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Sleeping Beauty - Once Upon A Dream.pdf",
+        "file_size_bytes": 197297,
+        "page_range": [
+          124,
+          126
+        ]
+      },
+      {
+        "song_title": "One Jump Ahead",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Aladdin - One Jump Ahead.pdf",
+        "file_size_bytes": 391668,
+        "page_range": [
+          126,
+          130
+        ]
+      },
+      {
+        "song_title": "Oo-De-Lally",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Robin Hood - Oo-de-lally.pdf",
+        "file_size_bytes": 212896,
+        "page_range": [
+          130,
+          132
+        ]
+      },
+      {
+        "song_title": "Part Of Your World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Little Mermaid - Part Of Your World.pdf",
+        "file_size_bytes": 435901,
+        "page_range": [
+          132,
+          136
+        ]
+      },
+      {
+        "song_title": "Perfect Isn't Easy",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Oliver & Company - Perfect Isn't Easy.pdf",
+        "file_size_bytes": 521697,
+        "page_range": [
+          136,
+          141
+        ]
+      },
+      {
+        "song_title": "Reflection",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney Pictures' Mulan - Reflection.pdf",
+        "file_size_bytes": 512545,
+        "page_range": [
+          141,
+          146
+        ]
+      },
+      {
+        "song_title": "Seize The Day",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Newsies - Seize The Day.pdf",
+        "file_size_bytes": 475299,
+        "page_range": [
+          146,
+          151
+        ]
+      },
+      {
+        "song_title": "Some Day My Prince Will Come",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Snow White And The Seven Dwarfs (words By Larry Morey, Music By Frank Churchill) - Some Day My Prince Will Come.pdf",
+        "file_size_bytes": 213775,
+        "page_range": [
+          151,
+          153
+        ]
+      },
+      {
+        "song_title": "Someday",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Hunchback Of Notre Dame - Someday.pdf",
+        "file_size_bytes": 383208,
+        "page_range": [
+          153,
+          157
+        ]
+      },
+      {
+        "song_title": "Someone's Waiting For You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Rescuers (words By Carol Connors And Ayn Robbins, Music By Sammy Fain) - Someone's Waiting For You.pdf",
+        "file_size_bytes": 331583,
+        "page_range": [
+          157,
+          160
+        ]
+      },
+      {
+        "song_title": "Supercalifragilisticexpialidocious",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Mary Poppins - Supercalifragilisticexpialidocious.pdf",
+        "file_size_bytes": 426701,
+        "page_range": [
+          160,
+          164
+        ]
+      },
+      {
+        "song_title": "The Age Of Not Believing",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Bedknobs And Broomsticks (words And Music By Richard M. Sherman And Robert B. Sherman) - The Age Of Not Believing.pdf",
+        "file_size_bytes": 317440,
+        "page_range": [
+          164,
+          167
+        ]
+      },
+      {
+        "song_title": "The Ballad Of Davy Crockett",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's -davy Crockett- - The Ballad Of Davy Crockett.pdf",
+        "file_size_bytes": 238508,
+        "page_range": [
+          167,
+          169
+        ]
+      },
+      {
+        "song_title": "The Bare Necessities",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Jungle Book - The Bare Necessities.pdf",
+        "file_size_bytes": 336143,
+        "page_range": [
+          169,
+          172
+        ]
+      },
+      {
+        "song_title": "Circle Of Life",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney Pictures' The Lion King - Music By Elton John - Lyrics By Tim Rice - Circle Of Life.pdf",
+        "file_size_bytes": 458828,
+        "page_range": [
+          172,
+          177
+        ]
+      },
+      {
+        "song_title": "The Lord Is Good To Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/Ray Gannon - The Lord Is Good To Me.pdf",
+        "file_size_bytes": 309324,
+        "page_range": [
+          177,
+          180
+        ]
+      },
+      {
+        "song_title": "The Second Star To The Right",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Peter Pan - The Second Star To The Right.pdf",
+        "file_size_bytes": 215056,
+        "page_range": [
+          180,
+          182
+        ]
+      },
+      {
+        "song_title": "The Wonderful Thing About Tiggers",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/Richard M. Sherman And Robert B. Sherman - The Wonderful Thing About Tiggers.pdf",
+        "file_size_bytes": 212001,
+        "page_range": [
+          182,
+          184
+        ]
+      },
+      {
+        "song_title": "Trust In Me (The Python's Song)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/Richard M. Sherman And Robert B. Sherman - Trust In Me (the Python's Song).pdf",
+        "file_size_bytes": 308682,
+        "page_range": [
+          184,
+          187
+        ]
+      },
+      {
+        "song_title": "Under The Sea",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Little Mermaid - Under The Sea.pdf",
+        "file_size_bytes": 304944,
+        "page_range": [
+          187,
+          190
+        ]
+      },
+      {
+        "song_title": "When I See An Elephant Fly",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Dumbo - When I See An Elephant Fly.pdf",
+        "file_size_bytes": 392547,
+        "page_range": [
+          190,
+          194
+        ]
+      },
+      {
+        "song_title": "When You Wish Upon A Star",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Pinocchio - When You Wish Upon A Star.pdf",
+        "file_size_bytes": 288859,
+        "page_range": [
+          194,
+          197
+        ]
+      },
+      {
+        "song_title": "Whistle While You Work",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Snow White And The Seven Dwarfs (words By Larry Morey, Music By Frank Churchill) - Whistle While You Work.pdf",
+        "file_size_bytes": 193275,
+        "page_range": [
+          197,
+          199
+        ]
+      },
+      {
+        "song_title": "Who's Afraid Of The Big Bad Wolf?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Three Little Pigs (words And Music By Frank Churchill, Additional Lyrics By Ann Ronell) - Who's Afraid Of The Big Bad Wolf-.pdf",
+        "file_size_bytes": 385605,
+        "page_range": [
+          199,
+          202
+        ]
+      },
+      {
+        "song_title": "Winnie The Pooh",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's The Many Adventures Of Winnie The Pooh (words And Music By Richard M. Sherman And Robert B. Sherman) - Winnie The Pooh.pdf",
+        "file_size_bytes": 220377,
+        "page_range": [
+          202,
+          204
+        ]
+      },
+      {
+        "song_title": "Yo Ho (A Pirate's Life For Me)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Disneyland And Walt Disney World's -pirates Of The Caribbean- (words By Xavier Atencio, Music By George Bruns) - Yo Ho (a Pirate's Life For Me).pdf",
+        "file_size_bytes": 220822,
+        "page_range": [
+          204,
+          206
+        ]
+      },
+      {
+        "song_title": "You Can Fly!",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Peter Pan (words By Sammy Cahn, Music By Sammy Fain) - You Can Fly!.pdf",
+        "file_size_bytes": 410416,
+        "page_range": [
+          206,
+          210
+        ]
+      },
+      {
+        "song_title": "You've Got A Friend In Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Toy Story (randy Newman) - You've Got A Friend In Me.pdf",
+        "file_size_bytes": 391164,
+        "page_range": [
+          210,
+          214
+        ]
+      },
+      {
+        "song_title": "Zero To Hero",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney Pictures' Hercules (music By Alan Menken, Lyrics By David Zippel) - Zero To Hero.pdf",
+        "file_size_bytes": 483052,
+        "page_range": [
+          214,
+          219
+        ]
+      },
+      {
+        "song_title": "Zip-A-Dee-Doo-Dah",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/The New Illustrated Treasury Of Disney/Songs/From Walt Disney's Song Of The South (words By Ray Gilbert, Music By Allie Wrubel) - Zip-a-dee-doo-dah.pdf",
+        "file_size_bytes": 214702,
+        "page_range": [
+          219,
+          221
+        ]
+      }
+    ]
+  }
+}

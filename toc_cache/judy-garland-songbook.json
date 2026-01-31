@@ -1,0 +1,236 @@
+{
+  "book_id": "judy-garland-songbook",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "BOY NEXT DOOR, THE",
+        "page_number": 23,
+        "artist": "Meet Me In St. Louis",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "FRIENDLY STAR",
+        "page_number": 32,
+        "artist": "Summer Stock",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HAVE YOURSELF A MERRY LITTLE CHRISTMAS",
+        "page_number": 26,
+        "artist": "Meet Me In St. Louis",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HOW ABOUT YOU?",
+        "page_number": 35,
+        "artist": "Babes on Broadway",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IN-BETWEEN",
+        "page_number": 12,
+        "artist": "Love Finds Andy Hardy",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "IT'S A GREAT DAY FOR THE IRISH",
+        "page_number": 19,
+        "artist": "Little Nellie Kelly",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MINNIE FROM TRINIDAD",
+        "page_number": 38,
+        "artist": "Ziegfeld Girl",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ON THE ATCHISON, TOPEKA AND THE SANTA FE",
+        "page_number": 9,
+        "artist": "The Harvey Girls",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "OVER THE RAINBOW",
+        "page_number": 2,
+        "artist": "The Wizard of Oz",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SKIP TO MY LOU",
+        "page_number": 16,
+        "artist": "Meet Me In St. Louis",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE TROLLEY SONG",
+        "page_number": 42,
+        "artist": "Meet Me In St. Louis",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WE'RE OFF TO SEE THE WIZARD",
+        "page_number": 6,
+        "artist": "The Wizard of Oz",
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU CAN'T HAVE EVERYTHING",
+        "page_number": 28,
+        "artist": "You Can't Have Everything",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "BOY NEXT DOOR, THE": "Meet Me In St. Louis",
+      "FRIENDLY STAR": "Summer Stock",
+      "HAVE YOURSELF A MERRY LITTLE CHRISTMAS": "Meet Me In St. Louis",
+      "HOW ABOUT YOU?": "Babes on Broadway",
+      "IN-BETWEEN": "Love Finds Andy Hardy",
+      "IT'S A GREAT DAY FOR THE IRISH": "Little Nellie Kelly",
+      "MINNIE FROM TRINIDAD": "Ziegfeld Girl",
+      "ON THE ATCHISON, TOPEKA AND THE SANTA FE": "The Harvey Girls",
+      "OVER THE RAINBOW": "The Wizard of Oz",
+      "SKIP TO MY LOU": "Meet Me In St. Louis",
+      "THE TROLLEY SONG": "Meet Me In St. Louis",
+      "WE'RE OFF TO SEE THE WIZARD": "The Wizard of Oz",
+      "YOU CAN'T HAVE EVERYTHING": "You Can't Have Everything"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "OVER THE RAINBOW",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - Over The Rainbow.pdf",
+        "file_size_bytes": 1031845,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "WE'RE OFF TO SEE THE WIZARD",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - We're Off To See The Wizard.pdf",
+        "file_size_bytes": 852653,
+        "page_range": [
+          6,
+          9
+        ]
+      },
+      {
+        "song_title": "ON THE ATCHISON, TOPEKA AND THE SANTA FE",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - On The Atchison, Topeka And The Santa Fe.pdf",
+        "file_size_bytes": 742405,
+        "page_range": [
+          9,
+          12
+        ]
+      },
+      {
+        "song_title": "IN-BETWEEN",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - In-between.pdf",
+        "file_size_bytes": 894233,
+        "page_range": [
+          12,
+          16
+        ]
+      },
+      {
+        "song_title": "SKIP TO MY LOU",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - Skip To My Lou.pdf",
+        "file_size_bytes": 729258,
+        "page_range": [
+          16,
+          19
+        ]
+      },
+      {
+        "song_title": "IT'S A GREAT DAY FOR THE IRISH",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - It's A Great Day For The Irish.pdf",
+        "file_size_bytes": 954705,
+        "page_range": [
+          19,
+          23
+        ]
+      },
+      {
+        "song_title": "BOY NEXT DOOR, THE",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - Boy Next Door, The.pdf",
+        "file_size_bytes": 693230,
+        "page_range": [
+          23,
+          26
+        ]
+      },
+      {
+        "song_title": "HAVE YOURSELF A MERRY LITTLE CHRISTMAS",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - Have Yourself A Merry Little Christmas.pdf",
+        "file_size_bytes": 572559,
+        "page_range": [
+          26,
+          28
+        ]
+      },
+      {
+        "song_title": "YOU CAN'T HAVE EVERYTHING",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - You Can't Have Everything.pdf",
+        "file_size_bytes": 1010791,
+        "page_range": [
+          28,
+          32
+        ]
+      },
+      {
+        "song_title": "FRIENDLY STAR",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - Friendly Star.pdf",
+        "file_size_bytes": 804526,
+        "page_range": [
+          32,
+          35
+        ]
+      },
+      {
+        "song_title": "HOW ABOUT YOU?",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - How About You-.pdf",
+        "file_size_bytes": 797491,
+        "page_range": [
+          35,
+          38
+        ]
+      },
+      {
+        "song_title": "MINNIE FROM TRINIDAD",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - Minnie From Trinidad.pdf",
+        "file_size_bytes": 993599,
+        "page_range": [
+          38,
+          42
+        ]
+      },
+      {
+        "song_title": "THE TROLLEY SONG",
+        "artist": "Judy Garland",
+        "output_uri": "s3://jsmith-output/Judy Garland/Songbook/Songs/Judy Garland - The Trolley Song.pdf",
+        "file_size_bytes": 1770480,
+        "page_range": [
+          42,
+          49
+        ]
+      }
+    ]
+  }
+}

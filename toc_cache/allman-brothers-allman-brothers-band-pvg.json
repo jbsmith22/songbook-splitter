@@ -1,0 +1,254 @@
+{
+  "book_id": "allman-brothers-allman-brothers-band-pvg",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Ain't Wastin' My Time No More",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Come And Go Blues",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Black Hearted Woman",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Keep Me Wonderin'",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dreams",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Every Hungry Woman",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Not My Cross To Bear",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jessica",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Please Call Home",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Midnight Rider",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Southbound",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wasted Words",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Whipping Post",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Will The Circle Be Unbroken?",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ramblin' Man",
+        "page_number": 92,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Ain't Wastin' My Time No More",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Ain't Wastin' My Time No More.pdf",
+        "file_size_bytes": 6115944,
+        "page_range": [
+          13,
+          20
+        ]
+      },
+      {
+        "song_title": "Come And Go Blues",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Come And Go Blues.pdf",
+        "file_size_bytes": 5632383,
+        "page_range": [
+          20,
+          27
+        ]
+      },
+      {
+        "song_title": "Black Hearted Woman",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Black Hearted Woman.pdf",
+        "file_size_bytes": 4835765,
+        "page_range": [
+          27,
+          33
+        ]
+      },
+      {
+        "song_title": "Don't Keep Me Wonderin'",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Don't Keep Me Wonderin'.pdf",
+        "file_size_bytes": 3854532,
+        "page_range": [
+          33,
+          38
+        ]
+      },
+      {
+        "song_title": "Dreams",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Dreams.pdf",
+        "file_size_bytes": 3697923,
+        "page_range": [
+          38,
+          43
+        ]
+      },
+      {
+        "song_title": "Every Hungry Woman",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Every Hungry Woman.pdf",
+        "file_size_bytes": 4536477,
+        "page_range": [
+          43,
+          49
+        ]
+      },
+      {
+        "song_title": "It's Not My Cross To Bear",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - It's Not My Cross To Bear.pdf",
+        "file_size_bytes": 3501399,
+        "page_range": [
+          49,
+          53
+        ]
+      },
+      {
+        "song_title": "Jessica",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Jessica.pdf",
+        "file_size_bytes": 4687147,
+        "page_range": [
+          53,
+          58
+        ]
+      },
+      {
+        "song_title": "Please Call Home",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Please Call Home.pdf",
+        "file_size_bytes": 4366417,
+        "page_range": [
+          58,
+          63
+        ]
+      },
+      {
+        "song_title": "Midnight Rider",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Midnight Rider.pdf",
+        "file_size_bytes": 4679943,
+        "page_range": [
+          63,
+          69
+        ]
+      },
+      {
+        "song_title": "Southbound",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Southbound.pdf",
+        "file_size_bytes": 5127659,
+        "page_range": [
+          69,
+          75
+        ]
+      },
+      {
+        "song_title": "Wasted Words",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Wasted Words.pdf",
+        "file_size_bytes": 4857277,
+        "page_range": [
+          75,
+          81
+        ]
+      },
+      {
+        "song_title": "Whipping Post",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Whipping Post.pdf",
+        "file_size_bytes": 4993638,
+        "page_range": [
+          81,
+          87
+        ]
+      },
+      {
+        "song_title": "Will The Circle Be Unbroken?",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Will The Circle Be Unbroken-.pdf",
+        "file_size_bytes": 3373036,
+        "page_range": [
+          87,
+          91
+        ]
+      },
+      {
+        "song_title": "Ramblin' Man",
+        "artist": "Allman Brothers",
+        "output_uri": "s3://jsmith-output/Allman Brothers/Allman Brothers Band [pvg]/Songs/Allman Brothers - Ramblin' Man.pdf",
+        "file_size_bytes": 4354460,
+        "page_range": [
+          91,
+          96
+        ]
+      }
+    ]
+  }
+}

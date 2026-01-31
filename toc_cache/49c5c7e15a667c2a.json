@@ -1,0 +1,1683 @@
+{
+  "book_id": "49c5c7e15a667c2a",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "All My Loving",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - All My Loving.pdf",
+        "file_size_bytes": 13251772,
+        "page_range": [
+          19,
+          74
+        ]
+      },
+      {
+        "song_title": "Baby You're a Rich Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Baby You're A Rich Man.pdf",
+        "file_size_bytes": 5896953,
+        "page_range": [
+          74,
+          97
+        ]
+      },
+      {
+        "song_title": "Because",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Because.pdf",
+        "file_size_bytes": 980813,
+        "page_range": [
+          97,
+          101
+        ]
+      },
+      {
+        "song_title": "Being for the Benefit of Mr. Kite",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Being For The Benefit Of Mr. Kite.pdf",
+        "file_size_bytes": 8071603,
+        "page_range": [
+          101,
+          134
+        ]
+      },
+      {
+        "song_title": "Carry That Weight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Carry That Weight.pdf",
+        "file_size_bytes": 4615465,
+        "page_range": [
+          134,
+          153
+        ]
+      },
+      {
+        "song_title": "Cry Baby Cry",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Cry Baby Cry.pdf",
+        "file_size_bytes": 1031497,
+        "page_range": [
+          153,
+          157
+        ]
+      },
+      {
+        "song_title": "A Day in the Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - A Day In The Life.pdf",
+        "file_size_bytes": 2515979,
+        "page_range": [
+          157,
+          167
+        ]
+      },
+      {
+        "song_title": "Day Tripper",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Day Tripper.pdf",
+        "file_size_bytes": 4522779,
+        "page_range": [
+          167,
+          185
+        ]
+      },
+      {
+        "song_title": "Dig a Pony",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Dig A Pony.pdf",
+        "file_size_bytes": 1503389,
+        "page_range": [
+          185,
+          191
+        ]
+      },
+      {
+        "song_title": "Dig It",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Dig It.pdf",
+        "file_size_bytes": 3434767,
+        "page_range": [
+          191,
+          205
+        ]
+      },
+      {
+        "song_title": "Don't Bother Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Don't Bother Me.pdf",
+        "file_size_bytes": 1421381,
+        "page_range": [
+          205,
+          211
+        ]
+      },
+      {
+        "song_title": "Don't Let Me Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Don't Let Me Down.pdf",
+        "file_size_bytes": 3490373,
+        "page_range": [
+          211,
+          225
+        ]
+      },
+      {
+        "song_title": "Drive My Car",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Drive My Car.pdf",
+        "file_size_bytes": 3069842,
+        "page_range": [
+          225,
+          238
+        ]
+      },
+      {
+        "song_title": "The End",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - The End.pdf",
+        "file_size_bytes": 1678095,
+        "page_range": [
+          238,
+          245
+        ]
+      },
+      {
+        "song_title": "Everybody's Got Something to Hide Except Me and My Monkey",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Everybody's Got Something To Hide Except Me And My Monkey.pdf",
+        "file_size_bytes": 984079,
+        "page_range": [
+          245,
+          249
+        ]
+      },
+      {
+        "song_title": "Everybody's Trying to Be My Baby",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Everybody's Trying To Be My Baby.pdf",
+        "file_size_bytes": 1853537,
+        "page_range": [
+          249,
+          257
+        ]
+      },
+      {
+        "song_title": "Every Little Thing",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Every Little Thing.pdf",
+        "file_size_bytes": 959101,
+        "page_range": [
+          257,
+          261
+        ]
+      },
+      {
+        "song_title": "Fixing a Hole",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Fixing A Hole.pdf",
+        "file_size_bytes": 1638571,
+        "page_range": [
+          261,
+          268
+        ]
+      },
+      {
+        "song_title": "Flying",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Flying.pdf",
+        "file_size_bytes": 2574974,
+        "page_range": [
+          268,
+          279
+        ]
+      },
+      {
+        "song_title": "For No One",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - For No One.pdf",
+        "file_size_bytes": 2128728,
+        "page_range": [
+          279,
+          288
+        ]
+      },
+      {
+        "song_title": "From Me To You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - From Me To You.pdf",
+        "file_size_bytes": 953206,
+        "page_range": [
+          288,
+          292
+        ]
+      },
+      {
+        "song_title": "Get Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Get Back.pdf",
+        "file_size_bytes": 1845114,
+        "page_range": [
+          292,
+          299
+        ]
+      },
+      {
+        "song_title": "Getting Better",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Getting Better.pdf",
+        "file_size_bytes": 2255747,
+        "page_range": [
+          299,
+          308
+        ]
+      },
+      {
+        "song_title": "Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Girl.pdf",
+        "file_size_bytes": 1200103,
+        "page_range": [
+          308,
+          313
+        ]
+      },
+      {
+        "song_title": "Glass Onion",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Glass Onion.pdf",
+        "file_size_bytes": 1021888,
+        "page_range": [
+          313,
+          317
+        ]
+      },
+      {
+        "song_title": "Golden Slumbers",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Golden Slumbers.pdf",
+        "file_size_bytes": 699933,
+        "page_range": [
+          317,
+          320
+        ]
+      },
+      {
+        "song_title": "Good Day Sunshine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Good Day Sunshine.pdf",
+        "file_size_bytes": 3203126,
+        "page_range": [
+          320,
+          333
+        ]
+      },
+      {
+        "song_title": "Goodnight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Goodnight.pdf",
+        "file_size_bytes": 2507234,
+        "page_range": [
+          333,
+          344
+        ]
+      },
+      {
+        "song_title": "Happiness Is A Warm Gun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Happiness Is A Warm Gun.pdf",
+        "file_size_bytes": 2999868,
+        "page_range": [
+          344,
+          356
+        ]
+      },
+      {
+        "song_title": "Hello Goodbye",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Hello Goodbye.pdf",
+        "file_size_bytes": 1476193,
+        "page_range": [
+          356,
+          362
+        ]
+      },
+      {
+        "song_title": "Help!",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Help!.pdf",
+        "file_size_bytes": 1470804,
+        "page_range": [
+          362,
+          368
+        ]
+      },
+      {
+        "song_title": "Helter Skelter",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Helter Skelter.pdf",
+        "file_size_bytes": 2041929,
+        "page_range": [
+          368,
+          376
+        ]
+      },
+      {
+        "song_title": "Here Comes the Sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Here Comes The Sun.pdf",
+        "file_size_bytes": 1730233,
+        "page_range": [
+          376,
+          383
+        ]
+      },
+      {
+        "song_title": "Here, There and Everywhere",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Here, There And Everywhere.pdf",
+        "file_size_bytes": 941605,
+        "page_range": [
+          383,
+          387
+        ]
+      },
+      {
+        "song_title": "Her Majesty",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Her Majesty.pdf",
+        "file_size_bytes": 474188,
+        "page_range": [
+          387,
+          389
+        ]
+      },
+      {
+        "song_title": "Hey Bulldog",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Hey Bulldog.pdf",
+        "file_size_bytes": 1157008,
+        "page_range": [
+          389,
+          394
+        ]
+      },
+      {
+        "song_title": "Hey Jude",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Hey Jude.pdf",
+        "file_size_bytes": 1283143,
+        "page_range": [
+          394,
+          399
+        ]
+      },
+      {
+        "song_title": "Hold Me Tight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Hold Me Tight.pdf",
+        "file_size_bytes": 704352,
+        "page_range": [
+          399,
+          402
+        ]
+      },
+      {
+        "song_title": "Honey Don't",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Honey Don't.pdf",
+        "file_size_bytes": 1597519,
+        "page_range": [
+          402,
+          409
+        ]
+      },
+      {
+        "song_title": "Honey Pie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Honey Pie.pdf",
+        "file_size_bytes": 3405487,
+        "page_range": [
+          409,
+          423
+        ]
+      },
+      {
+        "song_title": "I Call Your Name",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Call Your Name.pdf",
+        "file_size_bytes": 2574037,
+        "page_range": [
+          423,
+          434
+        ]
+      },
+      {
+        "song_title": "I Feel Fine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Feel Fine.pdf",
+        "file_size_bytes": 1466499,
+        "page_range": [
+          434,
+          440
+        ]
+      },
+      {
+        "song_title": "If I Fell",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - If I Fell.pdf",
+        "file_size_bytes": 912101,
+        "page_range": [
+          440,
+          444
+        ]
+      },
+      {
+        "song_title": "If I Needed Someone",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - If I Needed Someone.pdf",
+        "file_size_bytes": 1478683,
+        "page_range": [
+          444,
+          450
+        ]
+      },
+      {
+        "song_title": "I'll Be Back",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I'll Be Back.pdf",
+        "file_size_bytes": 938308,
+        "page_range": [
+          450,
+          454
+        ]
+      },
+      {
+        "song_title": "I'll Cry Instead",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I'll Cry Instead.pdf",
+        "file_size_bytes": 1898811,
+        "page_range": [
+          454,
+          462
+        ]
+      },
+      {
+        "song_title": "I'll Get You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I'll Get You.pdf",
+        "file_size_bytes": 2041301,
+        "page_range": [
+          462,
+          471
+        ]
+      },
+      {
+        "song_title": "I'm Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I'm Down.pdf",
+        "file_size_bytes": 1455484,
+        "page_range": [
+          471,
+          477
+        ]
+      },
+      {
+        "song_title": "I Me Mine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Me Mine.pdf",
+        "file_size_bytes": 1015376,
+        "page_range": [
+          477,
+          481
+        ]
+      },
+      {
+        "song_title": "I'M HAPPY JUST TO DANCE WITH YOU",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I'm Happy Just To Dance With You.pdf",
+        "file_size_bytes": 1018432,
+        "page_range": [
+          481,
+          485
+        ]
+      },
+      {
+        "song_title": "I'm Looking Through You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I'm Looking Through You.pdf",
+        "file_size_bytes": 1280088,
+        "page_range": [
+          485,
+          490
+        ]
+      },
+      {
+        "song_title": "I'm Only Sleeping",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I'm Only Sleeping.pdf",
+        "file_size_bytes": 1471438,
+        "page_range": [
+          490,
+          496
+        ]
+      },
+      {
+        "song_title": "I'm So Tired",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I'm So Tired.pdf",
+        "file_size_bytes": 791762,
+        "page_range": [
+          496,
+          499
+        ]
+      },
+      {
+        "song_title": "I Need You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Need You.pdf",
+        "file_size_bytes": 2273676,
+        "page_range": [
+          499,
+          508
+        ]
+      },
+      {
+        "song_title": "The Inner Light",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - The Inner Light.pdf",
+        "file_size_bytes": 941093,
+        "page_range": [
+          508,
+          512
+        ]
+      },
+      {
+        "song_title": "I Saw Her Standing There",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Saw Her Standing There.pdf",
+        "file_size_bytes": 1447745,
+        "page_range": [
+          512,
+          518
+        ]
+      },
+      {
+        "song_title": "I Should Have Known Better",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Should Have Known Better.pdf",
+        "file_size_bytes": 1450036,
+        "page_range": [
+          518,
+          524
+        ]
+      },
+      {
+        "song_title": "It's All Too Much",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - It's All Too Much.pdf",
+        "file_size_bytes": 1625142,
+        "page_range": [
+          524,
+          531
+        ]
+      },
+      {
+        "song_title": "It's Only Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - It's Only Love.pdf",
+        "file_size_bytes": 910798,
+        "page_range": [
+          531,
+          535
+        ]
+      },
+      {
+        "song_title": "It Won't Be Long",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - It Won't Be Long.pdf",
+        "file_size_bytes": 977668,
+        "page_range": [
+          535,
+          539
+        ]
+      },
+      {
+        "song_title": "I've Got a Feeling",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I've Got A Feeling.pdf",
+        "file_size_bytes": 1808463,
+        "page_range": [
+          539,
+          546
+        ]
+      },
+      {
+        "song_title": "I've Just Seen a Face",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I've Just Seen A Face.pdf",
+        "file_size_bytes": 1419142,
+        "page_range": [
+          546,
+          552
+        ]
+      },
+      {
+        "song_title": "I Wanna Be Your Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Wanna Be Your Man.pdf",
+        "file_size_bytes": 978109,
+        "page_range": [
+          552,
+          556
+        ]
+      },
+      {
+        "song_title": "I Want To Hold Your Hand",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Want To Hold Your Hand.pdf",
+        "file_size_bytes": 1219946,
+        "page_range": [
+          556,
+          561
+        ]
+      },
+      {
+        "song_title": "I Want To Tell You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Want To Tell You.pdf",
+        "file_size_bytes": 1125153,
+        "page_range": [
+          561,
+          566
+        ]
+      },
+      {
+        "song_title": "I Want You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Want You.pdf",
+        "file_size_bytes": 2032958,
+        "page_range": [
+          566,
+          574
+        ]
+      },
+      {
+        "song_title": "I Will",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - I Will.pdf",
+        "file_size_bytes": 942754,
+        "page_range": [
+          574,
+          578
+        ]
+      },
+      {
+        "song_title": "Julia",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Julia.pdf",
+        "file_size_bytes": 758681,
+        "page_range": [
+          578,
+          581
+        ]
+      },
+      {
+        "song_title": "Kansas City",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Kansas City.pdf",
+        "file_size_bytes": 2010048,
+        "page_range": [
+          581,
+          589
+        ]
+      },
+      {
+        "song_title": "Lady Madonna",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Lady Madonna.pdf",
+        "file_size_bytes": 1259790,
+        "page_range": [
+          589,
+          594
+        ]
+      },
+      {
+        "song_title": "Let It Be",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Let It Be.pdf",
+        "file_size_bytes": 1520254,
+        "page_range": [
+          594,
+          600
+        ]
+      },
+      {
+        "song_title": "Little Child",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Little Child.pdf",
+        "file_size_bytes": 1227955,
+        "page_range": [
+          600,
+          605
+        ]
+      },
+      {
+        "song_title": "The Long and Winding Road",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - The Long And Winding Road.pdf",
+        "file_size_bytes": 966116,
+        "page_range": [
+          605,
+          609
+        ]
+      },
+      {
+        "song_title": "Long Long Long",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Long Long Long.pdf",
+        "file_size_bytes": 932212,
+        "page_range": [
+          609,
+          613
+        ]
+      },
+      {
+        "song_title": "Long Tall Sally",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Long Tall Sally.pdf",
+        "file_size_bytes": 1778154,
+        "page_range": [
+          613,
+          620
+        ]
+      },
+      {
+        "song_title": "Lovely Rita",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Lovely Rita.pdf",
+        "file_size_bytes": 1503726,
+        "page_range": [
+          620,
+          626
+        ]
+      },
+      {
+        "song_title": "Love Me Do",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Love Me Do.pdf",
+        "file_size_bytes": 1140621,
+        "page_range": [
+          626,
+          631
+        ]
+      },
+      {
+        "song_title": "Love You To",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Love You To.pdf",
+        "file_size_bytes": 1343578,
+        "page_range": [
+          631,
+          637
+        ]
+      },
+      {
+        "song_title": "Lucy in the Sky with Diamonds",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Lucy In The Sky With Diamonds.pdf",
+        "file_size_bytes": 1205191,
+        "page_range": [
+          637,
+          642
+        ]
+      },
+      {
+        "song_title": "Maggie Mae",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Maggie Mae.pdf",
+        "file_size_bytes": 706039,
+        "page_range": [
+          642,
+          645
+        ]
+      },
+      {
+        "song_title": "Magical Mystery Tour",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Magical Mystery Tour.pdf",
+        "file_size_bytes": 1974740,
+        "page_range": [
+          645,
+          653
+        ]
+      },
+      {
+        "song_title": "Martha My Dear",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Martha My Dear.pdf",
+        "file_size_bytes": 1252939,
+        "page_range": [
+          653,
+          658
+        ]
+      },
+      {
+        "song_title": "Matchbox",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Matchbox.pdf",
+        "file_size_bytes": 989315,
+        "page_range": [
+          658,
+          662
+        ]
+      },
+      {
+        "song_title": "Maxwell's Silver Hammer",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Maxwell's Silver Hammer.pdf",
+        "file_size_bytes": 1240975,
+        "page_range": [
+          662,
+          667
+        ]
+      },
+      {
+        "song_title": "Mean Mr. Mustard",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Mean Mr. Mustard.pdf",
+        "file_size_bytes": 2156017,
+        "page_range": [
+          667,
+          676
+        ]
+      },
+      {
+        "song_title": "Misery",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Misery.pdf",
+        "file_size_bytes": 962293,
+        "page_range": [
+          676,
+          680
+        ]
+      },
+      {
+        "song_title": "Money (That's What I Want)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Money (that's What I Want).pdf",
+        "file_size_bytes": 1318745,
+        "page_range": [
+          680,
+          685
+        ]
+      },
+      {
+        "song_title": "Mother Nature's Son",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Mother Nature's Son.pdf",
+        "file_size_bytes": 751241,
+        "page_range": [
+          685,
+          688
+        ]
+      },
+      {
+        "song_title": "Mr. Moonlight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Mr. Moonlight.pdf",
+        "file_size_bytes": 1471058,
+        "page_range": [
+          688,
+          694
+        ]
+      },
+      {
+        "song_title": "The Night Before",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - The Night Before.pdf",
+        "file_size_bytes": 1495554,
+        "page_range": [
+          694,
+          700
+        ]
+      },
+      {
+        "song_title": "No Reply",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - No Reply.pdf",
+        "file_size_bytes": 747620,
+        "page_range": [
+          700,
+          703
+        ]
+      },
+      {
+        "song_title": "Norwegian Wood",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Norwegian Wood.pdf",
+        "file_size_bytes": 1033459,
+        "page_range": [
+          703,
+          707
+        ]
+      },
+      {
+        "song_title": "Not a Second Time",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Not A Second Time.pdf",
+        "file_size_bytes": 995585,
+        "page_range": [
+          707,
+          711
+        ]
+      },
+      {
+        "song_title": "Nowhere Man",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Nowhere Man.pdf",
+        "file_size_bytes": 2472655,
+        "page_range": [
+          711,
+          721
+        ]
+      },
+      {
+        "song_title": "Octopus's Garden",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Octopus's Garden.pdf",
+        "file_size_bytes": 1259962,
+        "page_range": [
+          721,
+          726
+        ]
+      },
+      {
+        "song_title": "Oh! Darling",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Oh! Darling.pdf",
+        "file_size_bytes": 1264196,
+        "page_range": [
+          726,
+          731
+        ]
+      },
+      {
+        "song_title": "Old Brown Shoe",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Old Brown Shoe.pdf",
+        "file_size_bytes": 1748089,
+        "page_range": [
+          731,
+          738
+        ]
+      },
+      {
+        "song_title": "One After 909",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - One After 909.pdf",
+        "file_size_bytes": 2295110,
+        "page_range": [
+          738,
+          747
+        ]
+      },
+      {
+        "song_title": "Only a Northern Song",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Only A Northern Song.pdf",
+        "file_size_bytes": 1459762,
+        "page_range": [
+          747,
+          753
+        ]
+      },
+      {
+        "song_title": "Paperback Writer",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Paperback Writer.pdf",
+        "file_size_bytes": 1217009,
+        "page_range": [
+          753,
+          758
+        ]
+      },
+      {
+        "song_title": "Penny Lane",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Penny Lane.pdf",
+        "file_size_bytes": 1392919,
+        "page_range": [
+          758,
+          764
+        ]
+      },
+      {
+        "song_title": "Piggies",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Piggies.pdf",
+        "file_size_bytes": 974699,
+        "page_range": [
+          764,
+          768
+        ]
+      },
+      {
+        "song_title": "Please Mr. Postman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Please Mr. Postman.pdf",
+        "file_size_bytes": 1262448,
+        "page_range": [
+          768,
+          773
+        ]
+      },
+      {
+        "song_title": "Please Please Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Please Please Me.pdf",
+        "file_size_bytes": 987505,
+        "page_range": [
+          773,
+          777
+        ]
+      },
+      {
+        "song_title": "Polythene Pam",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Polythene Pam.pdf",
+        "file_size_bytes": 1196730,
+        "page_range": [
+          777,
+          782
+        ]
+      },
+      {
+        "song_title": "P.S. I Love You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - P.s. I Love You.pdf",
+        "file_size_bytes": 743187,
+        "page_range": [
+          782,
+          785
+        ]
+      },
+      {
+        "song_title": "Rain",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Rain.pdf",
+        "file_size_bytes": 1505214,
+        "page_range": [
+          785,
+          791
+        ]
+      },
+      {
+        "song_title": "Revolution",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Revolution.pdf",
+        "file_size_bytes": 1774779,
+        "page_range": [
+          791,
+          798
+        ]
+      },
+      {
+        "song_title": "Revolution 1",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Revolution 1.pdf",
+        "file_size_bytes": 1842161,
+        "page_range": [
+          798,
+          805
+        ]
+      },
+      {
+        "song_title": "Revolution 9",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Revolution 9.pdf",
+        "file_size_bytes": 2353453,
+        "page_range": [
+          805,
+          815
+        ]
+      },
+      {
+        "song_title": "Rock and Roll Music",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Rock And Roll Music.pdf",
+        "file_size_bytes": 692969,
+        "page_range": [
+          815,
+          818
+        ]
+      },
+      {
+        "song_title": "Rocky Raccoon",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Rocky Raccoon.pdf",
+        "file_size_bytes": 1505687,
+        "page_range": [
+          818,
+          824
+        ]
+      },
+      {
+        "song_title": "Roll Over Beethoven",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Roll Over Beethoven.pdf",
+        "file_size_bytes": 1758835,
+        "page_range": [
+          824,
+          831
+        ]
+      },
+      {
+        "song_title": "Run For Your Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Run For Your Life.pdf",
+        "file_size_bytes": 1410888,
+        "page_range": [
+          831,
+          837
+        ]
+      },
+      {
+        "song_title": "Savoy Truffle",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Savoy Truffle.pdf",
+        "file_size_bytes": 1550455,
+        "page_range": [
+          837,
+          843
+        ]
+      },
+      {
+        "song_title": "Sexy Sadie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Sexy Sadie.pdf",
+        "file_size_bytes": 1038691,
+        "page_range": [
+          843,
+          847
+        ]
+      },
+      {
+        "song_title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Sgt. Pepper's Lonely Hearts Club Band.pdf",
+        "file_size_bytes": 1261999,
+        "page_range": [
+          847,
+          852
+        ]
+      },
+      {
+        "song_title": "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Sgt. Pepper's Lonely Hearts Club Band (reprise).pdf",
+        "file_size_bytes": 952166,
+        "page_range": [
+          852,
+          856
+        ]
+      },
+      {
+        "song_title": "She Came In Through The Bathroom Window",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - She Came In Through The Bathroom Window.pdf",
+        "file_size_bytes": 745729,
+        "page_range": [
+          856,
+          859
+        ]
+      },
+      {
+        "song_title": "She Loves You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - She Loves You.pdf",
+        "file_size_bytes": 1152549,
+        "page_range": [
+          859,
+          864
+        ]
+      },
+      {
+        "song_title": "She Said She Said",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - She Said She Said.pdf",
+        "file_size_bytes": 1005106,
+        "page_range": [
+          864,
+          868
+        ]
+      },
+      {
+        "song_title": "She's a Woman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - She's A Woman.pdf",
+        "file_size_bytes": 1689439,
+        "page_range": [
+          868,
+          875
+        ]
+      },
+      {
+        "song_title": "She's Leaving Home",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - She's Leaving Home.pdf",
+        "file_size_bytes": 3041647,
+        "page_range": [
+          875,
+          888
+        ]
+      },
+      {
+        "song_title": "Slow Down",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Slow Down.pdf",
+        "file_size_bytes": 2027669,
+        "page_range": [
+          888,
+          896
+        ]
+      },
+      {
+        "song_title": "Something",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Something.pdf",
+        "file_size_bytes": 1053536,
+        "page_range": [
+          896,
+          900
+        ]
+      },
+      {
+        "song_title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Strawberry Fields Forever.pdf",
+        "file_size_bytes": 1414465,
+        "page_range": [
+          900,
+          906
+        ]
+      },
+      {
+        "song_title": "Sun King",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Sun King.pdf",
+        "file_size_bytes": 997160,
+        "page_range": [
+          906,
+          910
+        ]
+      },
+      {
+        "song_title": "A Taste of Honey",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - A Taste Of Honey.pdf",
+        "file_size_bytes": 746403,
+        "page_range": [
+          910,
+          913
+        ]
+      },
+      {
+        "song_title": "Taxman",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Taxman.pdf",
+        "file_size_bytes": 1489959,
+        "page_range": [
+          913,
+          919
+        ]
+      },
+      {
+        "song_title": "Tell Me What You See",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Tell Me What You See.pdf",
+        "file_size_bytes": 903986,
+        "page_range": [
+          919,
+          923
+        ]
+      },
+      {
+        "song_title": "Tell Me Why",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Tell Me Why.pdf",
+        "file_size_bytes": 1210958,
+        "page_range": [
+          923,
+          928
+        ]
+      },
+      {
+        "song_title": "Thank You Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Thank You Girl.pdf",
+        "file_size_bytes": 986683,
+        "page_range": [
+          928,
+          932
+        ]
+      },
+      {
+        "song_title": "There's a Place",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - There's A Place.pdf",
+        "file_size_bytes": 945758,
+        "page_range": [
+          932,
+          936
+        ]
+      },
+      {
+        "song_title": "Things We Said Today",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Things We Said Today.pdf",
+        "file_size_bytes": 999363,
+        "page_range": [
+          936,
+          940
+        ]
+      },
+      {
+        "song_title": "Think For Yourself",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Think For Yourself.pdf",
+        "file_size_bytes": 1313977,
+        "page_range": [
+          940,
+          945
+        ]
+      },
+      {
+        "song_title": "This Boy",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - This Boy.pdf",
+        "file_size_bytes": 954776,
+        "page_range": [
+          945,
+          949
+        ]
+      },
+      {
+        "song_title": "Ticket to Ride",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Ticket To Ride.pdf",
+        "file_size_bytes": 1176786,
+        "page_range": [
+          949,
+          954
+        ]
+      },
+      {
+        "song_title": "Till There Was You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Till There Was You.pdf",
+        "file_size_bytes": 1170081,
+        "page_range": [
+          954,
+          959
+        ]
+      },
+      {
+        "song_title": "Tomorrow Never Knows",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Tomorrow Never Knows.pdf",
+        "file_size_bytes": 1175096,
+        "page_range": [
+          959,
+          964
+        ]
+      },
+      {
+        "song_title": "Twist and Shout",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Twist And Shout.pdf",
+        "file_size_bytes": 1528939,
+        "page_range": [
+          964,
+          970
+        ]
+      },
+      {
+        "song_title": "Two of Us",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Two Of Us.pdf",
+        "file_size_bytes": 1215794,
+        "page_range": [
+          970,
+          975
+        ]
+      },
+      {
+        "song_title": "Wait",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Wait.pdf",
+        "file_size_bytes": 954116,
+        "page_range": [
+          975,
+          979
+        ]
+      },
+      {
+        "song_title": "We Can Work It Out",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - We Can Work It Out.pdf",
+        "file_size_bytes": 962249,
+        "page_range": [
+          979,
+          983
+        ]
+      },
+      {
+        "song_title": "What Goes On?",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - What Goes On-.pdf",
+        "file_size_bytes": 1512310,
+        "page_range": [
+          983,
+          989
+        ]
+      },
+      {
+        "song_title": "What You're Doing",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - What You're Doing.pdf",
+        "file_size_bytes": 1411792,
+        "page_range": [
+          989,
+          995
+        ]
+      },
+      {
+        "song_title": "When I Get Home",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - When I Get Home.pdf",
+        "file_size_bytes": 1122785,
+        "page_range": [
+          995,
+          1000
+        ]
+      },
+      {
+        "song_title": "When I'm Sixty Four",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - When I'm Sixty Four.pdf",
+        "file_size_bytes": 1405070,
+        "page_range": [
+          1000,
+          1006
+        ]
+      },
+      {
+        "song_title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - While My Guitar Gently Weeps.pdf",
+        "file_size_bytes": 2414007,
+        "page_range": [
+          1006,
+          1015
+        ]
+      },
+      {
+        "song_title": "Why Don't We Do It in the Road?",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Why Don't We Do It In The Road-.pdf",
+        "file_size_bytes": 699250,
+        "page_range": [
+          1015,
+          1018
+        ]
+      },
+      {
+        "song_title": "Wild Honey Pie",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Wild Honey Pie.pdf",
+        "file_size_bytes": 645655,
+        "page_range": [
+          1018,
+          1021
+        ]
+      },
+      {
+        "song_title": "With a Little Help From My Friends",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - With A Little Help From My Friends.pdf",
+        "file_size_bytes": 1741464,
+        "page_range": [
+          1021,
+          1028
+        ]
+      },
+      {
+        "song_title": "Within You Without You",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Within You Without You.pdf",
+        "file_size_bytes": 2862597,
+        "page_range": [
+          1028,
+          1040
+        ]
+      },
+      {
+        "song_title": "The Word",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - The Word.pdf",
+        "file_size_bytes": 1268137,
+        "page_range": [
+          1040,
+          1045
+        ]
+      },
+      {
+        "song_title": "Words of Love",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Words Of Love.pdf",
+        "file_size_bytes": 733543,
+        "page_range": [
+          1045,
+          1048
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Yellow Submarine.pdf",
+        "file_size_bytes": 1340004,
+        "page_range": [
+          1048,
+          1054
+        ]
+      },
+      {
+        "song_title": "Yer Blues",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Yer Blues.pdf",
+        "file_size_bytes": 1790555,
+        "page_range": [
+          1054,
+          1061
+        ]
+      },
+      {
+        "song_title": "Yes It Is",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Yes It Is.pdf",
+        "file_size_bytes": 912300,
+        "page_range": [
+          1061,
+          1065
+        ]
+      },
+      {
+        "song_title": "Yesterday",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Yesterday.pdf",
+        "file_size_bytes": 683440,
+        "page_range": [
+          1065,
+          1068
+        ]
+      },
+      {
+        "song_title": "You Can't Do That",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - You Can't Do That.pdf",
+        "file_size_bytes": 1461820,
+        "page_range": [
+          1068,
+          1074
+        ]
+      },
+      {
+        "song_title": "You Know My Name (Look Up The Number)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - You Know My Name (look Up The Number).pdf",
+        "file_size_bytes": 2166664,
+        "page_range": [
+          1074,
+          1083
+        ]
+      },
+      {
+        "song_title": "You Like Me Too Much",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - You Like Me Too Much.pdf",
+        "file_size_bytes": 1738430,
+        "page_range": [
+          1083,
+          1090
+        ]
+      },
+      {
+        "song_title": "You Never Give Me Your Money",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - You Never Give Me Your Money.pdf",
+        "file_size_bytes": 1967243,
+        "page_range": [
+          1090,
+          1098
+        ]
+      },
+      {
+        "song_title": "You're Going to Lose That Girl",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - You're Going To Lose That Girl.pdf",
+        "file_size_bytes": 1291991,
+        "page_range": [
+          1098,
+          1103
+        ]
+      },
+      {
+        "song_title": "Your Mother Should Know",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - Your Mother Should Know.pdf",
+        "file_size_bytes": 1200877,
+        "page_range": [
+          1103,
+          1108
+        ]
+      },
+      {
+        "song_title": "You've Got to Hide Your Love Away",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - You've Got To Hide Your Love Away.pdf",
+        "file_size_bytes": 717306,
+        "page_range": [
+          1108,
+          1111
+        ]
+      },
+      {
+        "song_title": "You've Really Got a Hold on Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - You've Really Got A Hold On Me.pdf",
+        "file_size_bytes": 1030834,
+        "page_range": [
+          1111,
+          1115
+        ]
+      },
+      {
+        "song_title": "You Won't See Me",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Complete Scores/Songs/Beatles - You Won't See Me.pdf",
+        "file_size_bytes": 1531492,
+        "page_range": [
+          1115,
+          1121
+        ]
+      }
+    ]
+  }
+}

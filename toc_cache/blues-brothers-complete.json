@@ -1,0 +1,218 @@
+{
+  "book_id": "blues-brothers-complete",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "everybody needs somebody to love",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "flip flop and fly",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "gimme some lovin'",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "green onions",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "minnie the moocher",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "peter gunn theme",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "rawhide (theme from rawhide)",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "shake a tail feather",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "she caught the katy and left me a mule to ride",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "soul man",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "sweet home chicago",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "the old landmark",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "think",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "who's making love",
+        "page_number": 68,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "everybody needs somebody to love",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/Bert Berns, Solomon Burke, Jerry Wexler - Everybody Needs Somebody To Love.pdf",
+        "file_size_bytes": 267098,
+        "page_range": [
+          3,
+          9
+        ]
+      },
+      {
+        "song_title": "flip flop and fly",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/Charles S. Calhoun, Lou Willie Turner - Flip Flop And Fly.pdf",
+        "file_size_bytes": 173509,
+        "page_range": [
+          9,
+          13
+        ]
+      },
+      {
+        "song_title": "gimme some lovin'",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/S.winwood, M.winwood, S.davis - Gimme Some Lovin'.pdf",
+        "file_size_bytes": 171350,
+        "page_range": [
+          13,
+          17
+        ]
+      },
+      {
+        "song_title": "green onions",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/T. Jones, Booker, Steve Cropper, Earl Jackson, Lewis Steinberg - Green Onions.pdf",
+        "file_size_bytes": 251608,
+        "page_range": [
+          17,
+          23
+        ]
+      },
+      {
+        "song_title": "minnie the moocher",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/Cab Calloway, Irving Mills, Clarence Gaskill - Minnie The Moocher.pdf",
+        "file_size_bytes": 258495,
+        "page_range": [
+          23,
+          29
+        ]
+      },
+      {
+        "song_title": "peter gunn theme",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/Henry Mancini - Peter Gunn Theme.pdf",
+        "file_size_bytes": 369476,
+        "page_range": [
+          29,
+          38
+        ]
+      },
+      {
+        "song_title": "shake a tail feather",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/Clio Hayes, Andre Williams, Verlie Rice - Shake A Tail Feather.pdf",
+        "file_size_bytes": 228058,
+        "page_range": [
+          38,
+          43
+        ]
+      },
+      {
+        "song_title": "she caught the katy and left me a mule to ride",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/T. Malie Y. Keller - She Caught The Katy And Left Me A Mule To Ride.pdf",
+        "file_size_bytes": 390157,
+        "page_range": [
+          43,
+          52
+        ]
+      },
+      {
+        "song_title": "sweet home chicago",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/Robert Johnson - Sweet Home Chicago.pdf",
+        "file_size_bytes": 245916,
+        "page_range": [
+          52,
+          58
+        ]
+      },
+      {
+        "song_title": "the old landmark",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/A.m. Brunner - The Old Landmark.pdf",
+        "file_size_bytes": 303100,
+        "page_range": [
+          58,
+          64
+        ]
+      },
+      {
+        "song_title": "think",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/T. Wilbur, A. Franklin - Think.pdf",
+        "file_size_bytes": 270776,
+        "page_range": [
+          64,
+          70
+        ]
+      },
+      {
+        "song_title": "who's making love",
+        "artist": "Blues Brothers",
+        "output_uri": "s3://jsmith-output/Blues Brothers/Complete/Songs/Homer Banks, Bettye Jean Barnes-crutcher, Don Davis, Raymond Earl Jackson - Who's Making Love.pdf",
+        "file_size_bytes": 262532,
+        "page_range": [
+          70,
+          76
+        ]
+      }
+    ]
+  }
+}

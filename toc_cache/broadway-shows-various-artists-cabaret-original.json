@@ -1,0 +1,98 @@
+{
+  "book_id": "broadway-shows-various-artists-cabaret-original",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Willkommen",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fremde",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gl\u00fccklich zu sehen",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blei-be, res-te, stay",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Will-kom-men, bien-ve-nue",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "wel-come",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Im Cab-a-ret",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "to Cab-a-ret",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Meine Dammen und Herren",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Willkommen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Fred Ebb, Music By John Kander - Willkommen.pdf",
+        "file_size_bytes": 25460541,
+        "page_range": [
+          0,
+          0
+        ]
+      },
+      {
+        "song_title": "Will-kom-men, bien-ve-nue",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Fred Ebb, Music By John Kander - Will-kom-men, Bien-ve-nue.pdf",
+        "file_size_bytes": 22278134,
+        "page_range": [
+          0,
+          177
+        ]
+      },
+      {
+        "song_title": "to Cab-a-ret",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Cabaret (original)/Songs/Unknown Artist - To Cab-a-ret.pdf",
+        "file_size_bytes": 3183078,
+        "page_range": [
+          177,
+          203
+        ]
+      }
+    ]
+  }
+}

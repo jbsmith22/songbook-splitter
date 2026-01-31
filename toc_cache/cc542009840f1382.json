@@ -1,0 +1,32 @@
+{
+  "book_id": "cc542009840f1382",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Theme From \"The Simpsons\"",
+        "page_number": 7,
+        "artist": "Music by DANNY ELFMAN",
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {
+      "Theme From \"The Simpsons\"": "Music by DANNY ELFMAN"
+    }
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Theme From \"The Simpsons\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - The Simpsons - Simpsons Songbook/Songs/Music By Danny Elfman - Theme From -the Simpsons-.pdf",
+        "file_size_bytes": 3585894,
+        "page_range": [
+          1,
+          91
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "book_id": "0209e7a74de138f6",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "She's Not There",
+        "artist": "Santana",
+        "output_uri": "s3://jsmith-output/Santana/Santana - Off The Record/Songs/Santana - She's Not There.pdf",
+        "file_size_bytes": 5994391,
+        "page_range": [
+          11,
+          39
+        ]
+      },
+      {
+        "song_title": "Europa",
+        "artist": "Santana",
+        "output_uri": "s3://jsmith-output/Santana/Santana - Off The Record/Songs/Santana - Europa.pdf",
+        "file_size_bytes": 1655616,
+        "page_range": [
+          39,
+          47
+        ]
+      },
+      {
+        "song_title": "Dance Sister Dance",
+        "artist": "Santana",
+        "output_uri": "s3://jsmith-output/Santana/Santana - Off The Record/Songs/Santana - Dance Sister Dance.pdf",
+        "file_size_bytes": 3533392,
+        "page_range": [
+          47,
+          64
+        ]
+      }
+    ]
+  }
+}

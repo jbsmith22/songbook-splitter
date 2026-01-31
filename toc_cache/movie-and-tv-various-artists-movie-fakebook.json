@@ -1,0 +1,3913 @@
+{
+  "book_id": "movie-and-tv-various-artists-movie-fakebook",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "AIN'T MISBEHAVIN'",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Andy Razaf, Music By Thomas -fats- Waller And Harry Brooks - Ain't Misbehavin'.pdf",
+        "file_size_bytes": 51943,
+        "page_range": [
+          20,
+          21
+        ]
+      },
+      {
+        "song_title": "Against All Odds",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Phil Collins - Against All Odds.pdf",
+        "file_size_bytes": 48705,
+        "page_range": [
+          21,
+          22
+        ]
+      },
+      {
+        "song_title": "AIN'T THERE ANYONE HERE FOR LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Harold Armistead (lyric), Harry Carmichael (music) - Ain't There Anyone Here For Love.pdf",
+        "file_size_bytes": 48438,
+        "page_range": [
+          22,
+          23
+        ]
+      },
+      {
+        "song_title": "AIN'T TOO PROUD TO BEG",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Temptations (featured On The Big Chill Soundtrack) - Ain't Too Proud To Beg.pdf",
+        "file_size_bytes": 45041,
+        "page_range": [
+          23,
+          24
+        ]
+      },
+      {
+        "song_title": "ALFIE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Burt Bacharach - Alfie.pdf",
+        "file_size_bytes": 53431,
+        "page_range": [
+          24,
+          25
+        ]
+      },
+      {
+        "song_title": "ALICE IN WONDERLAND",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Alice In Wonderland - Alice In Wonderland.pdf",
+        "file_size_bytes": 100635,
+        "page_range": [
+          25,
+          27
+        ]
+      },
+      {
+        "song_title": "ALL OF MY LIFE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Credits At The Top It Appears To Be Written By Barbra Streisand And Marilyn Hamlisch - All Of My Life.pdf",
+        "file_size_bytes": 54133,
+        "page_range": [
+          27,
+          28
+        ]
+      },
+      {
+        "song_title": "ALL OF YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Cole Porter - All Of You.pdf",
+        "file_size_bytes": 52217,
+        "page_range": [
+          28,
+          29
+        ]
+      },
+      {
+        "song_title": "ALMOST PARADISE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Paramount Motion Picture Footloose - Almost Paradise.pdf",
+        "file_size_bytes": 50982,
+        "page_range": [
+          29,
+          30
+        ]
+      },
+      {
+        "song_title": "AMARCORD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Nino Rota - Amarcord.pdf",
+        "file_size_bytes": 41046,
+        "page_range": [
+          30,
+          31
+        ]
+      },
+      {
+        "song_title": "America",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Song Appears To Be Titled -america- From The Motion Picture -the Jazz Singer-, Though The Artist-composer Name Is Not Explicitly Stated On This Page - America.pdf",
+        "file_size_bytes": 79399,
+        "page_range": [
+          31,
+          33
+        ]
+      },
+      {
+        "song_title": "AN AMERICAN SYMPHONY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Mr. Holland's Opus - An American Symphony.pdf",
+        "file_size_bytes": 35165,
+        "page_range": [
+          33,
+          34
+        ]
+      },
+      {
+        "song_title": "ANIMAL CRACKERS IN MY SOUP",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Ray Henderson - Animal Crackers In My Soup.pdf",
+        "file_size_bytes": 46760,
+        "page_range": [
+          34,
+          35
+        ]
+      },
+      {
+        "song_title": "And All That Jazz",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Fred Ebb, Music By John Kander - And All That Jazz.pdf",
+        "file_size_bytes": 92160,
+        "page_range": [
+          35,
+          37
+        ]
+      },
+      {
+        "song_title": "ANIMAL HOUSE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Stephen Bishop - Animal House.pdf",
+        "file_size_bytes": 52020,
+        "page_range": [
+          37,
+          38
+        ]
+      },
+      {
+        "song_title": "ANOTHER SUITCASE IN ANOTHER HALL",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Andrew Lloyd Webber - Another Suitcase In Another Hall.pdf",
+        "file_size_bytes": 53505,
+        "page_range": [
+          38,
+          39
+        ]
+      },
+      {
+        "song_title": "ANYTHING YOU CAN DO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Anything You Can Do.pdf",
+        "file_size_bytes": 53040,
+        "page_range": [
+          39,
+          40
+        ]
+      },
+      {
+        "song_title": "ANYWHERE I WANDER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Frank Loesser - Anywhere I Wander.pdf",
+        "file_size_bytes": 102420,
+        "page_range": [
+          40,
+          42
+        ]
+      },
+      {
+        "song_title": "BABY ELEPHANT WALK",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Henry Mancini, Words By Hal David - Baby Elephant Walk.pdf",
+        "file_size_bytes": 50993,
+        "page_range": [
+          42,
+          43
+        ]
+      },
+      {
+        "song_title": "BABY, IT'S COLD OUTSIDE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture Neptune's Daughter - Baby, It's Cold Outside.pdf",
+        "file_size_bytes": 50498,
+        "page_range": [
+          43,
+          44
+        ]
+      },
+      {
+        "song_title": "BACK IN THE SADDLE AGAIN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Gene Autry And Ray Whitley - Back In The Saddle Again.pdf",
+        "file_size_bytes": 49575,
+        "page_range": [
+          44,
+          45
+        ]
+      },
+      {
+        "song_title": "BACK TO THE FUTURE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Universal Motion Picture Back To The Future - Back To The Future.pdf",
+        "file_size_bytes": 43619,
+        "page_range": [
+          45,
+          46
+        ]
+      },
+      {
+        "song_title": "BALLAD OF EASY RIDER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Ballad Of Easy Rider.pdf",
+        "file_size_bytes": 43583,
+        "page_range": [
+          46,
+          47
+        ]
+      },
+      {
+        "song_title": "Ballad of Cat Ballou",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Ballad Of Cat Ballou.pdf",
+        "file_size_bytes": 97307,
+        "page_range": [
+          47,
+          49
+        ]
+      },
+      {
+        "song_title": "Be Our Guest",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Be Our Guest.pdf",
+        "file_size_bytes": 125887,
+        "page_range": [
+          49,
+          51
+        ]
+      },
+      {
+        "song_title": "Beautiful Boy",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Mr. Holland's Opus - Beautiful Boy.pdf",
+        "file_size_bytes": 39945,
+        "page_range": [
+          51,
+          52
+        ]
+      },
+      {
+        "song_title": "Beauty and the Beast",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Beauty And The Beast - Beauty And The Beast.pdf",
+        "file_size_bytes": 41743,
+        "page_range": [
+          52,
+          53
+        ]
+      },
+      {
+        "song_title": "BELIEVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Warner Bros. Pictures -the Polar Express- - Believe.pdf",
+        "file_size_bytes": 44147,
+        "page_range": [
+          53,
+          54
+        ]
+      },
+      {
+        "song_title": "BE A CLOWN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Be A Clown.pdf",
+        "file_size_bytes": 49854,
+        "page_range": [
+          54,
+          55
+        ]
+      },
+      {
+        "song_title": "Bella Notte",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Lady And The Tramp (words And Music By Peggy Lee And Sonny Burke) - Bella Notte.pdf",
+        "file_size_bytes": 44533,
+        "page_range": [
+          55,
+          56
+        ]
+      },
+      {
+        "song_title": "THE BEST THINGS HAPPEN WHILE YOU'RE DANCING",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - The Best Things Happen While You're Dancing.pdf",
+        "file_size_bytes": 40684,
+        "page_range": [
+          56,
+          57
+        ]
+      },
+      {
+        "song_title": "Betty Boop",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Betty Boop.pdf",
+        "file_size_bytes": 53901,
+        "page_range": [
+          57,
+          58
+        ]
+      },
+      {
+        "song_title": "BEYOND THE SEA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Albert Lasby And Charles Trenet - Beyond The Sea.pdf",
+        "file_size_bytes": 44567,
+        "page_range": [
+          58,
+          59
+        ]
+      },
+      {
+        "song_title": "BIBBIDI-BOBBIDI-BOO (The Magic Song)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Cinderella - Music By Jerry Livingston, Al Hoffman And Mack David - Bibbidi-bobbidi-boo (the Magic Song).pdf",
+        "file_size_bytes": 44637,
+        "page_range": [
+          59,
+          60
+        ]
+      },
+      {
+        "song_title": "BLUE HAWAII",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Leo Robin And Ralph Rainger - Blue Hawaii.pdf",
+        "file_size_bytes": 40844,
+        "page_range": [
+          60,
+          61
+        ]
+      },
+      {
+        "song_title": "Blame Canada",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture Soundtrack South Park- Bigger, Longer & Uncut - Blame Canada.pdf",
+        "file_size_bytes": 76934,
+        "page_range": [
+          61,
+          63
+        ]
+      },
+      {
+        "song_title": "BLAZE OF GLORY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jon Bon Jovi - Blaze Of Glory.pdf",
+        "file_size_bytes": 79921,
+        "page_range": [
+          63,
+          65
+        ]
+      },
+      {
+        "song_title": "Blue Velvet",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Blue Velvet.pdf",
+        "file_size_bytes": 50057,
+        "page_range": [
+          65,
+          66
+        ]
+      },
+      {
+        "song_title": "BOOGIE WOOGIE BUGLE BOY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Don Raye And Hughie Prince - Boogie Woogie Bugle Boy.pdf",
+        "file_size_bytes": 54769,
+        "page_range": [
+          66,
+          67
+        ]
+      },
+      {
+        "song_title": "BOHEMIAN RHAPSODY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Freddie Mercury - Bohemian Rhapsody.pdf",
+        "file_size_bytes": 105011,
+        "page_range": [
+          67,
+          69
+        ]
+      },
+      {
+        "song_title": "A BOAT ON THE SEA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Garry Allen - A Boat On The Sea.pdf",
+        "file_size_bytes": 54771,
+        "page_range": [
+          69,
+          70
+        ]
+      },
+      {
+        "song_title": "BORN FREE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Don Black - Born Free.pdf",
+        "file_size_bytes": 51137,
+        "page_range": [
+          70,
+          71
+        ]
+      },
+      {
+        "song_title": "Born to Be Wild",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Mars Bonfire - Born To Be Wild.pdf",
+        "file_size_bytes": 41075,
+        "page_range": [
+          71,
+          72
+        ]
+      },
+      {
+        "song_title": "BREAKFAST AT TIFFANY'S",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Henry Mancini - Breakfast At Tiffany's.pdf",
+        "file_size_bytes": 40537,
+        "page_range": [
+          72,
+          73
+        ]
+      },
+      {
+        "song_title": "BREAKAWAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Princess Diaries 2- Royal Engagement - Breakaway.pdf",
+        "file_size_bytes": 86011,
+        "page_range": [
+          73,
+          75
+        ]
+      },
+      {
+        "song_title": "BREAKING FREE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Disney Channel Original Movie High School Musical - Breaking Free.pdf",
+        "file_size_bytes": 89988,
+        "page_range": [
+          75,
+          77
+        ]
+      },
+      {
+        "song_title": "(THE BOYS ARE) BACK IN TOWN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Lyrics And Music Are Credited To Brian O'neal For This Song - (the Boys Are) Back In Town.pdf",
+        "file_size_bytes": 54567,
+        "page_range": [
+          77,
+          78
+        ]
+      },
+      {
+        "song_title": "Ca, C'est L'amour",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Lew Pollack - Ca, C'est L'amour.pdf",
+        "file_size_bytes": 52006,
+        "page_range": [
+          78,
+          79
+        ]
+      },
+      {
+        "song_title": "Cabaret",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Fred Ebb (composer) - Cabaret.pdf",
+        "file_size_bytes": 40882,
+        "page_range": [
+          79,
+          80
+        ]
+      },
+      {
+        "song_title": "CALL ME IRRESPONSIBLE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Call Me Irresponsible.pdf",
+        "file_size_bytes": 52572,
+        "page_range": [
+          80,
+          81
+        ]
+      },
+      {
+        "song_title": "Can You Feel the Love Tonight",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney Pictures- The Lion King - Can You Feel The Love Tonight.pdf",
+        "file_size_bytes": 46879,
+        "page_range": [
+          81,
+          82
+        ]
+      },
+      {
+        "song_title": "CANDLE ON THE WATER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Al Kasha And Joel Hirschhorn - Candle On The Water.pdf",
+        "file_size_bytes": 47107,
+        "page_range": [
+          82,
+          83
+        ]
+      },
+      {
+        "song_title": "THE CANDY MAN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - The Candy Man.pdf",
+        "file_size_bytes": 45628,
+        "page_range": [
+          83,
+          84
+        ]
+      },
+      {
+        "song_title": "Cavatina",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Stanley Myers - Cavatina.pdf",
+        "file_size_bytes": 44025,
+        "page_range": [
+          84,
+          85
+        ]
+      },
+      {
+        "song_title": "CHANGE PARTNERS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Change Partners.pdf",
+        "file_size_bytes": 97453,
+        "page_range": [
+          85,
+          87
+        ]
+      },
+      {
+        "song_title": "CHARIOTS OF FIRE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Vangelis - Chariots Of Fire.pdf",
+        "file_size_bytes": 52720,
+        "page_range": [
+          87,
+          88
+        ]
+      },
+      {
+        "song_title": "CHERRY PINK AND APPLE BLOSSOM WHITE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Musical -tenderloin- - Cherry Pink And Apple Blossom White.pdf",
+        "file_size_bytes": 51141,
+        "page_range": [
+          88,
+          89
+        ]
+      },
+      {
+        "song_title": "Chim Chim Cher-ee",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Mary Poppins - Chim Chim Cher-ee.pdf",
+        "file_size_bytes": 49828,
+        "page_range": [
+          89,
+          90
+        ]
+      },
+      {
+        "song_title": "CINDERELLA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Mack David, Al Hoffman, Jerry Livingston - Cinderella.pdf",
+        "file_size_bytes": 45204,
+        "page_range": [
+          90,
+          91
+        ]
+      },
+      {
+        "song_title": "CIRCLE OF LIFE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Elton John, Lyrics By Tim Rice (from Walt Disney Pictures' The Lion King) - Circle Of Life.pdf",
+        "file_size_bytes": 86213,
+        "page_range": [
+          91,
+          93
+        ]
+      },
+      {
+        "song_title": "COAL MINER'S DAUGHTER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Coal Miner's Daughter.pdf",
+        "file_size_bytes": 57484,
+        "page_range": [
+          93,
+          94
+        ]
+      },
+      {
+        "song_title": "COLE'S SONG",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Julian Lennon And Justin Clayton, Music By Michael Kamen - Cole's Song.pdf",
+        "file_size_bytes": 64612,
+        "page_range": [
+          94,
+          95
+        ]
+      },
+      {
+        "song_title": "Colors of the Wind",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Alan Menken, Lyrics By Stephen Schwartz - Colors Of The Wind.pdf",
+        "file_size_bytes": 39262,
+        "page_range": [
+          95,
+          96
+        ]
+      },
+      {
+        "song_title": "Come Saturday Morning",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Kory Previn (words By), Fred Karlin (music By) - Come Saturday Morning.pdf",
+        "file_size_bytes": 48828,
+        "page_range": [
+          96,
+          97
+        ]
+      },
+      {
+        "song_title": "Come What May",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/David Heyward - Come What May.pdf",
+        "file_size_bytes": 76205,
+        "page_range": [
+          97,
+          99
+        ]
+      },
+      {
+        "song_title": "COMEDY TONIGHT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Stephen Sondheim - Comedy Tonight.pdf",
+        "file_size_bytes": 51950,
+        "page_range": [
+          99,
+          100
+        ]
+      },
+      {
+        "song_title": "COUSINS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Angelo Badalamenti - Cousins.pdf",
+        "file_size_bytes": 44446,
+        "page_range": [
+          100,
+          101
+        ]
+      },
+      {
+        "song_title": "Cradle of Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/David Weiner And Billy Idol - Cradle Of Love.pdf",
+        "file_size_bytes": 50016,
+        "page_range": [
+          101,
+          102
+        ]
+      },
+      {
+        "song_title": "Cruella De Vil",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's 101 Dalmatians - Cruella De Vil.pdf",
+        "file_size_bytes": 57655,
+        "page_range": [
+          102,
+          103
+        ]
+      },
+      {
+        "song_title": "DANCING IN THE STREET",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Credits At The Top, It Appears To Be From The Paramount Motion Picture Footloose, With Words And Music By Marvin Gaye, Ivy Jo Hunt.pdf",
+        "file_size_bytes": 47191,
+        "page_range": [
+          103,
+          104
+        ]
+      },
+      {
+        "song_title": "DEARLY BELOVED",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Musical You Were Never Lovelier, Music By Jerome Kern, Words By Johnny Mercer - Dearly Beloved.pdf",
+        "file_size_bytes": 40973,
+        "page_range": [
+          104,
+          105
+        ]
+      },
+      {
+        "song_title": "DANCING IN THE SHEETS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Dancing In The Sheets.pdf",
+        "file_size_bytes": 44136,
+        "page_range": [
+          105,
+          106
+        ]
+      },
+      {
+        "song_title": "DANGER ZONE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Danger Zone.pdf",
+        "file_size_bytes": 43455,
+        "page_range": [
+          106,
+          107
+        ]
+      },
+      {
+        "song_title": "DAWN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Dario Marianelli - Dawn.pdf",
+        "file_size_bytes": 52223,
+        "page_range": [
+          107,
+          109
+        ]
+      },
+      {
+        "song_title": "THE DAY I FALL IN LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Song Credits List Carole Bayer Sager And James Ingram As The Writers, But Do Not Explicitly Name The Performing Artist - The Day I Fall In Love.pdf",
+        "file_size_bytes": 45484,
+        "page_range": [
+          109,
+          110
+        ]
+      },
+      {
+        "song_title": "Deep in the Heart of Texas",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By June Hershey, Music By Don Swander - Deep In The Heart Of Texas.pdf",
+        "file_size_bytes": 49238,
+        "page_range": [
+          110,
+          111
+        ]
+      },
+      {
+        "song_title": "DAY-O",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Burgie And William Attaway - Day-o.pdf",
+        "file_size_bytes": 51140,
+        "page_range": [
+          111,
+          112
+        ]
+      },
+      {
+        "song_title": "Diamonds Are a Girl's Best Friend",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Leo Robin, Music By Jule Styne - Diamonds Are A Girl's Best Friend.pdf",
+        "file_size_bytes": 53608,
+        "page_range": [
+          112,
+          113
+        ]
+      },
+      {
+        "song_title": "DO YOU KNOW WHERE YOU'RE GOING TO?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Gerry Goffin, Michael Masser - Do You Know Where You're Going To-.pdf",
+        "file_size_bytes": 53947,
+        "page_range": [
+          113,
+          114
+        ]
+      },
+      {
+        "song_title": "DRIVING MISS DAISY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Driving Miss Daisy.pdf",
+        "file_size_bytes": 40983,
+        "page_range": [
+          114,
+          115
+        ]
+      },
+      {
+        "song_title": "DOMINIQUE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Song Does Not Appear To Explicitly List An Artist Name On This Page, But It Mentions -english Lyrics And Arrangement By Noel Regney- And -music By Paul Souvire, Op- - Dominique.pdf",
+        "file_size_bytes": 94820,
+        "page_range": [
+          115,
+          117
+        ]
+      },
+      {
+        "song_title": "DON'T RAIN ON MY PARADE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Bob Merrill (words By) - Jule Styne (music By) - Don't Rain On My Parade.pdf",
+        "file_size_bytes": 40986,
+        "page_range": [
+          117,
+          118
+        ]
+      },
+      {
+        "song_title": "A DREAM IS A WISH YOUR HEART MAKES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Mack David, Al Hoffman, Jerry Livingston - A Dream Is A Wish Your Heart Makes.pdf",
+        "file_size_bytes": 49861,
+        "page_range": [
+          118,
+          119
+        ]
+      },
+      {
+        "song_title": "DON'T WORRY, BE HAPPY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Don't Worry, Be Happy.pdf",
+        "file_size_bytes": 42634,
+        "page_range": [
+          119,
+          120
+        ]
+      },
+      {
+        "song_title": "THE DREAME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Patrick Doyle - The Dreame.pdf",
+        "file_size_bytes": 43457,
+        "page_range": [
+          120,
+          121
+        ]
+      },
+      {
+        "song_title": "DON'T YOU (FORGET ABOUT ME)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Song Title, This Appears To Be The Sheet Music For -don't You (forget About Me)- From The Film The Breakfast Club - Don't You (for.pdf",
+        "file_size_bytes": 40975,
+        "page_range": [
+          121,
+          122
+        ]
+      },
+      {
+        "song_title": "EASTER PARADE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - Easter Parade.pdf",
+        "file_size_bytes": 46288,
+        "page_range": [
+          122,
+          123
+        ]
+      },
+      {
+        "song_title": "DREAMS TO DREAM",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Universal Motion Picture -an American Tail- Fievel Goes West- Words And Music By James Horner And Will Jennings - Dreams To Dream.pdf",
+        "file_size_bytes": 46381,
+        "page_range": [
+          123,
+          124
+        ]
+      },
+      {
+        "song_title": "Each to Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Galt Porter - Each To Love.pdf",
+        "file_size_bytes": 40434,
+        "page_range": [
+          124,
+          125
+        ]
+      },
+      {
+        "song_title": "END OF THE ROAD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - End Of The Road.pdf",
+        "file_size_bytes": 57089,
+        "page_range": [
+          125,
+          126
+        ]
+      },
+      {
+        "song_title": "Consider Yourself",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Lionel Bart - Consider Yourself.pdf",
+        "file_size_bytes": 60606,
+        "page_range": [
+          126,
+          127
+        ]
+      },
+      {
+        "song_title": "COULD I HAVE THIS DANCE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Wayland Holyfield And Bob Wills - Could I Have This Dance.pdf",
+        "file_size_bytes": 48505,
+        "page_range": [
+          127,
+          128
+        ]
+      },
+      {
+        "song_title": "ENDLESS LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Lionel Richie - Endless Love.pdf",
+        "file_size_bytes": 47774,
+        "page_range": [
+          128,
+          129
+        ]
+      },
+      {
+        "song_title": "Empty Saddles",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Empty Saddles.pdf",
+        "file_size_bytes": 36741,
+        "page_range": [
+          129,
+          130
+        ]
+      },
+      {
+        "song_title": "THE ENTERTAINER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Scott Joplin - The Entertainer.pdf",
+        "file_size_bytes": 36960,
+        "page_range": [
+          130,
+          131
+        ]
+      },
+      {
+        "song_title": "Theme from \"E.T. (The Extra-Terrestrial)\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By John Williams - Theme From -e.t. (the Extra-terrestrial)-.pdf",
+        "file_size_bytes": 48473,
+        "page_range": [
+          131,
+          132
+        ]
+      },
+      {
+        "song_title": "Every Road Leads Back to You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Every Road Leads Back To You.pdf",
+        "file_size_bytes": 51032,
+        "page_range": [
+          132,
+          133
+        ]
+      },
+      {
+        "song_title": "Everybody's Talkin'",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(echoes) From Midnight Cowboy - Everybody's Talkin'.pdf",
+        "file_size_bytes": 55339,
+        "page_range": [
+          133,
+          134
+        ]
+      },
+      {
+        "song_title": "Exhale (Shoop Shoop)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Babyface - Exhale (shoop Shoop).pdf",
+        "file_size_bytes": 61343,
+        "page_range": [
+          134,
+          135
+        ]
+      },
+      {
+        "song_title": "EYE OF THE TIGER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Frank Sullivan And Jim Peterik - Eye Of The Tiger.pdf",
+        "file_size_bytes": 51114,
+        "page_range": [
+          135,
+          136
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"FATAL ATTRACTION\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Maurice Jarre - Theme From -fatal Attraction-.pdf",
+        "file_size_bytes": 46898,
+        "page_range": [
+          136,
+          137
+        ]
+      },
+      {
+        "song_title": "FEED THE BIRDS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Mary Poppins (music By Richard M. Sherman And Robert B. Sherman) - Feed The Birds.pdf",
+        "file_size_bytes": 45614,
+        "page_range": [
+          137,
+          138
+        ]
+      },
+      {
+        "song_title": "THE FIRM - MAIN TITLE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Dave Grusin - The Firm - Main Title.pdf",
+        "file_size_bytes": 38120,
+        "page_range": [
+          138,
+          139
+        ]
+      },
+      {
+        "song_title": "Love Theme from \"Flashdance\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Giorgio Moroder - Love Theme From -flashdance-.pdf",
+        "file_size_bytes": 40560,
+        "page_range": [
+          139,
+          140
+        ]
+      },
+      {
+        "song_title": "FLASHDANCE...WHAT A FEELING",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But The Lyrics Are Credited To Keith Forsey And Irene Cara, Suggesting This Is The Sheet Music For The Song -flashdance...what A Feeling- From The.pdf",
+        "file_size_bytes": 55730,
+        "page_range": [
+          140,
+          141
+        ]
+      },
+      {
+        "song_title": "FLY LIKE AN EAGLE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Fly Like An Eagle.pdf",
+        "file_size_bytes": 45541,
+        "page_range": [
+          141,
+          142
+        ]
+      },
+      {
+        "song_title": "FOR ALL WE KNOW",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Fred Karlin, Words By Robb Wilson And Arthur James - For All We Know.pdf",
+        "file_size_bytes": 51033,
+        "page_range": [
+          142,
+          143
+        ]
+      },
+      {
+        "song_title": "FOOTLOOSE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Credits At The Top -theme From The Paramount Motion Picture Footloose- And The Songwriter Credits To Dean Pitchford And Kenny.pdf",
+        "file_size_bytes": 33217,
+        "page_range": [
+          143,
+          144
+        ]
+      },
+      {
+        "song_title": "FOR THE FIRST TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Details On The Sheet Music Indicate That The Song Is Titled -for The First Time- And The Words And Music Are Credited To James Newton Howard And Sting, Though The Performing Artist Is Not Expl.pdf",
+        "file_size_bytes": 63093,
+        "page_range": [
+          144,
+          145
+        ]
+      },
+      {
+        "song_title": "FORREST GUMP - MAIN TITLE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Alan Silvestri - Forrest Gump - Main Title.pdf",
+        "file_size_bytes": 39482,
+        "page_range": [
+          145,
+          146
+        ]
+      },
+      {
+        "song_title": "FOUR WEDDINGS AND A FUNERAL/FUNERAL BLUES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Richard Bennett - Four Weddings And A Funeral-funeral Blues.pdf",
+        "file_size_bytes": 42930,
+        "page_range": [
+          146,
+          147
+        ]
+      },
+      {
+        "song_title": "Friend Like Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Aladdin - Friend Like Me.pdf",
+        "file_size_bytes": 100753,
+        "page_range": [
+          147,
+          149
+        ]
+      },
+      {
+        "song_title": "FRIENDLY PERSUASION",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Paul Francis Webster, Music By Dimitri Tiomkin - Friendly Persuasion.pdf",
+        "file_size_bytes": 51197,
+        "page_range": [
+          149,
+          150
+        ]
+      },
+      {
+        "song_title": "Fright Night",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Fright Night.pdf",
+        "file_size_bytes": 51682,
+        "page_range": [
+          150,
+          151
+        ]
+      },
+      {
+        "song_title": "FROM HERE TO ETERNITY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Robert Wells, Music By Fred Ahlert - From Here To Eternity.pdf",
+        "file_size_bytes": 44603,
+        "page_range": [
+          151,
+          152
+        ]
+      },
+      {
+        "song_title": "Gale's Theme",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jerry Goldsmith - Gale's Theme.pdf",
+        "file_size_bytes": 36302,
+        "page_range": [
+          152,
+          153
+        ]
+      },
+      {
+        "song_title": "Georgy Girl",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Movie-musical -georgy Girl- - Georgy Girl.pdf",
+        "file_size_bytes": 52581,
+        "page_range": [
+          153,
+          154
+        ]
+      },
+      {
+        "song_title": "GIGI",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Alan Jay Lerner, Music By Frederick Loewe - Gigi.pdf",
+        "file_size_bytes": 49257,
+        "page_range": [
+          154,
+          155
+        ]
+      },
+      {
+        "song_title": "GHOST",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Maurice Jarre - Ghost.pdf",
+        "file_size_bytes": 33840,
+        "page_range": [
+          155,
+          156
+        ]
+      },
+      {
+        "song_title": "THE GIRL FROM IPANEMA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(garota De Ipanema) From The Color Of Money Music By Antonio Carlos Jobim English Words By Norman Gimbel - The Girl From Ipanema.pdf",
+        "file_size_bytes": 44063,
+        "page_range": [
+          156,
+          157
+        ]
+      },
+      {
+        "song_title": "Girl Talk",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Girl Talk.pdf",
+        "file_size_bytes": 49427,
+        "page_range": [
+          157,
+          158
+        ]
+      },
+      {
+        "song_title": "THE GLORY OF LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Billy Hill - The Glory Of Love.pdf",
+        "file_size_bytes": 45573,
+        "page_range": [
+          158,
+          159
+        ]
+      },
+      {
+        "song_title": "GO THE DISTANCE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney Pictures' Hercules - Go The Distance.pdf",
+        "file_size_bytes": 54654,
+        "page_range": [
+          159,
+          160
+        ]
+      },
+      {
+        "song_title": "GOD BLESS' THE CHILD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Arthur Herzog, Jr. & Billie Holiday - God Bless' The Child.pdf",
+        "file_size_bytes": 45483,
+        "page_range": [
+          160,
+          161
+        ]
+      },
+      {
+        "song_title": "God Help the Outcasts",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's The Hunchback Of Notre Dame - God Help The Outcasts.pdf",
+        "file_size_bytes": 40694,
+        "page_range": [
+          161,
+          162
+        ]
+      },
+      {
+        "song_title": "GODFATHER II",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Nino Rota - Godfather Ii.pdf",
+        "file_size_bytes": 36954,
+        "page_range": [
+          162,
+          163
+        ]
+      },
+      {
+        "song_title": "THE GODFATHER WALTZ",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Nino Rota - The Godfather Waltz.pdf",
+        "file_size_bytes": 39939,
+        "page_range": [
+          163,
+          164
+        ]
+      },
+      {
+        "song_title": "GOOD LOVIN'",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Featured In The Motion Picture The Big Chill - Good Lovin'.pdf",
+        "file_size_bytes": 49608,
+        "page_range": [
+          164,
+          165
+        ]
+      },
+      {
+        "song_title": "GOOD MORNING",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Arthur Freed, Nacio Herb Brown - Good Morning.pdf",
+        "file_size_bytes": 50493,
+        "page_range": [
+          165,
+          166
+        ]
+      },
+      {
+        "song_title": "THE GREEN LEAVES OF SUMMER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Dmitri Tjomin - Words By Paul Francis Webster - The Green Leaves Of Summer.pdf",
+        "file_size_bytes": 46629,
+        "page_range": [
+          166,
+          167
+        ]
+      },
+      {
+        "song_title": "The Guns of Navarone",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Ralph Ranger - The Guns Of Navarone.pdf",
+        "file_size_bytes": 46467,
+        "page_range": [
+          167,
+          168
+        ]
+      },
+      {
+        "song_title": "HANDS OF TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Brian's Song - Hands Of Time.pdf",
+        "file_size_bytes": 48207,
+        "page_range": [
+          168,
+          169
+        ]
+      },
+      {
+        "song_title": "HAKUNA MATATA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney Pictures The Lion King - Hakuna Matata.pdf",
+        "file_size_bytes": 46613,
+        "page_range": [
+          169,
+          170
+        ]
+      },
+      {
+        "song_title": "HAPPY HOLIDAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Happy Holiday.pdf",
+        "file_size_bytes": 56059,
+        "page_range": [
+          170,
+          171
+        ]
+      },
+      {
+        "song_title": "A HARD DAY'S NIGHT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/John Lennon And Paul Mccartney - A Hard Day's Night.pdf",
+        "file_size_bytes": 43798,
+        "page_range": [
+          171,
+          172
+        ]
+      },
+      {
+        "song_title": "Heart and Soul",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Frank Loesser, Music By Hoagy Carmichael - Heart And Soul.pdf",
+        "file_size_bytes": 43594,
+        "page_range": [
+          172,
+          173
+        ]
+      },
+      {
+        "song_title": "THE HEAT IS ON",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Harold Faltermeyer, Words By Keith Forsey - The Heat Is On.pdf",
+        "file_size_bytes": 45896,
+        "page_range": [
+          173,
+          174
+        ]
+      },
+      {
+        "song_title": "Heaven Can Wait",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Dave Grusin - Heaven Can Wait.pdf",
+        "file_size_bytes": 49793,
+        "page_range": [
+          174,
+          175
+        ]
+      },
+      {
+        "song_title": "HELLO AGAIN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture The Jazz Singer - Hello Again.pdf",
+        "file_size_bytes": 46390,
+        "page_range": [
+          175,
+          176
+        ]
+      },
+      {
+        "song_title": "High Hopes",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Sammy Cahn (music By James Van Heusen) - High Hopes.pdf",
+        "file_size_bytes": 50606,
+        "page_range": [
+          176,
+          177
+        ]
+      },
+      {
+        "song_title": "HELP!",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/John Lennon And Paul Mccartney - Help!.pdf",
+        "file_size_bytes": 50659,
+        "page_range": [
+          177,
+          178
+        ]
+      },
+      {
+        "song_title": "HIT THE ROAD TO DREAMLAND",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Johnny Mercer, Music By Harold Arlen - Hit The Road To Dreamland.pdf",
+        "file_size_bytes": 59145,
+        "page_range": [
+          178,
+          179
+        ]
+      },
+      {
+        "song_title": "HOLDING OUT FOR A HERO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Holding Out For A Hero.pdf",
+        "file_size_bytes": 84574,
+        "page_range": [
+          179,
+          181
+        ]
+      },
+      {
+        "song_title": "Hopelessly Devoted to You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Hopelessly Devoted To You.pdf",
+        "file_size_bytes": 35786,
+        "page_range": [
+          181,
+          182
+        ]
+      },
+      {
+        "song_title": "HOW DEEP IS YOUR LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Song Credits List Barry Gibb, Robin Gibb And Maurice Gibb As The Writers, Indicating They Are Likely The Artists As Well (members Of The Bee Gees) - How Deep Is Your Love.pdf",
+        "file_size_bytes": 44267,
+        "page_range": [
+          182,
+          183
+        ]
+      },
+      {
+        "song_title": "How Lucky Can You Get",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Fred Ebb, John Kander - How Lucky Can You Get.pdf",
+        "file_size_bytes": 53652,
+        "page_range": [
+          183,
+          184
+        ]
+      },
+      {
+        "song_title": "THE ADVENTURES OF HUCK FINN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's The Adventures Of Huck Finn - Music By Bill Conti - The Adventures Of Huck Finn.pdf",
+        "file_size_bytes": 47960,
+        "page_range": [
+          184,
+          185
+        ]
+      },
+      {
+        "song_title": "HYMN TO RED OCTOBER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Hymn To Red October.pdf",
+        "file_size_bytes": 100634,
+        "page_range": [
+          185,
+          187
+        ]
+      },
+      {
+        "song_title": "I AM A MAN OF CONSTANT SORROW",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - I Am A Man Of Constant Sorrow.pdf",
+        "file_size_bytes": 33481,
+        "page_range": [
+          187,
+          188
+        ]
+      },
+      {
+        "song_title": "I Believe I Can Fly",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Robert Kelly - I Believe I Can Fly.pdf",
+        "file_size_bytes": 64074,
+        "page_range": [
+          188,
+          189
+        ]
+      },
+      {
+        "song_title": "I BELIEVE IN YOU AND ME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Song Appears To Be From The Motion Picture -the Preacher's Wife-, But No Specific Artist Name Is Given On This Page - I Believe In You And Me.pdf",
+        "file_size_bytes": 48864,
+        "page_range": [
+          189,
+          190
+        ]
+      },
+      {
+        "song_title": "I DON'T WANT TO WALK WITHOUT YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jules Styne - I Don't Want To Walk Without You.pdf",
+        "file_size_bytes": 47098,
+        "page_range": [
+          190,
+          191
+        ]
+      },
+      {
+        "song_title": "I Concentrate On You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Cole Porter - I Concentrate On You.pdf",
+        "file_size_bytes": 45839,
+        "page_range": [
+          191,
+          192
+        ]
+      },
+      {
+        "song_title": "I SAY A LITTLE PRAYER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Lyrics, This Appears To Be The Song -i Say A Little Prayer- Written By Hal David And Burt Bacharach - I Say A Little Prayer.pdf",
+        "file_size_bytes": 44863,
+        "page_range": [
+          192,
+          193
+        ]
+      },
+      {
+        "song_title": "I FINALLY FOUND SOMEONE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But It Shows The Writers-composers As Barbra Streisand, Bryan Adams, Robert John -mutt- Lange - I Finally Found Someone.pdf",
+        "file_size_bytes": 84532,
+        "page_range": [
+          193,
+          195
+        ]
+      },
+      {
+        "song_title": "I HEAR MUSIC",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Frank Loesser, Music By - I Hear Music.pdf",
+        "file_size_bytes": 46270,
+        "page_range": [
+          195,
+          196
+        ]
+      },
+      {
+        "song_title": "I Will Remember You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Sheet Music Does Not Explicitly List The Artist Name, But Based On The Credits At The Bottom Which Mention -words And Music By Sarah Mclachlan, Seamus Egan And Dave Merenda-, It Appears That S.pdf",
+        "file_size_bytes": 57862,
+        "page_range": [
+          196,
+          197
+        ]
+      },
+      {
+        "song_title": "I WANT TO SPEND MY LIFETIME LOVING YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Information Does Not Clearly Specify The Artist Name, But This Appears To Be The First Page Of A Song Based On The Prominent Song Title At The Top And The Sheet Music Notation Below It - I Wan.pdf",
+        "file_size_bytes": 43821,
+        "page_range": [
+          197,
+          198
+        ]
+      },
+      {
+        "song_title": "I WILL WAIT FOR YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Michel Legrand - I Will Wait For You.pdf",
+        "file_size_bytes": 56734,
+        "page_range": [
+          198,
+          199
+        ]
+      },
+      {
+        "song_title": "I WILL ALWAYS LOVE YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(dolly Parton) - I Will Always Love You.pdf",
+        "file_size_bytes": 69566,
+        "page_range": [
+          199,
+          201
+        ]
+      },
+      {
+        "song_title": "I Will Follow Him",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Song Is Featured In The Motion Picture -sister Act-, With English Lyrics By Norman Gimbel And Arthur Altman, And French Words By Jacques Plante. The Music Is Composed By J.w. Stole And Del Rom.pdf",
+        "file_size_bytes": 70360,
+        "page_range": [
+          201,
+          203
+        ]
+      },
+      {
+        "song_title": "I WILL SURVIVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Featured In The Adventures Of Priscilla, Queen Of The Desert - I Will Survive.pdf",
+        "file_size_bytes": 48579,
+        "page_range": [
+          203,
+          204
+        ]
+      },
+      {
+        "song_title": "I WISH I DIDN'T LOVE YOU SO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Frank Gari - I Wish I Didn't Love You So.pdf",
+        "file_size_bytes": 43750,
+        "page_range": [
+          204,
+          205
+        ]
+      },
+      {
+        "song_title": "I'M A BELIEVER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Text -from The Dreamworks Motion Picture Shrek-, This Appears To Be The Song -i'm A Believer- From The Shrek Movie Soundtrack.pdf",
+        "file_size_bytes": 36785,
+        "page_range": [
+          205,
+          206
+        ]
+      },
+      {
+        "song_title": "I'M LATE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Alice In Wonderland - I'm Late.pdf",
+        "file_size_bytes": 50978,
+        "page_range": [
+          206,
+          207
+        ]
+      },
+      {
+        "song_title": "I'm Easy",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - I'm Easy.pdf",
+        "file_size_bytes": 45927,
+        "page_range": [
+          207,
+          208
+        ]
+      },
+      {
+        "song_title": "I WON'T DANCE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Roberta (the Musical) - I Won't Dance.pdf",
+        "file_size_bytes": 52525,
+        "page_range": [
+          208,
+          209
+        ]
+      },
+      {
+        "song_title": "I'M PUTTING ALL MY EGGS IN ONE BASKET",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture Follow The Fleet - I'm Putting All My Eggs In One Basket.pdf",
+        "file_size_bytes": 41659,
+        "page_range": [
+          209,
+          210
+        ]
+      },
+      {
+        "song_title": "I'VE GOT YOU UNDER MY SKIN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Cole Porter - I've Got You Under My Skin.pdf",
+        "file_size_bytes": 49275,
+        "page_range": [
+          210,
+          211
+        ]
+      },
+      {
+        "song_title": "I'M STILL HERE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - I'm Still Here.pdf",
+        "file_size_bytes": 105690,
+        "page_range": [
+          211,
+          213
+        ]
+      },
+      {
+        "song_title": "I'VE GOT MY LOVE TO KEEP ME WARM",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - I've Got My Love To Keep Me Warm.pdf",
+        "file_size_bytes": 50801,
+        "page_range": [
+          213,
+          214
+        ]
+      },
+      {
+        "song_title": "If I Had a Talking Picture of You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Ray Henderson, Sam Lewis And Joe Young - If I Had A Talking Picture Of You.pdf",
+        "file_size_bytes": 51953,
+        "page_range": [
+          214,
+          215
+        ]
+      },
+      {
+        "song_title": "If I Never Knew You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Pocahontas - If I Never Knew You.pdf",
+        "file_size_bytes": 89530,
+        "page_range": [
+          215,
+          217
+        ]
+      },
+      {
+        "song_title": "IF I WERE A RICH MAN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Shelby Hick - If I Were A Rich Man.pdf",
+        "file_size_bytes": 63562,
+        "page_range": [
+          217,
+          218
+        ]
+      },
+      {
+        "song_title": "IF WE HOLD ON TOGETHER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/James Horner And Will Jennings - If We Hold On Together.pdf",
+        "file_size_bytes": 47839,
+        "page_range": [
+          218,
+          219
+        ]
+      },
+      {
+        "song_title": "IF YOU LEAVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Song Title Displayed At The Top, This Appears To Be The First Page Of The Song -if You Leave- With The Sheet Music Notation Below.pdf",
+        "file_size_bytes": 45495,
+        "page_range": [
+          219,
+          220
+        ]
+      },
+      {
+        "song_title": "Il Postino",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Luis Bacalov - Il Postino.pdf",
+        "file_size_bytes": 45515,
+        "page_range": [
+          220,
+          221
+        ]
+      },
+      {
+        "song_title": "If You Remember Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - If You Remember Me.pdf",
+        "file_size_bytes": 54367,
+        "page_range": [
+          221,
+          222
+        ]
+      },
+      {
+        "song_title": "IN THE STILL OF THE NIGHT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Cole Porter - In The Still Of The Night.pdf",
+        "file_size_bytes": 39620,
+        "page_range": [
+          222,
+          223
+        ]
+      },
+      {
+        "song_title": "INNAMORATA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jack Brooks (words), Harry Warren (music) - Innamorata.pdf",
+        "file_size_bytes": 46812,
+        "page_range": [
+          223,
+          224
+        ]
+      },
+      {
+        "song_title": "Iris",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Goo Goo Dolls - Iris.pdf",
+        "file_size_bytes": 53303,
+        "page_range": [
+          224,
+          225
+        ]
+      },
+      {
+        "song_title": "IS YOU IS, OR IS YOU AIN'T",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Louis Jordan - Is You Is, Or Is You Ain't.pdf",
+        "file_size_bytes": 39634,
+        "page_range": [
+          225,
+          226
+        ]
+      },
+      {
+        "song_title": "ISN'T THIS A LOVELY DAY (TO BE CAUGHT IN THE RAIN?)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - Isn't This A Lovely Day (to Be Caught In The Rain-).pdf",
+        "file_size_bytes": 49677,
+        "page_range": [
+          226,
+          227
+        ]
+      },
+      {
+        "song_title": "IT MIGHT AS WELL BE SPRING",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Lyrics By Oscar Hammerstein Ii, Music By Richard Rodgers - It Might As Well Be Spring.pdf",
+        "file_size_bytes": 46000,
+        "page_range": [
+          227,
+          228
+        ]
+      },
+      {
+        "song_title": "IT ONLY HAPPENS WHEN I DANCE WITH YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - It Only Happens When I Dance With You.pdf",
+        "file_size_bytes": 44283,
+        "page_range": [
+          228,
+          229
+        ]
+      },
+      {
+        "song_title": "It Must Have Been Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Roxette - It Must Have Been Love.pdf",
+        "file_size_bytes": 47556,
+        "page_range": [
+          229,
+          230
+        ]
+      },
+      {
+        "song_title": "It Was Written in the Stars",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show An Artist Name - It Was Written In The Stars.pdf",
+        "file_size_bytes": 45549,
+        "page_range": [
+          230,
+          231
+        ]
+      },
+      {
+        "song_title": "It's a Big Wide Wonderful World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/John Rox - It's A Big Wide Wonderful World.pdf",
+        "file_size_bytes": 47703,
+        "page_range": [
+          231,
+          232
+        ]
+      },
+      {
+        "song_title": "It's a Most Unusual Day",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Lyrics Are Credited To Harold Adamson, While The Music Is Credited To Jimmy Mchugh - It's A Most Unusual Day.pdf",
+        "file_size_bytes": 43055,
+        "page_range": [
+          232,
+          233
+        ]
+      },
+      {
+        "song_title": "It's a New World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Ira Gershwin, Music By George Gershwin - It's A New World.pdf",
+        "file_size_bytes": 103084,
+        "page_range": [
+          233,
+          235
+        ]
+      },
+      {
+        "song_title": "It's Easy to Remember",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name - It's Easy To Remember.pdf",
+        "file_size_bytes": 38864,
+        "page_range": [
+          235,
+          236
+        ]
+      },
+      {
+        "song_title": "Theme from \"Jaws\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By John Williams - Theme From -jaws-.pdf",
+        "file_size_bytes": 37845,
+        "page_range": [
+          236,
+          237
+        ]
+      },
+      {
+        "song_title": "Jingle Jangle Jingle",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Frank Loesser, Music By Joseph J. Lilley - Jingle Jangle Jingle.pdf",
+        "file_size_bytes": 40126,
+        "page_range": [
+          237,
+          238
+        ]
+      },
+      {
+        "song_title": "Jive Talkin'",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Barry Gibb, Robin Gibb And Maurice Gibb - Jive Talkin'.pdf",
+        "file_size_bytes": 55233,
+        "page_range": [
+          238,
+          239
+        ]
+      },
+      {
+        "song_title": "THE JOHN DUNBAR THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By John Barry - The John Dunbar Theme.pdf",
+        "file_size_bytes": 31630,
+        "page_range": [
+          239,
+          240
+        ]
+      },
+      {
+        "song_title": "Theme from \"Jurassic Park\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Composed By John Williams - Theme From -jurassic Park-.pdf",
+        "file_size_bytes": 53301,
+        "page_range": [
+          240,
+          241
+        ]
+      },
+      {
+        "song_title": "JOURNEY TO THE PAST",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Lynn Ahrens And Stephen Flaherty - Journey To The Past.pdf",
+        "file_size_bytes": 74100,
+        "page_range": [
+          241,
+          243
+        ]
+      },
+      {
+        "song_title": "King of Wishful Thinking",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Text -from The Motion Picture Pretty Woman- And The Songwriters Martin Page And Richard Marx Listed, This Appears To Be The Song.pdf",
+        "file_size_bytes": 50683,
+        "page_range": [
+          243,
+          244
+        ]
+      },
+      {
+        "song_title": "Kiss the Girl",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's The Little Mermaid - Kiss The Girl.pdf",
+        "file_size_bytes": 54655,
+        "page_range": [
+          244,
+          245
+        ]
+      },
+      {
+        "song_title": "KOKOMO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Song Title -kokomo- Displayed Prominently At The Top, This Appears To Be The First Page Of Sheet Music For That Song - Kokomo.pdf",
+        "file_size_bytes": 50564,
+        "page_range": [
+          245,
+          246
+        ]
+      },
+      {
+        "song_title": "LA DOLCE VITA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Nino Rota - La Dolce Vita.pdf",
+        "file_size_bytes": 46556,
+        "page_range": [
+          246,
+          247
+        ]
+      },
+      {
+        "song_title": "Kyrie for the Magdalene",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Richard Harvey - Kyrie For The Magdalene.pdf",
+        "file_size_bytes": 26350,
+        "page_range": [
+          247,
+          248
+        ]
+      },
+      {
+        "song_title": "LA PASSERELLA DI ADDIO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Nino Rota - La Passerella Di Addio.pdf",
+        "file_size_bytes": 47128,
+        "page_range": [
+          248,
+          249
+        ]
+      },
+      {
+        "song_title": "THE LADY'S IN LOVE WITH YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Paramount Picture -some Like It Hot- (the Artist Is Not Explicitly Stated, But This Suggests It Is From The Soundtrack Of That Film) - The Lady's In Love With You.pdf",
+        "file_size_bytes": 91860,
+        "page_range": [
+          249,
+          251
+        ]
+      },
+      {
+        "song_title": "THE LAST TIME I FELT LIKE THIS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Same Time, Next Year (suggesting This Is From A Musical Or Movie Soundtrack) - The Last Time I Felt Like This.pdf",
+        "file_size_bytes": 51408,
+        "page_range": [
+          251,
+          252
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"LAWRENCE OF ARABIA\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Maurice Jarre - Theme From -lawrence Of Arabia-.pdf",
+        "file_size_bytes": 40848,
+        "page_range": [
+          252,
+          253
+        ]
+      },
+      {
+        "song_title": "Learn to be Lonely",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Andrew Lloyd Webber - Learn To Be Lonely.pdf",
+        "file_size_bytes": 33657,
+        "page_range": [
+          253,
+          254
+        ]
+      },
+      {
+        "song_title": "LET YOURSELF GO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - Let Yourself Go.pdf",
+        "file_size_bytes": 44621,
+        "page_range": [
+          254,
+          255
+        ]
+      },
+      {
+        "song_title": "LET THE RIVER RUN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Copyright Line -words And Music By Carly Simon-, The Artist Appears To Be Carly Simon - Let The River Run.pdf",
+        "file_size_bytes": 39404,
+        "page_range": [
+          255,
+          256
+        ]
+      },
+      {
+        "song_title": "LEGENDS OF THE FALL",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Composed By James Horner - Legends Of The Fall.pdf",
+        "file_size_bytes": 39858,
+        "page_range": [
+          256,
+          257
+        ]
+      },
+      {
+        "song_title": "Let's Face the Music and Dance",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(from The Motion Picture -follow The Fleet-) - Let's Face The Music And Dance.pdf",
+        "file_size_bytes": 36323,
+        "page_range": [
+          257,
+          258
+        ]
+      },
+      {
+        "song_title": "LET'S GO FLY A KITE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Richard M. Sherman & Robert B. Sherman - Let's Go Fly A Kite.pdf",
+        "file_size_bytes": 39022,
+        "page_range": [
+          258,
+          259
+        ]
+      },
+      {
+        "song_title": "Let's Go Crazy",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Prince - Let's Go Crazy.pdf",
+        "file_size_bytes": 66540,
+        "page_range": [
+          259,
+          261
+        ]
+      },
+      {
+        "song_title": "LET'S HEAR IT FOR THE BOY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But It Appears To Be From The Paramount Motion Picture Footloose Based On The Text Below The Song Title - Let's Hear It For The Boy.pdf",
+        "file_size_bytes": 43931,
+        "page_range": [
+          261,
+          262
+        ]
+      },
+      {
+        "song_title": "Lookin' for Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Wanda Mallette, Patti Dahlstrom And Lisa Woodring - Lookin' For Love.pdf",
+        "file_size_bytes": 58693,
+        "page_range": [
+          262,
+          263
+        ]
+      },
+      {
+        "song_title": "THE LOOK OF LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(featured Artist Not Given, But Song Is From The Motion Picture Casino Royale) - The Look Of Love.pdf",
+        "file_size_bytes": 46195,
+        "page_range": [
+          263,
+          264
+        ]
+      },
+      {
+        "song_title": "Love Is All Around",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Copyright Line -copyright \u00a9 1994 Universal City Studios, Inc. James Mullen, Ltd.-, It Appears To Be From The Soundtrack Or Related.pdf",
+        "file_size_bytes": 49389,
+        "page_range": [
+          264,
+          265
+        ]
+      },
+      {
+        "song_title": "A LOVE BEFORE TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/James Schamus, Ted Tally And Jorge Calafndrelli (from The Motion Picture Crouching Tiger - A Love Before Time.pdf",
+        "file_size_bytes": 86763,
+        "page_range": [
+          265,
+          267
+        ]
+      },
+      {
+        "song_title": "LOVE LETTERS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Love Letters.pdf",
+        "file_size_bytes": 48613,
+        "page_range": [
+          267,
+          268
+        ]
+      },
+      {
+        "song_title": "Love on the Rocks",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Neil Diamond And Robert Fescan - Love On The Rocks.pdf",
+        "file_size_bytes": 48078,
+        "page_range": [
+          268,
+          269
+        ]
+      },
+      {
+        "song_title": "Love Me Tender",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Elvis Presley - Love Me Tender.pdf",
+        "file_size_bytes": 39222,
+        "page_range": [
+          269,
+          270
+        ]
+      },
+      {
+        "song_title": "LOVER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Lover.pdf",
+        "file_size_bytes": 41237,
+        "page_range": [
+          270,
+          271
+        ]
+      },
+      {
+        "song_title": "Love, You Didn't Do Right By Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture Irving Berlin's White Christmas - Love, You Didn't Do Right By Me.pdf",
+        "file_size_bytes": 54152,
+        "page_range": [
+          271,
+          272
+        ]
+      },
+      {
+        "song_title": "A Man and a Woman (Un Homme et Une Femme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Original Words By Pierre Barouh, English Words By Jerry Keller, Music By Francis Lai - A Man And A Woman (un Homme Et Une Femme).pdf",
+        "file_size_bytes": 63175,
+        "page_range": [
+          272,
+          273
+        ]
+      },
+      {
+        "song_title": "MAKING CHRISTMAS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Danny Elfman - Making Christmas.pdf",
+        "file_size_bytes": 51601,
+        "page_range": [
+          273,
+          274
+        ]
+      },
+      {
+        "song_title": "THE MAN FROM SNOWY RIVER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Bruce Rowland - The Man From Snowy River.pdf",
+        "file_size_bytes": 52966,
+        "page_range": [
+          274,
+          275
+        ]
+      },
+      {
+        "song_title": "THE MAN THAT GOT AWAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Ira Gershwin, Harold Arlen - The Man That Got Away.pdf",
+        "file_size_bytes": 43664,
+        "page_range": [
+          275,
+          276
+        ]
+      },
+      {
+        "song_title": "Maniac",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Michael Sembello And Dennis Matkosky - Maniac.pdf",
+        "file_size_bytes": 56940,
+        "page_range": [
+          276,
+          277
+        ]
+      },
+      {
+        "song_title": "MEET ME IN ST. LOUIS, LOUIS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(music By Jerry Mills, Words By Andrew B. Sterling) - Meet Me In St. Louis, Louis.pdf",
+        "file_size_bytes": 42350,
+        "page_range": [
+          277,
+          278
+        ]
+      },
+      {
+        "song_title": "MEXICAN ROSE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Mexican Rose.pdf",
+        "file_size_bytes": 46819,
+        "page_range": [
+          278,
+          279
+        ]
+      },
+      {
+        "song_title": "MIDNIGHT COWBOY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/John Barry - Midnight Cowboy.pdf",
+        "file_size_bytes": 41938,
+        "page_range": [
+          279,
+          280
+        ]
+      },
+      {
+        "song_title": "MISSION: IMPOSSIBLE THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Lalo Schifrin - Mission- Impossible Theme.pdf",
+        "file_size_bytes": 45547,
+        "page_range": [
+          280,
+          281
+        ]
+      },
+      {
+        "song_title": "MISS MISERY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Miseries Motion Picture Good Will Hunting - Miss Misery.pdf",
+        "file_size_bytes": 44812,
+        "page_range": [
+          281,
+          282
+        ]
+      },
+      {
+        "song_title": "MOON RIVER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Paramount Pictures Breakfast At Tiffany's - Moon River.pdf",
+        "file_size_bytes": 40411,
+        "page_range": [
+          282,
+          283
+        ]
+      },
+      {
+        "song_title": "Money, Money",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Fred Ebb, Music By John Kander - Money, Money.pdf",
+        "file_size_bytes": 108408,
+        "page_range": [
+          283,
+          285
+        ]
+      },
+      {
+        "song_title": "MOONLIGHT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Alan Jay Lerner, Music By Johnny Mercer And Gene De Paul - Moonlight.pdf",
+        "file_size_bytes": 45870,
+        "page_range": [
+          285,
+          286
+        ]
+      },
+      {
+        "song_title": "MOONLIGHT BECOMES YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Nino Oliviero And Riz Ortolani, English Lyrics By Norman Newell - Moonlight Becomes You.pdf",
+        "file_size_bytes": 54278,
+        "page_range": [
+          286,
+          287
+        ]
+      },
+      {
+        "song_title": "Mrs. Robinson",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Paul Simon - Mrs. Robinson.pdf",
+        "file_size_bytes": 39900,
+        "page_range": [
+          287,
+          288
+        ]
+      },
+      {
+        "song_title": "MURDER ON THE ORIENT EXPRESS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Richard Rodney Bennett - Murder On The Orient Express.pdf",
+        "file_size_bytes": 44124,
+        "page_range": [
+          288,
+          289
+        ]
+      },
+      {
+        "song_title": "THE MUSIC OF GOODBYE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - The Music Of Goodbye.pdf",
+        "file_size_bytes": 35579,
+        "page_range": [
+          289,
+          290
+        ]
+      },
+      {
+        "song_title": "My Father's Favorite",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Patrick Doyle - My Father's Favorite.pdf",
+        "file_size_bytes": 44041,
+        "page_range": [
+          290,
+          291
+        ]
+      },
+      {
+        "song_title": "MY FUNNY FRIEND AND ME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney Pictures The Emperor's New Groove - My Funny Friend And Me.pdf",
+        "file_size_bytes": 101450,
+        "page_range": [
+          291,
+          293
+        ]
+      },
+      {
+        "song_title": "My Heart Will Go On",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/James Horner, Lyrics By Will Jennings - My Heart Will Go On.pdf",
+        "file_size_bytes": 44079,
+        "page_range": [
+          293,
+          294
+        ]
+      },
+      {
+        "song_title": "My Old Flame",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Lyrics Are Credited To Arthur Johnston And Sam Coslow, But The Artist Performing This Song Is Not Explicitly Stated On This Sheet Music Page - My Old Flame.pdf",
+        "file_size_bytes": 40888,
+        "page_range": [
+          294,
+          295
+        ]
+      },
+      {
+        "song_title": "THE NAKED GUN FROM THE FILES OF POLICE SQUAD!",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(from The Paramount Picture Naked Gun 33 1-3 (the Final Insult)) - The Naked Gun From The Files Of Police Squad!.pdf",
+        "file_size_bytes": 35249,
+        "page_range": [
+          295,
+          296
+        ]
+      },
+      {
+        "song_title": "THE NEARNESS OF YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But It Shows Sheet Music From The Paramount Pictures Film -romance In The Dark- With Music By Ned Washington And Lyrics By Hoagy Carmichael - T.pdf",
+        "file_size_bytes": 36778,
+        "page_range": [
+          296,
+          297
+        ]
+      },
+      {
+        "song_title": "NEVER ON SUNDAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Billy Towne, Vance Wilson - Never On Sunday.pdf",
+        "file_size_bytes": 46392,
+        "page_range": [
+          297,
+          298
+        ]
+      },
+      {
+        "song_title": "The Night They Invented Champagne",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Alan Jay Lerner, Music By Frederick Loewe - The Night They Invented Champagne.pdf",
+        "file_size_bytes": 38470,
+        "page_range": [
+          298,
+          299
+        ]
+      },
+      {
+        "song_title": "Night Fever",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Barry Gibb - Night Fever.pdf",
+        "file_size_bytes": 47272,
+        "page_range": [
+          299,
+          300
+        ]
+      },
+      {
+        "song_title": "Nine to Five",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Dolly Parton - Nine To Five.pdf",
+        "file_size_bytes": 52914,
+        "page_range": [
+          300,
+          301
+        ]
+      },
+      {
+        "song_title": "NO MORE LONELY NIGHTS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Paul Mccartney - No More Lonely Nights.pdf",
+        "file_size_bytes": 43441,
+        "page_range": [
+          301,
+          302
+        ]
+      },
+      {
+        "song_title": "NO TWO PEOPLE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture Hans Christian Andersen By Frank Loesser - No Two People.pdf",
+        "file_size_bytes": 41096,
+        "page_range": [
+          302,
+          303
+        ]
+      },
+      {
+        "song_title": "O MIO BABBINO CARO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Sammy Cahn, Music By Neal Hefti - O Mio Babbino Caro.pdf",
+        "file_size_bytes": 52929,
+        "page_range": [
+          303,
+          304
+        ]
+      },
+      {
+        "song_title": "Ole Buttermilk Sky",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Hoagy Carmichael And Moose Brooks - Ole Buttermilk Sky.pdf",
+        "file_size_bytes": 46276,
+        "page_range": [
+          304,
+          305
+        ]
+      },
+      {
+        "song_title": "OH, PRETTY WOMAN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Roy Orbison And Bill Dees - Oh, Pretty Woman.pdf",
+        "file_size_bytes": 46035,
+        "page_range": [
+          305,
+          306
+        ]
+      },
+      {
+        "song_title": "ON BROADWAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Barry Mann, Cynthia Weil, Mike Stoller, Jerry Leiber - On Broadway.pdf",
+        "file_size_bytes": 42885,
+        "page_range": [
+          306,
+          307
+        ]
+      },
+      {
+        "song_title": "ON GOLDEN POND",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - On Golden Pond.pdf",
+        "file_size_bytes": 36573,
+        "page_range": [
+          307,
+          308
+        ]
+      },
+      {
+        "song_title": "ONE FOR MY BABY (AND ONE MORE FOR THE ROAD)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture The Gene Krupa Story - One For My Baby (and One More For The Road).pdf",
+        "file_size_bytes": 52489,
+        "page_range": [
+          308,
+          309
+        ]
+      },
+      {
+        "song_title": "ON THE GOOD SHIP LOLLIPOP",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Sidney Claire And Richard A. Whiting - On The Good Ship Lollipop.pdf",
+        "file_size_bytes": 42899,
+        "page_range": [
+          309,
+          310
+        ]
+      },
+      {
+        "song_title": "ONE TIN SOLDIER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Dennis Lambert And Brian Potter - One Tin Soldier.pdf",
+        "file_size_bytes": 50123,
+        "page_range": [
+          310,
+          311
+        ]
+      },
+      {
+        "song_title": "ONLY HOPE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But It Appears To Be The First Page Of A Song Titled -only Hope- Based On The Prominent Title At The Top And The Sheet Music Notation Below It - On.pdf",
+        "file_size_bytes": 80842,
+        "page_range": [
+          311,
+          313
+        ]
+      },
+      {
+        "song_title": "Theme from \"Ordinary People\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Marvin Hamlisch - Theme From -ordinary People-.pdf",
+        "file_size_bytes": 28809,
+        "page_range": [
+          313,
+          314
+        ]
+      },
+      {
+        "song_title": "Paris Is a Lonely Town",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Provide The Artist Name - Paris Is A Lonely Town.pdf",
+        "file_size_bytes": 46561,
+        "page_range": [
+          314,
+          315
+        ]
+      },
+      {
+        "song_title": "Part of Your World",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's The Little Mermaid - Part Of Your World.pdf",
+        "file_size_bytes": 52398,
+        "page_range": [
+          315,
+          316
+        ]
+      },
+      {
+        "song_title": "PASS ME BY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture Father Goose - Pass Me By.pdf",
+        "file_size_bytes": 58736,
+        "page_range": [
+          316,
+          317
+        ]
+      },
+      {
+        "song_title": "PERSONALITY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(words By) Johnny Burke, (music By) Jimmy Van Heusen - Personality.pdf",
+        "file_size_bytes": 48481,
+        "page_range": [
+          317,
+          318
+        ]
+      },
+      {
+        "song_title": "PICK YOURSELF UP",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Dorothy Fields (words By), Jerome Kern (music By) - Pick Yourself Up.pdf",
+        "file_size_bytes": 55869,
+        "page_range": [
+          318,
+          319
+        ]
+      },
+      {
+        "song_title": "PICNIC",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Steve Allen - Picnic.pdf",
+        "file_size_bytes": 43104,
+        "page_range": [
+          319,
+          320
+        ]
+      },
+      {
+        "song_title": "A PLACE IN THE SUN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But This Appears To Be The First Page Of A Song Titled -a Place In The Sun- Based On The Prominent Song Title At The Top And The Sheet Music Notati.pdf",
+        "file_size_bytes": 49348,
+        "page_range": [
+          320,
+          321
+        ]
+      },
+      {
+        "song_title": "A PRAYER FOR PEACE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/John Williams - A Prayer For Peace.pdf",
+        "file_size_bytes": 26413,
+        "page_range": [
+          321,
+          322
+        ]
+      },
+      {
+        "song_title": "QUANDO MEN VO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Giacomo Puccini - Quando Men Vo.pdf",
+        "file_size_bytes": 42816,
+        "page_range": [
+          322,
+          323
+        ]
+      },
+      {
+        "song_title": "THE PROMISE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Alan And Marilyn Bergman, David Shire - The Promise.pdf",
+        "file_size_bytes": 46831,
+        "page_range": [
+          323,
+          324
+        ]
+      },
+      {
+        "song_title": "PUTTIN' ON THE RITZ",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(irving Berlin) - Puttin' On The Ritz.pdf",
+        "file_size_bytes": 42005,
+        "page_range": [
+          324,
+          325
+        ]
+      },
+      {
+        "song_title": "Que Sera, Sera (Whatever Will Be, Will Be)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jay Livingston And Ray Evans - Que Sera, Sera (whatever Will Be, Will Be).pdf",
+        "file_size_bytes": 37969,
+        "page_range": [
+          325,
+          326
+        ]
+      },
+      {
+        "song_title": "READY TO TAKE A CHANCE AGAIN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Norman Gimbel And Charles Fox - Ready To Take A Chance Again.pdf",
+        "file_size_bytes": 46011,
+        "page_range": [
+          326,
+          327
+        ]
+      },
+      {
+        "song_title": "THE RAINBOW CONNECTION",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Paul Williams And Kenneth Ascher - The Rainbow Connection.pdf",
+        "file_size_bytes": 39911,
+        "page_range": [
+          327,
+          328
+        ]
+      },
+      {
+        "song_title": "REFLECTION",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Matthew Wilder, David Zippel - Reflection.pdf",
+        "file_size_bytes": 53118,
+        "page_range": [
+          328,
+          329
+        ]
+      },
+      {
+        "song_title": "REMEMBER ME THIS WAY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Remember Me This Way.pdf",
+        "file_size_bytes": 49627,
+        "page_range": [
+          329,
+          330
+        ]
+      },
+      {
+        "song_title": "RIDE OF THE VALKYRIES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Richard Wagner - Ride Of The Valkyries.pdf",
+        "file_size_bytes": 38047,
+        "page_range": [
+          330,
+          331
+        ]
+      },
+      {
+        "song_title": "(GHOST) RIDERS IN THE SKY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/(a Cowboy Legend) From Riders In The Sky - (ghost) Riders In The Sky.pdf",
+        "file_size_bytes": 42871,
+        "page_range": [
+          331,
+          332
+        ]
+      },
+      {
+        "song_title": "The River Kwai March",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Malcolm Arnold - The River Kwai March.pdf",
+        "file_size_bytes": 41555,
+        "page_range": [
+          332,
+          333
+        ]
+      },
+      {
+        "song_title": "RIVER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture The Mission By Ennio Morricone - River.pdf",
+        "file_size_bytes": 50040,
+        "page_range": [
+          333,
+          334
+        ]
+      },
+      {
+        "song_title": "ROSALIE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Rosalie.pdf",
+        "file_size_bytes": 40955,
+        "page_range": [
+          334,
+          335
+        ]
+      },
+      {
+        "song_title": "SAN ANTONIO ROSE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Bob Wills - San Antonio Rose.pdf",
+        "file_size_bytes": 40884,
+        "page_range": [
+          335,
+          336
+        ]
+      },
+      {
+        "song_title": "Say You, Say Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Lionel Richie - Say You, Say Me.pdf",
+        "file_size_bytes": 95330,
+        "page_range": [
+          336,
+          338
+        ]
+      },
+      {
+        "song_title": "THE SEDUCTION",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Giorgio Moroder - The Seduction.pdf",
+        "file_size_bytes": 44504,
+        "page_range": [
+          338,
+          339
+        ]
+      },
+      {
+        "song_title": "Seasons of Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jonathan Larson - Seasons Of Love.pdf",
+        "file_size_bytes": 51808,
+        "page_range": [
+          339,
+          340
+        ]
+      },
+      {
+        "song_title": "SEEMS LIKE OLD TIMES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Arthur Godfrey And His Friends - Seems Like Old Times.pdf",
+        "file_size_bytes": 43213,
+        "page_range": [
+          340,
+          341
+        ]
+      },
+      {
+        "song_title": "Seize the Day",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Newsies - Seize The Day.pdf",
+        "file_size_bytes": 41629,
+        "page_range": [
+          341,
+          342
+        ]
+      },
+      {
+        "song_title": "SHE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Herbert Kretzmer (lyrics), Charles Aznavour (music) - She.pdf",
+        "file_size_bytes": 55125,
+        "page_range": [
+          342,
+          343
+        ]
+      },
+      {
+        "song_title": "Theme from Shaft",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Isaac Hayes - Theme From Shaft.pdf",
+        "file_size_bytes": 62310,
+        "page_range": [
+          343,
+          345
+        ]
+      },
+      {
+        "song_title": "SEPARATE LIVES",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Stephen Bishop - Separate Lives.pdf",
+        "file_size_bytes": 52937,
+        "page_range": [
+          345,
+          346
+        ]
+      },
+      {
+        "song_title": "Sisters",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - Sisters.pdf",
+        "file_size_bytes": 51659,
+        "page_range": [
+          346,
+          347
+        ]
+      },
+      {
+        "song_title": "SING, YOU SINNERS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Sam Coslow And W. Franke - Sing, You Sinners.pdf",
+        "file_size_bytes": 41667,
+        "page_range": [
+          347,
+          348
+        ]
+      },
+      {
+        "song_title": "Someday",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's The Hunchback Of Notre Dame - Someday.pdf",
+        "file_size_bytes": 59211,
+        "page_range": [
+          348,
+          349
+        ]
+      },
+      {
+        "song_title": "Someone's Waiting for You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's The Rescuers - Someone's Waiting For You.pdf",
+        "file_size_bytes": 43398,
+        "page_range": [
+          349,
+          350
+        ]
+      },
+      {
+        "song_title": "SOMEWHERE IN MY MEMORY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Leslie Bricusse, Music By John Williams - Somewhere In My Memory.pdf",
+        "file_size_bytes": 44119,
+        "page_range": [
+          350,
+          351
+        ]
+      },
+      {
+        "song_title": "SOMETHING TO TALK ABOUT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Something To Talk About.pdf",
+        "file_size_bytes": 44706,
+        "page_range": [
+          351,
+          352
+        ]
+      },
+      {
+        "song_title": "SOMEWHERE IN TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/John Barry - Somewhere In Time.pdf",
+        "file_size_bytes": 38909,
+        "page_range": [
+          352,
+          353
+        ]
+      },
+      {
+        "song_title": "SOMEWHERE, MY LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Maurice Jarre - Somewhere, My Love.pdf",
+        "file_size_bytes": 51973,
+        "page_range": [
+          353,
+          354
+        ]
+      },
+      {
+        "song_title": "SOMEWHERE OUT THERE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From An American Tail - Somewhere Out There.pdf",
+        "file_size_bytes": 52847,
+        "page_range": [
+          354,
+          355
+        ]
+      },
+      {
+        "song_title": "Song of the South",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Sam Coslow - Song Of The South.pdf",
+        "file_size_bytes": 42300,
+        "page_range": [
+          355,
+          356
+        ]
+      },
+      {
+        "song_title": "THEME FROM \"SOPHIE'S CHOICE\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Marvin Hamlisch - Theme From -sophie's Choice-.pdf",
+        "file_size_bytes": 41054,
+        "page_range": [
+          356,
+          357
+        ]
+      },
+      {
+        "song_title": "SOONER OR LATER (I ALWAYS GET MY MAN)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Stephen Sondheim - Sooner Or Later (i Always Get My Man).pdf",
+        "file_size_bytes": 46623,
+        "page_range": [
+          357,
+          358
+        ]
+      },
+      {
+        "song_title": "SPARTACUS - LOVE THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Alex North - Spartacus - Love Theme.pdf",
+        "file_size_bytes": 47193,
+        "page_range": [
+          358,
+          359
+        ]
+      },
+      {
+        "song_title": "Speak Softly, Love",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Nino Rota - Speak Softly, Love.pdf",
+        "file_size_bytes": 40261,
+        "page_range": [
+          359,
+          360
+        ]
+      },
+      {
+        "song_title": "SPRING WILL BE A LITTLE LATE THIS YEAR",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Frank Loesser - Spring Will Be A Little Late This Year.pdf",
+        "file_size_bytes": 50250,
+        "page_range": [
+          360,
+          361
+        ]
+      },
+      {
+        "song_title": "Springtime for Hitler",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Mel Brooks - Springtime For Hitler.pdf",
+        "file_size_bytes": 92729,
+        "page_range": [
+          361,
+          363
+        ]
+      },
+      {
+        "song_title": "LOVE THEME FROM ST. ELMO'S FIRE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Love Theme From St. Elmo's Fire.pdf",
+        "file_size_bytes": 39251,
+        "page_range": [
+          363,
+          364
+        ]
+      },
+      {
+        "song_title": "Star Trek* Generations",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Dennis Mccarthy - Star Trek- Generations.pdf",
+        "file_size_bytes": 35721,
+        "page_range": [
+          364,
+          365
+        ]
+      },
+      {
+        "song_title": "STAR TREK* II - THE SEARCH FOR SPOCK",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By James Horner - Star Trek- Ii - The Search For Spock.pdf",
+        "file_size_bytes": 41964,
+        "page_range": [
+          365,
+          366
+        ]
+      },
+      {
+        "song_title": "STAR TREK\u00ae VI - THE UNDISCOVERED COUNTRY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Cliff Eidelman - Star Trek\u00ae Vi - The Undiscovered Country.pdf",
+        "file_size_bytes": 38944,
+        "page_range": [
+          366,
+          367
+        ]
+      },
+      {
+        "song_title": "STAR TREK* II: THE WRATH OF KHAN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Alexander Courage And James Horner - Star Trek- Ii- The Wrath Of Khan.pdf",
+        "file_size_bytes": 43622,
+        "page_range": [
+          367,
+          368
+        ]
+      },
+      {
+        "song_title": "STAYIN' ALIVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Explicitly State The Artist Name, But Based On The Song Title -stayin' Alive- From The Motion Picture Soundtrack -saturday Night Fever-, The Artist Is Likely The Bee Gees - Stay.pdf",
+        "file_size_bytes": 54015,
+        "page_range": [
+          368,
+          369
+        ]
+      },
+      {
+        "song_title": "STELLA BY STARLIGHT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Stella By Starlight.pdf",
+        "file_size_bytes": 41111,
+        "page_range": [
+          369,
+          370
+        ]
+      },
+      {
+        "song_title": "STEPPIN' OUT WITH MY BABY",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - Steppin' Out With My Baby.pdf",
+        "file_size_bytes": 50437,
+        "page_range": [
+          370,
+          371
+        ]
+      },
+      {
+        "song_title": "STORMY WEATHER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Stormy Weather.pdf",
+        "file_size_bytes": 53614,
+        "page_range": [
+          371,
+          372
+        ]
+      },
+      {
+        "song_title": "THE STRIPPER",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By David Rose - The Stripper.pdf",
+        "file_size_bytes": 43268,
+        "page_range": [
+          372,
+          373
+        ]
+      },
+      {
+        "song_title": "Stuck in the Middle With You",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Gerry Rafferty And Joe Egan - Stuck In The Middle With You.pdf",
+        "file_size_bytes": 45257,
+        "page_range": [
+          373,
+          374
+        ]
+      },
+      {
+        "song_title": "SUMMERTIME IN VENICE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Music By Alessandro Cicognini, English Words By Carl Sigman (from The Motion Picture -summertime-) - Summertime In Venice.pdf",
+        "file_size_bytes": 44978,
+        "page_range": [
+          374,
+          375
+        ]
+      },
+      {
+        "song_title": "SUMMER NIGHTS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Summer Nights.pdf",
+        "file_size_bytes": 54015,
+        "page_range": [
+          375,
+          376
+        ]
+      },
+      {
+        "song_title": "SWINGING ON A STAR",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Johnny Burke, Music By Jimmy Van Heusen - Swinging On A Star.pdf",
+        "file_size_bytes": 59482,
+        "page_range": [
+          376,
+          377
+        ]
+      },
+      {
+        "song_title": "SUPERCALIFRAGILISTICEXPIALIDOCIOUS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Richard M. Sherman And Robert B. Sherman - Supercalifragilisticexpialidocious.pdf",
+        "file_size_bytes": 48488,
+        "page_range": [
+          377,
+          378
+        ]
+      },
+      {
+        "song_title": "Take My Breath Away",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Giorgio Moroder And Tom Whitlock - Take My Breath Away.pdf",
+        "file_size_bytes": 53077,
+        "page_range": [
+          378,
+          379
+        ]
+      },
+      {
+        "song_title": "SWEET SUE-JUST YOU",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Rhythm Pals-gus - Sweet Sue-just You.pdf",
+        "file_size_bytes": 35901,
+        "page_range": [
+          379,
+          380
+        ]
+      },
+      {
+        "song_title": "TANGERINE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Johnny Mercer And Victor Schertzinger - Tangerine.pdf",
+        "file_size_bytes": 42781,
+        "page_range": [
+          380,
+          381
+        ]
+      },
+      {
+        "song_title": "Teacher's Pet",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Teacher's Pet Words And Music By A.c. Baird - Teacher's Pet.pdf",
+        "file_size_bytes": 47724,
+        "page_range": [
+          381,
+          382
+        ]
+      },
+      {
+        "song_title": "Tears in Heaven",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Eric Clapton, Will Jennings - Tears In Heaven.pdf",
+        "file_size_bytes": 47675,
+        "page_range": [
+          382,
+          383
+        ]
+      },
+      {
+        "song_title": "(Let Me Be Your) Teddy Bear",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Kal Mann And Bernie Lowe (listed As The Writers) - (let Me Be Your) Teddy Bear.pdf",
+        "file_size_bytes": 51928,
+        "page_range": [
+          383,
+          384
+        ]
+      },
+      {
+        "song_title": "Tequila",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Chuck Rio - Tequila.pdf",
+        "file_size_bytes": 38917,
+        "page_range": [
+          384,
+          385
+        ]
+      },
+      {
+        "song_title": "Theme from \"Terms of Endearment\"",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Michael Gore - Theme From -terms Of Endearment-.pdf",
+        "file_size_bytes": 32245,
+        "page_range": [
+          385,
+          386
+        ]
+      },
+      {
+        "song_title": "Thank You Very Much",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Leslie Bricusse - Thank You Very Much.pdf",
+        "file_size_bytes": 55614,
+        "page_range": [
+          386,
+          387
+        ]
+      },
+      {
+        "song_title": "THERE YOU'LL BE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - There You'll Be.pdf",
+        "file_size_bytes": 45224,
+        "page_range": [
+          387,
+          388
+        ]
+      },
+      {
+        "song_title": "Thanks for the Memory",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Ralph Ranger - Thanks For The Memory.pdf",
+        "file_size_bytes": 62664,
+        "page_range": [
+          388,
+          389
+        ]
+      },
+      {
+        "song_title": "THAT OLD BLACK MAGIC",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Johnny Mercer, Harold Arlen - That Old Black Magic.pdf",
+        "file_size_bytes": 48206,
+        "page_range": [
+          389,
+          390
+        ]
+      },
+      {
+        "song_title": "That Thing You Do!",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Adam Schlesinger - That Thing You Do!.pdf",
+        "file_size_bytes": 47361,
+        "page_range": [
+          390,
+          391
+        ]
+      },
+      {
+        "song_title": "THANK HEAVEN FOR LITTLE GIRLS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Words By Alan Jay Lerner, Music By Frederick Loewe - Thank Heaven For Little Girls.pdf",
+        "file_size_bytes": 53115,
+        "page_range": [
+          391,
+          392
+        ]
+      },
+      {
+        "song_title": "That's Entertainment",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Howard Dietz, Arthur Schwartz - That's Entertainment.pdf",
+        "file_size_bytes": 37410,
+        "page_range": [
+          392,
+          393
+        ]
+      },
+      {
+        "song_title": "THIS IS HALLOWEEN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Tim Burton's The Nightmare Before Christmas, Music And Lyrics By Danny Elfman - This Is Halloween.pdf",
+        "file_size_bytes": 111369,
+        "page_range": [
+          393,
+          395
+        ]
+      },
+      {
+        "song_title": "That's Amore",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jack Brooks (words), Harry Warren (music) - That's Amore.pdf",
+        "file_size_bytes": 37509,
+        "page_range": [
+          395,
+          396
+        ]
+      },
+      {
+        "song_title": "THIS IS MY SONG",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Charlie Chaplin - This Is My Song.pdf",
+        "file_size_bytes": 54787,
+        "page_range": [
+          396,
+          397
+        ]
+      },
+      {
+        "song_title": "THOROUGHLY MODERN MILLIE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Sammy Cahn, James Van Heusen - Thoroughly Modern Millie.pdf",
+        "file_size_bytes": 50270,
+        "page_range": [
+          397,
+          398
+        ]
+      },
+      {
+        "song_title": "TILL THE END OF TIME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Till The End Of Time.pdf",
+        "file_size_bytes": 44785,
+        "page_range": [
+          398,
+          399
+        ]
+      },
+      {
+        "song_title": "A Time for Us (Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Nino Rota, Larry Kusik, Eddie Snyder - A Time For Us (love Theme).pdf",
+        "file_size_bytes": 85217,
+        "page_range": [
+          399,
+          401
+        ]
+      },
+      {
+        "song_title": "THE TIME OF YOUR LIFE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - The Time Of Your Life.pdf",
+        "file_size_bytes": 43742,
+        "page_range": [
+          401,
+          402
+        ]
+      },
+      {
+        "song_title": "TO EACH HIS OWN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jay Livingston And Ray Evans - To Each His Own.pdf",
+        "file_size_bytes": 46201,
+        "page_range": [
+          402,
+          403
+        ]
+      },
+      {
+        "song_title": "Time Warp",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Richard O'brien - Time Warp.pdf",
+        "file_size_bytes": 89167,
+        "page_range": [
+          403,
+          405
+        ]
+      },
+      {
+        "song_title": "TO SIR, WITH LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Don Black - To Sir, With Love.pdf",
+        "file_size_bytes": 46444,
+        "page_range": [
+          405,
+          406
+        ]
+      },
+      {
+        "song_title": "TOP GUN ANTHEM",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Harold Faltermeyer - Top Gun Anthem.pdf",
+        "file_size_bytes": 41144,
+        "page_range": [
+          406,
+          407
+        ]
+      },
+      {
+        "song_title": "TOP HAT, WHITE TIE AND TAILS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Top Hat, White Tie And Tails.pdf",
+        "file_size_bytes": 42117,
+        "page_range": [
+          407,
+          408
+        ]
+      },
+      {
+        "song_title": "TOO-RA-LOO-RA-LOO-RAL (THAT'S AN IRISH LULLABY)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Disney By Max - Too-ra-loo-ra-loo-ral (that's An Irish Lullaby).pdf",
+        "file_size_bytes": 44370,
+        "page_range": [
+          408,
+          409
+        ]
+      },
+      {
+        "song_title": "T-U-R-T-L-E POWER!",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Teenage Mutant Ninja Turtles - T-u-r-t-l-e Power!.pdf",
+        "file_size_bytes": 118870,
+        "page_range": [
+          409,
+          411
+        ]
+      },
+      {
+        "song_title": "TRUE LOVE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Burt Bacharach - True Love.pdf",
+        "file_size_bytes": 84110,
+        "page_range": [
+          411,
+          413
+        ]
+      },
+      {
+        "song_title": "UNDER THE SEA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's The Little Mermaid - Under The Sea.pdf",
+        "file_size_bytes": 94135,
+        "page_range": [
+          413,
+          415
+        ]
+      },
+      {
+        "song_title": "TWO",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Two.pdf",
+        "file_size_bytes": 51353,
+        "page_range": [
+          415,
+          416
+        ]
+      },
+      {
+        "song_title": "Understanding",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Understanding.pdf",
+        "file_size_bytes": 45340,
+        "page_range": [
+          416,
+          417
+        ]
+      },
+      {
+        "song_title": "The Untouchables - Main Title",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Paramount Motion Picture The Untouchables - The Untouchables - Main Title.pdf",
+        "file_size_bytes": 53696,
+        "page_range": [
+          417,
+          418
+        ]
+      },
+      {
+        "song_title": "Visions of a Sunset",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Shawn Stockman - Visions Of A Sunset.pdf",
+        "file_size_bytes": 51520,
+        "page_range": [
+          418,
+          419
+        ]
+      },
+      {
+        "song_title": "Viva Las Vegas",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Doc Pomus And Mort Shuman - Viva Las Vegas.pdf",
+        "file_size_bytes": 47428,
+        "page_range": [
+          419,
+          420
+        ]
+      },
+      {
+        "song_title": "Walk on the Wild Side",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Lyrics By Mack David, Music By Elmer Bernstein - Walk On The Wild Side.pdf",
+        "file_size_bytes": 50118,
+        "page_range": [
+          420,
+          421
+        ]
+      },
+      {
+        "song_title": "THE WAY WE WERE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - The Way We Were.pdf",
+        "file_size_bytes": 52363,
+        "page_range": [
+          421,
+          422
+        ]
+      },
+      {
+        "song_title": "THE WAY YOU LOOK TONIGHT",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Jerome Kern - The Way You Look Tonight.pdf",
+        "file_size_bytes": 55232,
+        "page_range": [
+          422,
+          423
+        ]
+      },
+      {
+        "song_title": "We Meet Again",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Andy Wilcon - We Meet Again.pdf",
+        "file_size_bytes": 66341,
+        "page_range": [
+          423,
+          425
+        ]
+      },
+      {
+        "song_title": "Weep You No More",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Patrick Doyle - Weep You No More.pdf",
+        "file_size_bytes": 37911,
+        "page_range": [
+          425,
+          426
+        ]
+      },
+      {
+        "song_title": "WHAT A WONDERFUL WORLD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Image Does Not Clearly Show The Artist Name, But Based On The Lyrics And Music Notation, This Appears To Be The First Page Of The Song -what A Wonderful World- - What A Wonderful World.pdf",
+        "file_size_bytes": 41002,
+        "page_range": [
+          426,
+          427
+        ]
+      },
+      {
+        "song_title": "What's Good About Goodbye?",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Motion Picture Cabaret - What's Good About Goodbye-.pdf",
+        "file_size_bytes": 37734,
+        "page_range": [
+          427,
+          428
+        ]
+      },
+      {
+        "song_title": "What's Love Got to Do With It",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Terry Britten And Graham Lyle - What's Love Got To Do With It.pdf",
+        "file_size_bytes": 56933,
+        "page_range": [
+          428,
+          429
+        ]
+      },
+      {
+        "song_title": "WHEN I TAKE MY SUGAR TO TEA",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Paramount Picture Monkey Business, Words And Music By Sammy - When I Take My Sugar To Tea.pdf",
+        "file_size_bytes": 48276,
+        "page_range": [
+          429,
+          430
+        ]
+      },
+      {
+        "song_title": "WHEN SHE LOVED ME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Randy Newman - When She Loved Me.pdf",
+        "file_size_bytes": 52831,
+        "page_range": [
+          430,
+          431
+        ]
+      },
+      {
+        "song_title": "WHEN YOU BELIEVE (From The Prince of Egypt)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - When You Believe (from The Prince Of Egypt).pdf",
+        "file_size_bytes": 94187,
+        "page_range": [
+          431,
+          433
+        ]
+      },
+      {
+        "song_title": "WHEN YOU WISH UPON A STAR",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Pinocchio - When You Wish Upon A Star.pdf",
+        "file_size_bytes": 44032,
+        "page_range": [
+          433,
+          434
+        ]
+      },
+      {
+        "song_title": "WHERE IS YOUR HEART",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/William Rowicki - Maurice Jarre - Where Is Your Heart.pdf",
+        "file_size_bytes": 46483,
+        "page_range": [
+          434,
+          435
+        ]
+      },
+      {
+        "song_title": "A WHOLE NEW WORLD",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Aladdin - A Whole New World.pdf",
+        "file_size_bytes": 77975,
+        "page_range": [
+          435,
+          437
+        ]
+      },
+      {
+        "song_title": "WHERE THE BOYS ARE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Howard Greenfield And Neil Sedaka - Where The Boys Are.pdf",
+        "file_size_bytes": 49121,
+        "page_range": [
+          437,
+          438
+        ]
+      },
+      {
+        "song_title": "THE WINGS",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Gustavo Santaolalla - The Wings.pdf",
+        "file_size_bytes": 42368,
+        "page_range": [
+          438,
+          439
+        ]
+      },
+      {
+        "song_title": "A WINK AND A SMILE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Harry Shaham (music) - Tommy Mclean (lyrics) - A Wink And A Smile.pdf",
+        "file_size_bytes": 50422,
+        "page_range": [
+          439,
+          440
+        ]
+      },
+      {
+        "song_title": "WISH ME A RAINBOW",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From The Paramount Picture -the Princess And The Cobbler- (words And Music By Jay - Wish Me A Rainbow.pdf",
+        "file_size_bytes": 48007,
+        "page_range": [
+          440,
+          441
+        ]
+      },
+      {
+        "song_title": "WONDERFUL COPENHAGEN",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/By Frank Loesser - Wonderful Copenhagen.pdf",
+        "file_size_bytes": 39773,
+        "page_range": [
+          441,
+          442
+        ]
+      },
+      {
+        "song_title": "Yellow Submarine",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/John Lennon And Paul Mccartney - Yellow Submarine.pdf",
+        "file_size_bytes": 38447,
+        "page_range": [
+          442,
+          443
+        ]
+      },
+      {
+        "song_title": "YES, YES!",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - Yes, Yes!.pdf",
+        "file_size_bytes": 46584,
+        "page_range": [
+          443,
+          444
+        ]
+      },
+      {
+        "song_title": "YOU CAN FLY!",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/From Walt Disney's Peter Pan (words By Sammy Cahn, Music By Sammy Fain) - You Can Fly!.pdf",
+        "file_size_bytes": 50586,
+        "page_range": [
+          444,
+          445
+        ]
+      },
+      {
+        "song_title": "YOU KEEP COMING BACK LIKE A SONG",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Irving Berlin - You Keep Coming Back Like A Song.pdf",
+        "file_size_bytes": 40374,
+        "page_range": [
+          445,
+          446
+        ]
+      },
+      {
+        "song_title": "YOU MUST LOVE ME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Andrew Lloyd Webber - You Must Love Me.pdf",
+        "file_size_bytes": 38216,
+        "page_range": [
+          446,
+          447
+        ]
+      },
+      {
+        "song_title": "YOU SHOULD BE DANCING",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/The Artist Names Are Not Clearly Displayed, But The Music Credits At The Top Mention Barry Gibb, Robin Gibb, And Maurice Gibb, Suggesting This Is A Song By The Bee Gees - You Should Be Dancing.pdf",
+        "file_size_bytes": 37854,
+        "page_range": [
+          447,
+          448
+        ]
+      },
+      {
+        "song_title": "YOU'D BE SO NICE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - You'd Be So Nice.pdf",
+        "file_size_bytes": 52730,
+        "page_range": [
+          448,
+          449
+        ]
+      },
+      {
+        "song_title": "You'll Be In My Heart",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Phil Collins - You'll Be In My Heart.pdf",
+        "file_size_bytes": 79740,
+        "page_range": [
+          449,
+          451
+        ]
+      },
+      {
+        "song_title": "YOU WERE LOVED",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Unknown Artist - You Were Loved.pdf",
+        "file_size_bytes": 85705,
+        "page_range": [
+          451,
+          453
+        ]
+      },
+      {
+        "song_title": "You've Got a Friend in Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Randy Newman - You've Got A Friend In Me.pdf",
+        "file_size_bytes": 45939,
+        "page_range": [
+          453,
+          454
+        ]
+      },
+      {
+        "song_title": "YOUNG AT HEART",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/Carolyn Leigh, Johnny Richards - Young At Heart.pdf",
+        "file_size_bytes": 56940,
+        "page_range": [
+          454,
+          455
+        ]
+      },
+      {
+        "song_title": "ZORRO'S THEME",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Fakebook/Songs/James Horner - Zorro's Theme.pdf",
+        "file_size_bytes": 612361,
+        "page_range": [
+          455,
+          464
+        ]
+      }
+    ]
+  }
+}

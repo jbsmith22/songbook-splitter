@@ -1,0 +1,254 @@
+{
+  "book_id": "91d46a9d5c646954",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Angie",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "As Tears Go By",
+        "page_number": 8,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Brown Sugar",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Get Off My Cloud",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Good Times, Bad Times",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honky Tonk Women",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jumpin' Jack Flash",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lady Jane",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Let's Spend The Night Together",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Midnight Rambler",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Paint It Black",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ruby Tuesday",
+        "page_number": 37,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Satisfaction",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She's A Rainbow",
+        "page_number": 45,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Street Fighting Man",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sympathy For The Devil",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Star Star",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "19th Nervous Breakdown",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tumbling Dice",
+        "page_number": 65,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Under My Thumb",
+        "page_number": 69,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Angie",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Angie.pdf",
+        "file_size_bytes": 125784,
+        "page_range": [
+          1,
+          4
+        ]
+      },
+      {
+        "song_title": "As Tears Go By",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - As Tears Go By.pdf",
+        "file_size_bytes": 156744,
+        "page_range": [
+          4,
+          8
+        ]
+      },
+      {
+        "song_title": "Brown Sugar",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Brown Sugar.pdf",
+        "file_size_bytes": 646059,
+        "page_range": [
+          8,
+          23
+        ]
+      },
+      {
+        "song_title": "Good Times, Bad Times",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Good Times, Bad Times.pdf",
+        "file_size_bytes": 43316,
+        "page_range": [
+          23,
+          24
+        ]
+      },
+      {
+        "song_title": "Midnight Rambler",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Midnight Rambler.pdf",
+        "file_size_bytes": 357714,
+        "page_range": [
+          24,
+          32
+        ]
+      },
+      {
+        "song_title": "Paint It Black",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Paint It Black.pdf",
+        "file_size_bytes": 171437,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "Satisfaction",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Satisfaction.pdf",
+        "file_size_bytes": 227773,
+        "page_range": [
+          36,
+          41
+        ]
+      },
+      {
+        "song_title": "Street Fighting Man",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Street Fighting Man.pdf",
+        "file_size_bytes": 200442,
+        "page_range": [
+          41,
+          46
+        ]
+      },
+      {
+        "song_title": "Sympathy For The Devil",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Sympathy For The Devil.pdf",
+        "file_size_bytes": 252207,
+        "page_range": [
+          46,
+          52
+        ]
+      },
+      {
+        "song_title": "Star Star",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Star Star.pdf",
+        "file_size_bytes": 257604,
+        "page_range": [
+          52,
+          58
+        ]
+      },
+      {
+        "song_title": "Tumbling Dice",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Tumbling Dice.pdf",
+        "file_size_bytes": 216329,
+        "page_range": [
+          58,
+          63
+        ]
+      },
+      {
+        "song_title": "Under My Thumb",
+        "artist": "Rolling Stones",
+        "output_uri": "s3://jsmith-output/Rolling Stones/Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook/Songs/Rolling Stones - Under My Thumb.pdf",
+        "file_size_bytes": 133315,
+        "page_range": [
+          63,
+          66
+        ]
+      }
+    ]
+  }
+}

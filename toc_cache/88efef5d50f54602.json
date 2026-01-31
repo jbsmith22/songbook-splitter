@@ -1,0 +1,53 @@
+{
+  "book_id": "88efef5d50f54602",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Take It Away",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tug Of War [pvg Book]/Songs/Paul Mccartney - Take It Away.pdf",
+        "file_size_bytes": 1313223,
+        "page_range": [
+          7,
+          30
+        ]
+      },
+      {
+        "song_title": "Ballroom Dancing",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tug Of War [pvg Book]/Songs/Paul Mccartney - Ballroom Dancing.pdf",
+        "file_size_bytes": 1038570,
+        "page_range": [
+          30,
+          48
+        ]
+      },
+      {
+        "song_title": "Be What You See",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tug Of War [pvg Book]/Songs/Paul Mccartney - Be What You See.pdf",
+        "file_size_bytes": 343082,
+        "page_range": [
+          48,
+          54
+        ]
+      },
+      {
+        "song_title": "Ebony and Ivory",
+        "artist": "Paul McCartney",
+        "output_uri": "s3://jsmith-output/Paul Mccartney/Paul Mccartney - Tug Of War [pvg Book]/Songs/Paul Mccartney - Ebony And Ivory.pdf",
+        "file_size_bytes": 253561,
+        "page_range": [
+          54,
+          58
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "book_id": "billy-joel-for-advanced-piano",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Just the Way You Are",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Movin' Out (Anthony's Song)",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She's Always a Woman",
+        "page_number": 17,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Stranger",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Honesty",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "James",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Life",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "New York State of Mind",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Piano Man",
+        "page_number": 73,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Prelude",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Root Beer Rag",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Until the Night",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Just the Way You Are",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - Just The Way You Are.pdf",
+        "file_size_bytes": 6343951,
+        "page_range": [
+          2,
+          10
+        ]
+      },
+      {
+        "song_title": "The Stranger",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - The Stranger.pdf",
+        "file_size_bytes": 737126,
+        "page_range": [
+          10,
+          11
+        ]
+      },
+      {
+        "song_title": "Movin' Out (Anthony's Song)",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - Movin' Out (anthony's Song).pdf",
+        "file_size_bytes": 4787402,
+        "page_range": [
+          11,
+          17
+        ]
+      },
+      {
+        "song_title": "She's Always a Woman",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - She's Always A Woman.pdf",
+        "file_size_bytes": 4054768,
+        "page_range": [
+          17,
+          22
+        ]
+      },
+      {
+        "song_title": "New York State of Mind",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - New York State Of Mind.pdf",
+        "file_size_bytes": 5465773,
+        "page_range": [
+          22,
+          29
+        ]
+      },
+      {
+        "song_title": "My Life",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - My Life.pdf",
+        "file_size_bytes": 5692082,
+        "page_range": [
+          29,
+          36
+        ]
+      },
+      {
+        "song_title": "Prelude",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - Prelude.pdf",
+        "file_size_bytes": 7603587,
+        "page_range": [
+          36,
+          46
+        ]
+      },
+      {
+        "song_title": "Until the Night",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - Until The Night.pdf",
+        "file_size_bytes": 11938125,
+        "page_range": [
+          46,
+          61
+        ]
+      },
+      {
+        "song_title": "James",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - James.pdf",
+        "file_size_bytes": 3876373,
+        "page_range": [
+          61,
+          66
+        ]
+      },
+      {
+        "song_title": "Root Beer Rag",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - Root Beer Rag.pdf",
+        "file_size_bytes": 5372433,
+        "page_range": [
+          66,
+          73
+        ]
+      },
+      {
+        "song_title": "Piano Man",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/Billy Joel/For Advanced Piano/Songs/Billy Joel - Piano Man.pdf",
+        "file_size_bytes": 7221383,
+        "page_range": [
+          73,
+          82
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "book_id": "dbd63849f7e45ca4",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Not A Day Goes By",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Stephen Sondheim - Not A Day Goes By.pdf",
+        "file_size_bytes": 557322,
+        "page_range": [
+          45,
+          64
+        ]
+      },
+      {
+        "song_title": "Little White House/Who Could Be Blue?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Stephen Sondheim - Little White House-who Could Be Blue-.pdf",
+        "file_size_bytes": 307199,
+        "page_range": [
+          64,
+          75
+        ]
+      },
+      {
+        "song_title": "Isn't It?",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Stephen Sondheim - Isn't It-.pdf",
+        "file_size_bytes": 95820,
+        "page_range": [
+          75,
+          79
+        ]
+      },
+      {
+        "song_title": "Marry Me A Little",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Stephen Sondheim - Marry Me A Little.pdf",
+        "file_size_bytes": 651725,
+        "page_range": [
+          79,
+          102
+        ]
+      },
+      {
+        "song_title": "Good Thing Going",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Stephen Sondheim - Good Thing Going.pdf",
+        "file_size_bytes": 133932,
+        "page_range": [
+          102,
+          106
+        ]
+      },
+      {
+        "song_title": "So Many People",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Stephen Sondheim - So Many People.pdf",
+        "file_size_bytes": 800214,
+        "page_range": [
+          106,
+          127
+        ]
+      },
+      {
+        "song_title": "All Things Bright and Beautiful",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Stephen Sondheim - All Things Bright And Beautiful.pdf",
+        "file_size_bytes": 234181,
+        "page_range": [
+          127,
+          133
+        ]
+      },
+      {
+        "song_title": "All Things Bright and Beautiful",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Unknown Artist - All Things Bright And Beautiful.pdf",
+        "file_size_bytes": 208889,
+        "page_range": [
+          133,
+          139
+        ]
+      },
+      {
+        "song_title": "Old Friends",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Steven Sondheim - All Sondheim Volume 2 Book/Songs/Unknown Artist - Old Friends.pdf",
+        "file_size_bytes": 708668,
+        "page_range": [
+          139,
+          148
+        ]
+      }
+    ]
+  }
+}

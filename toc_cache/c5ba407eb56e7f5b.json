@@ -1,0 +1,658 @@
+{
+  "book_id": "c5ba407eb56e7f5b",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Alfie (Theme)",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Amelie (Le Banquet)",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "American Beauty (Theme/Angela Undress)",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Born Free (Theme)",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Captain Corelli's Mandolin (The Mandolin)",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Casablanca (As Time Goes By)",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Chicago (After Midnight)",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Chocolat (Passage Of Time)",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cold Mountain (Anthem)",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Crouching Tiger, Hidden Dragon (Theme/Eternal Vow)",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Donnie Darko (The Artifact And Living/ Liquid Spear Waltz)",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The English Patient (Theme/A Retreat/Rupert Bear)",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "E.T. (Theme)",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Far From Heaven (Autumn In Connecticut)",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Forrest Gump (Feather Theme)",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "From Here To Eternity (Theme)",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ghost (Unchained Melody)",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Godfather (Love Theme)",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Hours (The Poet Acts)",
+        "page_number": 61,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Il Postino/The Postman (Theme/The Bicycle)",
+        "page_number": 80,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jean De Florette (Theme)",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jurassic Park (Theme)",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Last Of The Mohicans (Theme)",
+        "page_number": 84,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lawrence Of Arabia (Theme)",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Live And Let Die (Theme)",
+        "page_number": 89,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Lord Of The Rings: The Return Of The King (Into The West)",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Actually (PM's Love Theme)",
+        "page_number": 99,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Love Story (Where Do I Begin)",
+        "page_number": 102,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mission: Impossible (Theme)",
+        "page_number": 108,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Moulin Rouge! (Come What May)",
+        "page_number": 105,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "An Officer And A Gentleman (Up Where We Belong)",
+        "page_number": 122,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Out Of Africa (The Music Of Goodbye)",
+        "page_number": 125,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Piano (The Heart Asks Pleasure First)",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Raiders Of The Lost Ark (Raiders March)",
+        "page_number": 114,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Romeo And Juliet (A Time For Us)",
+        "page_number": 118,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Schindler's List (Theme)",
+        "page_number": 120,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shakespeare In Love (The Beginning Of The Partnership)",
+        "page_number": 135,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Silence Of The Lambs (Theme)",
+        "page_number": 128,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Some Like It Hot (I Wanna Be Loved By You)",
+        "page_number": 138,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Somewhere In Time (Theme)",
+        "page_number": 143,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Star Trek (The Motion Picture) (Theme)",
+        "page_number": 146,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Three Colours: Blue (Song For The Unification Of Europe)",
+        "page_number": 157,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Titanic (My Heart Will Go On)",
+        "page_number": 149,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Truman Show (It's A Life)",
+        "page_number": 154,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Captain Corelli's Mandolin (The Mandolin)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/(from -captain Corelli's Mandolin-) Music By Stephen Warbeck - Captain Corelli's Mandolin (the Mandolin).pdf",
+        "file_size_bytes": 93814,
+        "page_range": [
+          3,
+          5
+        ]
+      },
+      {
+        "song_title": "Alfie (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Unknown Artist - Alfie (theme).pdf",
+        "file_size_bytes": 285308,
+        "page_range": [
+          5,
+          11
+        ]
+      },
+      {
+        "song_title": "Born Free (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Unknown Artist - Born Free (theme).pdf",
+        "file_size_bytes": 77443,
+        "page_range": [
+          11,
+          14
+        ]
+      },
+      {
+        "song_title": "Chicago (After Midnight)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Danny Elfman - Chicago (after Midnight).pdf",
+        "file_size_bytes": 224148,
+        "page_range": [
+          14,
+          19
+        ]
+      },
+      {
+        "song_title": "American Beauty (Theme/Angela Undress)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Unknown Artist - American Beauty (theme-angela Undress).pdf",
+        "file_size_bytes": 135826,
+        "page_range": [
+          19,
+          23
+        ]
+      },
+      {
+        "song_title": "Chocolat (Passage Of Time)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Rachel Portman - Chocolat (passage Of Time).pdf",
+        "file_size_bytes": 212635,
+        "page_range": [
+          23,
+          26
+        ]
+      },
+      {
+        "song_title": "Cold Mountain (Anthem)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Gabriel Yared - Cold Mountain (anthem).pdf",
+        "file_size_bytes": 198203,
+        "page_range": [
+          26,
+          29
+        ]
+      },
+      {
+        "song_title": "Crouching Tiger, Hidden Dragon (Theme/Eternal Vow)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Tan Dun - Crouching Tiger, Hidden Dragon (theme-eternal Vow).pdf",
+        "file_size_bytes": 69758,
+        "page_range": [
+          29,
+          31
+        ]
+      },
+      {
+        "song_title": "The English Patient (Theme/A Retreat/Rupert Bear)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Gabriel Yared - The English Patient (theme-a Retreat-rupert Bear).pdf",
+        "file_size_bytes": 251755,
+        "page_range": [
+          31,
+          38
+        ]
+      },
+      {
+        "song_title": "E.T. (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Music By John Williams - E.t. (theme).pdf",
+        "file_size_bytes": 316752,
+        "page_range": [
+          38,
+          46
+        ]
+      },
+      {
+        "song_title": "From Here To Eternity (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Words By Robert Wells, Music By Fred Karger - From Here To Eternity (theme).pdf",
+        "file_size_bytes": 96514,
+        "page_range": [
+          46,
+          49
+        ]
+      },
+      {
+        "song_title": "Forrest Gump (Feather Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Alan Silvestri - Forrest Gump (feather Theme).pdf",
+        "file_size_bytes": 314503,
+        "page_range": [
+          49,
+          57
+        ]
+      },
+      {
+        "song_title": "The Godfather (Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Nino Rota - The Godfather (love Theme).pdf",
+        "file_size_bytes": 116048,
+        "page_range": [
+          57,
+          60
+        ]
+      },
+      {
+        "song_title": "The Hours (The Poet Acts)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Philip Glass - The Hours (the Poet Acts).pdf",
+        "file_size_bytes": 130008,
+        "page_range": [
+          60,
+          63
+        ]
+      },
+      {
+        "song_title": "Donnie Darko (The Artifact And Living/ Liquid Spear Waltz)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/(from -donnie Darko-) Music By Michael Andrews - Donnie Darko (the Artifact And Living- Liquid Spear Waltz).pdf",
+        "file_size_bytes": 271649,
+        "page_range": [
+          63,
+          69
+        ]
+      },
+      {
+        "song_title": "Jean De Florette (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Jean-claude Petit - Jean De Florette (theme).pdf",
+        "file_size_bytes": 105428,
+        "page_range": [
+          69,
+          71
+        ]
+      },
+      {
+        "song_title": "Jurassic Park (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Music By John Williams - Jurassic Park (theme).pdf",
+        "file_size_bytes": 157741,
+        "page_range": [
+          71,
+          75
+        ]
+      },
+      {
+        "song_title": "Lawrence Of Arabia (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Maurice Jarre - Lawrence Of Arabia (theme).pdf",
+        "file_size_bytes": 81355,
+        "page_range": [
+          75,
+          77
+        ]
+      },
+      {
+        "song_title": "Il Postino/The Postman (Theme/The Bicycle)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Luis Bacalov - Il Postino-the Postman (theme-the Bicycle).pdf",
+        "file_size_bytes": 166226,
+        "page_range": [
+          77,
+          81
+        ]
+      },
+      {
+        "song_title": "The Last Of The Mohicans (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Trevor Jones - The Last Of The Mohicans (theme).pdf",
+        "file_size_bytes": 181176,
+        "page_range": [
+          81,
+          86
+        ]
+      },
+      {
+        "song_title": "Live And Let Die (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Paul Mccartney & Linda Mccartney - Live And Let Die (theme).pdf",
+        "file_size_bytes": 384032,
+        "page_range": [
+          86,
+          94
+        ]
+      },
+      {
+        "song_title": "Love Actually (PM's Love Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Craig Armstrong - Love Actually (pm's Love Theme).pdf",
+        "file_size_bytes": 112287,
+        "page_range": [
+          94,
+          97
+        ]
+      },
+      {
+        "song_title": "Love Story (Where Do I Begin)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Carl Sigman (words), Francis Lai (music) - Love Story (where Do I Begin).pdf",
+        "file_size_bytes": 115368,
+        "page_range": [
+          97,
+          100
+        ]
+      },
+      {
+        "song_title": "Moulin Rouge! (Come What May)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/David Hareswood - Moulin Rouge! (come What May).pdf",
+        "file_size_bytes": 119796,
+        "page_range": [
+          100,
+          103
+        ]
+      },
+      {
+        "song_title": "Mission: Impossible (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Lalo Schifrin - Mission- Impossible (theme).pdf",
+        "file_size_bytes": 94525,
+        "page_range": [
+          103,
+          105
+        ]
+      },
+      {
+        "song_title": "The Piano (The Heart Asks Pleasure First)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Michael Nyman - The Piano (the Heart Asks Pleasure First).pdf",
+        "file_size_bytes": 218562,
+        "page_range": [
+          105,
+          109
+        ]
+      },
+      {
+        "song_title": "Raiders Of The Lost Ark (Raiders March)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Music By John Williams - Raiders Of The Lost Ark (raiders March).pdf",
+        "file_size_bytes": 203496,
+        "page_range": [
+          109,
+          113
+        ]
+      },
+      {
+        "song_title": "Romeo And Juliet (A Time For Us)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/(love Theme From -romeo And Juliet-) Words By Eddie Snyder & Larry Kusik, Music By Nino Rota - Romeo And Juliet (a Time For Us).pdf",
+        "file_size_bytes": 76774,
+        "page_range": [
+          113,
+          115
+        ]
+      },
+      {
+        "song_title": "Schindler's List (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/John Williams - Schindler's List (theme).pdf",
+        "file_size_bytes": 98689,
+        "page_range": [
+          115,
+          117
+        ]
+      },
+      {
+        "song_title": "An Officer And A Gentleman (Up Where We Belong)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Jack Nitzsche, Will Jennings & Buffy Sainte-marie - An Officer And A Gentleman (up Where We Belong).pdf",
+        "file_size_bytes": 128096,
+        "page_range": [
+          117,
+          120
+        ]
+      },
+      {
+        "song_title": "Out Of Africa (The Music Of Goodbye)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Words By Alan & Marilyn Bergman, Music By John Barry - Out Of Africa (the Music Of Goodbye).pdf",
+        "file_size_bytes": 136593,
+        "page_range": [
+          120,
+          123
+        ]
+      },
+      {
+        "song_title": "The Silence Of The Lambs (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Music By Howard Shore - The Silence Of The Lambs (theme).pdf",
+        "file_size_bytes": 387753,
+        "page_range": [
+          123,
+          130
+        ]
+      },
+      {
+        "song_title": "Shakespeare In Love (The Beginning Of The Partnership)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Stephen Warbeck - Shakespeare In Love (the Beginning Of The Partnership).pdf",
+        "file_size_bytes": 417043,
+        "page_range": [
+          130,
+          138
+        ]
+      },
+      {
+        "song_title": "Somewhere In Time (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/John Barry - Somewhere In Time (theme).pdf",
+        "file_size_bytes": 127100,
+        "page_range": [
+          138,
+          141
+        ]
+      },
+      {
+        "song_title": "Star Trek (The Motion Picture) (Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Jerry Goldsmith - Star Trek (the Motion Picture) (theme).pdf",
+        "file_size_bytes": 254233,
+        "page_range": [
+          141,
+          145
+        ]
+      },
+      {
+        "song_title": "Titanic (My Heart Will Go On)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/(love Theme From -titanic-) Words By Will Jennings, Music By James Horner - Titanic (my Heart Will Go On).pdf",
+        "file_size_bytes": 264971,
+        "page_range": [
+          145,
+          150
+        ]
+      },
+      {
+        "song_title": "The Truman Show (It's A Life)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/(from -the Truman Show-) - The Truman Show (it's A Life).pdf",
+        "file_size_bytes": 156664,
+        "page_range": [
+          150,
+          153
+        ]
+      },
+      {
+        "song_title": "Three Colours: Blue (Song For The Unification Of Europe)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Film Book/Songs/Zbigniew Preisner - Three Colours- Blue (song For The Unification Of Europe).pdf",
+        "file_size_bytes": 254694,
+        "page_range": [
+          153,
+          157
+        ]
+      }
+    ]
+  }
+}

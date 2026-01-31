@@ -1,0 +1,160 @@
+{
+  "book_id": "211f004eb807bc27",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Big Yellow Taxi",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Both Sides Now",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Chelsea Morning",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Circle Game",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Free Man In Paris",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Help Me",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "In France They Kiss On Main Street",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Michael From Mountains",
+        "page_number": 4,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Raised On Robbery",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Woodstock",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Turn me On, I'm A Radio",
+        "page_number": 19,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Both Sides Now",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell - The Best Of [pvg]/Songs/Joni Mitchell - Both Sides Now.pdf",
+        "file_size_bytes": 783931,
+        "page_range": [
+          2,
+          4
+        ]
+      },
+      {
+        "song_title": "Michael From Mountains",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell - The Best Of [pvg]/Songs/Joni Mitchell - Michael From Mountains.pdf",
+        "file_size_bytes": 909772,
+        "page_range": [
+          4,
+          10
+        ]
+      },
+      {
+        "song_title": "Big Yellow Taxi",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell - The Best Of [pvg]/Songs/Joni Mitchell - Big Yellow Taxi.pdf",
+        "file_size_bytes": 1392756,
+        "page_range": [
+          10,
+          18
+        ]
+      },
+      {
+        "song_title": "Woodstock",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell - The Best Of [pvg]/Songs/Joni Mitchell - Woodstock.pdf",
+        "file_size_bytes": 631021,
+        "page_range": [
+          18,
+          21
+        ]
+      },
+      {
+        "song_title": "You Turn me On, I'm A Radio",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell - The Best Of [pvg]/Songs/Joni Mitchell - You Turn Me On, I'm A Radio.pdf",
+        "file_size_bytes": 1437640,
+        "page_range": [
+          21,
+          29
+        ]
+      },
+      {
+        "song_title": "Raised On Robbery",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell - The Best Of [pvg]/Songs/Joni Mitchell - Raised On Robbery.pdf",
+        "file_size_bytes": 1741570,
+        "page_range": [
+          29,
+          34
+        ]
+      },
+      {
+        "song_title": "Help Me",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell - The Best Of [pvg]/Songs/Joni Mitchell - Help Me.pdf",
+        "file_size_bytes": 1597252,
+        "page_range": [
+          34,
+          42
+        ]
+      },
+      {
+        "song_title": "In France They Kiss On Main Street",
+        "artist": "Joni Mitchell",
+        "output_uri": "s3://jsmith-output/Joni Mitchell/Joni Mitchell - The Best Of [pvg]/Songs/Joni Mitchell - In France They Kiss On Main Street.pdf",
+        "file_size_bytes": 1471461,
+        "page_range": [
+          42,
+          47
+        ]
+      }
+    ]
+  }
+}

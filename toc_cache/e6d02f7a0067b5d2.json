@@ -1,0 +1,83 @@
+{
+  "book_id": "e6d02f7a0067b5d2",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "The Long And Winding Road",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Music For The Millennium The Seventies/Songs/(words & Music By John Lennon And Paul Mccartney) - The Long And Winding Road.pdf",
+        "file_size_bytes": 142883,
+        "page_range": [
+          6,
+          10
+        ]
+      },
+      {
+        "song_title": "Vincent",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Music For The Millennium The Seventies/Songs/Don Mclean - Vincent.pdf",
+        "file_size_bytes": 267810,
+        "page_range": [
+          10,
+          16
+        ]
+      },
+      {
+        "song_title": "I'd Like To Teach The World To Sing",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Music For The Millennium The Seventies/Songs/Words & Music By Roger Cook, Roger Greenaway, Bill Backer & Billy Davis - I'd Like To Teach The World To Sing.pdf",
+        "file_size_bytes": 825109,
+        "page_range": [
+          16,
+          35
+        ]
+      },
+      {
+        "song_title": "Feelings (Dime)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Music For The Millennium The Seventies/Songs/Shawn Albert & Noah Cyrus - Feelings (dime).pdf",
+        "file_size_bytes": 334177,
+        "page_range": [
+          35,
+          43
+        ]
+      },
+      {
+        "song_title": "Can't Smile Without You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Music For The Millennium The Seventies/Songs/Unknown Artist - Can't Smile Without You.pdf",
+        "file_size_bytes": 200240,
+        "page_range": [
+          43,
+          48
+        ]
+      },
+      {
+        "song_title": "Mull Of Kintyre",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Music For The Millennium The Seventies/Songs/Words & Music By Mccartney & Laine - Mull Of Kintyre.pdf",
+        "file_size_bytes": 172713,
+        "page_range": [
+          48,
+          52
+        ]
+      },
+      {
+        "song_title": "How Deep Is Your Love",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Music For The Millennium The Seventies/Songs/The Gibb Brothers (barry Gibb, Robin Gibb & Maurice Gibb) - How Deep Is Your Love.pdf",
+        "file_size_bytes": 475459,
+        "page_range": [
+          52,
+          62
+        ]
+      }
+    ]
+  }
+}

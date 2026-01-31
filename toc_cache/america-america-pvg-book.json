@@ -1,0 +1,212 @@
+{
+  "book_id": "america-america-pvg-book",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "A HORSE WITH NO NAME",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CHILDREN",
+        "page_number": 22,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "CLARICE",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DONKEY JAW",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "EVERYONE I MEET IS FROM CALIFORNIA",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HERE",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I NEED YOU",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "NEVER FOUND THE TIME",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PIGEON SONG",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "RAINY DAY",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "RIVERSIDE",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "SANDMAN",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THREE ROSES",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "RIVERSIDE",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Dewey Runnell - Riverside.pdf",
+        "file_size_bytes": 116553,
+        "page_range": [
+          3,
+          7
+        ]
+      },
+      {
+        "song_title": "SANDMAN",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/David Burchfield - Sandman.pdf",
+        "file_size_bytes": 63391,
+        "page_range": [
+          7,
+          9
+        ]
+      },
+      {
+        "song_title": "A HORSE WITH NO NAME",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Unknown Artist - A Horse With No Name.pdf",
+        "file_size_bytes": 200018,
+        "page_range": [
+          9,
+          15
+        ]
+      },
+      {
+        "song_title": "THREE ROSES",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Dewey Bunnell - Three Roses.pdf",
+        "file_size_bytes": 101887,
+        "page_range": [
+          15,
+          19
+        ]
+      },
+      {
+        "song_title": "CHILDREN",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Dewey Bunnell - Children.pdf",
+        "file_size_bytes": 175799,
+        "page_range": [
+          19,
+          25
+        ]
+      },
+      {
+        "song_title": "HERE",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Gerry Beckley - Here.pdf",
+        "file_size_bytes": 1827452,
+        "page_range": [
+          25,
+          36
+        ]
+      },
+      {
+        "song_title": "NEVER FOUND THE TIME",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Dan Peek - Never Found The Time.pdf",
+        "file_size_bytes": 86411,
+        "page_range": [
+          36,
+          40
+        ]
+      },
+      {
+        "song_title": "DONKEY JAW",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Dan Peek - Donkey Jaw.pdf",
+        "file_size_bytes": 77526,
+        "page_range": [
+          40,
+          44
+        ]
+      },
+      {
+        "song_title": "CLARICE",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Gerry Rafferty - Clarice.pdf",
+        "file_size_bytes": 81407,
+        "page_range": [
+          44,
+          47
+        ]
+      },
+      {
+        "song_title": "I NEED YOU",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Gerry Beckley - I Need You.pdf",
+        "file_size_bytes": 103298,
+        "page_range": [
+          47,
+          52
+        ]
+      },
+      {
+        "song_title": "EVERYONE I MEET IS FROM CALIFORNIA",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Dan Peek - Everyone I Meet Is From California.pdf",
+        "file_size_bytes": 97075,
+        "page_range": [
+          52,
+          56
+        ]
+      },
+      {
+        "song_title": "PIGEON SONG",
+        "artist": "America",
+        "output_uri": "s3://jsmith-output/America/America [pvg Book]/Songs/Dewey Runnell - Pigeon Song.pdf",
+        "file_size_bytes": 74078,
+        "page_range": [
+          56,
+          59
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "book_id": "40fcde43091de50e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "A-Hunting We Will Go",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - A-hunting We Will Go.pdf",
+        "file_size_bytes": 58169,
+        "page_range": [
+          4,
+          6
+        ]
+      },
+      {
+        "song_title": "All Night, All Day",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Spiritual - All Night, All Day.pdf",
+        "file_size_bytes": 142918,
+        "page_range": [
+          6,
+          11
+        ]
+      },
+      {
+        "song_title": "Animal Fair",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/American Folksong - Animal Fair.pdf",
+        "file_size_bytes": 33119,
+        "page_range": [
+          11,
+          12
+        ]
+      },
+      {
+        "song_title": "Baa Baa Black Sheep",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Baa Baa Black Sheep.pdf",
+        "file_size_bytes": 109105,
+        "page_range": [
+          12,
+          16
+        ]
+      },
+      {
+        "song_title": "Be Kind to Your Web-Footed Friends",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Unknown Artist - Be Kind To Your Web-footed Friends.pdf",
+        "file_size_bytes": 58224,
+        "page_range": [
+          16,
+          18
+        ]
+      },
+      {
+        "song_title": "The Bluetail Fly",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Jimmy Crack Corn - The Bluetail Fly.pdf",
+        "file_size_bytes": 147329,
+        "page_range": [
+          18,
+          23
+        ]
+      },
+      {
+        "song_title": "Cock-a-Doodle-Doo",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Cock-a-doodle-doo.pdf",
+        "file_size_bytes": 63535,
+        "page_range": [
+          23,
+          25
+        ]
+      },
+      {
+        "song_title": "Down by the Station",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Down By The Station.pdf",
+        "file_size_bytes": 203930,
+        "page_range": [
+          25,
+          32
+        ]
+      },
+      {
+        "song_title": "Evening Prayer",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Engelbert Humperdinck - Evening Prayer.pdf",
+        "file_size_bytes": 43118,
+        "page_range": [
+          32,
+          33
+        ]
+      },
+      {
+        "song_title": "The Farmer in the Dell",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - The Farmer In The Dell.pdf",
+        "file_size_bytes": 60847,
+        "page_range": [
+          33,
+          35
+        ]
+      },
+      {
+        "song_title": "For He's a Jolly Good Fellow",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - For He's A Jolly Good Fellow.pdf",
+        "file_size_bytes": 88455,
+        "page_range": [
+          35,
+          38
+        ]
+      },
+      {
+        "song_title": "Go Tell Aunt Rhody",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Go Tell Aunt Rhody.pdf",
+        "file_size_bytes": 84436,
+        "page_range": [
+          38,
+          41
+        ]
+      },
+      {
+        "song_title": "Goober Peas",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/P. Waker, P. Mutt - Goober Peas.pdf",
+        "file_size_bytes": 239490,
+        "page_range": [
+          41,
+          50
+        ]
+      },
+      {
+        "song_title": "Hickory Dickory Dock",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Hickory Dickory Dock.pdf",
+        "file_size_bytes": 26039,
+        "page_range": [
+          50,
+          51
+        ]
+      },
+      {
+        "song_title": "Home on the Range",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Lyrics By Dr. Brewster Higley, Music By Dan Kelly - Home On The Range.pdf",
+        "file_size_bytes": 126193,
+        "page_range": [
+          51,
+          56
+        ]
+      },
+      {
+        "song_title": "If You're Happy and You Know It",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/L. Smith - If You're Happy And You Know It.pdf",
+        "file_size_bytes": 100270,
+        "page_range": [
+          56,
+          59
+        ]
+      },
+      {
+        "song_title": "It's Raining, It's Pouring",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - It's Raining, It's Pouring.pdf",
+        "file_size_bytes": 109859,
+        "page_range": [
+          59,
+          63
+        ]
+      },
+      {
+        "song_title": "Kum Ba Yah",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional Spiritual - Kum Ba Yah.pdf",
+        "file_size_bytes": 30991,
+        "page_range": [
+          63,
+          64
+        ]
+      },
+      {
+        "song_title": "Lavender's Blue",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/English Folk Song - Lavender's Blue.pdf",
+        "file_size_bytes": 84870,
+        "page_range": [
+          64,
+          67
+        ]
+      },
+      {
+        "song_title": "Little Boy Blue",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Little Boy Blue.pdf",
+        "file_size_bytes": 28439,
+        "page_range": [
+          67,
+          68
+        ]
+      },
+      {
+        "song_title": "Little Jack Horner",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Little Jack Horner.pdf",
+        "file_size_bytes": 50251,
+        "page_range": [
+          68,
+          70
+        ]
+      },
+      {
+        "song_title": "London Bridge",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - London Bridge.pdf",
+        "file_size_bytes": 188017,
+        "page_range": [
+          70,
+          76
+        ]
+      },
+      {
+        "song_title": "Mister Rabbit",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Mister Rabbit.pdf",
+        "file_size_bytes": 119279,
+        "page_range": [
+          76,
+          81
+        ]
+      },
+      {
+        "song_title": "My Bonnie Lies Over the Ocean",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - My Bonnie Lies Over The Ocean.pdf",
+        "file_size_bytes": 161613,
+        "page_range": [
+          81,
+          87
+        ]
+      },
+      {
+        "song_title": "The Old Gray Mare",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/J. Warner - The Old Gray Mare.pdf",
+        "file_size_bytes": 63023,
+        "page_range": [
+          87,
+          89
+        ]
+      },
+      {
+        "song_title": "Old MacDonald",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional Children's Song - Old Macdonald.pdf",
+        "file_size_bytes": 65329,
+        "page_range": [
+          89,
+          91
+        ]
+      },
+      {
+        "song_title": "Over the River and Through the Woods",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Over The River And Through The Woods.pdf",
+        "file_size_bytes": 150486,
+        "page_range": [
+          91,
+          97
+        ]
+      },
+      {
+        "song_title": "Pop Goes the Weasel",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Pop Goes The Weasel.pdf",
+        "file_size_bytes": 19525,
+        "page_range": [
+          97,
+          98
+        ]
+      },
+      {
+        "song_title": "Rock-a-Bye, Baby",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Rock-a-bye, Baby.pdf",
+        "file_size_bytes": 28724,
+        "page_range": [
+          98,
+          99
+        ]
+      },
+      {
+        "song_title": "Ring Around the Rosie",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Ring Around The Rosie.pdf",
+        "file_size_bytes": 100452,
+        "page_range": [
+          99,
+          103
+        ]
+      },
+      {
+        "song_title": "Shoo Fly, Don't Bother Me",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Words By Billy Reeves, Music By Frank Crumit - Shoo Fly, Don't Bother Me.pdf",
+        "file_size_bytes": 38364,
+        "page_range": [
+          103,
+          104
+        ]
+      },
+      {
+        "song_title": "Simple Gifts",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional Shaker Hymn - Simple Gifts.pdf",
+        "file_size_bytes": 95799,
+        "page_range": [
+          104,
+          107
+        ]
+      },
+      {
+        "song_title": "Sweet Betsy from Pike",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/American Folksong - Sweet Betsy From Pike.pdf",
+        "file_size_bytes": 72939,
+        "page_range": [
+          107,
+          109
+        ]
+      },
+      {
+        "song_title": "There Was an Old Woman Who Lived in a Shoe",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - There Was An Old Woman Who Lived In A Shoe.pdf",
+        "file_size_bytes": 210262,
+        "page_range": [
+          109,
+          115
+        ]
+      },
+      {
+        "song_title": "This Old Man",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - This Old Man.pdf",
+        "file_size_bytes": 32346,
+        "page_range": [
+          115,
+          116
+        ]
+      },
+      {
+        "song_title": "Three Blind Mice",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Traditional - Three Blind Mice.pdf",
+        "file_size_bytes": 244064,
+        "page_range": [
+          116,
+          124
+        ]
+      },
+      {
+        "song_title": "Zacchaeus",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - 100 Songs For Kids - (easy Guitar Songbook)/Songs/Unknown Artist - Zacchaeus.pdf",
+        "file_size_bytes": 30764,
+        "page_range": [
+          124,
+          125
+        ]
+      }
+    ]
+  }
+}

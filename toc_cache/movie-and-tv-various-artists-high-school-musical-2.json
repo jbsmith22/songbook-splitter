@@ -1,0 +1,174 @@
+{
+  "book_id": "movie-and-tv-various-artists-high-school-musical-2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "What Time Is It",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fabulous",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Work This Out",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You Are the Music in Me",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Don't Dance",
+        "page_number": 49,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Gotta Go My Own Way",
+        "page_number": 59,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bet on It",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Everyday",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "All for One",
+        "page_number": 85,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Humu Humu Nuku Nuku Apuaa",
+        "page_number": 97,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "What Time Is It",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/Matthew Gerrard And Robbie Nevil - What Time Is It.pdf",
+        "file_size_bytes": 235858,
+        "page_range": [
+          9,
+          20
+        ]
+      },
+      {
+        "song_title": "Fabulous",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/David Lawrence And Steve Greenberg - Fabulous.pdf",
+        "file_size_bytes": 184241,
+        "page_range": [
+          20,
+          29
+        ]
+      },
+      {
+        "song_title": "Work This Out",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/Randy Petersen And Kevin Quinn - Work This Out.pdf",
+        "file_size_bytes": 213048,
+        "page_range": [
+          29,
+          40
+        ]
+      },
+      {
+        "song_title": "You Are the Music in Me",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/Jamie Houston - You Are The Music In Me.pdf",
+        "file_size_bytes": 190387,
+        "page_range": [
+          40,
+          49
+        ]
+      },
+      {
+        "song_title": "I Don't Dance",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/Matthew Gerrard And Robbie Nevil - I Don't Dance.pdf",
+        "file_size_bytes": 172508,
+        "page_range": [
+          49,
+          59
+        ]
+      },
+      {
+        "song_title": "Gotta Go My Own Way",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/Adam Watts, Randy Dodd - Gotta Go My Own Way.pdf",
+        "file_size_bytes": 167776,
+        "page_range": [
+          59,
+          66
+        ]
+      },
+      {
+        "song_title": "Bet on It",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/Tim James And Antonina Armato - Bet On It.pdf",
+        "file_size_bytes": 147566,
+        "page_range": [
+          66,
+          74
+        ]
+      },
+      {
+        "song_title": "Everyday",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/Jamie Houston - Everyday.pdf",
+        "file_size_bytes": 246743,
+        "page_range": [
+          74,
+          85
+        ]
+      },
+      {
+        "song_title": "All for One",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/Matthew Gerrard And Robbie Nevil - All For One.pdf",
+        "file_size_bytes": 235372,
+        "page_range": [
+          85,
+          97
+        ]
+      },
+      {
+        "song_title": "Humu Humu Nuku Nuku Apuaa",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - High School Musical 2/Songs/David Lawrence And Faye Greenberg - Humu Humu Nuku Nuku Apuaa.pdf",
+        "file_size_bytes": 2299977,
+        "page_range": [
+          97,
+          106
+        ]
+      }
+    ]
+  }
+}

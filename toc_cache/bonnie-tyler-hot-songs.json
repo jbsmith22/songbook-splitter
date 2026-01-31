@@ -1,0 +1,126 @@
+{
+  "book_id": "bonnie-tyler-hot-songs",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Faster Than the Speed of Night",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Have You Ever Seen the Rain?",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Holding Out for a Hero",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's a Heartache",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lost in France",
+        "page_number": 27,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Rockin' Good Way (To Mess Around and Fall in Love)",
+        "page_number": 30,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Total Eclipse of the Heart",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Faster Than the Speed of Night",
+        "artist": "Bonnie Tyler",
+        "output_uri": "s3://jsmith-output/Bonnie Tyler/Hot Songs/Songs/Jim Steinman - Faster Than The Speed Of Night.pdf",
+        "file_size_bytes": 654149,
+        "page_range": [
+          2,
+          11
+        ]
+      },
+      {
+        "song_title": "Have You Ever Seen the Rain?",
+        "artist": "Bonnie Tyler",
+        "output_uri": "s3://jsmith-output/Bonnie Tyler/Hot Songs/Songs/J.c. Fogerty - Have You Ever Seen The Rain-.pdf",
+        "file_size_bytes": 734989,
+        "page_range": [
+          11,
+          14
+        ]
+      },
+      {
+        "song_title": "Holding Out for a Hero",
+        "artist": "Bonnie Tyler",
+        "output_uri": "s3://jsmith-output/Bonnie Tyler/Hot Songs/Songs/Words By Dean Pitchford, Music By Jim Steinman - Holding Out For A Hero.pdf",
+        "file_size_bytes": 795436,
+        "page_range": [
+          14,
+          24
+        ]
+      },
+      {
+        "song_title": "It's a Heartache",
+        "artist": "Bonnie Tyler",
+        "output_uri": "s3://jsmith-output/Bonnie Tyler/Hot Songs/Songs/Ronnie Scott And Steve Wolfe - It's A Heartache.pdf",
+        "file_size_bytes": 672715,
+        "page_range": [
+          24,
+          27
+        ]
+      },
+      {
+        "song_title": "Lost in France",
+        "artist": "Bonnie Tyler",
+        "output_uri": "s3://jsmith-output/Bonnie Tyler/Hot Songs/Songs/Ronnie Scott And Steve Wolfe - Lost In France.pdf",
+        "file_size_bytes": 585393,
+        "page_range": [
+          27,
+          30
+        ]
+      },
+      {
+        "song_title": "A Rockin' Good Way (To Mess Around and Fall in Love)",
+        "artist": "Bonnie Tyler",
+        "output_uri": "s3://jsmith-output/Bonnie Tyler/Hot Songs/Songs/Clyde Otis, Brook Benton And Luchi De Jesus - A Rockin' Good Way (to Mess Around And Fall In Love).pdf",
+        "file_size_bytes": 1015477,
+        "page_range": [
+          30,
+          34
+        ]
+      },
+      {
+        "song_title": "Total Eclipse of the Heart",
+        "artist": "Bonnie Tyler",
+        "output_uri": "s3://jsmith-output/Bonnie Tyler/Hot Songs/Songs/Jim Steinman - Total Eclipse Of The Heart.pdf",
+        "file_size_bytes": 412402,
+        "page_range": [
+          34,
+          40
+        ]
+      }
+    ]
+  }
+}

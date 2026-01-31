@@ -1,0 +1,123 @@
+{
+  "book_id": "c278f19af21fd8ff",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Maria",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/Unknown Artist - Maria.pdf",
+        "file_size_bytes": 991328,
+        "page_range": [
+          14,
+          24
+        ]
+      },
+      {
+        "song_title": "My Favorite Things",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/Unknown Artist - My Favorite Things.pdf",
+        "file_size_bytes": 2098441,
+        "page_range": [
+          24,
+          46
+        ]
+      },
+      {
+        "song_title": "Do-Re-Mi Encore",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/Unknown Artist - Do-re-mi Encore.pdf",
+        "file_size_bytes": 1164188,
+        "page_range": [
+          46,
+          59
+        ]
+      },
+      {
+        "song_title": "Sixteen Going On Seventeen",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/Unknown Artist - Sixteen Going On Seventeen.pdf",
+        "file_size_bytes": 3348449,
+        "page_range": [
+          59,
+          92
+        ]
+      },
+      {
+        "song_title": "Reprise: The Sound Of Music",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/The Sheet Music Does Not Explicitly List An Artist Name, But This Appears To Be From The Musical -the Sound Of Music- By Richard Rodgers And Oscar Hammerstein Ii, Based On The Copyright Notice At.pdf",
+        "file_size_bytes": 1274288,
+        "page_range": [
+          92,
+          105
+        ]
+      },
+      {
+        "song_title": "L\u00e4ndler",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/Unknown Artist - L\u00e4ndler.pdf",
+        "file_size_bytes": 4343475,
+        "page_range": [
+          105,
+          149
+        ]
+      },
+      {
+        "song_title": "An Ordinary Couple",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/Unknown Artist - An Ordinary Couple.pdf",
+        "file_size_bytes": 800376,
+        "page_range": [
+          149,
+          158
+        ]
+      },
+      {
+        "song_title": "Wedding Preparations (I)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/(the Postalmans' Crossover) - Wedding Preparations (i).pdf",
+        "file_size_bytes": 794278,
+        "page_range": [
+          158,
+          167
+        ]
+      },
+      {
+        "song_title": "Canticle (Confitemini Domino)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/Unknown Artist - Canticle (confitemini Domino).pdf",
+        "file_size_bytes": 1996835,
+        "page_range": [
+          167,
+          189
+        ]
+      },
+      {
+        "song_title": "Reprise: So Long, Farewell",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/(the Concert) - Reprise- So Long, Farewell.pdf",
+        "file_size_bytes": 709928,
+        "page_range": [
+          189,
+          197
+        ]
+      },
+      {
+        "song_title": "Finale Ultimo: Climb Ev'ry Mountain",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Sound Of Music/Songs/Unknown Artist - Finale Ultimo- Climb Ev'ry Mountain.pdf",
+        "file_size_bytes": 822262,
+        "page_range": [
+          197,
+          206
+        ]
+      }
+    ]
+  }
+}

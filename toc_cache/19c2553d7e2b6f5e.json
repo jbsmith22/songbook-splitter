@@ -1,0 +1,123 @@
+{
+  "book_id": "19c2553d7e2b6f5e",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Brown Eyed Girl",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Brown Eyed Girl.pdf",
+        "file_size_bytes": 2677895,
+        "page_range": [
+          2,
+          6
+        ]
+      },
+      {
+        "song_title": "Astral Weeks",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Astral Weeks.pdf",
+        "file_size_bytes": 3232094,
+        "page_range": [
+          6,
+          12
+        ]
+      },
+      {
+        "song_title": "Moondance",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Moondance.pdf",
+        "file_size_bytes": 4585493,
+        "page_range": [
+          12,
+          19
+        ]
+      },
+      {
+        "song_title": "Warm Love",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Warm Love.pdf",
+        "file_size_bytes": 1850991,
+        "page_range": [
+          19,
+          24
+        ]
+      },
+      {
+        "song_title": "Domino",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Domino.pdf",
+        "file_size_bytes": 1131369,
+        "page_range": [
+          24,
+          27
+        ]
+      },
+      {
+        "song_title": "Jackie Wilson Said (I'm In Heaven When You Smile)",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Jackie Wilson Said (i'm In Heaven When You Smile).pdf",
+        "file_size_bytes": 1021247,
+        "page_range": [
+          27,
+          30
+        ]
+      },
+      {
+        "song_title": "Bright Side of the Road",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Bright Side Of The Road.pdf",
+        "file_size_bytes": 4187399,
+        "page_range": [
+          30,
+          43
+        ]
+      },
+      {
+        "song_title": "Wild Night",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Wild Night.pdf",
+        "file_size_bytes": 3100604,
+        "page_range": [
+          43,
+          52
+        ]
+      },
+      {
+        "song_title": "Cold Wind in August",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Cold Wind In August.pdf",
+        "file_size_bytes": 1766944,
+        "page_range": [
+          52,
+          57
+        ]
+      },
+      {
+        "song_title": "Rave On, John Donne",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - Rave On, John Donne.pdf",
+        "file_size_bytes": 11449213,
+        "page_range": [
+          57,
+          92
+        ]
+      },
+      {
+        "song_title": "You Don't Pull No Punches But You Don't Push the River",
+        "artist": "Van Morrison",
+        "output_uri": "s3://jsmith-output/Van Morrison/Van Morrison - Anthology/Songs/Van Morrison - You Don't Pull No Punches But You Don't Push The River.pdf",
+        "file_size_bytes": 6973504,
+        "page_range": [
+          92,
+          113
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "book_id": "1462e8df7b1893e9",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Sodomy",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Unknown Artist - Sodomy.pdf",
+        "file_size_bytes": 1176167,
+        "page_range": [
+          19,
+          29
+        ]
+      },
+      {
+        "song_title": "Ain't Got No",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Huck Wolfe, Deniece & Thiele - Ain't Got No.pdf",
+        "file_size_bytes": 528549,
+        "page_range": [
+          29,
+          34
+        ]
+      },
+      {
+        "song_title": "I Believe In Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Sheila And Trio - I Believe In Love.pdf",
+        "file_size_bytes": 397113,
+        "page_range": [
+          34,
+          37
+        ]
+      },
+      {
+        "song_title": "Ain't Got No Grass",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Unknown Artist - Ain't Got No Grass.pdf",
+        "file_size_bytes": 486030,
+        "page_range": [
+          37,
+          41
+        ]
+      },
+      {
+        "song_title": "Air",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Jeanie With Dionne And Crissy - Air.pdf",
+        "file_size_bytes": 782364,
+        "page_range": [
+          41,
+          48
+        ]
+      },
+      {
+        "song_title": "Manchester II (Reprise: Manchester, England)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/(chap & Tine (reprise)) - Manchester Ii (reprise- Manchester, England).pdf",
+        "file_size_bytes": 1019962,
+        "page_range": [
+          48,
+          57
+        ]
+      },
+      {
+        "song_title": "Going Down",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Unknown Artist - Going Down.pdf",
+        "file_size_bytes": 2354578,
+        "page_range": [
+          57,
+          78
+        ]
+      },
+      {
+        "song_title": "Don't Put It Down !",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Woof, Reggi And Steve - Don't Put It Down !.pdf",
+        "file_size_bytes": 286975,
+        "page_range": [
+          78,
+          81
+        ]
+      },
+      {
+        "song_title": "Frank Mills",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Gerry - Frank Mills.pdf",
+        "file_size_bytes": 464371,
+        "page_range": [
+          81,
+          85
+        ]
+      },
+      {
+        "song_title": "Be-In 'Hare Krishna'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/(appears To Be -frank Milta-) - Be-in 'hare Krishna'.pdf",
+        "file_size_bytes": 994591,
+        "page_range": [
+          85,
+          93
+        ]
+      },
+      {
+        "song_title": "Where Do I Go",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Unknown Artist - Where Do I Go.pdf",
+        "file_size_bytes": 663084,
+        "page_range": [
+          93,
+          98
+        ]
+      },
+      {
+        "song_title": "Electric Blues",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/(source- Violetta) - Electric Blues.pdf",
+        "file_size_bytes": 2186946,
+        "page_range": [
+          98,
+          116
+        ]
+      },
+      {
+        "song_title": "Walking In Space",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Dionne, Steve, Linda, Jennie, Sheila & Toine - Walking In Space.pdf",
+        "file_size_bytes": 1407891,
+        "page_range": [
+          116,
+          129
+        ]
+      },
+      {
+        "song_title": "Give Up All Desires",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/The War (1000 Year Old Monk, 3 Buddhist Monks, 1 Catholic Nun, & Full Tribe) - Give Up All Desires.pdf",
+        "file_size_bytes": 1158485,
+        "page_range": [
+          129,
+          141
+        ]
+      },
+      {
+        "song_title": "Dixieland",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/(none Given) - Dixieland.pdf",
+        "file_size_bytes": 240553,
+        "page_range": [
+          141,
+          143
+        ]
+      },
+      {
+        "song_title": "What A Piece Of Work Is Man",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/(adapted From Shakespeare's -hamlet-) Henry A. Waller - What A Piece Of Work Is Man.pdf",
+        "file_size_bytes": 404886,
+        "page_range": [
+          143,
+          147
+        ]
+      },
+      {
+        "song_title": "How Dare They Try",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Unknown Artist - How Dare They Try.pdf",
+        "file_size_bytes": 1520312,
+        "page_range": [
+          147,
+          160
+        ]
+      },
+      {
+        "song_title": "The Flesh Failures (Let The Sun Shine In)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Hair (rev 1995) - Piano Conductor Score/Songs/Unknown Artist - The Flesh Failures (let The Sun Shine In).pdf",
+        "file_size_bytes": 1708023,
+        "page_range": [
+          160,
+          176
+        ]
+      }
+    ]
+  }
+}

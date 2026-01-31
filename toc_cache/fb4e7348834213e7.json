@@ -1,0 +1,443 @@
+{
+  "book_id": "fb4e7348834213e7",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Amazed",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Mariah Carey And Chris Lindsey - Amazed.pdf",
+        "file_size_bytes": 497833,
+        "page_range": [
+          18,
+          35
+        ]
+      },
+      {
+        "song_title": "Back at One",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Brian Mcknight - Back At One.pdf",
+        "file_size_bytes": 6126025,
+        "page_range": [
+          35,
+          80
+        ]
+      },
+      {
+        "song_title": "Don't Cry For Me Argentina",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Andrew Lloyd Webber - Don't Cry For Me Argentina.pdf",
+        "file_size_bytes": 1218736,
+        "page_range": [
+          80,
+          90
+        ]
+      },
+      {
+        "song_title": "DON'T SPEAK",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Eric Stefani And Gwen Stefani - Don't Speak.pdf",
+        "file_size_bytes": 859066,
+        "page_range": [
+          90,
+          109
+        ]
+      },
+      {
+        "song_title": "Good Riddance (Time of Your Life)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Billie Joe Armstrong, Mike Pritchard, And Frank Wright - Good Riddance (time Of Your Life).pdf",
+        "file_size_bytes": 133888,
+        "page_range": [
+          109,
+          116
+        ]
+      },
+      {
+        "song_title": "Hands",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Jewel Kilcher And Patrick Leonard - Hands.pdf",
+        "file_size_bytes": 219651,
+        "page_range": [
+          116,
+          128
+        ]
+      },
+      {
+        "song_title": "Hero",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Walter Afanasieff And Mariah Carey - Hero.pdf",
+        "file_size_bytes": 286644,
+        "page_range": [
+          128,
+          136
+        ]
+      },
+      {
+        "song_title": "I BELIEVE I CAN FLY",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/R. Kelly - I Believe I Can Fly.pdf",
+        "file_size_bytes": 2180686,
+        "page_range": [
+          136,
+          150
+        ]
+      },
+      {
+        "song_title": "I DO (CHERISH YOU)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Keith Stegall And Dan Hill - I Do (cherish You).pdf",
+        "file_size_bytes": 1983791,
+        "page_range": [
+          150,
+          171
+        ]
+      },
+      {
+        "song_title": "I Want It That Way",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Max Martin And Andreas Carlsson - I Want It That Way.pdf",
+        "file_size_bytes": 98424,
+        "page_range": [
+          171,
+          176
+        ]
+      },
+      {
+        "song_title": "I Swear",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Gary Baker, Frank Myers - I Swear.pdf",
+        "file_size_bytes": 68098,
+        "page_range": [
+          176,
+          180
+        ]
+      },
+      {
+        "song_title": "I WILL ALWAYS LOVE YOU",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Dolly Parton - I Will Always Love You.pdf",
+        "file_size_bytes": 89510,
+        "page_range": [
+          180,
+          185
+        ]
+      },
+      {
+        "song_title": "OOPS!... I DID IT AGAIN",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Max Martin And Rami - Oops!... I Did It Again.pdf",
+        "file_size_bytes": 114264,
+        "page_range": [
+          185,
+          192
+        ]
+      },
+      {
+        "song_title": "I Will Remember You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Sarah Mclachlan, Seamus Egan And Dave Merenda - I Will Remember You.pdf",
+        "file_size_bytes": 729804,
+        "page_range": [
+          192,
+          196
+        ]
+      },
+      {
+        "song_title": "I'm Your Angel",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/R. Kelly - I'm Your Angel.pdf",
+        "file_size_bytes": 106244,
+        "page_range": [
+          196,
+          202
+        ]
+      },
+      {
+        "song_title": "KISSING YOU (Love Theme From \"ROMEO + JULIET\")",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Des'ree And Tim Atack - Kissing You (love Theme From -romeo + Juliet-).pdf",
+        "file_size_bytes": 89291,
+        "page_range": [
+          202,
+          206
+        ]
+      },
+      {
+        "song_title": "Larger Than Life",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Max Martin, Rami Yacoub, Brian Littrell - Larger Than Life.pdf",
+        "file_size_bytes": 390131,
+        "page_range": [
+          206,
+          218
+        ]
+      },
+      {
+        "song_title": "A Little More Time On You",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Carl Sturken And Evan Rogers - A Little More Time On You.pdf",
+        "file_size_bytes": 1144848,
+        "page_range": [
+          218,
+          226
+        ]
+      },
+      {
+        "song_title": "MORE THAN WORDS",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Bettencourt, Cherone - More Than Words.pdf",
+        "file_size_bytes": 72877,
+        "page_range": [
+          226,
+          230
+        ]
+      },
+      {
+        "song_title": "Music of My Heart",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Unknown Artist - Music Of My Heart.pdf",
+        "file_size_bytes": 344487,
+        "page_range": [
+          230,
+          236
+        ]
+      },
+      {
+        "song_title": "My Way",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Unknown Artist - My Way.pdf",
+        "file_size_bytes": 230026,
+        "page_range": [
+          236,
+          248
+        ]
+      },
+      {
+        "song_title": "THE PINK PANTHER",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Henry Mancini - The Pink Panther.pdf",
+        "file_size_bytes": 39174,
+        "page_range": [
+          248,
+          250
+        ]
+      },
+      {
+        "song_title": "PLEASE FORGIVE ME",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Bryan Adams And Robert John -mutt- Lange - Please Forgive Me.pdf",
+        "file_size_bytes": 2683322,
+        "page_range": [
+          250,
+          264
+        ]
+      },
+      {
+        "song_title": "Return to Pooh Corner",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Kenny Loggins - Return To Pooh Corner.pdf",
+        "file_size_bytes": 1499456,
+        "page_range": [
+          264,
+          270
+        ]
+      },
+      {
+        "song_title": "RIGHT HERE WAITING",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Richard Marx - Right Here Waiting.pdf",
+        "file_size_bytes": 169002,
+        "page_range": [
+          270,
+          280
+        ]
+      },
+      {
+        "song_title": "Send in the Clowns",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Stephen Sondheim - Send In The Clowns.pdf",
+        "file_size_bytes": 438305,
+        "page_range": [
+          280,
+          283
+        ]
+      },
+      {
+        "song_title": "Show Me the Meaning of Being Lonely",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Max Martin And Herbert Reichlow - Show Me The Meaning Of Being Lonely.pdf",
+        "file_size_bytes": 104694,
+        "page_range": [
+          283,
+          288
+        ]
+      },
+      {
+        "song_title": "Smooth",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Rob Thomas - Smooth.pdf",
+        "file_size_bytes": 93213,
+        "page_range": [
+          288,
+          293
+        ]
+      },
+      {
+        "song_title": "SOMETIMES",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Jorgen Elofsson - Sometimes.pdf",
+        "file_size_bytes": 1669363,
+        "page_range": [
+          293,
+          298
+        ]
+      },
+      {
+        "song_title": "Somewhere in Time - Theme",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/John Barry - Somewhere In Time - Theme.pdf",
+        "file_size_bytes": 32471,
+        "page_range": [
+          298,
+          300
+        ]
+      },
+      {
+        "song_title": "Somewhere My Love (Lara's Theme from \"Doctor Zhivago\")",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Music By Maurice Jarre, Lyrics By Paul Francis Webste - Somewhere My Love (lara's Theme From -doctor Zhivago-).pdf",
+        "file_size_bytes": 1160554,
+        "page_range": [
+          300,
+          308
+        ]
+      },
+      {
+        "song_title": "Stairway to Heaven",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Jimmy Page And Robert Plant - Stairway To Heaven.pdf",
+        "file_size_bytes": 228358,
+        "page_range": [
+          308,
+          318
+        ]
+      },
+      {
+        "song_title": "Sunrise, Sunset",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/From The Broadway Musical -fiddler On The Roof- - Sunrise, Sunset.pdf",
+        "file_size_bytes": 79009,
+        "page_range": [
+          318,
+          322
+        ]
+      },
+      {
+        "song_title": "THAT'S THE WAY IT IS",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Max Martin, Andreas Carlsson - That's The Way It Is.pdf",
+        "file_size_bytes": 366046,
+        "page_range": [
+          322,
+          328
+        ]
+      },
+      {
+        "song_title": "Theme from Ice Castles (Through the Eyes of Love)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Marvin Hamlisch - Theme From Ice Castles (through The Eyes Of Love).pdf",
+        "file_size_bytes": 58297,
+        "page_range": [
+          328,
+          331
+        ]
+      },
+      {
+        "song_title": "Theme from New York, New York",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/John Kander - Theme From New York, New York.pdf",
+        "file_size_bytes": 280690,
+        "page_range": [
+          331,
+          344
+        ]
+      },
+      {
+        "song_title": "TO LOVE YOU MORE",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Celine Dion - To Love You More.pdf",
+        "file_size_bytes": 385150,
+        "page_range": [
+          344,
+          364
+        ]
+      },
+      {
+        "song_title": "Valentine",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Jim Brickman And Jack Kugell - Valentine.pdf",
+        "file_size_bytes": 113996,
+        "page_range": [
+          364,
+          370
+        ]
+      },
+      {
+        "song_title": "We Are the World",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Michael Jackson And Lionel Richie - We Are The World.pdf",
+        "file_size_bytes": 141204,
+        "page_range": [
+          370,
+          376
+        ]
+      },
+      {
+        "song_title": "Wedding Song (There Is Love)",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Unknown Artist - Wedding Song (there Is Love).pdf",
+        "file_size_bytes": 656970,
+        "page_range": [
+          376,
+          379
+        ]
+      },
+      {
+        "song_title": "THE WIND BENEATH MY WINGS",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Larry Henley And Jeff Silbar - The Wind Beneath My Wings.pdf",
+        "file_size_bytes": 187856,
+        "page_range": [
+          379,
+          389
+        ]
+      },
+      {
+        "song_title": "YOU WERE MEANT FOR ME",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Jewel Kilcher And Steve Poltz - You Were Meant For Me.pdf",
+        "file_size_bytes": 205283,
+        "page_range": [
+          389,
+          394
+        ]
+      },
+      {
+        "song_title": "You're Still the One",
+        "artist": "Various Artists",
+        "output_uri": "s3://jsmith-output/Various Artists/Various Artists - Ultimate Pop Sheet Music Collection 2000/Songs/Shania Twain And R.j. Lange - You're Still The One.pdf",
+        "file_size_bytes": 695732,
+        "page_range": [
+          394,
+          398
+        ]
+      }
+    ]
+  }
+}

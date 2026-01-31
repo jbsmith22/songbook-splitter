@@ -1,0 +1,408 @@
+{
+  "book_id": "broadway-shows-various-artists-grease-1994-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Alma Mater (We Go Together)",
+        "page_number": 7,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We Go Together-Opening",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alma Mater",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Greased Lightnin'-Vocal One",
+        "page_number": 13,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dougys Excuse",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Summer Nights",
+        "page_number": 15,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "After Summer Nights",
+        "page_number": 33,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thro' Mojos Changes",
+        "page_number": 44,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Thro' Mojos Changes-Tag",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Vince Fontaine",
+        "page_number": 51,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tatty",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Freddy, My Love",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Freddy Playoff",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Ditch the New Entrance",
+        "page_number": 65,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Greased Lightnin'-Vocal One 2",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Greased Lightnin'",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Greased Lightnin' Playoff",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Greased Lightnin' (Reprise)",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Charlatan Crescere",
+        "page_number": 87,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rydell Fight Song",
+        "page_number": 92,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mambo",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Look at Me, I'm Sandra Dee",
+        "page_number": 103,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Since I Don't Have You",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Lucille Underscores",
+        "page_number": 121,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "We Go Together (Finale Act 1)",
+        "page_number": 123,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Shakes at the High School Hop",
+        "page_number": 153,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Raining On Prom Night",
+        "page_number": 149,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Prom Underscores",
+        "page_number": 152,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Prom Underscores Continued",
+        "page_number": 153,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "More Prom Underscores",
+        "page_number": 161,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bougies",
+        "page_number": 163,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "More Bougies Underscores",
+        "page_number": 167,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Born to Hand Jive",
+        "page_number": 163,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "After Hand Jive",
+        "page_number": 172,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Beauty School Dropout",
+        "page_number": 194,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Beauty School Dropout-Tag",
+        "page_number": 212,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Alma Mater Opener-Alma",
+        "page_number": 219,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hail to Rydell Prom Queen",
+        "page_number": 270,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tumblitunes",
+        "page_number": 275,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "There Are Worse Things I Could Do",
+        "page_number": 279,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sandra Dee (Reprise)",
+        "page_number": 273,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Finale-Part 1",
+        "page_number": 323,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Finale-Part 2",
+        "page_number": 327,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bows",
+        "page_number": 320,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Alma Mater (We Go Together)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Alma Mater (we Go Together).pdf",
+        "file_size_bytes": 309015,
+        "page_range": [
+          5,
+          8
+        ]
+      },
+      {
+        "song_title": "We Go Together-Opening",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Kenkatshu Piano-conductor - We Go Together-opening.pdf",
+        "file_size_bytes": 644179,
+        "page_range": [
+          8,
+          13
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin'-Vocal One",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Greased Lightnin'-vocal One.pdf",
+        "file_size_bytes": 599220,
+        "page_range": [
+          13,
+          20
+        ]
+      },
+      {
+        "song_title": "Summer Nights",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Summer Nights.pdf",
+        "file_size_bytes": 2456292,
+        "page_range": [
+          20,
+          40
+        ]
+      },
+      {
+        "song_title": "Thro' Mojos Changes",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Thro' Mojos Changes.pdf",
+        "file_size_bytes": 151723,
+        "page_range": [
+          40,
+          41
+        ]
+      },
+      {
+        "song_title": "Thro' Mojos Changes-Tag",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Thro' Mojos Changes-tag.pdf",
+        "file_size_bytes": 6423055,
+        "page_range": [
+          41,
+          94
+        ]
+      },
+      {
+        "song_title": "Tatty",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Tatty.pdf",
+        "file_size_bytes": 2117276,
+        "page_range": [
+          94,
+          112
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin'-Vocal One 2",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Greased Lightnin'-vocal One 2.pdf",
+        "file_size_bytes": 15681901,
+        "page_range": [
+          112,
+          244
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin'",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Greased Lightnin'.pdf",
+        "file_size_bytes": 105873,
+        "page_range": [
+          244,
+          245
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin' Playoff",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Greased Lightnin' Playoff.pdf",
+        "file_size_bytes": 208141,
+        "page_range": [
+          245,
+          245
+        ]
+      },
+      {
+        "song_title": "Greased Lightnin' (Reprise)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Greased Lightnin' (reprise).pdf",
+        "file_size_bytes": 1784938,
+        "page_range": [
+          245,
+          259
+        ]
+      },
+      {
+        "song_title": "Prom Underscores",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Prom Underscores.pdf",
+        "file_size_bytes": 1848197,
+        "page_range": [
+          259,
+          273
+        ]
+      },
+      {
+        "song_title": "Bougies",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Grease [1994 Score]/Songs/Unknown Artist - Bougies.pdf",
+        "file_size_bytes": 132341,
+        "page_range": [
+          273,
+          274
+        ]
+      }
+    ]
+  }
+}

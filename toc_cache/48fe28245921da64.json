@@ -1,0 +1,133 @@
+{
+  "book_id": "48fe28245921da64",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Includes the Greatest Hits of the Band",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Includes The Greatest Hits Of The Band.pdf",
+        "file_size_bytes": 1424147,
+        "page_range": [
+          0,
+          12
+        ]
+      },
+      {
+        "song_title": "American Roulette",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - American Roulette.pdf",
+        "file_size_bytes": 542219,
+        "page_range": [
+          12,
+          22
+        ]
+      },
+      {
+        "song_title": "Acadian Driftwood",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Acadian Driftwood.pdf",
+        "file_size_bytes": 257616,
+        "page_range": [
+          22,
+          27
+        ]
+      },
+      {
+        "song_title": "Hell's Half Acre",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Hell's Half Acre.pdf",
+        "file_size_bytes": 1573661,
+        "page_range": [
+          27,
+          54
+        ]
+      },
+      {
+        "song_title": "Ophelia",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Ophelia.pdf",
+        "file_size_bytes": 657613,
+        "page_range": [
+          54,
+          65
+        ]
+      },
+      {
+        "song_title": "Showdown At Big Sky",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Showdown At Big Sky.pdf",
+        "file_size_bytes": 547789,
+        "page_range": [
+          65,
+          75
+        ]
+      },
+      {
+        "song_title": "Sweet Fire Of Love",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Sweet Fire Of Love.pdf",
+        "file_size_bytes": 603555,
+        "page_range": [
+          75,
+          86
+        ]
+      },
+      {
+        "song_title": "Rag Mama Rag",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Rag Mama Rag.pdf",
+        "file_size_bytes": 340310,
+        "page_range": [
+          86,
+          92
+        ]
+      },
+      {
+        "song_title": "Stage Fright",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Stage Fright.pdf",
+        "file_size_bytes": 240384,
+        "page_range": [
+          92,
+          96
+        ]
+      },
+      {
+        "song_title": "Unfaithful Servant",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Unfaithful Servant.pdf",
+        "file_size_bytes": 325951,
+        "page_range": [
+          96,
+          101
+        ]
+      },
+      {
+        "song_title": "Up On Cripple Creek",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Up On Cripple Creek.pdf",
+        "file_size_bytes": 119916,
+        "page_range": [
+          101,
+          103
+        ]
+      },
+      {
+        "song_title": "Chona",
+        "artist": "Robbie Robertson",
+        "output_uri": "s3://jsmith-output/Robbie Robertson/Robbie Robertson - Songbook [guitar Tab]/Songs/Robbie Robertson - Chona.pdf",
+        "file_size_bytes": 471014,
+        "page_range": [
+          103,
+          107
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "book_id": "broadway-shows-various-artists-phantom-of-the-opera",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Think of Me",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Think of Me",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Phantom Of The Opera/Songs/Andrew Lloyd Webber - Think Of Me.pdf",
+        "file_size_bytes": 16006093,
+        "page_range": [
+          1,
+          59
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "book_id": "broadway-shows-various-artists-little-mermaid-workshop-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Overture/Descent Into Sea",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Overture/Descent Into Sea",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Little Mermaid Workshop Score/Songs/Alan Menken - Overture-descent Into Sea.pdf",
+        "file_size_bytes": 6380131,
+        "page_range": [
+          1,
+          175
+        ]
+      }
+    ]
+  }
+}

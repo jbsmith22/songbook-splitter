@@ -1,0 +1,33 @@
+{
+  "book_id": "63e7c40123a4adfa",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Can't Get It Out Of My Head",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Greatest Hits/Songs/Elo - Can't Get It Out Of My Head.pdf",
+        "file_size_bytes": 1995143,
+        "page_range": [
+          1,
+          27
+        ]
+      },
+      {
+        "song_title": "Need Her Love",
+        "artist": "ELO",
+        "output_uri": "s3://jsmith-output/Elo/Elo - Greatest Hits/Songs/Elo - Need Her Love.pdf",
+        "file_size_bytes": 1228116,
+        "page_range": [
+          27,
+          43
+        ]
+      }
+    ]
+  }
+}

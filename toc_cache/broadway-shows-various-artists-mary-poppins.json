@@ -1,0 +1,48 @@
+{
+  "book_id": "broadway-shows-various-artists-mary-poppins",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "1. Prologue",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Like some - thing is brew-ing and bout to be - gin",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "what lies in store,",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "But I feel what's to 'ap - pen all 'ap - ened be -",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "1. Prologue",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Mary Poppins/Songs/Music & Lyrics By Richard M. Sherman And Robert B. Sherman, Additional Music And Lyrics By George Stiles And Anthony Drewe, Musical Arrangement By George Stiles - 1. Prologue.pdf",
+        "file_size_bytes": 29678480,
+        "page_range": [
+          0,
+          300
+        ]
+      }
+    ]
+  }
+}

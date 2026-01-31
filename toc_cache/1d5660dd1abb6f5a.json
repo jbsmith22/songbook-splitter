@@ -1,0 +1,206 @@
+{
+  "book_id": "1d5660dd1abb6f5a",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Another Day",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Band on the Run",
+        "page_number": 32,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hi Hi Hi",
+        "page_number": 42,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Jet",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Junior's Farm",
+        "page_number": 23,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Let 'Em In",
+        "page_number": 47,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Live and Let Die",
+        "page_number": 20,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Mull of Kintyre",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Love",
+        "page_number": 50,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Silly Love Songs",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Uncle Albert/Admiral Halsey",
+        "page_number": 36,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "With a Little Luck",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Another Day",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Another Day.pdf",
+        "file_size_bytes": 291925,
+        "page_range": [
+          2,
+          7
+        ]
+      },
+      {
+        "song_title": "Silly Love Songs",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Silly Love Songs.pdf",
+        "file_size_bytes": 466480,
+        "page_range": [
+          7,
+          16
+        ]
+      },
+      {
+        "song_title": "Live and Let Die",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Live And Let Die.pdf",
+        "file_size_bytes": 160219,
+        "page_range": [
+          16,
+          19
+        ]
+      },
+      {
+        "song_title": "Junior's Farm",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Junior's Farm.pdf",
+        "file_size_bytes": 274150,
+        "page_range": [
+          19,
+          24
+        ]
+      },
+      {
+        "song_title": "With a Little Luck",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - With A Little Luck.pdf",
+        "file_size_bytes": 217099,
+        "page_range": [
+          24,
+          28
+        ]
+      },
+      {
+        "song_title": "Band on the Run",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Band On The Run.pdf",
+        "file_size_bytes": 221901,
+        "page_range": [
+          28,
+          32
+        ]
+      },
+      {
+        "song_title": "Uncle Albert/Admiral Halsey",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Uncle Albert-admiral Halsey.pdf",
+        "file_size_bytes": 223301,
+        "page_range": [
+          32,
+          36
+        ]
+      },
+      {
+        "song_title": "Hi Hi Hi",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Hi Hi Hi.pdf",
+        "file_size_bytes": 287309,
+        "page_range": [
+          36,
+          41
+        ]
+      },
+      {
+        "song_title": "Let 'Em In",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Let 'em In.pdf",
+        "file_size_bytes": 167262,
+        "page_range": [
+          41,
+          44
+        ]
+      },
+      {
+        "song_title": "My Love",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - My Love.pdf",
+        "file_size_bytes": 158320,
+        "page_range": [
+          44,
+          47
+        ]
+      },
+      {
+        "song_title": "Jet",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Jet.pdf",
+        "file_size_bytes": 209212,
+        "page_range": [
+          47,
+          51
+        ]
+      },
+      {
+        "song_title": "Mull of Kintyre",
+        "artist": "Wings",
+        "output_uri": "s3://jsmith-output/Wings/Wings - Greatest Hits/Songs/Wings - Mull Of Kintyre.pdf",
+        "file_size_bytes": 209796,
+        "page_range": [
+          51,
+          55
+        ]
+      }
+    ]
+  }
+}

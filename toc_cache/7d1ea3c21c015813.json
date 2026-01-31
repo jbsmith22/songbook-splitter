@@ -1,0 +1,103 @@
+{
+  "book_id": "7d1ea3c21c015813",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Shut Up 'n Play Yer Guitar",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - Shut Up 'n Play Yer Guitar.pdf",
+        "file_size_bytes": 5221221,
+        "page_range": [
+          22,
+          152
+        ]
+      },
+      {
+        "song_title": "Pink Napkins",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - Pink Napkins.pdf",
+        "file_size_bytes": 2175824,
+        "page_range": [
+          152,
+          205
+        ]
+      },
+      {
+        "song_title": "Theme from the 3rd movement of SINISTER FOOTWEAR",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - Theme From The 3rd Movement Of Sinister Footwear.pdf",
+        "file_size_bytes": 334834,
+        "page_range": [
+          205,
+          213
+        ]
+      },
+      {
+        "song_title": "Watermelon in Easter Hay",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - Watermelon In Easter Hay.pdf",
+        "file_size_bytes": 1286203,
+        "page_range": [
+          213,
+          242
+        ]
+      },
+      {
+        "song_title": "Outside Now",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - Outside Now.pdf",
+        "file_size_bytes": 324375,
+        "page_range": [
+          242,
+          249
+        ]
+      },
+      {
+        "song_title": "HE USED TO CUT THE GRASS",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - He Used To Cut The Grass.pdf",
+        "file_size_bytes": 1192572,
+        "page_range": [
+          249,
+          269
+        ]
+      },
+      {
+        "song_title": "Sheik Yerbouti Tango",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - Sheik Yerbouti Tango.pdf",
+        "file_size_bytes": 218432,
+        "page_range": [
+          269,
+          274
+        ]
+      },
+      {
+        "song_title": "Rat Tomago",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - Rat Tomago.pdf",
+        "file_size_bytes": 304223,
+        "page_range": [
+          274,
+          280
+        ]
+      },
+      {
+        "song_title": "Mo' Mama",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - The Frank Zappa Guitar Book (transcriptions By Steve Vai)/Songs/Frank Zappa - Mo' Mama.pdf",
+        "file_size_bytes": 1014368,
+        "page_range": [
+          280,
+          303
+        ]
+      }
+    ]
+  }
+}

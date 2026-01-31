@@ -1,0 +1,83 @@
+{
+  "book_id": "f3b5e834001b20e0",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Love Letter",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Bonnie Raitt - Road Tested [pvg Book]/Songs/Bonnie Raitt - Love Letter.pdf",
+        "file_size_bytes": 792981,
+        "page_range": [
+          9,
+          16
+        ]
+      },
+      {
+        "song_title": "Never Make Your Move Too Soon",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Bonnie Raitt - Road Tested [pvg Book]/Songs/Bonnie Raitt - Never Make Your Move Too Soon.pdf",
+        "file_size_bytes": 768436,
+        "page_range": [
+          16,
+          23
+        ]
+      },
+      {
+        "song_title": "Something To Talk About",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Bonnie Raitt - Road Tested [pvg Book]/Songs/Bonnie Raitt - Something To Talk About.pdf",
+        "file_size_bytes": 2476917,
+        "page_range": [
+          23,
+          35
+        ]
+      },
+      {
+        "song_title": "Masters Of The Heart",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Bonnie Raitt - Road Tested [pvg Book]/Songs/Bonnie Raitt - Masters Of The Heart.pdf",
+        "file_size_bytes": 6161871,
+        "page_range": [
+          35,
+          88
+        ]
+      },
+      {
+        "song_title": "Come To Me",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Bonnie Raitt - Road Tested [pvg Book]/Songs/Bonnie Raitt - Come To Me.pdf",
+        "file_size_bytes": 1008467,
+        "page_range": [
+          88,
+          97
+        ]
+      },
+      {
+        "song_title": "Love Speaks Up We Go On You",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Bonnie Raitt - Road Tested [pvg Book]/Songs/Bonnie Raitt - Love Speaks Up We Go On You.pdf",
+        "file_size_bytes": 4466275,
+        "page_range": [
+          97,
+          138
+        ]
+      },
+      {
+        "song_title": "My Opening Farewell",
+        "artist": "Bonnie Raitt",
+        "output_uri": "s3://jsmith-output/Bonnie Raitt/Bonnie Raitt - Road Tested [pvg Book]/Songs/Bonnie Raitt - My Opening Farewell.pdf",
+        "file_size_bytes": 1535878,
+        "page_range": [
+          138,
+          151
+        ]
+      }
+    ]
+  }
+}

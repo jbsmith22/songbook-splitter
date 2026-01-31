@@ -1,0 +1,73 @@
+{
+  "book_id": "c76c9443cb7abe86",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Abbey Road Guitar Recorded Version/Songs/Beatles - Come Together.pdf",
+        "file_size_bytes": 7850830,
+        "page_range": [
+          1,
+          9
+        ]
+      },
+      {
+        "song_title": "Something",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Abbey Road Guitar Recorded Version/Songs/Beatles - Something.pdf",
+        "file_size_bytes": 23034619,
+        "page_range": [
+          9,
+          37
+        ]
+      },
+      {
+        "song_title": "I Want You (She's So Heavy)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Abbey Road Guitar Recorded Version/Songs/Beatles - I Want You (she's So Heavy).pdf",
+        "file_size_bytes": 21175950,
+        "page_range": [
+          37,
+          62
+        ]
+      },
+      {
+        "song_title": "You Never Give Me Your Money",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Abbey Road Guitar Recorded Version/Songs/Beatles - You Never Give Me Your Money.pdf",
+        "file_size_bytes": 9309076,
+        "page_range": [
+          62,
+          73
+        ]
+      },
+      {
+        "song_title": "Sun King",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Abbey Road Guitar Recorded Version/Songs/Beatles - Sun King.pdf",
+        "file_size_bytes": 20374463,
+        "page_range": [
+          73,
+          98
+        ]
+      },
+      {
+        "song_title": "The End",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Abbey Road Guitar Recorded Version/Songs/Beatles - The End.pdf",
+        "file_size_bytes": 7483925,
+        "page_range": [
+          98,
+          108
+        ]
+      }
+    ]
+  }
+}

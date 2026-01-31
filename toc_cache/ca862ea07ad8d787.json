@@ -1,0 +1,203 @@
+{
+  "book_id": "ca862ea07ad8d787",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "MADNESS",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Gary Osborne - Madness.pdf",
+        "file_size_bytes": 3577205,
+        "page_range": [
+          26,
+          38
+        ]
+      },
+      {
+        "song_title": "Memory of Love",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Gary Osborne - Memory Of Love.pdf",
+        "file_size_bytes": 2210205,
+        "page_range": [
+          38,
+          46
+        ]
+      },
+      {
+        "song_title": "Mona Lisas and Mad Hatters",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Mona Lisas And Mad Hatters.pdf",
+        "file_size_bytes": 5874488,
+        "page_range": [
+          46,
+          68
+        ]
+      },
+      {
+        "song_title": "THE ONE",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - The One.pdf",
+        "file_size_bytes": 3028454,
+        "page_range": [
+          68,
+          80
+        ]
+      },
+      {
+        "song_title": "PAIN",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Pain.pdf",
+        "file_size_bytes": 16489302,
+        "page_range": [
+          80,
+          139
+        ]
+      },
+      {
+        "song_title": "Sleeping With The Past",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Sleeping With The Past.pdf",
+        "file_size_bytes": 1380543,
+        "page_range": [
+          139,
+          144
+        ]
+      },
+      {
+        "song_title": "Simple Life",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Simple Life.pdf",
+        "file_size_bytes": 1148813,
+        "page_range": [
+          144,
+          148
+        ]
+      },
+      {
+        "song_title": "SIXTY YEARS ON",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Sixty Years On.pdf",
+        "file_size_bytes": 1192452,
+        "page_range": [
+          148,
+          152
+        ]
+      },
+      {
+        "song_title": "Skyline Pigeon",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Skyline Pigeon.pdf",
+        "file_size_bytes": 1676187,
+        "page_range": [
+          152,
+          158
+        ]
+      },
+      {
+        "song_title": "SOMEONE SAVED MY LIFE TONIGHT",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Someone Saved My Life Tonight.pdf",
+        "file_size_bytes": 1141756,
+        "page_range": [
+          158,
+          162
+        ]
+      },
+      {
+        "song_title": "SOMETHING ABOUT THE WAY YOU LOOK TONIGHT",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Something About The Way You Look Tonight.pdf",
+        "file_size_bytes": 10155173,
+        "page_range": [
+          162,
+          199
+        ]
+      },
+      {
+        "song_title": "WHO WEARS THESE SHOES?",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Who Wears These Shoes-.pdf",
+        "file_size_bytes": 1918298,
+        "page_range": [
+          199,
+          206
+        ]
+      },
+      {
+        "song_title": "Tonight",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Tonight.pdf",
+        "file_size_bytes": 1702523,
+        "page_range": [
+          206,
+          212
+        ]
+      },
+      {
+        "song_title": "True Love",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Unknown Artist - True Love.pdf",
+        "file_size_bytes": 1569662,
+        "page_range": [
+          212,
+          218
+        ]
+      },
+      {
+        "song_title": "We All Fall In Love Sometimes",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - We All Fall In Love Sometimes.pdf",
+        "file_size_bytes": 6854916,
+        "page_range": [
+          218,
+          242
+        ]
+      },
+      {
+        "song_title": "YOU CAN MAKE HISTORY (Young Again)",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - You Can Make History (young Again).pdf",
+        "file_size_bytes": 1409610,
+        "page_range": [
+          242,
+          247
+        ]
+      },
+      {
+        "song_title": "You Gotta Love Someone",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - You Gotta Love Someone.pdf",
+        "file_size_bytes": 2852875,
+        "page_range": [
+          247,
+          257
+        ]
+      },
+      {
+        "song_title": "YOUR SISTER CAN'T TWIST (But She Can Rock 'n' Roll)",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Your Sister Can't Twist (but She Can Rock 'n' Roll).pdf",
+        "file_size_bytes": 1368717,
+        "page_range": [
+          257,
+          262
+        ]
+      },
+      {
+        "song_title": "YOUR SONG",
+        "artist": "Elton John",
+        "output_uri": "s3://jsmith-output/Elton John/Elton John - The Ultimate Collection Vol. 2/Songs/Elton John And Bernie Taupin - Your Song.pdf",
+        "file_size_bytes": 1265027,
+        "page_range": [
+          262,
+          266
+        ]
+      }
+    ]
+  }
+}

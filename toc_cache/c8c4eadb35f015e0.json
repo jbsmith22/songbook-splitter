@@ -1,0 +1,30 @@
+{
+  "book_id": "c8c4eadb35f015e0",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Star Trek Insurrection",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Star Trek Insurrection",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Star Trek - Insurrection/Songs/Jerry Goldsmith - Star Trek Insurrection.pdf",
+        "file_size_bytes": 1091545,
+        "page_range": [
+          0,
+          5
+        ]
+      }
+    ]
+  }
+}

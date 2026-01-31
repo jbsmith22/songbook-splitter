@@ -1,0 +1,53 @@
+{
+  "book_id": "cf2f4f7ba8a0ce16",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Star Wars Suite for Orchestra",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Star Wars Suite (john Williams - Full Score - Hal Leonard)/Songs/John Williams - Star Wars Suite For Orchestra.pdf",
+        "file_size_bytes": 10078397,
+        "page_range": [
+          2,
+          42
+        ]
+      },
+      {
+        "song_title": "Princess Leia's Theme",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Star Wars Suite (john Williams - Full Score - Hal Leonard)/Songs/John Williams - Princess Leia's Theme.pdf",
+        "file_size_bytes": 7735586,
+        "page_range": [
+          42,
+          75
+        ]
+      },
+      {
+        "song_title": "IV. Yoda's Theme",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Star Wars Suite (john Williams - Full Score - Hal Leonard)/Songs/John Williams - Iv. Yoda's Theme.pdf",
+        "file_size_bytes": 10832362,
+        "page_range": [
+          75,
+          112
+        ]
+      },
+      {
+        "song_title": "A Little More Deliberate",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Star Wars Suite (john Williams - Full Score - Hal Leonard)/Songs/Unknown Artist - A Little More Deliberate.pdf",
+        "file_size_bytes": 7901746,
+        "page_range": [
+          112,
+          131
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "book_id": "3f662ef357de1051",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "HOW COULD I BE SUCH A FOOL",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - Songbook Vol 1/Songs/Frank Zappa - How Could I Be Such A Fool.pdf",
+        "file_size_bytes": 2752285,
+        "page_range": [
+          25,
+          34
+        ]
+      },
+      {
+        "song_title": "Oh No",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - Songbook Vol 1/Songs/Frank Zappa - Oh No.pdf",
+        "file_size_bytes": 1552825,
+        "page_range": [
+          34,
+          39
+        ]
+      },
+      {
+        "song_title": "Son of Suzy Creamcheese",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - Songbook Vol 1/Songs/Frank Zappa - Son Of Suzy Creamcheese.pdf",
+        "file_size_bytes": 11625911,
+        "page_range": [
+          39,
+          72
+        ]
+      },
+      {
+        "song_title": "Nun Suit",
+        "artist": "Frank Zappa",
+        "output_uri": "s3://jsmith-output/Frank Zappa/Frank Zappa - Songbook Vol 1/Songs/Frank Zappa - Nun Suit.pdf",
+        "file_size_bytes": 17981577,
+        "page_range": [
+          72,
+          84
+        ]
+      }
+    ]
+  }
+}

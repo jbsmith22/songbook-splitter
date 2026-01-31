@@ -1,0 +1,292 @@
+{
+  "book_id": "broadway-shows-various-artists-les-miserables-full-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Prologue",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "At the End of the Day",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Dreamed a Dream (E major)",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Dock (Lovely Ladies)",
+        "page_number": 127,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cart Crash",
+        "page_number": 170,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Fantine's Death",
+        "page_number": 209,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Little Cosette",
+        "page_number": 235,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Innkeeper's Song",
+        "page_number": 255,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Bargain",
+        "page_number": 291,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Beggars",
+        "page_number": 333,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Robbery",
+        "page_number": 356,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Stars",
+        "page_number": 388,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The ABC Caf\u00e9",
+        "page_number": 409,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The People's Song",
+        "page_number": 443,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Rue Plumet",
+        "page_number": 453,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A Heart Full of Love",
+        "page_number": 474,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Attack on the Rue Plumet",
+        "page_number": 489,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "One Day More",
+        "page_number": 521,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Prologue",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Unknown Artist - Prologue.pdf",
+        "file_size_bytes": 7411893,
+        "page_range": [
+          2,
+          71
+        ]
+      },
+      {
+        "song_title": "At the End of the Day",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Gummoe - At The End Of The Day.pdf",
+        "file_size_bytes": 4798637,
+        "page_range": [
+          71,
+          113
+        ]
+      },
+      {
+        "song_title": "I Dreamed a Dream (E major)",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - I Dreamed A Dream (e Major).pdf",
+        "file_size_bytes": 8496793,
+        "page_range": [
+          113,
+          186
+        ]
+      },
+      {
+        "song_title": "Cart Crash",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - Cart Crash.pdf",
+        "file_size_bytes": 4398677,
+        "page_range": [
+          186,
+          225
+        ]
+      },
+      {
+        "song_title": "Fantine's Death",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Unknown Artist - Fantine's Death.pdf",
+        "file_size_bytes": 2763103,
+        "page_range": [
+          225,
+          251
+        ]
+      },
+      {
+        "song_title": "Little Cosette",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - Little Cosette.pdf",
+        "file_size_bytes": 2826155,
+        "page_range": [
+          251,
+          276
+        ]
+      },
+      {
+        "song_title": "The Innkeeper's Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - The Innkeeper's Song.pdf",
+        "file_size_bytes": 3965576,
+        "page_range": [
+          276,
+          312
+        ]
+      },
+      {
+        "song_title": "The Bargain",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - The Bargain.pdf",
+        "file_size_bytes": 4396982,
+        "page_range": [
+          312,
+          352
+        ]
+      },
+      {
+        "song_title": "The Beggars",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Unknown Artist - The Beggars.pdf",
+        "file_size_bytes": 2779279,
+        "page_range": [
+          352,
+          377
+        ]
+      },
+      {
+        "song_title": "The Robbery",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - The Robbery.pdf",
+        "file_size_bytes": 3617537,
+        "page_range": [
+          377,
+          409
+        ]
+      },
+      {
+        "song_title": "Stars",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Unknown Artist - Stars.pdf",
+        "file_size_bytes": 2423307,
+        "page_range": [
+          409,
+          430
+        ]
+      },
+      {
+        "song_title": "The ABC Caf\u00e9",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - The Abc Caf\u00e9.pdf",
+        "file_size_bytes": 4084350,
+        "page_range": [
+          430,
+          464
+        ]
+      },
+      {
+        "song_title": "The People's Song",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Corigliano - The People's Song.pdf",
+        "file_size_bytes": 1154564,
+        "page_range": [
+          464,
+          474
+        ]
+      },
+      {
+        "song_title": "Rue Plumet",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - Rue Plumet.pdf",
+        "file_size_bytes": 2448808,
+        "page_range": [
+          474,
+          495
+        ]
+      },
+      {
+        "song_title": "A Heart Full of Love",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Orchestrated By John Cameron - A Heart Full Of Love.pdf",
+        "file_size_bytes": 1742753,
+        "page_range": [
+          495,
+          510
+        ]
+      },
+      {
+        "song_title": "The Attack on the Rue Plumet",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/Les Miserables (orchestrated By John Cameron) - The Attack On The Rue Plumet.pdf",
+        "file_size_bytes": 3601914,
+        "page_range": [
+          510,
+          542
+        ]
+      },
+      {
+        "song_title": "One Day More",
+        "artist": "_Broadway Shows",
+        "output_uri": "s3://jsmith-output/_broadway Shows/Various Artists - Les Miserables - Full Score/Songs/(orchestrated By John Cameron) - One Day More.pdf",
+        "file_size_bytes": 44819911,
+        "page_range": [
+          542,
+          934
+        ]
+      }
+    ]
+  }
+}

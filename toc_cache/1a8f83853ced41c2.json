@@ -1,0 +1,23 @@
+{
+  "book_id": "1a8f83853ced41c2",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Run For Your Life",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Beatles - Rubber Soul/Songs/Beatles - Run For Your Life.pdf",
+        "file_size_bytes": 924488,
+        "page_range": [
+          47,
+          51
+        ]
+      }
+    ]
+  }
+}

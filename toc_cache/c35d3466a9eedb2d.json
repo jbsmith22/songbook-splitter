@@ -1,0 +1,19 @@
+{
+  "book_id": "c35d3466a9eedb2d",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Over The Hills And Far Away",
+        "page_number": 188,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": []
+  }
+}

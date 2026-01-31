@@ -1,0 +1,373 @@
+{
+  "book_id": "825d9d684fbe7575",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Then",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Then.pdf",
+        "file_size_bytes": 345999,
+        "page_range": [
+          27,
+          35
+        ]
+      },
+      {
+        "song_title": "Astral Traveller",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Astral Traveller.pdf",
+        "file_size_bytes": 606856,
+        "page_range": [
+          35,
+          51
+        ]
+      },
+      {
+        "song_title": "A Venture",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - A Venture.pdf",
+        "file_size_bytes": 220199,
+        "page_range": [
+          51,
+          57
+        ]
+      },
+      {
+        "song_title": "Perpetual Change",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Perpetual Change.pdf",
+        "file_size_bytes": 689760,
+        "page_range": [
+          57,
+          73
+        ]
+      },
+      {
+        "song_title": "Your Move",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Your Move.pdf",
+        "file_size_bytes": 287261,
+        "page_range": [
+          73,
+          80
+        ]
+      },
+      {
+        "song_title": "ALL GOOD PEOPLE",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - All Good People.pdf",
+        "file_size_bytes": 523626,
+        "page_range": [
+          80,
+          92
+        ]
+      },
+      {
+        "song_title": "WURM",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Wurm.pdf",
+        "file_size_bytes": 463517,
+        "page_range": [
+          92,
+          101
+        ]
+      },
+      {
+        "song_title": "South Side of the Sky",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - South Side Of The Sky.pdf",
+        "file_size_bytes": 254987,
+        "page_range": [
+          101,
+          107
+        ]
+      },
+      {
+        "song_title": "Mood for a Day",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Mood For A Day.pdf",
+        "file_size_bytes": 491547,
+        "page_range": [
+          107,
+          119
+        ]
+      },
+      {
+        "song_title": "Long Distance Runaround",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Long Distance Runaround.pdf",
+        "file_size_bytes": 194879,
+        "page_range": [
+          119,
+          124
+        ]
+      },
+      {
+        "song_title": "THE FISH",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - The Fish.pdf",
+        "file_size_bytes": 270053,
+        "page_range": [
+          124,
+          132
+        ]
+      },
+      {
+        "song_title": "And You And I",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - And You And I.pdf",
+        "file_size_bytes": 192711,
+        "page_range": [
+          132,
+          137
+        ]
+      },
+      {
+        "song_title": "ECLIPSE",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Eclipse.pdf",
+        "file_size_bytes": 88229,
+        "page_range": [
+          137,
+          139
+        ]
+      },
+      {
+        "song_title": "The Preacher The Teacher",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - The Preacher The Teacher.pdf",
+        "file_size_bytes": 1204568,
+        "page_range": [
+          139,
+          167
+        ]
+      },
+      {
+        "song_title": "THE SIX WIVES OF HENRY VIII",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - The Six Wives Of Henry Viii.pdf",
+        "file_size_bytes": 442889,
+        "page_range": [
+          167,
+          179
+        ]
+      },
+      {
+        "song_title": "The Ancient",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - The Ancient.pdf",
+        "file_size_bytes": 212652,
+        "page_range": [
+          179,
+          184
+        ]
+      },
+      {
+        "song_title": "A little faster",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - A Little Faster.pdf",
+        "file_size_bytes": 443102,
+        "page_range": [
+          184,
+          195
+        ]
+      },
+      {
+        "song_title": "RITUAL",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Ritual.pdf",
+        "file_size_bytes": 1988564,
+        "page_range": [
+          195,
+          246
+        ]
+      },
+      {
+        "song_title": "THE REMEMBERING",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - The Remembering.pdf",
+        "file_size_bytes": 1038052,
+        "page_range": [
+          246,
+          271
+        ]
+      },
+      {
+        "song_title": "SOUND CHASER",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Sound Chaser.pdf",
+        "file_size_bytes": 1298961,
+        "page_range": [
+          271,
+          306
+        ]
+      },
+      {
+        "song_title": "DEAR FATHER",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Dear Father.pdf",
+        "file_size_bytes": 258424,
+        "page_range": [
+          306,
+          313
+        ]
+      },
+      {
+        "song_title": "GOING FOR THE ONE",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Going For The One.pdf",
+        "file_size_bytes": 241848,
+        "page_range": [
+          313,
+          319
+        ]
+      },
+      {
+        "song_title": "TURN OF THE CENTURY",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Turn Of The Century.pdf",
+        "file_size_bytes": 474528,
+        "page_range": [
+          319,
+          330
+        ]
+      },
+      {
+        "song_title": "Parallels",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Parallels.pdf",
+        "file_size_bytes": 307994,
+        "page_range": [
+          330,
+          337
+        ]
+      },
+      {
+        "song_title": "Wonderous Stories",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Wonderous Stories.pdf",
+        "file_size_bytes": 727640,
+        "page_range": [
+          337,
+          355
+        ]
+      },
+      {
+        "song_title": "Master of Images",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Master Of Images.pdf",
+        "file_size_bytes": 372602,
+        "page_range": [
+          355,
+          363
+        ]
+      },
+      {
+        "song_title": "FUTURE TIMES",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Future Times.pdf",
+        "file_size_bytes": 355949,
+        "page_range": [
+          363,
+          373
+        ]
+      },
+      {
+        "song_title": "DON'T KILL THE WHALE",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Don't Kill The Whale.pdf",
+        "file_size_bytes": 139532,
+        "page_range": [
+          373,
+          377
+        ]
+      },
+      {
+        "song_title": "Madrigal",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Madrigal.pdf",
+        "file_size_bytes": 175269,
+        "page_range": [
+          377,
+          382
+        ]
+      },
+      {
+        "song_title": "Release, Release",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Release, Release.pdf",
+        "file_size_bytes": 673520,
+        "page_range": [
+          382,
+          399
+        ]
+      },
+      {
+        "song_title": "ON THE SILENT WINGS OF FREEDOM",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - On The Silent Wings Of Freedom.pdf",
+        "file_size_bytes": 451252,
+        "page_range": [
+          399,
+          410
+        ]
+      },
+      {
+        "song_title": "MACHINE MESSIAH",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Machine Messiah.pdf",
+        "file_size_bytes": 761602,
+        "page_range": [
+          410,
+          429
+        ]
+      },
+      {
+        "song_title": "WHITE CAR",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - White Car.pdf",
+        "file_size_bytes": 469753,
+        "page_range": [
+          429,
+          441
+        ]
+      },
+      {
+        "song_title": "Into the Lens",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Into The Lens.pdf",
+        "file_size_bytes": 645721,
+        "page_range": [
+          441,
+          457
+        ]
+      },
+      {
+        "song_title": "Tempus Fugit",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Tempus Fugit.pdf",
+        "file_size_bytes": 573701,
+        "page_range": [
+          457,
+          471
+        ]
+      },
+      {
+        "song_title": "RUN THROUGH THE LIGHT",
+        "artist": "Yes",
+        "output_uri": "s3://jsmith-output/Yes/Yes - Complete Deluxe Edition/Songs/Yes - Run Through The Light.pdf",
+        "file_size_bytes": 343405,
+        "page_range": [
+          471,
+          480
+        ]
+      }
+    ]
+  }
+}

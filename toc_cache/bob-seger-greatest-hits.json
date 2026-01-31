@@ -1,0 +1,153 @@
+{
+  "book_id": "bob-seger-greatest-hits",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Against the Wind",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - Against The Wind.pdf",
+        "file_size_bytes": 261534,
+        "page_range": [
+          7,
+          12
+        ]
+      },
+      {
+        "song_title": "C'est La Vie",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Chuck Berry - C'est La Vie.pdf",
+        "file_size_bytes": 157392,
+        "page_range": [
+          12,
+          15
+        ]
+      },
+      {
+        "song_title": "Hollywood Nights",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - Hollywood Nights.pdf",
+        "file_size_bytes": 334533,
+        "page_range": [
+          15,
+          21
+        ]
+      },
+      {
+        "song_title": "In Your Time",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - In Your Time.pdf",
+        "file_size_bytes": 156551,
+        "page_range": [
+          21,
+          24
+        ]
+      },
+      {
+        "song_title": "Like a Rock",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - Like A Rock.pdf",
+        "file_size_bytes": 386464,
+        "page_range": [
+          24,
+          31
+        ]
+      },
+      {
+        "song_title": "Mainstreet",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - Mainstreet.pdf",
+        "file_size_bytes": 242771,
+        "page_range": [
+          31,
+          36
+        ]
+      },
+      {
+        "song_title": "Night Moves",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - Night Moves.pdf",
+        "file_size_bytes": 447619,
+        "page_range": [
+          36,
+          45
+        ]
+      },
+      {
+        "song_title": "OLD TIME ROCK & ROLL",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/George Jackson And Thomas Earl Jones - Old Time Rock & Roll.pdf",
+        "file_size_bytes": 168289,
+        "page_range": [
+          45,
+          48
+        ]
+      },
+      {
+        "song_title": "Roll Me Away",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - Roll Me Away.pdf",
+        "file_size_bytes": 446709,
+        "page_range": [
+          48,
+          56
+        ]
+      },
+      {
+        "song_title": "Still the Same",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - Still The Same.pdf",
+        "file_size_bytes": 211798,
+        "page_range": [
+          56,
+          60
+        ]
+      },
+      {
+        "song_title": "THE FIRE INSIDE",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - The Fire Inside.pdf",
+        "file_size_bytes": 322658,
+        "page_range": [
+          60,
+          66
+        ]
+      },
+      {
+        "song_title": "TURN THE PAGE",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - Turn The Page.pdf",
+        "file_size_bytes": 227623,
+        "page_range": [
+          66,
+          70
+        ]
+      },
+      {
+        "song_title": "We've Got Tonight",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - We've Got Tonight.pdf",
+        "file_size_bytes": 285306,
+        "page_range": [
+          70,
+          75
+        ]
+      },
+      {
+        "song_title": "YOU'LL ACCOMP'NY ME",
+        "artist": "Bob Seger",
+        "output_uri": "s3://jsmith-output/Bob Seger/Greatest Hits/Songs/Bob Seger - You'll Accomp'ny Me.pdf",
+        "file_size_bytes": 263066,
+        "page_range": [
+          75,
+          79
+        ]
+      }
+    ]
+  }
+}

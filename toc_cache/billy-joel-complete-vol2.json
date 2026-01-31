@@ -1,0 +1,788 @@
+{
+  "book_id": "billy-joel-complete-vol2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "All For Leyna",
+        "page_number": 54,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "C'Etait Toi (You Were The One)",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Close To The Borderline",
+        "page_number": 55,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Don't Ask Me Why",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Don't Want To Be Alone",
+        "page_number": 41,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "It's Still Rock And Roll To Me",
+        "page_number": 26,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sleeping With The Television On",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Sometimes A Fantasy",
+        "page_number": 11,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Through The Long Night",
+        "page_number": 66,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You May Be Right",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Allentown",
+        "page_number": 136,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Goodnight Saigon",
+        "page_number": 142,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Laura",
+        "page_number": 122,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pressure",
+        "page_number": 129,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(A) Room Of Our Own",
+        "page_number": 147,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Scandinavian Skies",
+        "page_number": 164,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She's right On Time",
+        "page_number": 154,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Surprises",
+        "page_number": 160,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Where's The Orchestra?",
+        "page_number": 172,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(The) Ballad Of Billy The Kid",
+        "page_number": 113,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Captain Jack",
+        "page_number": 101,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Everybody Loves You Now",
+        "page_number": 96,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I've Loved These Days",
+        "page_number": 118,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Los Angelenos",
+        "page_number": 88,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Miami 2017 (Seen The Lights Go Out On Broadway)",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Say Goodbye To Hollywood",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "She's Got A Way",
+        "page_number": 91,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Streetlife Serenader",
+        "page_number": 71,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Summer, Highland Falls",
+        "page_number": 84,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "You're My Home",
+        "page_number": 110,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Careless Talk",
+        "page_number": 214,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Christie Lee",
+        "page_number": 221,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Easy Money",
+        "page_number": 178,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(An) Innocent Man",
+        "page_number": 190,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Keeping The Faith",
+        "page_number": 228,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Leave A Tender Moment Alone",
+        "page_number": 238,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(The) Longest Time",
+        "page_number": 184,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Tell Her About It",
+        "page_number": 202,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "This Night",
+        "page_number": 197,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Uptown Girl",
+        "page_number": 210,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Baby Grand",
+        "page_number": 272,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Big Man On Mulberry Street",
+        "page_number": 259,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Code Of Silence",
+        "page_number": 278,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Getting Closer",
+        "page_number": 284,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(A) Matter Of Trust",
+        "page_number": 254,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Modern Woman",
+        "page_number": 266,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Running On Ice",
+        "page_number": 244,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Temptation",
+        "page_number": 288,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "This Is The Time",
+        "page_number": 249,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "You May Be Right",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-You May Be Right.pdf",
+        "file_size_bytes": 982323,
+        "page_range": [
+          5,
+          10
+        ]
+      },
+      {
+        "song_title": "Sometimes A Fantasy",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Sometimes A Fantasy.pdf",
+        "file_size_bytes": 1431772,
+        "page_range": [
+          10,
+          17
+        ]
+      },
+      {
+        "song_title": "Don't Ask Me Why",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Don't Ask Me Why.pdf",
+        "file_size_bytes": 1757853,
+        "page_range": [
+          17,
+          25
+        ]
+      },
+      {
+        "song_title": "It's Still Rock And Roll To Me",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-It's Still Rock And Roll To Me.pdf",
+        "file_size_bytes": 3094487,
+        "page_range": [
+          25,
+          40
+        ]
+      },
+      {
+        "song_title": "I Don't Want To Be Alone",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-I Don't Want To Be Alone.pdf",
+        "file_size_bytes": 1581664,
+        "page_range": [
+          40,
+          47
+        ]
+      },
+      {
+        "song_title": "Sleeping With The Television On",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Sleeping With The Television On.pdf",
+        "file_size_bytes": 1111203,
+        "page_range": [
+          47,
+          52
+        ]
+      },
+      {
+        "song_title": "Close To The Borderline",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Close To The Borderline.pdf",
+        "file_size_bytes": 2004334,
+        "page_range": [
+          52,
+          61
+        ]
+      },
+      {
+        "song_title": "C'Etait Toi (You Were The One)",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-C'Etait Toi (You Were The One).pdf",
+        "file_size_bytes": 890275,
+        "page_range": [
+          61,
+          65
+        ]
+      },
+      {
+        "song_title": "Through The Long Night",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Through The Long Night.pdf",
+        "file_size_bytes": 933802,
+        "page_range": [
+          65,
+          70
+        ]
+      },
+      {
+        "song_title": "Streetlife Serenader",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Streetlife Serenader.pdf",
+        "file_size_bytes": 1083873,
+        "page_range": [
+          70,
+          75
+        ]
+      },
+      {
+        "song_title": "Miami 2017 (Seen The Lights Go Out On Broadway)",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Miami 2017 (Seen The Lights Go Out On Broadway).pdf",
+        "file_size_bytes": 1828217,
+        "page_range": [
+          75,
+          83
+        ]
+      },
+      {
+        "song_title": "Summer, Highland Falls",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Summer, Highland Falls.pdf",
+        "file_size_bytes": 869646,
+        "page_range": [
+          83,
+          87
+        ]
+      },
+      {
+        "song_title": "Los Angelenos",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Los Angelenos.pdf",
+        "file_size_bytes": 652028,
+        "page_range": [
+          87,
+          90
+        ]
+      },
+      {
+        "song_title": "She's Got A Way",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-She's Got A Way.pdf",
+        "file_size_bytes": 1087086,
+        "page_range": [
+          90,
+          95
+        ]
+      },
+      {
+        "song_title": "Everybody Loves You Now",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Everybody Loves You Now.pdf",
+        "file_size_bytes": 1017641,
+        "page_range": [
+          95,
+          100
+        ]
+      },
+      {
+        "song_title": "Captain Jack",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Captain Jack.pdf",
+        "file_size_bytes": 994616,
+        "page_range": [
+          100,
+          105
+        ]
+      },
+      {
+        "song_title": "Say Goodbye To Hollywood",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Say Goodbye To Hollywood.pdf",
+        "file_size_bytes": 881601,
+        "page_range": [
+          105,
+          109
+        ]
+      },
+      {
+        "song_title": "You're My Home",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-You're My Home.pdf",
+        "file_size_bytes": 672359,
+        "page_range": [
+          109,
+          112
+        ]
+      },
+      {
+        "song_title": "(The) Ballad Of Billy The Kid",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-(The) Ballad Of Billy The Kid.pdf",
+        "file_size_bytes": 1108146,
+        "page_range": [
+          112,
+          117
+        ]
+      },
+      {
+        "song_title": "I've Loved These Days",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-I've Loved These Days.pdf",
+        "file_size_bytes": 750516,
+        "page_range": [
+          117,
+          121
+        ]
+      },
+      {
+        "song_title": "Laura",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Laura.pdf",
+        "file_size_bytes": 1263396,
+        "page_range": [
+          121,
+          128
+        ]
+      },
+      {
+        "song_title": "Pressure",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Pressure.pdf",
+        "file_size_bytes": 1341324,
+        "page_range": [
+          128,
+          135
+        ]
+      },
+      {
+        "song_title": "Allentown",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Allentown.pdf",
+        "file_size_bytes": 1154912,
+        "page_range": [
+          135,
+          141
+        ]
+      },
+      {
+        "song_title": "Goodnight Saigon",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Goodnight Saigon.pdf",
+        "file_size_bytes": 949269,
+        "page_range": [
+          141,
+          146
+        ]
+      },
+      {
+        "song_title": "(A) Room Of Our Own",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-(A) Room Of Our Own.pdf",
+        "file_size_bytes": 1212438,
+        "page_range": [
+          146,
+          153
+        ]
+      },
+      {
+        "song_title": "She's right On Time",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-She's right On Time.pdf",
+        "file_size_bytes": 1173171,
+        "page_range": [
+          153,
+          159
+        ]
+      },
+      {
+        "song_title": "Surprises",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Surprises.pdf",
+        "file_size_bytes": 758974,
+        "page_range": [
+          159,
+          163
+        ]
+      },
+      {
+        "song_title": "Scandinavian Skies",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Scandinavian Skies.pdf",
+        "file_size_bytes": 1407775,
+        "page_range": [
+          163,
+          171
+        ]
+      },
+      {
+        "song_title": "Where's The Orchestra?",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Where's The Orchestra-.pdf",
+        "file_size_bytes": 1095392,
+        "page_range": [
+          171,
+          177
+        ]
+      },
+      {
+        "song_title": "Easy Money",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Easy Money.pdf",
+        "file_size_bytes": 1074217,
+        "page_range": [
+          177,
+          183
+        ]
+      },
+      {
+        "song_title": "(The) Longest Time",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-(The) Longest Time.pdf",
+        "file_size_bytes": 1095401,
+        "page_range": [
+          183,
+          189
+        ]
+      },
+      {
+        "song_title": "(An) Innocent Man",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-(An) Innocent Man.pdf",
+        "file_size_bytes": 1262216,
+        "page_range": [
+          189,
+          196
+        ]
+      },
+      {
+        "song_title": "This Night",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-This Night.pdf",
+        "file_size_bytes": 925468,
+        "page_range": [
+          196,
+          201
+        ]
+      },
+      {
+        "song_title": "Tell Her About It",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Tell Her About It.pdf",
+        "file_size_bytes": 1428336,
+        "page_range": [
+          201,
+          209
+        ]
+      },
+      {
+        "song_title": "Uptown Girl",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Uptown Girl.pdf",
+        "file_size_bytes": 759734,
+        "page_range": [
+          209,
+          213
+        ]
+      },
+      {
+        "song_title": "Careless Talk",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Careless Talk.pdf",
+        "file_size_bytes": 1251352,
+        "page_range": [
+          213,
+          220
+        ]
+      },
+      {
+        "song_title": "Christie Lee",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Christie Lee.pdf",
+        "file_size_bytes": 1226167,
+        "page_range": [
+          220,
+          227
+        ]
+      },
+      {
+        "song_title": "Keeping The Faith",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Keeping The Faith.pdf",
+        "file_size_bytes": 1632248,
+        "page_range": [
+          227,
+          237
+        ]
+      },
+      {
+        "song_title": "Leave A Tender Moment Alone",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Leave A Tender Moment Alone.pdf",
+        "file_size_bytes": 1028077,
+        "page_range": [
+          237,
+          243
+        ]
+      },
+      {
+        "song_title": "Running On Ice",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Running On Ice.pdf",
+        "file_size_bytes": 1125014,
+        "page_range": [
+          243,
+          248
+        ]
+      },
+      {
+        "song_title": "This Is The Time",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-This Is The Time.pdf",
+        "file_size_bytes": 1037543,
+        "page_range": [
+          248,
+          253
+        ]
+      },
+      {
+        "song_title": "(A) Matter Of Trust",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-(A) Matter Of Trust.pdf",
+        "file_size_bytes": 1015810,
+        "page_range": [
+          253,
+          258
+        ]
+      },
+      {
+        "song_title": "Big Man On Mulberry Street",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Big Man On Mulberry Street.pdf",
+        "file_size_bytes": 1598389,
+        "page_range": [
+          258,
+          265
+        ]
+      },
+      {
+        "song_title": "Modern Woman",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Modern Woman.pdf",
+        "file_size_bytes": 1183881,
+        "page_range": [
+          265,
+          271
+        ]
+      },
+      {
+        "song_title": "Baby Grand",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Baby Grand.pdf",
+        "file_size_bytes": 1134705,
+        "page_range": [
+          271,
+          277
+        ]
+      },
+      {
+        "song_title": "Code Of Silence",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Code Of Silence.pdf",
+        "file_size_bytes": 1156576,
+        "page_range": [
+          277,
+          283
+        ]
+      },
+      {
+        "song_title": "Getting Closer",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Getting Closer.pdf",
+        "file_size_bytes": 851726,
+        "page_range": [
+          283,
+          287
+        ]
+      },
+      {
+        "song_title": "Temptation",
+        "artist": "Billy Joel",
+        "output_uri": "s3://jsmith-output/SheetMusicOut/Billy Joel/books/Complete Vol 2/Billy Joel-Temptation.pdf",
+        "file_size_bytes": 1176996,
+        "page_range": [
+          287,
+          293
+        ]
+      }
+    ]
+  }
+}

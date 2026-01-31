@@ -1,0 +1,137 @@
+{
+  "book_id": "6d2d3d95f1fb90f2",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "The Cream of Clapton \u2014 Odyssey of a Guitar Player",
+        "page_number": 2,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "After Midnight",
+        "page_number": 57,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Badge",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bell Bottom Blues",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Blues Power",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cocaine",
+        "page_number": 133,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Crossroads (Cross Road Blues)",
+        "page_number": 29,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Hello Old Friend",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Can't Stand It",
+        "page_number": 159,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Feel Free",
+        "page_number": 6,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I Shot the Sheriff",
+        "page_number": 100,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Knockin' on Heaven's Door",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Layla",
+        "page_number": 81,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Let It Grow",
+        "page_number": 109,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Let It Rain",
+        "page_number": 62,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Presence of the Lord",
+        "page_number": 39,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Promises",
+        "page_number": 149,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "The Sunshine of Your Love",
+        "page_number": 12,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "White Room",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Wonderful Tonight",
+        "page_number": 141,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Guitar Notation Legend",
+        "page_number": 168,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": null
+}

@@ -1,0 +1,5 @@
+{
+  "stateMachineArn": "arn:aws:states:us-east-1:227027150061:stateMachine:jsmith-sheetmusic-splitter-pipeline",
+  "name": "test-fix-20260129213700",
+  "input": "{\"artist\":\"Night Ranger\",\"book_id\":\"night-ranger-seven-wishes-fix-test\",\"source_pdf_uri\":\"s3://jsmith-input/SheetMusic/Night Ranger/Books/Night Ranger - Seven Wishes _Jap Score_.pdf\",\"book_name\":\"Night Ranger - Seven Wishes _Jap Score_\"}"
+}

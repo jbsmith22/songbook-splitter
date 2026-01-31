@@ -1,0 +1,29 @@
+{
+  "family": "jsmith-page-mapper",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "2048",
+  "memory": "4096",
+  "executionRoleArn": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskExecutionRole-lk6cYO4BePSL",
+  "taskRoleArn": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskRole-w6lDb4md62rc",
+  "containerDefinitions": [
+    {
+      "name": "page-mapper",
+      "image": "227027150061.dkr.ecr.us-east-1.amazonaws.com/jsmith-sheetmusic-splitter@sha256:3042ee7ecf855db315692b75aaf117d739220c72438a35710de505239a532c87",
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/aws/ecs/jsmith-sheetmusic-splitter",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "page-mapper"
+        }
+      },
+      "environment": [
+        {
+          "name": "TASK_TYPE",
+          "value": "page_mapper"
+        }
+      ]
+    }
+  ]
+}

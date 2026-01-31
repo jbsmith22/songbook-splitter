@@ -1,0 +1,83 @@
+{
+  "book_id": "23ace923305867ea",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Beauty and the Beast",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Love Songs [book]/Songs/From Walt Disney's Beauty And The Beast (lyrics By Howard Ashman, Music By Alan Menken) - Beauty And The Beast.pdf",
+        "file_size_bytes": 211461,
+        "page_range": [
+          2,
+          15
+        ]
+      },
+      {
+        "song_title": "If We Hold On Together",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Love Songs [book]/Songs/James Horner And Will Jennings - If We Hold On Together.pdf",
+        "file_size_bytes": 127843,
+        "page_range": [
+          15,
+          22
+        ]
+      },
+      {
+        "song_title": "If I Never Knew You (Love Theme from Pocahontas)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Love Songs [book]/Songs/From Walt Disney's Pocahontas (music By Alan Menken, Lyrics By Stephen Schwartz) - If I Never Knew You (love Theme From Pocahontas).pdf",
+        "file_size_bytes": 113579,
+        "page_range": [
+          22,
+          28
+        ]
+      },
+      {
+        "song_title": "Legends of the Fall",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Love Songs [book]/Songs/Composed By James Horner - Legends Of The Fall.pdf",
+        "file_size_bytes": 266995,
+        "page_range": [
+          28,
+          42
+        ]
+      },
+      {
+        "song_title": "Rose",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Love Songs [book]/Songs/By James Horner - Rose.pdf",
+        "file_size_bytes": 64758,
+        "page_range": [
+          42,
+          45
+        ]
+      },
+      {
+        "song_title": "SOMEWHERE OUT THERE",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Love Songs [book]/Songs/James Horner, Barry Mann And Cynthia Weil - Somewhere Out There.pdf",
+        "file_size_bytes": 135748,
+        "page_range": [
+          45,
+          53
+        ]
+      },
+      {
+        "song_title": "A Whole New World (Aladdin's Theme)",
+        "artist": "_Movie and TV",
+        "output_uri": "s3://jsmith-output/_movie And Tv/Various Artists - Movie Love Songs [book]/Songs/From Walt Disney's Aladdin - A Whole New World (aladdin's Theme).pdf",
+        "file_size_bytes": 800112,
+        "page_range": [
+          53,
+          63
+        ]
+      }
+    ]
+  }
+}

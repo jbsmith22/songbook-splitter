@@ -1,0 +1,193 @@
+{
+  "book_id": "beatles-abbey-road-guitar-recorded-version",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Come Together",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Come Together.pdf",
+        "file_size_bytes": 2617156,
+        "page_range": [
+          1,
+          4
+        ]
+      },
+      {
+        "song_title": "Guitar Solo",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/Unknown Artist - Guitar Solo.pdf",
+        "file_size_bytes": 5235203,
+        "page_range": [
+          4,
+          9
+        ]
+      },
+      {
+        "song_title": "Something",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/George Harrison - Something.pdf",
+        "file_size_bytes": 5027404,
+        "page_range": [
+          9,
+          15
+        ]
+      },
+      {
+        "song_title": "Maxwell's Silver Hammer",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Maxwell's Silver Hammer.pdf",
+        "file_size_bytes": 5799412,
+        "page_range": [
+          15,
+          22
+        ]
+      },
+      {
+        "song_title": "Oh! Darling",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Oh! Darling.pdf",
+        "file_size_bytes": 3184320,
+        "page_range": [
+          22,
+          26
+        ]
+      },
+      {
+        "song_title": "Octopus's Garden",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/Richard Starkey - Octopus's Garden.pdf",
+        "file_size_bytes": 9028069,
+        "page_range": [
+          26,
+          37
+        ]
+      },
+      {
+        "song_title": "I Want You (She's So Heavy)",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - I Want You (she's So Heavy).pdf",
+        "file_size_bytes": 13370710,
+        "page_range": [
+          37,
+          53
+        ]
+      },
+      {
+        "song_title": "Here Comes The Sun",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/George Harrison - Here Comes The Sun.pdf",
+        "file_size_bytes": 4561153,
+        "page_range": [
+          53,
+          58
+        ]
+      },
+      {
+        "song_title": "Because",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Because.pdf",
+        "file_size_bytes": 3247145,
+        "page_range": [
+          58,
+          62
+        ]
+      },
+      {
+        "song_title": "You Never Give Me Your Money",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - You Never Give Me Your Money.pdf",
+        "file_size_bytes": 9309076,
+        "page_range": [
+          62,
+          73
+        ]
+      },
+      {
+        "song_title": "Sun King",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Sun King.pdf",
+        "file_size_bytes": 5088403,
+        "page_range": [
+          73,
+          79
+        ]
+      },
+      {
+        "song_title": "Mean Mr. Mustard",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Mean Mr. Mustard.pdf",
+        "file_size_bytes": 2426533,
+        "page_range": [
+          79,
+          82
+        ]
+      },
+      {
+        "song_title": "Polythene Pam",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Polythene Pam.pdf",
+        "file_size_bytes": 2918403,
+        "page_range": [
+          82,
+          86
+        ]
+      },
+      {
+        "song_title": "She Came In Through The Bathroom Window",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - She Came In Through The Bathroom Window.pdf",
+        "file_size_bytes": 4964888,
+        "page_range": [
+          86,
+          92
+        ]
+      },
+      {
+        "song_title": "Golden Slumbers",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Golden Slumbers.pdf",
+        "file_size_bytes": 2491473,
+        "page_range": [
+          92,
+          95
+        ]
+      },
+      {
+        "song_title": "Carry That Weight",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Carry That Weight.pdf",
+        "file_size_bytes": 2492406,
+        "page_range": [
+          95,
+          98
+        ]
+      },
+      {
+        "song_title": "The End",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - The End.pdf",
+        "file_size_bytes": 6042026,
+        "page_range": [
+          98,
+          106
+        ]
+      },
+      {
+        "song_title": "Her Majesty",
+        "artist": "Beatles",
+        "output_uri": "s3://jsmith-output/Beatles/Abbey Road Guitar Recorded Version/Songs/John Lennon And Paul Mccartney - Her Majesty.pdf",
+        "file_size_bytes": 1443468,
+        "page_range": [
+          106,
+          108
+        ]
+      }
+    ]
+  }
+}

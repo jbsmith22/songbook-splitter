@@ -1,0 +1,63 @@
+{
+  "book_id": "1fca9fd3d03e4a53",
+  "toc": {
+    "entries": [],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.0,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Who'll Stop the Rain",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - 8 Pcs Book/Songs/Creedence Clearwater Revival - Who'll Stop The Rain.pdf",
+        "file_size_bytes": 581912,
+        "page_range": [
+          1,
+          4
+        ]
+      },
+      {
+        "song_title": "Bedroom Rising",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - 8 Pcs Book/Songs/Creedence Clearwater Revival - Bedroom Rising.pdf",
+        "file_size_bytes": 488073,
+        "page_range": [
+          4,
+          7
+        ]
+      },
+      {
+        "song_title": "Proud Mary",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - 8 Pcs Book/Songs/Creedence Clearwater Revival - Proud Mary.pdf",
+        "file_size_bytes": 356644,
+        "page_range": [
+          7,
+          9
+        ]
+      },
+      {
+        "song_title": "Down on the Corner",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - 8 Pcs Book/Songs/Creedence Clearwater Revival - Down On The Corner.pdf",
+        "file_size_bytes": 375862,
+        "page_range": [
+          9,
+          11
+        ]
+      },
+      {
+        "song_title": "Commotion",
+        "artist": "Creedence Clearwater Revival",
+        "output_uri": "s3://jsmith-output/Creedence Clearwater Revival/Creedence Clearwater Revival - 8 Pcs Book/Songs/Creedence Clearwater Revival - Commotion.pdf",
+        "file_size_bytes": 1690427,
+        "page_range": [
+          11,
+          20
+        ]
+      }
+    ]
+  }
+}

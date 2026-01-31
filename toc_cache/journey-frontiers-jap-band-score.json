@@ -1,0 +1,30 @@
+{
+  "book_id": "journey-frontiers-jap-band-score",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Separate Ways (Worlds Apart)",
+        "page_number": 1,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Separate Ways (Worlds Apart)",
+        "artist": "Journey",
+        "output_uri": "s3://jsmith-output/Journey/Frontiers [jap Band Score]/Songs/Journey - Separate Ways (worlds Apart).pdf",
+        "file_size_bytes": 3580218,
+        "page_range": [
+          1,
+          68
+        ]
+      }
+    ]
+  }
+}

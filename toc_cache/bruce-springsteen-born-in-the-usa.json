@@ -1,0 +1,222 @@
+{
+  "book_id": "bruce-springsteen-born-in-the-usa",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "Born In The U.S.A.",
+        "page_number": 5,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Cover Me",
+        "page_number": 10,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Darlington County",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Working On The Highway",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Downbound Train",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm On Fire",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "No Surrender",
+        "page_number": 40,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Bobby Jean",
+        "page_number": 46,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'm Goin' Down",
+        "page_number": 52,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Glory Days",
+        "page_number": 58,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Dancing In The Dark",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "My Hometown",
+        "page_number": 70,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "Pink Cadillac",
+        "page_number": 76,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "Born In The U.S.A.",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Born In The U.s.a.pdf",
+        "file_size_bytes": 1035195,
+        "page_range": [
+          1,
+          5
+        ]
+      },
+      {
+        "song_title": "Cover Me",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Cover Me.pdf",
+        "file_size_bytes": 1152168,
+        "page_range": [
+          5,
+          9
+        ]
+      },
+      {
+        "song_title": "Darlington County",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Darlington County.pdf",
+        "file_size_bytes": 1735967,
+        "page_range": [
+          9,
+          15
+        ]
+      },
+      {
+        "song_title": "Working On The Highway",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Working On The Highway.pdf",
+        "file_size_bytes": 2353337,
+        "page_range": [
+          15,
+          22
+        ]
+      },
+      {
+        "song_title": "Downbound Train",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Downbound Train.pdf",
+        "file_size_bytes": 2172096,
+        "page_range": [
+          22,
+          28
+        ]
+      },
+      {
+        "song_title": "I'm On Fire",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - I'm On Fire.pdf",
+        "file_size_bytes": 1521929,
+        "page_range": [
+          28,
+          33
+        ]
+      },
+      {
+        "song_title": "No Surrender",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - No Surrender.pdf",
+        "file_size_bytes": 1659688,
+        "page_range": [
+          33,
+          39
+        ]
+      },
+      {
+        "song_title": "Bobby Jean",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Bobby Jean.pdf",
+        "file_size_bytes": 1546706,
+        "page_range": [
+          39,
+          45
+        ]
+      },
+      {
+        "song_title": "I'm Goin' Down",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - I'm Goin' Down.pdf",
+        "file_size_bytes": 1136423,
+        "page_range": [
+          45,
+          49
+        ]
+      },
+      {
+        "song_title": "Glory Days",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Glory Days.pdf",
+        "file_size_bytes": 1384384,
+        "page_range": [
+          49,
+          54
+        ]
+      },
+      {
+        "song_title": "Dancing In The Dark",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Dancing In The Dark.pdf",
+        "file_size_bytes": 1653513,
+        "page_range": [
+          54,
+          60
+        ]
+      },
+      {
+        "song_title": "My Hometown",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - My Hometown.pdf",
+        "file_size_bytes": 1590496,
+        "page_range": [
+          60,
+          66
+        ]
+      },
+      {
+        "song_title": "Pink Cadillac",
+        "artist": "Bruce Springsteen",
+        "output_uri": "s3://jsmith-output/Bruce Springsteen/Born In The Usa/Songs/Bruce Springsteen - Pink Cadillac.pdf",
+        "file_size_bytes": 1425504,
+        "page_range": [
+          66,
+          71
+        ]
+      }
+    ]
+  }
+}

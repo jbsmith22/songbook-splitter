@@ -1,0 +1,404 @@
+{
+  "book_id": "2240a6b923e9ef6b",
+  "toc": {
+    "entries": [
+      {
+        "song_title": "ALFIE",
+        "page_number": 38,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(There's) ALWAYS SOMETHING THERE TO REMIND ME",
+        "page_number": 99,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ANY DAY NOW",
+        "page_number": 21,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ANYONE WHO HAD A HEART",
+        "page_number": 116,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE APRIL FOOLS",
+        "page_number": 64,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ARTHUR'S THEME (Best That You Can Do)",
+        "page_number": 104,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "BLUE GUITAR",
+        "page_number": 87,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "(They Long To Be) CLOSE TO YOU",
+        "page_number": 74,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DON'T MAKE ME OVER",
+        "page_number": 28,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "DO YOU KNOW THE WAY TO SAN JOSE",
+        "page_number": 24,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE GREEN GRASS STARTS TO GROW",
+        "page_number": 136,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "HEARTLIGHT",
+        "page_number": 43,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "A HOUSE IS NOT A HOME",
+        "page_number": 78,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I'LL NEVER FALL IN LOVE AGAIN",
+        "page_number": 60,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "I SAY A LITTLE PRAYER",
+        "page_number": 56,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE LOOK OF LOVE",
+        "page_number": 9,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MAKING LOVE",
+        "page_number": 121,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MAKE IT EASY ON YOURSELF",
+        "page_number": 148,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE MAN WHO SHOT LIBERTY VALANCE",
+        "page_number": 48,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MESSAGE TO MICHAEL",
+        "page_number": 131,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "MY LITTLE RED BOOK (All I Do Is Talk About You)",
+        "page_number": 106,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ONE LESS BELL TO ANSWER",
+        "page_number": 140,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ONLY LOVE CAN BREAK A HEART",
+        "page_number": 53,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "ON MY OWN",
+        "page_number": 82,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PAPER MACHE",
+        "page_number": 94,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "PROMISES, PROMISES",
+        "page_number": 124,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "RAINDROPS KEEP FALLIN' ON MY HEAD",
+        "page_number": 14,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "REACH OUT FOR ME",
+        "page_number": 128,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THAT'S WHAT FRIENDS ARE FOR",
+        "page_number": 31,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THIS GUY'S IN LOVE WITH YOU",
+        "page_number": 144,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TRAINS AND BOATS AND PLANES",
+        "page_number": 90,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "TWENTY FOUR HOURS FROM TULSA",
+        "page_number": 112,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WALK ON BY",
+        "page_number": 16,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WIVES AND LOVERS",
+        "page_number": 67,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHAT THE WORLD NEEDS NOW IS LOVE",
+        "page_number": 18,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WHOEVER YOU ARE, I LOVE YOU",
+        "page_number": 102,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "THE WINDOWS OF THE WORLD",
+        "page_number": 158,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WISHIN' AND HOPIN'",
+        "page_number": 34,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "WIVES AND LOVERS",
+        "page_number": 153,
+        "artist": null,
+        "confidence": 0.9
+      },
+      {
+        "song_title": "YOU'LL NEVER GET TO HEAVEN (If You Break My Heart)",
+        "page_number": 72,
+        "artist": null,
+        "confidence": 0.9
+      }
+    ],
+    "extraction_method": "bedrock_vision",
+    "confidence": 0.9,
+    "artist_overrides": {}
+  },
+  "output": {
+    "output_files": [
+      {
+        "song_title": "THE LOOK OF LOVE",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - The Look Of Love.pdf",
+        "file_size_bytes": 169816,
+        "page_range": [
+          3,
+          14
+        ]
+      },
+      {
+        "song_title": "ANY DAY NOW",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - Any Day Now.pdf",
+        "file_size_bytes": 58743,
+        "page_range": [
+          14,
+          17
+        ]
+      },
+      {
+        "song_title": "DO YOU KNOW THE WAY TO SAN JOSE",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - Do You Know The Way To San Jose.pdf",
+        "file_size_bytes": 59133,
+        "page_range": [
+          17,
+          21
+        ]
+      },
+      {
+        "song_title": "DON'T MAKE ME OVER",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - Don't Make Me Over.pdf",
+        "file_size_bytes": 45735,
+        "page_range": [
+          21,
+          24
+        ]
+      },
+      {
+        "song_title": "THAT'S WHAT FRIENDS ARE FOR",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - That's What Friends Are For.pdf",
+        "file_size_bytes": 53979,
+        "page_range": [
+          24,
+          27
+        ]
+      },
+      {
+        "song_title": "WISHIN' AND HOPIN'",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - Wishin' And Hopin'.pdf",
+        "file_size_bytes": 63937,
+        "page_range": [
+          27,
+          31
+        ]
+      },
+      {
+        "song_title": "ALFIE",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - Alfie.pdf",
+        "file_size_bytes": 61926,
+        "page_range": [
+          31,
+          35
+        ]
+      },
+      {
+        "song_title": "HEARTLIGHT",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - Heartlight.pdf",
+        "file_size_bytes": 75182,
+        "page_range": [
+          35,
+          41
+        ]
+      },
+      {
+        "song_title": "THE MAN WHO SHOT LIBERTY VALANCE",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - The Man Who Shot Liberty Valance.pdf",
+        "file_size_bytes": 82936,
+        "page_range": [
+          41,
+          46
+        ]
+      },
+      {
+        "song_title": "ONLY LOVE CAN BREAK A HEART",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - Only Love Can Break A Heart.pdf",
+        "file_size_bytes": 41042,
+        "page_range": [
+          46,
+          49
+        ]
+      },
+      {
+        "song_title": "I SAY A LITTLE PRAYER",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - I Say A Little Prayer.pdf",
+        "file_size_bytes": 77464,
+        "page_range": [
+          49,
+          53
+        ]
+      },
+      {
+        "song_title": "I'LL NEVER FALL IN LOVE AGAIN",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - I'll Never Fall In Love Again.pdf",
+        "file_size_bytes": 72482,
+        "page_range": [
+          53,
+          57
+        ]
+      },
+      {
+        "song_title": "THE APRIL FOOLS",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - The April Fools.pdf",
+        "file_size_bytes": 1276967,
+        "page_range": [
+          57,
+          146
+        ]
+      },
+      {
+        "song_title": "WIVES AND LOVERS",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - Wives And Lovers.pdf",
+        "file_size_bytes": 79734,
+        "page_range": [
+          146,
+          151
+        ]
+      },
+      {
+        "song_title": "THE WINDOWS OF THE WORLD",
+        "artist": "Burt Bacharach",
+        "output_uri": "s3://jsmith-output/Burt Bacharach/Burt Bacharach - Anthology/Songs/Burt Bacharach - The Windows Of The World.pdf",
+        "file_size_bytes": 1955353,
+        "page_range": [
+          151,
+          155
+        ]
+      }
+    ]
+  }
+}

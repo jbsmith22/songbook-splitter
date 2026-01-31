@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(git pull:*)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(py -c:*)",
+      "Bash(git add:*)"
     ]
   }
 }

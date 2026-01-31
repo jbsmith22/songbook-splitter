@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Bulk Buttons</title>
+    <style>
+        .pdf-card { padding: 10px; margin: 5px; border: 1px solid #ccc; }
+        .pdf-card.selected { border: 3px solid green; background: #f0fff0; }
+    </style>
+</head>
+<body>
+    <h1>Bulk Button Test</h1>
+    
+    <div>
+        <button onclick="selectAll()">Select All</button>
+        <button onclick="deselectAll()">Deselect All</button>
+        <span id="selected-count">0</span> selected
+    </div>
+    
+    <div class="pdf-card" id="pdf-0">
+        <input type="checkbox" id="checkbox-0" onchange="toggleSelection(0)"> PDF 0
+    </div>
+    <div class="pdf-card" id="pdf-1">
+        <input type="checkbox" id="checkbox-1" onchange="toggleSelection(1)"> PDF 1
+    </div>
+    <div class="pdf-card" id="pdf-2">
+        <input type="checkbox" id="checkbox-2" onchange="toggleSelection(2)"> PDF 2
+    </div>
+    
+    <script>
+        let selectedPdfs = new Set();
+        
+        window.toggleSelection = function(idx) {
+            const checkbox = document.getElementById(`checkbox-${idx}`);
+            const card = document.getElementById(`pdf-${idx}`);
+            
+            if (checkbox.checked) {
+                selectedPdfs.add(idx);
+                card.classList.add('selected');
+            } else {
+                selectedPdfs.delete(idx);
+                card.classList.remove('selected');
+            }
+            
+            updateSelectedCount();
+        }
+        
+        window.updateSelectedCount = function() {
+            document.getElementById('selected-count').textContent = selectedPdfs.size;
+        }
+        
+        window.selectAll = function() {
+            console.log('selectAll called');
+            for (let i = 0; i < 3; i++) {
+                const checkbox = document.getElementById(`checkbox-${i}`);
+                if (checkbox) {
+                    checkbox.checked = true;
+                    selectedPdfs.add(i);
+                    document.getElementById(`pdf-${i}`).classList.add('selected');
+                }
+            }
+            updateSelectedCount();
+            alert('Selected ' + selectedPdfs.size + ' PDFs');
+        }
+        
+        window.deselectAll = function() {
+            console.log('deselectAll called');
+            selectedPdfs.forEach(idx => {
+                const checkbox = document.getElementById(`checkbox-${idx}`);
+                if (checkbox) {
+                    checkbox.checked = false;
+                    document.getElementById(`pdf-${idx}`).classList.remove('selected');
+                }
+            });
+            selectedPdfs.clear();
+            updateSelectedCount();
+        }
+    </script>
+</body>
+</html>

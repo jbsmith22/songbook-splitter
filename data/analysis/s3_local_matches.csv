@@ -1,0 +1,564 @@
+local_artist,local_book,local_song_count,s3_artist,s3_book,s3_song_count,match_pct,match_quality,matches,local_only,s3_only,other_candidates
+Acdc,ACDC - Anthology,3,Acdc,Anthology,3,1.0,PERFECT,3,0,0,1
+Adele,Adele - 19 _PVG Book_,12,Adele,19 [pvg Book],12,1.0,PERFECT,12,0,0,0
+Aerosmith,Aerosmith - Greatest Hits _Songbook_,15,Aerosmith,Greatest Hits (songbook),15,1.0,PERFECT,15,0,0,0
+Allman Brothers,Allman Brothers - Allman Brothers Band _PVG_,15,Allman Brothers,Allman Brothers Band [pvg],15,1.0,PERFECT,15,0,0,2
+Allman Brothers,Allman Brothers - Band Best _Score_,8,Allman Brothers,Band Best [score],8,1.0,PERFECT,8,0,0,2
+Allman Brothers,Allman Brothers - Best Of _PVG_,28,Allman Brothers,Best Of [pvg],28,1.0,PERFECT,28,0,0,1
+America,America - America _PVG Book_,12,America,America - Greatest Hits,7,0.5833333333333334,PARTIAL,7,5,0,0
+America,America - Greatest Hits,12,America,America - Greatest Hits,7,0.5833333333333334,PARTIAL,7,5,0,0
+America,America - Greatest Hits [Book],4,America,America - Greatest Hits [book],7,1.0,PERFECT,4,0,0,0
+America,America - Greatest Hits _Book_,4,America,America - Greatest Hits [book],7,1.0,PERFECT,4,0,0,0
+Asia,Asia - Alpha _PVG Book_,11,Asia,Asia - Alpha [pvg Book],4,0.36363636363636365,POOR,4,7,0,0
+Avril Lavigne,Avril Lavigne - The Best Damn Thing _PVG Book_,12,Avril Lavigne,Avril Lavigne - The Best Damn Thing [pvg Book],4,0.3333333333333333,POOR,4,8,0,0
+Barry Manilow,Barry Manilow - Anthology,52,Barry Manilow,Anthology,53,1.0,PERFECT,52,0,1,0
+Barry Manilow,Barry Manilow - Barry Manilow _PVG Book_,13,Barry Manilow,Barry Manilow - Barry Manilow [pvg Book],7,0.5384615384615384,PARTIAL,7,6,0,0
+Beatles,Beatles - 100 Hits For All Keyboards,48,Beatles,Beatles - Complete Scores,167,0.5833333333333334,PARTIAL,28,20,139,1
+Beatles,Beatles - Abbey Road,19,Beatles,Beatles - Complete Scores,167,0.631578947368421,PARTIAL,12,7,155,0
+Beatles,Beatles - Abbey Road Guitar Recorded Version,18,Beatles,Beatles - Complete Scores,167,0.8333333333333334,GOOD,15,3,152,4
+Beatles,Beatles - All Songs 1962-1974,199,Beatles,Beatles - Complete Scores,167,0.7035175879396985,PARTIAL,140,59,27,1
+Beatles,Beatles - Anthology,199,Beatles,Beatles - Complete Scores,167,0.7035175879396985,PARTIAL,140,59,27,1
+Beatles,Beatles - Anthology 1,18,Beatles,Beatles - Anthology 1,10,0.5555555555555556,PARTIAL,10,8,0,3
+Beatles,Beatles - Anthology 1 _113 pages_,26,Beatles,Beatles - Anthology 1 (113 Pages),20,0.7307692307692307,PARTIAL,19,7,1,2
+Beatles,Beatles - Anthology 2 page_01_-_40,9,Beatles,Beatles - Complete Scores,167,0.7777777777777778,PARTIAL,7,2,160,3
+Beatles,Beatles - Anthology 2 page_41_-72,1,Beatles,Beatles - Anthology 2 (page 41 -72),1,1.0,PERFECT,1,0,0,0
+Beatles,Beatles - Anthology 2 page_73_-112,1,Beatles,Beatles - 100 Hits For All Keyboards,34,1.0,PERFECT,1,0,33,2
+Beatles,Beatles - Anthology 3 _page 37 - 79,1,Beatles,Beatles - Anthology 3 (page 37 - 79,1,1.0,PERFECT,1,0,0,3
+Beatles,Beatles - Anthology 3 page_01_-_36,8,Beatles,Beatles - Anthology 3 (page 01 - 36),4,0.5,PARTIAL,4,4,0,2
+Beatles,Beatles - Anthology 3 page_80_-_111,1,Beatles,Beatles - Abbey Road,7,1.0,PERFECT,1,0,6,5
+Beatles,Beatles - Beatlemania 1963-1966,34,Beatles,Beatles - Complete Scores (2),160,0.6764705882352942,PARTIAL,23,11,137,1
+Beatles,Beatles - Complete Scores,210,Beatles,Beatles - Complete Scores,167,0.7952380952380952,PARTIAL,167,43,0,1
+Beatles,Beatles - Complete Scores _2_,210,Beatles,Beatles - Complete Scores,167,0.7952380952380952,PARTIAL,167,43,0,1
+Beatles,Beatles - Essential Songs,96,Beatles,Beatles - Complete Scores (2),160,0.7291666666666666,PARTIAL,70,26,90,2
+Beatles,Beatles - Fake Songbook _Guitar_,178,Beatles,Beatles - Fake Songbook (guitar),121,0.6685393258426966,PARTIAL,119,59,2,2
+Beatles,Beatles - Joy Of Beatles,1,Beatles,Beatles - Anthology 1 (113 Pages),20,1.0,PERFECT,1,0,19,4
+Beatles,Beatles - Live At The Hollywood Bowl,12,Beatles,Beatles - Complete Scores (2),160,0.75,PARTIAL,9,3,151,1
+Beatles,Beatles - Live At The Hollywood Bowl _2_,12,Beatles,Beatles - Complete Scores (2),160,0.75,PARTIAL,9,3,151,1
+Beatles,Beatles - Revolver,14,Beatles,Beatles - Complete Scores (2),160,0.7142857142857143,PARTIAL,10,4,150,4
+Beatles,Beatles - Revolver _2_,14,Beatles,Beatles - Complete Scores (2),160,0.7142857142857143,PARTIAL,10,4,150,4
+Beatles,Beatles - Rubber Soul,13,Beatles,Beatles - Complete Scores,167,0.8461538461538461,GOOD,11,2,156,2
+Beatles,Beatles - Sergeant Peppers Lonely Hearts Club Band,1,Beatles,Beatles - Complete Scores (2),160,1.0,PERFECT,1,0,159,2
+Beatles,Beatles - Singles Collection _PVG_,26,Beatles,Beatles - Complete Scores (2),160,0.8461538461538461,GOOD,22,4,138,6
+Beatles,Beatles - Songbook,194,Beatles,Beatles - Complete Scores,167,0.7061855670103093,PARTIAL,137,57,30,1
+Beatles,Beatles - White Album 1 _Guitar Recorded Version_,1,Beatles,Beatles - 100 Hits For All Keyboards,34,1.0,PERFECT,1,0,33,2
+Bee Gees,Bee Gees - Anthology,1,Bee Gees,Bee Gees - Anthology,1,1.0,PERFECT,1,0,0,0
+Belinda Carlisle,Belinda Carlisle - 5 Of The Best _PVG_,5,Belinda Carlisle,Belinda Carlisle - 5 Of The Best [pvg],3,0.6,PARTIAL,3,2,0,0
+Ben Folds,Ben Folds - Rockin The Suburbs _Book_,1,Ben Folds,Ben Folds - Rockin' The Suburbs [book],1,1.0,PERFECT,1,0,0,1
+Ben Folds,Ben Folds - Rockin' The Suburbs [Book],1,Ben Folds,Ben Folds - Rockin' The Suburbs [book],1,1.0,PERFECT,1,0,0,1
+Ben Folds,Ben Folds - Songs For Silverman,13,Ben Folds,Songs For Silverman,13,0.8461538461538461,GOOD,11,2,2,1
+Ben Folds,Ben Folds - Songs For The Silverman,13,Ben Folds,Songs For Silverman,13,0.8461538461538461,GOOD,11,2,2,1
+Ben Folds,Ben Folds Five - Rockin The Suburbs,12,Ben Folds,Ben Folds Five - Rockin' The Suburbs,8,0.5833333333333334,PARTIAL,7,5,1,0
+Ben Folds,Ben Folds Five - Selections From Naked Baby Photos _Score_,15,Ben Folds,Ben Folds Five - Selections From Naked Baby Photos [score],18,0.9333333333333333,GOOD,14,1,4,0
+Ben Folds,Ben Folds Five - Whatever And Ever Amen _Book_,12,Ben Folds,Ben Folds Five - Whatever And Ever Amen [book],15,0.9166666666666666,GOOD,11,1,4,0
+Billy Joel,Billy Joel - 52nd Street,9,Billy Joel,52nd Street,9,1.0,PERFECT,9,0,0,1
+Billy Joel,Billy Joel - Anthology,29,Billy Joel,Billy Joel - Anthology,29,1.0,PERFECT,29,0,0,0
+Billy Joel,Billy Joel - Best Of Piano Solos,13,Billy Joel,Best Of Piano Solos,13,1.0,PERFECT,13,0,0,3
+Billy Joel,Billy Joel - Complete Vol 1,47,Billy Joel,Complete Vol 1,47,0.851063829787234,GOOD,40,7,7,0
+Billy Joel,Billy Joel - Complete Vol 2,48,Billy Joel,Complete Vol 2,48,0.8125,GOOD,39,9,9,0
+Billy Joel,Billy Joel - Fantasies And Delusions,11,Billy Joel,Billy Joel - Fantasies & Delusions,11,1.0,PERFECT,11,0,0,0
+Billy Joel,Billy Joel - For Advanced Piano,11,Billy Joel,For Advanced Piano,11,1.0,PERFECT,11,0,0,7
+Billy Joel,Billy Joel - Glass Houses,10,Billy Joel,Billy Joel - Glass Houses,10,1.0,PERFECT,10,0,0,1
+Billy Joel,Billy Joel - Greatest Hits,21,Billy Joel,Billy Joel - Greatest Hits,21,1.0,PERFECT,21,0,0,3
+Billy Joel,Billy Joel - Greatest Hits Vol I And II,21,Billy Joel,Billy Joel - Greatest Hits,21,1.0,PERFECT,21,0,0,3
+Billy Joel,Billy Joel - Greatest Hits Vol III,1,Billy Joel,Greatest Hits Vol Iii,1,1.0,PERFECT,1,0,0,1
+Billy Joel,Billy Joel - Keyboard Book,15,Billy Joel,Billy Joel - Keyboard Book,15,1.0,PERFECT,15,0,0,5
+Billy Joel,Billy Joel - My Lives,72,Billy Joel,My Lives,72,0.6666666666666666,PARTIAL,48,24,24,0
+Billy Joel,Billy Joel - Rock Score,8,Billy Joel,Rock Score,8,1.0,PERFECT,8,0,0,4
+Billy Joel,Billy Joel - Songs In The Attic,11,Billy Joel,Songs In The Attic,11,1.0,PERFECT,11,0,0,2
+Billy Joel,Billy Joel - Turnstiles,8,Billy Joel,Billy Joel - Turnstiles,8,1.0,PERFECT,8,0,0,1
+Billy Joel,Billy Joel Greatest Hits Vols 1 And 2,11,Billy Joel,Billy Joel Greatest Hits Vols 1 And 2,12,1.0,PERFECT,11,0,1,7
+Billy Ocean,Billy Ocean - The Best Of,10,Billy Ocean,Billy Ocean - The Best Of,5,0.5,PARTIAL,5,5,0,0
+Black Eyed Peas,Black Eyed Peas - Elephunk _PVG Book_,11,Black Eyed Peas,Black Eyed Peas - Elephunk [pvg Book],8,0.7272727272727273,PARTIAL,8,3,0,0
+Blues Brothers,Blues Brothers - Complete,12,Blues Brothers,Blues Brothers - Complete,6,0.5,PARTIAL,6,6,0,0
+Bob Dylan,Bob Dylan - Anthology,46,Bob Dylan,Bob Dylan - Anthology,43,0.9130434782608695,GOOD,42,4,1,1
+Bob Dylan,Bob Dylan - Anthology 1,46,Bob Dylan,Bob Dylan - Anthology,43,0.9130434782608695,GOOD,42,4,1,1
+Bob Dylan,Bob Dylan - Anthology 2,51,Bob Dylan,Bob Dylan - Anthology 2,49,0.9411764705882353,GOOD,48,3,1,1
+Bob Dylan,Bob Dylan - Basement Tapes _PVG_,24,Bob Dylan,Basement Tapes [pvg],24,0.75,PARTIAL,18,6,6,0
+Bob Dylan,Bob Dylan - Blonde On Blonde,13,Bob Dylan,Blonde On Blonde,13,0.9230769230769231,GOOD,12,1,1,0
+Bob Dylan,Bob Dylan - Collection,47,Bob Dylan,Bob Dylan - Anthology,43,0.8085106382978723,GOOD,38,9,5,1
+Bob Dylan,Bob Dylan - Desire,9,Bob Dylan,Desire,9,0.3333333333333333,POOR,3,6,6,0
+Bob Dylan,Bob Dylan - Finger Picking,14,Bob Dylan,Finger Picking,14,0.8571428571428571,GOOD,12,2,2,1
+Bob Dylan,Bob Dylan - Highway 61 Revisited,10,Bob Dylan,Highway 61 Revisited,10,1.0,PERFECT,10,0,0,2
+Bob Dylan,Bob Dylan - Nashville Skyline,1,Bob Dylan,Bob Dylan - Nashville Skyline,1,1.0,PERFECT,1,0,0,0
+Bob Dylan,Bob Dylan - Rock Score,6,Bob Dylan,Rock Score,6,1.0,PERFECT,6,0,0,7
+Bob Dylan,Bob Dylan - Saved,8,Bob Dylan,Saved,8,0.875,GOOD,7,1,1,0
+Bob Dylan,Bob Dylan - Songbook,47,Bob Dylan,Songbook,47,0.9574468085106383,EXCELLENT,45,2,2,0
+Bob Dylan,Bob Dylan - The Harp Styles Of Bob Dylan _Harmonica_,12,Bob Dylan,The Harp Styles Of Bob Dylan [harmonica],12,1.0,PERFECT,12,0,0,3
+Bob Seger,Bob Seger - Greatest Hits,14,Bob Seger,Greatest Hits,14,0.8571428571428571,GOOD,12,2,2,0
+Bob Seger,Bob Seger - The New Best Of Bob Seger,5,Bob Seger,Greatest Hits,14,0.8,GOOD,4,1,10,2
+Bon Jovi,Bon Jovi - Best Of Bon Jovi,19,Bon Jovi,Bon Jovi - Best Of Bon Jovi,18,0.8947368421052632,GOOD,17,2,1,0
+Bonnie Raitt,Bonnie Raitt - Nick Of Time _PVG Book_,1,Bonnie Raitt,Bonnie Raitt - Nick Of Time [pvg Book],1,1.0,PERFECT,1,0,0,1
+Bonnie Raitt,Bonnie Raitt - Road Tested _PVG Book_,22,Bonnie Raitt,Bonnie Raitt - Road Tested [pvg Book],7,0.22727272727272727,POOR,5,17,2,0
+Bonnie Tyler,Bonnie Tyler - Hot Songs,7,Bonnie Tyler,Bonnie Tyler - Hot Songs,3,0.42857142857142855,POOR,3,4,0,0
+Bread,Bread - Best Of Bread,4,,,0,0.0,NO MATCH,0,4,0,0
+Bruce Springsteen,Bruce Springsteen - Born In The USA,13,Bruce Springsteen,Born In The Usa,13,1.0,PERFECT,13,0,0,0
+Bruce Springsteen,Bruce Springsteen - Born To Run,8,Bruce Springsteen,Bruce Springsteen - Born To Run,7,0.875,GOOD,7,1,0,0
+Bruce Springsteen,Bruce Springsteen - Greatest Hits,13,Bruce Springsteen,Born In The Usa,13,0.23076923076923078,POOR,3,10,10,0
+Bruce Springsteen,Bruce Springsteen - Lucky Town,9,Bruce Springsteen,Lucky Town,9,1.0,PERFECT,9,0,0,0
+Buddy Holly,Buddy Holly - Golden Anniversary Songbook,28,Buddy Holly,Buddy Holly - Golden Anniversary Songbook,9,0.2857142857142857,POOR,8,20,1,0
+Burl Ives,Burl Ives - Song Book,106,Burl Ives,Burl Ives - Song Book,60,0.42452830188679247,POOR,45,61,15,0
+Burt Bacharach,Burt Bacharach - 40 Golden Songs Of,40,Burt Bacharach,Burt Bacharach - 40 Golden Songs Of,29,0.675,PARTIAL,27,13,2,0
+Burt Bacharach,Burt Bacharach - Anthology,33,Burt Bacharach,Anthology,33,0.45454545454545453,POOR,15,18,18,0
+Burt Bacharach,Burt Bacharach - Bacharach Collection,15,Burt Bacharach,Anthology,33,0.3333333333333333,POOR,5,10,28,0
+Carole King,Carole King - Bradleys Best Of The Best _Organ_,13,Carole King,Carole King - Classics (2),30,0.6153846153846154,PARTIAL,8,5,22,2
+Carole King,Carole King - Classics,21,Carole King,Carole King - Classics (2),30,0.8095238095238095,GOOD,17,4,13,2
+Carole King,Carole King - Classics _2_,35,Carole King,Carole King - Classics (2),30,0.8571428571428571,GOOD,30,5,0,1
+Carole King,Carole King - Classics _3_,35,Carole King,Carole King - Classics (2),30,0.8571428571428571,GOOD,30,5,0,1
+Carole King,Carole King - Keyboard Play-Along Vol 22,8,Carole King,Carole King - Classics (2),30,0.625,PARTIAL,5,3,25,2
+Carole King,Carole King - Tapestry,12,Carole King,Carole King - Classics (2),30,0.75,PARTIAL,9,3,21,6
+Carole King,Carole King - The New Best Of Carole King,19,Carole King,Carole King - Classics (2),30,0.5789473684210527,PARTIAL,11,8,19,0
+Carole King,Carole King - Youre The Voice,11,Carole King,Carole King - Classics (2),30,0.7272727272727273,PARTIAL,8,3,22,2
+Carpenters,Carpenters - Anthology,43,Carpenters,Carpenters - Anthology,21,0.46511627906976744,POOR,20,23,1,0
+Carpenters,Carpenters - Love Songs,22,Carpenters,Carpenters - Love Songs,19,0.8636363636363636,GOOD,19,3,0,0
+Carpenters,Carpenters - Note For Note,11,Carpenters,Carpenters - Love Songs,19,0.6363636363636364,PARTIAL,7,4,12,0
+Cheap Trick,Cheap Trick - Greatest Hits _Score_,1,Cheap Trick,Cheap Trick - Greatest Hits [score],1,1.0,PERFECT,1,0,0,0
+Colbie Caillat,Colbie Caillat - Breakthrough _PVG Book_,13,Colbie Caillat,Breakthrough [pvg Book],13,0.07692307692307693,POOR,1,12,12,0
+Cole Porter,Cole Porter - The Very Best Of Cole Porter,38,Cole Porter,Cole Porter - The Very Best Of Cole Porter,34,0.8947368421052632,GOOD,34,4,0,1
+Cream,Cream - Cream Complete,25,Cream,Cream - Cream Complete,20,0.8,GOOD,20,5,0,0
+Creedence Clearwater Revival,Creedence Clearwater Revival - 8 Pcs Book,8,Creedence Clearwater Revival,Creedence Clearwater Revival - 8 Pcs Book,5,0.625,PARTIAL,5,3,0,1
+Creedence Clearwater Revival,Creedence Clearwater Revival - Best Of,20,Creedence Clearwater Revival,Creedence Clearwater Revival - Best Of,13,0.65,PARTIAL,13,7,0,0
+Creedence Clearwater Revival,Creedence Clearwater Revival - Guitar Anthology,20,Creedence Clearwater Revival,Creedence Clearwater Revival - Guitar Tab Book,7,0.35,POOR,7,13,0,0
+Creedence Clearwater Revival,Creedence Clearwater Revival - Guitar Tab Book,7,Creedence Clearwater Revival,Creedence Clearwater Revival - Guitar Tab Book,7,1.0,PERFECT,7,0,0,0
+Creedence Clearwater Revival,Creedence Clearwater Revival - Ultimate Minus One,7,Creedence Clearwater Revival,Creedence Clearwater Revival - Best Of,13,0.5714285714285714,PARTIAL,4,3,9,1
+Crosby Stills And Nash,Crosby Stills Nash And Young - Deja Vu _PVG Book_,21,Crosby Stills And Nash,Crosby Stills Nash & Young - Deja Vu [pvg Book],32,0.47619047619047616,POOR,10,11,22,0
+Crowded House,Crowded House - The Very Best Of _PVG Book_,19,Crowded House,Crowded House - The Very Best Of [pvg Book],7,0.3684210526315789,POOR,7,12,0,0
+Crowded House,Crowded House - Together Alone _PVG Book_,13,Crowded House,Crowded House - Together Alone [pvg Book],6,0.46153846153846156,POOR,6,7,0,0
+David Crosby,David Crosby - Songbook _Lead Sheets_,1,David Crosby,David Crosby - Songbook [lead Sheets],1,1.0,PERFECT,1,0,0,1
+Dire Straits,Dire Straits - Best Of Dire Straits _Guitar Tab_,22,Dire Straits,Dire Straits - Best Of Dire Straits [guitar Tab],6,0.22727272727272727,POOR,5,17,1,0
+Dire Straits,Dire Straits - Brothers In Arms,9,Dire Straits,Dire Straits - Brothers In Arms,9,1.0,PERFECT,9,0,0,0
+Dire Straits,Dire Straits - Jam With Dire Straits _Guitar Book_,8,Dire Straits,Dire Straits - Jam With Dire Straits [guitar Book],5,0.625,PARTIAL,5,3,0,0
+Dire Straits,Dire Straits - Money For Nothing _Guitar Book_,1,Dire Straits,Dire Straits - Jam With Dire Straits [guitar Book],5,1.0,PERFECT,1,0,4,3
+Don Henley,Don Henley - Actual Miles _Greatest Hits_,3,Don Henley,Don Henley - Actual Miles (greatest Hits),3,1.0,PERFECT,3,0,0,0
+Don Henley,Don Henley - The End Of The Innocence _PVG Book_,10,Don Henley,Don Henley - The End Of The Innocence [pvg Book],5,0.5,PARTIAL,5,5,0,0
+Doobie Brothers,Doobie Brothers - Best Of _Band Score Jap_,1,Doobie Brothers,Doobie Brothers - Best Of [band Score Jap],1,1.0,PERFECT,1,0,0,0
+Doobie Brothers,Doobie Brothers - Songs,9,Doobie Brothers,Doobie Brothers - Songs,4,0.4444444444444444,POOR,4,5,0,0
+Doors,Doors - Anthology,12,Doors,Doors - Anthology,7,0.5833333333333334,PARTIAL,7,5,0,0
+Doors,Doors - Songbook,6,Doors,Doors - Songbook,2,0.3333333333333333,POOR,2,4,0,0
+Dr John,Dr John - New Orleans Piano Vol 2,3,,,0,0.0,NO MATCH,0,3,0,0
+Duran Duran,Duran Duran - Best Of _Score_,12,Duran Duran,Best Of [score],19,0.6666666666666666,PARTIAL,8,4,11,0
+Duran Duran,Duran Duran - Decade _PVG Book_,15,Duran Duran,Duran Duran - Decade [pvg Book],6,0.4,POOR,6,9,0,0
+Duran Duran,Duran Duran - Seven And The Ragged Tiger _Jap Band Score_,8,Duran Duran,Best Of [score],19,0.5,PARTIAL,4,4,15,1
+Eagles,Eagles - Greatest Hits,10,Eagles,Eagles - New Eagles Complete,27,0.5,PARTIAL,5,5,22,0
+Eagles,Eagles - Greatest Hits _1971-1975_,10,Eagles,Eagles - New Eagles Complete,27,0.5,PARTIAL,5,5,22,0
+Eagles,Eagles - Hotel California _Guitar Songbook_,1,Eagles,Eagles - Hotel California (guitar Songbook),1,1.0,PERFECT,1,0,0,0
+Eagles,Eagles - Made Easy For Guitar,6,Eagles,Eagles - Made Easy For Guitar,4,0.6666666666666666,PARTIAL,4,2,0,1
+Eagles,Eagles - New Eagles Complete,67,Eagles,Eagles - New Eagles Complete,27,0.3880597014925373,POOR,26,41,1,0
+Eagles,Eagles - The Best Of The Eagles - Songbook,12,Eagles,Eagles - New Eagles Complete,27,0.4166666666666667,POOR,5,7,22,0
+Elo,ELO - A New World Record,7,Elo,Anthology [pvg],32,0.8571428571428571,GOOD,6,1,26,0
+Elo,ELO - Greatest Hits,2,Elo,Elo - Greatest Hits,2,1.0,PERFECT,2,0,0,2
+Elo,Elo - Anthology _PVG_,32,Elo,Anthology [pvg],32,1.0,PERFECT,32,0,0,0
+Elo,Elo - Discovery _PVG Book_,1,Elo,Elo - Discovery [pvg Book],7,1.0,PERFECT,1,0,6,0
+Elo,Elo - Face The Music _PVG Bok_,2,Elo,Elo - Face The Music [pvg Bok],2,1.0,PERFECT,2,0,0,2
+Elo,Elo - Out Of The Blue _Book_,1,Elo,Anthology [pvg],32,1.0,PERFECT,1,0,31,1
+Elo,Elton John - The Elton John Collection [Piano Solos],29,Elo,Elton John - The Elton John Collection [piano Solos],29,1.0,PERFECT,29,0,0,0
+Elton John,Elton John - A Single Man,10,Elton John,Elton John - A Single Man,6,0.6,PARTIAL,6,4,0,0
+Elton John,Elton John - Captain Fantastic,1,,,0,0.0,NO MATCH,0,1,0,0
+Elton John,Elton John - Goodbye Yellow Brick Road,2,Elton John,Elton John - Goodbye Yellow Brick Road,2,1.0,PERFECT,2,0,0,0
+Elton John,Elton John - Greatest Hits 1970-2002,30,Elton John,Elton John - Greatest Hits 1970-2002,19,0.6333333333333333,PARTIAL,19,11,0,1
+Elton John,Elton John - Ice On Fire,12,Elton John,Elton John - Ice On Fire,6,0.5,PARTIAL,6,6,0,0
+Elton John,Elton John - Made In England,11,Elton John,Elton John - Made In England,7,0.6363636363636364,PARTIAL,7,4,0,0
+Elton John,Elton John - Peachtree Road,10,Elton John,Elton John - Peachtree Road,5,0.5,PARTIAL,5,5,0,0
+Elton John,Elton John - Reg Strikes Back,9,Elton John,Elton John - Reg Strikes Back,4,0.4444444444444444,POOR,4,5,0,0
+Elton John,Elton John - Sleeping With The Past,1,Elton John,Elton John - Sleeping With The Past,1,1.0,PERFECT,1,0,0,0
+Elton John,Elton John - Songs From The West Coast,3,Elton John,Elton John - Songs From The West Coast,2,0.6666666666666666,PARTIAL,2,1,0,0
+Elton John,Elton John - The Big Picture,3,Elton John,Elton John - The Big Picture,2,0.6666666666666666,PARTIAL,2,1,0,0
+Elton John,Elton John - The Elton John Collection _Piano Solos_,22,Elton John,Greatest Hits 1970-2002,30,0.45454545454545453,POOR,10,12,20,0
+Elton John,Elton John - The One,5,Elton John,Elton John - The One,5,1.0,PERFECT,5,0,0,0
+Elton John,Elton John - The Ultimate Collection Vol 1,59,Elton John,Greatest Hits 1970-2002,30,0.15254237288135594,POOR,9,50,21,0
+Elton John,Elton John - The Ultimate Collection Vol 2,29,Elton John,Elton John - Greatest Hits 1970-2002,19,0.1724137931034483,POOR,5,24,14,0
+Elton John,Elton John - The Very Best Of,1,Elton John,Elton John - Greatest Hits 1970-2002,19,1.0,PERFECT,1,0,18,3
+Elton John,Elton John - Too Low For Zero _Book_,10,Elton John,Too Low For Zero [book],10,1.0,PERFECT,10,0,0,1
+Elvis Costello,Elvis Costello - The Very Best Of,42,Elvis Costello,The Very Best Of,42,1.0,PERFECT,42,0,0,0
+Emerson Lake And Palmer,Emerson Lake And Palmer - Black Book,2,Emerson Lake And Palmer,Black Book,2,1.0,PERFECT,2,0,0,4
+Emerson Lake And Palmer,Emerson Lake And Palmer - Greatest Hits,10,Emerson Lake And Palmer,Greatest Hits,10,1.0,PERFECT,10,0,0,1
+Emerson Lake And Palmer,Emerson Lake And Palmer - Tarkus _Book_,13,Emerson Lake And Palmer,Tarkus [book],13,1.0,PERFECT,13,0,0,0
+Emerson Lake And Palmer,Emerson Lake And Palmer - Trilogy _Book_,7,Emerson Lake And Palmer,Trilogy [book],7,1.0,PERFECT,7,0,0,1
+Eric Clapton,Eric Clapton - Derek And The Dominos _Book_,14,Eric Clapton,Derek And The Dominos [book],14,1.0,PERFECT,14,0,0,1
+Eric Clapton,Eric Clapton - The Best Of Book,10,Eric Clapton,The Best Of Book,10,1.0,PERFECT,10,0,0,1
+Eric Clapton,Eric Clapton - Unplugged _Book_,14,Eric Clapton,Unplugged [book],14,1.0,PERFECT,14,0,0,0
+Fleetwood Mac,Fleetwood Mac - Anthology,27,Fleetwood Mac,Anthology,27,1.0,PERFECT,27,0,0,2
+Fleetwood Mac,Fleetwood Mac - Deluxe Anthology,42,Fleetwood Mac,Deluxe Anthology,42,1.0,PERFECT,42,0,0,0
+Fleetwood Mac,Fleetwood Mac - Fleetwood Mac Heroes Are Hard To Find,15,Fleetwood Mac,Fleetwood Mac + Heroes Are Hard To Find,15,1.0,PERFECT,15,0,0,2
+Fleetwood Mac,Fleetwood Mac - Mirage,12,Fleetwood Mac,Mirage,12,1.0,PERFECT,12,0,0,1
+Fleetwood Mac,Fleetwood Mac - Rumours,11,Fleetwood Mac,Deluxe Anthology,42,1.0,PERFECT,11,0,31,2
+Fleetwood Mac,Fleetwood Mac - Tango In The Night,12,Fleetwood Mac,Tango In The Night,12,1.0,PERFECT,12,0,0,0
+Fleetwood Mac,Fleetwood Mac - The Dance,13,Fleetwood Mac,The Dance,13,1.0,PERFECT,13,0,0,1
+Frank Zappa,Frank Zappa - Hot Rats,2,Frank Zappa,Frank Zappa - Hot Rats,2,1.0,PERFECT,2,0,0,0
+Frank Zappa,Frank Zappa - Songbook Vol 1,17,Frank Zappa,Songbook Vol 1,17,1.0,PERFECT,17,0,0,0
+Frank Zappa,Frank Zappa - The Frank Zappa Guitar Book _transcriptions By Steve Vai_,12,Frank Zappa,The Frank Zappa Guitar Book (transcriptions By Steve Vai),12,1.0,PERFECT,12,0,0,1
+Fray,Fray - How To Save A Life _Book_,3,Fray,Fray - How To Save A Life [book],2,0.6666666666666666,PARTIAL,2,1,0,0
+Garth Brooks,Garth Brooks - No Fences _Guitar Tab_,7,Garth Brooks,No Fences [guitar Tab],7,1.0,PERFECT,7,0,0,0
+Garth Brooks,Garth Brooks - The Hits _Guitar Tab_,1,Garth Brooks,Garth Brooks - The Hits [guitar Tab],1,1.0,PERFECT,1,0,0,1
+Garth Brooks,Garth Brooks - The Limited Series,21,Garth Brooks,The Limited Series,21,1.0,PERFECT,21,0,0,0
+Genesis,Genesis - A Trick Of The Tail _Book_,8,Genesis,A Trick Of The Tail [book],8,1.0,PERFECT,8,0,0,1
+Genesis,Genesis - Anthology,44,Genesis,Anthology,44,1.0,PERFECT,44,0,0,0
+Genesis,Genesis - Best Of Vol 1,10,Genesis,Best Of Vol 1,10,1.0,PERFECT,10,0,0,2
+Genesis,Genesis - Invisible Touch _Book_,8,Genesis,Invisible Touch [book],8,1.0,PERFECT,8,0,0,2
+Genesis,Genesis - Rock Score,4,Genesis,Anthology,44,1.0,PERFECT,4,0,40,5
+Genesis,Genesis - Seconds Out,8,Genesis,Seconds Out,8,1.0,PERFECT,8,0,0,1
+Genesis,Genesis - Selling England By The Pound,7,Genesis,Selling England By The Pound,7,1.0,PERFECT,7,0,0,1
+George Michael,George Michael - Greatest Hits,29,George Michael,Greatest Hits,29,1.0,PERFECT,29,0,0,0
+George Michael,George Michael - Older _Book_,11,George Michael,Older [book],11,1.0,PERFECT,11,0,0,2
+Grand Funk Railroad,Grand Funk - Closer To Home _PVG Book_,5,Grand Funk Railroad,Grand Funk - Closer To Home [pvg Book],5,1.0,PERFECT,5,0,0,0
+Grand Funk Railroad,Grand Funk - Were An American Band _PVG Book_,8,Grand Funk Railroad,Grand Funk - We're An American Band [pvg Book],8,1.0,PERFECT,8,0,0,2
+Grand Funk Railroad,Grand Funk Railroad - Born To Die _PVG Book_,10,Grand Funk Railroad,Born To Die [pvg Book],10,1.0,PERFECT,10,0,0,1
+Grand Funk Railroad,Grand Funk Railroad - Hits From Were An American Band Shinin On Phoenix _PVG_,23,Grand Funk Railroad,"Hits From We're An American Band, Shinin' On, Phoenix [pvg]",23,1.0,PERFECT,23,0,0,1
+Harry Chapin,Harry Chapin - The Authentic Guitar Style Of _Guitar Tab_,9,Harry Chapin,The Authentic Guitar Style Of [guitar Tab],9,1.0,PERFECT,9,0,0,0
+Henri Mancini,Henry Mancini - A Merry Mancini Christmas,13,Henri Mancini,Henry Mancini - A Merry Mancini Christmas,13,1.0,PERFECT,13,0,0,0
+Herman's Hermits,Hermans Hermits - Collection,8,,,0,0.0,NO MATCH,0,8,0,0
+Jackson Browne,Jackson Browne - Deluxe Anthology,39,Jackson Browne,Deluxe Anthology,39,1.0,PERFECT,39,0,0,1
+James Blunt,James Blunt - All The Lost Souls _Book_,10,James Blunt,All The Lost Souls [book],10,1.0,PERFECT,10,0,0,0
+James Blunt,James Blunt - Back To Bedlam _Book_,1,James Blunt,Back To Bedlam [book],1,1.0,PERFECT,1,0,0,1
+James Taylor,James Taylor - Classic _Guitar_,15,James Taylor,Classic [guitar],15,1.0,PERFECT,15,0,0,5
+James Taylor,James Taylor - Classics _guitar tab_,15,James Taylor,Classic [guitar],15,1.0,PERFECT,15,0,0,5
+James Taylor,James Taylor - Guitar Songbook,24,James Taylor,Guitar Songbook,24,1.0,PERFECT,24,0,0,3
+James Taylor,James Taylor - James Taylor Songbook,24,James Taylor,Guitar Songbook,24,1.0,PERFECT,24,0,0,3
+James Taylor,James Taylor - James Taylor _PVG Book_,21,James Taylor,James Taylor [pvg Book],21,1.0,PERFECT,21,0,0,3
+James Taylor,James Taylor - Thats Why Im Here _PVG Book_,10,James Taylor,That's Why I'm Here [pvg Book],10,1.0,PERFECT,10,0,0,1
+Jim Croce,Jim Croce - Acoustic Fingerstyle Video Guitar Lessons,1,Jim Croce,Acoustic Fingerstyle Video Guitar Lessons,1,1.0,PERFECT,1,0,0,1
+Jimmy Buffet,Jimmy Buffett - Barometer Soup _PVG Book_,9,Jimmy Buffet,Jimmy Buffett - Barometer Soup [pvg Book],9,1.0,PERFECT,9,0,0,0
+Jimmy Buffet,Jimmy Buffett - Fruitcakes _PVG Book_,9,Jimmy Buffet,Jimmy Buffett - Fruitcakes [pvg Book],9,1.0,PERFECT,9,0,0,0
+Joe Cocker,Joe Cocker - Best Of,16,Joe Cocker,Best Of,16,1.0,PERFECT,16,0,0,1
+Joe Cocker,Joe Cocker - Mad Dogs And Englishmen _Book_,16,Joe Cocker,Mad Dogs And Englishmen [book],16,1.0,PERFECT,16,0,0,1
+Joe Cocker,Joe Cocker - Songbook,1,Joe Cocker,Songbook,1,1.0,PERFECT,1,0,0,0
+John Denver,John Denver - Anthology,53,John Denver,Anthology,53,1.0,PERFECT,53,0,0,1
+John Denver,John Denver - Anthology _PVG_,53,John Denver,Anthology [pvg],53,1.0,PERFECT,53,0,0,1
+John Denver,John Denver - Back Home Again,18,John Denver,Best Of [easy Piano],18,1.0,PERFECT,18,0,0,3
+John Denver,John Denver - Best Of _Easy Piano_,18,John Denver,Best Of [easy Piano],18,1.0,PERFECT,18,0,0,3
+John Denver,John Denver - I Want To Live _PVG Book_,11,John Denver,I Want To Live [pvg Book],11,1.0,PERFECT,11,0,0,0
+John Denver,John Denver - The Authentic Guitar Style Of,12,John Denver,The Authentic Guitar Style Of,12,1.0,PERFECT,12,0,0,3
+John Lennon,John Lennon - Collection,3,John Lennon,Collection,3,0.6666666666666666,PARTIAL,2,1,1,1
+John Lennon,John Lennon - Greatest Hits,15,John Lennon,Greatest Hits,15,1.0,PERFECT,15,0,0,1
+Joni Mitchell,Joni Mitchell - The Best Of _PVG_,10,Joni Mitchell,The Best Of [pvg],10,1.0,PERFECT,10,0,0,2
+Joni Mitchell,Joni Mitchell Songbook Complete Vol1 1966-1970,28,Joni Mitchell,Joni Mitchell Songbook Complete Vol1 1966-1970,28,1.0,PERFECT,28,0,0,0
+Journey,Journey - Complete,68,Journey,Complete Songbook,68,1.0,PERFECT,68,0,0,1
+Journey,Journey - Complete Songbook,68,Journey,Complete Songbook,68,1.0,PERFECT,68,0,0,1
+Journey,Journey - Frontiers _Jap Band Score_,1,Journey,Frontiers [jap Band Score],1,1.0,PERFECT,1,0,0,5
+Journey,Journey - Greatest Hits,6,Journey,Greatest Hits,6,1.0,PERFECT,6,0,0,6
+Journey,Journey - Greatest Hits _Book_,5,Journey,Complete Songbook,68,1.0,PERFECT,5,0,63,6
+Journey,Journey - Superbest _Jap Band Score_,15,Journey,Superbest [jap Band Score],15,1.0,PERFECT,15,0,0,2
+Journey,Journey - The Guitar Collection,16,Journey,Complete Songbook,68,0.875,GOOD,14,2,54,3
+Judy Garland,Judy Garland - Songbook,13,Judy Garland,Songbook,13,1.0,PERFECT,13,0,0,0
+Katy Perry,Katy Perry - One Of The Boys _PVG Book_,12,Katy Perry,One Of The Boys [pvg Book],12,1.0,PERFECT,12,0,0,1
+Kelly Clarkson,Kelly Clarkson - Breakaway _Book_,5,Kelly Clarkson,Kelly Clarkson - Breakaway (book),4,0.8,GOOD,4,1,0,0
+Kenny Rogers,Kenny Rogers - Love Or Something Like It _Book_,10,Kenny Rogers,Love Or Something Like It [book],10,1.0,PERFECT,10,0,0,0
+Kinks,Kinks - Best Of The Kinks _Score_,12,Kinks,Best Of The Kinks [score],12,1.0,PERFECT,12,0,0,3
+Kinks,Kinks - Best Of _Score_,9,Kinks,Best Of The Kinks [score],12,1.0,PERFECT,9,0,3,3
+Kinks,Kinks - Great Songs Of Kinks,8,Kinks,Great Songs Of Kinks,8,1.0,PERFECT,8,0,0,4
+Kinks,Kinks - Guitar Legends [Tab],9,Kinks,Guitar Legends [guitar],9,1.0,PERFECT,9,0,0,2
+Kinks,Kinks - Guitar Legends _Guitar_,9,Kinks,Guitar Legends [guitar],9,1.0,PERFECT,9,0,0,2
+Kinks,Kinks - Guitar Legends _Tab_,9,Kinks,Guitar Legends [guitar],9,1.0,PERFECT,9,0,0,2
+Kinks,Kinks - Jam With The Kinks _Tab_,8,Kinks,Jam With The Kinks [tab],8,1.0,PERFECT,8,0,0,6
+Led Zepplin,Led Zeppelin - Led Zeppelin II,1,Led Zepplin,Led Zeppelin - Led Zeppelin Ii,1,1.0,PERFECT,1,0,0,0
+Led Zepplin,Led Zeppelin - Over The Hills And Far Away _PVG_,1,Led Zepplin,Led Zeppelin - Over The Hills And Far Away [pvg],1,1.0,PERFECT,1,0,0,0
+Lynyrd Skynyrd,Lynyrd Skynyrd - The New Best Of _Guitar Tab_,10,Lynyrd Skynyrd,Lynyrd Skynyrd - The New Best Of [guitar Tab],6,0.6,PARTIAL,6,4,0,1
+Meatloaf,MeatLoaf - Bat Out Of Hell,3,Meatloaf,Meatloaf - Bat Out Of Hell,2,0.6666666666666666,PARTIAL,2,1,0,0
+Melissa Etheridge,Melissa Etheridge - Songbook,10,Melissa Etheridge,Songbook,10,1.0,PERFECT,10,0,0,0
+Michael Jackson,Michael Jackson - Great Songs Of _PVG_,10,Michael Jackson,Great Songs Of [pvg],10,1.0,PERFECT,10,0,0,2
+Michael Jackson,Michael Jackson - Number Ones,18,Michael Jackson,Number Ones [book],18,1.0,PERFECT,18,0,0,2
+Michael Jackson,Michael Jackson - Number Ones _Book_,18,Michael Jackson,Number Ones [book],18,1.0,PERFECT,18,0,0,2
+Michael Jackson,Michael Jackson - The Great Songs Of,10,Michael Jackson,The Great Songs Of,10,1.0,PERFECT,10,0,0,2
+Michael Jackson,Michael Jackson - Thriller _The Complete Song Book_,10,Michael Jackson,Thriller (the Complete Song Book),10,1.0,PERFECT,10,0,0,0
+Monkees,Monkees - Greatest Hits,11,Monkees,Greatest Hits,11,1.0,PERFECT,11,0,0,0
+Moody Blues,Moody Blues - Greatest Hits _PVG_,11,Moody Blues,Greatest Hits [pvg],11,1.0,PERFECT,11,0,0,1
+Moody Blues,Moody Blues - Keys Of Kingdom _Band Score_,12,Moody Blues,Keys Of Kingdom [band Score],12,1.0,PERFECT,12,0,0,0
+Neil Diamond,Neil Diamond - The Essential Neil Diamond,40,Neil Diamond,The Essential Neil Diamond,40,1.0,PERFECT,40,0,0,0
+Neil Young,Neil Young - After The Goldrush _PVG Book_,10,Neil Young,After The Goldrush [pvg Book],10,1.0,PERFECT,10,0,0,0
+Neil Young,Neil Young - Decade,22,Neil Young,Decade [pvg Book],22,1.0,PERFECT,22,0,0,2
+Neil Young,Neil Young - Decade _PVG Book_,22,Neil Young,Decade [pvg Book],22,1.0,PERFECT,22,0,0,2
+Neil Young,Neil Young - Greatest Hits _Guitar Tab_,15,Neil Young,Greatest Hits [guitar Tab],15,1.0,PERFECT,15,0,0,3
+Neil Young,Neil Young - Harvest Moon _Guitar Tab_,10,Neil Young,Harvest Moon [guitar Tab],10,1.0,PERFECT,10,0,0,0
+Neil Young,Neil Young - Harvest _Score_,10,Neil Young,Harvest [score],10,1.0,PERFECT,10,0,0,1
+Neil Young,Neil Young - The Best Of Neil Young _PVG Book_,9,Neil Young,The Best Of Neil Young [pvg Book],9,1.0,PERFECT,9,0,0,0
+Night Ranger,Seven Wishes _jap Score_,10,Night Ranger,Night Ranger - Seven Wishes _jap Score_,10,1.0,PERFECT,10,0,0,1
+Paul Mccartney,Paul McCartney - All The Best,22,Paul Mccartney,All The Best,22,1.0,PERFECT,22,0,0,1
+Paul Mccartney,Paul McCartney - Flowers In The Dirt,14,Paul Mccartney,Flowers In The Dirt,14,1.0,PERFECT,14,0,0,0
+Paul Mccartney,Paul McCartney - Press To Play,14,Paul Mccartney,Press To Play,14,1.0,PERFECT,14,0,0,1
+Paul Mccartney,Paul McCartney - Ram,10,Paul Mccartney,Ram,10,1.0,PERFECT,10,0,0,1
+Paul Mccartney,Paul Mccartney - Chaos And Creation In The Backyard _PVG Book_,13,Paul Mccartney,Chaos And Creation In The Backyard [pvg Book],13,1.0,PERFECT,13,0,0,1
+Paul Mccartney,Paul Mccartney - Tripping The Live Fantastic _PVG Book_,38,Paul Mccartney,Tripping The Live Fantastic [pvg Book],38,1.0,PERFECT,38,0,0,0
+Paul Mccartney,Paul Mccartney - Tug Of War _PVG Book_,11,Paul Mccartney,Tug Of War [pvg Book],11,1.0,PERFECT,11,0,0,0
+Paul Simon,Paul Simon - Anthology,49,Paul Simon,Anthology,49,1.0,PERFECT,49,0,0,1
+Paul Simon,Simon And Garfunkels Greatest Hits,14,Paul Simon,Simon & Garfunkel's Greatest Hits,14,1.0,PERFECT,14,0,0,2
+Peter Frampton,Peter Frampton - The Best Of _Guitar Tab_,11,Peter Frampton,The Best Of [guitar Tab],11,1.0,PERFECT,11,0,0,1
+Pink,Pink - Funhouse _PVG_,1,Pink,Funhouse [pvg],1,1.0,PERFECT,1,0,0,0
+Pink,Pink - Im Not Dead _PVG Book_,10,Pink,I'm Not Dead [pvg Book],10,1.0,PERFECT,10,0,0,1
+Pink,Pink - Missundaztood _PVG Book_,1,Pink,Missundaztood [pvg Book],1,1.0,PERFECT,1,0,0,0
+Pink Floyd,Pink Floyd - Anthology - p110-175,1,Pink Floyd,Anthology (book),38,1.0,PERFECT,1,0,37,4
+Pink Floyd,Pink Floyd - Anthology - p58-109,1,Pink Floyd,Anthology (book),38,1.0,PERFECT,1,0,37,5
+Pink Floyd,Pink Floyd - Anthology _PVG_,38,Pink Floyd,Anthology (book),38,1.0,PERFECT,38,0,0,2
+Pink Floyd,Pink Floyd - Anthology _book_,38,Pink Floyd,Anthology (book),38,1.0,PERFECT,38,0,0,2
+Pink Floyd,Pink Floyd - Dark Side Of The Moon,1,Pink Floyd,Dark Side Of The Moon (2),1,1.0,PERFECT,1,0,0,3
+Pink Floyd,Pink Floyd - Dark Side Of The Moon _2_,1,Pink Floyd,Dark Side Of The Moon (2),1,1.0,PERFECT,1,0,0,3
+Pink Floyd,Pink Floyd - Dark Side Of The Moon _PVG_,1,Pink Floyd,Dark Side Of The Moon (2),1,1.0,PERFECT,1,0,0,3
+Pink Floyd,Pink Floyd - Pink Floyd Songbook,10,Pink Floyd,Pink Floyd - Pink Floyd Songbook,10,1.0,PERFECT,10,0,0,1
+Pink Floyd,Pink Floyd - The Wall _PVG_,23,Pink Floyd,The Wall [pvg],23,1.0,PERFECT,23,0,0,0
+Pink Floyd,Pink Floyd - Wish You Were Here,11,Pink Floyd,Wish You Were Here [pvg],12,1.0,PERFECT,11,0,1,3
+Pink Floyd,Pink Floyd - Wish You Were Here _PVG_,12,Pink Floyd,Wish You Were Here [pvg],12,1.0,PERFECT,12,0,0,3
+Police,Police - The Great Songs Of The Police,12,Police,The Great Songs Of The Police,12,1.0,PERFECT,12,0,0,0
+Pretenders,Pretenders - Best Of Pretenders,16,Pretenders,Best Of Pretenders,16,1.0,PERFECT,16,0,0,1
+Prince,Prince - Purple Rain _Score_,1,Prince,Purple Rain [score],1,1.0,PERFECT,1,0,0,0
+Queen,Queen - Deluxe Anthology _PVG_,1,Queen,Deluxe Anthology [pvg],1,1.0,PERFECT,1,0,0,4
+Queen,Queen - Greatest Hits,1,Queen,Deluxe Anthology [pvg],1,1.0,PERFECT,1,0,0,4
+Queen,Queen - Greatest Hits 1 _Score_,16,Queen,Greatest Hits 1 [score],16,1.0,PERFECT,16,0,0,1
+Queen,Queen - Greatest Hits II _PVG_,17,Queen,Greatest Hits Ii [pvg],17,1.0,PERFECT,17,0,0,0
+Queen,Queen - Hit Songs,22,Queen,Hit Songs,22,1.0,PERFECT,22,0,0,0
+Randy Newman,Randy Newman - Collection,1,Randy Newman,Collection,1,1.0,PERFECT,1,0,0,0
+Reo Speedwagon,REO Speedwagon - Good Trouble,1,Reo Speedwagon,Good Trouble,1,1.0,PERFECT,1,0,0,0
+Reo Speedwagon,REO Speedwagon - Hi Infidelity,1,Reo Speedwagon,Hi Infidelity,1,1.0,PERFECT,1,0,0,2
+Reo Speedwagon,REO Speedwagon - Life As We Know It,4,Reo Speedwagon,Reo Speedwagon - Life As We Know It,4,1.0,PERFECT,4,0,0,0
+Reo Speedwagon,REO Speedwagon - The Hits,12,Reo Speedwagon,The Hits,12,1.0,PERFECT,12,0,0,0
+Rod Stewart,Rod Stewart - The Great American Songbook,16,Rod Stewart,The Great American Songbook,16,1.0,PERFECT,16,0,0,1
+Rolling Stones,Rolling Stones - Best Of Rolling Stones 1963-1973 Piano Songbook,20,Rolling Stones,Best Of Rolling Stones 1963-1973 Piano Songbook,20,1.0,PERFECT,20,0,0,1
+Rolling Stones,Rolling Stones - Let It Bleed _Guitar Tab_,9,Rolling Stones,Let It Bleed [guitar Tab],9,1.0,PERFECT,9,0,0,1
+Rolling Stones,Rolling Stones - Sticky Fingers _Score_,10,Rolling Stones,Sticky Fingers [score],10,1.0,PERFECT,10,0,0,0
+Roy Orbison,Roy Orbison - Greatest Hits,19,Roy Orbison,Greatest Hits,19,1.0,PERFECT,19,0,0,1
+Santana,Santana - Off The Record,8,Santana,Off The Record,8,1.0,PERFECT,8,0,0,0
+Scott Joplin,Scott Joplin - The Best Of,17,Scott Joplin,The Best Of,17,1.0,PERFECT,17,0,0,0
+Shania Twain,Shania Twain - Greatest Hits,21,Shania Twain,Greatest Hits,21,1.0,PERFECT,21,0,0,0
+Shania Twain,Shania Twain - Up _PVG Book_,20,Shania Twain,Up! [pvg Book],20,1.0,PERFECT,20,0,0,0
+Sheryl Crow,Sheryl Crow - Tuesday Night Music Club _PVG Book_,11,Sheryl Crow,Tuesday Night Music Club [pvg Book],11,1.0,PERFECT,11,0,0,1
+Sheryl Crow,Sheryl Crow - Very Best,17,Sheryl Crow,Very Best,17,1.0,PERFECT,17,0,0,0
+Spice Girls,Spice Girls - Greatest Hits,11,Spice Girls,Greatest Hits,11,1.0,PERFECT,11,0,0,1
+Steely Dan,Steely Dan - The Best,23,Steely Dan,Steely Dan - The Best,23,1.0,PERFECT,23,0,0,0
+Steve Miller Band,Steve Miller Band - 13 Biggest Hits,13,Steve Miller Band,13 Biggest Hits,13,1.0,PERFECT,13,0,0,0
+Steve Miller Band,Steve Miller Band - Rock Best Hits _Jap Score_,8,Steve Miller Band,Rock Best Hits [jap Score],8,1.0,PERFECT,8,0,0,1
+Steve Winwood,Steve Winwood - Arc Of A Diver _PVG Book_,7,Steve Winwood,Arc Of A Diver [pvg Book],7,1.0,PERFECT,7,0,0,0
+Steve Winwood,Steve Winwood - The Great Songs Of,8,Steve Winwood,The Great Songs Of,8,1.0,PERFECT,8,0,0,0
+Supertramp,Supertramp - Anthology,2,Supertramp,Anthology,2,1.0,PERFECT,2,0,0,2
+Supertramp,Supertramp - Breakfast In America _PVG Book_,10,Supertramp,Breakfast In America [pvg Book],10,1.0,PERFECT,10,0,0,0
+Supertramp,Supertramp - Crime Of The Century _Book_,8,Supertramp,Crime Of The Century [book],8,1.0,PERFECT,8,0,0,1
+Survivor,Survivor - Greatest Hits,10,Survivor,Greatest Hits,10,1.0,PERFECT,10,0,0,0
+Taylor Swift,Taylor Swift - Best Of _Easy Piano_,12,Taylor Swift,Best Of [easy Piano],12,1.0,PERFECT,12,0,0,2
+Taylor Swift,Taylor Swift - Fearless _PVG Book_,16,Taylor Swift,Fearless [pvg Book],16,1.0,PERFECT,16,0,0,0
+Taylor Swift,Taylor Swift - Speak Now _PVG Book_,14,Taylor Swift,Speak Now [pvg Book],14,1.0,PERFECT,14,0,0,1
+Taylor Swift,Taylor Swift - Taylor Swift,11,Taylor Swift,Taylor Swift [guitar Compilation],11,1.0,PERFECT,11,0,0,2
+Taylor Swift,Taylor Swift - Taylor Swift _Guitar Compilation_,11,Taylor Swift,Taylor Swift [guitar Compilation],11,1.0,PERFECT,11,0,0,2
+The Band,Band - Northern Lights Southern Cross _PVG_,8,The Band,Band - Northern Lights Southern Cross [pvg],8,1.0,PERFECT,8,0,0,0
+The Band,Band - Stage Fright _PVG_,9,The Band,Band - Stage Fright [pvg],11,1.0,PERFECT,9,0,2,0
+The Band,The Band - Rock Of Ages _PVG Book_,8,The Band,Rock Of Ages [pvg Book],8,1.0,PERFECT,8,0,0,1
+The Band,The Band - The Band And Music From Big Pink,21,The Band,The Band And Music From Big Pink,21,1.0,PERFECT,21,0,0,1
+Tom Lehrer,Tom Lehrer - Book Covers,1,Tom Lehrer,Tom Lehrer - Book Covers,1,1.0,PERFECT,1,0,0,0
+Tom Lehrer,Tom Lehrer - Too Many Songs _PVC Book_,32,Tom Lehrer,Tom Lehrer - Too Many Songs [pvc Book],32,1.0,PERFECT,32,0,0,0
+Tom Waits,Anthology,29,Tom Waits,Anthology,29,1.0,PERFECT,29,0,0,1
+Tom Waits,Tom Waits - Anthology,24,Tom Waits,Anthology,29,1.0,PERFECT,24,0,5,1
+Tom Waits,Tom Waits - Tom Waits Anthology,7,Tom Waits,Tom Waits - Tom Waits Anthology,7,1.0,PERFECT,7,0,0,0
+Tori Amos,Tori Amos - _Book_ Anthology,25,Tori Amos,[book] Anthology,25,1.0,PERFECT,25,0,0,1
+Toto,Toto - Best of,5,Toto,Best Of,5,1.0,PERFECT,5,0,0,2
+Toto,Toto - Collection,13,Toto,Past To Present [book],13,1.0,PERFECT,13,0,0,0
+Toto,Toto - Past To Present _Book_,13,Toto,Past To Present [book],13,1.0,PERFECT,13,0,0,0
+Traveling Wilburys,Traveling Wilburys - Volume 1,1,Traveling Wilburys,Volume 1,1,1.0,PERFECT,1,0,0,0
+Van Morrison,Van Morrison - Anthology,25,Van Morrison,Anthology,25,1.0,PERFECT,25,0,0,1
+Van Morrison,Van Morrison - Anthology _2_,21,Van Morrison,Anthology (2),21,1.0,PERFECT,21,0,0,1
+Van Morrison,Van Morrison - Back On Top _Book_,10,Van Morrison,Back On Top [book],10,1.0,PERFECT,10,0,0,0
+Van Morrison,Van Morrison - Days Like These _Book_,2,Van Morrison,Days Like These (book),2,1.0,PERFECT,2,0,0,1
+Various Artists,Adult Contemporary Hits Of The Nineties,30,Various Artists,Adult Contemporary Hits Of The Nineties,30,1.0,PERFECT,30,0,0,0
+Various Artists,Various Artists - 100 Songs For Kids - _Easy Guitar Songbook_,99,Various Artists,100 Songs For Kids - (easy Guitar Songbook),99,0.9797979797979798,EXCELLENT,97,2,2,0
+Various Artists,Various Artists - 50 Platinum Country Hits,50,Various Artists,50 Platinum Country Hits,50,1.0,PERFECT,50,0,0,1
+Various Artists,Various Artists - 50s And 60s,81,,,0,0.0,NO MATCH,0,81,0,0
+Various Artists,Various Artists - 557 Standards _Sheet Music - Piano__2_,345,Various Artists,557 Standards (sheet Music - Piano)(2),345,1.0,PERFECT,345,0,0,1
+Various Artists,Various Artists - 62 Stars 62 Hits _60s Compilation_,61,Various Artists,62 Stars 62 Hits [60's Compilation],55,0.819672131147541,GOOD,50,11,5,0
+Various Artists,Various Artists - 70s Collection - _57pp_,18,,,0,0.0,NO MATCH,0,18,0,0
+Various Artists,Various Artists - 70s Hits _Easy Piano_,20,Various Artists,70's Hits [easy Piano],20,1.0,PERFECT,20,0,0,1
+Various Artists,Various Artists - Adult Contemporary Hits Of The Nineties,1,Various Artists,Adult Contemporary Hits Of The Nineties,30,1.0,PERFECT,1,0,29,1
+Various Artists,Various Artists - All Time Best Collection Vol 3,18,Various Artists,All Time Best Collection Vol 3,18,1.0,PERFECT,18,0,0,0
+Various Artists,Various Artists - Best In Country Sheet Music,26,Various Artists,Best In Country Sheet Music,26,1.0,PERFECT,26,0,0,0
+Various Artists,Various Artists - Best Of 80s Rock _PVG_,33,Various Artists,Best Of 80s Rock [pvg],29,0.7878787878787878,PARTIAL,26,7,3,1
+Various Artists,Various Artists - Best Of The 70s And 80s _Solo Piano_,17,Various Artists,Best Of The 70s & 80s [solo Piano],17,1.0,PERFECT,17,0,0,0
+Various Artists,Various Artists - Best Rock Songs 2000-2005,36,Various Artists,Best Rock Songs 2000-2005,18,0.4166666666666667,POOR,15,21,3,0
+Various Artists,Various Artists - Biggest Pop Hits 1996-1997,36,Various Artists,Biggest Pop Hits 1996-1997,26,0.6944444444444444,PARTIAL,25,11,1,0
+Various Artists,Various Artists - Chart Hits 01-02,25,,,0,0.0,NO MATCH,0,25,0,0
+Various Artists,Various Artists - Chart Hits 04-05,19,Various Artists,Chart Hits 04-05,20,1.0,PERFECT,19,0,1,0
+Various Artists,Various Artists - Chart Hits 98-99,26,Various Artists,Chart Hits 98-99,26,1.0,PERFECT,26,0,0,1
+Various Artists,Various Artists - Classic Rock - 73 songs,73,Various Artists,Classic Rock - 73 Songs,73,1.0,PERFECT,73,0,0,0
+Various Artists,Various Artists - Collection Of Country Music,72,Various Artists,Collection Of Country Music,72,1.0,PERFECT,72,0,0,0
+Various Artists,Various Artists - Complete Piano Player Easy Blues _22 songs_,21,Various Artists,Complete Piano Player Easy Blues (22 Songs),21,1.0,PERFECT,21,0,0,0
+Various Artists,Various Artists - Country Classics _PVG_,54,Various Artists,Country Classics [pvg],49,0.8333333333333334,GOOD,45,9,4,0
+Various Artists,Various Artists - Even More Songs Of The Eighties _PVG_,39,Various Artists,Even More Songs Of The Eighties [pvg],39,1.0,PERFECT,39,0,0,0
+Various Artists,Various Artists - Golden Era Of Rock And Roll _grab it_,100,Various Artists,Golden Era Of Rock And Roll (grab It!),99,0.98,EXCELLENT,98,2,1,0
+Various Artists,Various Artists - Great Bands Of The 60s _PVG Book_,25,Various Artists,Great Bands Of The 60s [pvg Book],25,1.0,PERFECT,25,0,0,0
+Various Artists,Various Artists - Great Bands Of The 70s _PVG Book_,20,Various Artists,Great Bands Of The 70s [pvg Book],20,1.0,PERFECT,20,0,0,2
+Various Artists,Various Artists - Great Big Book Of Childrens Songs,73,Various Artists,Great Big Book Of Children's Songs,73,1.0,PERFECT,73,0,0,1
+Various Artists,Various Artists - Great Country Collection,14,Various Artists,Great Country Collection,14,1.0,PERFECT,14,0,0,0
+Various Artists,Various Artists - Great Songs Of The 70s _Guitar Tab_,30,Various Artists,Great Songs Of The 70s [guitar Tab],30,1.0,PERFECT,30,0,0,0
+Various Artists,Various Artists - Greatest Hits Of 2004-2005,59,Various Artists,Greatest Hits Of 2004-2005,60,1.0,PERFECT,59,0,1,0
+Various Artists,Various Artists - Greatest Love Songs Of 80s,25,Various Artists,Greatest Love Songs Of 80s,25,1.0,PERFECT,25,0,0,3
+Various Artists,Various Artists - Greatest Love Songs Of The 60s,25,Various Artists,Greatest Love Songs Of The 60s,25,1.0,PERFECT,25,0,0,1
+Various Artists,Various Artists - Greatest Love Songs Of The 70s,26,Various Artists,Greatest Love Songs Of The 70s,26,1.0,PERFECT,26,0,0,0
+Various Artists,Various Artists - Greatest Love Songs Of The 80s,25,Various Artists,Greatest Love Songs Of 80s,25,1.0,PERFECT,25,0,0,3
+Various Artists,Various Artists - Heavy Metal Vol III,13,Various Artists,Heavy Metal Vol. Iii,13,1.0,PERFECT,13,0,0,1
+Various Artists,Various Artists - Heavy Rock Hits Of The 80s _PVG_,20,Various Artists,Heavy Rock Hits Of The 80s [pvg],20,1.0,PERFECT,20,0,0,0
+Various Artists,Various Artists - History Of Rock - Late 80s,44,Various Artists,History Of Rock - Late 80s,43,0.9545454545454546,EXCELLENT,42,2,1,1
+Various Artists,Various Artists - More Songs Of The Eighties _PVG_,42,Various Artists,More Songs Of The Eighties [pvg],43,1.0,PERFECT,42,0,1,1
+Various Artists,Various Artists - Music For The Millenium - The Seventies,17,Various Artists,Music For The Millenium - The Seventies,17,1.0,PERFECT,17,0,0,1
+Various Artists,Various Artists - Music For The Millennium The Seventies,17,Various Artists,Music For The Millenium - The Seventies,17,1.0,PERFECT,17,0,0,1
+Various Artists,Various Artists - Oldies But Goodies,40,Various Artists,Oldies But Goodies,41,1.0,PERFECT,40,0,1,0
+Various Artists,Various Artists - Popular Piano Solos,11,Various Artists,Popular Piano Solos,11,1.0,PERFECT,11,0,0,0
+Various Artists,Various Artists - Songs Of The 60s _PVG_,60,Various Artists,Songs Of The 60s [pvg],60,1.0,PERFECT,60,0,0,0
+Various Artists,Various Artists - The 1980s,30,Various Artists,The 1980s,30,1.0,PERFECT,30,0,0,3
+Various Artists,Various Artists - The 60s And 70s Rock Score,9,Various Artists,The 60s And 70s Rock Score,9,1.0,PERFECT,9,0,0,0
+Various Artists,Various Artists - The Best Childrens Songs Ever _Easy Piano_,103,Various Artists,The Best Children's Songs Ever (easy Piano),103,1.0,PERFECT,103,0,0,0
+Various Artists,Various Artists - The Decade Series - The 1980s,30,Various Artists,The 1980s,30,1.0,PERFECT,30,0,0,3
+Various Artists,Various Artists - The Greatest Love Songs Of The 80s,25,Various Artists,Greatest Love Songs Of 80s,25,1.0,PERFECT,25,0,0,3
+Various Artists,Various Artists - Ultimate 100 Pop Hits Of The 90s,101,Various Artists,Ultimate 100 Pop Hits Of The 90s,102,1.0,PERFECT,101,0,1,0
+Various Artists,Various Artists - Ultimate Pop Sheet Music Collection 2000,84,Various Artists,Ultimate Pop Sheet Music Collection 2000,84,1.0,PERFECT,84,0,0,1
+Vince Guaraldi,Peanuts Songbook,28,Vince Guaraldi,Peanuts Songbook,28,1.0,PERFECT,28,0,0,0
+Vince Guaraldi,Vince Guaraldi - Peanuts Songbook,2,Vince Guaraldi,Peanuts Songbook,28,1.0,PERFECT,2,0,26,1
+Vince Guaraldi,Vince Guaraldi - The Vince Guaraldi Collection,9,Vince Guaraldi,Peanuts Songbook,28,0.3333333333333333,POOR,3,6,25,0
+Whitney Houston,Whitney Houston - The Best Of,10,Whitney Houston,The Best Of,10,1.0,PERFECT,10,0,0,1
+Who,Who - Quadrophenia (PVG),9,Who,Who - Quadrophenia (pvg),9,1.0,PERFECT,9,0,0,0
+Who,Who - Quadrophenia _PVG_,9,Who,Who - Quadrophenia (pvg),9,1.0,PERFECT,9,0,0,0
+Who,Who - Who Anthology,44,Who,Who Anthology,44,1.0,PERFECT,44,0,0,0
+Wings,Wings - Greatest Hits,13,Wings,Wings - Greatest Hits,13,1.0,PERFECT,13,0,0,0
+Wings,Wings - London Town (PVG Book),8,Wings,Wings - London Town (pvg Book),8,1.0,PERFECT,8,0,0,0
+Wings,Wings - London Town _PVG Book_,8,Wings,Wings - London Town (pvg Book),8,1.0,PERFECT,8,0,0,0
+Wings,Wings - Over America _PVG_,19,Wings,Wings - Over America [pvg],19,1.0,PERFECT,19,0,0,0
+Yes,Yes - Complete Deluxe Edition,29,Yes,Complete Deluxe Edition,29,1.0,PERFECT,29,0,0,0
+Zz Top,Greatest Hits,21,Zz Top,Greatest Hits (2),21,1.0,PERFECT,21,0,0,1
+_broadway Shows,A Treasury Of Gilbert And Sullivan Part 1,50,_broadway Shows,A Treasury Of Gilbert & Sullivan Part 1,50,1.0,PERFECT,50,0,0,0
+_broadway Shows,A Treasury Of Gilbert And Sullivan Part 2,47,_broadway Shows,A Treasury Of Gilbert & Sullivan Part 2,47,1.0,PERFECT,47,0,0,0
+_broadway Shows,Lambert And Morrison - The Drowsy Chaperone _Version 1_,1,_broadway Shows,Lambert And Morrison - The Drowsy Chaperone (version 1),2,1.0,PERFECT,1,0,1,0
+_broadway Shows,Lambert And Morrison - The Drowsy Chaperone _Version 2_,2,_broadway Shows,Lambert And Morrison - The Drowsy Chaperone (version 2),2,1.0,PERFECT,2,0,0,0
+_broadway Shows,Lerner And Loewe - Camelot,16,_broadway Shows,Lerner And Loewe - Camelot,20,1.0,PERFECT,16,0,4,0
+_broadway Shows,Mamma Mia,15,_broadway Shows,Mamma Mia,15,1.0,PERFECT,15,0,0,0
+_broadway Shows,Rogers And Hammerstein - South Pacific,7,_broadway Shows,Rogers And Hammerstein - South Pacific,18,1.0,PERFECT,7,0,11,0
+_broadway Shows,Steven Sondheim - All Sondheim Volume 2 BOOK,19,_broadway Shows,Steven Sondheim - All Sondheim Volume 2 Book,27,1.0,PERFECT,19,0,8,0
+_broadway Shows,The Wedding Singer,72,_broadway Shows,The Wedding Singer,72,1.0,PERFECT,72,0,0,0
+_broadway Shows,Various Artists - Aida,1,_broadway Shows,Various Artists - Aida,1,1.0,PERFECT,1,0,0,0
+_broadway Shows,Various Artists - Aladdin Jr,34,_broadway Shows,Various Artists - Aladdin Jr,37,1.0,PERFECT,34,0,3,0
+_broadway Shows,Various Artists - Aladdin _book_,8,_broadway Shows,Various Artists - Aladdin (book),8,1.0,PERFECT,8,0,0,0
+_broadway Shows,Various Artists - Annie - Full Score,29,_broadway Shows,Various Artists - Annie - Full Score,43,1.0,PERFECT,29,0,14,0
+_broadway Shows,Various Artists - Avenue Q - Full Score,1,_broadway Shows,Various Artists - Avenue Q - Full Score,1,1.0,PERFECT,1,0,0,0
+_broadway Shows,Various Artists - Avenue X - Vocal Chorus Book,25,_broadway Shows,Various Artists - Avenue X - Vocal Chorus Book,26,1.0,PERFECT,25,0,1,0
+_broadway Shows,Various Artists - Beauty And The Beast _1994 MTI PC Score complete_,23,_broadway Shows,"Various Artists - Beauty And The Beast (1994 Mti Pc Score, Complete)",39,1.0,PERFECT,23,0,16,0
+_broadway Shows,Various Artists - Beauty And The Beast _Score_,38,_broadway Shows,Various Artists - Beauty And The Beast [score],39,1.0,PERFECT,38,0,1,0
+_broadway Shows,Various Artists - Best In Broadway Deluxe Edition,62,_broadway Shows,Various Artists - Best In Broadway Deluxe Edition,80,1.0,PERFECT,62,0,18,0
+_broadway Shows,Various Artists - Cabaret _1998 version_,2,_broadway Shows,Various Artists - Cabaret (1998 Version),2,1.0,PERFECT,2,0,0,1
+_broadway Shows,Various Artists - Cabaret _Original_,3,_broadway Shows,Various Artists - Cabaret (original),9,1.0,PERFECT,3,0,6,0
+_broadway Shows,Various Artists - Cats - Conductor Score,2,_broadway Shows,Various Artists - Cats - Conductor Score,2,1.0,PERFECT,2,0,0,7
+_broadway Shows,Various Artists - Chicago _1975_,22,_broadway Shows,Various Artists - Chicago (1975),23,1.0,PERFECT,22,0,1,0
+_broadway Shows,Various Artists - Dear Evan Hansen _PVG_,15,_broadway Shows,Various Artists - Dear Evan Hansen (pvg),15,1.0,PERFECT,15,0,0,0
+_broadway Shows,Various Artists - Dirty Rotten Scoundrels _Piano-Vocal_,1,_broadway Shows,Various Artists - Dirty Rotten Scoundrels (piano-vocal),18,1.0,PERFECT,1,0,17,0
+_broadway Shows,Various Artists - Evita _Conductor Score_,10,_broadway Shows,Various Artists - Evita [conductor Score],10,1.0,PERFECT,10,0,0,0
+_broadway Shows,Various Artists - Evita _Score_,11,_broadway Shows,Various Artists - Evita [score],11,1.0,PERFECT,11,0,0,0
+_broadway Shows,Various Artists - Footloose _Score_,15,_broadway Shows,Various Artists - Footloose [score],17,1.0,PERFECT,15,0,2,0
+_broadway Shows,Various Artists - Grease _1994 Score_,13,_broadway Shows,Various Artists - Grease [1994 Score],22,1.0,PERFECT,13,0,9,0
+_broadway Shows,Various Artists - Grease _2003 Score_,40,_broadway Shows,Various Artists - Grease [2003 Score],40,1.0,PERFECT,40,0,0,0
+_broadway Shows,Various Artists - Hair _rev 1995_ - Piano Conductor Score,44,_broadway Shows,Various Artists - Hair (rev 1995) - Piano Conductor Score,44,1.0,PERFECT,44,0,0,0
+_broadway Shows,Various Artists - High School Musical [score],16,_broadway Shows,Various Artists - High School Musical [score],22,1.0,PERFECT,16,0,6,0
+_broadway Shows,Various Artists - High School Musical _score_,22,_broadway Shows,Various Artists - High School Musical [score],22,1.0,PERFECT,22,0,0,0
+_broadway Shows,Various Artists - Jesus Christ Superstar,8,_broadway Shows,Various Artists - Jesus Christ Superstar,8,1.0,PERFECT,8,0,0,0
+_broadway Shows,Various Artists - Legally Blonde - score,1,_broadway Shows,Various Artists - Legally Blonde - Score,18,1.0,PERFECT,1,0,17,0
+_broadway Shows,Various Artists - Les Miserables - Full Score,16,_broadway Shows,Various Artists - Les Miserables - Full Score,20,1.0,PERFECT,16,0,4,0
+_broadway Shows,Various Artists - Les Miserables - Piano-Conductor,4,_broadway Shows,Various Artists - Les Miserables - Piano-conductor,50,1.0,PERFECT,4,0,46,1
+_broadway Shows,Various Artists - Les Miserables - Piano-conductor _complete_,5,_broadway Shows,Various Artists - Les Miserables - Piano-conductor (complete),34,1.0,PERFECT,5,0,29,1
+_broadway Shows,Various Artists - Lion King _Score_,57,_broadway Shows,Various Artists - Lion King [score],58,1.0,PERFECT,57,0,1,0
+_broadway Shows,Various Artists - Little Mermaid Workshop score,1,_broadway Shows,Various Artists - Little Mermaid Workshop Score,1,1.0,PERFECT,1,0,0,0
+_broadway Shows,Various Artists - Little Shop Of Horrors (original),1,_broadway Shows,Various Artists - Little Shop Of Horrors (original),2,1.0,PERFECT,1,0,1,0
+_broadway Shows,Various Artists - Little Shop Of Horrors _Broadway_,2,_broadway Shows,Various Artists - Little Shop Of Horrors (original),2,1.0,PERFECT,2,0,0,0
+_broadway Shows,Various Artists - Little Shop Of Horrors _original_,2,_broadway Shows,Various Artists - Little Shop Of Horrors (original),2,1.0,PERFECT,2,0,0,0
+_broadway Shows,Various Artists - Mary Poppins,1,_broadway Shows,Various Artists - Mary Poppins,2,1.0,PERFECT,1,0,1,0
+_broadway Shows,Various Artists - Phantom Of Opera _SATB_,5,_broadway Shows,Various Artists - Phantom Of Opera [satb],5,1.0,PERFECT,5,0,0,0
+_broadway Shows,Various Artists - Phantom Of The Opera,1,_broadway Shows,Various Artists - Phantom Of The Opera,1,1.0,PERFECT,1,0,0,0
+_broadway Shows,Various Artists - Phantom Of The Opera _Score_,7,_broadway Shows,Various Artists - Phantom Of The Opera [score],7,1.0,PERFECT,7,0,0,0
+_broadway Shows,Various Artists - Rent _Score_,46,_broadway Shows,Various Artists - Rent [score],53,1.0,PERFECT,46,0,7,0
+_broadway Shows,Various Artists - Rocky Horror Show,1,_broadway Shows,Various Artists - Rocky Horror Show,5,1.0,PERFECT,1,0,4,0
+_broadway Shows,Various Artists - Rocky Horror Show Revised - Full Score,24,_broadway Shows,Various Artists - Rocky Horror Show Revised - Full Score,24,1.0,PERFECT,24,0,0,0
+_broadway Shows,Various Artists - Seussical - TYA,38,_broadway Shows,Various Artists - Seussical - Tya,38,1.0,PERFECT,38,0,0,1
+_broadway Shows,Various Artists - Seussical _PV Score_,34,_broadway Shows,Various Artists - Seussical [pv Score],44,1.0,PERFECT,34,0,10,1
+_broadway Shows,Various Artists - Seussical _Piano-Conductor_,13,_broadway Shows,Various Artists - Seussical [piano-conductor],16,1.0,PERFECT,13,0,3,0
+_broadway Shows,Various Artists - Shrek The Musical,11,_broadway Shows,Various Artists - Shrek The Musical,11,1.0,PERFECT,11,0,0,0
+_broadway Shows,Various Artists - Sound Of Music,16,_broadway Shows,Various Artists - Sound Of Music,25,1.0,PERFECT,16,0,9,0
+_broadway Shows,Various Artists - Sound Of Music _Vocal Selections_,7,_broadway Shows,Various Artists - Sound Of Music (vocal Selections),7,1.0,PERFECT,7,0,0,0
+_broadway Shows,Various Artists - Spamalot,65,_broadway Shows,Various Artists - Spamalot,66,1.0,PERFECT,65,0,1,0
+_broadway Shows,Various Artists - Sweeney Todd Vocal Score,19,_broadway Shows,Various Artists - Sweeney Todd Vocal Score,21,1.0,PERFECT,19,0,2,0
+_broadway Shows,Various Artists - The Hobbit Score,11,_broadway Shows,Various Artists - The Hobbit Score,11,1.0,PERFECT,11,0,0,0
+_broadway Shows,Various Artists - The Ultimate BROADWAY fakebook,407,_broadway Shows,Various Artists - The Ultimate Broadway Fakebook,407,0.995085995085995,EXCELLENT,405,2,2,0
+_broadway Shows,Various Artists - Wicked [pvg],6,_broadway Shows,Various Artists - Wicked [pvg],14,1.0,PERFECT,6,0,8,0
+_broadway Shows,Various Artists - Wicked [score],1,_broadway Shows,Various Artists - Wicked [score],1,1.0,PERFECT,1,0,0,0
+_broadway Shows,Various Artists - Wicked _PVG_,13,_broadway Shows,Various Artists - Wicked [pvg],14,1.0,PERFECT,13,0,1,0
+_broadway Shows,Various Artists - Wicked _Score_,1,_broadway Shows,Various Artists - Wicked [score],1,1.0,PERFECT,1,0,0,0
+_broadway Shows,Various Artists - Wizard Of Oz - Piano Conductor,24,_broadway Shows,Various Artists - Wizard Of Oz - Piano Conductor,25,1.0,PERFECT,24,0,1,0
+_broadway Shows,Various Artists - Wizard Of Oz _RSC Piano-Conductor_,20,_broadway Shows,Various Artists - Wizard Of Oz (rsc Piano-conductor),20,1.0,PERFECT,20,0,0,0
+_broadway Shows,Various Artists - You're A Good Man Charlie Brown [revival] [score],22,_broadway Shows,Various Artists - You're A Good Man Charlie Brown [revival] [score],38,1.0,PERFECT,22,0,16,0
+_broadway Shows,Various Artists - Youre A Good Man Charlie Brown _Score_,38,_broadway Shows,Various Artists - You're A Good Man Charlie Brown [revival] [score],38,1.0,PERFECT,38,0,0,0
+_broadway Shows,Various Artists - Youre A Good Man Charlie Brown _revival_ _score_,38,_broadway Shows,Various Artists - You're A Good Man Charlie Brown [revival] [score],38,1.0,PERFECT,38,0,0,0
+_broadway Shows,Wicked Workshop,4,_broadway Shows,Wicked Workshop,4,1.0,PERFECT,4,0,0,0
+_movie And Tv,Beauty And The Beast _PVG_,8,_movie And Tv,Beauty And The Beast [pvg],8,1.0,PERFECT,8,0,0,0
+_movie And Tv,Brother Bear _Disney_,8,_movie And Tv,Brother Bear (disney),8,1.0,PERFECT,8,0,0,0
+_movie And Tv,Budget Books - Movie Songs,76,_movie And Tv,Budget Books - Movie Songs,76,1.0,PERFECT,76,0,0,0
+_movie And Tv,Disney Collection _Songs Out Of order_,42,_movie And Tv,Disney Collection (songs Out Of Order),42,1.0,PERFECT,42,0,0,0
+_movie And Tv,High School Musical - Breaking Free - Piano Sheet Music,1,_movie And Tv,High School Musical - Breaking Free - Piano Sheet Music,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,John Williams - Greatest Hits,28,_movie And Tv,John Williams - Greatest Hits,28,1.0,PERFECT,28,0,0,0
+_movie And Tv,John Williams - Star Wars Episode I - The Phantom Menace,1,_movie And Tv,John Williams - Star Wars Episode I - The Phantom Menace,1,1.0,PERFECT,1,0,0,1
+_movie And Tv,John Williams - Star Wars Episode II - Attack Of The Clones _lite_,1,_movie And Tv,John Williams - Star Wars Episode Ii - Attack Of The Clones (lite),1,1.0,PERFECT,1,0,0,0
+_movie And Tv,John Williams - Star Wars Episode III - Revenge Of The Sith_Incomplete Grab_,1,_movie And Tv,John Williams - Star Wars Episode Iii - Revenge Of The Sith.(incomplete Grab),1,1.0,PERFECT,1,0,0,0
+_movie And Tv,John Williams - Star Wars Trilogy,14,_movie And Tv,John Williams - Star Wars Trilogy,16,1.0,PERFECT,14,0,2,0
+_movie And Tv,Kasha And Hirschorn - Petes Dragon,6,_movie And Tv,Kasha & Hirschorn - Pete's Dragon,7,1.0,PERFECT,6,0,1,0
+_movie And Tv,Mary Poppins,11,_movie And Tv,Mary Poppins,11,1.0,PERFECT,11,0,0,0
+_movie And Tv,Mulan,1,_movie And Tv,Mulan,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Pirates Of The Caribbean _Book 1 - The Curse Of The Black Pearl_,7,_movie And Tv,Pirates Of The Caribbean [book 1 - The Curse Of The Black Pearl],7,1.0,PERFECT,7,0,0,0
+_movie And Tv,Pirates Of The Caribbean _Book 2 - Dead Mans Chest_,9,_movie And Tv,Pirates Of The Caribbean [book 2 - Dead Man's Chest],9,1.0,PERFECT,9,0,0,0
+_movie And Tv,Randy Newman - Toy Story 2,1,_movie And Tv,Disney Collection (songs Out Of Order),42,1.0,PERFECT,1,0,41,1
+_movie And Tv,Spirited Away _Disney_ _2001_,1,_movie And Tv,Spirited Away (disney) (2001),1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Star Wars Suite _John Williams - Full Score - Hal Leonard_,8,_movie And Tv,Star Wars Suite (john Williams - Full Score - Hal Leonard),8,1.0,PERFECT,8,0,0,0
+_movie And Tv,The New Illustrated Treasury Of Disney,68,_movie And Tv,The New Illustrated Treasury Of Disney,68,1.0,PERFECT,68,0,0,1
+_movie And Tv,The New Illustrated Treasury Of Disney Songs,68,_movie And Tv,The New Illustrated Treasury Of Disney Songs,68,1.0,PERFECT,68,0,0,1
+_movie And Tv,The Wizard Of Oz Script,20,,,0,0.0,NO MATCH,0,20,0,0
+_movie And Tv,Theme From Rocky And Otther Big Hits,22,_movie And Tv,Theme From Rocky And Otther Big Hits,27,1.0,PERFECT,22,0,5,0
+_movie And Tv,Various Artists - 100 Of The Best Movie Songs Ever,101,_movie And Tv,Various Artists - 100 Of The Best Movie Songs Ever,101,1.0,PERFECT,101,0,0,0
+_movie And Tv,Various Artists - Book Of Great TV Hits,41,_movie And Tv,Various Artists - Book Of Great Tv Hits,46,1.0,PERFECT,41,0,5,0
+_movie And Tv,Various Artists - Box Office Themes Vol 1,12,_movie And Tv,Various Artists - Box Office Themes Vol. 1,12,1.0,PERFECT,12,0,0,0
+_movie And Tv,Various Artists - Decades Of Film 70s,17,_movie And Tv,Various Artists - Decades Of Film '70s,17,1.0,PERFECT,17,0,0,0
+_movie And Tv,Various Artists - Decades Of Film 80s,20,_movie And Tv,Various Artists - Decades Of Film '80s,21,1.0,PERFECT,20,0,1,0
+_movie And Tv,Various Artists - Decades Of Film 90s,20,_movie And Tv,Various Artists - Decades Of Film '90s,20,1.0,PERFECT,20,0,0,0
+_movie And Tv,Various Artists - Disney Duets,8,_movie And Tv,Various Artists - Disney Duets,8,1.0,PERFECT,8,0,0,0
+_movie And Tv,Various Artists - Disney Fake Book,194,_movie And Tv,Various Artists - Disney Fake Book,194,1.0,PERFECT,194,0,0,0
+_movie And Tv,Various Artists - Disney Solos For Violin,1,_movie And Tv,The New Illustrated Treasury Of Disney Songs,68,1.0,PERFECT,1,0,67,2
+_movie And Tv,Various Artists - Eddie And The Cruisers,6,_movie And Tv,Various Artists - Eddie And The Cruisers,6,1.0,PERFECT,6,0,0,0
+_movie And Tv,Various Artists - Film Book,41,_movie And Tv,Various Artists - Film Book,44,1.0,PERFECT,41,0,3,0
+_movie And Tv,Various Artists - Film Music For Solo Piano,28,_movie And Tv,Various Artists - Film Music For Solo Piano,28,1.0,PERFECT,28,0,0,1
+_movie And Tv,Various Artists - Film Music For Solo Piano _2_,23,_movie And Tv,Various Artists - Film Music For Solo Piano (2),23,1.0,PERFECT,23,0,0,1
+_movie And Tv,Various Artists - Frozen - Let It Go _Movie Version_,1,_movie And Tv,Various Artists - Frozen - Let It Go (movie Version),1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - High School Musical 1,2,_movie And Tv,Various Artists - High School Musical 1,2,1.0,PERFECT,2,0,0,0
+_movie And Tv,Various Artists - High School Musical 2,13,_movie And Tv,Various Artists - High School Musical 2,13,1.0,PERFECT,13,0,0,0
+_movie And Tv,Various Artists - Little Mermaid,1,_movie And Tv,Various Artists - Little Mermaid,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - Love Songs From The Movies,33,_movie And Tv,Various Artists - Love Songs From The Movies,33,1.0,PERFECT,33,0,0,0
+_movie And Tv,Various Artists - Movie Fakebook,389,_movie And Tv,Various Artists - Movie Fakebook,392,0.9948586118251928,EXCELLENT,387,2,5,0
+_movie And Tv,Various Artists - Movie Love Songs _Book_,16,_movie And Tv,Various Artists - Movie Love Songs [book],16,1.0,PERFECT,16,0,0,0
+_movie And Tv,Various Artists - Movie Melodies - The Very Best Of Movie Songs,21,_movie And Tv,Various Artists - Movie Melodies - The Very Best Of Movie Songs,21,1.0,PERFECT,21,0,0,0
+_movie And Tv,Various Artists - Movie Songs Of The 90s Vol 2,34,_movie And Tv,Various Artists - Movie Songs Of The 90s Vol 2,40,1.0,PERFECT,34,0,6,0
+_movie And Tv,Various Artists - Music From The Movies The Adventure Collection,23,_movie And Tv,Various Artists - Music From The Movies The Adventure Collection,26,1.0,PERFECT,23,0,3,0
+_movie And Tv,Various Artists - Music From The Movies The Animated Collection,5,_movie And Tv,Various Artists - Music From The Movies The Animated Collection,29,1.0,PERFECT,5,0,24,0
+_movie And Tv,Various Artists - Piano Solos Film Music - The Costume Drama Collection,28,_movie And Tv,Various Artists - Piano Solos Film Music - The Costume Drama Collection,28,1.0,PERFECT,28,0,0,0
+_movie And Tv,Various Artists - Pirates Of The Caribbean At Worlds End,1,_movie And Tv,Various Artists - Pirates Of The Caribbean At World's End,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - Shrek 1,13,_movie And Tv,Various Artists - Shrek 1,13,1.0,PERFECT,13,0,0,0
+_movie And Tv,Various Artists - Shrek 2,14,_movie And Tv,Various Artists - Shrek 2,14,1.0,PERFECT,14,0,0,0
+_movie And Tv,Various Artists - Shrek 3,14,_movie And Tv,Various Artists - Shrek 3,14,1.0,PERFECT,14,0,0,0
+_movie And Tv,Various Artists - Star Trek - Complete Star Trek Theme Music,1,_movie And Tv,Various Artists - Star Trek - Complete Star Trek Theme Music,1,1.0,PERFECT,1,0,0,1
+_movie And Tv,Various Artists - Star Trek - Complete Theme Music _Piano Solo_,16,_movie And Tv,Various Artists - Star Trek - Complete Theme Music (piano Solo),16,1.0,PERFECT,16,0,0,0
+_movie And Tv,Various Artists - Star Trek - Deep Space Nine,1,_movie And Tv,Various Artists - Star Trek - Complete Theme Music (piano Solo),16,1.0,PERFECT,1,0,15,1
+_movie And Tv,Various Artists - Star Trek - Enterprise,1,_movie And Tv,Various Artists - Star Trek - Complete Theme Music (piano Solo),16,1.0,PERFECT,1,0,15,1
+_movie And Tv,Various Artists - Star Trek - First Contact,1,_movie And Tv,Various Artists - Star Trek - Complete Theme Music (piano Solo),16,1.0,PERFECT,1,0,15,1
+_movie And Tv,Various Artists - Star Trek - Generations,1,_movie And Tv,Various Artists - Star Trek - Generations,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - Star Trek - Insurrection,1,_movie And Tv,Various Artists - Star Trek - Insurrection,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - Star Trek - Star Trek,1,_movie And Tv,Various Artists - Star Trek - Complete Theme Music (piano Solo),16,1.0,PERFECT,1,0,15,1
+_movie And Tv,Various Artists - Star Trek - Star Trek The Motion Picture,1,_movie And Tv,Various Artists - Star Trek - Star Trek The Motion Picture,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - Star Trek - The Final Frontier,2,_movie And Tv,Various Artists - Star Trek - The Final Frontier,2,1.0,PERFECT,2,0,0,1
+_movie And Tv,Various Artists - Star Trek - The Next Generation,2,_movie And Tv,Various Artists - Star Trek - The Next Generation,2,1.0,PERFECT,2,0,0,1
+_movie And Tv,Various Artists - Star Trek - The Search For Spock,1,_movie And Tv,Various Artists - Star Trek - The Search For Spock,2,1.0,PERFECT,1,0,1,0
+_movie And Tv,Various Artists - Star Trek - The Undiscovered Country,1,_movie And Tv,Various Artists - Star Trek - The Undiscovered Country,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - Star Trek - The Voyage Home,1,_movie And Tv,Various Artists - Star Trek - Complete Theme Music (piano Solo),16,1.0,PERFECT,1,0,15,1
+_movie And Tv,Various Artists - Star Trek - The Wrath Of Khan,1,_movie And Tv,Various Artists - Star Trek - Complete Theme Music (piano Solo),16,1.0,PERFECT,1,0,15,1
+_movie And Tv,Various Artists - Star Trek - Them From Search For Spock,1,_movie And Tv,Various Artists - Star Trek - Them From Search For Spock,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - Star Trek - Voyager,1,_movie And Tv,Various Artists - Star Trek - Complete Theme Music (piano Solo),16,1.0,PERFECT,1,0,15,1
+_movie And Tv,Various Artists - Star Trek _Piano Solo_,8,_movie And Tv,Various Artists - Star Trek (piano Solo),10,1.0,PERFECT,8,0,2,0
+_movie And Tv,Various Artists - TV Detective - Themes For Solo Piano,28,_movie And Tv,Various Artists - Tv Detective - Themes For Solo Piano,32,1.0,PERFECT,28,0,4,0
+_movie And Tv,Various Artists - TV Fakebook 2nd Ed,105,_movie And Tv,Various Artists - Tv Fakebook 2nd Ed,106,1.0,PERFECT,105,0,1,0
+_movie And Tv,Various Artists - The Big Book Of Movie Music,64,_movie And Tv,Various Artists - The Big Book Of Movie Music,69,1.0,PERFECT,64,0,5,0
+_movie And Tv,Various Artists - The Simpsons - Simpsons Songbook,1,_movie And Tv,Various Artists - The Simpsons - Simpsons Songbook,1,1.0,PERFECT,1,0,0,0
+_movie And Tv,Various Artists - The TV Fakebook,72,_movie And Tv,Various Artists - The Tv Fakebook,71,0.9722222222222222,EXCELLENT,70,2,1,0
+_movie And Tv,Various Artists - Top Movie Hits,10,_movie And Tv,Various Artists - Top Movie Hits,10,1.0,PERFECT,10,0,0,0
+_movie And Tv,Various Artists - Ultimate TV Showstoppers,18,_movie And Tv,Various Artists - Ultimate Tv Showstoppers,20,1.0,PERFECT,18,0,2,0
+_movie And Tv,Various Artists - Warner Bros 75th Anniversary,3,_movie And Tv,Various Artists - Warner Bros 75th Anniversary,3,1.0,PERFECT,3,0,0,0
+_movie And Tv,Various Artists - Wizard Of Oz _Book_,10,_movie And Tv,Various Artists - Wizard Of Oz [book],14,1.0,PERFECT,10,0,4,0

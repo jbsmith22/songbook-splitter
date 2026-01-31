@@ -1,0 +1,6 @@
+{
+  "artist": "Billy Joel",
+  "book_title": "Billy Joel - Keyboard Book",
+  "s3_input_key": "SheetMusicIn/Billy Joel/Books/Billy Joel - Keyboard Book.pdf",
+  "s3_output_prefix": "SheetMusicOut/Billy_Joel/Billy_Joel_-_Keyboard_Book"
+}

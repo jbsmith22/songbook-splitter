@@ -1,0 +1,5 @@
+local_artist,local_book,local_count,s3_artist,s3_book,s3_count,common_songs,local_only,s3_only,match_pct,count_diff_pct,quality
+Beatles,Beatles - Anthology 1,18,Beatles,Anthology 1,18,17,1,1,0.944,0.0,GOOD
+Various Artists,Various Artists - Country Classics _PVG_,54,Various Artists,Country Classics [pvg],49,49,5,0,0.907,0.093,GOOD
+_broadway Shows,Various Artists - Spamalot,65,_broadway Shows,Various Artists - Spamalot,66,59,0,1,0.908,0.015,GOOD
+_movie And Tv,Various Artists - The Big Book Of Movie Music,64,_movie And Tv,Various Artists - The Big Book Of Movie Music,69,64,0,1,1.0,0.078,GOOD

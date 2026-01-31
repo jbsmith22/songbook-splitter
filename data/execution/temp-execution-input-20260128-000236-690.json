@@ -1,0 +1,8 @@
+{
+    "bucket":  "jsmith-input",
+    "source_pdf_uri":  "s3://jsmith-input/books/_Broadway Shows/Various Artists - 25th Annual Putnam County Spelling Bee.pdf",
+    "artist":  "_Broadway Shows",
+    "key":  "books/_Broadway Shows/Various Artists - 25th Annual Putnam County Spelling Bee.pdf",
+    "book_id":  "ece414717dbf70e6",
+    "book_name":  "Various Artists - 25th Annual Putnam County Spelling Bee"
+}

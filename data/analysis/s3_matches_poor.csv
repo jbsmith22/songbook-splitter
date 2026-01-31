@@ -1,0 +1,53 @@
+local_artist,local_book,local_count,s3_artist,s3_book,s3_count,common_songs,local_only,s3_only,match_pct,count_diff_pct,quality
+Ben Folds,Ben Folds Five - Rockin The Suburbs,12,Billy Joel,Billy Joel Greatest Hits Vols 1 And 2,12,0,12,11,0.0,0.0,POOR
+Doors,Doors - Anthology,12,Bob Dylan,Bob Dylan - Songbook,12,0,12,12,0.0,0.0,POOR
+Elton John,Elton John - The Elton John Collection _Piano Solos_,22,Fleetwood Mac,Fleetwood Mac - Anthology,22,0,22,22,0.0,0.0,POOR
+John Denver,John Denver - Best Of _Easy Piano_,18,Various Artists,Best Rock Songs 2000-2005,18,1,17,17,0.056,0.0,POOR
+Kelly Clarkson,Kelly Clarkson - Breakaway _Book_,5,_broadway Shows,Various Artists - Rocky Horror Show,5,0,5,4,0.0,0.0,POOR
+Lynyrd Skynyrd,Lynyrd Skynyrd - The New Best Of _Guitar Tab_,10,_movie And Tv,Various Artists - Star Trek (piano Solo),10,0,10,8,0.0,0.0,POOR
+The Band,Band - Stage Fright _PVG_,9,Bob Dylan,Bob Dylan - Finger Picking,9,0,9,9,0.0,0.0,POOR
+Various Artists,Various Artists - 70s Collection - _57pp_,18,_broadway Shows,Various Artists - Legally Blonde - Score,18,0,18,15,0.0,0.0,POOR
+Various Artists,Various Artists - Best Of 80s Rock _PVG_,33,Various Artists,Various Artists - 50 Platinum Country Hits,33,0,33,33,0.0,0.0,POOR
+Various Artists,Various Artists - Best Rock Songs 2000-2005,36,Yes,Yes - Complete Deluxe Edition,36,0,35,36,0.0,0.0,POOR
+Various Artists,Various Artists - Chart Hits 01-02,25,_broadway Shows,Various Artists - Wizard Of Oz - Piano Conductor,25,0,25,23,0.0,0.0,POOR
+Various Artists,Various Artists - Chart Hits 04-05,19,Elton John,Elton John - The Ultimate Collection Vol. 1,19,1,18,18,0.053,0.0,POOR
+Various Artists,Various Artists - History Of Rock - Late 80s,44,_broadway Shows,Various Artists - Seussical [pv Score],44,0,44,41,0.0,0.0,POOR
+Various Artists,Various Artists - More Songs Of The Eighties _PVG_,42,_movie And Tv,Disney Collection (songs Out Of Order),42,0,42,42,0.0,0.0,POOR
+Various Artists,Various Artists - Oldies But Goodies,40,_movie And Tv,Various Artists - Movie Songs Of The 90s Vol 2,40,0,40,34,0.0,0.0,POOR
+Various Artists,Various Artists - Ultimate 100 Pop Hits Of The 90s,101,_movie And Tv,Various Artists - 100 Of The Best Movie Songs Ever,101,4,95,97,0.04,0.0,POOR
+Who,Who - Quadrophenia _PVG_,9,Buddy Holly,Buddy Holly - Golden Anniversary Songbook,9,0,9,9,0.0,0.0,POOR
+Wings,Wings - London Town _PVG Book_,8,Ben Folds,Ben Folds Five - Rockin' The Suburbs,8,0,8,8,0.0,0.0,POOR
+_broadway Shows,Lerner And Loewe - Camelot,16,_broadway Shows,Various Artists - Seussical [piano-conductor],16,0,16,13,0.0,0.0,POOR
+_broadway Shows,Rogers And Hammerstein - South Pacific,7,_broadway Shows,Various Artists - Phantom Of The Opera [score],7,0,5,5,0.0,0.0,POOR
+_broadway Shows,Various Artists - Annie - Full Score,29,Burt Bacharach,Burt Bacharach - 40 Golden Songs Of,29,0,29,29,0.0,0.0,POOR
+_broadway Shows,Various Artists - Beauty And The Beast _1994 MTI PC Score complete_,23,_broadway Shows,Various Artists - Chicago (1975),23,1,22,22,0.043,0.0,POOR
+_broadway Shows,Various Artists - Chicago _1975_,22,Various Artists,Various Artists - Chart Hits 98-99,22,0,22,22,0.0,0.0,POOR
+_broadway Shows,Various Artists - Footloose _Score_,15,_broadway Shows,Various Artists - Little Mermaid Workshop Score.pdf,15,0,14,14,0.0,0.0,POOR
+_broadway Shows,Various Artists - Grease _1994 Score_,13,_movie And Tv,Various Artists - High School Musical 2,13,0,13,10,0.0,0.0,POOR
+_broadway Shows,Various Artists - High School Musical [score],16,_movie And Tv,John Williams - Star Wars Trilogy,16,0,16,14,0.0,0.0,POOR
+_broadway Shows,Various Artists - Les Miserables - Full Score,16,Genesis,Genesis - Anthology,16,0,16,16,0.0,0.0,POOR
+_broadway Shows,Various Artists - Les Miserables - Piano-conductor _complete_,5,Adele,Adele - 19 [pvg Book],5,0,5,5,0.0,0.0,POOR
+_broadway Shows,Various Artists - Phantom Of The Opera _Score_,7,_broadway Shows,Various Artists - Sound Of Music (vocal Selections),7,0,5,6,0.0,0.0,POOR
+_broadway Shows,Various Artists - Rent _Score_,46,_movie And Tv,Various Artists - Book Of Great Tv Hits,46,0,46,41,0.0,0.0,POOR
+_broadway Shows,Various Artists - Rocky Horror Show Revised - Full Score,24,Bob Dylan,Bob Dylan - Collection,24,0,24,24,0.0,0.0,POOR
+_broadway Shows,Various Artists - Seussical _PV Score_,34,Various Artists,Various Artists - Golden Era Of Rock And Roll (grab It!),34,0,33,33,0.0,0.0,POOR
+_broadway Shows,Various Artists - Seussical _Piano-Conductor_,13,Creedence Clearwater Revival,Creedence Clearwater Revival - Best Of,13,0,13,13,0.0,0.0,POOR
+_broadway Shows,Various Artists - Sound Of Music,16,Paul Mccartney,Paul Mccartney - All The Best,16,0,16,16,0.0,0.0,POOR
+_broadway Shows,Various Artists - Sound Of Music _Vocal Selections_,7,Aerosmith,Aerosmith - Greatest Hits (songbook),7,0,6,7,0.0,0.0,POOR
+_broadway Shows,Various Artists - Sweeney Todd Vocal Score,19,Beatles,Beatles - Singles Collection [pvg],19,0,18,19,0.0,0.0,POOR
+_broadway Shows,Various Artists - The Hobbit Score,11,James Taylor,James Taylor - Classic [guitar],11,0,11,11,0.0,0.0,POOR
+_broadway Shows,Various Artists - Wicked [pvg],6,Beatles,Beatles - Abbey Road Guitar Recorded Version,6,0,6,6,0.0,0.0,POOR
+_broadway Shows,Various Artists - Wicked _PVG_,13,Garth Brooks,Garth Brooks - The Limited Series,13,0,13,13,0.0,0.0,POOR
+_broadway Shows,Various Artists - Wizard Of Oz - Piano Conductor,24,Journey,Journey - Complete Songbook,24,0,22,24,0.0,0.0,POOR
+_broadway Shows,Various Artists - You're A Good Man Charlie Brown [revival] [score],22,_broadway Shows,Various Artists - Grease [1994 Score],22,0,20,22,0.0,0.0,POOR
+_broadway Shows,Various Artists - Youre A Good Man Charlie Brown _Score_,38,Various Artists,Various Artists - Ultimate 100 Pop Hits Of The 90s,38,0,32,37,0.0,0.0,POOR
+_broadway Shows,Various Artists - Youre A Good Man Charlie Brown _revival_ _score_,38,Jackson Browne,Jackson Browne - Deluxe Anthology,38,0,32,38,0.0,0.0,POOR
+_movie And Tv,John Williams - Star Wars Trilogy,14,_movie And Tv,Various Artists - Wizard Of Oz [book],14,0,14,10,0.0,0.0,POOR
+_movie And Tv,Kasha And Hirschorn - Petes Dragon,6,Beatles,Beatles - Abbey Road [scores],6,0,6,6,0.0,0.0,POOR
+_movie And Tv,The Wizard Of Oz Script,20,_broadway Shows,Various Artists - Les Miserables - Full Score,20,0,20,17,0.0,0.0,POOR
+_movie And Tv,Various Artists - Book Of Great TV Hits,41,Bob Dylan,Bob Dylan - Anthology 1,41,0,41,41,0.0,0.0,POOR
+_movie And Tv,Various Artists - High School Musical 2,13,Various Artists,Various Artists - 70's Hits [easy Piano],13,0,10,13,0.0,0.0,POOR
+_movie And Tv,Various Artists - Movie Songs Of The 90s Vol 2,34,Beatles,Beatles - 100 Hits For All Keyboards,34,0,34,34,0.0,0.0,POOR
+_movie And Tv,Various Artists - Music From The Movies The Animated Collection,5,Beatles,Beatles - Live At The Hollywood Bowl,5,0,5,5,0.0,0.0,POOR
+_movie And Tv,Various Artists - Star Trek _Piano Solo_,8,Black Eyed Peas,Black Eyed Peas - Elephunk [pvg Book],8,0,8,8,0.0,0.0,POOR
+_movie And Tv,Various Artists - Wizard Of Oz _Book_,10,Beatles,Beatles - Anthology 1,10,0,10,10,0.0,0.0,POOR

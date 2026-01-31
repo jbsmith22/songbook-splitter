@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="1/31/2026 12:05:11 PM">
+	<foldercomp>
+		<ltpath>C:\Work\AWSMusic</ltpath>
+		<rtpath>D:\Work\songbook-splitter</rtpath>
+		<filters>-*pycache*\</filters>
+		<foldercomp>
+			<rt>
+				<name>.claude</name>
+				<size>94</size>
+				<modified>1/31/2026 11:30:13 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>.git</name>
+				<size>792,567,746</size>
+				<modified>1/31/2026 11:11:48 AM</modified>
+			</lt>
+			<rt>
+				<name>.git</name>
+				<size>520,499,779</size>
+				<modified>1/31/2026 11:12:54 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>.kiro</name>
+				<size>85,513</size>
+				<modified>1/27/2026 11:47:31 AM</modified>
+			</lt>
+			<rt>
+				<name>.kiro</name>
+				<size>77,148</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>.pytest_cache</name>
+				<size>22,684</size>
+				<modified>1/24/2026 9:14:20 PM</modified>
+			</lt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>.vscode</name>
+				<size>264</size>
+				<modified>1/24/2026 8:50:45 PM</modified>
+			</lt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>app</name>
+				<size>404,845</size>
+				<modified>1/24/2026 11:48:14 PM</modified>
+			</lt>
+			<rt>
+				<name>app</name>
+				<size>204,461</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>artifacts</name>
+				<size>54,273,656</size>
+				<modified>1/31/2026 11:28:31 AM</modified>
+			</lt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>build</name>
+				<size/>
+				<modified>1/31/2026 11:48:17 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>data</name>
+				<size>23,530,686,860</size>
+				<modified>1/31/2026 11:28:42 AM</modified>
+			</lt>
+			<rt>
+				<name>data</name>
+				<size>53,183,558</size>
+				<modified>1/31/2026 11:57:27 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>docs</name>
+				<size>473,754</size>
+				<modified>1/31/2026 11:28:32 AM</modified>
+			</lt>
+			<rt>
+				<name>docs</name>
+				<size>59,635,247</size>
+				<modified>1/31/2026 11:57:27 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>ecs</name>
+				<size>23,415</size>
+				<modified>1/24/2026 10:05:32 PM</modified>
+			</lt>
+			<rt>
+				<name>ecs</name>
+				<size>23,415</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>infra</name>
+				<size>51,024</size>
+				<modified>1/25/2026 12:12:28 AM</modified>
+			</lt>
+			<rt>
+				<name>infra</name>
+				<size>51,024</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>lambda</name>
+				<size>16,290</size>
+				<modified>1/24/2026 10:04:49 PM</modified>
+			</lt>
+			<rt>
+				<name>lambda</name>
+				<size>16,290</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>lambda-package</name>
+				<size/>
+				<modified>1/24/2026 11:59:36 PM</modified>
+			</lt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>logs</name>
+				<size>44,178,566</size>
+				<modified>1/31/2026 11:28:31 AM</modified>
+			</lt>
+			<rt>
+				<name>logs</name>
+				<size>44,178,566</size>
+				<modified>1/31/2026 11:57:27 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>output</name>
+				<size>887</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>ProcessedSongs</name>
+				<size>10,986,627,094</size>
+				<modified>1/31/2026 11:22:24 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>scripts</name>
+				<size>1,335,696</size>
+				<modified>1/31/2026 11:28:31 AM</modified>
+			</lt>
+			<rt>
+				<name>scripts</name>
+				<size>1,443,058</size>
+				<modified>1/31/2026 11:32:59 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>SheetMusic</name>
+				<size>10,837,323,990</size>
+				<modified>1/31/2026 11:22:58 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>SheetMusicIndividualSheets</name>
+				<size>1,673,645,908</size>
+				<modified>1/31/2026 11:23:26 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>temp_anthology_output</name>
+				<size>874</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>temp_anthology_pages</name>
+				<size>10,319,976</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>tests</name>
+				<size>555,012</size>
+				<modified>1/24/2026 9:14:20 PM</modified>
+			</lt>
+			<rt>
+				<name>tests</name>
+				<size>1,205,205</size>
+				<modified>1/31/2026 11:57:27 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>toc_cache</name>
+				<size>7,295,742</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<rt>
+				<name>verification_batches</name>
+				<size>1,409,340</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>web</name>
+				<size>25,756,813</size>
+				<modified>1/31/2026 11:28:32 AM</modified>
+			</lt>
+			<rt>
+				<name>web</name>
+				<size>39,740,888</size>
+				<modified>1/31/2026 11:32:59 AM</modified>
+			</rt>
+		</foldercomp>
+		<filecomp status="same">
+			<lt>
+				<name>.gitignore</name>
+				<size>786</size>
+				<modified>1/28/2026 11:38:23 AM</modified>
+			</lt>
+			<rt>
+				<name>.gitignore</name>
+				<size>786</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="ltonly">
+			<lt>
+				<name>CURRENT_ISSUES.md</name>
+				<size>2,799</size>
+				<modified>1/25/2026 5:52:55 PM</modified>
+			</lt>
+		</filecomp>
+		<filecomp status="same">
+			<lt>
+				<name>Dockerfile</name>
+				<size>660</size>
+				<modified>1/24/2026 11:48:21 PM</modified>
+			</lt>
+			<rt>
+				<name>Dockerfile</name>
+				<size>660</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="ltonly">
+			<lt>
+				<name>lambda-deployment.zip</name>
+				<size>83,907,154</size>
+				<modified>1/25/2026 12:02:02 AM</modified>
+			</lt>
+		</filecomp>
+		<filecomp status="ltonly">
+			<lt>
+				<name>local_runner.py</name>
+				<size>16,757</size>
+				<modified>1/24/2026 10:21:33 PM</modified>
+			</lt>
+		</filecomp>
+		<filecomp status="same">
+			<lt>
+				<name>OPERATOR_RUNBOOK.md</name>
+				<size>19,587</size>
+				<modified>1/28/2026 3:13:18 AM</modified>
+			</lt>
+			<rt>
+				<name>OPERATOR_RUNBOOK.md</name>
+				<size>19,587</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="rtonly">
+			<rt>
+				<name>PROJECT_CHECKPOINT_2026-01-31.md</name>
+				<size>59,639</size>
+				<modified>1/31/2026 11:12:54 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="same">
+			<lt>
+				<name>PROJECT_CONTEXT.md</name>
+				<size>7,915</size>
+				<modified>1/25/2026 3:52:51 PM</modified>
+			</lt>
+			<rt>
+				<name>PROJECT_CONTEXT.md</name>
+				<size>7,915</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="same">
+			<lt>
+				<name>README.md</name>
+				<size>10,163</size>
+				<modified>1/28/2026 3:42:29 AM</modified>
+			</lt>
+			<rt>
+				<name>README.md</name>
+				<size>10,163</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="rtonly">
+			<rt>
+				<name>REORGANIZATION_COMPLETE.md</name>
+				<size>10,425</size>
+				<modified>1/31/2026 12:02:12 PM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="rtonly">
+			<rt>
+				<name>REORGANIZATION_PHASE2_REPORT.md</name>
+				<size>3,982</size>
+				<modified>1/31/2026 11:48:17 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="rtonly">
+			<rt>
+				<name>REORGANIZATION_REPORT.md</name>
+				<size>16,811</size>
+				<modified>1/31/2026 11:33:00 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="same">
+			<lt>
+				<name>requirements.txt</name>
+				<size>238</size>
+				<modified>1/24/2026 11:53:41 PM</modified>
+			</lt>
+			<rt>
+				<name>requirements.txt</name>
+				<size>238</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="same">
+			<lt>
+				<name>START_HERE.md</name>
+				<size>6,486</size>
+				<modified>1/30/2026 1:38:19 PM</modified>
+			</lt>
+			<rt>
+				<name>START_HERE.md</name>
+				<size>6,486</size>
+				<modified>1/31/2026 11:00:49 AM</modified>
+			</rt>
+		</filecomp>
+	</foldercomp>
+</bcreport>

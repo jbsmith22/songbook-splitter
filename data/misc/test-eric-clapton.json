@@ -1,0 +1,5 @@
+{
+  "stateMachineArn": "arn:aws:states:us-east-1:227027150061:stateMachine:jsmith-sheetmusic-splitter-pipeline",
+  "name": "test-eric-clapton-20260129222300",
+  "input": "{\"artist\":\"Eric Clapton\",\"book_id\":\"test-eric-clapton-fix\",\"source_pdf_uri\":\"s3://jsmith-input/SheetMusic/Eric Clapton/Books/Eric Clapton - The Cream Of Clapton.pdf\",\"book_name\":\"Eric Clapton - The Cream Of Clapton\"}"
+}

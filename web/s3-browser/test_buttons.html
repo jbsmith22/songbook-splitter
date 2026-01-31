@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Buttons</title>
+</head>
+<body>
+    <h1>Button Test</h1>
+    <button onclick="testFunction()">Click Me</button>
+    <div id="output"></div>
+    
+    <script>
+        window.testFunction = function() {
+            document.getElementById('output').textContent = 'Button clicked!';
+            alert('Function called!');
+        }
+    </script>
+</body>
+</html>

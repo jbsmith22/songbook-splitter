@@ -1,8 +1,0 @@
-{
-    "bucket":  "jsmith-input",
-    "source_pdf_uri":  "s3://jsmith-input/books/_Broadway Shows/Various Artists - You\u0027re A Good Man Charlie Brown (Score).pdf",
-    "artist":  "_Broadway Shows",
-    "key":  "books/_Broadway Shows/Various Artists - You\u0027re A Good Man Charlie Brown (Score).pdf",
-    "book_id":  "ccea3d86c7366b21",
-    "book_name":  "Various Artists - You\u0027re A Good Man Charlie Brown (Score)"
-}

@@ -61,6 +61,28 @@ state_machine_current.json
 SheetMusic/
 SheetMusicIndividualSheets/
 ProcessedSongs/
+ProcessedSongs_Archive/
+
+# Data files and analysis outputs
+data/analysis/*.json
+data/analysis/*.txt
+data/backups/
+*.csv
+
+# Reconciliation decision files (generated, not source code)
+reconciliation_decisions_*.json
+
+# Web viewer backups
+web/*.backup*
+
+# Temporary and utility files
+temp/
+nul
+exiftool.exe
+exiftool_files/
+*.xml
+cors-config.json
+s3-public-policy.json
 
 # Verification cache and results
 verification_results/

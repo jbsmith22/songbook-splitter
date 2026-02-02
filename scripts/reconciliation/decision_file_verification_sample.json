@@ -1,0 +1,515 @@
+{
+  "stats": {
+    "total_operations": 56,
+    "valid_operations": 21,
+    "invalid_operations": 35
+  },
+  "results": [
+    {
+      "folder": "Allman Brothers/Allman Brothers - Best Of _PVG_",
+      "filename": "Allman Brothers - Black Hearted Woman.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Allman Brothers/Allman Brothers - Best Of [pvg]/Allman Brothers - Black Hearted Woman.pdf",
+      "source_exists": true,
+      "target_path": "Allman Brothers/Allman Brothers - Best Of _PVG_/Allman Brothers - Black Hearted Woman.pdf"
+    },
+    {
+      "folder": "Allman Brothers/Allman Brothers - Best Of _PVG_",
+      "filename": "Allman Brothers - Angeline.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Allman Brothers/Allman Brothers - Best Of [pvg]/Allman Brothers - Angeline.pdf",
+      "source_exists": true,
+      "target_path": "Allman Brothers/Allman Brothers - Best Of _PVG_/Allman Brothers - Angeline.pdf"
+    },
+    {
+      "folder": "Allman Brothers/Allman Brothers - Best Of _PVG_",
+      "filename": "Allman Brothers - Midnight Rider.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Allman Brothers/Allman Brothers - Best Of [pvg]/Allman Brothers - Midnight Rider.pdf",
+      "source_exists": true,
+      "target_path": "Allman Brothers/Allman Brothers - Best Of _PVG_/Allman Brothers - Midnight Rider.pdf"
+    },
+    {
+      "folder": "America/America - America _PVG Book_",
+      "filename": "Dewey Bunnell - Children.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "America/America - America [pvg Book]/Dewey Bunnell - Children.pdf",
+      "source_exists": true,
+      "target_path": "America/America - America [pvg Book]/America - Children.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits _Book_",
+      "filename": "Dewey Bunnell - A Horse With No Name.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits [book]/Dewey Bunnell - A Horse With No Name.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits [book]/America - A Horse With No Name.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits _Book_",
+      "filename": "Gerry Beckley - Only In Your Heart.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits [book]/Gerry Beckley - Only In Your Heart.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits [book]/America - Only In Your Heart.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits _Book_",
+      "filename": "Willis Alan Ramsey - Muskrat Love.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits [book]/Willis Alan Ramsey - Muskrat Love.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits [book]/America - Muskrat Love.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits _Book_",
+      "filename": "America - Muskrat Love.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits [book]/America - Muskrat Love.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits _Book_/America - Muskrat Love.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits _Book_",
+      "filename": "America - Only In Your Heart.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits [book]/America - Only In Your Heart.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits _Book_/America - Only In Your Heart.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "Gerry Beckley - I Need You.pdf",
+      "action": "delete-s3",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/Gerry Beckley - I Need You.pdf",
+      "source_exists": true,
+      "target_path": "[DELETE]"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "America - Riverside-2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/America - Riverside-2.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits/America - Riverside-2.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "Gerry Rafferty - Clarice.pdf",
+      "action": "delete-s3",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/Gerry Rafferty - Clarice.pdf",
+      "source_exists": true,
+      "target_path": "[DELETE]"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "America - Donkey Jaw-2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/America - Donkey Jaw-2.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits/America - Donkey Jaw-2.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "America - Never Found The Time-2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/America - Never Found The Time-2.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits/America - Never Found The Time-2.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "David Burchfield - Sandman.pdf",
+      "action": "delete-s3",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/David Burchfield - Sandman.pdf",
+      "source_exists": true,
+      "target_path": "[DELETE]"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "Unknown Artist - A Horse With No Name.pdf",
+      "action": "delete-s3",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/Unknown Artist - A Horse With No Name.pdf",
+      "source_exists": true,
+      "target_path": "[DELETE]"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "America - Sandman.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/America - Sandman.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits/America - Sandman.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "America - I Need You.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/America - I Need You.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits/America - I Need You.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "America - A Horse With No Name.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/America - A Horse With No Name.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits/America - A Horse With No Name.pdf"
+    },
+    {
+      "folder": "America/America - Greatest Hits",
+      "filename": "America - Clarice.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "America/America - Greatest Hits/America - Clarice.pdf",
+      "source_exists": true,
+      "target_path": "America/America - Greatest Hits/America - Clarice.pdf"
+    },
+    {
+      "folder": "Barry Manilow/Barry Manilow - Anthology",
+      "filename": "Barry Manilow - Because It's Christmas (for All The Children).pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Barry Manilow/Barry Manilow - Anthology/Barry Manilow - Because It's Christmas (for All The Children).pdf",
+      "source_exists": false,
+      "target_path": "Barry Manilow/Barry Manilow - Anthology/Barry Manilow - Because It's Christmas (for All The Children).pdf"
+    },
+    {
+      "folder": "Barry Manilow/Barry Manilow - Anthology",
+      "filename": "Barry Manilow - I Made It Through The Rain.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Barry Manilow/Barry Manilow - Anthology/Barry Manilow - I Made It Through The Rain.pdf",
+      "source_exists": false,
+      "target_path": "Barry Manilow/Barry Manilow - Anthology/Barry Manilow - I Made It Through The Rain.pdf"
+    },
+    {
+      "folder": "Barry Manilow/Barry Manilow - Anthology",
+      "filename": "Barry Manilow - Where Does The Time Go-.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Barry Manilow/Barry Manilow - Anthology/Barry Manilow - Where Does The Time Go-.pdf",
+      "source_exists": false,
+      "target_path": "Barry Manilow/Barry Manilow - Anthology/Barry Manilow - Where Does The Time Go-.pdf"
+    },
+    {
+      "folder": "Bee Gees/Bee Gees - Anthology",
+      "filename": "Barry Gibb And Maurice Gibb - Alive.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "Bee Gees/Bee Gees - Anthology/Barry Gibb And Maurice Gibb - Alive.pdf",
+      "source_exists": true,
+      "target_path": "Bee Gees/Bee Gees - Anthology/Barry Gibb And Maurice Gibb - Alive.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_",
+      "filename": "Ben Folds - The Last Polka-2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Ben Folds - The Last Polka-2.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_/Ben Folds - The Last Polka-2.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_",
+      "filename": "Ben Folds - Alice Childress-2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Ben Folds - Alice Childress-2.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_/Ben Folds - Alice Childress-2.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_",
+      "filename": "Ben Folds - Where's Summer B--2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Ben Folds - Where's Summer B--2.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_/Ben Folds - Where's Summer B--2.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_",
+      "filename": "Ben Folds - Tom And Mary.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Ben Folds - Tom And Mary.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_/Ben Folds - Tom And Mary.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_",
+      "filename": "Ben Folds - Uncle Walter.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Ben Folds - Uncle Walter.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_/Ben Folds - Uncle Walter.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_",
+      "filename": "Ben Folds - Alice Childress.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos [score]/Ben Folds - Alice Childress.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Selections From Naked Baby Photos _Score_/Ben Folds - Alice Childress.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Whatever And Ever Amen _Book_",
+      "filename": "Ben Folds - Brick-2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Ben Folds - Brick-2.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Whatever And Ever Amen _Book_/Ben Folds - Brick-2.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Whatever And Ever Amen _Book_",
+      "filename": "Ben Folds - Kate-2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Ben Folds - Kate-2.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Whatever And Ever Amen _Book_/Ben Folds - Kate-2.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Whatever And Ever Amen _Book_",
+      "filename": "Ben Folds - Song For The Dumped-2.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Ben Folds - Song For The Dumped-2.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Whatever And Ever Amen _Book_/Ben Folds - Song For The Dumped-2.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Whatever And Ever Amen _Book_",
+      "filename": "Ben Folds - Kate.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Whatever And Ever Amen [book]/Ben Folds - Kate.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Whatever And Ever Amen _Book_/Ben Folds - Kate.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - still fighting it.pdf",
+      "action": "copy-to-s3",
+      "source_location": "Local",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - still fighting it.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - still fighting it.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Zak and Sara.pdf",
+      "action": "copy-to-s3",
+      "source_location": "Local",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Zak and Sara.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Zak and Sara.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - the ascent of stan.pdf",
+      "action": "copy-to-s3",
+      "source_location": "Local",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - the ascent of stan.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - the ascent of stan.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - not the same.pdf",
+      "action": "copy-to-s3",
+      "source_location": "Local",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - not the same.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - not the same.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - the luckiest.pdf",
+      "action": "copy-to-s3",
+      "source_location": "Local",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - the luckiest.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - the luckiest.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Annie Waits.pdf",
+      "action": "copy-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Annie Waits.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Annie Waits.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Gone.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Gone.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Gone.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Fred Jones Part 2.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Fred Jones Part 2.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Fred Jones Part 2.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Carrying Cathy.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Carrying Cathy.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Carrying Cathy.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Rockin' The Suburbs.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Rockin' The Suburbs.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Rockin' The Suburbs.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Hiro's Song.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Hiro's Song.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Hiro's Song.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Losing Lisa.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Losing Lisa.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Losing Lisa.pdf"
+    },
+    {
+      "folder": "Ben Folds/Ben Folds Five - Rockin The Suburbs",
+      "filename": "Ben Folds - Fired.pdf",
+      "action": "copy-s3-to-local",
+      "source_location": "S3",
+      "source_path": "Ben Folds/Ben Folds Five - Rockin' The Suburbs/Ben Folds - Fired.pdf",
+      "source_exists": false,
+      "target_path": "Ben Folds/Ben Folds Five - Rockin The Suburbs/Ben Folds - Fired.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Billy Vera - Getting Closer.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Vera - Getting Closer.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Getting Closer.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Bill Wolfe - (a) Room Of Our Own.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Bill Wolfe - (a) Room Of Our Own.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - (a) Room Of Our Own.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Unknown Artist - This Night.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - This Night.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - This Night.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Unknown Artist - I Don't Want To Be Alone.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - I Don't Want To Be Alone.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - I Don't Want To Be Alone.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Billy Carr - Where's The Orchestra-.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Carr - Where's The Orchestra-.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Where's The Orchestra-.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Unknown Artist - Summer, Highland Falls.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - Summer, Highland Falls.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Summer, Highland Falls.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Unknown Artist - Keeping The Faith.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - Keeping The Faith.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Keeping The Faith.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Billy Zane - Everybody Loves You Now.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Zane - Everybody Loves You Now.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Everybody Loves You Now.pdf"
+    },
+    {
+      "folder": "Billy Joel/Billy Joel - Complete Vol 2",
+      "filename": "Unknown Artist - Sleeping With The Television On.pdf",
+      "action": "rename-s3",
+      "source_location": "S3",
+      "source_path": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - Sleeping With The Television On.pdf",
+      "source_exists": false,
+      "target_path": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Sleeping With The Television On.pdf"
+    }
+  ],
+  "folders_checked": 10,
+  "total_folders": 443
+}

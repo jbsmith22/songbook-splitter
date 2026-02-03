@@ -30,16 +30,26 @@ dynamodb = boto3.resource('dynamodb')
 def check_processed_handler(event, context):
     """
     Lambda handler to check if book was already processed.
-    
+
     Args:
-        event: Contains book_id
+        event: Contains book_id and optionally force_reprocess
         context: Lambda context
-    
+
     Returns:
         Dict with already_processed boolean
     """
     book_id = event.get('book_id')
-    
+    force_reprocess = event.get('force_reprocess', False)
+
+    # If force reprocess requested, skip the check
+    if force_reprocess:
+        logger.info(f"Force reprocess requested for {book_id}, skipping already-processed check")
+        return {
+            'already_processed': False,
+            'book_id': book_id,
+            'forced': True
+        }
+
     if not book_id:
         return {
             'already_processed': False,

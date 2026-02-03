@@ -8,7 +8,8 @@
       "Parameters": {
         "FunctionName": "${CheckProcessedLambdaArn}",
         "Payload": {
-          "book_id.$": "$.book_id"
+          "book_id.$": "$.book_id",
+          "force_reprocess.$": "$.force_reprocess"
         }
       },
       "ResultPath": "$.check_result",

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manual Split Point Editor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Left panel - TOC and song list */
+        .left-panel {
+            width: 350px;
+            background: #f5f5f5;
+            border-right: 2px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .panel-header {
+            padding: 20px;
+            background: #2196F3;
+            color: white;
+        }
+        .panel-header h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .book-info {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        /* Song list */
+        .song-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        .song-item {
+            background: white;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            border-left: 4px solid #4CAF50;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .song-item:hover {
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transform: translateX(2px);
+        }
+        .song-item.active {
+            border-left-color: #FF9800;
+            background: #fff3e0;
+        }
+        .song-item.incomplete {
+            border-left-color: #f44336;
+        }
+        .song-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+        .song-pages {
+            font-size: 12px;
+            color: #666;
+            font-family: 'Courier New', monospace;
+        }
+        .song-status {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+            margin-left: 8px;
+        }
+        .status-toc {
+            background: #4CAF50;
+            color: white;
+        }
+        .status-manual {
+            background: #FF9800;
+            color: white;
+        }
+        .status-missing {
+            background: #f44336;
+            color: white;
+        }
+
+        /* Center - PDF viewer */
+        .center-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: #2a2a2a;
+        }
+        .viewer-toolbar {
+            background: #1e1e1e;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+        }
+        .viewer-toolbar button {
+            padding: 8px 15px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .viewer-toolbar button:hover {
+            background: #45a049;
+        }
+        .viewer-toolbar button:disabled {
+            background: #666;
+            cursor: not-allowed;
+        }
+        .viewer-toolbar input {
+            padding: 6px;
+            width: 60px;
+            text-align: center;
+        }
+        .viewer-toolbar select {
+            padding: 6px;
+        }
+        .pdf-container {
+            flex: 1;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        #pdf-canvas {
+            max-width: 100%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            background: white;
+        }
+
+        /* Right panel - controls */
+        .right-panel {
+            width: 300px;
+            background: #f5f5f5;
+            border-left: 2px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .controls {
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .control-group {
+            margin-bottom: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .control-group h3 {
+            font-size: 14px;
+            color: #2196F3;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .control-group label {
+            display: block;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .control-group input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+        .control-group button {
+            width: 100%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .control-group button:hover {
+            background: #1976D2;
+        }
+        .control-group button.danger {
+            background: #f44336;
+        }
+        .control-group button.danger:hover {
+            background: #d32f2f;
+        }
+        .control-group button.success {
+            background: #4CAF50;
+        }
+        .control-group button.success:hover {
+            background: #45a049;
+        }
+
+        /* File input */
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+        .file-input-wrapper input[type=file] {
+            position: absolute;
+            left: -9999px;
+        }
+        .file-input-label {
+            display: block;
+            padding: 10px;
+            background: #FF9800;
+            color: white;
+            text-align: center;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .file-input-label:hover {
+            background: #F57C00;
+        }
+
+        .info-text {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff3e0;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-panel">
+        <div class="panel-header">
+            <h2>Song List</h2>
+            <div class="book-info">
+                <div id="book-name">No book loaded</div>
+                <div id="book-id"></div>
+            </div>
+        </div>
+        <div class="song-list" id="song-list">
+            <div class="info-text">
+                Load a PDF file to begin manual split point editing
+            </div>
+        </div>
+    </div>
+
+    <div class="center-panel">
+        <div class="viewer-toolbar">
+            <div class="file-input-wrapper">
+                <input type="file" id="pdf-file-input" accept=".pdf" onchange="loadPDF(this.files[0])">
+                <label class="file-input-label" for="pdf-file-input">Load PDF</label>
+            </div>
+            <button onclick="previousPage()" id="prev-btn" disabled>← Previous</button>
+            <span style="color: white;">Page <input type="number" id="page-input" value="1" min="1" onchange="goToPage()" disabled> of <span id="page-count">0</span></span>
+            <button onclick="nextPage()" id="next-btn" disabled>Next →</button>
+            <select id="zoom-select" onchange="changeZoom()" disabled>
+                <option value="0.5">50%</option>
+                <option value="0.75">75%</option>
+                <option value="1" selected>100%</option>
+                <option value="1.25">125%</option>
+                <option value="1.5">150%</option>
+                <option value="2">200%</option>
+            </select>
+            <button onclick="markAsStartPage()" id="mark-btn" disabled style="background: #FF9800;">Mark as Start Page</button>
+        </div>
+        <div class="pdf-container">
+            <canvas id="pdf-canvas"></canvas>
+        </div>
+    </div>
+
+    <div class="right-panel">
+        <div class="controls">
+            <div class="control-group">
+                <h3>Current Song</h3>
+                <div id="current-song-info" class="info-text">
+                    No song selected
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h3>Manual Split Points</h3>
+                <label>Song Title:</label>
+                <input type="text" id="song-title-input" placeholder="Enter song title">
+
+                <label>Start Page:</label>
+                <input type="number" id="start-page-input" min="1" value="1">
+
+                <label>End Page:</label>
+                <input type="number" id="end-page-input" min="1" value="1">
+
+                <button onclick="addManualSong()" class="success">Add Song</button>
+                <button onclick="updateCurrentSong()" class="success">Update Selected Song</button>
+            </div>
+
+            <div class="control-group">
+                <h3>Load/Save</h3>
+                <button onclick="loadFromDatabase()">Load from Database</button>
+                <input type="text" id="book-id-input" placeholder="Enter book ID" style="width: 100%; padding: 8px; margin: 10px 0; border: 1px solid #ddd; border-radius: 3px;">
+                <button onclick="saveSplitPoints()" class="success">Save Split Points</button>
+                <button onclick="exportToJSON()">Export JSON</button>
+                <button onclick="clearAllSplits()" class="danger">Clear All</button>
+            </div>
+
+            <div class="control-group">
+                <h3>Statistics</h3>
+                <div class="info-text">
+                    <div>Songs defined: <strong id="song-count">0</strong></div>
+                    <div>Total pages: <strong id="total-pages">0</strong></div>
+                    <div>Pages covered: <strong id="covered-pages">0</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+        let pdfDoc = null;
+        let currentPage = 1;
+        let zoom = 1.0;
+        let songs = [];
+        let selectedSongIndex = -1;
+        let currentBookId = null;
+        let currentBookName = null;
+
+        async function loadPDF(file) {
+            if (!file) return;
+
+            const fileReader = new FileReader();
+            fileReader.onload = async function(e) {
+                const typedarray = new Uint8Array(e.target.result);
+
+                try {
+                    pdfDoc = await pdfjsLib.getDocument(typedarray).promise;
+                    document.getElementById('page-count').textContent = pdfDoc.numPages;
+                    document.getElementById('page-input').max = pdfDoc.numPages;
+                    document.getElementById('start-page-input').max = pdfDoc.numPages;
+                    document.getElementById('end-page-input').max = pdfDoc.numPages;
+                    document.getElementById('end-page-input').value = pdfDoc.numPages;
+
+                    // Enable controls
+                    document.getElementById('prev-btn').disabled = false;
+                    document.getElementById('next-btn').disabled = false;
+                    document.getElementById('page-input').disabled = false;
+                    document.getElementById('zoom-select').disabled = false;
+                    document.getElementById('mark-btn').disabled = false;
+
+                    currentPage = 1;
+                    await renderPage(currentPage);
+                    updateStats();
+                } catch (error) {
+                    alert('Error loading PDF: ' + error.message);
+                }
+            };
+            fileReader.readAsArrayBuffer(file);
+
+            // Try to extract book name from filename
+            currentBookName = file.name.replace('.pdf', '');
+            document.getElementById('book-name').textContent = currentBookName;
+        }
+
+        async function renderPage(pageNum) {
+            const page = await pdfDoc.getPage(pageNum);
+            const canvas = document.getElementById('pdf-canvas');
+            const ctx = canvas.getContext('2d');
+
+            const viewport = page.getViewport({ scale: zoom });
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+
+            await page.render({
+                canvasContext: ctx,
+                viewport: viewport
+            }).promise;
+
+            document.getElementById('page-input').value = pageNum;
+            updatePageButtons();
+        }
+
+        function updatePageButtons() {
+            document.getElementById('prev-btn').disabled = currentPage <= 1;
+            document.getElementById('next-btn').disabled = currentPage >= pdfDoc.numPages;
+        }
+
+        async function previousPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                await renderPage(currentPage);
+            }
+        }
+
+        async function nextPage() {
+            if (currentPage < pdfDoc.numPages) {
+                currentPage++;
+                await renderPage(currentPage);
+            }
+        }
+
+        async function goToPage() {
+            const pageNum = parseInt(document.getElementById('page-input').value);
+            if (pageNum >= 1 && pageNum <= pdfDoc.numPages) {
+                currentPage = pageNum;
+                await renderPage(currentPage);
+            }
+        }
+
+        async function changeZoom() {
+            zoom = parseFloat(document.getElementById('zoom-select').value);
+            await renderPage(currentPage);
+        }
+
+        function markAsStartPage() {
+            document.getElementById('start-page-input').value = currentPage;
+            // Auto-advance to help with sequential marking
+            if (currentPage < pdfDoc.numPages) {
+                nextPage();
+            }
+        }
+
+        function addManualSong() {
+            const title = document.getElementById('song-title-input').value.trim();
+            const startPage = parseInt(document.getElementById('start-page-input').value);
+            const endPage = parseInt(document.getElementById('end-page-input').value);
+
+            if (!title) {
+                alert('Please enter a song title');
+                return;
+            }
+
+            if (startPage > endPage) {
+                alert('Start page must be <= end page');
+                return;
+            }
+
+            songs.push({
+                title: title,
+                start_page: startPage,
+                end_page: endPage,
+                page_count: endPage - startPage + 1,
+                source: 'manual'
+            });
+
+            songs.sort((a, b) => a.start_page - b.start_page);
+
+            // Clear inputs and advance
+            document.getElementById('song-title-input').value = '';
+            document.getElementById('start-page-input').value = endPage + 1;
+            document.getElementById('end-page-input').value = pdfDoc.numPages;
+
+            renderSongList();
+            updateStats();
+        }
+
+        function updateCurrentSong() {
+            if (selectedSongIndex === -1) {
+                alert('No song selected');
+                return;
+            }
+
+            const title = document.getElementById('song-title-input').value.trim();
+            const startPage = parseInt(document.getElementById('start-page-input').value);
+            const endPage = parseInt(document.getElementById('end-page-input').value);
+
+            if (!title) {
+                alert('Please enter a song title');
+                return;
+            }
+
+            songs[selectedSongIndex] = {
+                title: title,
+                start_page: startPage,
+                end_page: endPage,
+                page_count: endPage - startPage + 1,
+                source: 'manual'
+            };
+
+            songs.sort((a, b) => a.start_page - b.start_page);
+            renderSongList();
+            updateStats();
+        }
+
+        function selectSong(index) {
+            selectedSongIndex = index;
+            const song = songs[index];
+
+            document.getElementById('song-title-input').value = song.title;
+            document.getElementById('start-page-input').value = song.start_page;
+            document.getElementById('end-page-input').value = song.end_page;
+
+            document.getElementById('current-song-info').innerHTML = `
+                <strong>${song.title}</strong><br>
+                Pages ${song.start_page}-${song.end_page} (${song.page_count} pages)<br>
+                Source: ${song.source}
+            `;
+
+            // Go to song's start page
+            currentPage = song.start_page;
+            renderPage(currentPage);
+
+            renderSongList();
+        }
+
+        function deleteSong(index) {
+            if (confirm(`Delete song "${songs[index].title}"?`)) {
+                songs.splice(index, 1);
+                if (selectedSongIndex === index) {
+                    selectedSongIndex = -1;
+                    document.getElementById('current-song-info').textContent = 'No song selected';
+                }
+                renderSongList();
+                updateStats();
+            }
+        }
+
+        function renderSongList() {
+            const container = document.getElementById('song-list');
+
+            if (songs.length === 0) {
+                container.innerHTML = '<div class="info-text">No songs defined yet. Add songs manually or load from database.</div>';
+                return;
+            }
+
+            container.innerHTML = songs.map((song, index) => `
+                <div class="song-item ${index === selectedSongIndex ? 'active' : ''}" onclick="selectSong(${index})">
+                    <div class="song-title">
+                        ${song.title}
+                        <span class="song-status status-${song.source}">${song.source.toUpperCase()}</span>
+                    </div>
+                    <div class="song-pages">
+                        Pages ${song.start_page}-${song.end_page} (${song.page_count} pages)
+                    </div>
+                    <button onclick="event.stopPropagation(); deleteSong(${index})" style="margin-top: 5px; padding: 4px 8px; background: #f44336; color: white; border: none; border-radius: 3px; cursor: pointer; font-size: 11px;">Delete</button>
+                </div>
+            `).join('');
+        }
+
+        function updateStats() {
+            document.getElementById('song-count').textContent = songs.length;
+            document.getElementById('total-pages').textContent = pdfDoc ? pdfDoc.numPages : 0;
+
+            // Calculate covered pages
+            let coveredPages = new Set();
+            songs.forEach(song => {
+                for (let p = song.start_page; p <= song.end_page; p++) {
+                    coveredPages.add(p);
+                }
+            });
+            document.getElementById('covered-pages').textContent = coveredPages.size;
+        }
+
+        async function loadFromDatabase() {
+            const bookId = document.getElementById('book-id-input').value.trim();
+            if (!bookId) {
+                alert('Please enter a book ID');
+                return;
+            }
+
+            try {
+                const response = await fetch('../../data/analysis/complete_provenance_database.json');
+                const data = await response.json();
+
+                const book = data.songbooks.find(b => b.mapping.book_id === bookId);
+                if (!book) {
+                    alert('Book ID not found in database');
+                    return;
+                }
+
+                currentBookId = bookId;
+                currentBookName = book.source_pdf.path;
+                document.getElementById('book-name').textContent = currentBookName;
+                document.getElementById('book-id').textContent = bookId;
+
+                // Load TOC entries as initial songs
+                songs = book.toc.entries.map(entry => ({
+                    title: entry.title || entry.song_title,
+                    start_page: entry.page_number || entry.toc_page,
+                    end_page: entry.page_number || entry.toc_page,
+                    page_count: 1,
+                    source: 'toc'
+                }));
+
+                renderSongList();
+                updateStats();
+
+                alert(`Loaded ${songs.length} songs from TOC. Adjust the end pages for each song.`);
+            } catch (error) {
+                alert('Error loading from database: ' + error.message);
+            }
+        }
+
+        function saveSplitPoints() {
+            if (songs.length === 0) {
+                alert('No songs to save');
+                return;
+            }
+
+            const bookId = document.getElementById('book-id-input').value.trim() || currentBookId;
+            if (!bookId) {
+                alert('Please enter a book ID');
+                return;
+            }
+
+            const splitData = {
+                book_id: bookId,
+                book_name: currentBookName,
+                created_at: new Date().toISOString(),
+                total_pages: pdfDoc ? pdfDoc.numPages : 0,
+                songs: songs
+            };
+
+            // Save to localStorage
+            localStorage.setItem(`manual_splits_${bookId}`, JSON.stringify(splitData));
+
+            alert(`Saved ${songs.length} split points for book ${bookId} to browser storage`);
+        }
+
+        function exportToJSON() {
+            if (songs.length === 0) {
+                alert('No songs to export');
+                return;
+            }
+
+            const bookId = document.getElementById('book-id-input').value.trim() || currentBookId || 'unknown';
+
+            const splitData = {
+                book_id: bookId,
+                book_name: currentBookName,
+                created_at: new Date().toISOString(),
+                total_pages: pdfDoc ? pdfDoc.numPages : 0,
+                songs: songs
+            };
+
+            const blob = new Blob([JSON.stringify(splitData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `manual_splits_${bookId}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function clearAllSplits() {
+            if (confirm('Clear all split points?')) {
+                songs = [];
+                selectedSongIndex = -1;
+                document.getElementById('current-song-info').textContent = 'No song selected';
+                renderSongList();
+                updateStats();
+            }
+        }
+
+        // Initialize
+        renderSongList();
+        updateStats();
+    </script>
+</body>
+</html>

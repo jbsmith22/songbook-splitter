@@ -6,7 +6,7 @@
 // Track active reprocessing jobs
 let activeReprocessing = new Map();
 let pollingInterval = null;
-const POLL_INTERVAL_MS = 30000; // 30 seconds
+const POLL_INTERVAL_MS = 5000; // 5 seconds for more responsive updates
 
 // Override the existing triggerReprocess function
 const originalTriggerReprocess = window.triggerReprocess;
@@ -48,7 +48,10 @@ window.triggerReprocess = async function(bookId, sourcePdf) {
             // Update the book row to show processing status
             updateBookRowProcessing(bookId, true);
 
-            let msg = 'Reprocessing started!\n\nWill auto-update when complete.';
+            // Create and show progress tracker
+            showProgressTracker(bookId, sourcePdf, data.execution_arn);
+
+            let msg = 'Reprocessing started!\n\nProgress tracker opened in new section.';
             if (data.use_manual_splits) {
                 msg += '\n\nUsing manual split points';
             }
@@ -89,6 +92,11 @@ async function checkReprocessingStatus() {
 
     for (const [bookId, jobInfo] of activeReprocessing.entries()) {
         try {
+            // Update progress tracker with detailed step information
+            if (jobInfo.executionArn) {
+                updateProgressTracker(bookId, jobInfo.executionArn);
+            }
+
             // Check DynamoDB status
             const response = await fetch(API_BASE_URL + '/status/' + bookId, { method: 'GET' });
             const data = await response.json();
@@ -105,6 +113,9 @@ async function checkReprocessingStatus() {
 
                     // Update the book row
                     updateBookRowProcessing(bookId, false);
+
+                    // Hide progress tracker
+                    hideProgressTracker(bookId);
 
                     // Show notification
                     const duration = Math.round((new Date() - jobInfo.startTime) / 1000);
@@ -177,9 +188,121 @@ function updateStatusDisplay() {
             text += ' - ' + activeReprocessing.size + ' processing';
         }
         if (pollingInterval) {
-            text += ' (polling every 30s)';
+            text += ' (polling every 5s)';
         }
         statusElement.textContent = text;
+    }
+}
+
+// ===== Progress Tracker Functions =====
+
+function showProgressTracker(bookId, sourcePdf, executionArn) {
+    // Create progress tracker container if it doesn't exist
+    let container = document.getElementById('progress-tracker-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'progress-tracker-container';
+        container.style.cssText = 'position: fixed; top: 80px; right: 20px; z-index: 1000; background: white; border: 2px solid #2196F3; border-radius: 8px; padding: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 400px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;';
+        document.body.appendChild(container);
+    }
+
+    // Create progress tracker for this book
+    const trackerId = 'progress-' + bookId;
+    let tracker = document.getElementById(trackerId);
+
+    if (!tracker) {
+        tracker = document.createElement('div');
+        tracker.id = trackerId;
+        tracker.style.cssText = 'margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #e0e0e0;';
+        container.appendChild(tracker);
+    }
+
+    tracker.innerHTML = `
+        <div style="margin-bottom: 12px;">
+            <div style="font-weight: 600; font-size: 14px; color: #1976D2; margin-bottom: 4px;">
+                ${sourcePdf}
+            </div>
+            <div style="font-size: 12px; color: #666;">
+                Book ID: ${bookId}
+            </div>
+        </div>
+        <div id="steps-${bookId}" style="font-size: 13px;">
+            <div style="color: #666; font-style: italic;">Loading pipeline status...</div>
+        </div>
+    `;
+
+    // Immediate first update
+    updateProgressTracker(bookId, executionArn);
+}
+
+function hideProgressTracker(bookId) {
+    const trackerId = 'progress-' + bookId;
+    const tracker = document.getElementById(trackerId);
+    if (tracker) {
+        tracker.style.opacity = '0.5';
+        setTimeout(() => tracker.remove(), 3000);
+    }
+
+    // Remove container if no more trackers
+    const container = document.getElementById('progress-tracker-container');
+    if (container && container.children.length === 0) {
+        container.remove();
+    }
+}
+
+async function updateProgressTracker(bookId, executionArn) {
+    try {
+        // Fetch detailed execution progress
+        const encodedArn = encodeURIComponent(executionArn);
+        const response = await fetch(API_BASE_URL + '/execution_progress/' + encodedArn);
+        const data = await response.json();
+
+        if (data.status === 'error') {
+            console.error('Error fetching progress:', data.message);
+            return;
+        }
+
+        const stepsContainer = document.getElementById('steps-' + bookId);
+        if (!stepsContainer) return;
+
+        // Build step display
+        let html = '';
+        for (const step of data.steps) {
+            let icon, color, text;
+
+            if (step.status === 'completed') {
+                icon = '✓';
+                color = '#4CAF50';
+                text = step.name;
+            } else if (step.status === 'running') {
+                icon = '⏳';
+                color = '#FF9800';
+                text = step.name + ' (running...)';
+            } else {
+                icon = '○';
+                color = '#999';
+                text = step.name;
+            }
+
+            html += `
+                <div style="display: flex; align-items: center; margin: 6px 0;">
+                    <span style="color: ${color}; font-weight: bold; margin-right: 8px; min-width: 20px;">${icon}</span>
+                    <span style="color: ${step.status === 'pending' ? '#999' : '#333'};">${text}</span>
+                </div>
+            `;
+        }
+
+        // Add execution status
+        if (data.execution_status === 'RUNNING') {
+            html += `<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e0e0e0; font-size: 12px; color: #666;">
+                Current: ${data.current_step || 'Initializing...'}
+            </div>`;
+        }
+
+        stepsContainer.innerHTML = html;
+
+    } catch (error) {
+        console.error('Error updating progress tracker:', error);
     }
 }
 

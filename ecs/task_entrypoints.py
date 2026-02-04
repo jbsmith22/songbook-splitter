@@ -398,7 +398,10 @@ def pdf_splitter_task():
 def page_mapper_task():
     """
     Page Mapper ECS task entry point.
-    
+
+    IMPROVED: Uses page_analysis.json as PRIMARY source for song locations,
+    then verifies each with strict vision checks.
+
     Environment variables:
     - BOOK_ID: Unique book identifier
     - SOURCE_PDF_URI: S3 URI of source PDF
@@ -407,12 +410,12 @@ def page_mapper_task():
     - ARTIST: Book-level artist (performer)
     - BOOK_NAME: Book name
     """
-    from app.services.page_mapper import PageMapperService
+    from app.services.improved_page_mapper import ImprovedPageMapperService
     from app.utils.s3_utils import S3Utils
     from app.models import TOCEntry
-    
-    logger.info("Starting Page Mapper task")
-    
+
+    logger.info("Starting Page Mapper task (IMPROVED VERSION)")
+
     # Get input from environment
     book_id = os.environ.get('BOOK_ID')
     source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
@@ -420,25 +423,25 @@ def page_mapper_task():
     output_bucket = os.environ.get('OUTPUT_BUCKET')
     book_artist = os.environ.get('ARTIST', '')  # Book-level artist
     book_name = os.environ.get('BOOK_NAME', '')
-    
+
     if not all([book_id, source_pdf_uri, toc_parse_uri, output_bucket]):
         logger.error("Missing required environment variables")
         sys.exit(1)
-    
+
     try:
         s3_utils = S3Utils()
-        
-        # Download PDF and TOC parse results
+
+        # Download PDF
         with tempfile.TemporaryDirectory() as temp_dir:
             pdf_path = os.path.join(temp_dir, 'input.pdf')
             bucket, key = parse_s3_uri(source_pdf_uri)
             s3_utils.download_file(bucket, key, pdf_path)
-            
+
             # Load TOC parse results
             bucket, key = parse_s3_uri(toc_parse_uri)
             toc_parse_json = s3_utils.read_bytes(bucket, key).decode('utf-8')
             toc_parse_data = json.loads(toc_parse_json)
-            
+
             # Convert to TOCEntry objects
             toc_entries = [
                 TOCEntry(
@@ -449,19 +452,46 @@ def page_mapper_task():
                 )
                 for entry in toc_parse_data.get('entries', [])
             ]
-            
-            # Run page mapping with vision enabled
-            # Pass TOC entries even if empty - they may contain artist info for fallback
-            logger.info(f"Initializing PageMapperService with {len(toc_entries)} TOC entries")
+
+            logger.info(f"Loaded {len(toc_entries)} TOC entries")
             logger.info(f"Book-level artist: '{book_artist}', Book name: '{book_name}'")
-            service = PageMapperService(use_vision=True)
-            page_mapping = service.build_page_mapping(
-                pdf_path, 
-                toc_entries,
-                book_artist=book_artist,
-                book_name=book_name
-            )
-            
+
+            # Try to load page_analysis.json (PRIMARY SOURCE)
+            page_analysis = None
+            try:
+                page_analysis_json = s3_utils.read_bytes(
+                    output_bucket,
+                    f"artifacts/{book_id}/page_analysis.json"
+                ).decode('utf-8')
+                page_analysis = json.loads(page_analysis_json)
+                logger.info(f"✓ Loaded page_analysis.json with {len(page_analysis.get('pages', []))} pages")
+            except Exception as e:
+                logger.warning(f"Could not load page_analysis.json: {e}")
+                logger.info("Will use fallback page mapping method")
+
+            # Initialize improved mapper
+            service = ImprovedPageMapperService()
+
+            # Use page_analysis if available, otherwise fallback
+            if page_analysis:
+                logger.info("Using page_analysis.json as PRIMARY source")
+                page_mapping = service.build_page_mapping_from_analysis(
+                    pdf_path=pdf_path,
+                    page_analysis=page_analysis,
+                    toc_entries=toc_entries,
+                    book_artist=book_artist,
+                    book_name=book_name,
+                    verify_each=True  # Verify every song start
+                )
+            else:
+                logger.info("Using fallback page mapping (no page_analysis)")
+                page_mapping = service.build_page_mapping_fallback(
+                    pdf_path=pdf_path,
+                    toc_entries=toc_entries,
+                    book_artist=book_artist,
+                    book_name=book_name
+                )
+
             # Write result to S3
             output_key = f"artifacts/{book_id}/page_mapping.json"
             result_json = json.dumps({
@@ -476,21 +506,24 @@ def page_mapper_task():
                         'artist': loc.artist
                     }
                     for loc in page_mapping.song_locations
-                ]
+                ],
+                'mapping_method': 'page_analysis' if page_analysis else 'fallback'
             })
             s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
-            
-            logger.info(f"Page Mapper complete. Mapped {len(page_mapping.song_locations)} songs with offset {page_mapping.offset}")
-            
+
+            logger.info(f"Page Mapper complete. Mapped {len(page_mapping.song_locations)} songs")
+            logger.info(f"Confidence: {page_mapping.confidence:.2%}")
+
             # Output result for Step Functions
             print(json.dumps({
                 'book_id': book_id,
                 'mapped_count': len(page_mapping.song_locations),
                 'offset': page_mapping.offset,
                 'confidence': page_mapping.confidence,
+                'mapping_method': 'page_analysis' if page_analysis else 'fallback',
                 'output_uri': f"s3://{output_bucket}/{output_key}"
             }))
-            
+
     except Exception as e:
         logger.error(f"Page Mapper failed: {e}", exc_info=True)
         sys.exit(1)
@@ -582,15 +615,101 @@ def manifest_generator_task():
         sys.exit(1)
 
 
+def page_analysis_task():
+    """
+    Page Analysis ECS task entry point.
+
+    Uses Bedrock Claude vision to analyze each PDF page and build:
+    - Page offset mapping (printed page vs PDF page)
+    - Song boundaries with actual PDF page numbers
+    - Per-page content analysis
+
+    Environment variables:
+    - BOOK_ID: Unique book identifier
+    - SOURCE_PDF_URI: S3 URI of source PDF
+    - ARTIST: Book artist
+    - BOOK_NAME: Book name
+    - OUTPUT_BUCKET: S3 bucket for output
+    """
+    from app.services.page_analyzer import PageAnalyzerService
+    from app.utils.s3_utils import S3Utils
+
+    logger.info("Starting Page Analysis task")
+
+    # Get input from environment
+    book_id = os.environ.get('BOOK_ID')
+    source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
+    artist = os.environ.get('ARTIST')
+    book_name = os.environ.get('BOOK_NAME')
+    output_bucket = os.environ.get('OUTPUT_BUCKET')
+
+    if not all([book_id, source_pdf_uri, output_bucket]):
+        logger.error("Missing required environment variables")
+        sys.exit(1)
+
+    try:
+        s3_utils = S3Utils()
+
+        # Load TOC parse results to get song titles
+        toc_entries = []
+        try:
+            toc_parse_json = s3_utils.read_bytes(
+                output_bucket,
+                f"artifacts/{book_id}/toc_parse.json"
+            ).decode('utf-8')
+            toc_parse_data = json.loads(toc_parse_json)
+            toc_entries = toc_parse_data.get('entries', [])
+            logger.info(f"Loaded {len(toc_entries)} TOC entries for calibration")
+        except Exception as e:
+            logger.warning(f"Could not load TOC entries: {e}")
+
+        # Download PDF
+        with tempfile.TemporaryDirectory() as temp_dir:
+            pdf_path = os.path.join(temp_dir, 'input.pdf')
+            bucket, key = parse_s3_uri(source_pdf_uri)
+            s3_utils.download_file(bucket, key, pdf_path)
+
+            # Run page analysis
+            service = PageAnalyzerService(local_mode=False)
+            result = service.analyze_book(
+                pdf_path=pdf_path,
+                book_id=book_id,
+                source_pdf_uri=source_pdf_uri,
+                toc_entries=toc_entries
+            )
+
+            # Convert to dict and write to S3
+            result_dict = service.to_dict(result)
+            output_key = f"artifacts/{book_id}/page_analysis.json"
+            result_json = json.dumps(result_dict, indent=2)
+            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
+
+            logger.info(f"Page Analysis complete. Offset: {result.page_offset.calculated_offset}, Songs: {len(result.songs)}")
+
+            # Output result for Step Functions
+            print(json.dumps({
+                'book_id': book_id,
+                'page_offset': result.page_offset.calculated_offset,
+                'offset_consistent': result.page_offset.is_consistent,
+                'songs_found': len(result.songs),
+                'pages_analyzed': len(result.pages),
+                'output_uri': f"s3://{output_bucket}/{output_key}"
+            }))
+
+    except Exception as e:
+        logger.error(f"Page Analysis failed: {e}", exc_info=True)
+        sys.exit(1)
+
+
 def parse_s3_uri(s3_uri: str) -> tuple:
     """Parse S3 URI into bucket and key."""
     if not s3_uri.startswith('s3://'):
         raise ValueError(f"Invalid S3 URI: {s3_uri}")
-    
+
     parts = s3_uri[5:].split('/', 1)
     bucket = parts[0]
     key = parts[1] if len(parts) > 1 else ''
-    
+
     return bucket, key
 
 
@@ -602,6 +721,8 @@ if __name__ == '__main__':
         toc_discovery_task()
     elif task_type == 'toc_parser':
         toc_parser_task()
+    elif task_type == 'page_analysis':
+        page_analysis_task()
     elif task_type == 'page_mapper':
         page_mapper_task()
     elif task_type == 'song_verifier':

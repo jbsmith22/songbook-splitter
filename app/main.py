@@ -14,6 +14,7 @@ sys.path.insert(0, '/app')
 from ecs.task_entrypoints import (
     toc_discovery_task,
     toc_parser_task,
+    page_analysis_task,
     page_mapper_task,
     song_verifier_task,
     pdf_splitter_task,
@@ -27,6 +28,8 @@ if __name__ == '__main__':
         toc_discovery_task()
     elif task_type == 'toc_parser':
         toc_parser_task()
+    elif task_type == 'page_analysis':
+        page_analysis_task()
     elif task_type == 'page_mapper':
         page_mapper_task()
     elif task_type == 'song_verifier':

@@ -62,6 +62,7 @@ SheetMusic/
 SheetMusicIndividualSheets/
 ProcessedSongs/
 ProcessedSongs_Archive/
+ProcessedSongs_Final/
 
 # Data files and analysis outputs
 data/analysis/*.json

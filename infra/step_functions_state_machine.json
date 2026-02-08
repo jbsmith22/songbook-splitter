@@ -186,7 +186,74 @@
           "Next": "RecordManualReview"
         }
       ],
-      "Default": "PageMapping"
+      "Default": "PageAnalysis"
+    },
+    "PageAnalysis": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "LaunchType": "FARGATE",
+        "Cluster": "${ECSClusterArn}",
+        "TaskDefinition": "${PageAnalysisTaskDefinition}",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["${SubnetId}"],
+            "SecurityGroups": ["${SecurityGroupId}"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "page-analysis",
+              "Environment": [
+                {
+                  "Name": "TASK_TYPE",
+                  "Value": "page_analysis"
+                },
+                {
+                  "Name": "BOOK_ID",
+                  "Value.$": "$.book_id"
+                },
+                {
+                  "Name": "SOURCE_PDF_URI",
+                  "Value.$": "$.source_pdf_uri"
+                },
+                {
+                  "Name": "ARTIST",
+                  "Value.$": "$.artist"
+                },
+                {
+                  "Name": "BOOK_NAME",
+                  "Value.$": "$.book_name"
+                },
+                {
+                  "Name": "OUTPUT_BUCKET",
+                  "Value": "${OutputBucket}"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ResultPath": "$.page_analysis",
+      "Next": "PageMapping",
+      "Retry": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "IntervalSeconds": 30,
+          "MaxAttempts": 2,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.error",
+          "Next": "PageMapping",
+          "Comment": "Continue without page analysis if it fails"
+        }
+      ]
     },
     "PageMapping": {
       "Type": "Task",

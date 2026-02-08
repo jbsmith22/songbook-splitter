@@ -85,7 +85,7 @@ def rename_s3_file(s3_path, old_filename, new_filename):
     print(f"  OK Renamed S3: {old_filename} -> {new_filename}")
     stats['rename_s3'] += 1
 
-def copy_s3_to_local(s3_path, filename, local_path):
+def copy_s3_to_local(s3_path, filename, local_path, allow_overwrite=False):
     """Copy a file from S3 to local"""
     # Find the file in S3
     prefixes = [
@@ -113,16 +113,17 @@ def copy_s3_to_local(s3_path, filename, local_path):
 
     local_file = folder_path / filename
 
-    if local_file.exists():
+    if local_file.exists() and not allow_overwrite:
         raise FileExistsError(f"Local file already exists: {local_file}")
 
     # Download from S3
     s3.download_file(S3_BUCKET, s3_key, str(local_file))
 
-    print(f"  OK Copied S3 to local: {filename}")
+    action_word = "Overwrote" if local_file.exists() else "Copied"
+    print(f"  OK {action_word} S3 to local: {filename}")
     stats['copy_to_local'] += 1
 
-def copy_local_to_s3(local_path, filename, s3_path):
+def copy_local_to_s3(local_path, filename, s3_path, allow_overwrite=False):
     """Copy a file from local to S3"""
     folder_path = LOCAL_ROOT / local_path
     local_file = folder_path / filename
@@ -153,16 +154,20 @@ def copy_local_to_s3(local_path, filename, s3_path):
         s3_key = f"{base_key}{filename}"
 
     # Check if file already exists
+    file_exists = False
     try:
         s3.head_object(Bucket=S3_BUCKET, Key=s3_key)
-        raise FileExistsError(f"S3 file already exists: {s3_key}")
+        file_exists = True
+        if not allow_overwrite:
+            raise FileExistsError(f"S3 file already exists: {s3_key}")
     except s3.exceptions.ClientError:
         pass  # Good, doesn't exist
 
     # Upload to S3
     s3.upload_file(str(local_file), S3_BUCKET, s3_key)
 
-    print(f"  OK Copied local to S3: {filename}")
+    action_word = "Overwrote" if file_exists else "Copied"
+    print(f"  OK {action_word} local to S3: {filename}")
     stats['copy_to_s3'] += 1
 
 def delete_local_file(local_path, filename):
@@ -212,32 +217,46 @@ def execute_decision(folder_path, filename, decision):
     s3_path = decision['s3_path']
 
     try:
-        if action == 'rename-local':
-            new_name = decision['normalized_name']
+        if action == 'no-action':
+            # No action needed, skip
+            return
+
+        elif action == 'rename-local':
+            new_name = decision.get('rename_target') or decision.get('normalized_name')
+            if not new_name:
+                raise ValueError(f"Rename action missing target name")
             rename_local_file(local_path, filename, new_name)
 
         elif action == 'rename-s3':
-            new_name = decision['normalized_name']
+            new_name = decision.get('rename_target') or decision.get('normalized_name')
+            if not new_name:
+                raise ValueError(f"Rename action missing target name")
             rename_s3_file(s3_path, filename, new_name)
 
         elif action == 'copy-to-local':
-            copy_s3_to_local(s3_path, filename, local_path)
+            copy_s3_to_local(s3_path, filename, local_path, allow_overwrite=False)
 
         elif action == 'copy-to-s3':
-            copy_local_to_s3(local_path, filename, s3_path)
+            copy_local_to_s3(local_path, filename, s3_path, allow_overwrite=False)
 
         elif action == 'copy-local-to-s3':
-            # For hash mismatches, overwrite S3 with local version
-            copy_local_to_s3(local_path, filename, s3_path)
+            copy_local_to_s3(local_path, filename, s3_path, allow_overwrite=False)
+
+        elif action == 'copy-local-to-s3-overwrite':
+            # For size mismatches, overwrite S3 with local version
+            copy_local_to_s3(local_path, filename, s3_path, allow_overwrite=True)
 
         elif action == 'copy-s3-to-local':
-            # For hash mismatches, overwrite local with S3 version
-            copy_s3_to_local(s3_path, filename, local_path)
+            copy_s3_to_local(s3_path, filename, local_path, allow_overwrite=False)
 
-        elif action == 'delete-local':
+        elif action == 'copy-s3-to-local-overwrite':
+            # For size mismatches, overwrite local with S3 version
+            copy_s3_to_local(s3_path, filename, local_path, allow_overwrite=True)
+
+        elif action in ['delete-local', 'delete-from-local']:
             delete_local_file(local_path, filename)
 
-        elif action == 'delete-s3':
+        elif action in ['delete-s3', 'delete-from-s3']:
             delete_s3_file(s3_path, filename)
 
         elif action == 'delete-both':
@@ -260,16 +279,24 @@ def main():
     # Check for --yes flag
     auto_confirm = '--yes' in sys.argv or '-y' in sys.argv
 
-    # Find the most recent decisions file
+    # Check if a specific decisions file was provided as argument
     import glob
-    decision_files = glob.glob('reconciliation_decisions_*.json')
-    if not decision_files:
-        print("ERROR: No reconciliation_decisions_*.json file found")
-        return
+    if len(sys.argv) > 1 and sys.argv[1].endswith('.json'):
+        decisions_file = sys.argv[1]
+    else:
+        # Look for the merged decisions file first
+        if Path('reconciliation_decisions_2026-02-02_merged.json').exists():
+            decisions_file = 'reconciliation_decisions_2026-02-02_merged.json'
+        else:
+            # Find the most recent decisions file
+            decision_files = glob.glob('reconciliation_decisions_*.json')
+            if not decision_files:
+                print("ERROR: No reconciliation_decisions_*.json file found")
+                return
 
-    # Use the smaller one (trimmed version)
-    decision_files.sort(key=lambda f: Path(f).stat().st_size)
-    decisions_file = decision_files[0]
+            # Use the most recent one
+            decision_files.sort(key=lambda f: Path(f).stat().st_mtime, reverse=True)
+            decisions_file = decision_files[0]
 
     print(f"Loading decisions from: {decisions_file}")
     with open(decisions_file, 'r', encoding='utf-8') as f:

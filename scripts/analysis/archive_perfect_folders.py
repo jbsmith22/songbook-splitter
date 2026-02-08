@@ -18,13 +18,15 @@ table = dynamodb.Table('jsmith-processing-ledger')
 local_root = Path(r'd:\Work\songbook-splitter\ProcessedSongs')
 archive_root = Path(r'd:\Work\songbook-splitter\ProcessedSongs_Archive')
 
-# Load match quality data
-print("Loading match quality data...")
-with open('data/analysis/match_quality_data.json', 'r') as f:
-    match_data = json.load(f)
+# Load verification results to get only verified folders
+print("Loading verification results...")
+with open('data/analysis/perfect_folder_verification.json', 'r') as f:
+    verification = json.load(f)
 
-perfect_folders = match_data['quality_tiers']['perfect']
-print(f"Found {len(perfect_folders)} PERFECT folders to archive\n")
+# Only archive verified folders (exclude already archived)
+perfect_folders = verification['verified_folders']
+print(f"Found {len(perfect_folders)} verified PERFECT folders to archive")
+print(f"Skipping {verification['failed']} folders (already archived or other issues)\n")
 
 stats = defaultdict(int)
 errors = []

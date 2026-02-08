@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(for book_id in v2-00171fce4db3bdf9-2 v2-f8ec20dce8b730ee-2 v2-cd18af7e75ea34c4-2)"
+    ]
+  }
+}

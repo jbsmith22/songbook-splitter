@@ -210,29 +210,36 @@ def main():
     auto_confirm = '--yes' in sys.argv or '-y' in sys.argv
 
     # Load decisions file
-    decision_file = 'reconciliation_decisions_2026-02-01.json'
+    # Check if a specific decisions file was provided as argument
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1].endswith('.json'):
+        decision_file = sys.argv[1]
+    else:
+        # Use the newer decisions file
+        decision_file = 'reconciliation_decisions_2026-02-02-newer.json'
+        if not Path(decision_file).exists():
+            decision_file = 'reconciliation_decisions_2026-02-01.json'
+
     print(f"Loading {decision_file}...")
     with open(decision_file, 'r', encoding='utf-8') as f:
         root = json.load(f)
 
     all_decisions = root['decisions']
 
-    # Filter for completed folders with folderAction
+    # Filter for folders with folderNameChoice (from HTML viewer)
     folder_decisions = {
         path: data for path, data in all_decisions.items()
-        if data.get('completed') and data.get('folderAction')
+        if data.get('folderNameChoice')
     }
 
-    print(f"Found {len(folder_decisions)} completed folders with folder rename actions")
+    print(f"Found {len(folder_decisions)} folders with naming decisions")
 
-    # Count by action type
-    rename_local = sum(1 for d in folder_decisions.values()
-                      if d['folderAction'].get('action') == 'rename-local-folder')
-    rename_s3 = sum(1 for d in folder_decisions.values()
-                   if d['folderAction'].get('action') == 'rename-s3-folder')
+    # Count by choice type
+    choose_local = sum(1 for d in folder_decisions.values() if d.get('folderNameChoice') == 'local')
+    choose_s3 = sum(1 for d in folder_decisions.values() if d.get('folderNameChoice') == 's3')
 
-    print(f"  Local folder renames: {rename_local}")
-    print(f"  S3 folder renames: {rename_s3}")
+    print(f"  Chose local naming: {choose_local} (will rename S3)")
+    print(f"  Chose S3 naming: {choose_s3} (will rename local)")
     print()
 
     if not auto_confirm:
@@ -247,12 +254,36 @@ def main():
 
     # Execute each folder's rename action
     for folder_path, folder_data in folder_decisions.items():
-        folder_action = folder_data.get('folderAction')
+        choice = folder_data.get('folderNameChoice')
+        local_path = folder_data.get('local_path')
+        s3_path = folder_data.get('s3_path')
 
-        if not folder_action:
+        if not choice or not local_path or not s3_path:
+            continue
+
+        # Skip if paths already match
+        if local_path == s3_path:
             continue
 
         print(f"\n{folder_path}:")
+        print(f"  Choice: {choice.upper()}")
+
+        # Convert HTML viewer format to folder action format
+        if choice == 's3':
+            # Rename local to match S3
+            folder_action = {
+                'action': 'rename-local-folder',
+                'from': local_path,
+                'to': s3_path
+            }
+        else:  # choice == 'local'
+            # Rename S3 to match local
+            folder_action = {
+                'action': 'rename-s3-folder',
+                'from': s3_path,
+                'to': local_path
+            }
+
         execute_folder_action(folder_path, folder_action)
 
     # Print statistics

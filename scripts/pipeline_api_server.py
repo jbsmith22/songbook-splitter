@@ -379,6 +379,25 @@ def get_page_analysis(book_id):
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 404
 
+@app.route('/api/page_mapping/<book_id>', methods=['GET'])
+def get_page_mapping(book_id):
+    """Get verified page mapping from S3 artifacts.
+
+    This contains the VERIFIED song locations from the improved page mapper.
+    Use this as the PRIMARY source for song positions - it has been validated
+    with vision verification and is more accurate than page_analysis.songs.
+    """
+    try:
+        key = f'artifacts/{book_id}/page_mapping.json'
+        response = s3.get_object(Bucket=BUCKET, Key=key)
+        mapping_data = json.loads(response['Body'].read())
+        return jsonify(mapping_data)
+    except s3.exceptions.NoSuchKey:
+        return jsonify({'status': 'not_found', 'message': 'Page mapping not available'}), 404
+    except Exception as e:
+        return jsonify({'status': 'error', 'message': str(e)}), 404
+
+
 @app.route('/api/detect_page_number/<book_id>/<int:pdf_page>', methods=['GET'])
 def detect_page_number(book_id, pdf_page):
     """Use Claude vision to detect the printed page number (distinguishes from other numbers)"""

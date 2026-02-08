@@ -356,32 +356,50 @@ Return a JSON object with:
             # Fallback to text-based heuristics
             return 0.0
     
-    def select_toc_pages(self, scored_pages: List[tuple[int, float]], 
+    def select_toc_pages(self, scored_pages: List[tuple[int, float]],
                         threshold: float = 0.5) -> List[int]:
         """
         Select pages that are likely TOC based on scores.
-        
+
+        Handles multi-page TOCs by including consecutive pages after a high-scoring TOC page.
+
         Args:
             scored_pages: List of (page_num, score) tuples
             threshold: Minimum score to consider a page as TOC
-        
+
         Returns:
             List of page indices that are likely TOC pages
         """
         # Sort by score descending
-        scored_pages.sort(key=lambda x: x[1], reverse=True)
-        
+        scored_pages_by_score = sorted(scored_pages, key=lambda x: x[1], reverse=True)
+
+        # Create a dict for easy lookup
+        score_dict = {page_num: score for page_num, score in scored_pages}
+
         # Select pages above threshold
-        toc_pages = [page_num for page_num, score in scored_pages if score >= threshold]
-        
-        # If no pages meet threshold, take the top 2 pages (likely to be TOC)
-        if not toc_pages and scored_pages:
-            toc_pages = [scored_pages[0][0]]
-            if len(scored_pages) > 1:
-                toc_pages.append(scored_pages[1][0])
-        
+        toc_pages = set(page_num for page_num, score in scored_pages if score >= threshold)
+
+        # If no pages meet threshold, take the top page
+        if not toc_pages and scored_pages_by_score:
+            toc_pages.add(scored_pages_by_score[0][0])
+
+        # MULTI-PAGE TOC HANDLING: Include consecutive pages after high-scoring TOC pages
+        # A page immediately following a TOC page is likely also TOC (continuation)
+        # Use a lower threshold (0.2) for consecutive pages
+        consecutive_threshold = 0.2
+        pages_to_add = set()
+        for page_num in list(toc_pages):
+            next_page = page_num + 1
+            if next_page in score_dict:
+                # Include next page if it has any reasonable score
+                if score_dict[next_page] >= consecutive_threshold:
+                    pages_to_add.add(next_page)
+                    logger.info(f"Including consecutive TOC page {next_page} (score: {score_dict[next_page]:.2f})")
+
+        toc_pages.update(pages_to_add)
+
         # Sort by page number for output
-        toc_pages.sort()
-        
-        logger.info(f"Selected {len(toc_pages)} TOC pages with threshold {threshold}")
-        return toc_pages
+        toc_pages_list = sorted(toc_pages)
+
+        logger.info(f"Selected {len(toc_pages_list)} TOC pages with threshold {threshold}")
+        return toc_pages_list

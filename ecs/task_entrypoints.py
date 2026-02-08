@@ -161,13 +161,36 @@ def toc_parser_task():
             if not toc_images:
                 logger.error("No TOC images rendered")
                 sys.exit(1)
-            
+
             # Parse TOC using Bedrock vision
             from app.services.bedrock_parser import BedrockParserService
             bedrock_service = BedrockParserService()
             book_metadata = {'artist': artist, 'book_name': book_name}
             result = bedrock_service.bedrock_vision_parse(toc_images, book_metadata)
-        
+
+            # FALLBACK: If vision parsing failed, try text-based parsing using OCR text
+            if not result.entries or len(result.entries) < 5:
+                logger.warning(f"Vision parsing returned only {len(result.entries)} entries, trying text-based fallback")
+
+                # Get extracted text from discovery results
+                extracted_text = toc_discovery_data.get('extracted_text', {})
+                if extracted_text:
+                    # Combine text from all TOC pages
+                    combined_text = '\n'.join(
+                        extracted_text.get(str(page_num), '')
+                        for page_num in toc_pages
+                    )
+
+                    if combined_text.strip():
+                        logger.info(f"Attempting text-based parsing on {len(combined_text)} chars of OCR text")
+                        from app.services.toc_parser import TOCParser
+                        text_parser = TOCParser(use_bedrock_fallback=True)
+                        text_result = text_parser.parse_toc(combined_text, book_metadata)
+
+                        if text_result.entries and len(text_result.entries) > len(result.entries):
+                            logger.info(f"Text-based parsing succeeded with {len(text_result.entries)} entries")
+                            result = text_result
+
         # Write result to S3
         output_key = f"artifacts/{book_id}/toc_parse.json"
         result_json = json.dumps({
@@ -204,43 +227,89 @@ def toc_parser_task():
 def song_verifier_task():
     """
     Song Verifier ECS task entry point.
-    
+
+    If HOLISTIC page_analysis.json exists with songs, just pass through.
+    Otherwise uses SongVerifierService for legacy verification.
+
     Environment variables:
     - BOOK_ID: Unique book identifier
     - SOURCE_PDF_URI: S3 URI of source PDF
     - PAGE_MAPPING_URI: S3 URI of page mapping JSON
     - OUTPUT_BUCKET: S3 bucket for output
     """
-    from app.services.song_verifier import SongVerifierService
     from app.utils.s3_utils import S3Utils
-    from app.models import SongLocation
-    
+
     logger.info("Starting Song Verifier task")
-    
+
     # Get input from environment
     book_id = os.environ.get('BOOK_ID')
     source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
     page_mapping_uri = os.environ.get('PAGE_MAPPING_URI')
     output_bucket = os.environ.get('OUTPUT_BUCKET')
-    
+
     if not all([book_id, source_pdf_uri, page_mapping_uri, output_bucket]):
         logger.error("Missing required environment variables")
         sys.exit(1)
-    
+
     try:
         s3_utils = S3Utils()
-        
-        # Download PDF and page mapping
+
+        # Check if holistic page_analysis.json exists with songs
+        page_analysis = None
+        try:
+            page_analysis_json = s3_utils.read_bytes(
+                output_bucket,
+                f"artifacts/{book_id}/page_analysis.json"
+            ).decode('utf-8')
+            page_analysis = json.loads(page_analysis_json)
+        except Exception as e:
+            logger.info(f"No page_analysis.json found: {e}")
+
+        # If holistic analysis exists with songs, just pass through
+        if page_analysis and len(page_analysis.get('songs', [])) > 0:
+            logger.info(f"HOLISTIC analysis found with {len(page_analysis['songs'])} songs - passing through")
+
+            # Build verified_songs.json from holistic analysis (don't re-verify)
+            output_key = f"artifacts/{book_id}/verified_songs.json"
+            result_json = json.dumps({
+                'verified_songs': [
+                    {
+                        'song_title': song['title'],
+                        'start_page': song['start_pdf_page'] - 1,  # 0-indexed
+                        'end_page': song['end_pdf_page'] - 1,  # 0-indexed
+                        'artist': song.get('artist', '')
+                    }
+                    for song in page_analysis['songs']
+                ]
+            }, indent=2)
+            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
+
+            logger.info(f"Song Verifier complete. Passed through {len(page_analysis['songs'])} songs from holistic analysis")
+
+            # Output result for Step Functions
+            print(json.dumps({
+                'book_id': book_id,
+                'verified_count': len(page_analysis['songs']),
+                'verification_method': 'holistic_passthrough',
+                'output_uri': f"s3://{output_bucket}/{output_key}"
+            }))
+            return
+
+        # Legacy fallback: use SongVerifierService
+        logger.info("No holistic analysis - using legacy song verifier")
+        from app.services.song_verifier import SongVerifierService
+        from app.models import SongLocation
+
         with tempfile.TemporaryDirectory() as temp_dir:
             pdf_path = os.path.join(temp_dir, 'input.pdf')
             bucket, key = parse_s3_uri(source_pdf_uri)
             s3_utils.download_file(bucket, key, pdf_path)
-            
+
             # Load page mapping
             bucket, key = parse_s3_uri(page_mapping_uri)
             page_mapping_json = s3_utils.read_bytes(bucket, key).decode('utf-8')
             page_mapping_data = json.loads(page_mapping_json)
-            
+
             # Convert to SongLocation objects
             song_locations = [
                 SongLocation(
@@ -251,32 +320,32 @@ def song_verifier_task():
                 )
                 for entry in page_mapping_data.get('song_locations', [])
             ]
-            
+
             # Filter out songs with invalid PDF indices
             doc = fitz.open(pdf_path)
             total_pages = len(doc)
             doc.close()
-            
+
             valid_song_locations = [
                 loc for loc in song_locations
                 if 0 <= loc.pdf_index < total_pages
             ]
-            
+
             if len(valid_song_locations) < len(song_locations):
                 logger.warning(f"Filtered out {len(song_locations) - len(valid_song_locations)} songs with invalid PDF indices (PDF has {total_pages} pages)")
-            
+
             logger.info(f"Verifying {len(valid_song_locations)} song start pages")
-            
+
             # Run verification
             service = SongVerifierService()
             verified_songs = service.verify_song_starts(pdf_path, valid_song_locations)
-            
+
             # Filter to only verified songs
             verified_only = [v for v in verified_songs if v.verified]
-            
+
             # Calculate page ranges
             page_ranges = service.adjust_page_ranges(verified_only, total_pages)
-            
+
             # Write result to S3
             output_key = f"artifacts/{book_id}/verified_songs.json"
             result_json = json.dumps({
@@ -291,9 +360,9 @@ def song_verifier_task():
                 ]
             })
             s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
-            
+
             logger.info(f"Song Verifier complete. Verified {len(verified_only)}/{len(valid_song_locations)} songs successfully")
-            
+
             # Output result for Step Functions
             print(json.dumps({
                 'book_id': book_id,
@@ -399,8 +468,8 @@ def page_mapper_task():
     """
     Page Mapper ECS task entry point.
 
-    IMPROVED: Uses page_analysis.json as PRIMARY source for song locations,
-    then verifies each with strict vision checks.
+    If HOLISTIC page_analysis.json exists with songs, just pass through.
+    Otherwise uses ImprovedPageMapperService for legacy fallback.
 
     Environment variables:
     - BOOK_ID: Unique book identifier
@@ -410,18 +479,16 @@ def page_mapper_task():
     - ARTIST: Book-level artist (performer)
     - BOOK_NAME: Book name
     """
-    from app.services.improved_page_mapper import ImprovedPageMapperService
     from app.utils.s3_utils import S3Utils
-    from app.models import TOCEntry
 
-    logger.info("Starting Page Mapper task (IMPROVED VERSION)")
+    logger.info("Starting Page Mapper task")
 
     # Get input from environment
     book_id = os.environ.get('BOOK_ID')
     source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
     toc_parse_uri = os.environ.get('TOC_PARSE_URI')
     output_bucket = os.environ.get('OUTPUT_BUCKET')
-    book_artist = os.environ.get('ARTIST', '')  # Book-level artist
+    book_artist = os.environ.get('ARTIST', '')
     book_name = os.environ.get('BOOK_NAME', '')
 
     if not all([book_id, source_pdf_uri, toc_parse_uri, output_bucket]):
@@ -431,7 +498,56 @@ def page_mapper_task():
     try:
         s3_utils = S3Utils()
 
-        # Download PDF
+        # Check if holistic page_analysis.json exists with songs
+        page_analysis = None
+        try:
+            page_analysis_json = s3_utils.read_bytes(
+                output_bucket,
+                f"artifacts/{book_id}/page_analysis.json"
+            ).decode('utf-8')
+            page_analysis = json.loads(page_analysis_json)
+        except Exception as e:
+            logger.info(f"No page_analysis.json found: {e}")
+
+        # If holistic analysis exists with songs, just pass through
+        if page_analysis and len(page_analysis.get('songs', [])) > 0:
+            logger.info(f"HOLISTIC analysis found with {len(page_analysis['songs'])} songs - passing through")
+
+            # Build page_mapping.json from holistic analysis (don't re-verify)
+            output_key = f"artifacts/{book_id}/page_mapping.json"
+            result_json = json.dumps({
+                'offset': page_analysis.get('calculated_offset', 0),
+                'confidence': page_analysis.get('offset_confidence', 1.0),
+                'samples_verified': page_analysis.get('matched_song_count', 0),
+                'song_locations': [
+                    {
+                        'song_title': song['title'],
+                        'printed_page': song.get('toc_page') or song['start_pdf_page'],
+                        'pdf_index': song['start_pdf_page'] - 1,
+                        'artist': song.get('artist', '')
+                    }
+                    for song in page_analysis['songs']
+                ],
+                'mapping_method': 'holistic_passthrough'
+            }, indent=2)
+            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
+
+            logger.info(f"Page Mapper complete. Passed through {len(page_analysis['songs'])} songs from holistic analysis")
+
+            # Output result for Step Functions
+            print(json.dumps({
+                'book_id': book_id,
+                'songs_mapped': len(page_analysis['songs']),
+                'mapping_method': 'holistic_passthrough',
+                'output_uri': f"s3://{output_bucket}/{output_key}"
+            }))
+            return
+
+        # Legacy fallback: use ImprovedPageMapperService
+        logger.info("No holistic analysis - using legacy page mapper")
+        from app.services.improved_page_mapper import ImprovedPageMapperService
+        from app.models import TOCEntry
+
         with tempfile.TemporaryDirectory() as temp_dir:
             pdf_path = os.path.join(temp_dir, 'input.pdf')
             bucket, key = parse_s3_uri(source_pdf_uri)
@@ -442,7 +558,6 @@ def page_mapper_task():
             toc_parse_json = s3_utils.read_bytes(bucket, key).decode('utf-8')
             toc_parse_data = json.loads(toc_parse_json)
 
-            # Convert to TOCEntry objects
             toc_entries = [
                 TOCEntry(
                     song_title=entry['song_title'],
@@ -453,46 +568,14 @@ def page_mapper_task():
                 for entry in toc_parse_data.get('entries', [])
             ]
 
-            logger.info(f"Loaded {len(toc_entries)} TOC entries")
-            logger.info(f"Book-level artist: '{book_artist}', Book name: '{book_name}'")
-
-            # Try to load page_analysis.json (PRIMARY SOURCE)
-            page_analysis = None
-            try:
-                page_analysis_json = s3_utils.read_bytes(
-                    output_bucket,
-                    f"artifacts/{book_id}/page_analysis.json"
-                ).decode('utf-8')
-                page_analysis = json.loads(page_analysis_json)
-                logger.info(f"✓ Loaded page_analysis.json with {len(page_analysis.get('pages', []))} pages")
-            except Exception as e:
-                logger.warning(f"Could not load page_analysis.json: {e}")
-                logger.info("Will use fallback page mapping method")
-
-            # Initialize improved mapper
             service = ImprovedPageMapperService()
+            page_mapping = service.build_page_mapping_fallback(
+                pdf_path=pdf_path,
+                toc_entries=toc_entries,
+                book_artist=book_artist,
+                book_name=book_name
+            )
 
-            # Use page_analysis if available, otherwise fallback
-            if page_analysis:
-                logger.info("Using page_analysis.json as PRIMARY source")
-                page_mapping = service.build_page_mapping_from_analysis(
-                    pdf_path=pdf_path,
-                    page_analysis=page_analysis,
-                    toc_entries=toc_entries,
-                    book_artist=book_artist,
-                    book_name=book_name,
-                    verify_each=True  # Verify every song start
-                )
-            else:
-                logger.info("Using fallback page mapping (no page_analysis)")
-                page_mapping = service.build_page_mapping_fallback(
-                    pdf_path=pdf_path,
-                    toc_entries=toc_entries,
-                    book_artist=book_artist,
-                    book_name=book_name
-                )
-
-            # Write result to S3
             output_key = f"artifacts/{book_id}/page_mapping.json"
             result_json = json.dumps({
                 'offset': page_mapping.offset,
@@ -507,7 +590,7 @@ def page_mapper_task():
                     }
                     for loc in page_mapping.song_locations
                 ],
-                'mapping_method': 'page_analysis' if page_analysis else 'fallback'
+                'mapping_method': 'legacy_fallback'
             })
             s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
 
@@ -619,10 +702,11 @@ def page_analysis_task():
     """
     Page Analysis ECS task entry point.
 
-    Uses Bedrock Claude vision to analyze each PDF page and build:
-    - Page offset mapping (printed page vs PDF page)
-    - Song boundaries with actual PDF page numbers
-    - Per-page content analysis
+    Uses HOLISTIC page analysis:
+    1. Full scan of every page
+    2. Match TOC entries to detected song starts
+    3. Offset fallback for unmatched songs
+    4. Assign all pages to songs
 
     Environment variables:
     - BOOK_ID: Unique book identifier
@@ -631,16 +715,16 @@ def page_analysis_task():
     - BOOK_NAME: Book name
     - OUTPUT_BUCKET: S3 bucket for output
     """
-    from app.services.page_analyzer import PageAnalyzerService
+    from app.services.holistic_page_analyzer import HolisticPageAnalyzer
     from app.utils.s3_utils import S3Utils
 
-    logger.info("Starting Page Analysis task")
+    logger.info("Starting Page Analysis task (HOLISTIC VERSION)")
 
     # Get input from environment
     book_id = os.environ.get('BOOK_ID')
     source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
-    artist = os.environ.get('ARTIST')
-    book_name = os.environ.get('BOOK_NAME')
+    artist = os.environ.get('ARTIST', '')
+    book_name = os.environ.get('BOOK_NAME', '')
     output_bucket = os.environ.get('OUTPUT_BUCKET')
 
     if not all([book_id, source_pdf_uri, output_bucket]):
@@ -659,7 +743,7 @@ def page_analysis_task():
             ).decode('utf-8')
             toc_parse_data = json.loads(toc_parse_json)
             toc_entries = toc_parse_data.get('entries', [])
-            logger.info(f"Loaded {len(toc_entries)} TOC entries for calibration")
+            logger.info(f"Loaded {len(toc_entries)} TOC entries")
         except Exception as e:
             logger.warning(f"Could not load TOC entries: {e}")
 
@@ -669,30 +753,75 @@ def page_analysis_task():
             bucket, key = parse_s3_uri(source_pdf_uri)
             s3_utils.download_file(bucket, key, pdf_path)
 
-            # Run page analysis
-            service = PageAnalyzerService(local_mode=False)
-            result = service.analyze_book(
+            # Run HOLISTIC page analysis
+            analyzer = HolisticPageAnalyzer()
+            result = analyzer.analyze_book(
                 pdf_path=pdf_path,
                 book_id=book_id,
                 source_pdf_uri=source_pdf_uri,
-                toc_entries=toc_entries
+                toc_entries=toc_entries,
+                artist=artist
             )
 
-            # Convert to dict and write to S3
-            result_dict = service.to_dict(result)
+            # Save page_analysis.json (full analysis)
+            result_dict = analyzer.to_dict(result)
             output_key = f"artifacts/{book_id}/page_analysis.json"
             result_json = json.dumps(result_dict, indent=2)
             s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
 
-            logger.info(f"Page Analysis complete. Offset: {result.page_offset.calculated_offset}, Songs: {len(result.songs)}")
+            # Also save page_mapping.json (for compatibility with downstream tasks)
+            page_mapping = {
+                'offset': result.calculated_offset,
+                'confidence': result.offset_confidence,
+                'samples_verified': result.matched_song_count,
+                'song_locations': [
+                    {
+                        'song_title': song.title,
+                        'printed_page': song.toc_page or song.start_pdf_page,
+                        'pdf_index': song.start_pdf_page - 1,  # 0-indexed for downstream
+                        'artist': song.artist
+                    }
+                    for song in result.songs
+                ],
+                'mapping_method': 'holistic_analysis'
+            }
+            mapping_key = f"artifacts/{book_id}/page_mapping.json"
+            s3_utils.write_bytes(json.dumps(page_mapping, indent=2).encode(), output_bucket, mapping_key)
+
+            # Also save verified_songs.json (for PDF splitter)
+            verified_songs = {
+                'verified_songs': [
+                    {
+                        'song_title': song.title,
+                        'start_page': song.start_pdf_page - 1,  # 0-indexed
+                        'end_page': song.end_pdf_page - 1,  # 0-indexed
+                        'artist': song.artist
+                    }
+                    for song in result.songs
+                ]
+            }
+            verified_key = f"artifacts/{book_id}/verified_songs.json"
+            s3_utils.write_bytes(json.dumps(verified_songs, indent=2).encode(), output_bucket, verified_key)
+
+            logger.info(f"Holistic Analysis complete:")
+            logger.info(f"  TOC songs: {result.toc_song_count}")
+            logger.info(f"  Detected: {result.detected_song_count}")
+            logger.info(f"  Matched: {result.matched_song_count}")
+            logger.info(f"  Offset: {result.calculated_offset} (confidence: {result.offset_confidence:.2f})")
+
+            if result.warnings:
+                for w in result.warnings[:5]:
+                    logger.warning(f"  {w}")
 
             # Output result for Step Functions
             print(json.dumps({
                 'book_id': book_id,
-                'page_offset': result.page_offset.calculated_offset,
-                'offset_consistent': result.page_offset.is_consistent,
+                'page_offset': result.calculated_offset,
+                'offset_consistent': result.offset_confidence > 0.9,
                 'songs_found': len(result.songs),
-                'pages_analyzed': len(result.pages),
+                'pages_analyzed': result.total_pages,
+                'toc_songs': result.toc_song_count,
+                'matched_songs': result.matched_song_count,
                 'output_uri': f"s3://{output_bucket}/{output_key}"
             }))
 

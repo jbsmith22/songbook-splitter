@@ -1,0 +1,22 @@
+{
+  "collection_timestamp": "2026-02-06T12:19:38.598257",
+  "local_pdfs": {
+    "total_count": 4745,
+    "total_size_mb": 4731.407893180847,
+    "folder_count": 167
+  },
+  "s3_pdfs": {
+    "total_count": 20017,
+    "total_size_mb": 18010.174631118774,
+    "songs_folder_count": 4030
+  },
+  "local_manifests": {
+    "total_count": 119,
+    "books_with_manifests": 119
+  },
+  "v2_artifacts": {
+    "book_count": 126,
+    "books_with_verified_songs": 126,
+    "books_with_output_files": 126
+  }
+}

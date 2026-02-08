@@ -1,0 +1,601 @@
+{
+  "timestamp": "2026-02-02T20:44:38.634572",
+  "original_file": "reconciliation_decisions_2026-02-03.json",
+  "retry_count": 99,
+  "operations": [
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Billy Vera - Getting Closer.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Getting Closer-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Getting Closer.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Bill Wolfe - (a) Room Of Our Own.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - (a) Room Of Our Own-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - (a) Room Of Our Own.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - Summer, Highland Falls.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Summer, Highland Falls-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Summer, Highland Falls.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Billy Zane - Everybody Loves You Now.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Everybody Loves You Now-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Everybody Loves You Now.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - This Night.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - This Night-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - This Night.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - Sleeping With The Television On.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Sleeping With The Television On-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Sleeping With The Television On.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Billy Carr - Where's The Orchestra-.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Where's The Orchestra--2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Where's The Orchestra-.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - I Don't Want To Be Alone.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - I Don't Want To Be Alone-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - I Don't Want To Be Alone.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 2/Unknown Artist - Keeping The Faith.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Keeping The Faith-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 2/Billy Joel - Keeping The Faith.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Bob Dylan - Highway 61 Revisited.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Highway 61 Revisited-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Highway 61 Revisited.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/O'kelly Isley, Ronald Isley And Rudolph Isley - Shout.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Shout-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Shout.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/From Walt Disney's Oliver & Company - Why Should I Worry-.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Why Should I Worry--2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Why Should I Worry-.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Mae Boren Axton, Tommy Durden And Elvis Presley - Heartbreak Hotel.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Heartbreak Hotel-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Heartbreak Hotel.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Bob Dylan - To Make You Feel My Love.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - To Make You Feel My Love-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - To Make You Feel My Love.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Rick Joli - The Downeaster -alexa-.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - The Downeaster -alexa--2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - The Downeaster -alexa-.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Carole King And Gerry Goffin - Hey, Girl.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Hey, Girl-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Hey, Girl.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Billy Rose - Nobody Knows But Me.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Nobody Knows But Me-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Nobody Knows But Me.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Unknown Artist - Where Were You (on Our Wedding Day).pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Where Were You (on Our Wedding Day)-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Where Were You (on Our Wedding Day).pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Duke Ellington, Irving Mills And Manny Kurtz - In A Sentimental Mood.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - In A Sentimental Mood-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - In A Sentimental Mood.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Billy Yates - Everybody Has A Dream.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Everybody Has A Dream-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Everybody Has A Dream.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Arranged By Richard Hyung-ki Joo - Soliloquy (on A Separation).pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Soliloquy (on A Separation)-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Soliloquy (on A Separation).pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Unknown Artist - The End Of The World.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - The End Of The World-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - The End Of The World.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Brian Wilson And Roger Christian - Don't Worry Baby.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Don't Worry Baby-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Don't Worry Baby.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/John Lennon And Paul Mccartney - A Hard Day's Night.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - A Hard Day's Night-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - A Hard Day's Night.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Words By Ned Washington, Music By Leigh Harline - When You Wish Upon A Star.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - When You Wish Upon A Star-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - When You Wish Upon A Star.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Bob Dylan - The Times They Are A-changin'.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - The Times They Are A-changin'-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - The Times They Are A-changin'.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Billy Joel, Vinny Caruana And Tony Michaels - Every Step I Take (every Move I Make).pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Every Step I Take (every Move I Make)-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Every Step I Take (every Move I Make).pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/John Lennon And Paul Mccartney - I'll Cry Instead.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - I'll Cry Instead-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - I'll Cry Instead.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/William Joel (written By), Richard Hyung-ki Joo (arranged By) - Sorbetto From Suite For Piano.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Sorbetto From Suite For Piano-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Sorbetto From Suite For Piano.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Unknown Artist - Shades Of Grey.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Shades Of Grey-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Shades Of Grey.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Otis Blackwell And Elvis Presley - All Shook Up.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - All Shook Up-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - All Shook Up.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Leonard Cohen - Light As The Breeze.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - Light As The Breeze-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - Light As The Breeze.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - My Lives/Unknown Artist - We Didn't Start The Fire.pdf",
+      "target": "Billy Joel/Billy Joel - My Lives/Billy Joel - We Didn't Start The Fire-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - My Lives/Billy Joel - We Didn't Start The Fire.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 1/Bill Veeck - (the) Great Suburban Showdown.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - (the) Great Suburban Showdown-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - (the) Great Suburban Showdown.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 1/Unknown Artist - Somewhere Along The Line.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Somewhere Along The Line-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Somewhere Along The Line.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 1/Unknown Artist - Root Beer Rag.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Root Beer Rag-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Root Beer Rag.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 1/Unknown Artist - Summer, Highland Falls.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Summer, Highland Falls-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Summer, Highland Falls.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 1/Unknown Artist - Rosalinda's Eyes.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Rosalinda's Eyes-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Rosalinda's Eyes.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 1/Unknown Artist - Get It Right The First Time.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Get It Right The First Time-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Get It Right The First Time.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Billy Joel/Billy Joel - Complete Vol 1/Unknown Artist - Ain't No Crime.pdf",
+      "target": "Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Ain't No Crime-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Billy Joel/Billy Joel - Complete Vol 1/Billy Joel - Ain't No Crime.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Bob Dylan & Robert Hunter - Silvio.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Silvio-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Silvio.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - In The Garden.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - In The Garden-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - In The Garden.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Written And Music By Bob Dylan - All Along The Watchtower.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - All Along The Watchtower-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - All Along The Watchtower.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - Shot Of Love.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Shot Of Love-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Shot Of Love.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - When I Paint My Masterpiece.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - When I Paint My Masterpiece-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - When I Paint My Masterpiece.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Ron Dylan - Tweeter And The Monkey Man.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Tweeter And The Monkey Man-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Tweeter And The Monkey Man.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/The Image Does Not Provide The Artist Name - All I Really Want To Do.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - All I Really Want To Do-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - All I Really Want To Do.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - Most Of The Time.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Most Of The Time-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Most Of The Time.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - Forever Young.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Forever Young-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Forever Young.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - Under Your Spell.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Under Your Spell-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Under Your Spell.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Bob Dylon - The Groom's Still Waiting At The Altar.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - The Groom's Still Waiting At The Altar-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - The Groom's Still Waiting At The Altar.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - Jokerman.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Jokerman-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Jokerman.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - Blowin' In The Wind.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Blowin' In The Wind-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Blowin' In The Wind.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Bob Dylan/Bob Dylan - Collection/Unknown Artist - Tangled Up In Blue.pdf",
+      "target": "Bob Dylan/Bob Dylan - Collection/Bob Dylan - Tangled Up In Blue-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Bob Dylan/Bob Dylan - Collection/Bob Dylan - Tangled Up In Blue.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Burt Bacharach/Burt Bacharach - Bacharach Collection/Unknown Artist - Raindrops Keep Falling On My Head.pdf",
+      "target": "Burt Bacharach/Burt Bacharach - Bacharach Collection/Burt Bacharach - Raindrops Keep Falling On My Head-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Burt Bacharach/Burt Bacharach - Bacharach Collection/Burt Bacharach - Raindrops Keep Falling On My Head.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Burt Bacharach/Burt Bacharach - Bacharach Collection/Unknown Artist - The Look Of Love.pdf",
+      "target": "Burt Bacharach/Burt Bacharach - Bacharach Collection/Burt Bacharach - The Look Of Love-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Burt Bacharach/Burt Bacharach - Bacharach Collection/Burt Bacharach - The Look Of Love.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Burt Bacharach/Burt Bacharach - Bacharach Collection/Unknown Artist - A Message To Michael.pdf",
+      "target": "Burt Bacharach/Burt Bacharach - Bacharach Collection/Burt Bacharach - A Message To Michael-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Burt Bacharach/Burt Bacharach - Bacharach Collection/Burt Bacharach - A Message To Michael.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Burt Bacharach/Burt Bacharach - Bacharach Collection/Unknown Artist - Alfie.pdf",
+      "target": "Burt Bacharach/Burt Bacharach - Bacharach Collection/Burt Bacharach - Alfie-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Burt Bacharach/Burt Bacharach - Bacharach Collection/Burt Bacharach - Alfie.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\David Crosby - Long Time Gone.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Long Time Gone-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Long Time Gone.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Unknown Artist - Country Girl.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Country Girl-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Country Girl.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Stephen Stills - Suite- Judy Blue Eyes.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Suite- Judy Blue Eyes-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Suite- Judy Blue Eyes.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Stephen Stills - Helplessly Hoping.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Helplessly Hoping-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Helplessly Hoping.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Graham Nash - Our House.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Our House-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Our House.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Stephen Stills - Carry On.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Carry On-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Carry On.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Graham Nash - Teach Your Children.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Teach Your Children-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Teach Your Children.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\David Crosby - Cut My Hair.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Cut My Hair-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Cut My Hair.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\David Crosby - Guinnevere.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Guinnevere-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Guinnevere.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Unknown Artist - Chem-try Girl.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Chem-try Girl-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Chem-try Girl.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Stephen Stills - You Don't Have To Cry.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - You Don't Have To Cry-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - You Don't Have To Cry.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Graham Nash - Marrakesh Express.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Marrakesh Express-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Marrakesh Express.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Graham Nash - Pre-road Downs.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Pre-road Downs-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Pre-road Downs.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Graham Nash - Lady Of The Island.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Lady Of The Island-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Lady Of The Island.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Stephen Stills - Suite Judy Blue Eyes.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Suite Judy Blue Eyes-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Suite Judy Blue Eyes.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Stephen Stills And Neil Young - Everybody I Love You.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Everybody I Love You-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Everybody I Love You.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Neil Young - Country Girl.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Country Girl-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Country Girl.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\David Crosby And Stephen Stills - Wooden Ships.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Wooden Ships-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Wooden Ships.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Stephen Stills - 49 Bye-byes.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - 49 Bye-byes-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - 49 Bye-byes.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Neil Young - Helpless.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Helpless-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Helpless.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\David Gregory - D\u00e9j\u00e0 Vu.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - D\u00e9j\u00e0 Vu-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - D\u00e9j\u00e0 Vu.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\David Crosby - Deja Vu.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Crosby Stills And Nash\\Crosby Stills Nash And Young - Deja Vu _PVG Book_\\Crosby Stills And Nash - Deja Vu-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Crosby Stills And Nash - Deja Vu.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Dire Straits\\Dire Straits - Best Of Dire Straits _Guitar Tab_\\Dire Straits - All The Roadrunning - Duet With Emmylou Harris.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Dire Straits\\Dire Straits - Best Of Dire Straits _Guitar Tab_\\Dire Straits - Duet With Emmylou Harris-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Dire Straits - Duet With Emmylou Harris.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Eagles\\Eagles - New Eagles Complete\\Eagles - John David Souther - New Kid In Town.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Eagles\\Eagles - New Eagles Complete\\Eagles - New Kid In Town-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Eagles - New Kid In Town.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Elton John/The Ultimate Collection Vol. 2/Elton John And Bernie Taupin - Simple Life.pdf",
+      "target": "Elton John/The Ultimate Collection Vol. 2/Elton John - Simple Life-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Elton John/The Ultimate Collection Vol. 2/Elton John - Simple Life.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Elton John/The Ultimate Collection Vol. 2/Elton John And Bernie Taupin - Sixty Years On.pdf",
+      "target": "Elton John/The Ultimate Collection Vol. 2/Elton John - Sixty Years On-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Elton John/The Ultimate Collection Vol. 2/Elton John - Sixty Years On.pdf"
+    },
+    {
+      "type": "rename-local",
+      "source": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Herman's Hermits\\Hermans Hermits - Collection\\Wayne D. Brock - Little Boy Sad.pdf",
+      "target": "d:\\Work\\songbook-splitter\\ProcessedSongs\\Herman's Hermits\\Hermans Hermits - Collection\\Herman's Hermits - Little Boy Sad-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Herman's Hermits - Little Boy Sad.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "John Lennon/John Lennon - Collection/John Lennon And Paul Mccartney - Give Peace A Chance.pdf",
+      "target": "John Lennon/John Lennon - Collection/John Lennon - Give Peace A Chance-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with John Lennon/John Lennon - Collection/John Lennon - Give Peace A Chance.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "John Lennon/John Lennon - Collection/Unknown Artist - Power To The People.pdf",
+      "target": "John Lennon/John Lennon - Collection/John Lennon - Power To The People-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with John Lennon/John Lennon - Collection/John Lennon - Power To The People.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Steve Perry And Jonathan Cain - Send Her My Love.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Send Her My Love-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Send Her My Love.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Unknown Artist - Any Way You Want It.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Any Way You Want It-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Any Way You Want It.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Unknown Artist - Girl Can't Help It.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Girl Can't Help It-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Girl Can't Help It.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Steve Perry And Neal Schon - Lights.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Lights-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Lights.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Neal Schon, Robert Fleischman, And Diane Valory - Wheel In The Sky.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Wheel In The Sky-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Wheel In The Sky.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Unknown Artist - Only The Young.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Only The Young-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Only The Young.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/The Song Credits List Steve Perry And Jonathan Cain As The Writers, Suggesting They Are Likely The Artists As Well - Who's Crying Now.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Who's Crying Now-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Who's Crying Now.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Unknown Artist - Don't Stop Believin'.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Don't Stop Believin'-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Don't Stop Believin'.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Journey (steve Perry And Jonathan Cain) - Separate Ways (worlds Apart).pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Separate Ways (worlds Apart)-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Separate Ways (worlds Apart).pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Steve Perry - Lovin', Touchin', Squeezin'.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Lovin', Touchin', Squeezin'-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Lovin', Touchin', Squeezin'.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Unknown Artist - Still They Ride.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Still They Ride-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Still They Ride.pdf"
+    },
+    {
+      "type": "rename-s3",
+      "source": "Journey/Journey - The Guitar Collection/Unknown Artist - Stone In Love.pdf",
+      "target": "Journey/Journey - The Guitar Collection/Journey - Stone In Love-2.pdf",
+      "reason": "Renamed with -2 suffix to avoid conflict with Journey/Journey - The Guitar Collection/Journey - Stone In Love.pdf"
+    }
+  ]
+}

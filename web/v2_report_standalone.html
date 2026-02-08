@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2 Pipeline Report - Standalone</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 32px;
+        }
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        .content {
+            padding: 30px;
+        }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .summary-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .summary-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .summary-card .value {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .summary-card .label {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid #e0e0e0;
+            margin: 30px 0 0 0;
+        }
+        .tab {
+            padding: 12px 24px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-size: 16px;
+            color: #666;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+        .tab:hover {
+            background: #f5f5f5;
+            color: #333;
+        }
+        .tab.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+            font-weight: 600;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px 0;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .filter-box {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .filter-box input {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        .filter-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        tr:hover {
+            background: #f8f9fa;
+        }
+        .status-match {
+            color: #22c55e;
+            font-weight: 600;
+        }
+        .status-mismatch {
+            color: #ef4444;
+            font-weight: 600;
+        }
+        .status-missing {
+            color: #f59e0b;
+            font-weight: 600;
+        }
+        .table-container {
+            max-height: 600px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+        }
+        .book-detail {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .book-detail h4 {
+            margin: 0 0 10px 0;
+            color: #667eea;
+        }
+        .metric {
+            display: inline-block;
+            margin-right: 20px;
+            padding: 5px 10px;
+            background: white;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        .metric-label {
+            color: #666;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 V2 Pipeline Report</h1>
+            <p>Direct observation only - No inferences or assumptions</p>
+        </div>
+
+        <div class="content">
+            <div class="summary-grid" id="summary"></div>
+
+            <div class="tabs">
+                <button class="tab active" onclick="showTab('overview')">Overview</button>
+                <button class="tab" onclick="showTab('matches')">Perfect Matches</button>
+                <button class="tab" onclick="showTab('mismatches')">Mismatches</button>
+                <button class="tab" onclick="showTab('missing')">Missing Local</button>
+                <button class="tab" onclick="showTab('all')">All Books</button>
+            </div>
+
+            <div id="overview" class="tab-content active">
+                <h2>Summary</h2>
+                <div id="overview-content"></div>
+            </div>
+
+            <div id="matches" class="tab-content">
+                <h2>Perfect Matches (100 books)</h2>
+                <p>Books where S3 output_files count exactly equals local PDF count</p>
+                <div class="filter-box">
+                    <input type="text" placeholder="Filter..." onkeyup="filterBooks('matches')">
+                </div>
+                <div class="table-container">
+                    <table id="matches-table">
+                        <thead>
+                            <tr>
+                                <th>Book ID</th>
+                                <th>Count</th>
+                                <th>Local Folder</th>
+                                <th>Error Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody id="matches-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="mismatches" class="tab-content">
+                <h2>Mismatches (19 books)</h2>
+                <p>Books where S3 output_files count differs from local PDF count</p>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Book ID</th>
+                                <th>S3 Files</th>
+                                <th>Local PDFs</th>
+                                <th>Difference</th>
+                                <th>Local Folder</th>
+                            </tr>
+                        </thead>
+                        <tbody id="mismatches-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="missing" class="tab-content">
+                <h2>Missing Local Manifest (7 books)</h2>
+                <p>V2 books that don't have matching local manifests</p>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Book ID</th>
+                                <th>Verified Songs</th>
+                                <th>Output Files</th>
+                            </tr>
+                        </thead>
+                        <tbody id="missing-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="all" class="tab-content">
+                <h2>All Books (126)</h2>
+                <div class="filter-box">
+                    <input type="text" id="filter-all" placeholder="Filter by book ID or folder..." onkeyup="filterBooks('all')">
+                </div>
+                <div id="all-books"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="v2_data_embedded.js"></script>
+    <script>
+        function renderSummary() {
+            const summary = V2_DATA.summary;
+            const html = `
+                <div class="summary-card">
+                    <h3>Total Books</h3>
+                    <div class="value">${summary.total_books}</div>
+                    <div class="label">V2 processed</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Perfect Matches</h3>
+                    <div class="value">${summary.exact_matches}</div>
+                    <div class="label">${(summary.exact_matches/summary.total_books*100).toFixed(0)}%</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Mismatches</h3>
+                    <div class="value">${summary.total_books - summary.exact_matches - (summary.total_books - summary.with_local_manifest)}</div>
+                    <div class="label">Need investigation</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Missing Local</h3>
+                    <div class="value">${summary.total_books - summary.with_local_manifest}</div>
+                    <div class="label">No local manifest</div>
+                </div>
+            `;
+            document.getElementById('summary').innerHTML = html;
+        }
+
+        function renderOverview() {
+            const perfect = V2_DATA.books.filter(b => b.local_manifest && b.output_files_count === b.local_pdfs_count);
+            const mismatches = V2_DATA.books.filter(b => b.local_manifest && b.output_files_count !== b.local_pdfs_count);
+            const missing = V2_DATA.books.filter(b => !b.local_manifest);
+
+            const html = `
+                <div class="book-detail">
+                    <h4>✅ Perfect Matches: ${perfect.length}</h4>
+                    <p>S3 output_files count exactly matches local PDF count. Pipeline working correctly.</p>
+                </div>
+                <div class="book-detail">
+                    <h4>⚠️ Mismatches: ${mismatches.length}</h4>
+                    <p>Difference between S3 and local counts. May indicate download issues or extra/missing files.</p>
+                </div>
+                <div class="book-detail">
+                    <h4>❌ Missing Local Manifest: ${missing.length}</h4>
+                    <p>V2 artifacts exist in S3 but no local manifest found. Files may not have been downloaded.</p>
+                </div>
+            `;
+            document.getElementById('overview-content').innerHTML = html;
+        }
+
+        function renderMatches() {
+            const matches = V2_DATA.books.filter(b => b.local_manifest && b.output_files_count === b.local_pdfs_count);
+            const tbody = document.getElementById('matches-tbody');
+            tbody.innerHTML = matches.map(b => `
+                <tr>
+                    <td>${b.book_id}</td>
+                    <td>${b.output_files_count}</td>
+                    <td>${b.local_manifest.folder}</td>
+                    <td>${b.page_analysis_error_rate.toFixed(1)}%</td>
+                </tr>
+            `).join('');
+        }
+
+        function renderMismatches() {
+            const mismatches = V2_DATA.books.filter(b => b.local_manifest && b.output_files_count !== b.local_pdfs_count);
+            const tbody = document.getElementById('mismatches-tbody');
+            tbody.innerHTML = mismatches.map(b => {
+                const diff = b.output_files_count - b.local_pdfs_count;
+                return `
+                    <tr>
+                        <td>${b.book_id}</td>
+                        <td>${b.output_files_count}</td>
+                        <td>${b.local_pdfs_count}</td>
+                        <td style="color: ${diff > 0 ? '#ef4444' : '#22c55e'}">${diff > 0 ? '+' : ''}${diff}</td>
+                        <td>${b.local_manifest.folder}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function renderMissing() {
+            const missing = V2_DATA.books.filter(b => !b.local_manifest);
+            const tbody = document.getElementById('missing-tbody');
+            tbody.innerHTML = missing.map(b => `
+                <tr>
+                    <td>${b.book_id}</td>
+                    <td>${b.verified_songs_count}</td>
+                    <td>${b.output_files_count}</td>
+                </tr>
+            `).join('');
+        }
+
+        function renderAllBooks() {
+            const container = document.getElementById('all-books');
+            container.innerHTML = V2_DATA.books.map(b => {
+                const status = b.local_manifest
+                    ? (b.output_files_count === b.local_pdfs_count ? 'MATCH' : 'MISMATCH')
+                    : 'NO LOCAL';
+                const statusClass = status === 'MATCH' ? 'status-match' : status === 'MISMATCH' ? 'status-mismatch' : 'status-missing';
+
+                return `
+                    <div class="book-detail">
+                        <h4>${b.book_id} <span class="${statusClass}">${status}</span></h4>
+                        <div>
+                            <span class="metric"><span class="metric-label">Verified:</span> ${b.verified_songs_count}</span>
+                            <span class="metric"><span class="metric-label">S3 Output:</span> ${b.output_files_count}</span>
+                            <span class="metric"><span class="metric-label">Local PDFs:</span> ${b.local_pdfs_count}</span>
+                            <span class="metric"><span class="metric-label">Error Rate:</span> ${b.page_analysis_error_rate.toFixed(1)}%</span>
+                        </div>
+                        ${b.local_manifest ? `<div style="margin-top: 10px; color: #666;">📁 ${b.local_manifest.folder}</div>` : '<div style="margin-top: 10px; color: #f59e0b;">⚠️ No local manifest</div>'}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function showTab(tabName) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
+
+        function filterBooks(tab) {
+            const input = event.target;
+            const filter = input.value.toLowerCase();
+
+            if (tab === 'matches') {
+                const rows = document.querySelectorAll('#matches-tbody tr');
+                rows.forEach(row => {
+                    row.style.display = row.textContent.toLowerCase().includes(filter) ? '' : 'none';
+                });
+            } else if (tab === 'all') {
+                const books = document.querySelectorAll('#all-books .book-detail');
+                books.forEach(book => {
+                    book.style.display = book.textContent.toLowerCase().includes(filter) ? '' : 'none';
+                });
+            }
+        }
+
+        // Initialize
+        renderSummary();
+        renderOverview();
+        renderMatches();
+        renderMismatches();
+        renderMissing();
+        renderAllBooks();
+    </script>
+</body>
+</html>

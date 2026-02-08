@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>V2 Pipeline Provenance Viewer</title>
+    <!-- Load data via script tag to avoid CORS issues with file:// URLs -->
+    <script src="../../data/analysis/v2_provenance_data.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: #16213e;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #00d9ff;
+            border-bottom: 3px solid #00d9ff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .version-badge {
+            display: inline-block;
+            background: #00d9ff;
+            color: #1a1a2e;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+            padding: 20px;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .stat-box {
+            text-align: center;
+            padding: 15px;
+            background: #1a1a2e;
+            border-radius: 5px;
+        }
+        .stat-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #00d9ff;
+        }
+        .stat-value.complete { color: #4CAF50; }
+        .stat-value.incomplete { color: #FF9800; }
+        .stat-value.missing { color: #666; }
+        .stat-label {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+        .filters {
+            margin: 20px 0;
+            padding: 20px;
+            background: #0f3460;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+        }
+        .filters input[type="text"] {
+            flex: 1;
+            min-width: 300px;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 3px;
+            font-size: 14px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        .filters select {
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 3px;
+            font-size: 14px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        .filters button {
+            padding: 10px 20px;
+            background: #00d9ff;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .filters button:hover {
+            background: #00b8d4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        th {
+            background: #00d9ff;
+            color: #1a1a2e;
+            padding: 12px 8px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td {
+            padding: 10px 8px;
+            border-bottom: 1px solid #333;
+        }
+        tr:hover {
+            background: #0f3460;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-right: 4px;
+        }
+        .badge-complete {
+            background: #4CAF50;
+            color: white;
+        }
+        .badge-incomplete {
+            background: #FF9800;
+            color: white;
+        }
+        .badge-missing {
+            background: #555;
+            color: #aaa;
+        }
+        .badge-yes {
+            background: #4CAF50;
+            color: white;
+        }
+        .badge-no {
+            background: #555;
+            color: #888;
+        }
+        .artifact-grid {
+            display: flex;
+            gap: 3px;
+            flex-wrap: wrap;
+        }
+        .artifact-badge {
+            padding: 2px 5px;
+            border-radius: 2px;
+            font-size: 9px;
+            font-weight: bold;
+        }
+        .artifact-badge.yes {
+            background: #4CAF50;
+            color: white;
+        }
+        .artifact-badge.no {
+            background: #333;
+            color: #666;
+        }
+        .clickable {
+            cursor: pointer;
+            color: #00d9ff;
+            text-decoration: underline;
+        }
+        .clickable:hover {
+            color: #00b8d4;
+        }
+        code {
+            background: #0f3460;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+            color: #00d9ff;
+        }
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+            color: #888;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+        }
+        .modal-content {
+            background: #16213e;
+            margin: 50px auto;
+            padding: 30px;
+            width: 90%;
+            max-width: 1000px;
+            max-height: 80vh;
+            overflow-y: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #00d9ff;
+        }
+        .modal-header h2 {
+            margin: 0;
+            color: #00d9ff;
+        }
+        .close {
+            font-size: 28px;
+            font-weight: bold;
+            color: #888;
+            cursor: pointer;
+        }
+        .close:hover {
+            color: #fff;
+        }
+        .detail-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .detail-section h3 {
+            color: #00d9ff;
+            margin-top: 0;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .detail-item {
+            padding: 10px;
+            background: #1a1a2e;
+            border-radius: 3px;
+        }
+        .detail-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+        }
+        .detail-value {
+            font-size: 14px;
+            color: #eee;
+            margin-top: 5px;
+        }
+        .song-list {
+            max-height: 400px;
+            overflow-y: auto;
+            font-size: 12px;
+        }
+        .song-item {
+            padding: 5px;
+            border-bottom: 1px solid #333;
+        }
+        .action-btn {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 11px;
+            margin-right: 5px;
+            background: #0f3460;
+            color: #00d9ff;
+        }
+        .action-btn:hover {
+            background: #00d9ff;
+            color: #1a1a2e;
+        }
+        .action-btn.reprocess {
+            background: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>V2 Pipeline Provenance<span class="version-badge">NEW PIPELINE</span></h1>
+
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-value" id="stat-total">-</div>
+                <div class="stat-label">Total Books</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value complete" id="stat-complete">-</div>
+                <div class="stat-label">Complete</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value incomplete" id="stat-incomplete">-</div>
+                <div class="stat-label">Incomplete</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value missing" id="stat-missing">-</div>
+                <div class="stat-label">Not Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value" id="stat-songs">-</div>
+                <div class="stat-label">Total Songs</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <input type="text" id="search" placeholder="Search by path or book name...">
+            <select id="filter-status">
+                <option value="">All Status</option>
+                <option value="COMPLETE">Complete</option>
+                <option value="INCOMPLETE">Incomplete</option>
+                <option value="MISSING">Not Processed</option>
+            </select>
+            <button onclick="resetFilters()">Reset</button>
+            <button onclick="loadData()">Refresh Data</button>
+        </div>
+
+        <div class="loading" id="loading">Loading v2 provenance data...</div>
+
+        <table id="songbooks-table" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Source PDF</th>
+                    <th>Book ID</th>
+                    <th>Status</th>
+                    <th>TOC / Extracted</th>
+                    <th>Artifacts</th>
+                    <th>Confidence</th>
+                    <th>Issues</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+
+    <!-- Details Modal -->
+    <div id="details-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Book Details</h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        let provenanceData = null;
+        let filteredData = [];
+
+        async function loadData() {
+            try {
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('songbooks-table').style.display = 'none';
+
+                // Use data loaded via script tag (avoids CORS issues with file:// URLs)
+                if (typeof V2_PROVENANCE_DATA === 'undefined') {
+                    throw new Error('Data not loaded. Run: py scripts/analysis/generate_v2_provenance.py && update data JS file');
+                }
+                const data = V2_PROVENANCE_DATA;
+                provenanceData = data;
+                filteredData = data.songbooks;
+
+                updateStats(data.statistics, data.songbooks);
+                renderTable();
+
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('songbooks-table').style.display = 'table';
+
+                // Add filter event listeners
+                document.getElementById('search').addEventListener('input', applyFilters);
+                document.getElementById('filter-status').addEventListener('change', applyFilters);
+
+            } catch (error) {
+                document.getElementById('loading').innerHTML =
+                    '<span style="color: #f44336;">Error: ' + error.message + '</span>';
+            }
+        }
+
+        function updateStats(stats, songbooks) {
+            document.getElementById('stat-total').textContent = stats.total;
+            document.getElementById('stat-complete').textContent = stats.complete;
+            document.getElementById('stat-incomplete').textContent = stats.incomplete || 0;
+            document.getElementById('stat-missing').textContent = stats.missing;
+
+            // Calculate total songs
+            const totalSongs = songbooks.reduce((sum, b) => sum + (b.output_info?.song_count || 0), 0);
+            document.getElementById('stat-songs').textContent = totalSongs;
+        }
+
+        function applyFilters() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const statusFilter = document.getElementById('filter-status').value;
+
+            filteredData = provenanceData.songbooks.filter(book => {
+                if (search) {
+                    const searchText = `${book.source_pdf.path} ${book.mapping.book_id}`.toLowerCase();
+                    if (!searchText.includes(search)) return false;
+                }
+                if (statusFilter && book.verification.status !== statusFilter) return false;
+                return true;
+            });
+
+            renderTable();
+        }
+
+        function resetFilters() {
+            document.getElementById('search').value = '';
+            document.getElementById('filter-status').value = '';
+            applyFilters();
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = '';
+
+            filteredData.forEach((book, index) => {
+                const row = document.createElement('tr');
+
+                const statusClass = book.verification.status.toLowerCase();
+                const statusBadge = `<span class="badge badge-${statusClass}">${book.verification.status}</span>`;
+
+                const tocCount = book.verification?.toc_songs || 0;
+                const extractedCount = book.output_info?.song_count || 0;
+                const songsBadge = `<span style="color: ${tocCount > 0 ? '#4CAF50' : '#666'}">${tocCount}</span> / <span style="color: ${extractedCount > 0 ? '#4CAF50' : '#f44336'}">${extractedCount}</span>`;
+
+                // Artifact badges
+                const artifacts = book.artifacts || {};
+                const artifactBadges = `
+                    <div class="artifact-grid">
+                        <span class="artifact-badge ${artifacts.toc_discovery ? 'yes' : 'no'}">TOC</span>
+                        <span class="artifact-badge ${artifacts.page_analysis ? 'yes' : 'no'}">PA</span>
+                        <span class="artifact-badge ${artifacts.page_mapping ? 'yes' : 'no'}">PM</span>
+                        <span class="artifact-badge ${artifacts.output_files ? 'yes' : 'no'}">OUT</span>
+                        <span class="artifact-badge ${artifacts.verified_songs ? 'yes' : 'no'}">VS</span>
+                    </div>
+                `;
+
+                const confidence = book.page_mapping?.confidence || 0;
+                const confidenceBadge = confidence > 0
+                    ? `<span class="badge badge-yes">${(confidence * 100).toFixed(0)}%</span>`
+                    : '<span class="badge badge-no">-</span>';
+
+                const issues = book.verification.issues || [];
+                const issuesText = issues.length > 0
+                    ? issues.slice(0, 2).join(', ') + (issues.length > 2 ? '...' : '')
+                    : '-';
+
+                const bookId = book.mapping.book_id;
+
+                row.innerHTML = `
+                    <td><span class="clickable" onclick="showDetails(${index})">${book.source_pdf.path}</span></td>
+                    <td><code>${bookId === 'NOT_PROCESSED' ? '-' : bookId}</code></td>
+                    <td>${statusBadge}</td>
+                    <td>${songsBadge}</td>
+                    <td>${artifactBadges}</td>
+                    <td>${confidenceBadge}</td>
+                    <td style="color: #888; font-size: 11px;">${issuesText}</td>
+                    <td>
+                        <button class="action-btn" onclick="showDetails(${index})">Details</button>
+                        ${bookId !== 'NOT_PROCESSED' ? `<button class="action-btn" onclick="openEditor('${bookId}', '${book.source_pdf.path}')">Edit</button>` : ''}
+                    </td>
+                `;
+
+                tbody.appendChild(row);
+            });
+        }
+
+        function showDetails(index) {
+            const book = filteredData[index];
+
+            document.getElementById('modal-title').textContent = book.source_pdf.path;
+
+            const songs = book.output_info?.songs || [];
+            const songListHtml = songs.length > 0
+                ? songs.map(s => `<div class="song-item">${s.title} (pages ${s.pages?.join('-') || '?'})</div>`).join('')
+                : '<div style="color: #888;">No songs extracted</div>';
+
+            const artifacts = book.artifacts || {};
+            const artifactDetails = book.artifact_details || {};
+
+            document.getElementById('modal-body').innerHTML = `
+                <div class="detail-section">
+                    <h3>Source PDF</h3>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <div class="detail-label">Path</div>
+                            <div class="detail-value">${book.source_pdf.path}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Size</div>
+                            <div class="detail-value">${book.source_pdf.size_mb} MB</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Book ID</div>
+                            <div class="detail-value"><code>${book.mapping.book_id}</code></div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Status</div>
+                            <div class="detail-value"><span class="badge badge-${book.verification.status.toLowerCase()}">${book.verification.status}</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h3>Artifacts</h3>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <div class="detail-label">TOC Discovery</div>
+                            <div class="detail-value"><span class="badge badge-${artifacts.toc_discovery ? 'yes' : 'no'}">${artifacts.toc_discovery ? 'YES' : 'NO'}</span></div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">TOC Parse</div>
+                            <div class="detail-value"><span class="badge badge-${artifacts.toc_parse ? 'yes' : 'no'}">${artifacts.toc_parse ? 'YES' : 'NO'}</span></div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Page Analysis</div>
+                            <div class="detail-value"><span class="badge badge-${artifacts.page_analysis ? 'yes' : 'no'}">${artifacts.page_analysis ? 'YES' : 'NO'}</span></div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Page Mapping</div>
+                            <div class="detail-value"><span class="badge badge-${artifacts.page_mapping ? 'yes' : 'no'}">${artifacts.page_mapping ? 'YES' : 'NO'}</span></div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Output Files</div>
+                            <div class="detail-value"><span class="badge badge-${artifacts.output_files ? 'yes' : 'no'}">${artifacts.output_files ? 'YES' : 'NO'}</span></div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Verified Songs</div>
+                            <div class="detail-value"><span class="badge badge-${artifacts.verified_songs ? 'yes' : 'no'}">${artifacts.verified_songs ? 'YES' : 'NO'}</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h3>Page Mapping</h3>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <div class="detail-label">Method</div>
+                            <div class="detail-value">${book.page_mapping?.mapping_method || 'none'}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Confidence</div>
+                            <div class="detail-value">${((book.page_mapping?.confidence || 0) * 100).toFixed(0)}%</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Offset</div>
+                            <div class="detail-value">${book.page_mapping?.offset || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Samples Verified</div>
+                            <div class="detail-value">${book.page_mapping?.samples_verified || 0}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h3>Extracted Songs (${book.output_info?.song_count || 0})</h3>
+                    <div class="detail-grid" style="margin-bottom: 10px;">
+                        <div class="detail-item">
+                            <div class="detail-label">TOC Songs</div>
+                            <div class="detail-value">${book.verification?.toc_songs || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Detected Songs</div>
+                            <div class="detail-value">${book.verification?.detected_songs || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Matched Songs</div>
+                            <div class="detail-value">${book.verification?.matched_songs || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Extracted Songs</div>
+                            <div class="detail-value">${book.verification?.actual_songs || 0}</div>
+                        </div>
+                    </div>
+                    <div class="song-list">
+                        ${songListHtml}
+                    </div>
+                </div>
+
+                ${book.verification.issues?.length > 0 ? `
+                <div class="detail-section">
+                    <h3>Issues</h3>
+                    <ul style="margin: 0; padding-left: 20px; color: #FF9800;">
+                        ${book.verification.issues.map(i => `<li>${i}</li>`).join('')}
+                    </ul>
+                </div>
+                ` : ''}
+            `;
+
+            document.getElementById('details-modal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('details-modal').style.display = 'none';
+        }
+
+        function openEditor(bookId, sourcePdf) {
+            const url = `../editors/manual_split_editor_integrated.html?book_id=${encodeURIComponent(bookId)}&source_pdf=${encodeURIComponent(sourcePdf)}`;
+            window.open(url, '_blank');
+        }
+
+        // Close modal on outside click
+        window.onclick = function(event) {
+            const modal = document.getElementById('details-modal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>

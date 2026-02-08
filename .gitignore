@@ -78,6 +78,12 @@ web/*.backup*
 
 # Temporary and utility files
 temp/
+temp_*.json
+temp_*.py
+batch_*.json
+test_analysis_*.json
+verification_results.json
+vision_validation_results.json
 nul
 exiftool.exe
 exiftool_files/

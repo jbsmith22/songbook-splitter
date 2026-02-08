@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manual Split Point Editor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Main panels container */
+        .main-panels {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* Left panel - TOC and song list */
+        .left-panel {
+            width: 350px;
+            background: #f5f5f5;
+            border-right: 2px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .panel-header {
+            padding: 20px;
+            background: #2196F3;
+            color: white;
+        }
+        .panel-header h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .book-info {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        /* Song list */
+        .song-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        .song-item {
+            background: white;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            border-left: 4px solid #4CAF50;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .song-item:hover {
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transform: translateX(2px);
+        }
+        .song-item.active {
+            border-left-color: #FF9800;
+            background: #fff3e0;
+        }
+        .song-item.incomplete {
+            border-left-color: #f44336;
+        }
+        .song-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+        .song-pages {
+            font-size: 12px;
+            color: #666;
+            font-family: 'Courier New', monospace;
+        }
+        .song-status {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+            margin-left: 8px;
+        }
+        .status-toc {
+            background: #4CAF50;
+            color: white;
+        }
+        .status-manual {
+            background: #FF9800;
+            color: white;
+        }
+
+        /* Center - PDF/Image viewer */
+        .center-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: #2a2a2a;
+        }
+        .viewer-toolbar {
+            background: #1e1e1e;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            flex-wrap: wrap;
+        }
+        .viewer-toolbar button {
+            padding: 8px 15px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .viewer-toolbar button:hover {
+            background: #45a049;
+        }
+        .viewer-toolbar button:disabled {
+            background: #666;
+            cursor: not-allowed;
+        }
+        .viewer-toolbar input {
+            padding: 6px;
+            width: 60px;
+            text-align: center;
+        }
+        .viewer-toolbar select {
+            padding: 6px;
+        }
+        .page-container {
+            flex: 1;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            padding: 20px;
+        }
+        #page-image {
+            max-width: 100%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            background: white;
+            display: none;
+        }
+        #pdf-canvas {
+            max-width: 100%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            background: white;
+        }
+        .loading-msg {
+            color: white;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        /* Right panel - controls */
+        .right-panel {
+            width: 300px;
+            background: #f5f5f5;
+            border-left: 2px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .controls {
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .control-group {
+            margin-bottom: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .control-group h3 {
+            font-size: 14px;
+            color: #2196F3;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .control-group label {
+            display: block;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .control-group input[type="number"],
+        .control-group input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+        .control-group button {
+            width: 100%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .control-group button:hover {
+            background: #1976D2;
+        }
+        .control-group button.danger {
+            background: #f44336;
+        }
+        .control-group button.danger:hover {
+            background: #d32f2f;
+        }
+        .control-group button.success {
+            background: #4CAF50;
+        }
+        .control-group button.success:hover {
+            background: #45a049;
+        }
+
+        .info-text {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff3e0;
+            border-radius: 3px;
+        }
+        .error-text {
+            background: #ffebee;
+            color: #c62828;
+        }
+        .success-text {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        /* Bottom - Thumbnail Map */
+        .thumbnail-map {
+            height: 150px;
+            background: #1e1e1e;
+            border-top: 2px solid #333;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .thumbnail-map-header {
+            background: #2a2a2a;
+            padding: 8px 12px;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            border-bottom: 1px solid #333;
+        }
+        .thumbnail-strip {
+            flex: 1;
+            overflow-x: auto;
+            overflow-y: hidden;
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            position: relative;
+        }
+        .thumbnail-container {
+            display: flex;
+            gap: 2px;
+            position: relative;
+            height: 100%;
+        }
+        .thumbnail-page {
+            position: relative;
+            height: 120px;
+            flex-shrink: 0;
+            cursor: pointer;
+            transition: transform 0.2s;
+            border: 2px solid transparent;
+        }
+        .thumbnail-page:hover {
+            transform: scale(1.05);
+            z-index: 10;
+        }
+        .thumbnail-page.current {
+            border-color: #FF9800;
+            box-shadow: 0 0 8px rgba(255, 152, 0, 0.8);
+        }
+        .thumbnail-page img {
+            height: 100%;
+            width: auto;
+            display: block;
+            border-radius: 2px;
+        }
+        .thumbnail-page .page-number {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 2px 4px;
+            font-size: 10px;
+            border-radius: 2px;
+        }
+        .thumbnail-page .song-indicator {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+        }
+        .split-marker {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: #FF9800;
+            cursor: ew-resize;
+            z-index: 20;
+            transition: width 0.2s, background 0.2s;
+        }
+        .split-marker:hover {
+            width: 6px;
+            background: #FFB300;
+        }
+        .split-marker::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 12px;
+            height: 30px;
+            background: #FF9800;
+            border-radius: 6px;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .split-marker:hover::before {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-panels">
+        <div class="left-panel">
+            <div class="panel-header">
+                <h2>Song List</h2>
+                <div class="book-info">
+                    <div id="book-name">Loading...</div>
+                    <div id="book-id"></div>
+                </div>
+            </div>
+            <div class="song-list" id="song-list">
+                <div class="info-text">
+                    Loading TOC data...
+                </div>
+            </div>
+        </div>
+
+        <div class="center-panel">
+        <div class="viewer-toolbar">
+            <button onclick="previousSong()" id="prev-song-btn" style="background: #9C27B0;">⏮ Prev Song</button>
+            <button onclick="previousPage()" id="prev-btn">← Prev Page</button>
+            <span style="color: white;">Page <input type="number" id="page-input" value="1" min="1" onchange="goToPage()"> of <span id="page-count">0</span></span>
+            <button onclick="nextPage()" id="next-btn">Next Page →</button>
+            <button onclick="nextSong()" id="next-song-btn" style="background: #9C27B0;">Next Song ⏭</button>
+            <select id="zoom-select" onchange="changeZoom()">
+                <option value="0.5">50%</option>
+                <option value="0.75">75%</option>
+                <option value="1" selected>100%</option>
+                <option value="1.25">125%</option>
+                <option value="1.5">150%</option>
+                <option value="2">200%</option>
+            </select>
+            <button onclick="markAsStartPage()" id="mark-btn" style="background: #FF9800;">Mark as Start Page</button>
+            <span id="view-mode" style="color: white; margin-left: auto;"></span>
+        </div>
+        <div class="page-container" id="page-container">
+            <div class="loading-msg">Loading page images...</div>
+            <img id="page-image" alt="Page">
+            <canvas id="pdf-canvas" style="display: none;"></canvas>
+        </div>
+    </div>
+
+    <div class="right-panel">
+        <div class="controls">
+            <div class="control-group">
+                <h3>Current Song</h3>
+                <div id="current-song-info" class="info-text">
+                    Select a song from the list
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h3>Manual Split Points</h3>
+                <label>Song Title:</label>
+                <input type="text" id="song-title-input" placeholder="Enter song title">
+
+                <label>Start Page:</label>
+                <input type="number" id="start-page-input" min="1" value="1">
+
+                <label>End Page:</label>
+                <input type="number" id="end-page-input" min="1" value="1">
+
+                <button onclick="updateCurrentSong()" class="success">Update Selected Song</button>
+                <button onclick="addManualSong()">Add New Song</button>
+            </div>
+
+            <div class="control-group">
+                <h3>Page Number Offset</h3>
+                <div class="info-text" style="margin-bottom: 10px;">
+                    <div>Current offset: <strong id="page-offset">Not calibrated</strong></div>
+                    <div style="font-size: 11px; color: #666; margin-top: 4px;">
+                        TOC uses printed pages, but PDF positions may differ
+                    </div>
+                </div>
+                <button onclick="quickOffsetFromCurrentPage()" style="background: #FF9800;">⚡ Quick: Use Current Page</button>
+                <button onclick="calibratePageOffset()" style="background: #9C27B0;">🔍 Auto-Calibrate</button>
+                <button onclick="manualOffsetAdjust()">✏️ Manual Entry</button>
+            </div>
+
+            <div class="control-group">
+                <h3>Actions</h3>
+                <button onclick="saveToAPI()" class="success">💾 Save to Server</button>
+                <button onclick="exportToJSON()">📥 Export JSON</button>
+                <button onclick="resetFromTOC()">🔄 Reset from TOC</button>
+                <div id="save-status" class="info-text" style="margin-top: 10px; display: none;"></div>
+            </div>
+
+            <div class="control-group">
+                <h3>Statistics</h3>
+                <div class="info-text">
+                    <div>Songs defined: <strong id="song-count">0</strong></div>
+                    <div>Total pages: <strong id="total-pages">0</strong></div>
+                    <div>Pages covered: <strong id="covered-pages">0</strong></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="thumbnail-map">
+        <div class="thumbnail-map-header">
+            📸 Page Map - Click to jump, drag split markers to adjust song boundaries
+        </div>
+        <div class="thumbnail-strip" id="thumbnail-strip">
+            <div class="thumbnail-container" id="thumbnail-container">
+                <!-- Thumbnails will be generated here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const API_BASE_URL = 'http://localhost:5000/api';
+
+        // Get book_id from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const bookId = urlParams.get('book_id');
+        const sourcePdf = urlParams.get('source_pdf');
+
+        // State
+        let songs = [];
+        let selectedSongIndex = -1;
+        let currentPage = 1;
+        let totalPages = 0;
+        let zoom = 1.0;
+        let cachedImages = {};
+        let pageOffset = null;  // Offset between printed page numbers and PDF positions
+        let pageNumberMap = {};  // Map: printed_page -> pdf_page
+        let tocEntries = [];
+        let bookName = '';
+        let artist = '';
+        let useImages = true; // Try images first, fall back to PDF if needed
+
+        // Initialize on load
+        window.addEventListener('load', async () => {
+            if (!bookId) {
+                showError('No book_id provided in URL');
+                return;
+            }
+
+            document.getElementById('book-id').textContent = `ID: ${bookId}`;
+
+            await loadBookData();
+        });
+
+        async function loadBookData() {
+            try {
+                // FIRST: Try to load verified page_mapping (generated by improved page mapper)
+                // This is the MOST ACCURATE source - positions verified with vision
+                let pageMappingLoaded = false;
+                try {
+                    const mappingResponse = await fetch(`${API_BASE_URL}/page_mapping/${bookId}`);
+                    if (mappingResponse.ok) {
+                        const mappingData = await mappingResponse.json();
+                        console.log('Page mapping data loaded:', mappingData);
+
+                        if (mappingData.song_locations && mappingData.song_locations.length > 0) {
+                            // Sort by pdf_index (0-based)
+                            const sortedLocations = [...mappingData.song_locations].sort((a, b) => a.pdf_index - b.pdf_index);
+
+                            // Get total pages from mapping data if available
+                            const mappingTotalPages = mappingData.total_pdf_pages || totalPages;
+
+                            // Build songs array with page ranges
+                            // NOTE: pdf_index is 0-based from PyMuPDF, convert to 1-based for UI
+                            songs = sortedLocations.map((loc, index) => {
+                                const nextLoc = sortedLocations[index + 1];
+                                // Convert 0-based pdf_index to 1-based page numbers
+                                const startPage = loc.pdf_index + 1;
+                                // For last song, use total pages from mapping data (will be fixed later if needed)
+                                const endPage = nextLoc ? nextLoc.pdf_index : mappingTotalPages;
+                                const pageCount = endPage - loc.pdf_index;
+                                return {
+                                    title: loc.song_title,
+                                    start_page: startPage,  // 1-based for UI
+                                    end_page: startPage + pageCount - 1,  // 1-based for UI
+                                    page_count: pageCount,
+                                    printed_start: loc.printed_page,
+                                    printed_end: loc.printed_page + pageCount - 1,
+                                    source: 'verified',  // Mark as verified by vision
+                                    verified: true,
+                                    has_error: false
+                                };
+                            });
+                            pageMappingLoaded = true;
+                            showSuccess(`Loaded ${songs.length} verified song positions (confidence: ${(mappingData.confidence * 100).toFixed(0)}%)`);
+                        }
+                    }
+                } catch (e) {
+                    console.log('No page mapping available - will try page_analysis');
+                }
+
+                // ALWAYS load page_analysis for offset and totalPages
+                // (even if page_mapping was loaded for song positions)
+                let pageAnalysisLoaded = false;
+                try {
+                    const analysisResponse = await fetch(`${API_BASE_URL}/page_analysis/${bookId}`);
+                    if (analysisResponse.ok) {
+                        const analysisData = await analysisResponse.json();
+                        console.log('Page analysis data loaded:', analysisData);
+
+                        // Use pre-calculated offset
+                        if (analysisData.page_offset) {
+                            pageOffset = analysisData.page_offset.calculated_offset;
+                            const consistency = analysisData.page_offset.is_consistent ? '' : ' (varies)';
+                            document.getElementById('page-offset').textContent = `+${pageOffset}${consistency}`;
+                            console.log(`Auto-applied offset: ${pageOffset}`);
+                        }
+
+                        // Store total pages
+                        if (analysisData.total_pdf_pages) {
+                            totalPages = analysisData.total_pdf_pages;
+                        }
+
+                        // FIX: If page_mapping was loaded earlier, the last song's end_page
+                        // may be wrong (defaulted to 62) because totalPages wasn't set yet.
+                        // Now that we have totalPages, fix the last song's end_page.
+                        if (pageMappingLoaded && songs.length > 0 && totalPages > 0) {
+                            const lastSong = songs[songs.length - 1];
+                            // Only fix if end_page looks wrong (less than start_page or using the old default of 62)
+                            if (lastSong.end_page < lastSong.start_page || lastSong.end_page === 62) {
+                                lastSong.end_page = totalPages;
+                                lastSong.page_count = lastSong.end_page - lastSong.start_page + 1;
+                                lastSong.printed_end = lastSong.printed_start + lastSong.page_count - 1;
+                                console.log(`Fixed last song end_page: ${lastSong.title} now ends at page ${totalPages}`);
+                            }
+                        }
+
+                        // If page_mapping wasn't loaded, use songs from page_analysis
+                        if (!pageMappingLoaded && analysisData.songs && analysisData.songs.length > 0) {
+                            songs = analysisData.songs.map(song => ({
+                                title: song.title,
+                                start_page: song.actual_pdf_start,
+                                end_page: song.actual_pdf_end,
+                                page_count: song.page_count,
+                                printed_start: song.toc_printed_page,
+                                printed_end: song.toc_printed_page + song.page_count - 1,
+                                source: 'analysis',
+                                verified: song.verified,
+                                has_error: song.page_count <= 0
+                            }));
+                            pageAnalysisLoaded = true;
+                            showSuccess(`Loaded ${songs.length} songs with pre-calculated boundaries (offset +${pageOffset})`);
+                        }
+                    }
+                } catch (e) {
+                    console.log('No page analysis available');
+                }
+
+                // FALLBACK: Load from TOC if neither page_mapping nor page_analysis available
+                if (!pageMappingLoaded && !pageAnalysisLoaded) {
+                    const tocResponse = await fetch(`${API_BASE_URL}/toc/${bookId}`);
+
+                    if (!tocResponse.ok) {
+                        throw new Error('TOC data not found');
+                    }
+
+                    const tocData = await tocResponse.json();
+                    tocEntries = tocData.entries || [];
+
+                    // Sort TOC entries by page number
+                    const sortedEntries = [...tocEntries].sort((a, b) => a.page_number - b.page_number);
+
+                    // Validate for duplicate page numbers (indicates OCR errors)
+                    const pageNumberCounts = {};
+                    for (const entry of sortedEntries) {
+                        pageNumberCounts[entry.page_number] = (pageNumberCounts[entry.page_number] || 0) + 1;
+                    }
+
+                    let hasErrors = Object.values(pageNumberCounts).some(count => count > 1);
+                    if (hasErrors) {
+                        console.warn('Detected duplicate page numbers in TOC - possible OCR errors');
+                    }
+
+                    // Load from TOC and calculate page ranges automatically
+                    // NOTE: These use PRINTED page numbers until offset is calibrated
+                    songs = sortedEntries.map((entry, index) => {
+                        const start_page = entry.page_number;
+                        let end_page;
+
+                        if (index < sortedEntries.length - 1) {
+                            end_page = sortedEntries[index + 1].page_number - 1;
+                        } else {
+                            end_page = start_page + 2;
+                        }
+
+                        const page_count = end_page - start_page + 1;
+                        const isInvalid = page_count <= 0;
+
+                        return {
+                            title: entry.song_title,
+                            start_page: start_page,
+                            end_page: end_page,
+                            page_count: page_count,
+                            source: 'toc',
+                            has_error: isInvalid
+                        };
+                    });
+
+                    showInfo('Using TOC data - click Auto-Calibrate to fix page offset');
+                }
+
+                // Try to load existing manual splits (will override if they exist)
+                try {
+                    const splitsResponse = await fetch(`${API_BASE_URL}/manual_split/${bookId}`);
+                    if (splitsResponse.ok) {
+                        const splitsData = await splitsResponse.json();
+                        if (splitsData.songs && splitsData.songs.length > 0) {
+                            songs = splitsData.songs;
+                            showInfo('Loaded saved manual splits');
+                        }
+                    }
+                } catch (e) {
+                    console.log('No existing manual splits found');
+                }
+
+                bookName = sourcePdf || `Book ${bookId}`;
+                document.getElementById('book-name').textContent = bookName;
+
+                // Try to load cached images
+                await loadCachedImages();
+
+                renderSongList();
+                updateStats();
+
+                // Render thumbnail map
+                await renderThumbnailMap();
+
+                // Select first song
+                if (songs.length > 0) {
+                    selectSong(0);
+                }
+
+            } catch (error) {
+                showError('Error loading book data: ' + error.message);
+            }
+        }
+
+        async function loadCachedImages() {
+            try {
+                // Try to render page 1 via API to check if it works
+                const testResponse = await fetch(`${API_BASE_URL}/render_page/${bookId}/1`);
+
+                if (testResponse.ok) {
+                    // API rendering works
+                    // Estimate total pages if not already set
+                    if (!totalPages || totalPages <= 0) {
+                        if (songs.length > 0) {
+                            // Estimate from songs (last song end page + buffer)
+                            totalPages = Math.max(...songs.map(s => s.end_page)) + 5;
+                        } else if (tocEntries.length > 0) {
+                            // Estimate from TOC
+                            totalPages = Math.max(...tocEntries.map(e => e.page_number)) + 10;
+                        } else {
+                            totalPages = 100; // Default fallback
+                        }
+                    }
+                    document.getElementById('page-count').textContent = totalPages + ' (est)';
+                    document.getElementById('page-input').max = totalPages;
+                    document.getElementById('view-mode').textContent = '📄 PDF Preview';
+
+                    useImages = true;
+                    await renderPage(1);
+                } else {
+                    throw new Error('API rendering not available');
+                }
+            } catch (error) {
+                console.log('Page rendering not available:', error);
+                useImages = false;
+
+                // Estimate total pages if not already set
+                if (!totalPages || totalPages <= 0) {
+                    if (songs.length > 0) {
+                        totalPages = Math.max(...songs.map(s => s.end_page)) + 5;
+                    } else if (tocEntries.length > 0) {
+                        totalPages = Math.max(...tocEntries.map(e => e.page_number)) + 10;
+                    }
+                }
+
+                if (totalPages > 0) {
+                    document.getElementById('page-count').textContent = totalPages + ' (est)';
+                    document.getElementById('page-input').max = totalPages;
+                }
+
+                document.getElementById('view-mode').textContent = '⚠️ No Preview';
+                showInfo('Page images not available. You can still edit split points using the TOC song list.');
+            }
+        }
+
+        async function renderPage(pageNum) {
+            console.log(`renderPage called with pageNum=${pageNum}`);
+            currentPage = pageNum;
+
+            if (useImages) {
+                // Use API to render page (add timestamp to prevent browser caching)
+                const imageUrl = `${API_BASE_URL}/render_page/${bookId}/${pageNum}?t=${Date.now()}`;
+                console.log(`Loading image: ${imageUrl}`);
+                const img = document.getElementById('page-image');
+
+                // Set handlers BEFORE changing src to avoid race conditions
+                img.onload = () => {
+                    console.log(`Page ${pageNum} loaded successfully`);
+                    img.style.display = 'block';
+                };
+                img.onerror = () => {
+                    console.error(`Page ${pageNum} failed to load`);
+                    showError(`Page ${pageNum} could not be rendered`);
+                };
+
+                // Force image refresh by clearing src first, then setting new URL
+                img.src = '';
+                img.style.transform = `scale(${zoom})`;
+                img.src = imageUrl;
+            } else {
+                console.log('useImages is false, skipping image render');
+            }
+
+            document.getElementById('page-input').value = pageNum;
+            updatePageButtons();
+            renderSongList();  // Update song list to show viewing indicator
+            updateCurrentThumbnail();  // Update thumbnail map highlight
+        }
+
+        function updatePageButtons() {
+            document.getElementById('prev-btn').disabled = currentPage <= 1;
+            document.getElementById('next-btn').disabled = currentPage >= totalPages;
+            document.getElementById('prev-song-btn').disabled = selectedSongIndex <= 0;
+            document.getElementById('next-song-btn').disabled = selectedSongIndex >= songs.length - 1;
+
+            // Show which song this page belongs to
+            const songAtPage = songs.find(s => currentPage >= s.start_page && currentPage <= s.end_page);
+            const viewModeElement = document.getElementById('view-mode');
+            if (songAtPage) {
+                const pageInSong = currentPage - songAtPage.start_page + 1;
+                viewModeElement.innerHTML = `📄 PDF Preview | <span style="background: rgba(255,255,255,0.2); padding: 2px 8px; border-radius: 3px;">${songAtPage.title} (page ${pageInSong}/${songAtPage.page_count})</span>`;
+            } else {
+                viewModeElement.innerHTML = '📄 PDF Preview';
+            }
+        }
+
+        async function previousPage() {
+            if (currentPage > 1) {
+                await renderPage(currentPage - 1);
+            }
+        }
+
+        async function nextPage() {
+            if (currentPage < totalPages) {
+                await renderPage(currentPage + 1);
+            }
+        }
+
+        async function previousSong() {
+            if (selectedSongIndex > 0) {
+                selectSong(selectedSongIndex - 1);
+            }
+        }
+
+        async function nextSong() {
+            if (selectedSongIndex < songs.length - 1) {
+                selectSong(selectedSongIndex + 1);
+            }
+        }
+
+        async function goToPage() {
+            const pageNum = parseInt(document.getElementById('page-input').value);
+            if (pageNum >= 1 && pageNum <= totalPages) {
+                await renderPage(pageNum);
+            }
+        }
+
+        function changeZoom() {
+            zoom = parseFloat(document.getElementById('zoom-select').value);
+            if (useImages) {
+                document.getElementById('page-image').style.transform = `scale(${zoom})`;
+            }
+        }
+
+        function markAsStartPage() {
+            document.getElementById('start-page-input').value = currentPage;
+            // Auto-advance
+            if (currentPage < totalPages) {
+                nextPage();
+            }
+        }
+
+        function selectSong(index) {
+            selectedSongIndex = index;
+            const song = songs[index];
+
+            document.getElementById('song-title-input').value = song.title;
+            document.getElementById('start-page-input').value = song.start_page;
+            document.getElementById('end-page-input').value = song.end_page;
+
+            document.getElementById('current-song-info').innerHTML = `
+                <strong>${song.title}</strong><br>
+                Pages ${song.start_page}-${song.end_page} (${song.page_count} pages)<br>
+                Source: ${song.source}
+            `;
+
+            // Go to song's start page
+            renderPage(song.start_page);
+            renderSongList();
+            updatePageButtons();  // Update navigation button states
+        }
+
+        function updateCurrentSong() {
+            if (selectedSongIndex === -1) {
+                alert('No song selected');
+                return;
+            }
+
+            const title = document.getElementById('song-title-input').value.trim();
+            const startPage = parseInt(document.getElementById('start-page-input').value);
+            const endPage = parseInt(document.getElementById('end-page-input').value);
+
+            if (!title) {
+                alert('Please enter a song title');
+                return;
+            }
+
+            if (startPage > endPage) {
+                alert('Start page must be <= end page');
+                return;
+            }
+
+            songs[selectedSongIndex] = {
+                title: title,
+                start_page: startPage,
+                end_page: endPage,
+                page_count: endPage - startPage + 1,
+                source: 'manual'
+            };
+
+            songs.sort((a, b) => a.start_page - b.start_page);
+            renderSongList();
+            updateStats();
+            showSuccess('Song updated');
+        }
+
+        function addManualSong() {
+            const title = document.getElementById('song-title-input').value.trim();
+            const startPage = parseInt(document.getElementById('start-page-input').value);
+            const endPage = parseInt(document.getElementById('end-page-input').value);
+
+            if (!title) {
+                alert('Please enter a song title');
+                return;
+            }
+
+            songs.push({
+                title: title,
+                start_page: startPage,
+                end_page: endPage,
+                page_count: endPage - startPage + 1,
+                source: 'manual'
+            });
+
+            songs.sort((a, b) => a.start_page - b.start_page);
+
+            // Clear and advance
+            document.getElementById('song-title-input').value = '';
+            document.getElementById('start-page-input').value = endPage + 1;
+
+            renderSongList();
+            updateStats();
+            showSuccess('Song added');
+        }
+
+        function renderSongList() {
+            const container = document.getElementById('song-list');
+
+            if (songs.length === 0) {
+                container.innerHTML = '<div class="info-text">No songs loaded</div>';
+                return;
+            }
+
+            container.innerHTML = songs.map((song, index) => {
+                const hasError = song.has_error || song.page_count <= 0;
+                const errorStyle = hasError ? 'border-left: 4px solid #f44336; background: #ffebee;' : '';
+                const errorBadge = hasError ? '<span style="background: #f44336; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; margin-left: 8px;">ERROR</span>' : '';
+
+                // Check if current page is within this song's range (show Viewing badge regardless of selection)
+                const isCurrentPageInSong = currentPage >= song.start_page && currentPage <= song.end_page;
+                const currentPageIndicator = isCurrentPageInSong ? '<span style="color: #FF9800; margin-left: 8px;">👁 Viewing</span>' : '';
+
+                // Show both printed and PDF page numbers if offset is calibrated
+                let pageDisplay;
+                if (song.printed_start && song.printed_start !== song.start_page) {
+                    pageDisplay = `PDF ${song.start_page}-${song.end_page} <span style="color: #666;">(printed ${song.printed_start}-${song.printed_end})</span>`;
+                } else {
+                    pageDisplay = `Pages ${song.start_page}-${song.end_page} (${song.page_count} pages)`;
+                }
+
+                return `
+                    <div class="song-item ${index === selectedSongIndex ? 'active' : ''}" onclick="selectSong(${index})" style="${errorStyle}">
+                        <div class="song-title">
+                            ${song.title}
+                            <span class="song-status status-${song.source}">${song.source.toUpperCase()}</span>
+                            ${errorBadge}
+                            ${currentPageIndicator}
+                        </div>
+                        <div class="song-pages">
+                            ${pageDisplay}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function updateStats() {
+            document.getElementById('song-count').textContent = songs.length;
+            document.getElementById('total-pages').textContent = totalPages;
+
+            let coveredPages = new Set();
+            songs.forEach(song => {
+                for (let p = song.start_page; p <= song.end_page; p++) {
+                    coveredPages.add(p);
+                }
+            });
+            document.getElementById('covered-pages').textContent = coveredPages.size;
+        }
+
+        async function saveToAPI() {
+            if (songs.length === 0) {
+                alert('No songs to save');
+                return;
+            }
+
+            const splitData = {
+                book_id: bookId,
+                book_name: bookName,
+                created_at: new Date().toISOString(),
+                songs: songs
+            };
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/manual_split/${bookId}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(splitData)
+                });
+
+                const result = await response.json();
+
+                if (result.status === 'saved') {
+                    showSuccess(`Saved ${songs.length} split points to server!`);
+                } else {
+                    showError('Error saving: ' + result.message);
+                }
+            } catch (error) {
+                showError('Error saving to API: ' + error.message);
+            }
+        }
+
+        function exportToJSON() {
+            const splitData = {
+                book_id: bookId,
+                book_name: bookName,
+                created_at: new Date().toISOString(),
+                songs: songs
+            };
+
+            const blob = new Blob([JSON.stringify(splitData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `manual_splits_${bookId}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function resetFromTOC() {
+            if (confirm('Reset all split points to TOC values?')) {
+                songs = tocEntries.map(entry => ({
+                    title: entry.song_title,
+                    start_page: entry.page_number,
+                    end_page: entry.page_number,
+                    page_count: 1,
+                    source: 'toc'
+                }));
+                renderSongList();
+                updateStats();
+                showInfo('Reset to TOC values');
+            }
+        }
+
+        function showError(message) {
+            const status = document.getElementById('save-status');
+            status.className = 'info-text error-text';
+            status.textContent = '❌ ' + message;
+            status.style.display = 'block';
+        }
+
+        function showSuccess(message) {
+            const status = document.getElementById('save-status');
+            status.className = 'info-text success-text';
+            status.textContent = '✓ ' + message;
+            status.style.display = 'block';
+            setTimeout(() => status.style.display = 'none', 3000);
+        }
+
+        function showInfo(message) {
+            const status = document.getElementById('save-status');
+            status.className = 'info-text';
+            status.textContent = 'ℹ️ ' + message;
+            status.style.display = 'block';
+        }
+
+        // ===== Page Offset Calibration Functions =====
+
+        async function calibratePageOffset() {
+            showInfo('Calibrating page offset using song title detection...');
+
+            try {
+                // Use the smart calibration endpoint that finds the first song by title
+                const response = await fetch(`${API_BASE_URL}/calibrate_offset/${bookId}`);
+                const data = await response.json();
+
+                if (data.status === 'success') {
+                    pageOffset = data.offset;
+
+                    // Update the page number map with this calibration point
+                    pageNumberMap[data.printed_page] = data.pdf_page;
+
+                    // Update total pages if we got it from the API
+                    if (data.total_pdf_pages) {
+                        totalPages = data.total_pdf_pages;
+                        document.getElementById('page-count').textContent = totalPages;
+                        document.getElementById('page-input').max = totalPages;
+                    }
+
+                    document.getElementById('page-offset').textContent = `+${pageOffset}`;
+
+                    // Apply offset to TOC entries and recalculate song ranges
+                    applyPageOffset();
+
+                    showSuccess(`Offset calibrated: +${pageOffset} (found "${data.song_title}" on PDF page ${data.pdf_page})`);
+
+                    // Refresh thumbnail map with correct page count
+                    await renderThumbnailMap();
+
+                } else if (data.status === 'not_found') {
+                    showError(`Could not find "${data.song_title}" in PDF. Try manual offset.`);
+                } else {
+                    showError('Calibration failed: ' + (data.message || 'Unknown error'));
+                }
+
+            } catch (error) {
+                console.error('Calibration error:', error);
+                showError('Calibration failed: ' + error.message);
+            }
+        }
+
+        function applyPageOffset() {
+            if (pageOffset === null) return;
+
+            // Convert TOC printed page numbers to PDF positions
+            songs = songs.map(song => {
+                const printedStart = song.start_page;
+                const printedEnd = song.end_page;
+
+                // Try exact mapping first, fall back to offset calculation
+                const pdfStart = pageNumberMap[printedStart] || (printedStart - pageOffset);
+                const pdfEnd = pageNumberMap[printedEnd] || (printedEnd - pageOffset);
+
+                return {
+                    ...song,
+                    start_page: pdfStart,
+                    end_page: pdfEnd,
+                    page_count: pdfEnd - pdfStart + 1,
+                    printed_start: printedStart,  // Keep original for reference
+                    printed_end: printedEnd
+                };
+            });
+
+            // Update UI
+            renderSongList();
+            renderThumbnailMap();
+            updateStats();
+        }
+
+        function manualOffsetAdjust() {
+            const currentOffset = pageOffset || 0;
+            const help = "Enter page offset:\n\n" +
+                        "Formula: Printed page = PDF page + offset\n\n" +
+                        "Example: If TOC says page 9, but it's at PDF page 4:\n" +
+                        "Offset = 9 - 4 = 5\n\n" +
+                        `Current offset: ${currentOffset}`;
+
+            const input = prompt(help, currentOffset);
+
+            if (input !== null) {
+                pageOffset = parseInt(input);
+                if (!isNaN(pageOffset)) {
+                    document.getElementById('page-offset').textContent = `+${pageOffset} (manual)`;
+                    applyPageOffset();
+                    showSuccess(`Manual offset set: ${pageOffset}. Songs updated with PDF positions.`);
+                } else {
+                    showError('Invalid offset value');
+                }
+            }
+        }
+
+        // Quick offset helper - detect from current page
+        async function quickOffsetFromCurrentPage() {
+            if (!currentPage) {
+                showError('Navigate to a page with a visible page number first');
+                return;
+            }
+
+            const printedNum = prompt(`You're viewing PDF page ${currentPage}.\n\nWhat is the PRINTED page number shown in the corner?`);
+
+            if (printedNum !== null && !isNaN(parseInt(printedNum))) {
+                const printed = parseInt(printedNum);
+                pageOffset = printed - currentPage;
+                document.getElementById('page-offset').textContent = `+${pageOffset} (manual)`;
+                applyPageOffset();
+                showSuccess(`Offset calculated: ${pageOffset}. Songs updated!`);
+            }
+        }
+
+        // ===== Thumbnail Map Functions =====
+
+        const SONG_COLORS = [
+            '#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8',
+            '#F7DC6F', '#BB8FCE', '#85C1E2', '#F8B4B4', '#95E1D3',
+            '#FDCB6E', '#6C5CE7', '#74B9FF', '#55EFC4', '#FFEAA7'
+        ];
+
+        function getSongColor(songIndex) {
+            return SONG_COLORS[songIndex % SONG_COLORS.length];
+        }
+
+        async function renderThumbnailMap() {
+            if (totalPages === 0) return;
+
+            const container = document.getElementById('thumbnail-container');
+            container.innerHTML = '';
+
+            // Render thumbnails for all pages
+            for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
+                const thumbDiv = document.createElement('div');
+                thumbDiv.className = 'thumbnail-page';
+                thumbDiv.dataset.page = pageNum;
+
+                // Find which song this page belongs to
+                const songIndex = songs.findIndex(s => pageNum >= s.start_page && pageNum <= s.end_page);
+
+                // Add song indicator (colored bar at top)
+                if (songIndex >= 0) {
+                    const indicator = document.createElement('div');
+                    indicator.className = 'song-indicator';
+                    indicator.style.background = getSongColor(songIndex);
+                    thumbDiv.appendChild(indicator);
+                }
+
+                // Add thumbnail image
+                const img = document.createElement('img');
+                img.src = `${API_BASE_URL}/render_page/${bookId}/${pageNum}?size=small`;
+                img.alt = `Page ${pageNum}`;
+                img.loading = 'lazy';  // Lazy load for performance
+                thumbDiv.appendChild(img);
+
+                // Add page number label
+                const pageLabel = document.createElement('div');
+                pageLabel.className = 'page-number';
+                pageLabel.textContent = pageNum;
+                thumbDiv.appendChild(pageLabel);
+
+                // Click to jump to page and select the containing song
+                thumbDiv.addEventListener('click', () => {
+                    // Find and select the song containing this page BEFORE rendering
+                    // so that renderPage's call to renderSongList() shows the correct highlight
+                    const songIndex = songs.findIndex(s => pageNum >= s.start_page && pageNum <= s.end_page);
+                    if (songIndex !== -1 && songIndex !== selectedSongIndex) {
+                        selectedSongIndex = songIndex;
+                        const song = songs[songIndex];
+                        document.getElementById('song-title-input').value = song.title;
+                        document.getElementById('start-page-input').value = song.start_page;
+                        document.getElementById('end-page-input').value = song.end_page;
+                        document.getElementById('current-song-info').innerHTML = `
+                            <strong>${song.title}</strong><br>
+                            Pages ${song.start_page}-${song.end_page} (${song.page_count} pages)<br>
+                            Source: ${song.source}
+                        `;
+                    }
+                    // Now render the page - this will call renderSongList() with correct selectedSongIndex
+                    renderPage(pageNum);
+                    scrollThumbnailIntoView(pageNum);
+                });
+
+                container.appendChild(thumbDiv);
+            }
+
+            // Add split markers
+            renderSplitMarkers();
+
+            // Highlight current page
+            updateCurrentThumbnail();
+        }
+
+        function renderSplitMarkers() {
+            const container = document.getElementById('thumbnail-container');
+
+            // Remove existing markers
+            container.querySelectorAll('.split-marker').forEach(m => m.remove());
+
+            // Add markers between songs
+            songs.forEach((song, index) => {
+                if (index === 0) return;  // Skip first song (no marker before it)
+
+                const marker = document.createElement('div');
+                marker.className = 'split-marker';
+                marker.dataset.songIndex = index;
+
+                // Position marker at the start of this song
+                const thumbWidth = 85;  // Approximate thumbnail width
+                const position = (song.start_page - 1) * (thumbWidth + 2);  // +2 for gap
+                marker.style.left = `${position}px`;
+
+                // Make it draggable
+                marker.draggable = true;
+                marker.addEventListener('dragstart', handleMarkerDragStart);
+                marker.addEventListener('drag', handleMarkerDrag);
+                marker.addEventListener('dragend', handleMarkerDragEnd);
+
+                container.appendChild(marker);
+            });
+        }
+
+        let draggedMarker = null;
+        let dragStartX = 0;
+
+        function handleMarkerDragStart(e) {
+            draggedMarker = e.target;
+            dragStartX = e.clientX;
+            e.dataTransfer.effectAllowed = 'move';
+        }
+
+        function handleMarkerDrag(e) {
+            if (!e.clientX) return;  // Ignore invalid drag events
+
+            const deltaX = e.clientX - dragStartX;
+            const thumbWidth = 85;
+            const pageDelta = Math.round(deltaX / (thumbWidth + 2));
+
+            // Visual feedback (update marker position)
+            const songIndex = parseInt(draggedMarker.dataset.songIndex);
+            const song = songs[songIndex];
+            const prevSong = songs[songIndex - 1];
+
+            const newStartPage = Math.max(prevSong.start_page + 1,
+                                         Math.min(song.end_page, song.start_page + pageDelta));
+
+            const position = (newStartPage - 1) * (thumbWidth + 2);
+            draggedMarker.style.left = `${position}px`;
+        }
+
+        function handleMarkerDragEnd(e) {
+            if (!draggedMarker) return;
+
+            const deltaX = e.clientX - dragStartX;
+            const thumbWidth = 85;
+            const pageDelta = Math.round(deltaX / (thumbWidth + 2));
+
+            const songIndex = parseInt(draggedMarker.dataset.songIndex);
+            const song = songs[songIndex];
+            const prevSong = songs[songIndex - 1];
+
+            // Calculate new split point
+            const newStartPage = Math.max(prevSong.start_page + 1,
+                                         Math.min(song.end_page, song.start_page + pageDelta));
+
+            if (newStartPage !== song.start_page) {
+                // Update song boundaries
+                prevSong.end_page = newStartPage - 1;
+                prevSong.page_count = prevSong.end_page - prevSong.start_page + 1;
+
+                song.start_page = newStartPage;
+                song.page_count = song.end_page - song.start_page + 1;
+
+                // Mark as manually adjusted
+                prevSong.source = 'manual';
+                song.source = 'manual';
+
+                // Update UI
+                renderSongList();
+                renderThumbnailMap();
+                updateStats();
+                showInfo(`Split adjusted: ${prevSong.title} ends at page ${prevSong.end_page}, ${song.title} starts at page ${song.start_page}`);
+            }
+
+            draggedMarker = null;
+        }
+
+        function updateCurrentThumbnail() {
+            document.querySelectorAll('.thumbnail-page').forEach(thumb => {
+                thumb.classList.remove('current');
+            });
+
+            const currentThumb = document.querySelector(`.thumbnail-page[data-page="${currentPage}"]`);
+            if (currentThumb) {
+                currentThumb.classList.add('current');
+                scrollThumbnailIntoView(currentPage);
+            }
+        }
+
+        function scrollThumbnailIntoView(pageNum) {
+            const thumb = document.querySelector(`.thumbnail-page[data-page="${pageNum}"]`);
+            if (thumb) {
+                thumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            }
+        }
+    </script>
+</body>
+</html>

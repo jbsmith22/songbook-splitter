@@ -13,6 +13,7 @@ import time
 import logging
 from typing import Dict, Any
 from decimal import Decimal
+from datetime import datetime
 import boto3
 from botocore.exceptions import ClientError
 
@@ -21,7 +22,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # Environment variables
-DYNAMODB_TABLE = os.environ.get('DYNAMODB_TABLE', 'sheetmusic-processing-ledger')
+DYNAMODB_TABLE = os.environ.get('DYNAMODB_TABLE', 'jsmith-pipeline-ledger')
 
 # AWS clients
 dynamodb = boto3.resource('dynamodb')
@@ -114,25 +115,30 @@ def record_start_handler(event, context):
     
     try:
         table = dynamodb.Table(DYNAMODB_TABLE)
-        
+        now_iso = datetime.utcnow().isoformat() + 'Z'
+
         item = {
             'book_id': book_id,
-            'processing_timestamp': int(time.time()),
-            'status': 'processing',
+            'status': 'in_progress',
+            'pipeline_version': 'v3',
             'source_pdf_uri': source_pdf_uri,
             'artist': artist,
             'book_name': book_name,
-            'step_function_execution_arn': execution_arn
+            'current_step': 'toc_discovery',
+            'execution_arn': execution_arn,
+            'created_at': now_iso,
+            'updated_at': now_iso,
+            'steps': {}
         }
-        
+
         table.put_item(Item=item)
-        
+
         logger.info(f"Recorded processing start for book {book_id}")
-        
+
         return {
             'success': True,
             'book_id': book_id,
-            'timestamp': item['processing_timestamp']
+            'created_at': now_iso
         }
         
     except ClientError as e:
@@ -147,67 +153,63 @@ def record_start_handler(event, context):
 def record_success_handler(event, context):
     """
     Lambda handler to record successful completion.
-    
+
     Args:
-        event: Contains book_id, manifest_uri, songs_extracted, etc.
+        event: Contains book_id, songs_extracted, total_duration_sec, total_cost_usd
         context: Lambda context
-    
+
     Returns:
         Dict with success status
     """
     book_id = event.get('book_id')
-    manifest_uri = event.get('manifest_uri')
     songs_extracted = event.get('songs_extracted', 0)
-    processing_duration = event.get('processing_duration_seconds')
-    cost_usd = event.get('cost_usd', 0.0)
-    
+    total_duration_sec = event.get('total_duration_sec')
+    total_cost_usd = event.get('total_cost_usd', 0.0)
+
     if not book_id:
         return {
             'success': False,
             'error': 'Missing book_id'
         }
-    
+
     try:
         table = dynamodb.Table(DYNAMODB_TABLE)
-        
-        update_expr = 'SET #status = :status, processing_timestamp = :timestamp'
+        now_iso = datetime.utcnow().isoformat() + 'Z'
+
+        update_expr = 'SET #status = :status, updated_at = :now'
         expr_attr_names = {'#status': 'status'}
         expr_attr_values = {
             ':status': 'success',
-            ':timestamp': int(time.time())
+            ':now': now_iso
         }
-        
-        if manifest_uri:
-            update_expr += ', manifest_uri = :manifest_uri'
-            expr_attr_values[':manifest_uri'] = manifest_uri
-        
+
         if songs_extracted:
             update_expr += ', songs_extracted = :songs_extracted'
             expr_attr_values[':songs_extracted'] = songs_extracted
-        
-        if processing_duration:
-            update_expr += ', processing_duration_seconds = :duration'
-            expr_attr_values[':duration'] = int(processing_duration)
-        
-        if cost_usd:
-            update_expr += ', cost_usd = :cost'
-            expr_attr_values[':cost'] = Decimal(str(cost_usd))
-        
+
+        if total_duration_sec:
+            update_expr += ', total_duration_sec = :duration'
+            expr_attr_values[':duration'] = Decimal(str(total_duration_sec))
+
+        if total_cost_usd:
+            update_expr += ', total_cost_usd = :cost'
+            expr_attr_values[':cost'] = Decimal(str(total_cost_usd))
+
         table.update_item(
             Key={'book_id': book_id},
             UpdateExpression=update_expr,
             ExpressionAttributeNames=expr_attr_names,
             ExpressionAttributeValues=expr_attr_values
         )
-        
+
         logger.info(f"Recorded success for book {book_id}")
-        
+
         return {
             'success': True,
             'book_id': book_id,
             'status': 'success'
         }
-        
+
     except ClientError as e:
         logger.error(f"Error recording success: {e}")
         return {
@@ -220,45 +222,55 @@ def record_success_handler(event, context):
 def record_failure_handler(event, context):
     """
     Lambda handler to record processing failure.
-    
+
     Args:
-        event: Contains book_id, error_message
+        event: Contains book_id, error_message, current_step
         context: Lambda context
-    
+
     Returns:
         Dict with success status
     """
     book_id = event.get('book_id')
     error_message = event.get('error_message', 'Unknown error')
-    
+    current_step = event.get('current_step')
+
     if not book_id:
         return {
             'success': False,
             'error': 'Missing book_id'
         }
-    
+
     try:
         table = dynamodb.Table(DYNAMODB_TABLE)
-        
+        now_iso = datetime.utcnow().isoformat() + 'Z'
+
+        update_expr = 'SET #status = :status, updated_at = :now, error_message = :error'
+        expr_attr_names = {'#status': 'status'}
+        expr_attr_values = {
+            ':status': 'failed',
+            ':now': now_iso,
+            ':error': error_message
+        }
+
+        if current_step:
+            update_expr += ', current_step = :step'
+            expr_attr_values[':step'] = current_step
+
         table.update_item(
             Key={'book_id': book_id},
-            UpdateExpression='SET #status = :status, processing_timestamp = :timestamp, error_message = :error',
-            ExpressionAttributeNames={'#status': 'status'},
-            ExpressionAttributeValues={
-                ':status': 'failed',
-                ':timestamp': int(time.time()),
-                ':error': error_message
-            }
+            UpdateExpression=update_expr,
+            ExpressionAttributeNames=expr_attr_names,
+            ExpressionAttributeValues=expr_attr_values
         )
-        
+
         logger.info(f"Recorded failure for book {book_id}")
-        
+
         return {
             'success': True,
             'book_id': book_id,
             'status': 'failed'
         }
-        
+
     except ClientError as e:
         logger.error(f"Error recording failure: {e}")
         return {
@@ -271,45 +283,55 @@ def record_failure_handler(event, context):
 def record_manual_review_handler(event, context):
     """
     Lambda handler to record manual review status.
-    
+
     Args:
-        event: Contains book_id, reason
+        event: Contains book_id, reason, current_step
         context: Lambda context
-    
+
     Returns:
         Dict with success status
     """
     book_id = event.get('book_id')
     reason = event.get('reason', 'Quality gate failed')
-    
+    current_step = event.get('current_step')
+
     if not book_id:
         return {
             'success': False,
             'error': 'Missing book_id'
         }
-    
+
     try:
         table = dynamodb.Table(DYNAMODB_TABLE)
-        
+        now_iso = datetime.utcnow().isoformat() + 'Z'
+
+        update_expr = 'SET #status = :status, updated_at = :now, error_message = :reason'
+        expr_attr_names = {'#status': 'status'}
+        expr_attr_values = {
+            ':status': 'failed',
+            ':now': now_iso,
+            ':reason': reason
+        }
+
+        if current_step:
+            update_expr += ', current_step = :step'
+            expr_attr_values[':step'] = current_step
+
         table.update_item(
             Key={'book_id': book_id},
-            UpdateExpression='SET #status = :status, processing_timestamp = :timestamp, error_message = :reason',
-            ExpressionAttributeNames={'#status': 'status'},
-            ExpressionAttributeValues={
-                ':status': 'manual_review',
-                ':timestamp': int(time.time()),
-                ':reason': reason
-            }
+            UpdateExpression=update_expr,
+            ExpressionAttributeNames=expr_attr_names,
+            ExpressionAttributeValues=expr_attr_values
         )
-        
+
         logger.info(f"Recorded manual review for book {book_id}")
-        
+
         return {
             'success': True,
             'book_id': book_id,
-            'status': 'manual_review'
+            'status': 'failed'
         }
-        
+
     except ClientError as e:
         logger.error(f"Error recording manual review: {e}")
         return {

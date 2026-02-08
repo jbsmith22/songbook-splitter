@@ -532,25 +532,33 @@ def page_analysis_handler(event, context):
             toc_entries=toc_entries
         )
 
-        # Save to S3
-        output_bucket = os.environ.get('OUTPUT_BUCKET', 'jsmith-output')
-        output_key = f'artifacts/{book_id}/page_analysis.json'
+        # Save to artifacts bucket (v3)
+        from app.utils.sanitization import sanitize_artist_name, sanitize_book_name
+        artist = os.environ.get('ARTIST', '')
+        book_name_env = os.environ.get('BOOK_NAME', '')
+        artifacts_bucket = os.environ.get('ARTIFACTS_BUCKET', 'jsmith-artifacts')
+
+        sanitized_artist = sanitize_artist_name(artist)
+        sanitized_book = sanitize_book_name(book_name_env)
+        artifact_prefix = f"v3/{sanitized_artist}/{sanitized_book}"
+        output_key = f'{artifact_prefix}/page_analysis.json'
 
         result_dict = analyzer.to_dict(result)
+        result_dict['book_id'] = book_id  # Embed book_id for cross-referencing
 
         s3.put_object(
-            Bucket=output_bucket,
+            Bucket=artifacts_bucket,
             Key=output_key,
             Body=json.dumps(result_dict, indent=2),
             ContentType='application/json'
         )
 
-        logger.info(f"Page analysis saved to s3://{output_bucket}/{output_key}")
+        logger.info(f"Page analysis saved to s3://{artifacts_bucket}/{output_key}")
 
         return {
             'status': 'success',
             'book_id': book_id,
-            'page_analysis_uri': f's3://{output_bucket}/{output_key}',
+            'page_analysis_uri': f's3://{artifacts_bucket}/{output_key}',
             'page_offset': result.page_offset.calculated_offset,
             'offset_consistent': result.page_offset.is_consistent,
             'songs_found': len(result.songs),

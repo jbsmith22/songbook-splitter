@@ -59,6 +59,11 @@ state_machine_current.json
 
 # PDF directories (large files, not for version control)
 SheetMusic/
+SheetMusic_Input/
+SheetMusic_Output/
+SheetMusic_Artifacts/
+SheetMusic_Artifacts_v2_backup/
+SheetMusic_FakeAndScores/
 SheetMusicIndividualSheets/
 ProcessedSongs/
 ProcessedSongs_Archive/

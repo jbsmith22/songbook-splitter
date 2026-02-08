@@ -20,10 +20,10 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # Environment variables
-INPUT_BUCKET = os.environ.get('INPUT_BUCKET', 'sheetmusic-input')
-INPUT_PREFIX = os.environ.get('INPUT_PREFIX', 'SheetMusic/')
+INPUT_BUCKET = os.environ.get('INPUT_BUCKET', 'jsmith-input')
+INPUT_PREFIX = os.environ.get('INPUT_PREFIX', 'v3/')
 STATE_MACHINE_ARN = os.environ.get('STATE_MACHINE_ARN')
-DYNAMODB_TABLE = os.environ.get('DYNAMODB_TABLE', 'sheetmusic-processing-ledger')
+DYNAMODB_TABLE = os.environ.get('DYNAMODB_TABLE', 'jsmith-pipeline-ledger')
 
 # AWS clients
 s3_client = boto3.client('s3')
@@ -93,54 +93,60 @@ def lambda_handler(event, context):
 
 def discover_pdfs(bucket: str, prefix: str) -> List[Dict[str, Any]]:
     """
-    Scan S3 bucket for PDFs matching pattern.
-    
-    Pattern: SheetMusic/<Artist>/books/*.pdf
-    
+    Scan S3 bucket for PDFs matching v3 pattern.
+
+    Pattern: v3/<Artist>/<Artist> - <Book>.pdf
+
     Args:
         bucket: S3 bucket name
-        prefix: S3 prefix to search
-    
+        prefix: S3 prefix to search (default: 'v3/')
+
     Returns:
         List of PDF metadata dictionaries
     """
     pdfs = []
-    
+
     try:
         paginator = s3_client.get_paginator('list_objects_v2')
         pages = paginator.paginate(Bucket=bucket, Prefix=prefix)
-        
+
         for page in pages:
             if 'Contents' not in page:
                 continue
-            
+
             for obj in page['Contents']:
                 key = obj['Key']
-                
-                # Check if matches pattern: SheetMusic/<Artist>/books/*.pdf
-                if key.lower().endswith('.pdf') and '/books/' in key:
-                    # Extract artist and book name from path
-                    parts = key.split('/')
-                    if len(parts) >= 4 and parts[0] == 'SheetMusic' and parts[2] == 'books':
-                        artist = parts[1]
-                        book_name = parts[3].replace('.pdf', '')
-                        
-                        # Generate book ID
-                        s3_uri = f"s3://{bucket}/{key}"
-                        book_id = generate_book_id(s3_uri)
-                        
-                        pdfs.append({
-                            'book_id': book_id,
-                            's3_uri': s3_uri,
-                            'bucket': bucket,
-                            'key': key,
-                            'artist': artist,
-                            'book_name': book_name,
-                            'size': obj.get('Size', 0)
-                        })
-        
+
+                if not key.lower().endswith('.pdf'):
+                    continue
+
+                # v3 pattern: v3/<Artist>/<Artist> - <Book>.pdf
+                parts = key.split('/')
+                if len(parts) >= 3 and parts[0] == 'v3':
+                    artist = parts[1]
+                    filename = parts[2]
+                    book_name = filename.replace('.pdf', '')
+
+                    # Strip "Artist - " prefix from book_name if present
+                    if ' - ' in book_name:
+                        book_name = book_name.split(' - ', 1)[1]
+
+                    # Generate book ID
+                    s3_uri = f"s3://{bucket}/{key}"
+                    book_id = generate_book_id(s3_uri)
+
+                    pdfs.append({
+                        'book_id': book_id,
+                        's3_uri': s3_uri,
+                        'bucket': bucket,
+                        'key': key,
+                        'artist': artist,
+                        'book_name': book_name,
+                        'size': obj.get('Size', 0)
+                    })
+
         return pdfs
-        
+
     except ClientError as e:
         logger.error(f"Error listing S3 objects: {e}")
         raise

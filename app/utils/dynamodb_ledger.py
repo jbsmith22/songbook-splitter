@@ -21,20 +21,25 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class LedgerEntry:
-    """Represents a processing ledger entry."""
+    """Represents a v3 processing ledger entry."""
     book_id: str
-    processing_timestamp: int
-    status: str  # "processing", "success", "failed", "manual_review"
-    source_pdf_uri: str
     artist: str
     book_name: str
-    step_function_execution_arn: Optional[str] = None
-    error_message: Optional[str] = None
-    manifest_uri: Optional[str] = None
-    songs_extracted: Optional[int] = None
-    processing_duration_seconds: Optional[float] = None
-    cost_usd: Optional[float] = None
-    ttl: Optional[int] = None
+    pipeline_version: str  # "v3"
+    status: str  # "pending", "in_progress", "success", "failed"
+    source_pdf_uri: str
+    current_step: Optional[str] = None  # Which step is active or failed at
+    source_pdf_hash: Optional[str] = None  # MD5 of original PDF
+    source_pdf_size: Optional[int] = None  # File size in bytes
+    source_pdf_pages: Optional[int] = None  # Total page count
+    songs_extracted: Optional[int] = None  # Final actual count (null until complete)
+    total_cost_usd: Optional[float] = None  # Sum of all step costs
+    total_duration_sec: Optional[float] = None  # Sum of all step durations
+    execution_arn: Optional[str] = None  # Step Function execution ARN
+    error_message: Optional[str] = None  # Top-level error if failed
+    created_at: Optional[str] = None  # ISO timestamp
+    updated_at: Optional[str] = None  # ISO timestamp
+    steps: Optional[Dict[str, Any]] = None  # Per-step tracking map
 
 
 class MockDynamoDB:
@@ -77,7 +82,7 @@ class MockDynamoDB:
 class DynamoDBLedger:
     """DynamoDB ledger for tracking book processing state."""
     
-    def __init__(self, table_name: str = 'sheetmusic-processing-ledger', 
+    def __init__(self, table_name: str = 'jsmith-pipeline-ledger',
                  local_mode: bool = False):
         """
         Initialize DynamoDB ledger.
@@ -138,92 +143,91 @@ class DynamoDBLedger:
             # On error, assume not processed to allow retry
             return False
     
-    def record_processing_start(self, source_pdf_uri: str, artist: str, 
+    def record_processing_start(self, source_pdf_uri: str, artist: str,
                                 book_name: str, execution_arn: Optional[str] = None) -> str:
         """
         Record the start of processing for a book.
-        
+
         Args:
             source_pdf_uri: S3 URI of the source PDF
             artist: Artist name
             book_name: Book name
             execution_arn: Step Functions execution ARN (optional)
-        
+
         Returns:
             Generated book_id
         """
         book_id = self.generate_book_id(source_pdf_uri)
-        timestamp = int(time.time())
-        
+        now_iso = datetime.utcnow().isoformat() + 'Z'
+
         entry = LedgerEntry(
             book_id=book_id,
-            processing_timestamp=timestamp,
-            status='processing',
-            source_pdf_uri=source_pdf_uri,
             artist=artist,
             book_name=book_name,
-            step_function_execution_arn=execution_arn
+            pipeline_version='v3',
+            status='in_progress',
+            source_pdf_uri=source_pdf_uri,
+            current_step='toc_discovery',
+            execution_arn=execution_arn,
+            created_at=now_iso,
+            updated_at=now_iso,
+            steps={}
         )
-        
+
         try:
             item = asdict(entry)
             # Remove None values
             item = {k: v for k, v in item.items() if v is not None}
-            
+
             if self.local_mode:
                 self.db.put_item(self.table_name, item)
             else:
                 self.table.put_item(Item=item)
-            
+
             logger.info(f"Recorded processing start for book {book_id}")
             return book_id
-            
+
         except ClientError as e:
             logger.error(f"Error recording processing start: {e}")
             raise
     
     def record_processing_complete(self, book_id: str, status: str,
-                                   manifest_uri: Optional[str] = None,
                                    songs_extracted: Optional[int] = None,
-                                   processing_duration_seconds: Optional[float] = None,
-                                   cost_usd: Optional[float] = None,
+                                   total_duration_sec: Optional[float] = None,
+                                   total_cost_usd: Optional[float] = None,
                                    error_message: Optional[str] = None) -> None:
         """
         Record the completion of processing for a book.
-        
+
         Args:
             book_id: Unique identifier for the book
-            status: Final status ("success", "failed", "manual_review")
-            manifest_uri: S3 URI of the manifest file
+            status: Final status ("success", "failed")
             songs_extracted: Number of songs successfully extracted
-            processing_duration_seconds: Total processing time
-            cost_usd: Estimated cost in USD
+            total_duration_sec: Total processing time across all steps
+            total_cost_usd: Total estimated cost in USD
             error_message: Error details if status is "failed"
         """
-        if status not in ['success', 'failed', 'manual_review']:
-            raise ValueError(f"Invalid status: {status}. Must be 'success', 'failed', or 'manual_review'")
-        
-        timestamp = int(time.time())
-        
+        if status not in ['success', 'failed']:
+            raise ValueError(f"Invalid status: {status}. Must be 'success' or 'failed'")
+
+        now_iso = datetime.utcnow().isoformat() + 'Z'
+
         update_data = {
             'status': status,
-            'processing_timestamp': timestamp
+            'updated_at': now_iso
         }
-        
-        if manifest_uri:
-            update_data['manifest_uri'] = manifest_uri
+
         if songs_extracted is not None:
             update_data['songs_extracted'] = songs_extracted
-        if processing_duration_seconds is not None:
-            update_data['processing_duration_seconds'] = processing_duration_seconds
-        if cost_usd is not None:
-            update_data['cost_usd'] = cost_usd
+        if total_duration_sec is not None:
+            update_data['total_duration_sec'] = total_duration_sec
+        if total_cost_usd is not None:
+            update_data['total_cost_usd'] = total_cost_usd
         if error_message:
             update_data['error_message'] = error_message
-        
+
         try:
             if self.local_mode:
-                # Get existing item and update it
                 existing = self.db.get_item(self.table_name, {'book_id': book_id})
                 if existing:
                     existing.update(update_data)
@@ -231,22 +235,67 @@ class DynamoDBLedger:
                 else:
                     logger.warning(f"No existing entry found for book {book_id}")
             else:
-                # Build update expression
                 update_expr = 'SET ' + ', '.join([f'#{k} = :{k}' for k in update_data.keys()])
                 expr_attr_names = {f'#{k}': k for k in update_data.keys()}
                 expr_attr_values = {f':{k}': v for k, v in update_data.items()}
-                
+
                 self.table.update_item(
                     Key={'book_id': book_id},
                     UpdateExpression=update_expr,
                     ExpressionAttributeNames=expr_attr_names,
                     ExpressionAttributeValues=expr_attr_values
                 )
-            
+
             logger.info(f"Recorded processing completion for book {book_id} with status {status}")
-            
+
         except ClientError as e:
             logger.error(f"Error recording processing completion: {e}")
+            raise
+
+    def update_step(self, book_id: str, step_name: str, step_data: Dict[str, Any],
+                    current_step: Optional[str] = None) -> None:
+        """
+        Update per-step tracking data in the ledger.
+
+        Args:
+            book_id: Unique identifier for the book
+            step_name: Step name (e.g. 'toc_discovery', 'toc_parse')
+            step_data: Step data dict (status, started_at, completed_at, etc.)
+            current_step: Optionally update current_step field
+        """
+        now_iso = datetime.utcnow().isoformat() + 'Z'
+
+        try:
+            if self.local_mode:
+                existing = self.db.get_item(self.table_name, {'book_id': book_id})
+                if existing:
+                    if 'steps' not in existing:
+                        existing['steps'] = {}
+                    existing['steps'][step_name] = step_data
+                    existing['updated_at'] = now_iso
+                    if current_step:
+                        existing['current_step'] = current_step
+                    self.db.put_item(self.table_name, existing)
+            else:
+                update_expr = 'SET steps.#step = :step_data, updated_at = :now'
+                expr_attr_names = {'#step': step_name}
+                expr_attr_values = {':step_data': step_data, ':now': now_iso}
+
+                if current_step:
+                    update_expr += ', current_step = :current_step'
+                    expr_attr_values[':current_step'] = current_step
+
+                self.table.update_item(
+                    Key={'book_id': book_id},
+                    UpdateExpression=update_expr,
+                    ExpressionAttributeNames=expr_attr_names,
+                    ExpressionAttributeValues=expr_attr_values
+                )
+
+            logger.info(f"Updated step {step_name} for book {book_id}")
+
+        except ClientError as e:
+            logger.error(f"Error updating step {step_name}: {e}")
             raise
     
     def get_entry(self, book_id: str) -> Optional[Dict[str, Any]]:

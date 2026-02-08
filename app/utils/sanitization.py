@@ -308,7 +308,7 @@ def generate_output_path(
         >>> generate_output_path("my-bucket", "The Beatles", "Abbey Road", "Come Together", "The Beatles")
         'The Beatles/Abbey Road/Songs/The Beatles - Come Together.pdf'
         >>> generate_output_path("my-bucket", "Various Artists", "Hits", "Song", "Artist A")
-        'Various Artists/Hits/Songs/Artist A - Song.pdf'
+        'Various Artists/Hits/Artist A - Song.pdf'
     """
     # Sanitize all components
     sanitized_book_artist = sanitize_artist_name(artist)
@@ -320,5 +320,5 @@ def generate_output_path(
     resolved_filename_artist = song_artist if song_artist else artist
     filename = generate_output_filename(resolved_filename_artist, song_title)
     
-    # Construct S3 key: <BookArtist>/<BookName>/Songs/<filename>
-    return f"{sanitized_book_artist}/{sanitized_book}/Songs/{filename}"
+    # Construct S3 key: <BookArtist>/<BookName>/<filename>
+    return f"{sanitized_book_artist}/{sanitized_book}/{filename}"

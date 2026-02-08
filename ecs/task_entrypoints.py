@@ -6,6 +6,12 @@ Each entry point:
 - Executes the corresponding service
 - Writes output to S3
 - Handles cleanup
+
+v3 changes:
+- Artifacts write to ARTIFACTS_BUCKET (jsmith-artifacts) instead of OUTPUT_BUCKET
+- Artifact paths use v3/{artist}/{book_name}/ instead of artifacts/{book_id}/
+- Output paths use v3/ prefix
+- Manifest generation removed (artifacts bucket holds all metadata)
 """
 
 import json
@@ -23,61 +29,85 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# v3 schema prefix for S3 path isolation
+S3_SCHEMA_PREFIX = "v3"
+
+
+def get_artifact_bucket():
+    """Get the artifacts bucket name from environment."""
+    return os.environ.get('ARTIFACTS_BUCKET', 'jsmith-artifacts')
+
+
+def get_artifact_prefix(artist: str, book_name: str) -> str:
+    """Build the v3 artifact prefix: v3/{artist}/{book_name}/"""
+    from app.utils.sanitization import sanitize_artist_name, sanitize_book_name
+    sanitized_artist = sanitize_artist_name(artist)
+    sanitized_book = sanitize_book_name(book_name)
+    return f"{S3_SCHEMA_PREFIX}/{sanitized_artist}/{sanitized_book}"
+
 
 def toc_discovery_task():
     """
     TOC Discovery ECS task entry point.
-    
+
     Environment variables:
     - BOOK_ID: Unique book identifier
     - SOURCE_PDF_URI: S3 URI of source PDF
     - OUTPUT_BUCKET: S3 bucket for output
+    - ARTIFACTS_BUCKET: S3 bucket for artifacts (v3)
+    - ARTIST: Book artist (v3)
+    - BOOK_NAME: Book name (v3)
     - MAX_PAGES: Maximum pages to scan (default: 20)
     """
     from app.services.toc_discovery import TOCDiscoveryService
     from app.utils.s3_utils import S3Utils
-    
+
     logger.info("Starting TOC Discovery task")
-    
+
     # Get input from environment
     book_id = os.environ.get('BOOK_ID')
     source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
     output_bucket = os.environ.get('OUTPUT_BUCKET')
+    artist = os.environ.get('ARTIST', '')
+    book_name = os.environ.get('BOOK_NAME', '')
+    artifacts_bucket = get_artifact_bucket()
     max_pages = int(os.environ.get('MAX_PAGES', '20'))
-    
+
     if not all([book_id, source_pdf_uri, output_bucket]):
         logger.error("Missing required environment variables")
         sys.exit(1)
-    
+
     try:
         # Download PDF from S3
         s3_utils = S3Utils()
         bucket, key = parse_s3_uri(source_pdf_uri)
-        
+
         with tempfile.TemporaryDirectory() as temp_dir:
             pdf_path = os.path.join(temp_dir, 'input.pdf')
             s3_utils.download_file(bucket, key, pdf_path)
-            
+
             # Run TOC discovery
             service = TOCDiscoveryService()
             result = service.discover_toc(pdf_path, max_pages)
-            
-            # Write result to S3
-            output_key = f"artifacts/{book_id}/toc_discovery.json"
+
+            # Write result to artifacts bucket with human-readable path
+            artifact_prefix = get_artifact_prefix(artist, book_name)
+            output_key = f"{artifact_prefix}/toc_discovery.json"
             result_json = json.dumps({
+                'book_id': book_id,
                 'toc_pages': result.toc_pages,
                 'extracted_text': result.extracted_text,
                 'confidence_scores': result.confidence_scores
             })
-            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
-            
+            s3_utils.write_bytes(result_json.encode(), artifacts_bucket, output_key)
+
             logger.info(f"TOC Discovery complete. Found {len(result.toc_pages)} pages")
-            
+
             # Output result for Step Functions
             print(json.dumps({
                 'book_id': book_id,
                 'toc_pages': result.toc_pages,
-                'output_uri': f"s3://{output_bucket}/{output_key}"
+                'output_uri': f"s3://{artifacts_bucket}/{output_key}"
             }))
             
     except Exception as e:
@@ -191,9 +221,12 @@ def toc_parser_task():
                             logger.info(f"Text-based parsing succeeded with {len(text_result.entries)} entries")
                             result = text_result
 
-        # Write result to S3
-        output_key = f"artifacts/{book_id}/toc_parse.json"
+        # Write result to artifacts bucket
+        artifacts_bucket = get_artifact_bucket()
+        artifact_prefix = get_artifact_prefix(artist, book_name)
+        output_key = f"{artifact_prefix}/toc_parse.json"
         result_json = json.dumps({
+            'book_id': book_id,
             'entries': [
                 {
                     'song_title': e.song_title,
@@ -207,16 +240,16 @@ def toc_parser_task():
             'confidence': result.confidence,
             'artist_overrides': result.artist_overrides
         })
-        s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
-        
+        s3_utils.write_bytes(result_json.encode(), artifacts_bucket, output_key)
+
         logger.info(f"TOC Parser complete. Parsed {len(result.entries)} entries")
-        
+
         # Output result for Step Functions
         print(json.dumps({
             'book_id': book_id,
             'entry_count': len(result.entries),
             'extraction_method': result.extraction_method,
-            'output_uri': f"s3://{output_bucket}/{output_key}"
+            'output_uri': f"s3://{artifacts_bucket}/{output_key}"
         }))
         
     except Exception as e:
@@ -236,6 +269,9 @@ def song_verifier_task():
     - SOURCE_PDF_URI: S3 URI of source PDF
     - PAGE_MAPPING_URI: S3 URI of page mapping JSON
     - OUTPUT_BUCKET: S3 bucket for output
+    - ARTIFACTS_BUCKET: S3 bucket for artifacts (v3)
+    - ARTIST: Book artist (v3)
+    - BOOK_NAME: Book name (v3)
     """
     from app.utils.s3_utils import S3Utils
 
@@ -246,6 +282,9 @@ def song_verifier_task():
     source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
     page_mapping_uri = os.environ.get('PAGE_MAPPING_URI')
     output_bucket = os.environ.get('OUTPUT_BUCKET')
+    artist = os.environ.get('ARTIST', '')
+    book_name = os.environ.get('BOOK_NAME', '')
+    artifacts_bucket = get_artifact_bucket()
 
     if not all([book_id, source_pdf_uri, page_mapping_uri, output_bucket]):
         logger.error("Missing required environment variables")
@@ -253,13 +292,14 @@ def song_verifier_task():
 
     try:
         s3_utils = S3Utils()
+        artifact_prefix = get_artifact_prefix(artist, book_name)
 
         # Check if holistic page_analysis.json exists with songs
         page_analysis = None
         try:
             page_analysis_json = s3_utils.read_bytes(
-                output_bucket,
-                f"artifacts/{book_id}/page_analysis.json"
+                artifacts_bucket,
+                f"{artifact_prefix}/page_analysis.json"
             ).decode('utf-8')
             page_analysis = json.loads(page_analysis_json)
         except Exception as e:
@@ -270,7 +310,7 @@ def song_verifier_task():
             logger.info(f"HOLISTIC analysis found with {len(page_analysis['songs'])} songs - passing through")
 
             # Build verified_songs.json from holistic analysis (don't re-verify)
-            output_key = f"artifacts/{book_id}/verified_songs.json"
+            output_key = f"{artifact_prefix}/verified_songs.json"
             result_json = json.dumps({
                 'verified_songs': [
                     {
@@ -282,7 +322,7 @@ def song_verifier_task():
                     for song in page_analysis['songs']
                 ]
             }, indent=2)
-            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
+            s3_utils.write_bytes(result_json.encode(), artifacts_bucket, output_key)
 
             logger.info(f"Song Verifier complete. Passed through {len(page_analysis['songs'])} songs from holistic analysis")
 
@@ -291,7 +331,7 @@ def song_verifier_task():
                 'book_id': book_id,
                 'verified_count': len(page_analysis['songs']),
                 'verification_method': 'holistic_passthrough',
-                'output_uri': f"s3://{output_bucket}/{output_key}"
+                'output_uri': f"s3://{artifacts_bucket}/{output_key}"
             }))
             return
 
@@ -346,9 +386,10 @@ def song_verifier_task():
             # Calculate page ranges
             page_ranges = service.adjust_page_ranges(verified_only, total_pages)
 
-            # Write result to S3
-            output_key = f"artifacts/{book_id}/verified_songs.json"
+            # Write result to artifacts bucket
+            output_key = f"{artifact_prefix}/verified_songs.json"
             result_json = json.dumps({
+                'book_id': book_id,
                 'verified_songs': [
                     {
                         'song_title': pr.song_title,
@@ -359,7 +400,7 @@ def song_verifier_task():
                     for pr in page_ranges
                 ]
             })
-            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
+            s3_utils.write_bytes(result_json.encode(), artifacts_bucket, output_key)
 
             logger.info(f"Song Verifier complete. Verified {len(verified_only)}/{len(valid_song_locations)} songs successfully")
 
@@ -367,7 +408,7 @@ def song_verifier_task():
             print(json.dumps({
                 'book_id': book_id,
                 'verified_count': len(verified_only),
-                'output_uri': f"s3://{output_bucket}/{output_key}"
+                'output_uri': f"s3://{artifacts_bucket}/{output_key}"
             }))
             
     except Exception as e:
@@ -434,9 +475,12 @@ def pdf_splitter_task():
             service = PDFSplitterService(output_bucket=output_bucket)
             output_files = service.split_pdf(pdf_path, page_ranges, artist, book_name)
             
-            # Write output files list to S3
-            output_key = f"artifacts/{book_id}/output_files.json"
+            # Write output files list to artifacts bucket
+            artifacts_bucket = get_artifact_bucket()
+            artifact_prefix = get_artifact_prefix(artist, book_name)
+            output_key = f"{artifact_prefix}/output_files.json"
             result_json = json.dumps({
+                'book_id': book_id,
                 'output_files': [
                     {
                         'song_title': f.song_title,
@@ -448,15 +492,15 @@ def pdf_splitter_task():
                     for f in output_files
                 ]
             })
-            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
-            
+            s3_utils.write_bytes(result_json.encode(), artifacts_bucket, output_key)
+
             logger.info(f"PDF Splitter complete. Created {len(output_files)} files")
-            
+
             # Output result for Step Functions
             print(json.dumps({
                 'book_id': book_id,
                 'files_created': len(output_files),
-                'output_uri': f"s3://{output_bucket}/{output_key}"
+                'output_uri': f"s3://{artifacts_bucket}/{output_key}"
             }))
             
     except Exception as e:
@@ -497,13 +541,15 @@ def page_mapper_task():
 
     try:
         s3_utils = S3Utils()
+        artifacts_bucket = get_artifact_bucket()
+        artifact_prefix = get_artifact_prefix(book_artist, book_name)
 
         # Check if holistic page_analysis.json exists with songs
         page_analysis = None
         try:
             page_analysis_json = s3_utils.read_bytes(
-                output_bucket,
-                f"artifacts/{book_id}/page_analysis.json"
+                artifacts_bucket,
+                f"{artifact_prefix}/page_analysis.json"
             ).decode('utf-8')
             page_analysis = json.loads(page_analysis_json)
         except Exception as e:
@@ -514,7 +560,7 @@ def page_mapper_task():
             logger.info(f"HOLISTIC analysis found with {len(page_analysis['songs'])} songs - passing through")
 
             # Build page_mapping.json from holistic analysis (don't re-verify)
-            output_key = f"artifacts/{book_id}/page_mapping.json"
+            output_key = f"{artifact_prefix}/page_mapping.json"
             result_json = json.dumps({
                 'offset': page_analysis.get('calculated_offset', 0),
                 'confidence': page_analysis.get('offset_confidence', 1.0),
@@ -530,7 +576,7 @@ def page_mapper_task():
                 ],
                 'mapping_method': 'holistic_passthrough'
             }, indent=2)
-            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
+            s3_utils.write_bytes(result_json.encode(), artifacts_bucket, output_key)
 
             logger.info(f"Page Mapper complete. Passed through {len(page_analysis['songs'])} songs from holistic analysis")
 
@@ -539,7 +585,7 @@ def page_mapper_task():
                 'book_id': book_id,
                 'songs_mapped': len(page_analysis['songs']),
                 'mapping_method': 'holistic_passthrough',
-                'output_uri': f"s3://{output_bucket}/{output_key}"
+                'output_uri': f"s3://{artifacts_bucket}/{output_key}"
             }))
             return
 
@@ -576,8 +622,9 @@ def page_mapper_task():
                 book_name=book_name
             )
 
-            output_key = f"artifacts/{book_id}/page_mapping.json"
+            output_key = f"{artifact_prefix}/page_mapping.json"
             result_json = json.dumps({
+                'book_id': book_id,
                 'offset': page_mapping.offset,
                 'confidence': page_mapping.confidence,
                 'samples_verified': page_mapping.samples_verified,
@@ -592,7 +639,7 @@ def page_mapper_task():
                 ],
                 'mapping_method': 'legacy_fallback'
             })
-            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
+            s3_utils.write_bytes(result_json.encode(), artifacts_bucket, output_key)
 
             logger.info(f"Page Mapper complete. Mapped {len(page_mapping.song_locations)} songs")
             logger.info(f"Confidence: {page_mapping.confidence:.2%}")
@@ -604,97 +651,11 @@ def page_mapper_task():
                 'offset': page_mapping.offset,
                 'confidence': page_mapping.confidence,
                 'mapping_method': 'page_analysis' if page_analysis else 'fallback',
-                'output_uri': f"s3://{output_bucket}/{output_key}"
+                'output_uri': f"s3://{artifacts_bucket}/{output_key}"
             }))
 
     except Exception as e:
         logger.error(f"Page Mapper failed: {e}", exc_info=True)
-        sys.exit(1)
-
-
-def manifest_generator_task():
-    """
-    Manifest Generator ECS task entry point.
-    
-    Environment variables:
-    - BOOK_ID: Unique book identifier
-    - SOURCE_PDF_URI: S3 URI of source PDF
-    - ARTIST: Book artist
-    - BOOK_NAME: Book name
-    - OUTPUT_BUCKET: S3 bucket for output
-    """
-    from app.services.manifest_generator import ManifestGeneratorService
-    from app.utils.s3_utils import S3Utils
-    
-    logger.info("Starting Manifest Generator task")
-    
-    # Get input from environment
-    book_id = os.environ.get('BOOK_ID')
-    source_pdf_uri = os.environ.get('SOURCE_PDF_URI')
-    artist = os.environ.get('ARTIST')
-    book_name = os.environ.get('BOOK_NAME')
-    output_bucket = os.environ.get('OUTPUT_BUCKET')
-    
-    if not all([book_id, source_pdf_uri, artist, book_name, output_bucket]):
-        logger.error("Missing required environment variables")
-        sys.exit(1)
-    
-    try:
-        s3_utils = S3Utils()
-        
-        # Load all artifacts from S3
-        artifacts_prefix = f"artifacts/{book_id}/"
-        
-        # Download TOC discovery
-        toc_discovery_json = s3_utils.read_bytes(output_bucket, f"{artifacts_prefix}toc_discovery.json").decode('utf-8')
-        toc_discovery_data = json.loads(toc_discovery_json)
-        
-        # Download TOC parse
-        toc_parse_json = s3_utils.read_bytes(output_bucket, f"{artifacts_prefix}toc_parse.json").decode('utf-8')
-        toc_parse_data = json.loads(toc_parse_json)
-        
-        # Download page mapping
-        page_mapping_json = s3_utils.read_bytes(output_bucket, f"{artifacts_prefix}page_mapping.json").decode('utf-8')
-        page_mapping_data = json.loads(page_mapping_json)
-        
-        # Download output files
-        output_files_json = s3_utils.read_bytes(output_bucket, f"{artifacts_prefix}output_files.json").decode('utf-8')
-        output_files_data = json.loads(output_files_json)
-        
-        # Generate manifest
-        service = ManifestGeneratorService()
-        manifest = service.generate_manifest(
-            book_id=book_id,
-            source_pdf=source_pdf_uri,
-            artist=artist,
-            book_name=book_name,
-            toc_discovery=None,  # Could reconstruct from data if needed
-            toc_parse=None,  # Could reconstruct from data if needed
-            page_mapping=None,  # Could reconstruct from data if needed
-            verification_results=None,
-            output_files=None,  # Could reconstruct from data if needed
-            processing_start=None,
-            processing_end=None,
-            warnings=None,
-            errors=None
-        )
-        
-        # Write manifest to S3
-        output_key = f"output/{book_id}/manifest.json"
-        manifest_json = json.dumps(manifest.__dict__, indent=2, default=str)
-        s3_utils.write_bytes(manifest_json.encode(), output_bucket, output_key)
-        
-        logger.info(f"Manifest Generator complete. Created manifest for {len(output_files_data.get('output_files', []))} files")
-        
-        # Output result for Step Functions
-        print(json.dumps({
-            'book_id': book_id,
-            'manifest_uri': f"s3://{output_bucket}/{output_key}",
-            'songs_extracted': len(output_files_data.get('output_files', []))
-        }))
-        
-    except Exception as e:
-        logger.error(f"Manifest Generator failed: {e}", exc_info=True)
         sys.exit(1)
 
 
@@ -733,13 +694,15 @@ def page_analysis_task():
 
     try:
         s3_utils = S3Utils()
+        artifacts_bucket = get_artifact_bucket()
+        artifact_prefix = get_artifact_prefix(artist, book_name)
 
         # Load TOC parse results to get song titles
         toc_entries = []
         try:
             toc_parse_json = s3_utils.read_bytes(
-                output_bucket,
-                f"artifacts/{book_id}/toc_parse.json"
+                artifacts_bucket,
+                f"{artifact_prefix}/toc_parse.json"
             ).decode('utf-8')
             toc_parse_data = json.loads(toc_parse_json)
             toc_entries = toc_parse_data.get('entries', [])
@@ -763,14 +726,16 @@ def page_analysis_task():
                 artist=artist
             )
 
-            # Save page_analysis.json (full analysis)
+            # Save page_analysis.json (full analysis) to artifacts bucket
             result_dict = analyzer.to_dict(result)
-            output_key = f"artifacts/{book_id}/page_analysis.json"
+            result_dict['book_id'] = book_id
+            output_key = f"{artifact_prefix}/page_analysis.json"
             result_json = json.dumps(result_dict, indent=2)
-            s3_utils.write_bytes(result_json.encode(), output_bucket, output_key)
+            s3_utils.write_bytes(result_json.encode(), artifacts_bucket, output_key)
 
             # Also save page_mapping.json (for compatibility with downstream tasks)
             page_mapping = {
+                'book_id': book_id,
                 'offset': result.calculated_offset,
                 'confidence': result.offset_confidence,
                 'samples_verified': result.matched_song_count,
@@ -785,11 +750,12 @@ def page_analysis_task():
                 ],
                 'mapping_method': 'holistic_analysis'
             }
-            mapping_key = f"artifacts/{book_id}/page_mapping.json"
-            s3_utils.write_bytes(json.dumps(page_mapping, indent=2).encode(), output_bucket, mapping_key)
+            mapping_key = f"{artifact_prefix}/page_mapping.json"
+            s3_utils.write_bytes(json.dumps(page_mapping, indent=2).encode(), artifacts_bucket, mapping_key)
 
             # Also save verified_songs.json (for PDF splitter)
             verified_songs = {
+                'book_id': book_id,
                 'verified_songs': [
                     {
                         'song_title': song.title,
@@ -800,8 +766,8 @@ def page_analysis_task():
                     for song in result.songs
                 ]
             }
-            verified_key = f"artifacts/{book_id}/verified_songs.json"
-            s3_utils.write_bytes(json.dumps(verified_songs, indent=2).encode(), output_bucket, verified_key)
+            verified_key = f"{artifact_prefix}/verified_songs.json"
+            s3_utils.write_bytes(json.dumps(verified_songs, indent=2).encode(), artifacts_bucket, verified_key)
 
             logger.info(f"Holistic Analysis complete:")
             logger.info(f"  TOC songs: {result.toc_song_count}")
@@ -822,7 +788,7 @@ def page_analysis_task():
                 'pages_analyzed': result.total_pages,
                 'toc_songs': result.toc_song_count,
                 'matched_songs': result.matched_song_count,
-                'output_uri': f"s3://{output_bucket}/{output_key}"
+                'output_uri': f"s3://{artifacts_bucket}/{output_key}"
             }))
 
     except Exception as e:
@@ -858,8 +824,6 @@ if __name__ == '__main__':
         song_verifier_task()
     elif task_type == 'pdf_splitter':
         pdf_splitter_task()
-    elif task_type == 'manifest_generator':
-        manifest_generator_task()
     else:
         logger.error(f"Unknown task type: {task_type}")
         sys.exit(1)

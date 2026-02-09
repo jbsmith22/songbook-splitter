@@ -759,8 +759,8 @@ def page_analysis_task():
                 'verified_songs': [
                     {
                         'song_title': song.title,
-                        'start_page': song.start_pdf_page - 1,  # 0-indexed
-                        'end_page': song.end_pdf_page - 1,  # 0-indexed
+                        'start_page': song.start_pdf_page - 1,  # Convert 1-indexed to 0-indexed
+                        'end_page': song.end_pdf_page,  # 1-indexed inclusive == 0-indexed exclusive
                         'artist': song.artist
                     }
                     for song in result.songs

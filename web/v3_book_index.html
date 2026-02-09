@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>V3 Processed Books Index</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: #16213e;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #00d9ff;
+            border-bottom: 3px solid #00d9ff;
+            padding-bottom: 10px;
+        }
+        .stats-bar {
+            display: flex;
+            gap: 30px;
+            margin: 20px 0;
+            padding: 15px 20px;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .stats-bar .stat {
+            text-align: center;
+        }
+        .stats-bar .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00d9ff;
+        }
+        .stats-bar .stat-label {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+        }
+        .search-box {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #333;
+            border-radius: 3px;
+            font-size: 14px;
+            background: #1a1a2e;
+            color: #eee;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            background: #00d9ff;
+            color: #1a1a2e;
+            padding: 10px 8px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #333;
+        }
+        tr:hover {
+            background: #0f3460;
+        }
+        tr.partial td:first-child {
+            border-left: 3px solid #FF9800;
+        }
+        tr.complete td:first-child {
+            border-left: 3px solid #4CAF50;
+        }
+        .link-btn {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 3px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 4px;
+        }
+        .link-btn.viewer {
+            background: #2196F3;
+            color: white;
+        }
+        .link-btn.editor {
+            background: #FF9800;
+            color: white;
+        }
+        .link-btn:hover {
+            opacity: 0.8;
+        }
+        .note {
+            margin-top: 20px;
+            padding: 15px;
+            background: #0f3460;
+            border-radius: 5px;
+            font-size: 13px;
+            color: #aaa;
+        }
+        .note code {
+            background: #1a1a2e;
+            padding: 2px 6px;
+            border-radius: 3px;
+            color: #00d9ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>V3 Processed Books Index</h1>
+
+        <div class="stats-bar">
+            <div class="stat"><div class="stat-value">1</div><div class="stat-label">Artists</div></div>
+            <div class="stat"><div class="stat-value">16</div><div class="stat-label">Books</div></div>
+            <div class="stat"><div class="stat-value">16</div><div class="stat-label">Complete</div></div>
+            <div class="stat"><div class="stat-value">357</div><div class="stat-label">Total Songs</div></div>
+        </div>
+
+        <input type="text" class="search-box" id="search" placeholder="Search by artist or book name..." oninput="filterTable()">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Artist</th>
+                    <th>Book</th>
+                    <th>Songs</th>
+                    <th>PDFs</th>
+                    <th>Size</th>
+                    <th>Artifacts</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="book-table">
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>52nd Street</strong></td>
+                        <td style="text-align:center;">9</td>
+                        <td style="text-align:center;">9</td>
+                        <td style="text-align:center;">16.7 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=52nd Street" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=52nd Street" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Anthology</strong></td>
+                        <td style="text-align:center;">29</td>
+                        <td style="text-align:center;">29</td>
+                        <td style="text-align:center;">57.2 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Anthology" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Anthology" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Best Of Piano Solos</strong></td>
+                        <td style="text-align:center;">19</td>
+                        <td style="text-align:center;">19</td>
+                        <td style="text-align:center;">1.7 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Best Of Piano Solos" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Best Of Piano Solos" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Complete Vol 1</strong></td>
+                        <td style="text-align:center;">47</td>
+                        <td style="text-align:center;">47</td>
+                        <td style="text-align:center;">51.9 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Complete Vol 1" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Complete Vol 1" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Complete Vol 2</strong></td>
+                        <td style="text-align:center;">49</td>
+                        <td style="text-align:center;">49</td>
+                        <td style="text-align:center;">54.4 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Complete Vol 2" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Complete Vol 2" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Fantasies And Delusions</strong></td>
+                        <td style="text-align:center;">10</td>
+                        <td style="text-align:center;">10</td>
+                        <td style="text-align:center;">9.7 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Fantasies And Delusions" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Fantasies And Delusions" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>For Advanced Piano</strong></td>
+                        <td style="text-align:center;">12</td>
+                        <td style="text-align:center;">12</td>
+                        <td style="text-align:center;">60.2 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=For Advanced Piano" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=For Advanced Piano" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Glass Houses</strong></td>
+                        <td style="text-align:center;">10</td>
+                        <td style="text-align:center;">10</td>
+                        <td style="text-align:center;">15.3 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Glass Houses" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Glass Houses" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Greatest Hits</strong></td>
+                        <td style="text-align:center;">21</td>
+                        <td style="text-align:center;">21</td>
+                        <td style="text-align:center;">7.6 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Greatest Hits" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Greatest Hits" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Greatest Hits Vol I And Ii</strong></td>
+                        <td style="text-align:center;">21</td>
+                        <td style="text-align:center;">21</td>
+                        <td style="text-align:center;">63.8 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Greatest Hits Vol I And Ii" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Greatest Hits Vol I And Ii" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Greatest Hits Vol Iii</strong></td>
+                        <td style="text-align:center;">14</td>
+                        <td style="text-align:center;">14</td>
+                        <td style="text-align:center;">72.4 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Greatest Hits Vol Iii" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Greatest Hits Vol Iii" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Greatest Hits Vols 1 And 2</strong></td>
+                        <td style="text-align:center;">11</td>
+                        <td style="text-align:center;">11</td>
+                        <td style="text-align:center;">27.4 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Greatest Hits Vols 1 And 2" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Greatest Hits Vols 1 And 2" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Keyboard Book</strong></td>
+                        <td style="text-align:center;">15</td>
+                        <td style="text-align:center;">15</td>
+                        <td style="text-align:center;">2.5 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Keyboard Book" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Keyboard Book" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>My Lives</strong></td>
+                        <td style="text-align:center;">70</td>
+                        <td style="text-align:center;">70</td>
+                        <td style="text-align:center;">15.8 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=My Lives" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=My Lives" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Songs In The Attic</strong></td>
+                        <td style="text-align:center;">11</td>
+                        <td style="text-align:center;">11</td>
+                        <td style="text-align:center;">16.8 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Songs In The Attic" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Songs In The Attic" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+                    <tr class="complete">
+                        <td>Billy Joel</td>
+                        <td><strong>Turnstiles</strong></td>
+                        <td style="text-align:center;">9</td>
+                        <td style="text-align:center;">9</td>
+                        <td style="text-align:center;">9.0 MB</td>
+                        <td style="text-align:center;">6/6</td>
+                        <td>
+                            <a href="viewers/v3_provenance_viewer.html?artist=Billy Joel&book=Turnstiles" class="link-btn viewer">Provenance</a>
+                            <a href="editors/v3_split_editor.html?artist=Billy Joel&book=Turnstiles" class="link-btn editor">Split Editor</a>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+
+        <div class="note">
+            <strong>Usage:</strong> Serve this project via HTTP to enable artifact loading:<br>
+            <code>cd d:\Work\songbook-splitter && python -m http.server 8000</code><br>
+            Then open <code>http://localhost:8000/web/v3_book_index.html</code>
+        </div>
+    </div>
+
+    <script>
+        function filterTable() {
+            const search = document.getElementById('search').value.toLowerCase();
+            document.querySelectorAll('#book-table tr').forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(search) ? '' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>

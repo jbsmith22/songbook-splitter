@@ -18,43 +18,51 @@ INVALID_CHARS_PATTERN = re.compile(r'[<>:"/\\|?*\x00-\x1F\x7F]')
 MAX_FILENAME_LENGTH = 200
 
 
+def _is_roman_numeral(word: str) -> bool:
+    """Check if a word is a Roman numeral (I, II, III, IV, V, etc.)."""
+    return bool(re.match(r'^[IVXLCDM]+$', word.upper())) and len(word) <= 10
+
+
 def to_title_case(text: str) -> str:
     """
     Convert text to Title Case while preserving certain patterns.
-    
+
     Rules:
     - First letter of each word capitalized
     - Rest lowercase
+    - Preserve Roman numerals (II, III, IV, etc.) in uppercase
     - Preserve apostrophes and special characters
-    - Handle special cases like "O'Riley", "U.S.S.R.", etc.
-    
+
     Args:
         text: Text to convert
-    
+
     Returns:
         Title cased text
-    
+
     Examples:
         >>> to_title_case("HELLO WORLD")
         'Hello World'
         >>> to_title_case("don't stop")
         "Don't Stop"
-        >>> to_title_case("BACK IN THE U.S.S.R.")
-        'Back In The U.s.s.r.'
+        >>> to_title_case("GREATEST HITS VOL I AND II")
+        'Greatest Hits Vol I And II'
     """
     if not text:
         return text
-    
+
     # Simple title case - capitalize first letter of each word
     words = text.split()
     title_cased = []
-    
+
     for word in words:
         if not word:
             continue
-        
+
+        # Preserve Roman numerals in uppercase
+        if _is_roman_numeral(word):
+            title_cased.append(word.upper())
         # Handle words with apostrophes (e.g., "don't" -> "Don't", "O'Riley" -> "O'riley")
-        if "'" in word:
+        elif "'" in word:
             parts = word.split("'")
             # Capitalize first part, lowercase rest
             titled_parts = [parts[0].capitalize()] + [p.lower() for p in parts[1:]]
@@ -62,7 +70,7 @@ def to_title_case(text: str) -> str:
         else:
             # Standard title case
             title_cased.append(word.capitalize())
-    
+
     return ' '.join(title_cased)
 
 
@@ -287,38 +295,38 @@ def generate_output_path(
 ) -> str:
     """
     Generate an S3 key (not full URI) for a song PDF.
-    
-    Format: <BookArtist>/<BookName>/Songs/<Artist> - <SongTitle>.pdf
-    
+
+    Format: v3/<BookArtist>/<BookName>/<Artist> - <SongTitle>.pdf
+
     The artist in the filename is determined by:
     - For Various Artists books: Use song_artist (each song has its own artist)
     - For single-artist books: Use book artist (all songs by same artist)
-    
+
     Args:
         output_bucket: The S3 bucket name (not used, kept for compatibility)
         artist: The book-level artist name (used for directory AND filename for single-artist books)
         book_name: The book name
         song_title: The song title
         song_artist: Song-level artist (only used for Various Artists books)
-    
+
     Returns:
         An S3 key (path without bucket) for the output file
-    
+
     Examples:
         >>> generate_output_path("my-bucket", "The Beatles", "Abbey Road", "Come Together", "The Beatles")
-        'The Beatles/Abbey Road/Songs/The Beatles - Come Together.pdf'
+        'v3/The Beatles/Abbey Road/The Beatles - Come Together.pdf'
         >>> generate_output_path("my-bucket", "Various Artists", "Hits", "Song", "Artist A")
-        'Various Artists/Hits/Artist A - Song.pdf'
+        'v3/Various Artists/Hits/Artist A - Song.pdf'
     """
     # Sanitize all components
     sanitized_book_artist = sanitize_artist_name(artist)
     sanitized_book = sanitize_book_name(book_name)
-    
+
     # For filename artist: The page mapper already determined the correct artist
     # based on whether this is a Various Artists book or not.
     # If song_artist is provided, use it. Otherwise use book artist.
     resolved_filename_artist = song_artist if song_artist else artist
     filename = generate_output_filename(resolved_filename_artist, song_title)
-    
-    # Construct S3 key: <BookArtist>/<BookName>/<filename>
-    return f"{sanitized_book_artist}/{sanitized_book}/{filename}"
+
+    # Construct S3 key: v3/<BookArtist>/<BookName>/<filename>
+    return f"v3/{sanitized_book_artist}/{sanitized_book}/{filename}"

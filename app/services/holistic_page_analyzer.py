@@ -19,6 +19,7 @@ from typing import List, Dict, Optional, Tuple, Any
 from dataclasses import dataclass, asdict, field
 from datetime import datetime
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 
 logger = logging.getLogger(__name__)
@@ -74,19 +75,21 @@ class HolisticPageAnalyzer:
     # Model for vision analysis
     VISION_MODEL_ID = 'us.anthropic.claude-3-5-sonnet-20241022-v2:0'
 
-    def __init__(self, bedrock_client=None):
+    def __init__(self, bedrock_client=None, max_workers: int = 1):
         """
         Initialize analyzer.
 
         Args:
             bedrock_client: Boto3 Bedrock runtime client (optional, will create if not provided)
+            max_workers: Number of parallel Bedrock vision calls (1=sequential, 4-8 recommended)
         """
+        self.max_workers = max_workers
         self.bedrock = bedrock_client
         if not self.bedrock:
             import boto3
             self.bedrock = boto3.client('bedrock-runtime', region_name='us-east-1')
 
-        logger.info("HolisticPageAnalyzer initialized")
+        logger.info(f"HolisticPageAnalyzer initialized (max_workers={max_workers})")
 
     def analyze_book(self, pdf_path: str, book_id: str, source_pdf_uri: str,
                      toc_entries: List[Dict], artist: str = '') -> AnalysisResult:
@@ -255,8 +258,8 @@ class HolisticPageAnalyzer:
     def _scan_all_pages(self, doc, toc_titles: List[str]) -> List[PageInfo]:
         """
         Phase 1: Scan every page to detect content type and titles.
+        Uses parallel Bedrock calls when max_workers > 1.
         """
-        pages = []
         total = len(doc)
 
         # Build hint string for vision model
@@ -264,45 +267,91 @@ class HolisticPageAnalyzer:
         if len(toc_titles) > 15:
             titles_hint += '...'
 
-        for i in range(total):
-            pdf_page = i + 1  # 1-indexed
+        if self.max_workers <= 1:
+            return self._scan_all_pages_sequential(doc, total, titles_hint)
+        else:
+            return self._scan_all_pages_parallel(doc, total, titles_hint)
 
+    def _scan_all_pages_sequential(self, doc, total: int, titles_hint: str) -> List[PageInfo]:
+        """Original sequential scanning."""
+        pages = []
+        for i in range(total):
+            pdf_page = i + 1
             try:
                 page_info = self._analyze_single_page(doc, i, titles_hint)
                 page_info.pdf_page = pdf_page
                 pages.append(page_info)
-
                 if pdf_page % 10 == 0:
                     logger.info(f"    Scanned page {pdf_page}/{total}")
-
             except Exception as e:
                 logger.error(f"Error scanning page {pdf_page}: {e}")
-                pages.append(PageInfo(
-                    pdf_page=pdf_page,
-                    content_type='error',
-                    confidence=0.0
-                ))
-
+                pages.append(PageInfo(pdf_page=pdf_page, content_type='error', confidence=0.0))
         return pages
 
-    def _analyze_single_page(self, doc, page_idx: int, titles_hint: str) -> PageInfo:
-        """
-        Analyze a single page using vision.
-        """
-        page = doc[page_idx]
+    def _scan_all_pages_parallel(self, doc, total: int, titles_hint: str) -> List[PageInfo]:
+        """Parallel scanning: pre-render images (main thread), then vision calls (thread pool)."""
+        import time
 
-        # Render page as image (72 DPI to stay under size limits)
-        pix = page.get_pixmap(dpi=72)
-        img_bytes = pix.tobytes("png")
+        logger.info(f"    Pre-rendering {total} page images...")
+        render_start = time.time()
 
-        # Check image size - reduce DPI if too large
-        if len(img_bytes) > 4 * 1024 * 1024:  # 4MB
-            pix = page.get_pixmap(dpi=50)
+        # Pre-render all pages to base64 images in the main thread (PyMuPDF not thread-safe)
+        page_images = []
+        for i in range(total):
+            page = doc[i]
+            pix = page.get_pixmap(dpi=72)
             img_bytes = pix.tobytes("png")
+            # Reduce DPI if too large for Bedrock
+            if len(img_bytes) > 4 * 1024 * 1024:
+                pix = page.get_pixmap(dpi=50)
+                img_bytes = pix.tobytes("png")
+            page_images.append(base64.b64encode(img_bytes).decode('utf-8'))
 
-        image_b64 = base64.b64encode(img_bytes).decode('utf-8')
+        render_time = time.time() - render_start
+        logger.info(f"    Pre-rendered {total} pages in {render_time:.1f}s")
 
-        prompt = f"""Analyze this sheet music page and respond with JSON only.
+        # Build the prompt template
+        prompt = self._build_page_prompt(titles_hint)
+
+        # Send vision calls in parallel
+        logger.info(f"    Scanning with {self.max_workers} parallel workers...")
+        pages = [None] * total
+        completed = 0
+        scan_start = time.time()
+
+        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+            # Submit all vision calls
+            future_to_idx = {}
+            for i in range(total):
+                future = executor.submit(self._vision_call_worker, page_images[i], prompt)
+                future_to_idx[future] = i
+
+            # Collect results as they complete
+            for future in as_completed(future_to_idx):
+                idx = future_to_idx[future]
+                pdf_page = idx + 1
+                try:
+                    page_info = future.result()
+                    page_info.pdf_page = pdf_page
+                    pages[idx] = page_info
+                except Exception as e:
+                    logger.error(f"Error scanning page {pdf_page}: {e}")
+                    pages[idx] = PageInfo(pdf_page=pdf_page, content_type='error', confidence=0.0)
+
+                completed += 1
+                if completed % 10 == 0:
+                    elapsed = time.time() - scan_start
+                    rate = completed / elapsed if elapsed > 0 else 0
+                    logger.info(f"    Scanned {completed}/{total} pages ({rate:.1f} pages/sec)")
+
+        scan_time = time.time() - scan_start
+        rate = total / scan_time if scan_time > 0 else 0
+        logger.info(f"    Parallel scan complete: {total} pages in {scan_time:.1f}s ({rate:.1f} pages/sec)")
+        return pages
+
+    def _build_page_prompt(self, titles_hint: str) -> str:
+        """Build the vision prompt for page analysis."""
+        return f"""Analyze this sheet music page and respond with JSON only.
 
 Songs in this book include: {titles_hint}
 
@@ -331,6 +380,33 @@ STRICT CRITERIA for "song_start":
 
 Respond with ONLY valid JSON:
 {{"printed_page": <int|null>, "content_type": "<string>", "song_title": <string|null>, "has_music": <bool>}}"""
+
+    def _vision_call_worker(self, image_b64: str, prompt: str) -> PageInfo:
+        """Worker function for parallel vision calls. Thread-safe (uses only self.bedrock)."""
+        try:
+            response = self._call_vision(image_b64, prompt)
+            return self._parse_page_response(response)
+        except Exception as e:
+            logger.warning(f"Vision worker error: {e}")
+            return PageInfo(content_type='other', has_music_notation=False, confidence=0.3)
+
+    def _analyze_single_page(self, doc, page_idx: int, titles_hint: str) -> PageInfo:
+        """
+        Analyze a single page using vision (used by sequential scanner).
+        """
+        page = doc[page_idx]
+
+        # Render page as image (72 DPI to stay under size limits)
+        pix = page.get_pixmap(dpi=72)
+        img_bytes = pix.tobytes("png")
+
+        # Check image size - reduce DPI if too large
+        if len(img_bytes) > 4 * 1024 * 1024:  # 4MB
+            pix = page.get_pixmap(dpi=50)
+            img_bytes = pix.tobytes("png")
+
+        image_b64 = base64.b64encode(img_bytes).decode('utf-8')
+        prompt = self._build_page_prompt(titles_hint)
 
         try:
             response = self._call_vision(image_b64, prompt)

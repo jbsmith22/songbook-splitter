@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>V3 Pipeline Provenance Viewer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: #16213e;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #00d9ff;
+            border-bottom: 3px solid #00d9ff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .version-badge {
+            display: inline-block;
+            background: #00d9ff;
+            color: #1a1a2e;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        .book-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .book-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .book-meta {
+            font-size: 14px;
+            color: #aaa;
+            margin-top: 8px;
+        }
+        .book-meta span {
+            margin-right: 20px;
+        }
+        .book-meta code {
+            background: #1a1a2e;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 12px;
+            color: #00d9ff;
+        }
+        .edit-btn {
+            padding: 12px 24px;
+            background: #FF9800;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .edit-btn:hover {
+            background: #F57C00;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+            padding: 20px;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .stat-box {
+            text-align: center;
+            padding: 15px;
+            background: #1a1a2e;
+            border-radius: 5px;
+        }
+        .stat-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #00d9ff;
+        }
+        .stat-value.complete { color: #4CAF50; }
+        .stat-value.time { color: #FF9800; }
+        .stat-label {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+
+        /* Pipeline Steps */
+        .pipeline-section {
+            margin: 20px 0;
+        }
+        .section-title {
+            font-size: 16px;
+            color: #00d9ff;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .pipeline-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .pipeline-step {
+            background: #0f3460;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50;
+            position: relative;
+        }
+        .pipeline-step.highlight {
+            border-left-color: #FF9800;
+        }
+        .step-name {
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .step-detail {
+            font-size: 12px;
+            color: #aaa;
+            margin-bottom: 4px;
+        }
+        .step-time {
+            font-size: 18px;
+            font-weight: bold;
+            color: #FF9800;
+            margin-top: 8px;
+        }
+        .step-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .step-badge.complete {
+            background: #4CAF50;
+            color: white;
+        }
+
+        /* Artifacts */
+        .artifact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .artifact-card {
+            background: #0f3460;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .artifact-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .artifact-name {
+            font-size: 14px;
+            font-weight: bold;
+            color: #00d9ff;
+            margin-bottom: 8px;
+        }
+        .artifact-detail {
+            font-size: 12px;
+            color: #aaa;
+            margin-bottom: 4px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-right: 4px;
+        }
+        .badge-yes { background: #4CAF50; color: white; }
+        .badge-no { background: #555; color: #888; }
+        .badge-info { background: #2196F3; color: white; }
+
+        /* Page Mapping */
+        .mapping-section {
+            background: #0f3460;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .mapping-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+        .mapping-item {
+            padding: 10px;
+            background: #1a1a2e;
+            border-radius: 3px;
+            text-align: center;
+        }
+        .mapping-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+        }
+        .mapping-value {
+            font-size: 20px;
+            color: #eee;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        .mapping-value.good { color: #4CAF50; }
+        .mapping-value.info { color: #00d9ff; }
+
+        /* Song Table */
+        .song-table-container {
+            margin-top: 15px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+        th {
+            background: #00d9ff;
+            color: #1a1a2e;
+            padding: 10px 8px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #333;
+        }
+        tr:hover {
+            background: #0f3460;
+        }
+        .page-range {
+            font-family: 'Courier New', monospace;
+            color: #00d9ff;
+        }
+        .file-size {
+            color: #888;
+            font-size: 11px;
+        }
+        code {
+            background: #0f3460;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+            color: #00d9ff;
+        }
+        .search-box {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #333;
+            border-radius: 3px;
+            font-size: 14px;
+            background: #1a1a2e;
+            color: #eee;
+            margin-bottom: 15px;
+        }
+
+        /* TOC Comparison */
+        .toc-compare {
+            margin-top: 15px;
+            padding: 15px;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .toc-note {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+        }
+        .modal-content {
+            background: #16213e;
+            margin: 50px auto;
+            padding: 30px;
+            width: 90%;
+            max-width: 1000px;
+            max-height: 80vh;
+            overflow-y: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #00d9ff;
+        }
+        .modal-header h2 {
+            margin: 0;
+            color: #00d9ff;
+        }
+        .close {
+            font-size: 28px;
+            font-weight: bold;
+            color: #888;
+            cursor: pointer;
+        }
+        .close:hover { color: #fff; }
+        pre {
+            background: #1a1a2e;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 12px;
+            color: #aaa;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>V3 Pipeline Provenance<span class="version-badge">V3</span></h1>
+
+        <div class="book-header">
+            <div>
+                <div class="book-title" id="book-title">Loading...</div>
+                <div class="book-meta" id="book-meta"></div>
+                <div class="book-meta" id="book-s3-info" style="margin-top: 4px;"></div>
+            </div>
+            <button class="edit-btn" onclick="openEditor()">Open Split Editor</button>
+        </div>
+
+        <div class="stats-grid" id="stats-grid"></div>
+
+        <div class="pipeline-section" id="artifact-section"></div>
+
+        <div class="pipeline-section" id="mapping-section"></div>
+
+        <div class="pipeline-section" id="songs-section"></div>
+    </div>
+
+    <!-- Artifact Detail Modal -->
+    <div id="artifact-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="artifact-modal-title">Artifact Details</h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div id="artifact-modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        // ===== STATE =====
+        let ARTIST = '', BOOK = '', BOOK_ID = '';
+        let artifacts = {};
+
+        // ===== INIT =====
+        window.addEventListener('load', async () => {
+            const params = new URLSearchParams(window.location.search);
+            ARTIST = params.get('artist') || 'Billy Joel';
+            BOOK = params.get('book') || 'My Lives';
+            BOOK_ID = params.get('book_id') || '';
+
+            document.title = `${ARTIST} - ${BOOK} | V3 Provenance`;
+            document.getElementById('book-title').textContent = `${ARTIST} - ${BOOK}`;
+            document.getElementById('book-meta').innerHTML = `
+                <span>Artist: <strong>${ARTIST}</strong></span>
+                ${BOOK_ID ? `<span>Book ID: <code>${BOOK_ID}</code></span>` : ''}
+                <span>Status: <span class="badge badge-info">LOADING...</span></span>
+            `;
+            document.getElementById('book-s3-info').innerHTML = `
+                <span>S3 Input: <code>s3://jsmith-input/v3/${ARTIST}/${ARTIST} - ${BOOK}.pdf</code></span><br>
+                <span>S3 Output: <code>s3://jsmith-output/v3/${ARTIST}/${BOOK}/</code></span>
+                <span>S3 Artifacts: <code>s3://jsmith-artifacts/v3/${ARTIST}/${BOOK}/</code></span>
+            `;
+
+            await loadAllArtifacts();
+            render();
+        });
+
+        async function loadAllArtifacts() {
+            const base = `../../SheetMusic_Artifacts/${ARTIST}/${BOOK}`;
+            const names = ['toc_discovery', 'toc_parse', 'page_analysis', 'page_mapping', 'verified_songs', 'output_files'];
+            const results = await Promise.allSettled(
+                names.map(n => fetch(`${base}/${n}.json`).then(r => {
+                    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                    return r.json();
+                }))
+            );
+            names.forEach((name, i) => {
+                artifacts[name] = results[i].status === 'fulfilled' ? results[i].value : null;
+            });
+        }
+
+        // ===== HELPERS =====
+        function formatBytes(bytes) {
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+            return (bytes / 1048576).toFixed(2) + ' MB';
+        }
+
+        // ===== RENDER =====
+        function render() {
+            const vs = artifacts.verified_songs;
+            const of_ = artifacts.output_files;
+            const pm = artifacts.page_mapping;
+            const td = artifacts.toc_discovery;
+            const tp = artifacts.toc_parse;
+            const pa = artifacts.page_analysis;
+
+            const songs = vs ? (vs.verified_songs || vs) : [];
+            const outputFiles = of_ ? (of_.output_files || of_) : [];
+            const songLocations = pm ? (pm.song_locations || []) : [];
+            const tocEntries = tp ? (tp.songs || tp.entries || tp) : [];
+            const tocPages = td ? (td.toc_pages || td.pages || []) : [];
+
+            const songCount = songs.length;
+            const tocCount = Array.isArray(tocEntries) ? tocEntries.length : 0;
+            const totalOutputBytes = outputFiles.reduce((s, f) => s + (f.file_size_bytes || 0), 0);
+
+            // Compute pages covered
+            const coveredPages = new Set();
+            songs.forEach(s => {
+                for (let p = s.start_page; p < s.end_page; p++) coveredPages.add(p);
+            });
+
+            const loaded = Object.values(artifacts).filter(v => v !== null).length;
+
+            // Update header
+            document.getElementById('book-meta').innerHTML = `
+                <span>Artist: <strong>${ARTIST}</strong></span>
+                ${BOOK_ID ? `<span>Book ID: <code>${BOOK_ID}</code></span>` : ''}
+                <span>Songs: <strong>${songCount}</strong></span>
+                <span>Status: <span class="badge badge-yes">COMPLETE</span></span>
+            `;
+
+            // Stats grid
+            document.getElementById('stats-grid').innerHTML = `
+                <div class="stat-box"><div class="stat-value">${coveredPages.size > 0 ? Math.max(...coveredPages) + 1 : '?'}</div><div class="stat-label">Total Pages (est)</div></div>
+                <div class="stat-box"><div class="stat-value">${tocCount}</div><div class="stat-label">TOC Entries</div></div>
+                <div class="stat-box"><div class="stat-value complete">${songCount}</div><div class="stat-label">Songs Extracted</div></div>
+                <div class="stat-box"><div class="stat-value">${coveredPages.size}</div><div class="stat-label">Pages in Songs</div></div>
+                <div class="stat-box"><div class="stat-value" style="color: #4CAF50;">${formatBytes(totalOutputBytes)}</div><div class="stat-label">Total Output</div></div>
+                <div class="stat-box"><div class="stat-value">${loaded}/6</div><div class="stat-label">Artifacts Loaded</div></div>
+            `;
+
+            // Artifacts section
+            const artifactNames = ['toc_discovery', 'toc_parse', 'page_analysis', 'page_mapping', 'verified_songs', 'output_files'];
+            const artifactDescs = {
+                toc_discovery: () => {
+                    const pages = tocPages.length || (td && td.toc_page_indices ? td.toc_page_indices.length : '?');
+                    return `TOC pages found: ${pages}`;
+                },
+                toc_parse: () => `${tocCount} entries extracted`,
+                page_analysis: () => {
+                    if (!pa) return 'Not loaded';
+                    const detected = pa.detected_songs ? pa.detected_songs.length : '?';
+                    return `${detected} song starts detected`;
+                },
+                page_mapping: () => {
+                    if (!pm) return 'Not loaded';
+                    return `Offset: ${pm.offset}, Confidence: ${Math.round((pm.confidence || 0) * 100)}%`;
+                },
+                verified_songs: () => `${songCount} songs with boundaries`,
+                output_files: () => `${outputFiles.length} PDFs, ${formatBytes(totalOutputBytes)}`
+            };
+
+            document.getElementById('artifact-section').innerHTML = `
+                <div class="section-title">Artifacts (${loaded}/6)</div>
+                <div class="artifact-grid">
+                    ${artifactNames.map(name => `
+                        <div class="artifact-card" onclick="showArtifact('${name}')">
+                            <div class="artifact-name">${name}.json</div>
+                            <div class="artifact-detail">${artifactDescs[name]()}</div>
+                            <div class="artifact-detail">
+                                <span class="badge ${artifacts[name] ? 'badge-yes' : 'badge-no'}">${artifacts[name] ? 'LOADED' : 'MISSING'}</span>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            // Mapping section
+            if (pm) {
+                document.getElementById('mapping-section').innerHTML = `
+                    <div class="section-title">Page Mapping Details</div>
+                    <div class="mapping-section">
+                        <div class="mapping-grid">
+                            <div class="mapping-item"><div class="mapping-label">Method</div><div class="mapping-value info">${pm.mapping_method || 'unknown'}</div></div>
+                            <div class="mapping-item"><div class="mapping-label">Confidence</div><div class="mapping-value good">${Math.round((pm.confidence || 0) * 100)}%</div></div>
+                            <div class="mapping-item"><div class="mapping-label">Page Offset</div><div class="mapping-value">${pm.offset}</div></div>
+                            <div class="mapping-item"><div class="mapping-label">Samples Verified</div><div class="mapping-value">${pm.samples_verified || '?'}</div></div>
+                            <div class="mapping-item"><div class="mapping-label">Song Locations</div><div class="mapping-value">${songLocations.length}</div></div>
+                            <div class="mapping-item"><div class="mapping-label">Final Songs</div><div class="mapping-value good">${songCount}</div></div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Songs table
+            document.getElementById('songs-section').innerHTML = `
+                <div class="section-title">Extracted Songs (${songCount})</div>
+                <input type="text" class="search-box" id="song-search" placeholder="Search songs..." oninput="filterSongs()">
+                <div class="song-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Song Title</th>
+                                <th>PDF Pages</th>
+                                ${pm ? '<th>Printed Pages</th>' : ''}
+                                <th>Page Count</th>
+                                <th>File Size</th>
+                                <th>S3 Output</th>
+                            </tr>
+                        </thead>
+                        <tbody id="song-table-body"></tbody>
+                    </table>
+                </div>
+            `;
+
+            renderSongTable(songs, outputFiles, songLocations, pm);
+        }
+
+        function renderSongTable(songs, outputFiles, songLocations, pm) {
+            const tbody = document.getElementById('song-table-body');
+            if (!tbody) return;
+            tbody.innerHTML = '';
+
+            // Build output lookup by title
+            const outputByTitle = {};
+            outputFiles.forEach(f => { outputByTitle[f.song_title] = f; });
+            const locByTitle = {};
+            songLocations.forEach(l => { locByTitle[l.song_title] = l; });
+
+            songs.forEach((song, index) => {
+                const output = outputByTitle[song.song_title] || {};
+                const loc = locByTitle[song.song_title];
+                const pageCount = song.end_page - song.start_page;
+                const fileSize = output.file_size_bytes ? formatBytes(output.file_size_bytes) : '?';
+                const printedStart = loc ? loc.printed_page : '?';
+                const printedEnd = loc ? loc.printed_page + pageCount - 1 : '?';
+
+                const row = document.createElement('tr');
+                row.dataset.title = song.song_title.toLowerCase();
+                row.innerHTML = `
+                    <td style="color: #888;">${index + 1}</td>
+                    <td><strong>${song.song_title}</strong></td>
+                    <td class="page-range">${song.start_page}-${song.end_page - 1} (${pageCount}p)</td>
+                    ${pm ? `<td style="color: #888;">${printedStart}-${printedEnd}</td>` : ''}
+                    <td style="text-align: center;">${pageCount}</td>
+                    <td class="file-size">${fileSize}</td>
+                    <td><code>${ARTIST}/${BOOK}/</code></td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function filterSongs() {
+            const search = document.getElementById('song-search').value.toLowerCase();
+            const rows = document.querySelectorAll('#song-table-body tr');
+            rows.forEach(row => {
+                const title = row.dataset.title || '';
+                row.style.display = title.includes(search) ? '' : 'none';
+            });
+        }
+
+        function showArtifact(name) {
+            const modal = document.getElementById('artifact-modal');
+            const title = document.getElementById('artifact-modal-title');
+            const body = document.getElementById('artifact-modal-body');
+
+            title.textContent = name + '.json';
+            const data = artifacts[name];
+            const localPath = `SheetMusic_Artifacts/${ARTIST}/${BOOK}/${name}.json`;
+            const s3Path = `s3://jsmith-artifacts/v3/${ARTIST}/${BOOK}/${name}.json`;
+
+            if (!data) {
+                body.innerHTML = `<p style="color: #f44336;">Artifact not loaded.</p>
+                    <p><strong>Expected at:</strong> ${localPath}</p>
+                    <p><strong>S3:</strong> ${s3Path}</p>`;
+            } else {
+                const preview = JSON.stringify(data, null, 2);
+                const truncated = preview.length > 5000 ? preview.substring(0, 5000) + '\n... (truncated)' : preview;
+                body.innerHTML = `
+                    <p><strong>Local:</strong> ${localPath}</p>
+                    <p><strong>S3:</strong> ${s3Path}</p>
+                    <pre>${truncated}</pre>
+                `;
+            }
+
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('artifact-modal').style.display = 'none';
+        }
+
+        function openEditor() {
+            const url = `../editors/v3_split_editor.html?artist=${encodeURIComponent(ARTIST)}&book=${encodeURIComponent(BOOK)}${BOOK_ID ? '&book_id=' + BOOK_ID : ''}`;
+            window.open(url, '_blank');
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('artifact-modal');
+            if (event.target === modal) closeModal();
+        }
+    </script>
+</body>
+</html>

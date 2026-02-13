@@ -1,6 +1,0 @@
-{
-    "input_bucket":  "jsmith-input",
-    "s3_key":  "books/_Broadway Shows/Various Artists - You\u0027re A Good Man Charlie Brown (Score).pdf",
-    "output_bucket":  "jsmith-output",
-    "artist":  "_Broadway Shows"
-}

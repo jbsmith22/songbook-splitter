@@ -100,3 +100,6 @@ s3-public-policy.json
 verification_results/
 verification_checkpoint.json
 pdf_verification.log
+
+# Archived obsolete files (local reference only)
+archive/

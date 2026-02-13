@@ -1,0 +1,1101 @@
+{
+  "generated": "2026-02-09T17:20:39.363730",
+  "total_books": 10,
+  "total_overlaps_analyzed": 34,
+  "results": [
+    {
+      "artist": "Elvis Presley",
+      "book": "The Compleat",
+      "overlaps": [
+        {
+          "song_a": "Hound Dog",
+          "song_a_range": [
+            97,
+            98
+          ],
+          "song_b": "Out Of My Best Friends",
+          "song_b_range": [
+            97,
+            99
+          ],
+          "overlap_pages": [
+            97
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "HOUND DOG",
+              "confidence": 1.0,
+              "reasoning": "The page has a large prominent title 'HOUND DOG' at the top with composer credits (Jerry Leiber and Mike Stoller). The lyrics also clearly show 'You ain't nothin' but a Hound Dog' in the chorus.",
+              "page": 97
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 97 (was 98)",
+            "new_a_end": 97,
+            "new_b_start": 97,
+            "boundary_page": 97,
+            "reason": "Page 97 is start of \"Out Of My Best Friends\""
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Frank Zappa",
+      "book": "The Frank Zappa Guitar Book",
+      "overlaps": [
+        {
+          "song_a": "Variations on The Carlos Santana Secret",
+          "song_a_range": [
+            107,
+            108
+          ],
+          "song_b": "Chord Progression",
+          "song_b_range": [
+            107,
+            117
+          ],
+          "overlap_pages": [
+            107
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "VARIATIONS ON THE CARLOS SANTANA SECRET CHORD PROGRESSION",
+              "confidence": 1.0,
+              "reasoning": "The page has a clear, large title at the top 'VARIATIONS ON THE CARLOS SANTANA SECRET CHORD PROGRESSION'. This is one complete title, not two separate songs. It's a song start page with composer credit (Frank Zappa), transcriber (Steve Vai), and begins with tempo marking and basic vamp instruction.",
+              "page": 107
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 107 (was 108)",
+            "new_a_end": 107,
+            "new_b_start": 107,
+            "boundary_page": 107,
+            "reason": "Page 107 is start of \"Chord Progression\""
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Neil Young",
+      "book": "Decade",
+      "overlaps": [
+        {
+          "song_a": "The Needle and the Damage Done",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Tonight's the Night",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "B",
+              "visible_title": null,
+              "confidence": 0.95,
+              "reasoning": "This appears to be page 94, showing lyrics 'tell you that it was only a change of plan' and 'Dream up, dream up, let me fill your cup with the promise of a man' which are from 'Tonight's the Night'. No prominent title at top indicates this is a continuation page.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 90 (was 91)",
+            "new_a_end": 90,
+            "new_b_start": 90,
+            "boundary_page": 90,
+            "reason": "Page 90 is start of \"Tonight's the Night\""
+          }
+        },
+        {
+          "song_a": "Tonight's the Night",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Tired Eyes",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "B",
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be a continuation page - no prominent title at top, starts mid-lyric with 'tell you that it was only a change of plan'. The lyrics mention 'Dream up' repeatedly and themes of promises, which align with song B 'Tired Eyes' rather than 'Tonight's the Night'.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 90 (was 91)",
+            "new_a_end": 90,
+            "new_b_start": 90,
+            "boundary_page": 90,
+            "reason": "Page 90 is start of \"Tired Eyes\""
+          }
+        },
+        {
+          "song_a": "Tired Eyes",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Walk On",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "A",
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be page 94, with no prominent title at top. Lyrics contain 'Dream up' and 'fill your cup with the promise of a man' which matches the style and theme of 'Tired Eyes'. No clear song title visible on page.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song B start_page to 91 (was 90)",
+            "new_a_end": 91,
+            "new_b_start": 91,
+            "boundary_page": 91,
+            "reason": "Page 90 still belongs to \"Tired Eyes\""
+          }
+        },
+        {
+          "song_a": "Walk On",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "For the Turnstiles",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "A",
+              "visible_title": null,
+              "confidence": 0.95,
+              "reasoning": "This appears to be page 94, shows no prominent title at top, and contains lyrics 'tell you that it was only a change of plan' and 'Dream up, dream up, let me fill your cup with the promise of a man' which are from 'Walk On'. The chord progressions and musical structure also match 'Walk On'.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song B start_page to 91 (was 90)",
+            "new_a_end": 91,
+            "new_b_start": 91,
+            "boundary_page": 91,
+            "reason": "Page 90 still belongs to \"Walk On\""
+          }
+        },
+        {
+          "song_a": "For the Turnstiles",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Winterlong",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "B",
+              "visible_title": null,
+              "confidence": 0.95,
+              "reasoning": "This appears to be page 94, continuing from a previous page. The lyrics contain 'Dream up, dream up, let me fill your cup with the promise of a man' which is from 'Winterlong'. No prominent title at top, just continuing musical notation and lyrics.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 90 (was 91)",
+            "new_a_end": 90,
+            "new_b_start": 90,
+            "boundary_page": 90,
+            "reason": "Page 90 is start of \"Winterlong\""
+          }
+        },
+        {
+          "song_a": "Winterlong",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Deep Forbidden Lake",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "A",
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be page 94, continuing from a previous page. The lyrics mention 'Dream up, dream up' and 'fill your cup with the promise of a man' which are from 'Winterlong'. No prominent title is visible at the top of the page.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song B start_page to 91 (was 90)",
+            "new_a_end": 91,
+            "new_b_start": 91,
+            "boundary_page": 91,
+            "reason": "Page 90 still belongs to \"Winterlong\""
+          }
+        },
+        {
+          "song_a": "Deep Forbidden Lake",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Love Is a Rose",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "B",
+              "visible_title": null,
+              "confidence": 0.95,
+              "reasoning": "This appears to be a continuation page - no prominent title at top. Looking at lyrics 'tell you that it was only a change of plan' and 'Dream up, dream up, let me fill your cup with the promise of a man' - these are lyrics from 'Love Is a Rose', making this option B.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 90 (was 91)",
+            "new_a_end": 90,
+            "new_b_start": 90,
+            "boundary_page": 90,
+            "reason": "Page 90 is start of \"Love Is a Rose\""
+          }
+        },
+        {
+          "song_a": "Love Is a Rose",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Like A Hurricane",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "B",
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be a continuation page - no prominent title at top. Lyrics contain 'tell you that it was only a change of plan' and 'Dream up, dream up' which are from 'Like A Hurricane'. The chord progression and triplet patterns are consistent with that song.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 90 (was 91)",
+            "new_a_end": 90,
+            "new_b_start": 90,
+            "boundary_page": 90,
+            "reason": "Page 90 is start of \"Like A Hurricane\""
+          }
+        },
+        {
+          "song_a": "Like A Hurricane",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "The Campaigner",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "A",
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be page 94, showing a continuation of lyrics including 'Dream up, dream up, let me fill your cup with the promise of a man' which is from 'Like A Hurricane'. No prominent title at top indicates this is mid-song.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song B start_page to 91 (was 90)",
+            "new_a_end": 91,
+            "new_b_start": 91,
+            "boundary_page": 91,
+            "reason": "Page 90 still belongs to \"Like A Hurricane\""
+          }
+        },
+        {
+          "song_a": "The Campaigner",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Cortez the Killer",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "A",
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be a continuation page - no prominent title at top. Lyrics mention 'tell you that it was only a change of plan' and 'Dream up, dream up, let me fill your cup' which are from 'The Campaigner' by Neil Young, not 'Cortez the Killer'. Page shows chord progressions G-D-A and similar patterns.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song B start_page to 91 (was 90)",
+            "new_a_end": 91,
+            "new_b_start": 91,
+            "boundary_page": 91,
+            "reason": "Page 90 still belongs to \"The Campaigner\""
+          }
+        },
+        {
+          "song_a": "Cortez the Killer",
+          "song_a_range": [
+            90,
+            91
+          ],
+          "song_b": "Long May You Run",
+          "song_b_range": [
+            90,
+            91
+          ],
+          "overlap_pages": [
+            90
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "B",
+              "visible_title": null,
+              "confidence": 0.95,
+              "reasoning": "This appears to be a continuation page - no prominent title at top. Lyrics contain 'tell you that it was only a change of plan' and 'Dream up, dream up' which are from 'Long May You Run' by Neil Young, not 'Cortez the Killer'. Page shows chord progressions G-D-A and vocal melody with piano accompaniment.",
+              "page": 90
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 90 (was 91)",
+            "new_a_end": 90,
+            "new_b_start": 90,
+            "boundary_page": 90,
+            "reason": "Page 90 is start of \"Long May You Run\""
+          }
+        }
+      ]
+    },
+    {
+      "artist": "The Band",
+      "book": "The Band And Music From Big Pink",
+      "overlaps": [
+        {
+          "song_a": "(THIS) WHEEL'S ON FIRE",
+          "song_a_range": [
+            65,
+            66
+          ],
+          "song_b": "LONESOME SUSIE",
+          "song_b_range": [
+            65,
+            67
+          ],
+          "overlap_pages": [
+            65
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "THIS WHEEL'S ON FIRE",
+              "confidence": 1.0,
+              "reasoning": "Clear large title 'THIS WHEEL'S ON FIRE' at top of page, shows composer credits (Words by BOB DYLAN, Music by RICK DANKO), and starts with introduction measures before first verse",
+              "page": 65
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 65 (was 66)",
+            "new_a_end": 65,
+            "new_b_start": 65,
+            "boundary_page": 65,
+            "reason": "Page 65 is start of \"LONESOME SUSIE\""
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Tom Lehrer",
+      "book": "Book Covers",
+      "overlaps": [
+        {
+          "song_a": "The Folk Song Army",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "Smut",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "neither",
+              "belongs_to": "neither",
+              "visible_title": null,
+              "confidence": 1.0,
+              "reasoning": "This appears to be an advertisement/table of contents page for a Tom Lehrer songbook. It shows a vintage illustration of children and lists 34 song titles, including both 'The Folk Song Army' and 'Smut', but does not contain actual sheet music.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        },
+        {
+          "song_a": "Smut",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "Pollution",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": null,
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be an advertisement/contents page for a Tom Lehrer songbook with a decorative illustration. It lists both 'Smut' and 'Pollution' among the 34 songs included, but doesn't show actual sheet music for either song. It's a book cover or introduction page.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        },
+        {
+          "song_a": "Pollution",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "So Long, Mom",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": null,
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be an advertisement/table of contents page for a Tom Lehrer songbook, showing a vintage illustration and list of songs. It's not a sheet music page at all - it lists both 'Pollution' and 'So Long, Mom' among many other titles but doesn't show actual sheet music for either.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        },
+        {
+          "song_a": "So Long, Mom",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "Whatever Became of Hubert",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "A",
+              "visible_title": null,
+              "confidence": 0.8,
+              "reasoning": "This appears to be an advertisement/contents page for a Tom Lehrer songbook. While 'So Long, Mom' is listed among the 34 songs, this isn't a sheet music page - it's a book advertisement with decorative children illustration. No actual sheet music or song title is visible.",
+              "page": 14
+            }
+          ],
+          "recommendation": {
+            "action": "Set song B start_page to 15 (was 14)",
+            "new_a_end": 15,
+            "new_b_start": 15,
+            "boundary_page": 15,
+            "reason": "Page 14 still belongs to \"So Long, Mom\""
+          }
+        },
+        {
+          "song_a": "Whatever Became of Hubert",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "Who's Next",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": "B",
+              "visible_title": "Who's Next?",
+              "confidence": 1.0,
+              "reasoning": "This appears to be an advertisement/contents page for a Tom Lehrer songbook. 'Who's Next?' is clearly listed in the right column of songs, while 'Whatever Became of Hubert' is not listed at all.",
+              "page": 14
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 14 (was 15)",
+            "new_a_end": 14,
+            "new_b_start": 14,
+            "boundary_page": 14,
+            "reason": "Page 14 is start of \"Who's Next\""
+          }
+        },
+        {
+          "song_a": "Who's Next",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "Wernher von Braun",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": null,
+              "visible_title": null,
+              "confidence": 1.0,
+              "reasoning": "This is actually an advertisement/catalog page for Tom Lehrer's songbook. It shows a vintage illustration and lists 34 song titles, including both 'Who's Next?' and 'Wernher Von Braun', but does not contain actual sheet music for either song.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        },
+        {
+          "song_a": "Wernher von Braun",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "Send the Marines",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": null,
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be an advertisement/contents page for a Tom Lehrer songbook listing 34 songs, including both 'Wernher Von Braun' and 'Send the Marines'. It's not actually sheet music - it's a book cover or introduction page with decorative vintage children's illustration and song list.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        },
+        {
+          "song_a": "Send the Marines",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "We Will All Go Together When We Go",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": null,
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be an advertisement/table of contents page for a Tom Lehrer songbook, with a decorative vintage illustration at top. It lists both songs A and B in the collection but doesn't show actual sheet music for either one. This is not a sheet music page at all.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        },
+        {
+          "song_a": "We Will All Go Together When We Go",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "The Masochism Tango",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": null,
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be an advertisement/table of contents page for a Tom Lehrer songbook with a decorative illustration. It lists both songs A and B in the collection but doesn't show actual sheet music for either one. The page shows a catalog of 34 songs available in the book.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        },
+        {
+          "song_a": "The Masochism Tango",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "The Elements",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "neither",
+              "belongs_to": "neither",
+              "visible_title": null,
+              "confidence": 1.0,
+              "reasoning": "This appears to be an advertisement/table of contents page for a Tom Lehrer songbook. It shows a decorative illustration of children and lists 34 songs including both 'The Masochism Tango' and 'The Elements', but does not contain actual sheet music.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        },
+        {
+          "song_a": "The Elements",
+          "song_a_range": [
+            14,
+            15
+          ],
+          "song_b": "The Vatican Rag",
+          "song_b_range": [
+            14,
+            15
+          ],
+          "overlap_pages": [
+            14
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_continuation",
+              "belongs_to": null,
+              "visible_title": null,
+              "confidence": 0.9,
+              "reasoning": "This appears to be an advertisement/table of contents page for a Tom Lehrer songbook with a decorative illustration. It lists both 'The Elements' and 'The Vatican Rag' among other songs, but shows no actual sheet music or song title header.",
+              "page": 14
+            }
+          ],
+          "recommendation": null
+        }
+      ]
+    },
+    {
+      "artist": "Various Artists",
+      "book": "62 Stars 62 Hits 60s Compilation",
+      "overlaps": [
+        {
+          "song_a": "BABY, THE RAIN MUST FALL",
+          "song_a_range": [
+            5,
+            6
+          ],
+          "song_b": "BAMBALINA",
+          "song_b_range": [
+            5,
+            7
+          ],
+          "overlap_pages": [
+            5
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "BABY, THE RAIN MUST FALL",
+              "confidence": 1.0,
+              "reasoning": "The page clearly shows 'BABY, THE RAIN MUST FALL' as a large title at the top, with composer credits and full song formatting starting from the beginning. It's from the Columbia film of the same name, recorded by Glenn Yarbrough on RCA Victor Records.",
+              "page": 5
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 5 (was 6)",
+            "new_a_end": 5,
+            "new_b_start": 5,
+            "boundary_page": 5,
+            "reason": "Page 5 is start of \"BAMBALINA\""
+          }
+        },
+        {
+          "song_a": "I LEFT MY HEART IN SAN FRANCISCO",
+          "song_a_range": [
+            37,
+            38
+          ],
+          "song_b": "HEY LITTLE COBRA",
+          "song_b_range": [
+            37,
+            38
+          ],
+          "overlap_pages": [
+            37
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "LEFT MY HEART IN SAN FRANCISCO",
+              "confidence": 1.0,
+              "reasoning": "Clear large title at top of page 'LEFT MY HEART IN SAN FRANCISCO', shows composer credits, starts with first verse, and page number 38. Complete song layout with copyright notice at bottom.",
+              "page": 37
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 37 (was 38)",
+            "new_a_end": 37,
+            "new_b_start": 37,
+            "boundary_page": 37,
+            "reason": "Page 37 is start of \"HEY LITTLE COBRA\""
+          }
+        },
+        {
+          "song_a": "SKYLARK",
+          "song_a_range": [
+            69,
+            70
+          ],
+          "song_b": "SKYE BOAT SONS",
+          "song_b_range": [
+            69,
+            70
+          ],
+          "overlap_pages": [
+            69
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "SKYLARK",
+              "confidence": 1.0,
+              "reasoning": "The page has a large prominent title 'SKYLARK' at the top, music begins here with composer credits (Johnny Mercer, Hoagy Carmichael), and matches option A exactly. First measure starts with 'Sky-lark' lyrics.",
+              "page": 69
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 69 (was 70)",
+            "new_a_end": 69,
+            "new_b_start": 69,
+            "boundary_page": 69,
+            "reason": "Page 69 is start of \"SKYE BOAT SONS\""
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Various Artists",
+      "book": "All Time Best Collection Vol 3",
+      "overlaps": [
+        {
+          "song_a": "Stand By Me",
+          "song_a_range": [
+            57,
+            58
+          ],
+          "song_b": "Pray",
+          "song_b_range": [
+            57,
+            60
+          ],
+          "overlap_pages": [
+            57
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "STAND BY ME",
+              "confidence": 1.0,
+              "reasoning": "Clear large title 'STAND BY ME' at top of page, shows composer credits (Ben E King, Jerry Leiber and Mike Stoller), and begins with opening lyrics 'When the night has come'",
+              "page": 57
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 57 (was 58)",
+            "new_a_end": 57,
+            "new_b_start": 57,
+            "boundary_page": 57,
+            "reason": "Page 57 is start of \"Pray\""
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Various Artists",
+      "book": "Best Of The 70s And 80s _solo Piano_",
+      "overlaps": [
+        {
+          "song_a": "FRIENDS & LOVERS",
+          "song_a_range": [
+            11,
+            12
+          ],
+          "song_b": "(Both To Each Other)",
+          "song_b_range": [
+            11,
+            15
+          ],
+          "overlap_pages": [
+            11
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "FRIENDS & LOVERS (Both To Each Other)",
+              "confidence": 1.0,
+              "reasoning": "This is clearly a song start page with a large title at top. The full title shown is 'FRIENDS & LOVERS' with '(Both To Each Other)' as a subtitle. They are part of the same song title, not two separate songs.",
+              "page": 11
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 11 (was 12)",
+            "new_a_end": 11,
+            "new_b_start": 11,
+            "boundary_page": 11,
+            "reason": "Page 11 is start of \"(Both To Each Other)\""
+          }
+        },
+        {
+          "song_a": "ARTHUR'S THEME",
+          "song_a_range": [
+            25,
+            26
+          ],
+          "song_b": "(Best That You Can Do)",
+          "song_b_range": [
+            25,
+            28
+          ],
+          "overlap_pages": [
+            25
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "ARTHUR'S THEME (BEST THAT YOU CAN DO)",
+              "confidence": 1.0,
+              "reasoning": "This is clearly a song start page with a large prominent title at the top. The full title shown combines both A and B - they are actually the same song, with 'Best That You Can Do' being a subtitle in parentheses. The page includes composer credits and starts with a new musical score.",
+              "page": 25
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 25 (was 26)",
+            "new_a_end": 25,
+            "new_b_start": 25,
+            "boundary_page": 25,
+            "reason": "Page 25 is start of \"(Best That You Can Do)\""
+          }
+        },
+        {
+          "song_a": "TILL I LOVED YOU",
+          "song_a_range": [
+            33,
+            34
+          ],
+          "song_b": "(The Love Theme From Guys)",
+          "song_b_range": [
+            33,
+            38
+          ],
+          "overlap_pages": [
+            33
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "TILL I LOVED YOU (The Love Theme From \"Goya\")",
+              "confidence": 1.0,
+              "reasoning": "Page has large title at top 'TILL I LOVED YOU' with subtitle '(The Love Theme From \"Goya\")', music begins here with tempo marking and first measures. Page number 34 visible.",
+              "page": 33
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 33 (was 34)",
+            "new_a_end": 33,
+            "new_b_start": 33,
+            "boundary_page": 33,
+            "reason": "Page 33 is start of \"(The Love Theme From Guys)\""
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Various Artists",
+      "book": "Country Classics",
+      "overlaps": [
+        {
+          "song_a": "WHY ME?",
+          "song_a_range": [
+            85,
+            86
+          ],
+          "song_b": "MR. AND MISSY MCGEE",
+          "song_b_range": [
+            85,
+            87
+          ],
+          "overlap_pages": [
+            85
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "WHY ME?",
+              "confidence": 1.0,
+              "reasoning": "The page has a large prominent title 'WHY ME?' at the top, along with composer credits. The music begins on this page with tempo marking 'Moderately, with a Gospel feeling'. Copyright info at bottom confirms this is the complete song.",
+              "page": 85
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 85 (was 86)",
+            "new_a_end": 85,
+            "new_b_start": 85,
+            "boundary_page": 85,
+            "reason": "Page 85 is start of \"MR. AND MISSY MCGEE\""
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Various Artists",
+      "book": "Songs Of The 60s",
+      "overlaps": [
+        {
+          "song_a": "More",
+          "song_a_range": [
+            93,
+            94
+          ],
+          "song_b": "Monday, Monday",
+          "song_b_range": [
+            93,
+            98
+          ],
+          "overlap_pages": [
+            93
+          ],
+          "page_analyses": [
+            {
+              "content_type": "song_start",
+              "belongs_to": "A",
+              "visible_title": "MORE (Theme from MONDO CANE)",
+              "confidence": 1.0,
+              "reasoning": "The page has a large prominent title 'MORE' at the top with subtitle '(Theme from MONDO CANE)', credits for English words and music, and begins with a new musical score. The lyrics also match song 'More' with 'More than the greatest love the world has known'",
+              "page": 93
+            }
+          ],
+          "recommendation": {
+            "action": "Set song A end_page to 93 (was 94)",
+            "new_a_end": 93,
+            "new_b_start": 93,
+            "boundary_page": 93,
+            "reason": "Page 93 is start of \"Monday, Monday\""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-{
-    "bucket":  "jsmith-input",
-    "source_pdf_uri":  "s3://jsmith-input/books/Dire Straits/Dire Straits - Mark Knopfler Guitar Styles Vol 1 [Guitar Book].pdf",
-    "artist":  "Dire Straits",
-    "key":  "books/Dire Straits/Dire Straits - Mark Knopfler Guitar Styles Vol 1 [Guitar Book].pdf",
-    "book_id":  "cd813e5e69e93700",
-    "book_name":  "Dire Straits - Mark Knopfler Guitar Styles Vol 1 [Guitar Book]"
-}

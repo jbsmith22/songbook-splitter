@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-02-13 11:47:34",
+  "config": {
+    "render_dpi": 72,
+    "hash_size": 16,
+    "mismatch_threshold": 15
+  },
+  "summary": {
+    "books_verified": 1,
+    "books_ok": 1,
+    "books_with_issues": 0,
+    "songs_checked": 23,
+    "songs_missing_pdf": 0,
+    "pages_compared": 89,
+    "pages_matched": 89,
+    "pages_mismatched": 0,
+    "elapsed_seconds": 5.939044237136841
+  },
+  "books": [
+    {
+      "artist": "Neil Young",
+      "book": "Decade",
+      "structural_issues": [],
+      "page_mismatches": [],
+      "song_issues": [],
+      "songs_checked": 23,
+      "pages_compared": 89,
+      "pages_matched": 89,
+      "pages_mismatched": 0,
+      "pages_error": 0,
+      "songs_missing_pdf": 0,
+      "songs_missing_cache": 0,
+      "status": "OK"
+    }
+  ]
+}

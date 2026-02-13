@@ -1,0 +1,3076 @@
+{
+  "timestamp": "2026-02-13 12:12:57",
+  "summary": {
+    "books": 342,
+    "books_ok": 211,
+    "books_with_issues": 131,
+    "songs": 7968,
+    "total_issues": 428,
+    "high_issues": 414,
+    "medium_issues": 14
+  },
+  "issues": [
+    {
+      "type": "MID_SONG_START",
+      "song": "Dream On",
+      "page": 30,
+      "detected_title": "Dream On",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Write the Songs",
+      "page": 54,
+      "detected_title": "I Write The Songs",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Anyone Can Do The Heartbreak",
+      "page": 62,
+      "detected_title": "Anyone Can Do The Heartbreak",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "All You Need Is Love",
+      "page": 15,
+      "detected_title": "All You Need Is Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Eight Days A Week",
+      "page": 45,
+      "detected_title": "Eight Days a Week",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Getting Better",
+      "page": 60,
+      "detected_title": "Girl",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Am The Walrus",
+      "page": 77,
+      "detected_title": "I am the walrus",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'll Follow The Sun",
+      "page": 87,
+      "detected_title": "I'll Follow the Sun",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Mother Nature's Son",
+      "page": 121,
+      "detected_title": "Mother Nature's Son",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "While My Guitar Gently Weeps",
+      "page": 188,
+      "detected_title": "With A Little Help From My Friends",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "HERE COMES THE SUN",
+      "page": 25,
+      "detected_title": "Here Comes the Sun",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Saw Her Standing There",
+      "page": 31,
+      "detected_title": "I'm In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'm Down",
+      "page": 92,
+      "detected_title": "Girl",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'm Only Sleeping",
+      "page": 128,
+      "detected_title": "Love You To",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "When I'm Sixty Four",
+      "page": 165,
+      "detected_title": "With A Little Help From My Friends",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Step Inside Love",
+      "page": 220,
+      "detected_title": "Wild Honey Pie",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Golden Slumbers",
+      "page": 242,
+      "detected_title": "Goodbye",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Octopus's Garden",
+      "page": 255,
+      "detected_title": "Something",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Saw Her Standing There",
+      "page": 31,
+      "detected_title": "I'm In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'm Down",
+      "page": 92,
+      "detected_title": "Girl",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'm Only Sleeping",
+      "page": 128,
+      "detected_title": "Love You To",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "When I'm Sixty Four",
+      "page": 165,
+      "detected_title": "With A Little Help From My Friends",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Step Inside Love",
+      "page": 220,
+      "detected_title": "Wild Honey Pie",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Golden Slumbers",
+      "page": 242,
+      "detected_title": "Goodbye",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Octopus's Garden",
+      "page": 255,
+      "detected_title": "Something",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Free As A Bird",
+      "page": 9,
+      "detected_title": "FREE AS A BIRD",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Good Night",
+      "page": 25,
+      "detected_title": "GOOD NIGHT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Blackbird",
+      "page": 34,
+      "detected_title": "Blackbird",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The End",
+      "page": 104,
+      "detected_title": "THE END",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WORDS OF LOVE",
+      "page": 369,
+      "detected_title": "WITH A LITTLE HELP FROM MY FRIENDS",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Saw Her Standing There",
+      "page": 31,
+      "detected_title": "I'm In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'm Down",
+      "page": 92,
+      "detected_title": "Girl",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'm Only Sleeping",
+      "page": 128,
+      "detected_title": "Love You To",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "When I'm Sixty Four",
+      "page": 165,
+      "detected_title": "With A Little Help From My Friends",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Ode to Joy",
+      "page": 214,
+      "detected_title": "Ode to Joy",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Ode to Joy",
+      "page": 215,
+      "detected_title": "Ode to Joy",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Ach bleib mit deiner Gnade",
+      "page": 217,
+      "detected_title": "Ode to Joy",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Ach bleib mit deiner Gnade",
+      "page": 218,
+      "detected_title": "Ach, bleib mit deiner Gnade",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Ach bleib mit deiner Gnade",
+      "page": 220,
+      "detected_title": "Wild Honey Pie",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Golden Slumbers",
+      "page": 242,
+      "detected_title": "Goodbye",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Octopus's Garden",
+      "page": 255,
+      "detected_title": "Something",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "MORE THAN A WOMAN",
+      "page": 94,
+      "detected_title": "MORE THAN A WOMAN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WORDS",
+      "page": 121,
+      "detected_title": "WORLD",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Heaven Is A Place On Earth",
+      "page": 7,
+      "detected_title": "When The Night",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "TIME",
+      "page": 57,
+      "detected_title": "SENTIMENTAL GUY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "(The) Stranger",
+      "page": 152,
+      "detected_title": "THE STRANGER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "(The) Stranger",
+      "page": 158,
+      "detected_title": "THE STRANGER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Opus 8 Suite For Piano (Star-Crossed) I. Innamorato",
+      "page": 80,
+      "detected_title": "II. Sorbetto",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Opus 8 Suite For Piano (Star-Crossed) I. Innamorato",
+      "page": 83,
+      "detected_title": "III. Delusion from Suite For Piano (Star-Crossed)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE STRANGER",
+      "page": 18,
+      "detected_title": "THE STRANGER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE STRANGER",
+      "page": 24,
+      "detected_title": "THE STRANGER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE STRANGER",
+      "page": 16,
+      "detected_title": "THE STRANGER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ROOT BEER RAG",
+      "page": 36,
+      "detected_title": "PIANO MAN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE STRANGER",
+      "page": 51,
+      "detected_title": "THE STRANGER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE STRANGER",
+      "page": 57,
+      "detected_title": "JUST THE WAY YOU ARE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "She's Got a Way",
+      "page": 23,
+      "detected_title": "She's Got a Way",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Innamorato from Suite For Piano",
+      "page": 376,
+      "detected_title": "SORBETTO",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Innamorato from Suite For Piano",
+      "page": 379,
+      "detected_title": "DELUSION",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "New York State Of Mind",
+      "page": 19,
+      "detected_title": "New York State Of Mind",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "minnie the moocher",
+      "page": 24,
+      "detected_title": "Minnie the Moocher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Boots Of Spanish Leather",
+      "page": 11,
+      "detected_title": "Boots Of Spanish Leather",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Goin' to Acapulco",
+      "page": 27,
+      "detected_title": "Goin' to Acapulco",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Dark Eyes",
+      "page": 38,
+      "detected_title": "Dark Eyes",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Saved",
+      "page": 9,
+      "detected_title": "I Just Want to Thank You, Lord",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Don't Think Twice, It's All Right",
+      "page": 35,
+      "detected_title": "Don't Think Twice, It's All Right",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Lay Lady Lay",
+      "page": 76,
+      "detected_title": "Lay Lady Lay",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Man In the Long Black Coat",
+      "page": 84,
+      "detected_title": "Man in the Long Black Coat",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "You ain't going nowhere - Bob Dylan",
+      "page": 98,
+      "detected_title": "You ain't going nowhere",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Blowin' in the Wind",
+      "page": 7,
+      "detected_title": "Blowin' in the Wind",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Don't Think Twice, It's All Right",
+      "page": 11,
+      "detected_title": "Don't Think Twice, It's All Right",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Baby, I'm in the Mood for You",
+      "page": 18,
+      "detected_title": "Baby, I'm in the Mood for You",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Just Like a Woman",
+      "page": 31,
+      "detected_title": "Just Like a Woman",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Want You",
+      "page": 36,
+      "detected_title": "I Want You",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Shall Be Released",
+      "page": 41,
+      "detected_title": "I Shall be Released",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'll Be Your Baby Tonight",
+      "page": 46,
+      "detected_title": "I'll Be Your Baby Tonight",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "All Along the Watchtower",
+      "page": 50,
+      "detected_title": "All Along the Watchtower",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Simple Twist of Fate",
+      "page": 55,
+      "detected_title": "Simple Twist of Fate",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Dark Eyes",
+      "page": 62,
+      "detected_title": "Dark Eyes",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ATLANTIC CITY",
+      "page": 8,
+      "detected_title": "THIS HARD LAND",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "BORN IN THE U.S.A.",
+      "page": 25,
+      "detected_title": "THIS HARD LAND",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "HUMAN TOUCH",
+      "page": 39,
+      "detected_title": "THIS HARD LAND",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE WAYFARING STRANGER",
+      "page": 170,
+      "detected_title": "THE WAYFARING STRANGER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Billy Boy",
+      "page": 178,
+      "detected_title": "Billy Boy",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "AUNT RHODY",
+      "page": 184,
+      "detected_title": "AUNT RHODY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Alfie - fake",
+      "page": 6,
+      "detected_title": "ALFIE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "YOU'VE GOT A FRIEND",
+      "page": 3,
+      "detected_title": "You've Got a Friend",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "i feel the earth move",
+      "page": 7,
+      "detected_title": "I Feel The Earth Move",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "so far away",
+      "page": 13,
+      "detected_title": "So Far Away",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "its too late",
+      "page": 17,
+      "detected_title": "It's Too Late",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "home again",
+      "page": 22,
+      "detected_title": "Home Again",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "beautiful",
+      "page": 27,
+      "detected_title": "Beautiful",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "way over yonder",
+      "page": 35,
+      "detected_title": "Way Over Yonder",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "you've got a friend",
+      "page": 41,
+      "detected_title": "You've Got A Friend",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "where you lead",
+      "page": 46,
+      "detected_title": "Where You Lead",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "will you love me tomorrow?",
+      "page": 52,
+      "detected_title": "Will You Love Me Tomorrow?",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "smackwater jack",
+      "page": 56,
+      "detected_title": "Smackwater Jack",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "tapestry",
+      "page": 61,
+      "detected_title": "Tapestry",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "(you make me feel like) a natural woman",
+      "page": 70,
+      "detected_title": "(You Make Me Feel Like) A Natural Woman",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "CRYING IN THE RAIN",
+      "page": 8,
+      "detected_title": "Crying in the Rain",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Beechwood 4-5789",
+      "page": 28,
+      "detected_title": "Beechwood 4-5789",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "What Is This Thing Called Love?",
+      "page": 144,
+      "detected_title": "What Is This Thing Called Love?",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Green River",
+      "page": 19,
+      "detected_title": "Green River",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Green River",
+      "page": 15,
+      "detected_title": "Green River",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Down on the Corner",
+      "page": 4,
+      "detected_title": "Down on the Corner",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WOODEN SHIPS",
+      "page": 56,
+      "detected_title": "Wooden Ships",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Blues With a Raised F Chord",
+      "page": 13,
+      "detected_title": "Such A Night",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Tequila Sunrise",
+      "page": 105,
+      "detected_title": "Tequila Sunrise",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Tequila Sunrise",
+      "page": 106,
+      "detected_title": "Tequila Sunrise",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "TWENTY ONE",
+      "page": 86,
+      "detected_title": "DESPERADO PART II",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "TWENTY ONE",
+      "page": 89,
+      "detected_title": "DOOLIN-DALTON PART II",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "LIFE'S BEEN GOOD",
+      "page": 298,
+      "detected_title": "DOOLIN-DALTON (REPRISE II)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "NEW KID IN TOWN",
+      "page": 36,
+      "detected_title": "New Kid in Town",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Long Way From Happiness",
+      "page": 5,
+      "detected_title": "Long Way From Happiness",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "All the Girls Love Alice",
+      "page": 6,
+      "detected_title": "All the Young Girls Love Alice",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Candle in the Wind",
+      "page": 63,
+      "detected_title": "CANDLE IN THE WIND 1997",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'm Still Standing",
+      "page": 11,
+      "detected_title": "TOO LOW FOR ZERO",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Blue Suede Shoes",
+      "page": 64,
+      "detected_title": "Blue Suede Shoes",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "I Was So Bad",
+      "page": 99,
+      "detected_title": "FEEL SO BAD",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "Truth Truth",
+      "page": 211,
+      "detected_title": "TUTTI FRUTTI",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "alberta",
+      "page": 2,
+      "detected_title": "Hangon",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "nobody knows you when you're down and out",
+      "page": 45,
+      "detected_title": "when you're down and out",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WARM WAYS",
+      "page": 10,
+      "detected_title": "WARM WAYS",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WORLD TURNING",
+      "page": 15,
+      "detected_title": "WORLD TURNING",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "MONDAY MORNING",
+      "page": 24,
+      "detected_title": "MONDAY MORNING",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "CRYSTAL",
+      "page": 28,
+      "detected_title": "CRYSTAL",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "BLUE LETTER",
+      "page": 47,
+      "detected_title": "BLUE LETTER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SUGAR DADDY",
+      "page": 51,
+      "detected_title": "SUGAR DADDY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "GO YOUR OWN WAY",
+      "page": 61,
+      "detected_title": "GO YOUR OWN WAY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "YOU MAKE LOVING FUN",
+      "page": 72,
+      "detected_title": "YOU MAKE LOVING FUN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "NEVER GOING BACK AGAIN",
+      "page": 82,
+      "detected_title": "NEVER GOING BACK AGAIN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "GOLD DUST WOMAN",
+      "page": 99,
+      "detected_title": "GOLD DUST WOMAN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SONGBIRD",
+      "page": 105,
+      "detected_title": "SONGBIRD",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "TUSK",
+      "page": 110,
+      "detected_title": "TUSK",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "NEVER MAKE ME CRY",
+      "page": 151,
+      "detected_title": "NEVER MAKE ME CRY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "NEVER FORGET",
+      "page": 162,
+      "detected_title": "NEVER FORGET",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "BROWN EYES",
+      "page": 171,
+      "detected_title": "BROWN EYES",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THINK ABOUT ME",
+      "page": 185,
+      "detected_title": "THINK ABOUT ME",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SAVE ME A PLACE",
+      "page": 204,
+      "detected_title": "SAVE ME A PLACE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "HONEY HI",
+      "page": 212,
+      "detected_title": "HONEY HI",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "EMPIRE STATE",
+      "page": 48,
+      "detected_title": "EMPIRE STATE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "EYES OF THE WORLD",
+      "page": 67,
+      "detected_title": "EYES OF THE WORLD",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Songbird",
+      "page": 37,
+      "detected_title": "SONGBIRD",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Oh Daddy",
+      "page": 59,
+      "detected_title": "OH DADDY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "EXCERPT FROM MUSIC FOR ELECTRIC VIOLIN AND LOW-BUDGET SYMPHONY ORCHESTRA",
+      "page": 45,
+      "detected_title": "EXCERPT FROM MUSIC FOR ELECTRIC VIOLIN AND LOW-BUDGET SYMPHONY ORCHESTRA",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Sophisticated Mazak Swing Style",
+      "page": 76,
+      "detected_title": "Swing Style",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "In Pieces",
+      "page": 183,
+      "detected_title": "THE COWBOY SONG",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "page": 4,
+      "detected_title": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "page": 5,
+      "detected_title": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "page": 8,
+      "detected_title": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "page": 10,
+      "detected_title": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "page": 13,
+      "detected_title": "DANCING WITH THE MOONLIGHT KNIGHT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "BLOOD ON THE ROOFTOPS",
+      "page": 28,
+      "detected_title": "BLOOD ON THE ROOFTOPS",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ALONE TONIGHT",
+      "page": 32,
+      "detected_title": "ALONE TONIGHT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THAT'S ALL",
+      "page": 47,
+      "detected_title": "THAT'S ALL",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I CAN'T DANCE",
+      "page": 58,
+      "detected_title": "I CAN'T DANCE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Supper's Ready",
+      "page": 57,
+      "detected_title": "Willow Farm",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The cinema show",
+      "page": 85,
+      "detected_title": "Aisle of plenty",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "FAITH",
+      "page": 49,
+      "detected_title": "FANTASY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "FAITH",
+      "page": 59,
+      "detected_title": "FASTLOVE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "JESUS TO A CHILD",
+      "page": 128,
+      "detected_title": "KILLER/PAPA WAS A ROLLING STONE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SOMEBODY TO LOVE",
+      "page": 171,
+      "detected_title": "Somebody To Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Get It Together",
+      "page": 6,
+      "detected_title": "Get It Together",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Little Boy Sad",
+      "page": 1,
+      "detected_title": "Little Boy Sad",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'M HENRY VIII, I AM",
+      "page": 7,
+      "detected_title": "I'M HENRY VIII, I AM",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "There's A Kind Of Hush",
+      "page": 22,
+      "detected_title": "THERE'S A KIND OF HUSH (ALL OVER THE WORLD)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The End of the World",
+      "page": 30,
+      "detected_title": "THE END OF THE WORLD",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The End of the World",
+      "page": 33,
+      "detected_title": "The End Of The World",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ROCK ME ON THE WATER",
+      "page": 17,
+      "detected_title": "ROCK ME ON THE WATER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "READY OR NOT",
+      "page": 59,
+      "detected_title": "READY OR NOT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "FOR EVERYMAN",
+      "page": 65,
+      "detected_title": "FOR EVERYMAN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE LATE SHOW",
+      "page": 90,
+      "detected_title": "THE LATE SHOW",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "FOR A DANCER",
+      "page": 99,
+      "detected_title": "FOR A DANCER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE PRETENDER",
+      "page": 123,
+      "detected_title": "THE PRETENDER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "RUNNING ON EMPTY",
+      "page": 175,
+      "detected_title": "RUNNING ON EMPTY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "INSTRUMENTAL I",
+      "page": 55,
+      "detected_title": "INSTRUMENTAL II",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Song For You Far Away",
+      "page": 6,
+      "detected_title": "Song For You Far Away",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shower The People",
+      "page": 18,
+      "detected_title": "Shower The People",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "You Can Close Your Eyes",
+      "page": 20,
+      "detected_title": "You Can Close Your Eyes",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "That's Why I'm Here",
+      "page": 24,
+      "detected_title": "That's Why I'm Here",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Highway Song",
+      "page": 28,
+      "detected_title": "Back On The Road Again",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Night Owl",
+      "page": 4,
+      "detected_title": "Night Owl",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Song For You Far Away",
+      "page": 6,
+      "detected_title": "Song For You Far Away",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "You Can Close Your Eyes",
+      "page": 20,
+      "detected_title": "You Can Close Your Eyes",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "That's Why I'm Here",
+      "page": 24,
+      "detected_title": "That's Why I'm Here",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "that's why i'm here",
+      "page": 4,
+      "detected_title": "That's Why I'm Here",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Photographs & Memories",
+      "page": 10,
+      "detected_title": "Photographs & Memories",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "delta lady",
+      "page": 10,
+      "detected_title": "DELTA LADY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "High Time We Went",
+      "page": 7,
+      "detected_title": "Ain't It High Time We Went?",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "It Amazes Me",
+      "page": 30,
+      "detected_title": "Lil' Amazes Me",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Take Me Home, Country Roads",
+      "page": 4,
+      "detected_title": "Take Me Home, Country Roads",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Marcie",
+      "page": 29,
+      "detected_title": "Night in the City",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Marcie",
+      "page": 30,
+      "detected_title": "Night in the City",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Nathan La Franeer",
+      "page": 36,
+      "detected_title": "Song to a Seagull",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Dancetrader",
+      "page": 43,
+      "detected_title": "The Pirate of Penance",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Gallery",
+      "page": 75,
+      "detected_title": "That Song About the Midway",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "He Played Real Good for Free",
+      "page": 115,
+      "detected_title": "Big Yellow Taxi",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "He Played Real Good for Free",
+      "page": 118,
+      "detected_title": "The Circle Game",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Circle Game",
+      "page": 14,
+      "detected_title": "THE CIRCLE GAME",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "OVER THE RAINBOW",
+      "page": 5,
+      "detected_title": "OVER THE RAINBOW",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "BECAUSE OF YOU",
+      "page": 24,
+      "detected_title": "GONE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Waterloo Sunset",
+      "page": 55,
+      "detected_title": "Lola",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE BALLAD OF CURTIS LOEW",
+      "page": 83,
+      "detected_title": "The Ballad of Curtis Loew",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Want You",
+      "page": 41,
+      "detected_title": "Chrome Plated Heart",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I Want You",
+      "page": 43,
+      "detected_title": "WATCHING YOU",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Got To Be There",
+      "page": 6,
+      "detected_title": "Gotta Be There",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SMOOTH CRIMINAL",
+      "page": 100,
+      "detected_title": "Annie Are You OK?",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "When you dance, I can really love",
+      "page": 57,
+      "detected_title": "WHEN YOU DANCE, I CAN REALLY LOVE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Helpless",
+      "page": 62,
+      "detected_title": "Helpless",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Harvest",
+      "page": 90,
+      "detected_title": "The Needle and the Damage Done",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "Hardest Widow",
+      "page": 77,
+      "detected_title": "HARVEST MOON",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "JET",
+      "page": 5,
+      "detected_title": "JET",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "COMING UP",
+      "page": 14,
+      "expected": "song_start",
+      "actual": "lyrics",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "COMING UP",
+      "page": 15,
+      "detected_title": "COMING UP",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "EBONY AND IVORY",
+      "page": 21,
+      "detected_title": "EBONY AND IVORY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "LISTEN TO WHAT THE MAN SAID",
+      "page": 26,
+      "detected_title": "LISTEN TO WHAT THE MAN SAID",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "NO MORE LONELY NIGHTS",
+      "page": 30,
+      "expected": "song_start",
+      "actual": "lyrics",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "NO MORE LONELY NIGHTS",
+      "page": 31,
+      "detected_title": "NO MORE LONELY NIGHTS",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "SILLY LOVE SONGS",
+      "page": 34,
+      "expected": "song_start",
+      "actual": "lyrics",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SILLY LOVE SONGS",
+      "page": 35,
+      "detected_title": "SILLY LOVE SONGS",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "LET 'EM IN",
+      "page": 45,
+      "detected_title": "LET 'EM IN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "C MOON",
+      "page": 49,
+      "detected_title": "C MOON",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "PIPES OF PEACE",
+      "page": 63,
+      "expected": "song_start",
+      "actual": "lyrics",
+      "detected_title": "Pipes of Peace",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "PIPES OF PEACE",
+      "page": 64,
+      "detected_title": "PIPES OF PEACE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "LIVE AND LET DIE",
+      "page": 68,
+      "expected": "song_start",
+      "actual": "lyrics",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "LIVE AND LET DIE",
+      "page": 69,
+      "detected_title": "LIVE AND LET DIE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ANOTHER DAY",
+      "page": 73,
+      "detected_title": "ANOTHER DAY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "MAYBE I'M AMAZED",
+      "page": 79,
+      "detected_title": "MAYBE I'M AMAZED",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "GOODNIGHT TONIGHT",
+      "page": 83,
+      "detected_title": "GOODNIGHT TONIGHT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ONCE UPON A LONG AGO",
+      "page": 88,
+      "detected_title": "ONCE UPON A LONG AGO",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SAY SAY SAY",
+      "page": 93,
+      "detected_title": "SAY SAY SAY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WITH A LITTLE LUCK",
+      "page": 98,
+      "detected_title": "WITH A LITTLE LUCK",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "MY LOVE",
+      "page": 102,
+      "expected": "song_start",
+      "actual": "lyrics",
+      "detected_title": "MY LOVE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "MY LOVE",
+      "page": 103,
+      "detected_title": "MY LOVE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WE ALL STAND TOGETHER",
+      "page": 107,
+      "detected_title": "WE ALL STAND TOGETHER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "MULL OF KINTYRE",
+      "page": 111,
+      "detected_title": "MULL OF KINTYRE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "JUNIOR'S FARM",
+      "page": 116,
+      "detected_title": "JUNIOR'S FARM",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "UNCLE ALBERT/ADMIRAL HALSEY",
+      "page": 122,
+      "detected_title": "UNCLE ALBERT/ADMIRAL HALSEY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "3 LEGS",
+      "page": 33,
+      "detected_title": "3 LEGS",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "UNCLE ALBERT/ADMIRAL HALSEY",
+      "page": 44,
+      "detected_title": "UNCLE ALBERT / ADMIRAL HALSEY",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Conversations with My 13 Year Old Self",
+      "page": 111,
+      "detected_title": "Stupid Girls",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Conversations with My 13 Year Old Self",
+      "page": 112,
+      "detected_title": "Stupid Girls",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Conversations with My 13 Year Old Self",
+      "page": 113,
+      "detected_title": "Stupid Girls",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Bike",
+      "page": 47,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Bike",
+      "page": 48,
+      "detected_title": "bike",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Childhood's End",
+      "page": 52,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Childhood's End",
+      "page": 53,
+      "detected_title": "childhood's end",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "The Gold It's In The",
+      "page": 56,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Gold It's In The",
+      "page": 57,
+      "detected_title": "The Gold It's In The...",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Stay",
+      "page": 60,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Stay",
+      "page": 61,
+      "detected_title": "Stay",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Wots...Uh The Deal",
+      "page": 64,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Wots...Uh The Deal",
+      "page": 65,
+      "detected_title": "Wots...Uh The Deal",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Time",
+      "page": 69,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Time",
+      "page": 70,
+      "detected_title": "Time",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Us And Them",
+      "page": 72,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Us And Them",
+      "page": 73,
+      "detected_title": "Us and them",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Money",
+      "page": 78,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Money",
+      "page": 79,
+      "detected_title": "Money",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Wish You Were Here",
+      "page": 81,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Wish You Were Here",
+      "page": 82,
+      "detected_title": "Wish You Were Here",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Have A Cigar",
+      "page": 86,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Have A Cigar",
+      "page": 87,
+      "detected_title": "Have a Cigar",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Shine On You Crazy Diamond",
+      "page": 91,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond",
+      "page": 92,
+      "detected_title": "Shine On You Crazy Diamond",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Welcome To The Machine",
+      "page": 100,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Welcome To The Machine",
+      "page": 101,
+      "detected_title": "Welcome to the Machine",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Sheep",
+      "page": 108,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Sheep",
+      "page": 109,
+      "detected_title": "Sheep",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Pigs On The Wing (One)",
+      "page": 114,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Pigs On The Wing (One)",
+      "page": 115,
+      "detected_title": "Pigs (One)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Pigs On The Wing (One)",
+      "page": 117,
+      "detected_title": "Pigs on the Wing (Two)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Pigs (Three Different Ones)",
+      "page": 118,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Pigs (Three Different Ones)",
+      "page": 119,
+      "detected_title": "Pigs (Three Different Ones)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Embryo",
+      "page": 128,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Embryo",
+      "page": 129,
+      "detected_title": "embryo",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Another Brick in the Wall Part 2",
+      "page": 130,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Another Brick in the Wall Part 2",
+      "page": 131,
+      "detected_title": "another brick in the wall - part 2",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Goodbye Blue Sky",
+      "page": 133,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Goodbye Blue Sky",
+      "page": 134,
+      "detected_title": "goodbye blue sky",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Young Lust",
+      "page": 136,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Young Lust",
+      "page": 137,
+      "detected_title": "Young Lust",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Hey You",
+      "page": 140,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Hey You",
+      "page": 141,
+      "detected_title": "Hey You",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Comfortably Numb",
+      "page": 145,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Comfortably Numb",
+      "page": 146,
+      "detected_title": "Comfortably Numb",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "When The Tigers Broke Free",
+      "page": 150,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "When The Tigers Broke Free",
+      "page": 151,
+      "detected_title": "When The Tigers Broke Free",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Not Now John",
+      "page": 154,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Not Now John",
+      "page": 155,
+      "detected_title": "Not Now John",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Your Possible Pasts",
+      "page": 159,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Your Possible Pasts",
+      "page": 160,
+      "detected_title": "Your Possible Pasts",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "Paranoid Eyes",
+      "page": 164,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Paranoid Eyes",
+      "page": 165,
+      "detected_title": "paranoid eyes",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "The Final Cut",
+      "page": 168,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Final Cut",
+      "page": 169,
+      "detected_title": "the final cut",
+      "severity": "HIGH"
+    },
+    {
+      "type": "CUT_SHORT",
+      "song": "The Final Cut",
+      "page": 174,
+      "after_content_type": "song_continuation",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "TIME",
+      "page": 11,
+      "detected_title": "BREATHE (Reprise)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE DOG WATCH",
+      "page": 73,
+      "detected_title": "SHEEP",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "TIME",
+      "page": 34,
+      "detected_title": "BREATHE (Reprise)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "US AND THEM",
+      "page": 80,
+      "detected_title": "BREATHE (Second Reprise)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Happiest Days of our Lives",
+      "page": 12,
+      "detected_title": "Another Brick in The Wall, part 2",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Don't Leave me now",
+      "page": 36,
+      "detected_title": "Another Brick in the Wall, part 3",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 8,
+      "detected_title": "Shine On You Crazy Diamond (Part II)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 17,
+      "detected_title": "Shine On You Crazy Diamond (Part V)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 20,
+      "detected_title": "Shine On You Crazy Diamond (Part VI)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 24,
+      "detected_title": "Shine On You Crazy Diamond (Part VII)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 26,
+      "detected_title": "Shine On You Crazy Diamond (Part VIII)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 27,
+      "detected_title": "Shine On You Crazy Diamond (Part IX)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 28,
+      "detected_title": "Shine On You Crazy Diamond (Part IX)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 13,
+      "detected_title": "Shine On You Crazy Diamond (Part III)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 20,
+      "detected_title": "Shine On You Crazy Diamond (Part IV)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 24,
+      "detected_title": "Shine On You Crazy Diamond (Part V)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 35,
+      "detected_title": "Shine On You Crazy Diamond (Part VI)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 49,
+      "detected_title": "Shine On You Crazy Diamond (Part VII)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 52,
+      "detected_title": "Shine On You Crazy Diamond (Part VIII)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Shine On You Crazy Diamond (Part I)",
+      "page": 54,
+      "detected_title": "Shine On You Crazy Diamond (Part IX)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Spirits In The Material World",
+      "page": 34,
+      "detected_title": "Spirits In The Material World",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I'M IN LOVE WITH MY CAR",
+      "page": 82,
+      "detected_title": "I'm In Love With My Car",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "BICYCLE RACE",
+      "page": 87,
+      "detected_title": "Bicycle Race",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "YOU'VE GOT A FRIEND IN ME",
+      "page": 184,
+      "detected_title": "SHORT PEOPLE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Palm Leaf Rag",
+      "page": 59,
+      "detected_title": "PALM LEAF RAG",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "(The) Chrysanthemums (An Afro Intermezzo)",
+      "page": 83,
+      "detected_title": "THE CHRYSANTHEMUM",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "YOU'RE STILL THE ONE",
+      "page": 66,
+      "detected_title": "DON'T BE STUPID (YOU KNOW I LOVE YOU)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WHOSE BED HAVE YOUR BOOTS BEEN UNDER?",
+      "page": 118,
+      "detected_title": "Whose Bed Have Your Boots Been Under",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WHOSE BED HAVE YOUR BOOTS BEEN UNDER?",
+      "page": 119,
+      "detected_title": "DON'T",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "TAKE THE LONG WAY HOME",
+      "page": 41,
+      "detected_title": "TAKE THE LONG WAY HOME",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "RUMOR, THE",
+      "page": 25,
+      "detected_title": "THE RUMOR",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "RAG MAMA RAG",
+      "page": 21,
+      "detected_title": "Rag Mama Rag",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Etienne",
+      "page": 17,
+      "detected_title": "Etienne",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Past The Mission",
+      "page": 99,
+      "detected_title": "Space Dog",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "When the Leaves Come Falling Down",
+      "page": 28,
+      "detected_title": "When the Leaves Come Falling Down",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "PERFECT FIT",
+      "page": 3,
+      "detected_title": "Perfect Fit",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "RUSSIAN ROULETTE",
+      "page": 6,
+      "detected_title": "Russian Roulette",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "UNDERLYING DEPRESSION",
+      "page": 21,
+      "detected_title": "Underlying Depression",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SONGWRITER",
+      "page": 24,
+      "detected_title": "Songwriter",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Bingo",
+      "page": 20,
+      "detected_title": "B-I-N-G-O",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Home on the Range",
+      "page": 52,
+      "detected_title": "Home on the Range",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "HEY CINDERELLA",
+      "page": 53,
+      "detected_title": "Hey Cinderella",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ALL SHOOK UP",
+      "page": 11,
+      "detected_title": "ALL I HAVE TO DO IS DREAM",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Poor Jenny",
+      "page": 96,
+      "detected_title": "Poor Jenny",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SO SAD (To Watch Good Love Go Bad)",
+      "page": 115,
+      "detected_title": "SO SAD (TO WATCH GOOD LOVE GO BAD)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WHEN WILL I BE LOVED",
+      "page": 146,
+      "detected_title": "When Will I Be Loved?",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Barbara Ann",
+      "page": 158,
+      "detected_title": "Bird Dog",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "True Love Ways",
+      "page": 187,
+      "detected_title": "Your Cheatin' Heart",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Only The Lonely",
+      "page": 212,
+      "detected_title": "Peggy Sue",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 239,
+      "detected_title": "Summertime Blues",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 242,
+      "detected_title": "THE GIRL OF MY BEST FRIEND",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 246,
+      "detected_title": "TO KNOW HIM IS TO LOVE HIM",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 249,
+      "detected_title": "True Love Ways",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 252,
+      "detected_title": "Twenty Flight Rock",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 254,
+      "detected_title": "Why Do Fools Fall In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 257,
+      "detected_title": "Why Do Fools Fall In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 260,
+      "detected_title": "WIPE OUT",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STAND BY ME",
+      "page": 262,
+      "detected_title": "ALL I HAVE TO DO IS DREAM",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ALLY, ALLY OXEN FREE",
+      "page": 2,
+      "detected_title": "ALLY ALLY OXEN FREE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "BABY, THE RAIN MUST FALL",
+      "page": 6,
+      "detected_title": "BABY, THE RAIN MUST FALL",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "BAUBLES, BANGLES AND BEADS",
+      "page": 7,
+      "detected_title": "BEAUTIFUL BROWN EYES",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "(Everything I Do) I Do It For You",
+      "page": 26,
+      "detected_title": "(Everything I Do) I Do It For You",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Purple Rain",
+      "page": 52,
+      "detected_title": "Purple Rain",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Purple Rain",
+      "page": 54,
+      "detected_title": "Purple Rain",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "FRIENDS & LOVERS",
+      "page": 11,
+      "detected_title": "(Both To Each Other)",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "ARTHUR'S THEME",
+      "page": 25,
+      "detected_title": "(Best That You Can Do)",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Rising",
+      "page": 9,
+      "detected_title": "The Rising",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Broken",
+      "page": 38,
+      "detected_title": "Boulevard of Broken Dreams",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Devils & Dust",
+      "page": 50,
+      "detected_title": "Devils & Dust",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "Unchild",
+      "page": 194,
+      "detected_title": "UNTITLED (How Can This Happen to Me?)",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Angel Of Mine",
+      "page": 15,
+      "detected_title": "ANGEL",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ALONE",
+      "page": 7,
+      "detected_title": "How Do I Get You Alone",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "DON'T DO ME LIKE THAT",
+      "page": 76,
+      "detected_title": "What If I Loved You, Baby?",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "PICTURES OF LILY",
+      "page": 252,
+      "detected_title": "Pictures of Lily",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "GOOD MORNING BEAUTIFUL",
+      "page": 80,
+      "detected_title": "Good Morning Beautiful",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "LET'S MAKE LOVE",
+      "page": 190,
+      "detected_title": "Let's Make Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "SIAM HAND",
+      "page": 59,
+      "detected_title": "SLOW HAND",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "EDEN IS LOVE",
+      "page": 92,
+      "detected_title": "EVERLASTING LOVE",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "BIG GIRLS DON'T CRY",
+      "page": 34,
+      "detected_title": "Big Girls Don't Cry",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "PARTY DOLL",
+      "page": 144,
+      "detected_title": "PARTY DOLL",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "PRETTY BLUE EYES",
+      "page": 148,
+      "detected_title": "Pretty Blue Eyes",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "WHY DO FOOLS FALL IN LOVE?",
+      "page": 208,
+      "detected_title": "Why Do Fools Fall In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ABC-DEF-GHI",
+      "page": 4,
+      "detected_title": "ABC-DEF-GHI",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "Candy Man, The",
+      "page": 41,
+      "detected_title": "THE CANDY MAN",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Home On The Range",
+      "page": 104,
+      "detected_title": "Home on the Range",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Sing",
+      "page": 166,
+      "detected_title": "SING A SONG OF SIXPENCE",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "American Idiot",
+      "page": 30,
+      "detected_title": "American Idiot",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Boulevard of Broken Dreams",
+      "page": 47,
+      "detected_title": "BROKEN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Hello",
+      "page": 46,
+      "detected_title": "Hello",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Woman",
+      "page": 124,
+      "detected_title": "A Woman In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Hello",
+      "page": 46,
+      "detected_title": "Hello",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Woman",
+      "page": 124,
+      "detected_title": "A Woman In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Wild Ones",
+      "page": 4,
+      "detected_title": "What You're Proposing",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Stormtrooper",
+      "page": 34,
+      "detected_title": "Stormtrooper",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Hit And Run",
+      "page": 44,
+      "detected_title": "Hit And Run",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Jump",
+      "page": 48,
+      "detected_title": "Jump",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "STARDUST",
+      "page": 85,
+      "detected_title": "STARDUST",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Dominique",
+      "page": 36,
+      "detected_title": "Dominique",
+      "severity": "HIGH"
+    },
+    {
+      "type": "FIRST_NOT_SONG_START",
+      "song": "One Tin Soldier",
+      "page": 96,
+      "expected": "song_start",
+      "actual": "song_continuation",
+      "detected_title": null,
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "One Tin Soldier",
+      "page": 98,
+      "detected_title": "One Tin Soldier",
+      "severity": "HIGH"
+    },
+    {
+      "type": "TITLE_MISMATCH",
+      "song": "Twist, The",
+      "page": 151,
+      "detected_title": "THE TWIST",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE CANDY MAN",
+      "page": 39,
+      "detected_title": "The Candy Man",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "HAPPY, HAPPY BIRTHDAY TO YOU",
+      "page": 115,
+      "detected_title": "Happy Birthday",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "HICKORY DICKORY DOCK",
+      "page": 123,
+      "detected_title": "Hickory, Dickory, Dock",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "THE MULBERRY BUSH",
+      "page": 191,
+      "detected_title": "Here We Go Round the Mulberry Bush",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "OLD MACDONALD HAD A FARM",
+      "page": 203,
+      "detected_title": "Old MacDonald Had a Farm",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Woman",
+      "page": 124,
+      "detected_title": "A Woman In Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "FOR THE FIRST TIME",
+      "page": 77,
+      "detected_title": "FOREVER",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "FOR YOU",
+      "page": 86,
+      "detected_title": "FOR YOU I WILL",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "HOW DO YOU TALK TO AN ANGEL",
+      "page": 107,
+      "detected_title": "How Do You Talk to an Angel?",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "HERO",
+      "page": 112,
+      "detected_title": "HERO'S DREAM",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I DO",
+      "page": 144,
+      "detected_title": "(EVERYTHING I DO) I DO IT FOR YOU",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I DO",
+      "page": 149,
+      "detected_title": "I DON'T WANT TO",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "IN THIS LIFE",
+      "page": 184,
+      "detected_title": "I'D LIE FOR YOU (And That's the Truth)",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "KEY WEST INTERMEZZO (I SAW YOU FIRST)",
+      "page": 194,
+      "detected_title": "I'LL BE THERE FOR YOU",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "LOVE IS",
+      "page": 230,
+      "detected_title": "LOVE IS A WONDERFUL THING",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "UN-BREAK MY HEART",
+      "page": 355,
+      "detected_title": "UNTIL I FIND YOU AGAIN",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "FROM A DISTANCE",
+      "page": 409,
+      "detected_title": "From a Distance",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Don't You Want Me",
+      "page": 38,
+      "detected_title": "Don't You Want Me",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Ghost Town",
+      "page": 58,
+      "detected_title": "Ghost Town",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Power Of Love",
+      "page": 91,
+      "detected_title": "The Power of Love",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Total Eclipse of The Heart",
+      "page": 118,
+      "detected_title": "Total Eclipse of the Heart",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "The Whole Of The Moon",
+      "page": 162,
+      "detected_title": "Ach bleib mit deiner Gnade",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "ALL MY LIFE",
+      "page": 5,
+      "detected_title": "All My Life",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I SWEAR",
+      "page": 180,
+      "detected_title": "I WILL ALWAYS LOVE YOU",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Christmas Time Is Here",
+      "page": 17,
+      "detected_title": "Christmas Time Is Here",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "YOU",
+      "page": 42,
+      "detected_title": "CAN'T REACH YOU",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "TATTOO",
+      "page": 52,
+      "detected_title": "DID YOU STEAL MY MONEY!",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "PICTURES OF LILY",
+      "page": 85,
+      "detected_title": "Pictures of Lily",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "Teenage Wasteland",
+      "page": 163,
+      "detected_title": "HOW CAN YOU DO IT ALONE?",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "I've Got My Kit-bag",
+      "page": 191,
+      "detected_title": "WHO ARE YOU",
+      "severity": "HIGH"
+    },
+    {
+      "type": "MID_SONG_START",
+      "song": "SILLY LOVE SONGS",
+      "page": 87,
+      "detected_title": "BEWARE MY LOVE",
+      "severity": "HIGH"
+    }
+  ]
+}

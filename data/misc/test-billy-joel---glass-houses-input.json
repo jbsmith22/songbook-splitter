@@ -1,6 +1,0 @@
-{
-  "artist": "Billy Joel",
-  "book_title": "Billy Joel - Glass Houses",
-  "s3_input_key": "SheetMusicIn/Billy Joel/Books/Billy Joel - Glass Houses.pdf",
-  "s3_output_prefix": "SheetMusicOut/Billy_Joel/Billy_Joel_-_Glass_Houses"
-}

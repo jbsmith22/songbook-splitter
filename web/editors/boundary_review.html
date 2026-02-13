@@ -1,0 +1,2161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Boundary Review - Song Absorption Checker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+            background: #1a1a2e;
+            color: #eee;
+        }
+
+        /* Top bar */
+        .top-bar {
+            background: #0f3460;
+            padding: 8px 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-bottom: 2px solid #00d9ff;
+            flex-shrink: 0;
+        }
+        .top-bar h1 {
+            font-size: 16px;
+            color: #00d9ff;
+            white-space: nowrap;
+        }
+        .top-bar .info {
+            font-size: 13px;
+            color: #aaa;
+        }
+        .top-bar .info strong { color: #fff; }
+        .top-bar .btn-export {
+            margin-left: auto;
+            padding: 4px 12px;
+            background: #2ecc71;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .top-bar .btn-export:hover { background: #27ae60; }
+        .top-bar .btn-export:disabled { opacity: 0.4; cursor: default; }
+        .top-bar .progress {
+            font-size: 12px;
+            color: #FF9800;
+            white-space: nowrap;
+        }
+
+        /* Main layout */
+        .main-layout {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 300px;
+            background: #16213e;
+            border-right: 2px solid #333;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+        .sidebar-header {
+            padding: 10px 12px;
+            border-bottom: 1px solid #333;
+            background: #0f3460;
+        }
+        .sidebar-header h2 {
+            font-size: 13px;
+            color: #00d9ff;
+            margin-bottom: 6px;
+        }
+        .sidebar-header input {
+            width: 100%;
+            padding: 5px 8px;
+            background: #1a1a2e;
+            border: 1px solid #444;
+            color: #eee;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+        .book-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 6px;
+        }
+        .book-item {
+            background: #1a1a2e;
+            padding: 8px 10px;
+            margin-bottom: 3px;
+            border-radius: 4px;
+            border-left: 4px solid #f44336;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .book-item:hover { background: #0f3460; }
+        .book-item.active {
+            border-left-color: #00d9ff;
+            background: #1a2a4e;
+        }
+        .book-item .artist {
+            font-size: 10px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .book-item .book-name {
+            font-size: 13px;
+            color: #eee;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .book-item .issue-badge {
+            display: inline-block;
+            background: #f44336;
+            color: white;
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: bold;
+            margin-left: 4px;
+        }
+
+        /* Main content area */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Book header */
+        .book-header {
+            padding: 10px 15px;
+            background: #16213e;
+            border-bottom: 1px solid #333;
+            flex-shrink: 0;
+        }
+        .book-header .title {
+            font-size: 18px;
+            color: #fff;
+        }
+        .book-header .title .artist-prefix {
+            color: #888;
+            font-weight: normal;
+        }
+        .book-header .stats {
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 4px;
+        }
+        .book-header .stats .warn { color: #FF9800; font-weight: bold; }
+        .book-header .stats .ok { color: #4CAF50; }
+        .book-header .header-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 4px;
+        }
+        .btn-execute {
+            padding: 4px 14px;
+            background: #d32f2f;
+            color: #fff;
+            border: 1px solid #d32f2f;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-execute:hover { background: #e53935; }
+        .btn-execute:disabled { opacity: 0.4; cursor: default; }
+        .btn-execute.success { background: #2e7d32; border-color: #2e7d32; }
+
+        /* Confirmation modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal {
+            background: #1a1a2e;
+            border: 2px solid #00d9ff;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 550px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .modal h3 {
+            color: #00d9ff;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+        .modal .change-list {
+            font-size: 13px;
+            margin: 10px 0;
+        }
+        .modal .change-item {
+            padding: 6px 0;
+            border-bottom: 1px solid #333;
+        }
+        .modal .change-item .old-song { color: #FF9800; }
+        .modal .change-item .new-song { color: #4CAF50; }
+        .modal .change-item .page-ref { color: #888; font-size: 11px; }
+        .modal .modal-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            justify-content: flex-end;
+        }
+        .modal .modal-actions button {
+            padding: 6px 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .modal .btn-confirm {
+            background: #d32f2f;
+            color: #fff;
+            font-weight: bold;
+        }
+        .modal .btn-confirm:hover { background: #e53935; }
+        .modal .btn-cancel {
+            background: #555;
+            color: #fff;
+        }
+        .modal .btn-cancel:hover { background: #666; }
+        .modal .status-msg {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #aaa;
+        }
+        .modal .status-msg.error { color: #f44336; }
+        .modal .status-msg.success { color: #4CAF50; }
+
+        /* Row sections */
+        .row-section {
+            flex-shrink: 0;
+            border-bottom: 1px solid #333;
+        }
+        .row-label {
+            background: #0f3460;
+            padding: 4px 12px;
+            font-size: 11px;
+            color: #00d9ff;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .row-label .row-stats {
+            color: #aaa;
+            font-size: 10px;
+            text-transform: none;
+        }
+        .thumbnail-strip {
+            height: 130px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            display: flex;
+            align-items: center;
+            padding: 6px;
+            background: #1e1e1e;
+            position: relative;
+        }
+        .thumbnail-container {
+            display: flex;
+            gap: 2px;
+            position: relative;
+            height: 100%;
+        }
+
+        /* Thumbnail pages */
+        .thumb-page {
+            position: relative;
+            width: 65px;
+            height: 100%;
+            flex-shrink: 0;
+            cursor: pointer;
+            border: 2px solid transparent;
+            border-radius: 2px;
+            overflow: hidden;
+            background: #333;
+        }
+        .thumb-page:hover {
+            border-color: #555;
+        }
+        .thumb-page.highlighted {
+            border-color: #FF9800;
+            box-shadow: 0 0 6px rgba(255, 152, 0, 0.6);
+        }
+        .thumb-page canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .thumb-page .page-num {
+            position: absolute;
+            bottom: 1px;
+            right: 1px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 1px 3px;
+            font-size: 9px;
+            border-radius: 2px;
+            z-index: 6;
+        }
+        .thumb-page .song-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            z-index: 6;
+        }
+
+        /* Uncovered pages */
+        .thumb-page.uncovered {
+            background: #4a1a1a;
+        }
+        .thumb-page.uncovered::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(244, 67, 67, 0.25);
+            pointer-events: none;
+            z-index: 5;
+        }
+        .thumb-page.uncovered .page-num {
+            background: rgba(244, 67, 67, 0.8);
+        }
+
+        /* Issue marker */
+        .issue-marker {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            width: 16px;
+            height: 16px;
+            background: #FF9800;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            color: #000;
+            z-index: 10;
+        }
+
+        /* Song gap divider in bottom row */
+        .song-gap {
+            width: 6px;
+            height: 100%;
+            flex-shrink: 0;
+            background: #0f3460;
+            border-left: 1px solid #00d9ff;
+            border-right: 1px solid #00d9ff;
+        }
+
+        /* Missing page placeholder in bottom row */
+        .thumb-missing {
+            position: relative;
+            width: 65px;
+            height: 100%;
+            flex-shrink: 0;
+            background: repeating-linear-gradient(
+                45deg, #4a1a1a, #4a1a1a 4px, #3a1010 4px, #3a1010 8px
+            );
+            border: 2px dashed #f44336;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .thumb-missing .page-num {
+            position: absolute;
+            bottom: 1px;
+            right: 1px;
+            background: rgba(244, 67, 67, 0.8);
+            color: white;
+            padding: 1px 3px;
+            font-size: 9px;
+            border-radius: 2px;
+        }
+
+        /* Split marker */
+        .split-marker {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: #FF9800;
+            z-index: 20;
+            pointer-events: none;
+        }
+
+        /* Preview panel */
+        .preview-panel {
+            flex: 1;
+            background: #1a1a2e;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .preview-header {
+            background: #0f3460;
+            padding: 6px 12px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-shrink: 0;
+            flex-wrap: wrap;
+        }
+        .preview-header .info-text {
+            color: #aaa;
+            flex: 1;
+            min-width: 200px;
+        }
+        .preview-header .info-text strong { color: #fff; }
+        .preview-header .info-text .warn { color: #FF9800; }
+        .preview-nav {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .preview-nav button, .preview-header > button {
+            padding: 3px 10px;
+            background: #333;
+            border: 1px solid #555;
+            color: #eee;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 11px;
+            white-space: nowrap;
+        }
+        .preview-nav button:hover, .preview-header > button:hover { background: #555; }
+        .preview-nav button.nav-accent {
+            background: #6C5CE7;
+            border-color: #6C5CE7;
+        }
+        .preview-nav button.nav-accent:hover { background: #7d6ff0; }
+        .preview-nav button.nav-warn {
+            background: #e65100;
+            border-color: #e65100;
+        }
+        .preview-nav button.nav-warn:hover { background: #f57200; }
+        .preview-nav button.nav-split {
+            background: #d32f2f;
+            border-color: #d32f2f;
+            font-weight: bold;
+        }
+        .preview-nav button.nav-split:hover { background: #e53935; }
+        .preview-nav button.nav-split.ordered {
+            background: #2e7d32;
+            border-color: #2e7d32;
+        }
+        .preview-nav button.nav-split.ordered:hover { background: #388e3c; }
+        .preview-nav button.nav-merge {
+            background: #7b1fa2;
+            border-color: #7b1fa2;
+            font-weight: bold;
+        }
+        .preview-nav button.nav-merge:hover { background: #9c27b0; }
+        .preview-nav button.nav-merge.ordered {
+            background: #4a148c;
+            border-color: #ce93d8;
+            color: #ce93d8;
+        }
+        .preview-nav button.nav-merge.ordered:hover { background: #6a1b9a; }
+        .preview-nav button.nav-dismiss {
+            background: #546e7a;
+            border-color: #546e7a;
+        }
+        .preview-nav button.nav-dismiss:hover { background: #607d8b; }
+        .preview-nav button.nav-dismiss.dismissed {
+            background: #37474f;
+            border-color: #78909c;
+            color: #90a4ae;
+            text-decoration: line-through;
+        }
+        .preview-nav button.nav-dismiss.dismissed:hover { background: #455a64; }
+        .preview-nav .sep {
+            width: 1px;
+            height: 18px;
+            background: #555;
+            margin: 0 2px;
+        }
+        .preview-canvas-wrap {
+            flex: 1;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 10px;
+        }
+        .preview-side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 48%;
+        }
+        .preview-side-label {
+            font-size: 11px;
+            color: #00d9ff;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        .preview-side canvas {
+            max-width: 100%;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+        .preview-side .no-page {
+            width: 300px;
+            height: 400px;
+            background: #2a2a2a;
+            border: 2px dashed #555;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 13px;
+        }
+
+        /* Welcome message */
+        .welcome {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        /* Tooltip */
+        .tooltip {
+            position: fixed;
+            background: #0f3460;
+            color: #eee;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            border: 1px solid #00d9ff;
+            z-index: 1000;
+            pointer-events: none;
+            max-width: 350px;
+            line-height: 1.4;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <h1>Boundary Review</h1>
+        <div class="info" id="top-info">40 books with absorbed song issues</div>
+        <button class="btn-export" id="btn-export" disabled onclick="exportSplitOrders()" title="Export split orders as JSON for apply_absorption_fixes.py">Export Split Orders</button>
+        <div class="progress" id="loading-progress"></div>
+    </div>
+
+    <div class="main-layout">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Books with Issues (<span id="book-count">0</span>)</h2>
+                <input type="text" id="book-search" placeholder="Filter by artist or book..." oninput="filterBooks()">
+            </div>
+            <div class="book-list" id="book-list"></div>
+        </div>
+
+        <!-- Main content -->
+        <div class="main-content" id="main-content">
+            <div class="welcome" id="welcome">
+                Select a book from the sidebar to review boundaries.<br>
+                <span style="font-size: 13px; color: #444;">
+                    Top row = input PDF pages | Bottom row = extracted song PDFs<br>
+                    Red = uncovered pages | Orange ! = absorbed song detected
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tooltip element -->
+    <div class="tooltip" id="tooltip" style="display: none;"></div>
+
+    <script>
+        // ===== PDF.js setup =====
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+        // ===== CONSTANTS =====
+        const SONG_COLORS = [
+            '#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8',
+            '#F7DC6F', '#BB8FCE', '#85C1E2', '#F8B4B4', '#95E1D3',
+            '#FDCB6E', '#6C5CE7', '#74B9FF', '#55EFC4', '#FFEAA7'
+        ];
+
+        // ===== PROBLEM BOOKS (extracted from categorized_issues.json absorbed_song array) =====
+        const PROBLEM_BOOKS = [
+            { artist: "Beatles", book: "100 Hits For All Keyboards", issues: [
+                { song: "Getting Better", page: 60, detected: "Girl" },
+                { song: "While My Guitar Gently Weeps", page: 188, detected: "With A Little Help From My Friends" }
+            ]},
+            { artist: "Beatles", book: "All Songs 1962-1974", issues: [
+                { song: "I Saw Her Standing There", page: 31, detected: "I'm In Love" },
+                { song: "I'm Down", page: 92, detected: "Girl" },
+                { song: "I'm Only Sleeping", page: 128, detected: "Love You To" },
+                { song: "When I'm Sixty Four", page: 165, detected: "With A Little Help From My Friends" },
+                { song: "Step Inside Love", page: 220, detected: "Wild Honey Pie" },
+                { song: "Golden Slumbers", page: 242, detected: "Goodbye" },
+                { song: "Octopus's Garden", page: 255, detected: "Something" }
+            ]},
+            { artist: "Beatles", book: "Anthology", issues: [
+                { song: "I Saw Her Standing There", page: 31, detected: "I'm In Love" },
+                { song: "I'm Down", page: 92, detected: "Girl" },
+                { song: "I'm Only Sleeping", page: 128, detected: "Love You To" },
+                { song: "When I'm Sixty Four", page: 165, detected: "With A Little Help From My Friends" },
+                { song: "Step Inside Love", page: 220, detected: "Wild Honey Pie" },
+                { song: "Golden Slumbers", page: 242, detected: "Goodbye" },
+                { song: "Octopus's Garden", page: 255, detected: "Something" }
+            ]},
+            { artist: "Beatles", book: "Essential Songs", issues: [
+                { song: "WORDS OF LOVE", page: 369, detected: "WITH A LITTLE HELP FROM MY FRIENDS" }
+            ]},
+            { artist: "Beatles", book: "Songbook", issues: [
+                { song: "I Saw Her Standing There", page: 31, detected: "I'm In Love" },
+                { song: "I'm Down", page: 92, detected: "Girl" },
+                { song: "I'm Only Sleeping", page: 128, detected: "Love You To" },
+                { song: "When I'm Sixty Four", page: 165, detected: "With A Little Help From My Friends" },
+                { song: "Ach bleib mit deiner Gnade", page: 217, detected: "Ode to Joy" },
+                { song: "Ach bleib mit deiner Gnade", page: 220, detected: "Wild Honey Pie" },
+                { song: "Golden Slumbers", page: 242, detected: "Goodbye" },
+                { song: "Octopus's Garden", page: 255, detected: "Something" }
+            ]},
+            { artist: "Belinda Carlisle", book: "5 Of The Best", issues: [
+                { song: "Heaven Is A Place On Earth", page: 7, detected: "When The Night" }
+            ]},
+            { artist: "Billy Joel", book: "Fantasies And Delusions", issues: [
+                { song: "Opus 8 Suite For Piano (Star-Crossed) I. Innamorato", page: 80, detected: "II. Sorbetto" },
+                { song: "Opus 8 Suite For Piano (Star-Crossed) I. Innamorato", page: 83, detected: "III. Delusion from Suite For Piano (Star-Crossed)" }
+            ]},
+            { artist: "Billy Joel", book: "Greatest Hits Vols 1 And 2", issues: [
+                { song: "ROOT BEER RAG", page: 36, detected: "PIANO MAN" },
+                { song: "THE STRANGER", page: 57, detected: "JUST THE WAY YOU ARE" }
+            ]},
+            { artist: "Billy Joel", book: "My Lives", issues: [
+                { song: "Innamorato from Suite For Piano", page: 376, detected: "SORBETTO" },
+                { song: "Innamorato from Suite For Piano", page: 379, detected: "DELUSION" }
+            ]},
+            { artist: "Bob Dylan", book: "Saved", issues: [
+                { song: "Saved", page: 9, detected: "I Just Want to Thank You, Lord" }
+            ]},
+            { artist: "Bruce Springsteen", book: "Greatest Hits", issues: [
+                { song: "ATLANTIC CITY", page: 8, detected: "THIS HARD LAND" },
+                { song: "BORN IN THE U.S.A.", page: 25, detected: "THIS HARD LAND" },
+                { song: "HUMAN TOUCH", page: 39, detected: "THIS HARD LAND" }
+            ]},
+            { artist: "Dr John", book: "New Orleans Piano Vol 2", issues: [
+                { song: "Blues With a Raised F Chord", page: 13, detected: "Such A Night" }
+            ]},
+            { artist: "Eagles", book: "New Eagles Complete", issues: [
+                { song: "TWENTY ONE", page: 86, detected: "DESPERADO PART II" },
+                { song: "TWENTY ONE", page: 89, detected: "DOOLIN-DALTON PART II" },
+                { song: "LIFE'S BEEN GOOD", page: 298, detected: "DOOLIN-DALTON (REPRISE II)" }
+            ]},
+            { artist: "Elton John", book: "Too Low For Zero", issues: [
+                { song: "I'm Still Standing", page: 11, detected: "TOO LOW FOR ZERO" }
+            ]},
+            { artist: "Genesis", book: "Seconds Out", issues: [
+                { song: "Supper's Ready", page: 57, detected: "Willow Farm" }
+            ]},
+            { artist: "Genesis", book: "Selling England By The Pound", issues: [
+                { song: "The cinema show", page: 85, detected: "Aisle of plenty" }
+            ]},
+            { artist: "George Michael", book: "Greatest Hits", issues: [
+                { song: "FAITH", page: 49, detected: "FANTASY" },
+                { song: "FAITH", page: 59, detected: "FASTLOVE" },
+                { song: "JESUS TO A CHILD", page: 128, detected: "KILLER/PAPA WAS A ROLLING STONE" }
+            ]},
+            { artist: "James Taylor", book: "Guitar Songbook _guitar Tab_", issues: [
+                { song: "Highway Song", page: 28, detected: "Back On The Road Again" }
+            ]},
+            { artist: "Joni Mitchell", book: "Songbook Complete Vol1 1966-1970", issues: [
+                { song: "Marcie", page: 29, detected: "Night in the City" },
+                { song: "Marcie", page: 30, detected: "Night in the City" },
+                { song: "Nathan La Franeer", page: 36, detected: "Song to a Seagull" },
+                { song: "The Dancetrader", page: 43, detected: "The Pirate of Penance" },
+                { song: "The Gallery", page: 75, detected: "That Song About the Midway" },
+                { song: "He Played Real Good for Free", page: 115, detected: "Big Yellow Taxi" },
+                { song: "He Played Real Good for Free", page: 118, detected: "The Circle Game" }
+            ]},
+            { artist: "Kelly Clarkson", book: "Breakaway", issues: [
+                { song: "BECAUSE OF YOU", page: 24, detected: "GONE" }
+            ]},
+            { artist: "Kinks", book: "Jam With The Kinks _guitar Tab_", issues: [
+                { song: "Waterloo Sunset", page: 55, detected: "Lola" }
+            ]},
+            { artist: "Melissa Etheridge", book: "Songbook", issues: [
+                { song: "I Want You", page: 41, detected: "Chrome Plated Heart" },
+                { song: "I Want You", page: 43, detected: "WATCHING YOU" }
+            ]},
+            { artist: "Michael Jackson", book: "Number Ones", issues: [
+                { song: "SMOOTH CRIMINAL", page: 100, detected: "Annie Are You OK?" }
+            ]},
+            { artist: "Neil Young", book: "Decade", issues: [
+                { song: "Harvest", page: 90, detected: "The Needle and the Damage Done" }
+            ]},
+            { artist: "Pink", book: "IM Not Dead", issues: [
+                { song: "Conversations with My 13 Year Old Self", page: 111, detected: "Stupid Girls" },
+                { song: "Conversations with My 13 Year Old Self", page: 112, detected: "Stupid Girls" },
+                { song: "Conversations with My 13 Year Old Self", page: 113, detected: "Stupid Girls" }
+            ]},
+            { artist: "Pink Floyd", book: "Anthology", issues: [
+                { song: "Pigs On The Wing (One)", page: 115, detected: "Pigs (One)" }
+            ]},
+            { artist: "Pink Floyd", book: "Dark Side Of The Moon", issues: [
+                { song: "TIME", page: 11, detected: "BREATHE (Reprise)" },
+                { song: "THE DOG WATCH", page: 73, detected: "SHEEP" }
+            ]},
+            { artist: "Pink Floyd", book: "Dark Side Of The Moon _guitar Tab_", issues: [
+                { song: "TIME", page: 34, detected: "BREATHE (Reprise)" },
+                { song: "US AND THEM", page: 80, detected: "BREATHE (Second Reprise)" }
+            ]},
+            { artist: "Pink Floyd", book: "The Wall", issues: [
+                { song: "The Happiest Days of our Lives", page: 12, detected: "Another Brick in The Wall, part 2" },
+                { song: "Don't Leave me now", page: 36, detected: "Another Brick in the Wall, part 3" }
+            ]},
+            { artist: "Randy Newman", book: "Collection", issues: [
+                { song: "YOU'VE GOT A FRIEND IN ME", page: 184, detected: "SHORT PEOPLE" }
+            ]},
+            { artist: "Shania Twain", book: "Greatest Hits", issues: [
+                { song: "YOU'RE STILL THE ONE", page: 66, detected: "DON'T BE STUPID (YOU KNOW I LOVE YOU)" },
+                { song: "WHOSE BED HAVE YOUR BOOTS BEEN UNDER?", page: 119, detected: "DON'T" }
+            ]},
+            { artist: "Tori Amos", book: "Anthology", issues: [
+                { song: "Past The Mission", page: 99, detected: "Space Dog" }
+            ]},
+            { artist: "Various Artists", book: "50s And 60s", issues: [
+                { song: "ALL SHOOK UP", page: 11, detected: "ALL I HAVE TO DO IS DREAM" },
+                { song: "Barbara Ann", page: 158, detected: "Bird Dog" },
+                { song: "True Love Ways", page: 187, detected: "Your Cheatin' Heart" },
+                { song: "Only The Lonely", page: 212, detected: "Peggy Sue" },
+                { song: "STAND BY ME", page: 239, detected: "Summertime Blues" },
+                { song: "STAND BY ME", page: 242, detected: "THE GIRL OF MY BEST FRIEND" },
+                { song: "STAND BY ME", page: 246, detected: "TO KNOW HIM IS TO LOVE HIM" },
+                { song: "STAND BY ME", page: 249, detected: "True Love Ways" },
+                { song: "STAND BY ME", page: 252, detected: "Twenty Flight Rock" },
+                { song: "STAND BY ME", page: 254, detected: "Why Do Fools Fall In Love" },
+                { song: "STAND BY ME", page: 257, detected: "Why Do Fools Fall In Love" },
+                { song: "STAND BY ME", page: 260, detected: "WIPE OUT" },
+                { song: "STAND BY ME", page: 262, detected: "ALL I HAVE TO DO IS DREAM" }
+            ]},
+            { artist: "Various Artists", book: "Classic Rock 73 Songs", issues: [
+                { song: "DON'T DO ME LIKE THAT", page: 76, detected: "What If I Loved You, Baby?" }
+            ]},
+            { artist: "Various Artists", book: "Heavy Metal Vol III", issues: [
+                { song: "The Wild Ones", page: 4, detected: "What You're Proposing" }
+            ]},
+            { artist: "Various Artists", book: "Ultimate 100 Pop Hits Of The 90s", issues: [
+                { song: "FOR THE FIRST TIME", page: 77, detected: "FOREVER" },
+                { song: "IN THIS LIFE", page: 184, detected: "I'D LIE FOR YOU (And That's the Truth)" },
+                { song: "KEY WEST INTERMEZZO (I SAW YOU FIRST)", page: 194, detected: "I'LL BE THERE FOR YOU" },
+                { song: "UN-BREAK MY HEART", page: 355, detected: "UNTIL I FIND YOU AGAIN" }
+            ]},
+            { artist: "Various Artists", book: "Ultimate 80s Songs", issues: [
+                { song: "The Whole Of The Moon", page: 162, detected: "Ach bleib mit deiner Gnade" }
+            ]},
+            { artist: "Various Artists", book: "Ultimate Pop Sheet Music Collection 2000", issues: [
+                { song: "I SWEAR", page: 180, detected: "I WILL ALWAYS LOVE YOU" }
+            ]},
+            { artist: "Who", book: "Anthology", issues: [
+                { song: "TATTOO", page: 52, detected: "DID YOU STEAL MY MONEY!" },
+                { song: "Teenage Wasteland", page: 163, detected: "HOW CAN YOU DO IT ALONE?" },
+                { song: "I've Got My Kit-bag", page: 191, detected: "WHO ARE YOU" }
+            ]},
+            { artist: "Wings", book: "Over America", issues: [
+                { song: "SILLY LOVE SONGS", page: 87, detected: "BEWARE MY LOVE" }
+            ]}
+        ];
+
+        // ===== STATE =====
+        let selectedBookIndex = -1;
+        let verifiedSongs = [];
+        let pageAnalysis = [];
+        let outputFiles = [];
+        let inputPdf = null;
+        let songPdfs = new Map();
+        let inputTotalPages = 0;
+        let pageSongMap = new Map();
+        let issuePageSet = new Set();
+        let issuePageMap = new Map();
+        let loadingCancelled = false;
+        let currentPreviewPage = -1;  // 0-indexed input page currently in preview
+        let splitOrders = new Map();  // Map<"artist/book", Set<pageIdx>> - ordered splits
+        let mergeOrders = new Map();  // Map<"artist/book", Set<pageIdx>> - ordered merges (song start pages to remove)
+        let remainingIssueCount = new Map();  // Map<bookIdx, count> - live issue counts after checking artifacts
+        let dismissedPages = new Map();  // Map<"artist/book", Set<pageIdx>> - dismissed false positives
+
+        // Load dismissed pages from localStorage
+        try {
+            const saved = localStorage.getItem('boundaryReview_dismissed');
+            if (saved) {
+                const parsed = JSON.parse(saved);
+                for (const [key, pages] of Object.entries(parsed)) {
+                    dismissedPages.set(key, new Set(pages));
+                }
+            }
+        } catch (e) { console.warn('Failed to load dismissed pages:', e); }
+
+        function saveDismissals() {
+            const obj = {};
+            dismissedPages.forEach((pages, key) => {
+                if (pages.size > 0) obj[key] = [...pages];
+            });
+            try { localStorage.setItem('boundaryReview_dismissed', JSON.stringify(obj)); }
+            catch (e) { console.warn('Failed to save dismissed pages:', e); }
+        }
+
+        // ===== INITIALIZATION =====
+        window.addEventListener('load', () => {
+            const params = new URLSearchParams(window.location.search);
+            const artist = params.get('artist');
+            const book = params.get('book');
+
+            // If URL specifies a book not in the list, add it dynamically
+            let targetIdx = -1;
+            if (artist && book) {
+                targetIdx = PROBLEM_BOOKS.findIndex(b => b.artist === artist && b.book === book);
+                if (targetIdx < 0) {
+                    PROBLEM_BOOKS.unshift({ artist: artist, book: book, issues: [] });
+                    targetIdx = 0;
+                }
+            }
+
+            document.getElementById('book-count').textContent = PROBLEM_BOOKS.length;
+            renderBookList();
+
+            if (targetIdx >= 0) selectBook(targetIdx);
+        });
+
+        // ===== SIDEBAR =====
+        function renderBookList() {
+            const container = document.getElementById('book-list');
+            const filter = (document.getElementById('book-search').value || '').toLowerCase();
+
+            container.innerHTML = PROBLEM_BOOKS.map((b, idx) => {
+                const text = `${b.artist} ${b.book}`.toLowerCase();
+                if (filter && !text.includes(filter)) return '';
+                const active = idx === selectedBookIndex ? 'active' : '';
+                const dismissed = dismissedPages.get(`${b.artist}/${b.book}`) || new Set();
+                const fallback = b.issues.filter(i => !dismissed.has(i.page)).length;
+                const remaining = remainingIssueCount.has(idx) ? remainingIssueCount.get(idx) : fallback;
+                const badgeStyle = remaining === 0 ? 'background:#2e7d32;' : '';
+                const badgeText = remaining === 0 ? '0' : remaining;
+                return `<div class="book-item ${active}" onclick="selectBook(${idx})">
+                    <div class="artist">${escHtml(b.artist)}</div>
+                    <div class="book-name">${escHtml(b.book)} <span class="issue-badge" style="${badgeStyle}">${badgeText}</span></div>
+                </div>`;
+            }).join('');
+        }
+
+        function filterBooks() { renderBookList(); }
+
+        // ===== BOOK SELECTION =====
+        async function selectBook(index) {
+            // Cancel any in-progress loading
+            loadingCancelled = true;
+            await new Promise(r => setTimeout(r, 50));
+            loadingCancelled = false;
+
+            selectedBookIndex = index;
+            const book = PROBLEM_BOOKS[index];
+
+            // Update URL
+            const url = new URL(window.location);
+            url.searchParams.set('artist', book.artist);
+            url.searchParams.set('book', book.book);
+            history.replaceState({}, '', url);
+
+            // Reset state
+            if (inputPdf) { inputPdf.destroy(); inputPdf = null; }
+            songPdfs.forEach(doc => doc.destroy());
+            songPdfs.clear();
+            verifiedSongs = [];
+            pageAnalysis = [];
+            outputFiles = [];
+            inputTotalPages = 0;
+            pageSongMap.clear();
+            issuePageSet.clear();
+            issuePageMap.clear();
+
+            renderBookList();
+            showBookView(book);
+            setProgress('Loading artifacts...');
+
+            try {
+                await loadArtifacts(book);
+                if (loadingCancelled) return;
+
+                // Build issue lookups — filter out issues already fixed or dismissed
+                // An issue is "resolved" if verified_songs now has a song starting at that exact page
+                const songStarts = new Set(verifiedSongs.map(s => s.start_page));
+                const bookKey = `${book.artist}/${book.book}`;
+                const dismissed = dismissedPages.get(bookKey) || new Set();
+                book.issues.forEach(iss => {
+                    if (songStarts.has(iss.page)) return; // already fixed
+                    if (dismissed.has(iss.page)) return; // dismissed as false positive
+                    issuePageSet.add(iss.page);
+                    if (!issuePageMap.has(iss.page)) issuePageMap.set(iss.page, []);
+                    issuePageMap.get(iss.page).push(iss);
+                });
+                remainingIssueCount.set(index, issuePageSet.size);
+                renderBookList();
+
+                setProgress('Loading input PDF...');
+                await loadInputPdf(book);
+                if (loadingCancelled) return;
+
+                // Now that we have both artifacts and input PDF page count,
+                // render the header and placeholder thumbnails
+                updateBookHeader(book);
+                updateExecuteButton();
+                renderInputRowPlaceholders();
+                renderOutputRowPlaceholders();
+
+                setProgress('Rendering input thumbnails...');
+                await renderInputThumbnails();
+                if (loadingCancelled) return;
+
+                setProgress('Loading song PDFs...');
+                await loadSongPdfsProgressively(book);
+                if (loadingCancelled) return;
+
+                setProgress('');
+            } catch (err) {
+                setProgress(`Error: ${err.message}`);
+                console.error(err);
+            }
+        }
+
+        // ===== VIEW SETUP =====
+        function showBookView(book) {
+            const main = document.getElementById('main-content');
+            main.innerHTML = `
+                <div class="book-header" id="book-header">
+                    <div class="title">
+                        <span class="artist-prefix">${escHtml(book.artist)} /</span>
+                        ${escHtml(book.book)}
+                    </div>
+                    <div class="header-row">
+                        <div class="stats" id="book-stats">Loading...</div>
+                        <button class="btn-execute" style="background:#e65100; border-color:#e65100;" onclick="orderAllForBook()" title="Mark all absorption points for fixing">Order All</button>
+                        <button class="btn-execute" id="btn-execute" disabled onclick="executeFixForBook()" title="Execute absorption fixes for this book">Execute Fixes</button>
+                    </div>
+                </div>
+                <div class="row-section">
+                    <div class="row-label">
+                        <span>Input PDF (source book)</span>
+                        <span class="row-stats" id="input-stats"></span>
+                    </div>
+                    <div class="thumbnail-strip" id="input-strip">
+                        <div class="thumbnail-container" id="input-container"></div>
+                    </div>
+                </div>
+                <div class="row-section">
+                    <div class="row-label">
+                        <span>Extracted Song PDFs (actual files)</span>
+                        <span class="row-stats" id="output-stats"></span>
+                    </div>
+                    <div class="thumbnail-strip" id="output-strip">
+                        <div class="thumbnail-container" id="output-container"></div>
+                    </div>
+                </div>
+                <div class="preview-panel" id="preview-panel">
+                    <div class="preview-header" id="preview-header" style="display:none;">
+                        <span class="info-text" id="preview-info"></span>
+                        <div class="preview-nav">
+                            <button onclick="navPrevPage()" title="Previous page (Left arrow)">Prev Page</button>
+                            <button onclick="navNextPage()" title="Next page (Right arrow)">Next Page</button>
+                            <div class="sep"></div>
+                            <button class="nav-accent" onclick="navPrevSong()" title="Previous song (Shift+Left)">Prev Song</button>
+                            <button class="nav-accent" onclick="navNextSong()" title="Next song (Shift+Right)">Next Song</button>
+                            <div class="sep"></div>
+                            <button class="nav-warn" onclick="navPrevAbsorption()" title="Previous absorption point">Prev Issue</button>
+                            <button class="nav-warn" onclick="navNextAbsorption()" title="Next absorption point">Next Issue</button>
+                            <div class="sep"></div>
+                            <button class="nav-split" id="btn-order-split" onclick="toggleSplitOrder()" title="Split here - create new song at this page (S key)">Order Split</button>
+                            <button class="nav-merge" id="btn-order-merge" onclick="toggleMergeOrder()" title="Merge this song into previous (M key)">Merge Up</button>
+                            <button class="nav-dismiss" id="btn-dismiss" onclick="toggleDismiss()" title="Dismiss this issue as a false positive (D key)">Dismiss</button>
+                        </div>
+                        <button onclick="closePreview()">Close</button>
+                    </div>
+                    <div class="preview-canvas-wrap" id="preview-wrap" style="display:none;">
+                        <div class="preview-side">
+                            <div class="preview-side-label">Input PDF (Source)</div>
+                            <canvas id="preview-canvas-input"></canvas>
+                        </div>
+                        <div class="preview-side">
+                            <div class="preview-side-label" id="output-side-label">Extracted Song PDF</div>
+                            <canvas id="preview-canvas-output"></canvas>
+                            <div class="no-page" id="preview-no-output" style="display:none;">Song PDF not loaded</div>
+                        </div>
+                    </div>
+                    <div id="preview-placeholder" style="text-align:center; padding:30px; color:#555; font-size:13px;">
+                        Click any thumbnail above to preview the page at full size
+                    </div>
+                </div>
+            `;
+
+            setupSyncedScroll();
+        }
+
+        // ===== SYNCED SCROLLING =====
+        function setupSyncedScroll() {
+            const inputStrip = document.getElementById('input-strip');
+            const outputStrip = document.getElementById('output-strip');
+            if (!inputStrip || !outputStrip) return;
+
+            let syncing = false;
+
+            inputStrip.addEventListener('scroll', () => {
+                if (syncing) return;
+                syncing = true;
+                const maxScroll = inputStrip.scrollWidth - inputStrip.clientWidth;
+                if (maxScroll > 0) {
+                    const ratio = inputStrip.scrollLeft / maxScroll;
+                    const outMax = outputStrip.scrollWidth - outputStrip.clientWidth;
+                    outputStrip.scrollLeft = ratio * outMax;
+                }
+                syncing = false;
+            });
+
+            outputStrip.addEventListener('scroll', () => {
+                if (syncing) return;
+                syncing = true;
+                const maxScroll = outputStrip.scrollWidth - outputStrip.clientWidth;
+                if (maxScroll > 0) {
+                    const ratio = outputStrip.scrollLeft / maxScroll;
+                    const inMax = inputStrip.scrollWidth - inputStrip.clientWidth;
+                    inputStrip.scrollLeft = ratio * inMax;
+                }
+                syncing = false;
+            });
+        }
+
+        // ===== DATA LOADING =====
+        async function loadArtifacts(book) {
+            const base = `../../SheetMusic_Artifacts/${encodeURIComponent(book.artist)}/${encodeURIComponent(book.book)}`;
+            const bust = `?t=${Date.now()}`;
+
+            const [vsResp, paResp, ofResp] = await Promise.all([
+                fetch(`${base}/verified_songs.json${bust}`),
+                fetch(`${base}/page_analysis.json${bust}`),
+                fetch(`${base}/output_files.json${bust}`)
+            ]);
+
+            if (!vsResp.ok) throw new Error(`Failed to load verified_songs.json: ${vsResp.status}`);
+
+            const vsData = await vsResp.json();
+            verifiedSongs = vsData.verified_songs || [];
+
+            const paData = await paResp.json();
+            pageAnalysis = paData.pages || [];
+
+            const ofData = await ofResp.json();
+            outputFiles = ofData.output_files || [];
+
+            // Build page-to-song map
+            pageSongMap.clear();
+            verifiedSongs.forEach((song, idx) => {
+                for (let p = song.start_page; p < song.end_page; p++) {
+                    pageSongMap.set(p, idx);
+                }
+            });
+        }
+
+        async function loadInputPdf(book) {
+            const pdfPath = `../../SheetMusic_Input/${encodeURIComponent(book.artist)}/${encodeURIComponent(book.artist + ' - ' + book.book + '.pdf')}`;
+
+            try {
+                inputPdf = await pdfjsLib.getDocument({ url: pdfPath }).promise;
+            } catch (e) {
+                try {
+                    const resp = await fetch(pdfPath);
+                    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                    const buf = await resp.arrayBuffer();
+                    inputPdf = await pdfjsLib.getDocument({ data: buf }).promise;
+                } catch (e2) {
+                    throw new Error(`Cannot load input PDF. Try serving via: python -m http.server 8000`);
+                }
+            }
+
+            inputTotalPages = inputPdf.numPages;
+        }
+
+        async function loadSongPdfsProgressively(book) {
+            const total = outputFiles.length;
+            if (total === 0) return;
+
+            const BATCH = 4;
+            let loaded = 0;
+
+            for (let i = 0; i < outputFiles.length; i += BATCH) {
+                if (loadingCancelled) return;
+                const batch = outputFiles.slice(i, i + BATCH);
+
+                await Promise.all(batch.map(async (file) => {
+                    const filename = getOutputFilename(file);
+                    const encodedFilename = encodeURIComponent(filename);
+                    const pdfPath = `../../SheetMusic_Output/${encodeURIComponent(book.artist)}/${encodeURIComponent(book.book)}/${encodedFilename}`;
+                    const bustPath = `${pdfPath}?t=${Date.now()}`;
+
+                    try {
+                        const doc = await pdfjsLib.getDocument({ url: bustPath }).promise;
+                        songPdfs.set(file.song_title, doc);
+                    } catch (e) {
+                        try {
+                            const resp = await fetch(bustPath);
+                            if (!resp.ok) throw e;
+                            const buf = await resp.arrayBuffer();
+                            const doc = await pdfjsLib.getDocument({ data: buf }).promise;
+                            songPdfs.set(file.song_title, doc);
+                        } catch (e2) {
+                            console.warn(`Song PDF not found: ${filename}`, e2.message);
+                        }
+                    }
+
+                    loaded++;
+                    setProgress(`Loading songs: ${loaded}/${total}`);
+                }));
+
+                // Render any newly loaded thumbnails
+                if (!loadingCancelled) await renderOutputThumbnailsBatch();
+            }
+
+            const el = document.getElementById('output-stats');
+            if (el) el.textContent = `${songPdfs.size}/${total} song PDFs loaded`;
+        }
+
+        // ===== HELPERS =====
+        function getOutputFilename(file) {
+            const parts = file.output_uri.split('/');
+            return decodeURIComponent(parts[parts.length - 1]);
+        }
+
+        function getPageAnalysis(pageIdx) {
+            // pageAnalysis uses pdf_page (1-indexed), our pageIdx is 0-indexed
+            return pageAnalysis.find(p => p.pdf_page === pageIdx + 1) || null;
+        }
+
+        function setProgress(text) {
+            document.getElementById('loading-progress').textContent = text;
+        }
+
+        function escHtml(s) {
+            return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        // ===== BOOK HEADER =====
+        function updateBookHeader(book) {
+            const statsEl = document.getElementById('book-stats');
+            if (!statsEl) return;
+
+            const coveredPages = new Set();
+            verifiedSongs.forEach(s => {
+                for (let p = s.start_page; p < s.end_page; p++) coveredPages.add(p);
+            });
+            const uncovered = inputTotalPages - coveredPages.size;
+
+            let html = `${verifiedSongs.length} songs | ${inputTotalPages} pages | `;
+            if (uncovered > 0) {
+                html += `<span class="warn">${uncovered} uncovered</span> | `;
+            } else {
+                html += `<span class="ok">all covered</span> | `;
+            }
+            const remainingIssues = issuePageSet.size;
+            const bookKey = `${book.artist}/${book.book}`;
+            const dismissedCount = (dismissedPages.get(bookKey) || new Set()).size;
+            const songStarts = new Set(verifiedSongs.map(s => s.start_page));
+            const fixedCount = book.issues.filter(i => songStarts.has(i.page)).length;
+            if (remainingIssues > 0) {
+                html += `<span class="warn">${remainingIssues} absorbed song${remainingIssues !== 1 ? 's' : ''} detected</span>`;
+                const parts = [];
+                if (fixedCount > 0) parts.push(`${fixedCount} fixed`);
+                if (dismissedCount > 0) parts.push(`${dismissedCount} dismissed`);
+                if (parts.length > 0) html += ` | <span class="ok">${parts.join(', ')}</span>`;
+            } else {
+                html += `<span class="ok">all ${book.issues.length} absorption issues resolved!</span>`;
+            }
+            statsEl.innerHTML = html;
+
+            const inputStats = document.getElementById('input-stats');
+            if (inputStats) inputStats.textContent = `${inputTotalPages} pages | ${coveredPages.size} covered | ${uncovered} uncovered`;
+        }
+
+        // ===== INPUT ROW (Top) =====
+        function renderInputRowPlaceholders() {
+            const container = document.getElementById('input-container');
+            if (!container) return;
+            container.innerHTML = '';
+
+            for (let i = 0; i < inputTotalPages; i++) {
+                const div = document.createElement('div');
+                div.className = 'thumb-page';
+                div.dataset.page = i;
+                div.dataset.row = 'input';
+
+                const songIdx = pageSongMap.get(i);
+                if (songIdx !== undefined) {
+                    const bar = document.createElement('div');
+                    bar.className = 'song-bar';
+                    bar.style.background = SONG_COLORS[songIdx % SONG_COLORS.length];
+                    div.appendChild(bar);
+                } else {
+                    div.classList.add('uncovered');
+                }
+
+                // Issue marker
+                if (issuePageSet.has(i)) {
+                    const marker = document.createElement('div');
+                    marker.className = 'issue-marker';
+                    marker.textContent = '!';
+                    div.appendChild(marker);
+                }
+
+                // Page number
+                const label = document.createElement('div');
+                label.className = 'page-num';
+                label.textContent = i;
+                div.appendChild(label);
+
+                // Hover tooltip
+                div.addEventListener('mouseenter', (e) => showTooltip(e, buildInputTooltip(i)));
+                div.addEventListener('mouseleave', hideTooltip);
+                div.addEventListener('click', () => showPreview('input', i));
+
+                container.appendChild(div);
+            }
+
+            // Add split markers
+            verifiedSongs.forEach((song, index) => {
+                if (index === 0) return;
+                const marker = document.createElement('div');
+                marker.className = 'split-marker';
+                marker.style.left = `${song.start_page * (65 + 2)}px`;
+                container.appendChild(marker);
+            });
+        }
+
+        async function renderInputThumbnails() {
+            if (!inputPdf) return;
+            const thumbs = document.querySelectorAll('#input-container .thumb-page');
+
+            for (let i = 0; i < thumbs.length; i++) {
+                if (loadingCancelled) return;
+                try {
+                    const page = await inputPdf.getPage(i + 1);
+                    const viewport = page.getViewport({ scale: 0.15 });
+                    const canvas = document.createElement('canvas');
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
+                    await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+                    thumbs[i].insertBefore(canvas, thumbs[i].firstChild);
+
+                    if (i % 30 === 0) setProgress(`Rendering input: ${i}/${thumbs.length}`);
+                } catch (e) { /* skip */ }
+            }
+            setProgress('');
+        }
+
+        // ===== OUTPUT ROW (Bottom) =====
+        function renderOutputRowPlaceholders() {
+            const container = document.getElementById('output-container');
+            if (!container) return;
+            container.innerHTML = '';
+
+            let lastSongIdx = -1;
+
+            for (let i = 0; i < inputTotalPages; i++) {
+                const songIdx = pageSongMap.get(i);
+
+                if (songIdx !== undefined && songIdx !== lastSongIdx && lastSongIdx !== -1) {
+                    // Song boundary gap
+                    const gap = document.createElement('div');
+                    gap.className = 'song-gap';
+                    container.appendChild(gap);
+                }
+
+                if (songIdx !== undefined) {
+                    const song = verifiedSongs[songIdx];
+                    const songPage = i - song.start_page;
+
+                    const div = document.createElement('div');
+                    div.className = 'thumb-page';
+                    div.dataset.songIdx = songIdx;
+                    div.dataset.songPage = songPage;
+                    div.dataset.inputPage = i;
+                    div.dataset.row = 'output';
+
+                    // Color bar
+                    const bar = document.createElement('div');
+                    bar.className = 'song-bar';
+                    bar.style.background = SONG_COLORS[songIdx % SONG_COLORS.length];
+                    div.appendChild(bar);
+
+                    // Issue marker on output row too
+                    if (issuePageSet.has(i)) {
+                        const marker = document.createElement('div');
+                        marker.className = 'issue-marker';
+                        marker.textContent = '!';
+                        div.appendChild(marker);
+                    }
+
+                    // Page label
+                    const label = document.createElement('div');
+                    label.className = 'page-num';
+                    label.textContent = `${songPage + 1}`;
+                    div.appendChild(label);
+
+                    div.addEventListener('mouseenter', (e) => showTooltip(e, buildOutputTooltip(songIdx, songPage, i)));
+                    div.addEventListener('mouseleave', hideTooltip);
+                    div.addEventListener('click', () => showPreview('output', songIdx, songPage));
+
+                    container.appendChild(div);
+                    lastSongIdx = songIdx;
+                } else {
+                    // Uncovered — red striped placeholder
+                    const missing = document.createElement('div');
+                    missing.className = 'thumb-missing';
+                    const label = document.createElement('div');
+                    label.className = 'page-num';
+                    label.textContent = i;
+                    missing.appendChild(label);
+                    missing.addEventListener('mouseenter', (e) => showTooltip(e, `Page ${i}\nNot covered by any extracted song`));
+                    missing.addEventListener('mouseleave', hideTooltip);
+                    container.appendChild(missing);
+                }
+            }
+        }
+
+        async function renderOutputThumbnailsBatch() {
+            const thumbs = document.querySelectorAll('#output-container .thumb-page');
+
+            for (const thumb of thumbs) {
+                if (loadingCancelled) return;
+                if (thumb.querySelector('canvas')) continue;
+
+                const songIdx = parseInt(thumb.dataset.songIdx);
+                const songPage = parseInt(thumb.dataset.songPage);
+                const song = verifiedSongs[songIdx];
+                if (!song) continue;
+
+                const doc = songPdfs.get(song.song_title);
+                if (!doc) continue;
+
+                try {
+                    const page = await doc.getPage(songPage + 1);
+                    const viewport = page.getViewport({ scale: 0.15 });
+                    const canvas = document.createElement('canvas');
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
+                    await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+                    thumb.insertBefore(canvas, thumb.firstChild);
+                } catch (e) { /* skip */ }
+            }
+        }
+
+        // ===== TOOLTIPS =====
+        function buildInputTooltip(pageIdx) {
+            const pa = getPageAnalysis(pageIdx);
+            const songIdx = pageSongMap.get(pageIdx);
+            let lines = [`Page ${pageIdx}`];
+
+            if (pa) {
+                lines.push(`Type: ${pa.content_type}`);
+                if (pa.detected_title) lines.push(`Detected: ${pa.detected_title}`);
+            }
+
+            if (songIdx !== undefined) {
+                lines.push(`Song: ${verifiedSongs[songIdx].song_title}`);
+            } else {
+                lines.push('** UNCOVERED **');
+            }
+
+            if (issuePageMap.has(pageIdx)) {
+                lines.push('');
+                issuePageMap.get(pageIdx).forEach(iss => {
+                    lines.push(`ABSORBED: Expected "${iss.song}"`);
+                    lines.push(`  Bedrock detected: "${iss.detected}"`);
+                });
+            }
+
+            return lines.join('\n');
+        }
+
+        function buildOutputTooltip(songIdx, songPage, inputPage) {
+            const song = verifiedSongs[songIdx];
+            const pageCount = song.end_page - song.start_page;
+            let lines = [
+                song.song_title,
+                `Page ${songPage + 1} of ${pageCount}`,
+                `(Input page ${inputPage})`
+            ];
+
+            if (issuePageMap.has(inputPage)) {
+                lines.push('');
+                issuePageMap.get(inputPage).forEach(iss => {
+                    lines.push(`ABSORBED: Bedrock detected "${iss.detected}" here`);
+                });
+            }
+
+            return lines.join('\n');
+        }
+
+        function showTooltip(e, text) {
+            const tt = document.getElementById('tooltip');
+            tt.textContent = text;
+            tt.style.display = 'block';
+            tt.style.left = (e.clientX + 12) + 'px';
+            tt.style.top = (e.clientY + 12) + 'px';
+        }
+
+        function hideTooltip() {
+            document.getElementById('tooltip').style.display = 'none';
+        }
+
+        // ===== PREVIEW (side-by-side: input page + song page) =====
+        async function showPreview(row, ...args) {
+            const header = document.getElementById('preview-header');
+            const wrap = document.getElementById('preview-wrap');
+            const info = document.getElementById('preview-info');
+            const placeholder = document.getElementById('preview-placeholder');
+            const canvasInput = document.getElementById('preview-canvas-input');
+            const canvasOutput = document.getElementById('preview-canvas-output');
+            const noOutput = document.getElementById('preview-no-output');
+            const outputLabel = document.getElementById('output-side-label');
+            if (!header || !canvasInput) return;
+
+            header.style.display = 'flex';
+            wrap.style.display = 'flex';
+            if (placeholder) placeholder.style.display = 'none';
+
+            // Clear highlights
+            document.querySelectorAll('.thumb-page.highlighted').forEach(t => t.classList.remove('highlighted'));
+
+            // Determine the input page index and song context regardless of which row was clicked
+            let inputPageIdx, songIdx, songPage;
+
+            if (row === 'input') {
+                inputPageIdx = args[0];
+                songIdx = pageSongMap.get(inputPageIdx);
+                if (songIdx !== undefined) {
+                    songPage = inputPageIdx - verifiedSongs[songIdx].start_page;
+                }
+            } else {
+                songIdx = args[0];
+                songPage = args[1];
+                inputPageIdx = verifiedSongs[songIdx].start_page + songPage;
+            }
+
+            currentPreviewPage = inputPageIdx;
+
+            // Build info bar
+            const pa = getPageAnalysis(inputPageIdx);
+            const songName = songIdx !== undefined ? verifiedSongs[songIdx].song_title : 'UNCOVERED';
+            let html = `<strong>Page ${inputPageIdx}</strong>`;
+            if (pa) html += ` | ${pa.content_type}`;
+            if (pa && pa.detected_title) html += ` | Detected: "${escHtml(pa.detected_title)}"`;
+            html += ` | Song: ${escHtml(songName)}`;
+            if (songIdx !== undefined) html += ` (pg ${songPage + 1} of ${verifiedSongs[songIdx].end_page - verifiedSongs[songIdx].start_page})`;
+
+            if (issuePageMap.has(inputPageIdx)) {
+                issuePageMap.get(inputPageIdx).forEach(iss => {
+                    html += ` | <span class="warn">ABSORBED: "${escHtml(iss.detected)}" (in "${escHtml(iss.song)}")</span>`;
+                });
+            } else {
+                const bookKey = getSplitKey();
+                const dismissed = dismissedPages.get(bookKey);
+                if (dismissed && dismissed.has(inputPageIdx)) {
+                    const book = PROBLEM_BOOKS[selectedBookIndex];
+                    const iss = book ? book.issues.find(i => i.page === inputPageIdx) : null;
+                    html += ` | <span style="color:#90a4ae;">DISMISSED: "${escHtml(iss ? iss.detected : '?')}" (false positive)</span>`;
+                }
+            }
+            info.innerHTML = html;
+
+            // Update output side label with actual filename
+            if (songIdx !== undefined) {
+                const song = verifiedSongs[songIdx];
+                const outFile = outputFiles.find(f => f.song_title === song.song_title);
+                if (outFile) {
+                    const filename = getOutputFilename(outFile);
+                    outputLabel.textContent = `Extracted: ${filename}`;
+                } else {
+                    outputLabel.textContent = `Extracted Song PDF`;
+                }
+            } else {
+                outputLabel.textContent = 'No extracted song for this page';
+            }
+
+            // Update split, merge, and dismiss button state
+            updateSplitButton(inputPageIdx);
+            updateMergeButton(inputPageIdx);
+            updateDismissButton(inputPageIdx);
+
+            // Highlight both rows
+            const inputThumb = document.querySelector(`#input-container .thumb-page[data-page="${inputPageIdx}"]`);
+            if (inputThumb) inputThumb.classList.add('highlighted');
+            const outputThumb = document.querySelector(`#output-container .thumb-page[data-input-page="${inputPageIdx}"]`);
+            if (outputThumb) outputThumb.classList.add('highlighted');
+
+            // Scroll highlighted thumb into view
+            if (inputThumb) inputThumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            if (outputThumb) outputThumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+
+            // Render LEFT side: input PDF page
+            if (inputPdf) {
+                try {
+                    const page = await inputPdf.getPage(inputPageIdx + 1);
+                    const viewport = page.getViewport({ scale: 1.0 });
+                    canvasInput.width = viewport.width;
+                    canvasInput.height = viewport.height;
+                    canvasInput.style.display = 'block';
+                    await page.render({ canvasContext: canvasInput.getContext('2d'), viewport }).promise;
+                } catch (e) {
+                    console.error('Input preview render error:', e);
+                }
+            }
+
+            // Render RIGHT side: song PDF page
+            canvasOutput.style.display = 'none';
+            noOutput.style.display = 'none';
+
+            if (songIdx !== undefined) {
+                const song = verifiedSongs[songIdx];
+                const songDoc = songPdfs.get(song.song_title);
+                if (songDoc && songPage < songDoc.numPages) {
+                    try {
+                        const page = await songDoc.getPage(songPage + 1);
+                        const viewport = page.getViewport({ scale: 1.0 });
+                        canvasOutput.width = viewport.width;
+                        canvasOutput.height = viewport.height;
+                        canvasOutput.style.display = 'block';
+                        await page.render({ canvasContext: canvasOutput.getContext('2d'), viewport }).promise;
+                    } catch (e) {
+                        console.error('Output preview render error:', e);
+                        noOutput.textContent = 'Render error';
+                        noOutput.style.display = 'flex';
+                    }
+                } else {
+                    noOutput.textContent = songDoc ? 'Page out of range' : 'Song PDF not loaded yet';
+                    noOutput.style.display = 'flex';
+                }
+            } else {
+                noOutput.textContent = 'Uncovered page (no song PDF)';
+                noOutput.style.display = 'flex';
+            }
+        }
+
+        function closePreview() {
+            const header = document.getElementById('preview-header');
+            const wrap = document.getElementById('preview-wrap');
+            const placeholder = document.getElementById('preview-placeholder');
+            if (header) header.style.display = 'none';
+            if (wrap) wrap.style.display = 'none';
+            if (placeholder) placeholder.style.display = 'block';
+            currentPreviewPage = -1;
+            document.querySelectorAll('.thumb-page.highlighted').forEach(t => t.classList.remove('highlighted'));
+        }
+
+        // ===== NAVIGATION =====
+        function navPrevPage() {
+            if (currentPreviewPage > 0) showPreview('input', currentPreviewPage - 1);
+        }
+        function navNextPage() {
+            if (currentPreviewPage < inputTotalPages - 1) showPreview('input', currentPreviewPage + 1);
+        }
+
+        function navPrevSong() {
+            if (currentPreviewPage < 0) return;
+            const curSongIdx = pageSongMap.get(currentPreviewPage);
+            // Find the previous song boundary
+            let targetSongIdx = curSongIdx !== undefined ? curSongIdx - 1 : -1;
+            // If we're in the middle of a song, go to its start first
+            if (curSongIdx !== undefined && currentPreviewPage > verifiedSongs[curSongIdx].start_page) {
+                targetSongIdx = curSongIdx;
+            }
+            if (targetSongIdx < 0) {
+                // Search backwards for the last song before our page
+                for (let i = verifiedSongs.length - 1; i >= 0; i--) {
+                    if (verifiedSongs[i].start_page < currentPreviewPage) {
+                        targetSongIdx = i;
+                        break;
+                    }
+                }
+            }
+            if (targetSongIdx >= 0 && targetSongIdx < verifiedSongs.length) {
+                showPreview('input', verifiedSongs[targetSongIdx].start_page);
+            }
+        }
+        function navNextSong() {
+            if (currentPreviewPage < 0) return;
+            const curSongIdx = pageSongMap.get(currentPreviewPage);
+            let targetSongIdx = curSongIdx !== undefined ? curSongIdx + 1 : 0;
+            // If not in a song, find the next song after our page
+            if (curSongIdx === undefined) {
+                targetSongIdx = verifiedSongs.findIndex(s => s.start_page > currentPreviewPage);
+                if (targetSongIdx < 0) return;
+            }
+            if (targetSongIdx >= 0 && targetSongIdx < verifiedSongs.length) {
+                showPreview('input', verifiedSongs[targetSongIdx].start_page);
+            }
+        }
+
+        function navPrevAbsorption() {
+            if (currentPreviewPage < 0) return;
+            // Only navigate to unresolved issues
+            const activePages = [...issuePageSet].sort((a, b) => a - b);
+            let target = -1;
+            for (let i = activePages.length - 1; i >= 0; i--) {
+                if (activePages[i] < currentPreviewPage) {
+                    target = activePages[i];
+                    break;
+                }
+            }
+            if (target >= 0) showPreview('input', target);
+        }
+        function navNextAbsorption() {
+            if (currentPreviewPage < 0) return;
+            const activePages = [...issuePageSet].sort((a, b) => a - b);
+            for (const pg of activePages) {
+                if (pg > currentPreviewPage) {
+                    showPreview('input', pg);
+                    return;
+                }
+            }
+        }
+
+        // ===== SPLIT ORDERS =====
+        function getSplitKey() {
+            const book = PROBLEM_BOOKS[selectedBookIndex];
+            return book ? `${book.artist}/${book.book}` : '';
+        }
+
+        function canSplitAt(pageIdx) {
+            // Can split at any page that's in the middle of a song (not at a song start)
+            const songIdx = pageSongMap.get(pageIdx);
+            if (songIdx === undefined) return false;
+            return pageIdx !== verifiedSongs[songIdx].start_page;
+        }
+
+        function canMergeAt(pageIdx) {
+            // Can merge at any song start page (except the first song)
+            const songIdx = pageSongMap.get(pageIdx);
+            if (songIdx === undefined || songIdx === 0) return false;
+            return pageIdx === verifiedSongs[songIdx].start_page;
+        }
+
+        function toggleSplitOrder() {
+            if (currentPreviewPage < 0 || !canSplitAt(currentPreviewPage)) return;
+            const key = getSplitKey();
+            if (!splitOrders.has(key)) splitOrders.set(key, new Set());
+            const orders = splitOrders.get(key);
+
+            if (orders.has(currentPreviewPage)) {
+                orders.delete(currentPreviewPage);
+            } else {
+                orders.add(currentPreviewPage);
+            }
+            updateSplitButton(currentPreviewPage);
+            updateSplitCount();
+            updateExecuteButton();
+        }
+
+        function toggleMergeOrder() {
+            if (currentPreviewPage < 0 || !canMergeAt(currentPreviewPage)) return;
+            const key = getSplitKey();
+            if (!mergeOrders.has(key)) mergeOrders.set(key, new Set());
+            const orders = mergeOrders.get(key);
+
+            if (orders.has(currentPreviewPage)) {
+                orders.delete(currentPreviewPage);
+            } else {
+                orders.add(currentPreviewPage);
+            }
+            updateMergeButton(currentPreviewPage);
+            updateSplitCount();
+            updateExecuteButton();
+        }
+
+        function updateSplitButton(pageIdx) {
+            const btn = document.getElementById('btn-order-split');
+            if (!btn) return;
+            const key = getSplitKey();
+            const orders = splitOrders.get(key);
+            const isOrdered = orders && orders.has(pageIdx);
+            const canSplit = canSplitAt(pageIdx);
+
+            btn.disabled = !canSplit;
+            btn.style.opacity = canSplit ? '1' : '0.4';
+
+            if (isOrdered) {
+                btn.textContent = 'Split Ordered';
+                btn.classList.add('ordered');
+            } else {
+                btn.textContent = 'Order Split';
+                btn.classList.remove('ordered');
+            }
+        }
+
+        function updateMergeButton(pageIdx) {
+            const btn = document.getElementById('btn-order-merge');
+            if (!btn) return;
+            const key = getSplitKey();
+            const orders = mergeOrders.get(key);
+            const isOrdered = orders && orders.has(pageIdx);
+            const canMerge = canMergeAt(pageIdx);
+
+            btn.disabled = !canMerge;
+            btn.style.opacity = canMerge ? '1' : '0.4';
+
+            if (isOrdered) {
+                btn.textContent = 'Merge Ordered';
+                btn.classList.add('ordered');
+            } else {
+                btn.textContent = 'Merge Up';
+                btn.classList.remove('ordered');
+            }
+        }
+
+        function toggleDismiss() {
+            if (currentPreviewPage < 0) return;
+            const key = getSplitKey();
+            const book = PROBLEM_BOOKS[selectedBookIndex];
+            if (!book) return;
+
+            // Check if this page is an original issue for this book
+            const isOriginalIssue = book.issues.some(i => i.page === currentPreviewPage);
+            if (!isOriginalIssue) return;
+
+            if (!dismissedPages.has(key)) dismissedPages.set(key, new Set());
+            const dismissed = dismissedPages.get(key);
+
+            if (dismissed.has(currentPreviewPage)) {
+                // Un-dismiss: add back to issuePageSet
+                dismissed.delete(currentPreviewPage);
+                // Only re-add if not already resolved by a real fix
+                const songStarts = new Set(verifiedSongs.map(s => s.start_page));
+                if (!songStarts.has(currentPreviewPage)) {
+                    issuePageSet.add(currentPreviewPage);
+                    const iss = book.issues.filter(i => i.page === currentPreviewPage);
+                    iss.forEach(i => {
+                        if (!issuePageMap.has(currentPreviewPage)) issuePageMap.set(currentPreviewPage, []);
+                        issuePageMap.get(currentPreviewPage).push(i);
+                    });
+                }
+            } else {
+                // Dismiss: remove from issuePageSet
+                dismissed.add(currentPreviewPage);
+                issuePageSet.delete(currentPreviewPage);
+                issuePageMap.delete(currentPreviewPage);
+                // Also remove from split orders if it was ordered
+                const orders = splitOrders.get(key);
+                if (orders) orders.delete(currentPreviewPage);
+            }
+
+            saveDismissals();
+            remainingIssueCount.set(selectedBookIndex, issuePageSet.size);
+            renderBookList();
+            updateBookHeader(book);
+            updateDismissButton(currentPreviewPage);
+            updateSplitButton(currentPreviewPage);
+            updateSplitCount();
+            updateExecuteButton();
+        }
+
+        function updateDismissButton(pageIdx) {
+            const btn = document.getElementById('btn-dismiss');
+            if (!btn) return;
+            const key = getSplitKey();
+            const book = PROBLEM_BOOKS[selectedBookIndex];
+            const isOriginalIssue = book && book.issues.some(i => i.page === pageIdx);
+            const dismissed = dismissedPages.get(key);
+            const isDismissed = dismissed && dismissed.has(pageIdx);
+
+            btn.disabled = !isOriginalIssue;
+            btn.style.opacity = isOriginalIssue ? '1' : '0.4';
+
+            if (isDismissed) {
+                btn.textContent = 'Dismissed';
+                btn.classList.add('dismissed');
+            } else {
+                btn.textContent = 'Dismiss';
+                btn.classList.remove('dismissed');
+            }
+        }
+
+        function updateSplitCount() {
+            let totalSplits = 0, totalMerges = 0;
+            splitOrders.forEach(s => totalSplits += s.size);
+            mergeOrders.forEach(s => totalMerges += s.size);
+            const total = totalSplits + totalMerges;
+            const el = document.getElementById('top-info');
+            if (el) {
+                const base = `${PROBLEM_BOOKS.length} books with absorbed song issues`;
+                const parts = [];
+                if (totalSplits > 0) parts.push(`${totalSplits} split(s)`);
+                if (totalMerges > 0) parts.push(`${totalMerges} merge(s)`);
+                el.textContent = parts.length > 0 ? `${base} | ${parts.join(', ')} ordered` : base;
+            }
+            const btn = document.getElementById('btn-export');
+            if (btn) btn.disabled = total === 0;
+        }
+
+        function exportSplitOrders() {
+            // Collect all books that have any pending splits or merges
+            const allKeys = new Set([...splitOrders.keys(), ...mergeOrders.keys()]);
+            const fixes = [];
+            allKeys.forEach(key => {
+                const splitSet = splitOrders.get(key);
+                const mergeSet = mergeOrders.get(key);
+                const splitCount = splitSet ? splitSet.size : 0;
+                const mergeCount = mergeSet ? mergeSet.size : 0;
+                if (splitCount === 0 && mergeCount === 0) return;
+                const [artist, book] = key.split('/');
+                const pb = PROBLEM_BOOKS.find(b => b.artist === artist && b.book === book);
+
+                const splitDetails = [];
+                if (splitSet) {
+                    for (const page of [...splitSet].sort((a, b) => a - b)) {
+                        const issue = pb ? pb.issues.find(i => i.page === page) : null;
+                        const pa = getPageAnalysis(page);
+                        splitDetails.push({
+                            page,
+                            detected_title: issue ? issue.detected : (pa && pa.detected_title ? pa.detected_title : null),
+                            absorbing_song: issue ? issue.song : null
+                        });
+                    }
+                }
+
+                const mergeDetails = [];
+                if (mergeSet) {
+                    for (const page of [...mergeSet].sort((a, b) => a - b)) {
+                        const songIdx = pageSongMap.get(page);
+                        const songTitle = songIdx !== undefined ? verifiedSongs[songIdx].song_title : null;
+                        const prevTitle = songIdx > 0 ? verifiedSongs[songIdx - 1].song_title : null;
+                        mergeDetails.push({
+                            page,
+                            merged_song: songTitle,
+                            into_song: prevTitle
+                        });
+                    }
+                }
+
+                fixes.push({ artist, book, splits: splitDetails, merges: mergeDetails });
+            });
+
+            const totalSplits = fixes.reduce((sum, f) => sum + f.splits.length, 0);
+            const totalMerges = fixes.reduce((sum, f) => sum + f.merges.length, 0);
+            const data = {
+                exported_at: new Date().toISOString(),
+                description: 'Boundary fix orders from Boundary Review viewer',
+                total_splits: totalSplits,
+                total_merges: totalMerges,
+                total_fixes: totalSplits + totalMerges,
+                books: fixes
+            };
+
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `boundary_fixes_${new Date().toISOString().slice(0,10)}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // ===== EXECUTE FIXES =====
+        function updateExecuteButton() {
+            const btn = document.getElementById('btn-execute');
+            if (!btn) return;
+            const key = getSplitKey();
+            const splits = splitOrders.get(key);
+            const merges = mergeOrders.get(key);
+            const count = (splits ? splits.size : 0) + (merges ? merges.size : 0);
+            btn.disabled = count === 0;
+            btn.textContent = count > 0 ? `Execute ${count} Fix${count > 1 ? 'es' : ''}` : 'Execute Fixes';
+            btn.classList.remove('success');
+        }
+
+        function orderAllForBook() {
+            const book = PROBLEM_BOOKS[selectedBookIndex];
+            if (!book) return;
+            const key = getSplitKey();
+            if (!splitOrders.has(key)) splitOrders.set(key, new Set());
+            const orders = splitOrders.get(key);
+            // Only add issues that are still unresolved and can be split
+            book.issues.forEach(iss => {
+                if (issuePageSet.has(iss.page) && canSplitAt(iss.page)) orders.add(iss.page);
+            });
+            updateSplitCount();
+            updateExecuteButton();
+            if (currentPreviewPage >= 0) {
+                updateSplitButton(currentPreviewPage);
+                updateMergeButton(currentPreviewPage);
+            }
+        }
+
+        function getBookSplits() {
+            const book = PROBLEM_BOOKS[selectedBookIndex];
+            if (!book) return null;
+            const key = `${book.artist}/${book.book}`;
+            const splitSet = splitOrders.get(key);
+            const mergeSet = mergeOrders.get(key);
+            const splitCount = splitSet ? splitSet.size : 0;
+            const mergeCount = mergeSet ? mergeSet.size : 0;
+            if (splitCount === 0 && mergeCount === 0) return null;
+
+            const splits = [];
+            if (splitSet) {
+                for (const page of [...splitSet].sort((a, b) => a - b)) {
+                    // Look up detected title from page_analysis or issue data
+                    const issue = book.issues.find(i => i.page === page);
+                    const pa = getPageAnalysis(page);
+                    splits.push({
+                        page,
+                        detected_title: issue ? issue.detected : (pa && pa.detected_title ? pa.detected_title : null),
+                    });
+                }
+            }
+
+            const merges = mergeSet ? [...mergeSet].sort((a, b) => a - b) : [];
+
+            if (splits.length === 0 && merges.length === 0) return null;
+            return { artist: book.artist, book: book.book, splits, merges };
+        }
+
+        async function executeFixForBook() {
+            const data = getBookSplits();
+            if (!data) return;
+
+            // First, preview the fix
+            let preview;
+            try {
+                const resp = await fetch('/api/preview-fix', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(data)
+                });
+                preview = await resp.json();
+            } catch (e) {
+                showModal('error', `Cannot connect to server. Run:<br><code>py scripts/boundary_review_server.py</code><br><br>Then open the viewer at the server URL.`);
+                return;
+            }
+
+            if (preview.status === 'error') {
+                showModal('error', `Preview failed: ${preview.error}`);
+                return;
+            }
+
+            // Show confirmation
+            let changesHtml = '';
+            for (const c of preview.changes) {
+                if (c.action === 'merge') {
+                    changesHtml += `<div class="change-item">
+                        <span style="color:#ce93d8;">MERGE</span> at page ${c.page}:
+                        <span class="old-song">"${escHtml(c.merged_song)}"</span>
+                        merged into <span class="new-song">"${escHtml(c.into_song)}"</span>
+                    </div>`;
+                } else {
+                    changesHtml += `<div class="change-item">
+                        <span style="color:#FF9800;">SPLIT</span> at page ${c.page}:
+                        <span class="old-song">"${escHtml(c.original)}"</span>
+                        [${c.original_range[0]}-${c.original_range[1]}]<br>
+                        New song: <span class="new-song">"${escHtml(c.new_song)}"</span>
+                        <span class="page-ref">[${c.page}-${c.original_range[1]}]</span>
+                    </div>`;
+                }
+            }
+
+            showModal('confirm', `
+                <h3>Confirm Boundary Fixes</h3>
+                <div style="font-size:13px; color:#aaa;">
+                    ${escHtml(data.artist)} / ${escHtml(data.book)}<br>
+                    ${preview.old_song_count} songs → ${preview.new_song_count} songs
+                </div>
+                <div class="change-list">${changesHtml}</div>
+                <div style="font-size:11px; color:#888; margin-top:8px;">
+                    This will: modify verified_songs.json + output_files.json,
+                    re-extract all song PDFs, and upload to S3.
+                </div>
+                <div class="modal-actions">
+                    <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+                    <button class="btn-confirm" id="btn-modal-confirm" onclick="confirmExecute()">Execute Fixes</button>
+                </div>
+                <div class="status-msg" id="modal-status"></div>
+            `);
+        }
+
+        async function confirmExecute() {
+            const data = getBookSplits();
+            if (!data) return;
+
+            const btn = document.getElementById('btn-modal-confirm');
+            const status = document.getElementById('modal-status');
+            if (btn) { btn.disabled = true; btn.textContent = 'Executing...'; }
+            if (status) { status.textContent = 'Applying fixes and re-extracting PDFs...'; status.className = 'status-msg'; }
+
+            try {
+                const resp = await fetch('/api/apply-fix', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(data)
+                });
+                const result = await resp.json();
+
+                if (result.status === 'ok') {
+                    if (status) {
+                        status.textContent = `Done! ${result.changes.length} fix(es) applied. ${result.new_song_count} songs extracted. ${result.errors.length ? 'Warnings: ' + result.errors.join('; ') : ''}`;
+                        status.className = 'status-msg success';
+                    }
+                    if (btn) { btn.textContent = 'Done'; }
+
+                    // Clear split and merge orders for this book and update UI
+                    const key = `${data.artist}/${data.book}`;
+                    splitOrders.delete(key);
+                    mergeOrders.delete(key);
+                    updateSplitCount();
+
+                    const execBtn = document.getElementById('btn-execute');
+                    if (execBtn) {
+                        execBtn.textContent = 'Fixes Applied';
+                        execBtn.classList.add('success');
+                        execBtn.disabled = true;
+                    }
+
+                    // Reload the book after a short delay to show updated data
+                    setTimeout(() => {
+                        closeModal();
+                        selectBook(selectedBookIndex);
+                    }, 2000);
+
+                } else if (result.status === 'dry_run') {
+                    if (status) {
+                        status.textContent = 'DRY RUN: No changes made. Server is in --dry-run mode.';
+                        status.className = 'status-msg';
+                    }
+                    if (btn) { btn.textContent = 'Dry Run Complete'; }
+                } else {
+                    if (status) {
+                        status.textContent = `Error: ${result.errors.join('; ')}`;
+                        status.className = 'status-msg error';
+                    }
+                    if (btn) { btn.disabled = false; btn.textContent = 'Retry'; }
+                }
+            } catch (e) {
+                if (status) { status.textContent = `Request failed: ${e.message}`; status.className = 'status-msg error'; }
+                if (btn) { btn.disabled = false; btn.textContent = 'Retry'; }
+            }
+        }
+
+        function showModal(type, html) {
+            // Remove existing modal
+            closeModal();
+            const overlay = document.createElement('div');
+            overlay.className = 'modal-overlay';
+            overlay.id = 'modal-overlay';
+            overlay.onclick = (e) => { if (e.target === overlay) closeModal(); };
+
+            const modal = document.createElement('div');
+            modal.className = 'modal';
+
+            if (type === 'error') {
+                modal.innerHTML = `
+                    <h3 style="color:#f44336;">Error</h3>
+                    <div style="font-size:13px; margin:10px 0;">${html}</div>
+                    <div class="modal-actions">
+                        <button class="btn-cancel" onclick="closeModal()">OK</button>
+                    </div>
+                `;
+            } else {
+                modal.innerHTML = html;
+            }
+
+            overlay.appendChild(modal);
+            document.body.appendChild(overlay);
+        }
+
+        function closeModal() {
+            const el = document.getElementById('modal-overlay');
+            if (el) el.remove();
+        }
+
+        // ===== KEYBOARD SHORTCUTS =====
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT') return;
+
+            if (currentPreviewPage >= 0) {
+                // Preview is open — arrow keys navigate pages/songs
+                if (e.shiftKey && e.key === 'ArrowLeft') {
+                    navPrevSong(); e.preventDefault();
+                } else if (e.shiftKey && e.key === 'ArrowRight') {
+                    navNextSong(); e.preventDefault();
+                } else if (e.key === 'ArrowLeft') {
+                    navPrevPage(); e.preventDefault();
+                } else if (e.key === 'ArrowRight') {
+                    navNextPage(); e.preventDefault();
+                } else if (e.key === 'ArrowUp') {
+                    navPrevAbsorption(); e.preventDefault();
+                } else if (e.key === 'ArrowDown') {
+                    navNextAbsorption(); e.preventDefault();
+                } else if (e.key === 'Escape') {
+                    closePreview();
+                } else if (e.key === 's' || e.key === 'S') {
+                    toggleSplitOrder(); e.preventDefault();
+                } else if (e.key === 'm' || e.key === 'M') {
+                    toggleMergeOrder(); e.preventDefault();
+                } else if (e.key === 'd' || e.key === 'D') {
+                    toggleDismiss(); e.preventDefault();
+                }
+            } else {
+                // No preview — up/down navigate books
+                if (e.key === 'ArrowUp') {
+                    if (selectedBookIndex > 0) selectBook(selectedBookIndex - 1);
+                    e.preventDefault();
+                } else if (e.key === 'ArrowDown') {
+                    if (selectedBookIndex < PROBLEM_BOOKS.length - 1) selectBook(selectedBookIndex + 1);
+                    e.preventDefault();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

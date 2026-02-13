@@ -4,8 +4,7 @@
 			"path": "."
 		},
 		{
-			"name": "TestProject",
-			"path": "../TestProject"
+			"path": "S:/SlowImageCache"
 		}
 	],
 	"settings": {}

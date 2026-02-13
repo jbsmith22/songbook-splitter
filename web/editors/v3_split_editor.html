@@ -487,12 +487,12 @@
 
                 <div class="control-group">
                     <h3>Page Mapping</h3>
-                    <div class="info-box">
-                        <div>Offset: <strong>-1</strong></div>
-                        <div>Confidence: <strong>100%</strong></div>
-                        <div>Method: <strong>holistic_analysis</strong></div>
-                        <div style="margin-top: 4px; font-size: 10px; color: #666;">
-                            printed_page = pdf_index + 2
+                    <div class="info-box" id="page-mapping-info">
+                        <div>Offset: <strong id="pm-offset">—</strong></div>
+                        <div>Confidence: <strong id="pm-confidence">—</strong></div>
+                        <div>Method: <strong id="pm-method">—</strong></div>
+                        <div style="margin-top: 4px; font-size: 10px; color: #666;" id="pm-formula">
+                            Loading...
                         </div>
                     </div>
                 </div>
@@ -582,6 +582,7 @@
 
                 if (pmResp.ok) {
                     PAGE_MAPPING_DATA = await pmResp.json();
+                    updatePageMappingPanel();
                 }
 
                 loadVerifiedSongs();
@@ -589,6 +590,44 @@
             } catch (err) {
                 console.error('Failed to load artifacts:', err);
                 showStatus('Artifacts not loaded. Serve via: python -m http.server 8000', 'error');
+            }
+        }
+
+        function getPrintedPageRange(song) {
+            // Try per-song lookup from page_mapping.song_locations (exact)
+            if (PAGE_MAPPING_DATA.song_locations) {
+                const loc = PAGE_MAPPING_DATA.song_locations.find(l => l.pdf_index === song.start_page);
+                if (loc) {
+                    const printedStart = loc.printed_page;
+                    const printedEnd = printedStart + (song.end_page - song.start_page) - 1;
+                    return { start: printedStart, end: printedEnd };
+                }
+            }
+            // Fallback to global offset
+            if (PAGE_MAPPING_DATA.offset != null) {
+                return {
+                    start: song.start_page + PAGE_MAPPING_DATA.offset,
+                    end: song.end_page - 1 + PAGE_MAPPING_DATA.offset
+                };
+            }
+            return null;
+        }
+
+        function updatePageMappingPanel() {
+            const offset = PAGE_MAPPING_DATA.offset ?? '—';
+            const confidence = PAGE_MAPPING_DATA.confidence != null
+                ? (PAGE_MAPPING_DATA.confidence * 100).toFixed(1) + '%'
+                : '—';
+            const method = PAGE_MAPPING_DATA.mapping_method || '—';
+            document.getElementById('pm-offset').textContent = offset;
+            document.getElementById('pm-confidence').textContent = confidence;
+            document.getElementById('pm-method').textContent = method;
+            if (PAGE_MAPPING_DATA.offset != null) {
+                const sign = PAGE_MAPPING_DATA.offset >= 0 ? '+' : '';
+                document.getElementById('pm-formula').textContent =
+                    `printed_page = pdf_index ${sign} ${PAGE_MAPPING_DATA.offset}`;
+            } else {
+                document.getElementById('pm-formula').textContent = '';
             }
         }
 
@@ -614,60 +653,68 @@
         // ===== PDF LOADING =====
 
         async function autoLoadPDF(artist, book) {
-            // Construct the relative path from web/editors/ to SheetMusic_Output/{artist}/
-            const pdfPath = `../../SheetMusic_Output/${artist}/${artist} - ${book}.pdf`;
-            document.getElementById('auto-load-path').textContent = pdfPath;
+            const fileName = `${artist} - ${book}.pdf`;
+            // Try multiple locations: Input folder first, then Output folder
+            const paths = [
+                `../../SheetMusic_Input/${artist}/${fileName}`,
+                `../../SheetMusic_Output/${artist}/${fileName}`
+            ];
+            document.getElementById('auto-load-path').textContent = paths[0];
             document.getElementById('pdf-status').textContent = 'Auto-loading PDF...';
 
-            try {
-                // Use pdfjsLib.getDocument directly with URL - works better than fetch() for file:// URLs
-                const loadingTask = pdfjsLib.getDocument({url: pdfPath});
-                pdfDoc = await loadingTask.promise;
-                totalPages = pdfDoc.numPages;
+            for (const pdfPath of paths) {
+                try {
+                    const loadingTask = pdfjsLib.getDocument({url: pdfPath});
+                    pdfDoc = await loadingTask.promise;
+                    totalPages = pdfDoc.numPages;
 
-                const fileName = `${artist} - ${book}.pdf`;
-                document.getElementById('pdf-status').textContent = `${fileName} (${totalPages} pages)`;
-                document.getElementById('page-count-display').textContent = totalPages;
-                document.getElementById('total-pages').textContent = totalPages;
-                document.getElementById('no-pdf-msg').style.display = 'none';
-                document.getElementById('pdf-canvas').style.display = 'block';
+                    document.getElementById('auto-load-path').textContent = pdfPath;
+                    document.getElementById('pdf-status').textContent = `${fileName} (${totalPages} pages)`;
+                    document.getElementById('page-count-display').textContent = totalPages;
+                    document.getElementById('total-pages').textContent = totalPages;
+                    document.getElementById('no-pdf-msg').style.display = 'none';
+                    document.getElementById('pdf-canvas').style.display = 'block';
 
-                updateStats();
-                renderThumbnailPlaceholders();
-                await renderPage(0);
-                await renderThumbnails();
-                showStatus(`PDF auto-loaded: ${fileName} (${totalPages} pages)`, 'success');
-            } catch (error) {
-                console.log('Auto-load via pdfjsLib failed:', error.message, '- trying fetch...');
-
+                    updateStats();
+                    renderThumbnailPlaceholders();
+                    await renderPage(0);
+                    await renderThumbnails();
+                    showStatus(`PDF auto-loaded: ${fileName} (${totalPages} pages)`, 'success');
+                    return;
+                } catch (e) {
+                    console.log('pdfjsLib failed for', pdfPath, ':', e.message);
+                }
                 // Fallback: try fetch() in case we're served over HTTP
                 try {
                     const response = await fetch(pdfPath);
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     const arrayBuffer = await response.arrayBuffer();
-                    await onPDFLoaded(arrayBuffer, `${artist} - ${book}.pdf`);
-                } catch (fetchError) {
-                    console.log('Fetch also failed:', fetchError.message);
-                    document.getElementById('pdf-status').textContent = 'Click "Load PDF" button';
-                    document.getElementById('no-pdf-msg').innerHTML = `
-                        <div style="text-align: center; padding: 20px;">
-                            <div style="font-size: 48px; margin-bottom: 10px;">📄</div>
-                            <div style="font-size: 16px; margin-bottom: 15px;">
-                                Click <strong style="color: #FF9800;">"Load PDF"</strong> in the top bar to load the songbook
-                            </div>
-                            <div style="font-size: 13px; color: #666; line-height: 1.6;">
-                                Expected file: <strong>${artist} - ${book}.pdf</strong><br>
-                                Location: SheetMusic_Output/${artist}/<br><br>
-                                <em>Tip: To enable auto-load, serve this folder via HTTP:</em><br>
-                                <code style="background: #0a0a1a; padding: 4px 8px; border-radius: 3px; color: #00d9ff;">
-                                    python -m http.server 8000
-                                </code><br>
-                                <span style="color: #555;">then open http://localhost:8000/web/editors/v3_split_editor.html</span>
-                            </div>
-                        </div>
-                    `;
+                    await onPDFLoaded(arrayBuffer, fileName);
+                    return;
+                } catch (e) {
+                    console.log('fetch failed for', pdfPath, ':', e.message);
                 }
             }
+
+            // All paths failed
+            document.getElementById('pdf-status').textContent = 'Click "Load PDF" button';
+            document.getElementById('no-pdf-msg').innerHTML = `
+                <div style="text-align: center; padding: 20px;">
+                    <div style="font-size: 48px; margin-bottom: 10px;">📄</div>
+                    <div style="font-size: 16px; margin-bottom: 15px;">
+                        Click <strong style="color: #FF9800;">"Load PDF"</strong> in the top bar to load the songbook
+                    </div>
+                    <div style="font-size: 13px; color: #666; line-height: 1.6;">
+                        Expected file: <strong>${fileName}</strong><br>
+                        Searched: SheetMusic_Input/${artist}/ and SheetMusic_Output/${artist}/<br><br>
+                        <em>Tip: To enable auto-load, serve this folder via HTTP:</em><br>
+                        <code style="background: #0a0a1a; padding: 4px 8px; border-radius: 3px; color: #00d9ff;">
+                            python -m http.server 8000
+                        </code><br>
+                        <span style="color: #555;">then open http://localhost:8000/web/editors/v3_split_editor.html</span>
+                    </div>
+                </div>
+            `;
         }
 
         async function loadPDFFile(event) {
@@ -814,10 +861,11 @@
             document.getElementById('start-page-input').value = song.start_page;
             document.getElementById('end-page-input').value = song.end_page;
 
+            const printed = getPrintedPageRange(song);
             document.getElementById('current-song-info').innerHTML = `
                 <strong>${song.title}</strong><br>
                 PDF pages ${song.start_page}-${song.end_page - 1} (${song.page_count} pages)<br>
-                ${PAGE_MAPPING_DATA.offset != null ? `Printed pages ${song.start_page - PAGE_MAPPING_DATA.offset}-${song.end_page - 1 - PAGE_MAPPING_DATA.offset}<br>` : ''}
+                ${printed ? `Printed pages ${printed.start}-${printed.end}<br>` : ''}
                 Source: ${song.source}
             `;
 
@@ -837,6 +885,7 @@
 
                 const sourceBadge = `<span class="song-badge badge-${song.source}">${song.source.toUpperCase()}</span>`;
                 const viewingBadge = isViewing ? '<span class="song-badge badge-viewing">VIEWING</span>' : '';
+                const printed = getPrintedPageRange(song);
 
                 return `
                     <div class="${classes.join(' ')}" onclick="selectSong(${index})">
@@ -847,7 +896,7 @@
                         </div>
                         <div class="song-pages">
                             PDF ${song.start_page}-${song.end_page - 1} (${song.page_count}p)
-                            ${PAGE_MAPPING_DATA.offset != null ? `<span style="color: #555;">| printed ${song.start_page - PAGE_MAPPING_DATA.offset}-${song.end_page - 1 - PAGE_MAPPING_DATA.offset}</span>` : ''}
+                            ${printed ? `<span style="color: #555;">| printed ${printed.start}-${printed.end}</span>` : ''}
                         </div>
                     </div>
                 `;
@@ -1059,9 +1108,11 @@
                         document.getElementById('song-title-input').value = song.title;
                         document.getElementById('start-page-input').value = song.start_page;
                         document.getElementById('end-page-input').value = song.end_page;
+                        const pr = getPrintedPageRange(song);
                         document.getElementById('current-song-info').innerHTML = `
                             <strong>${song.title}</strong><br>
                             PDF pages ${song.start_page}-${song.end_page - 1} (${song.page_count} pages)<br>
+                            ${pr ? `Printed pages ${pr.start}-${pr.end}<br>` : ''}
                             Source: ${song.source}
                         `;
                     }

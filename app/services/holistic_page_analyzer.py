@@ -15,6 +15,7 @@ import io
 import json
 import base64
 import re
+import time
 from typing import List, Dict, Optional, Tuple, Any
 from dataclasses import dataclass, asdict, field
 from datetime import datetime
@@ -382,13 +383,22 @@ Respond with ONLY valid JSON:
 {{"printed_page": <int|null>, "content_type": "<string>", "song_title": <string|null>, "has_music": <bool>}}"""
 
     def _vision_call_worker(self, image_b64: str, prompt: str) -> PageInfo:
-        """Worker function for parallel vision calls. Thread-safe (uses only self.bedrock)."""
-        try:
-            response = self._call_vision(image_b64, prompt)
-            return self._parse_page_response(response)
-        except Exception as e:
-            logger.warning(f"Vision worker error: {e}")
-            return PageInfo(content_type='other', has_music_notation=False, confidence=0.3)
+        """Worker function for parallel vision calls. Thread-safe (uses only self.bedrock).
+        Retries with exponential backoff on ThrottlingException."""
+        max_retries = 5
+        for attempt in range(max_retries):
+            try:
+                response = self._call_vision(image_b64, prompt)
+                return self._parse_page_response(response)
+            except Exception as e:
+                is_throttle = 'ThrottlingException' in str(type(e).__name__) or 'ThrottlingException' in str(e)
+                if is_throttle and attempt < max_retries - 1:
+                    wait = (2 ** attempt) + (time.time() % 1)  # 1-2s, 2-3s, 4-5s, 8-9s
+                    logger.info(f"Throttled, retrying in {wait:.1f}s (attempt {attempt + 1}/{max_retries})")
+                    time.sleep(wait)
+                    continue
+                logger.warning(f"Vision worker error (attempt {attempt + 1}): {e}")
+                return PageInfo(pdf_page=0, content_type='other', has_music_notation=False, confidence=0.3)
 
     def _analyze_single_page(self, doc, page_idx: int, titles_hint: str) -> PageInfo:
         """
@@ -417,6 +427,7 @@ Respond with ONLY valid JSON:
             text = page.get_text("text")
             has_content = len(text.strip()) > 50
             return PageInfo(
+                pdf_page=page_idx + 1,
                 content_type='other' if has_content else 'blank',
                 has_music_notation=has_content,
                 confidence=0.3
@@ -476,6 +487,7 @@ Respond with ONLY valid JSON:
         except (json.JSONDecodeError, KeyError) as e:
             logger.warning(f"Failed to parse response: {e}")
             return PageInfo(
+                pdf_page=0,
                 content_type='other',
                 confidence=0.3,
                 raw_response=response

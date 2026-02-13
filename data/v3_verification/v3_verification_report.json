@@ -1,0 +1,39 @@
+{
+  "generated": "2026-02-09T22:04:32.218293",
+  "duration_seconds": 42.0,
+  "summary": {
+    "books_checked": 343,
+    "books_clean": 342,
+    "books_with_issues": 1,
+    "total_issues": 1,
+    "stats": {
+      "s3_input_objects": 438,
+      "s3_artifact_objects": 2058,
+      "s3_output_objects": 8001,
+      "input_pdfs_local": 343,
+      "input_pdfs_s3": 343,
+      "artifacts_local": 2058,
+      "artifacts_s3": 2058,
+      "toc_entries": 4526,
+      "total_songs_verified": 8002,
+      "total_songs_output": 8002,
+      "output_pdfs_checked": 8002,
+      "output_size_mismatches": 0,
+      "output_page_count_mismatches": 1,
+      "dynamo_entries_found": 343,
+      "unique_book_ids": 343,
+      "orphan_s3_output_pdfs": 0,
+      "total_input_pdfs": 438,
+      "processed_books": 343,
+      "unprocessed_inputs": 95
+    }
+  },
+  "issues": [
+    {
+      "artist": "Frank Zappa",
+      "book": "The Frank Zappa Guitar Book",
+      "category": "PAGE_COUNT",
+      "message": "\"Shut Up 'n Play Yer Guitar\": expected 20 pages (range [22, 42]), got 17"
+    }
+  ]
+}

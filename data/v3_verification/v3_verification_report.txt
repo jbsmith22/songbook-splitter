@@ -1,0 +1,46 @@
+V3 PIPELINE COMPREHENSIVE VERIFICATION REPORT
+======================================================================
+Generated: 2026-02-09 22:04:32
+Duration: 42.0 seconds
+
+SUMMARY
+----------------------------------------------------------------------
+  Books checked:        343
+  Clean (no issues):    342
+  With issues:          1
+  Total issues found:   1
+
+STATISTICS
+----------------------------------------------------------------------
+  artifacts_local: 2058
+  artifacts_s3: 2058
+  dynamo_entries_found: 343
+  input_pdfs_local: 343
+  input_pdfs_s3: 343
+  orphan_s3_output_pdfs: 0
+  output_page_count_mismatches: 1
+  output_pdfs_checked: 8002
+  output_size_mismatches: 0
+  processed_books: 343
+  s3_artifact_objects: 2058
+  s3_input_objects: 438
+  s3_output_objects: 8001
+  toc_entries: 4526
+  total_input_pdfs: 438
+  total_songs_output: 8002
+  total_songs_verified: 8002
+  unique_book_ids: 343
+  unprocessed_inputs: 95
+
+ISSUES BY CATEGORY
+----------------------------------------------------------------------
+
+  [PAGE_COUNT] (1 issues)
+    Frank Zappa / The Frank Zappa Guitar Book: "Shut Up 'n Play Yer Guitar": expected 20 pages (range [22, 42]), got 17
+
+
+ISSUES BY BOOK
+----------------------------------------------------------------------
+
+  Frank Zappa / The Frank Zappa Guitar Book:
+    [PAGE_COUNT] "Shut Up 'n Play Yer Guitar": expected 20 pages (range [22, 42]), got 17

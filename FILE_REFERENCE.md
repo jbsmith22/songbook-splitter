@@ -104,7 +104,7 @@ Documentation for the sanitization module. Covers all function signatures with e
 
 ## Lambda Functions — `lambda/`
 
-AWS Lambda handlers for the Step Functions state machine. Need v3 path updates before cloud re-deployment.
+AWS Lambda handlers for the Step Functions state machine. Code is v3-ready (paths, table names updated). Not yet re-deployed to AWS.
 
 ### `lambda/ingest_service.py`
 S3 event handler triggered when a PDF is uploaded to `jsmith-input` with `v3/` prefix. Scans the bucket for unprocessed books, generates book IDs via SHA256, checks DynamoDB ledger to skip already-processed books, and starts Step Functions executions for new ones.
@@ -139,7 +139,7 @@ Entry point dispatcher for 6 containerized ECS Fargate tasks. Each function down
 ## Infrastructure — `infra/`
 
 ### `infra/cloudformation_template.yaml`
-Complete CloudFormation stack defining all AWS resources: S3 buckets (jsmith-input, jsmith-output, jsmith-artifacts), DynamoDB table (jsmith-processing-ledger with status GSI), ECS cluster + Fargate task definitions, Lambda functions (6), Step Functions state machine, IAM roles (execution + task), ECR repository, and CloudWatch configuration. Region: us-east-1, Account: 227027150061.
+Complete CloudFormation stack defining all AWS resources: S3 buckets (jsmith-input, jsmith-output, jsmith-artifacts), DynamoDB table, ECS cluster + Fargate task definitions, Lambda functions (6), Step Functions state machine, IAM roles (execution + task), ECR repository, and CloudWatch configuration. Region: us-east-1, Account: 227027150061. Note: references `jsmith-processing-ledger` (v2 table name) — the live DynamoDB table is `jsmith-pipeline-ledger` (v3). Template needs updating if re-deploying from scratch.
 
 ### `infra/step_functions_complete.json`
 Complete Step Functions state machine definition with all 6 processing stages, error handling, retry logic, and parallel task orchestration. Reference for cloud deployment.

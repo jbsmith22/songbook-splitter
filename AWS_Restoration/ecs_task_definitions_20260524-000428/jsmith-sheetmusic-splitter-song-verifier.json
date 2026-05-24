@@ -1,0 +1,79 @@
+﻿{
+    "taskDefinition": {
+        "taskDefinitionArn": "arn:aws:ecs:us-east-1:227027150061:task-definition/jsmith-sheetmusic-splitter-song-verifier:2",
+        "containerDefinitions": [
+            {
+                "name": "song-verifier",
+                "image": "227027150061.dkr.ecr.us-east-1.amazonaws.com/jsmith-sheetmusic-splitter:latest",
+                "cpu": 0,
+                "portMappings": [],
+                "essential": true,
+                "environment": [
+                    {
+                        "name": "TASK_TYPE",
+                        "value": "song_verifier"
+                    }
+                ],
+                "mountPoints": [],
+                "volumesFrom": [],
+                "logConfiguration": {
+                    "logDriver": "awslogs",
+                    "options": {
+                        "awslogs-group": "/aws/ecs/jsmith-sheetmusic-splitter",
+                        "awslogs-region": "us-east-1",
+                        "awslogs-stream-prefix": "song-verifier"
+                    }
+                },
+                "systemControls": []
+            }
+        ],
+        "family": "jsmith-sheetmusic-splitter-song-verifier",
+        "taskRoleArn": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskRole-w6lDb4md62rc",
+        "executionRoleArn": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskExecutionRole-lk6cYO4BePSL",
+        "networkMode": "awsvpc",
+        "revision": 2,
+        "volumes": [],
+        "status": "ACTIVE",
+        "requiresAttributes": [
+            {
+                "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+            },
+            {
+                "name": "ecs.capability.execution-role-awslogs"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.ecr-auth"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.task-iam-role"
+            },
+            {
+                "name": "ecs.capability.execution-role-ecr-pull"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+            },
+            {
+                "name": "ecs.capability.task-eni"
+            }
+        ],
+        "placementConstraints": [],
+        "compatibilities": [
+            "EC2",
+            "FARGATE",
+            "MANAGED_INSTANCES"
+        ],
+        "requiresCompatibilities": [
+            "FARGATE"
+        ],
+        "cpu": "1024",
+        "memory": "2048",
+        "registeredAt": "2026-01-25T00:32:58.037000-05:00",
+        "registeredBy": "arn:aws:sts::227027150061:assumed-role/AWSReservedSSO_AdministratorAccess_adaf1358f1ede9f1/jsmith@mms.org"
+    },
+    "tags": []
+}
+

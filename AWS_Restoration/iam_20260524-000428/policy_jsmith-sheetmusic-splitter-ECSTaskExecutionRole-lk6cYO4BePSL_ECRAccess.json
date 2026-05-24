@@ -1,0 +1,20 @@
+﻿{
+    "RoleName": "jsmith-sheetmusic-splitter-ECSTaskExecutionRole-lk6cYO4BePSL",
+    "PolicyName": "ECRAccess",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "ecr:GetAuthorizationToken",
+                    "ecr:BatchCheckLayerAvailability",
+                    "ecr:GetDownloadUrlForLayer",
+                    "ecr:BatchGetImage"
+                ],
+                "Resource": "*",
+                "Effect": "Allow"
+            }
+        ]
+    }
+}
+

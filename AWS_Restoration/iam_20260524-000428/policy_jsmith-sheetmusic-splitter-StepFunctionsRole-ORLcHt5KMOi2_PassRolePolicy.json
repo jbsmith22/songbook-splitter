@@ -1,0 +1,18 @@
+﻿{
+    "RoleName": "jsmith-sheetmusic-splitter-StepFunctionsRole-ORLcHt5KMOi2",
+    "PolicyName": "PassRolePolicy",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Effect": "Allow",
+                "Action": "iam:PassRole",
+                "Resource": [
+                    "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskExecutionRole",
+                    "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskRole"
+                ]
+            }
+        ]
+    }
+}
+

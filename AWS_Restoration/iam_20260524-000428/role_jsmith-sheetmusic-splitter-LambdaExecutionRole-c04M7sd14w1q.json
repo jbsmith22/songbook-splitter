@@ -1,0 +1,28 @@
+﻿{
+    "Role": {
+        "Path": "/",
+        "RoleName": "jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+        "RoleId": "AROATJW67MTWR34ZKY4QA",
+        "Arn": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+        "CreateDate": "2026-01-25T03:37:08+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "Description": "",
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {
+            "LastUsedDate": "2026-05-24T03:38:43+00:00",
+            "Region": "us-east-1"
+        }
+    }
+}
+

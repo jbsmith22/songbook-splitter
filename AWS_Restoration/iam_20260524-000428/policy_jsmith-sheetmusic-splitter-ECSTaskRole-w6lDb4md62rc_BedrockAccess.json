@@ -1,0 +1,17 @@
+﻿{
+    "RoleName": "jsmith-sheetmusic-splitter-ECSTaskRole-w6lDb4md62rc",
+    "PolicyName": "BedrockAccess",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "bedrock:InvokeModel"
+                ],
+                "Resource": "*",
+                "Effect": "Allow"
+            }
+        ]
+    }
+}
+

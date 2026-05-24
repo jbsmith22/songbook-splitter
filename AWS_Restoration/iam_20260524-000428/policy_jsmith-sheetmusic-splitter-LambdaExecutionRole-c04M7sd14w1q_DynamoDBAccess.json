@@ -1,0 +1,23 @@
+﻿{
+    "RoleName": "jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+    "PolicyName": "DynamoDBAccess",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "dynamodb:GetItem",
+                    "dynamodb:PutItem",
+                    "dynamodb:UpdateItem",
+                    "dynamodb:Query"
+                ],
+                "Resource": [
+                    "arn:aws:dynamodb:us-east-1:227027150061:table/jsmith-processing-ledger",
+                    "arn:aws:dynamodb:us-east-1:227027150061:table/jsmith-processing-ledger/index/*"
+                ],
+                "Effect": "Allow"
+            }
+        ]
+    }
+}
+

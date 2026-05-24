@@ -1,0 +1,5 @@
+﻿{
+    "lifecycle":  "{\r\n    \"TransitionDefaultMinimumObjectSize\": \"all_storage_classes_128K\",\r\n    \"Rules\": [\r\n        {\r\n            \"Expiration\": {\r\n                \"Days\": 90\r\n            },\r\n            \"ID\": \"DeleteOldArtifacts\",\r\n            \"Filter\": {\r\n                \"Prefix\": \"\"\r\n            },\r\n            \"Status\": \"Enabled\"\r\n        }\r\n    ]\r\n}\r\n",
+    "versioning":  "",
+    "location":  "{\r\n    \"LocationConstraint\": null\r\n}\r\n"
+}

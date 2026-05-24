@@ -1,0 +1,294 @@
+﻿{
+    "StackResourceSummaries": [
+        {
+            "LogicalResourceId": "AlarmTopic",
+            "PhysicalResourceId": "arn:aws:sns:us-east-1:227027150061:jsmith-sheetmusic-splitter-alarms",
+            "ResourceType": "AWS::SNS::Topic",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:32.720000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ArtifactsBucket",
+            "PhysicalResourceId": "jsmith-jsmith-sheetmusic-splitter-artifacts",
+            "ResourceType": "AWS::S3::Bucket",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:45.807000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "CheckProcessedFunction",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-check-processed",
+            "ResourceType": "AWS::Lambda::Function",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:35.244000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "CostThresholdAlarm",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-cost-threshold",
+            "ResourceType": "AWS::CloudWatch::Alarm",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:36.213000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ECSCluster",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-cluster",
+            "ResourceType": "AWS::ECS::Cluster",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:39.863000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ECSSecurityGroup",
+            "PhysicalResourceId": "sg-0ce35f4435c9ac2f9",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:40.902000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ECSTaskExecutionRole",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-ECSTaskExecutionRole-lk6cYO4BePSL",
+            "ResourceType": "AWS::IAM::Role",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:48.518000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ECSTaskFailureAlarm",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-ecs-task-failures",
+            "ResourceType": "AWS::CloudWatch::Alarm",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:39.906000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ECSTaskRole",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-ECSTaskRole-w6lDb4md62rc",
+            "ResourceType": "AWS::IAM::Role",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:06.346000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ErrorRateAlarm",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-error-rate",
+            "ResourceType": "AWS::CloudWatch::Alarm",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:36.236000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "IngestServiceFunction",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-ingest-service",
+            "ResourceType": "AWS::Lambda::Function",
+            "LastUpdatedTimestamp": "2026-01-25T03:38:06.114000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "InputBucket",
+            "PhysicalResourceId": "jsmith-input",
+            "ResourceType": "AWS::S3::Bucket",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:45.710000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "LambdaErrorAlarm",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-lambda-errors",
+            "ResourceType": "AWS::CloudWatch::Alarm",
+            "LastUpdatedTimestamp": "2026-01-25T03:38:09.745000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "LambdaExecutionRole",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+            "ResourceType": "AWS::IAM::Role",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:25.260000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "LogGroup",
+            "PhysicalResourceId": "/aws/ecs/jsmith-sheetmusic-splitter",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:41.041000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ManualReviewAlarm",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-manual-review-required",
+            "ResourceType": "AWS::CloudWatch::Alarm",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:36.258000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "OutputBucket",
+            "PhysicalResourceId": "jsmith-output",
+            "ResourceType": "AWS::S3::Bucket",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:45.612000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ProcessingFailureAlarm",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-processing-failures",
+            "ResourceType": "AWS::CloudWatch::Alarm",
+            "LastUpdatedTimestamp": "2026-01-25T03:36:36.248000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ProcessingLedgerTable",
+            "PhysicalResourceId": "jsmith-processing-ledger",
+            "ResourceType": "AWS::DynamoDB::Table",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:06.356000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "RecordFailureFunction",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-record-failure",
+            "ResourceType": "AWS::Lambda::Function",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:35.702000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "RecordManualReviewFunction",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-record-manual-review",
+            "ResourceType": "AWS::Lambda::Function",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:35.408000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "RecordStartFunction",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-record-start",
+            "ResourceType": "AWS::Lambda::Function",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:35.388000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "RecordSuccessFunction",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-record-success",
+            "ResourceType": "AWS::Lambda::Function",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:35.555000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ScheduledRule",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-ScheduledRule-elRrfZFTWkKo",
+            "ResourceType": "AWS::Events::Rule",
+            "LastUpdatedTimestamp": "2026-01-25T03:39:08.641000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "ScheduledRulePermission",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-ScheduledRulePermission-eo3zZMPV6gHF",
+            "ResourceType": "AWS::Lambda::Permission",
+            "LastUpdatedTimestamp": "2026-01-25T03:38:59.376000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "StateMachine",
+            "PhysicalResourceId": "arn:aws:states:us-east-1:227027150061:stateMachine:jsmith-sheetmusic-splitter-pipeline",
+            "ResourceType": "AWS::StepFunctions::StateMachine",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:56.406000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "StateMachineFailureAlarm",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-state-machine-failures",
+            "ResourceType": "AWS::CloudWatch::Alarm",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:59.775000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "StepFunctionsRole",
+            "PhysicalResourceId": "jsmith-sheetmusic-splitter-StepFunctionsRole-ORLcHt5KMOi2",
+            "ResourceType": "AWS::IAM::Role",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:53.843000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "TOCDiscoveryTaskDefinition",
+            "PhysicalResourceId": "arn:aws:ecs:us-east-1:227027150061:task-definition/jsmith-sheetmusic-splitter-toc-discovery:1",
+            "ResourceType": "AWS::ECS::TaskDefinition",
+            "LastUpdatedTimestamp": "2026-01-25T03:37:09.831000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+﻿{
+    "FunctionName": "jsmith-sheetmusic-splitter-record-failure",
+    "FunctionArn": "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-record-failure",
+    "Runtime": "python3.12",
+    "Role": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+    "Handler": "state_machine_helpers.record_failure_handler",
+    "CodeSize": 83907154,
+    "Description": "",
+    "Timeout": 60,
+    "MemorySize": 128,
+    "LastModified": "2026-01-25T05:02:29.000+0000",
+    "CodeSha256": "nmPA9vtpnFx/swTJoKtedOh0mQnGQ4Q+oLoqhRUp3tU=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "DYNAMODB_TABLE": "jsmith-processing-ledger"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "8a322cc9-7f72-4174-aab3-4fabd8df19ba",
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-east-1::runtime:9d82790507d3d76171a861328feb75d0d417f7e48bb57504d17dde77cb899f77"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/jsmith-sheetmusic-splitter-record-failure"
+    }
+}
+

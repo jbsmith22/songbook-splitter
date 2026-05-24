@@ -1,0 +1,20 @@
+﻿{
+    "RoleName": "jsmith-sheetmusic-splitter-ECSTaskRole-w6lDb4md62rc",
+    "PolicyName": "CloudWatchAccess",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "cloudwatch:PutMetricData",
+                    "logs:CreateLogGroup",
+                    "logs:CreateLogStream",
+                    "logs:PutLogEvents"
+                ],
+                "Resource": "*",
+                "Effect": "Allow"
+            }
+        ]
+    }
+}
+

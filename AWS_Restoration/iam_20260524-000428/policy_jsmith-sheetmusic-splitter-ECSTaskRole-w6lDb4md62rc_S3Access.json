@@ -1,0 +1,26 @@
+﻿{
+    "RoleName": "jsmith-sheetmusic-splitter-ECSTaskRole-w6lDb4md62rc",
+    "PolicyName": "S3Access",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "s3:GetObject",
+                    "s3:PutObject",
+                    "s3:ListBucket"
+                ],
+                "Resource": [
+                    "arn:aws:s3:::jsmith-input",
+                    "arn:aws:s3:::jsmith-input/*",
+                    "arn:aws:s3:::jsmith-output",
+                    "arn:aws:s3:::jsmith-output/*",
+                    "arn:aws:s3:::jsmith-jsmith-sheetmusic-splitter-artifacts",
+                    "arn:aws:s3:::jsmith-jsmith-sheetmusic-splitter-artifacts/*"
+                ],
+                "Effect": "Allow"
+            }
+        ]
+    }
+}
+

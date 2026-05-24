@@ -1,0 +1,156 @@
+﻿[
+    {
+        "FunctionName":  "jsmith-sheetmusic-splitter-ingest-service",
+        "FunctionArn":  "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-ingest-service",
+        "Runtime":  "python3.12",
+        "Role":  "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+        "Handler":  "ingest_service.lambda_handler",
+        "CodeSize":  83907154,
+        "Description":  "",
+        "Timeout":  300,
+        "MemorySize":  512,
+        "LastModified":  "2026-01-25T05:02:12.000+0000",
+        "CodeSha256":  "nmPA9vtpnFx/swTJoKtedOh0mQnGQ4Q+oLoqhRUp3tU=",
+        "Version":  "$LATEST",
+        "Environment":  {
+                            "Variables":  {
+                                              "DYNAMODB_TABLE":  "jsmith-processing-ledger",
+                                              "STATE_MACHINE_ARN":  "arn:aws:states:us-east-1:227027150061:stateMachine:jsmith-sheetmusic-splitter-pipeline",
+                                              "INPUT_BUCKET":  "jsmith-input"
+                                          }
+                        },
+        "TracingConfig":  {
+                              "Mode":  "PassThrough"
+                          },
+        "RevisionId":  "09963073-030d-4856-8a93-ce674796405c",
+        "PackageType":  "Zip",
+        "Architectures":  [
+                              "x86_64"
+                          ],
+        "EphemeralStorage":  {
+                                 "Size":  512
+                             },
+        "SnapStart":  {
+                          "ApplyOn":  "None",
+                          "OptimizationStatus":  "Off"
+                      },
+        "LoggingConfig":  {
+                              "LogFormat":  "Text",
+                              "LogGroup":  "/aws/lambda/jsmith-sheetmusic-splitter-ingest-service"
+                          }
+    },
+    {
+        "FunctionName":  "jsmith-sheetmusic-splitter-check-processed",
+        "FunctionArn":  "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-check-processed",
+        "Runtime":  "python3.12",
+        "Role":  "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+        "Handler":  "state_machine_helpers.check_processed_handler",
+        "CodeSize":  1941,
+        "Description":  "",
+        "Timeout":  60,
+        "MemorySize":  128,
+        "LastModified":  "2026-02-03T07:29:00.000+0000",
+        "CodeSha256":  "6eVOc5+tvjhiVH4bJcDIGPnnifIOWFTtKc1rs4xoGEw=",
+        "Version":  "$LATEST",
+        "Environment":  {
+                            "Variables":  {
+                                              "DYNAMODB_TABLE":  "jsmith-processing-ledger"
+                                          }
+                        },
+        "TracingConfig":  {
+                              "Mode":  "PassThrough"
+                          },
+        "RevisionId":  "f6fd995d-6e38-4073-ad22-a86357a3ec6f",
+        "PackageType":  "Zip",
+        "Architectures":  [
+                              "x86_64"
+                          ],
+        "EphemeralStorage":  {
+                                 "Size":  512
+                             },
+        "SnapStart":  {
+                          "ApplyOn":  "None",
+                          "OptimizationStatus":  "Off"
+                      },
+        "LoggingConfig":  {
+                              "LogFormat":  "Text",
+                              "LogGroup":  "/aws/lambda/jsmith-sheetmusic-splitter-check-processed"
+                          }
+    },
+    {
+        "FunctionName":  "jsmith-sheetmusic-splitter-record-success",
+        "FunctionArn":  "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-record-success",
+        "Runtime":  "python3.12",
+        "Role":  "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+        "Handler":  "state_machine_helpers.record_success_handler",
+        "CodeSize":  83907154,
+        "Description":  "",
+        "Timeout":  60,
+        "MemorySize":  128,
+        "LastModified":  "2026-01-25T05:02:24.000+0000",
+        "CodeSha256":  "nmPA9vtpnFx/swTJoKtedOh0mQnGQ4Q+oLoqhRUp3tU=",
+        "Version":  "$LATEST",
+        "Environment":  {
+                            "Variables":  {
+                                              "DYNAMODB_TABLE":  "jsmith-processing-ledger"
+                                          }
+                        },
+        "TracingConfig":  {
+                              "Mode":  "PassThrough"
+                          },
+        "RevisionId":  "7591b00a-115f-424d-89f0-56f8da55d8e0",
+        "PackageType":  "Zip",
+        "Architectures":  [
+                              "x86_64"
+                          ],
+        "EphemeralStorage":  {
+                                 "Size":  512
+                             },
+        "SnapStart":  {
+                          "ApplyOn":  "None",
+                          "OptimizationStatus":  "Off"
+                      },
+        "LoggingConfig":  {
+                              "LogFormat":  "Text",
+                              "LogGroup":  "/aws/lambda/jsmith-sheetmusic-splitter-record-success"
+                          }
+    },
+    {
+        "FunctionName":  "jsmith-sheetmusic-splitter-record-manual-review",
+        "FunctionArn":  "arn:aws:lambda:us-east-1:227027150061:function:jsmith-sheetmusic-splitter-record-manual-review",
+        "Runtime":  "python3.12",
+        "Role":  "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+        "Handler":  "state_machine_helpers.record_manual_review_handler",
+        "CodeSize":  83907154,
+        "Description":  "",
+        "Timeout":  60,
+        "MemorySize":  128,
+        "LastModified":  "2026-01-25T05:02:33.000+0000",
+        "CodeSha256":  "nmPA9vtpnFx/swTJoKtedOh0mQnGQ4Q+oLoqhRUp3tU=",
+        "Version":  "$LATEST",
+        "Environment":  {
+                            "Variables":  {
+                                              "DYNAMODB_TABLE":  "jsmith-processing-ledger"
+                                          }
+                        },
+        "TracingConfig":  {
+                              "Mode":  "PassThrough"
+                          },
+        "RevisionId":  "ffa71a8d-f9c3-486f-9abb-69b273fe92a9",
+        "PackageType":  "Zip",
+        "Architectures":  [
+                              "x86_64"
+                          ],
+        "EphemeralStorage":  {
+                                 "Size":  512
+                             },
+        "SnapStart":  {
+                          "ApplyOn":  "None",
+                          "OptimizationStatus":  "Off"
+                      },
+        "LoggingConfig":  {
+                              "LogFormat":  "Text",
+                              "LogGroup":  "/aws/lambda/jsmith-sheetmusic-splitter-record-manual-review"
+                          }
+    }
+]

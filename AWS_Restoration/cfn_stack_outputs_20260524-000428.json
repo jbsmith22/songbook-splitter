@@ -1,0 +1,82 @@
+﻿{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:227027150061:stack/jsmith-sheetmusic-splitter/fc1ea0a0-f99e-11f0-b373-0affea00cfd5",
+            "StackName": "jsmith-sheetmusic-splitter",
+            "Description": "SheetMusic Book Splitter - Complete infrastructure stack",
+            "Parameters": [
+                {
+                    "ParameterKey": "OutputBucketName",
+                    "ParameterValue": "jsmith-output"
+                },
+                {
+                    "ParameterKey": "VpcId",
+                    "ParameterValue": "vpc-4c5f5735"
+                },
+                {
+                    "ParameterKey": "InputBucketName",
+                    "ParameterValue": "jsmith-input"
+                },
+                {
+                    "ParameterKey": "ContainerImage",
+                    "ParameterValue": "227027150061.dkr.ecr.us-east-1.amazonaws.com/jsmith-sheetmusic-splitter:latest"
+                },
+                {
+                    "ParameterKey": "SubnetIds",
+                    "ParameterValue": "subnet-0f6ba7ae50933273e"
+                }
+            ],
+            "CreationTime": "2026-01-25T03:36:27.718000+00:00",
+            "RollbackConfiguration": {},
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "Outputs": [
+                {
+                    "OutputKey": "OutputBucketName",
+                    "OutputValue": "jsmith-output",
+                    "Description": "Output S3 bucket name"
+                },
+                {
+                    "OutputKey": "ECSClusterName",
+                    "OutputValue": "jsmith-sheetmusic-splitter-cluster",
+                    "Description": "ECS cluster name"
+                },
+                {
+                    "OutputKey": "InputBucketName",
+                    "OutputValue": "jsmith-input",
+                    "Description": "Input S3 bucket name"
+                },
+                {
+                    "OutputKey": "DynamoDBTableName",
+                    "OutputValue": "jsmith-processing-ledger",
+                    "Description": "DynamoDB ledger table name"
+                },
+                {
+                    "OutputKey": "StateMachineArn",
+                    "OutputValue": "arn:aws:states:us-east-1:227027150061:stateMachine:jsmith-sheetmusic-splitter-pipeline",
+                    "Description": "Step Functions state machine ARN"
+                },
+                {
+                    "OutputKey": "AlarmTopicArn",
+                    "OutputValue": "arn:aws:sns:us-east-1:227027150061:jsmith-sheetmusic-splitter-alarms",
+                    "Description": "SNS topic ARN for alarm notifications"
+                }
+            ],
+            "Tags": [],
+            "EnableTerminationProtection": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "CREATE_STACK",
+                    "OperationId": "c1247fd5-24e9-4e34-b7b7-1cd908c12a80"
+                }
+            ]
+        }
+    ]
+}

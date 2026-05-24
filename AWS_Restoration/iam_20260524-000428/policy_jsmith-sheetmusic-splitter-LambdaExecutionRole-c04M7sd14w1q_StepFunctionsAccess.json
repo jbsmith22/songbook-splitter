@@ -1,0 +1,17 @@
+﻿{
+    "RoleName": "jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+    "PolicyName": "StepFunctionsAccess",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "states:StartExecution"
+                ],
+                "Resource": "arn:aws:states:us-east-1:227027150061:stateMachine:jsmith-sheetmusic-splitter-pipeline",
+                "Effect": "Allow"
+            }
+        ]
+    }
+}
+

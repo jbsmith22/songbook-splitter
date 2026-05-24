@@ -1,0 +1,5 @@
+﻿{
+    "lifecycle":  "{\"note\":\"no lifecycle configuration\"}",
+    "versioning":  "{\r\n    \"Status\": \"Enabled\"\r\n}\r\n",
+    "location":  "{\r\n    \"LocationConstraint\": null\r\n}\r\n"
+}

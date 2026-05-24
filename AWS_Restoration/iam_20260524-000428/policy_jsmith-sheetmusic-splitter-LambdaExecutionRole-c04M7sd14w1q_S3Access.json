@@ -1,0 +1,21 @@
+﻿{
+    "RoleName": "jsmith-sheetmusic-splitter-LambdaExecutionRole-c04M7sd14w1q",
+    "PolicyName": "S3Access",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "s3:ListBucket",
+                    "s3:GetObject"
+                ],
+                "Resource": [
+                    "arn:aws:s3:::jsmith-input",
+                    "arn:aws:s3:::jsmith-input/*"
+                ],
+                "Effect": "Allow"
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,28 @@
+﻿{
+    "Role": {
+        "Path": "/",
+        "RoleName": "jsmith-sheetmusic-splitter-ECSTaskExecutionRole-lk6cYO4BePSL",
+        "RoleId": "AROATJW67MTWQO7QISIAG",
+        "Arn": "arn:aws:iam::227027150061:role/jsmith-sheetmusic-splitter-ECSTaskExecutionRole-lk6cYO4BePSL",
+        "CreateDate": "2026-01-25T03:36:31+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ecs-tasks.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "Description": "",
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {
+            "LastUsedDate": "2026-02-07T21:52:48+00:00",
+            "Region": "us-east-1"
+        }
+    }
+}
+

@@ -1,0 +1,11 @@
+﻿{
+    "logGroupName":  "/aws/ecs/jsmith-sheetmusic-splitter",
+    "creationTime":  1769312193173,
+    "retentionInDays":  30,
+    "metricFilterCount":  0,
+    "arn":  "arn:aws:logs:us-east-1:227027150061:log-group:/aws/ecs/jsmith-sheetmusic-splitter:*",
+    "storedBytes":  0,
+    "logGroupClass":  "STANDARD",
+    "logGroupArn":  "arn:aws:logs:us-east-1:227027150061:log-group:/aws/ecs/jsmith-sheetmusic-splitter",
+    "deletionProtectionEnabled":  false
+}

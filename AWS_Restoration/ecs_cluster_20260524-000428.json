@@ -1,0 +1,28 @@
+﻿{
+    "clusters": [
+        {
+            "clusterArn": "arn:aws:ecs:us-east-1:227027150061:cluster/jsmith-sheetmusic-splitter-cluster",
+            "clusterName": "jsmith-sheetmusic-splitter-cluster",
+            "status": "ACTIVE",
+            "registeredContainerInstancesCount": 0,
+            "runningTasksCount": 0,
+            "pendingTasksCount": 0,
+            "activeServicesCount": 0,
+            "statistics": [],
+            "tags": [],
+            "settings": [],
+            "capacityProviders": [
+                "FARGATE",
+                "FARGATE_SPOT"
+            ],
+            "defaultCapacityProviderStrategy": [
+                {
+                    "capacityProvider": "FARGATE",
+                    "weight": 1,
+                    "base": 0
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
